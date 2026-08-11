@@ -4,7 +4,7 @@ import { getActivityImplementation, listRegisteredActivityTypes } from "@/activi
 describe("activity registry", () => {
   it("registers the cipher activity implementation", () => {
     expect(listRegisteredActivityTypes()).toContain("cipher");
-    expect(getActivityImplementation("cipher")?.version).toBe(1);
+    expect(getActivityImplementation("cipher")?.version).toBe(3);
   });
 
   it("returns undefined for unknown activity types", () => {

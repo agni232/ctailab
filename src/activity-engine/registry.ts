@@ -34,7 +34,7 @@ export function listRegisteredActivityTypes(): string[] {
 
 registerActivity({
   type: "cipher",
-  version: 1,
+  version: 3,
   component: CipherActivity,
   engine: cipherEngine
 });

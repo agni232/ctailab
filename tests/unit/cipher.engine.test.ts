@@ -3,11 +3,13 @@ import { decode, encode, normalizeShift, transform } from "@/activity-engine/cip
 
 describe("cipher engine", () => {
   it("encodes letters with alphabet wrapping", () => {
+    expect(encode("A", 0)).toBe("A");
     expect(encode("ABC", 3)).toBe("DEF");
     expect(encode("XYZ", 3)).toBe("ABC");
     expect(encode("A", 1)).toBe("B");
     expect(encode("Z", 1)).toBe("A");
     expect(encode("Z", 3)).toBe("C");
+    expect(encode("A", 25)).toBe("Z");
   });
 
   it("decodes using the inverse shift", () => {

@@ -4,13 +4,16 @@ import type { CipherPracticeQuestion } from "@/activity-engine/cipher/cipher.typ
 
 const question: CipherPracticeQuestion = {
   id: "test-question",
+  kind: "text",
   mode: "encode",
   input: "HELLO",
   shift: 3,
   prompt: "Encode HELLO with a shift of 3.",
   difficulty: "practice",
   hints: [],
-  explanation: "HELLO becomes KHOOR."
+  explanation: "HELLO becomes KHOOR.",
+  correctFeedback: "Correct.",
+  incorrectFeedback: "Try moving forward."
 };
 
 describe("cipher validation", () => {

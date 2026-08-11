@@ -3,6 +3,7 @@ node_modules
 .pnpm-store/
 coverage
 dist
+tmp/
 .env
 .env.*
 !.env.example

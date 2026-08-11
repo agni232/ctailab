@@ -3,6 +3,10 @@ import type { CipherPracticeQuestion } from "@/activity-engine/cipher/cipher.typ
 import type { ValidationResult } from "@/activity-engine/types";
 
 export function expectedCipherAnswer(question: CipherPracticeQuestion): string {
+  if (question.kind === "find-shift") {
+    return String(question.expectedShift);
+  }
+
   return question.mode === "encode"
     ? encode(question.input, question.shift)
     : decode(question.input, question.shift);
@@ -17,9 +21,7 @@ export function validateCipherQuestion(question: CipherPracticeQuestion, answer:
   return {
     correct,
     expectedAnswer,
-    feedback: correct
-      ? "Correct. You used the shift key carefully."
-      : "Not yet. Check one letter at a time and keep the same shift for every letter."
+    feedback: correct ? question.correctFeedback : question.incorrectFeedback
   };
 }
 

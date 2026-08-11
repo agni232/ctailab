@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Check } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { requireActivityImplementation } from "@/activity-engine/registry";
 import { SiteHeader } from "@/app/SiteHeader";
 import {
@@ -84,22 +84,6 @@ export default async function ActivityPage({ params }: ActivityPageProps) {
             <i>+3</i>
             <span>D</span>
           </div>
-        </section>
-
-        <section className="content-frame learning-strip" aria-labelledby="learn-heading">
-          <div className="learn-intro">
-            <p className="eyebrow">Before you begin</p>
-            <h2 id="learn-heading">The secret rule</h2>
-            <p>{experience.studentContent.introduction}</p>
-          </div>
-          <ul className="key-ideas">
-            {experience.studentContent.keyIdeas.map((idea) => (
-              <li key={idea}>
-                <span aria-hidden="true"><Check size={17} /></span>
-                {idea}
-              </li>
-            ))}
-          </ul>
         </section>
 
         <ActivityComponent experience={experience} />

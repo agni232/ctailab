@@ -1,10 +1,18 @@
 export const allowedAnalyticsEvents = [
   "page_view",
   "activity_started",
+  "explore_started",
+  "wheel_shift_changed",
+  "wheel_challenge_completed",
+  "message_encoded",
+  "message_decoded",
   "practice_started",
   "question_answered",
   "hint_used",
   "question_completed",
+  "practice_completed",
+  "custom_message_created",
+  "reflection_completed",
   "activity_completed",
   "activity_retried"
 ] as const;

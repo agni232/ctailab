@@ -60,7 +60,7 @@ function isLowercaseAsciiLetter(character: string): boolean {
 
 export const cipherEngine: ActivityDefinition<CipherActivityConfig, CipherState, CipherAnswer, CipherActivityResult> = {
   type: "cipher",
-  version: 1,
+  version: 3,
   createInitialState(config) {
     return {
       mode: "encode",

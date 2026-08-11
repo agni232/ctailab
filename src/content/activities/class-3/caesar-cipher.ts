@@ -4,9 +4,9 @@ import type { LearningExperience } from "@/content/types";
 export const caesarCipherExperience: LearningExperience<CipherActivityConfig> = {
   id: "caesar-cipher-001",
   slug: "caesar-cipher",
-  version: 1,
+  version: 3,
   title: "Caesar Cipher",
-  description: "Explore how a message can be hidden and revealed with a shift key.",
+  description: "Crack a secret message by moving every letter with one shift key.",
   curriculumVersion: "CBSE-CTAI-2026-27",
   gradeIds: ["grade-3"],
   domainIds: ["computational-thinking"],
@@ -22,76 +22,152 @@ export const caesarCipherExperience: LearningExperience<CipherActivityConfig> = 
   activityType: "cipher",
   activityConfig: {
     alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    minShift: 1,
+    minShift: 0,
     maxShift: 25,
     defaultShift: 3,
     defaultText: "HELLO",
+    quickMessages: ["HELLO", "SECRET", "MEET AT 4"],
+    discover: {
+      title: "What is a secret message?",
+      prompt: "A cipher changes a normal message into a secret one using a key.",
+      normalMessage: "HELLO",
+      shift: 3,
+      keyExplanation: "The key tells us how many places to move each letter."
+    },
+    wheelChallenges: [
+      {
+        id: "wheel-align-a-d",
+        kind: "align",
+        prompt: "Move the wheel until A becomes D.",
+        fromLetter: "A",
+        expectedLetter: "D",
+        targetShift: 3,
+        hint: "Use + to move the secret alphabet forward.",
+        successMessage: "Great! A becomes D with a shift of 3."
+      },
+      {
+        id: "wheel-map-b-e",
+        kind: "answer",
+        prompt: "Keep shift 3. What does B become?",
+        fromLetter: "B",
+        expectedLetter: "E",
+        targetShift: 3,
+        hint: "Find B on the outside and read the letter beside it.",
+        successMessage: "Exactly. B moves 3 places to E."
+      },
+      {
+        id: "wheel-wrap-z-c",
+        kind: "answer",
+        prompt: "What does Z become with shift 3?",
+        fromLetter: "Z",
+        expectedLetter: "C",
+        targetShift: 3,
+        hint: "After Z, start again at A.",
+        successMessage: "You found the wrap-around: Z becomes C."
+      }
+    ],
     practiceQuestions: [
       {
         id: "cipher-q1",
+        kind: "text",
         mode: "encode",
         input: "A",
-        shift: 2,
-        prompt: "Encode A with a shift of 2.",
+        shift: 3,
+        prompt: "With shift 3, what does A become?",
         difficulty: "warm-up",
-        hints: ["Start at A.", "Move two places to the right."],
-        explanation: "A moves to B, then C, so the encoded letter is C."
+        hints: ["Start at A.", "Move forward three places: B, C, D."],
+        explanation: "A moves to B, then C, then D.",
+        correctFeedback: "Great! A moves 3 places to D.",
+        incorrectFeedback: "Start at A and move 3 places forward."
       },
       {
         id: "cipher-q2",
+        kind: "text",
         mode: "encode",
-        input: "CAT",
-        shift: 2,
-        prompt: "Encode CAT with a shift of 2.",
+        input: "X",
+        shift: 3,
+        prompt: "With shift 3, what does X become?",
         difficulty: "warm-up",
-        hints: ["Encode one letter at a time.", "C becomes E when it moves two places."],
-        explanation: "C becomes E, A becomes C, and T becomes V."
+        hints: ["Move from X to Y, then Z.", "After Z, wrap back to A."],
+        explanation: "X moves to Y, then Z, then wraps to A.",
+        correctFeedback: "Nice wrap-around! X becomes A.",
+        incorrectFeedback: "Move 3 places from X and remember what comes after Z."
       },
       {
         id: "cipher-q3",
-        mode: "decode",
-        input: "FDW",
-        shift: 3,
-        prompt: "Decode FDW with a shift of 3.",
+        kind: "text",
+        mode: "encode",
+        input: "CAT",
+        shift: 2,
+        prompt: "Encode CAT with shift 2.",
         difficulty: "practice",
-        hints: ["Decoding moves backward by the shift.", "F moves back to C."],
-        explanation: "F moves back to C, D moves back to A, and W moves back to T."
+        hints: ["Move each letter separately.", "C becomes E with shift 2."],
+        explanation: "C becomes E, A becomes C, and T becomes V.",
+        correctFeedback: "Correct. CAT becomes ECV.",
+        incorrectFeedback: "Move every letter 2 places forward and keep the same key."
       },
       {
         id: "cipher-q4",
-        mode: "encode",
-        input: "HELLO",
-        shift: 3,
-        prompt: "Encode HELLO with a shift of 3.",
-        difficulty: "practice",
-        hints: ["Keep the same shift for every letter.", "H becomes K."],
-        explanation: "Each letter moves three places forward: HELLO becomes KHOOR."
-      },
-      {
-        id: "cipher-q5",
+        kind: "text",
         mode: "decode",
         input: "KHOOR",
         shift: 3,
-        prompt: "Decode KHOOR with a shift of 3.",
+        prompt: "Decode KHOOR with shift 3.",
         difficulty: "practice",
-        hints: ["Undo the shift by moving backward.", "K moves back to H."],
-        explanation: "Moving each letter three places backward reveals HELLO."
+        hints: ["Decoding moves backward.", "K moves back to H."],
+        explanation: "Moving each letter 3 places backward reveals HELLO.",
+        correctFeedback: "Message revealed! KHOOR means HELLO.",
+        incorrectFeedback: "For decoding, move each letter 3 places backward."
+      },
+      {
+        id: "cipher-q5",
+        kind: "multiple-choice",
+        mode: "encode",
+        input: "CAESAR CIPHER",
+        shift: 3,
+        prompt: "Choose the correct secret version of CAESAR CIPHER with shift 3.",
+        difficulty: "challenge",
+        choices: ["ECGUCT EKRJGT", "FDHVDU FLSKHU", "GEIWEV GMTLIV", "DBFTBS DJQIFS"],
+        hints: ["C becomes F and A becomes D.", "Look for an answer that starts with FD."],
+        explanation: "Every letter moves 3 places: CAESAR CIPHER becomes FDHVDU FLSKHU.",
+        correctFeedback: "Correct. You kept shift 3 for the whole message.",
+        incorrectFeedback: "Check the first two letters: C should become F and A should become D."
       },
       {
         id: "cipher-q6",
-        mode: "encode",
-        input: "CLASS 3!",
-        shift: 4,
-        prompt: "Encode CLASS 3! with a shift of 4.",
+        kind: "find-shift",
+        input: "THIS",
+        output: "ESTD",
+        expectedShift: 11,
+        prompt: "THIS becomes ESTD. What shift key was used?",
         difficulty: "challenge",
-        hints: ["Spaces, numbers, and punctuation stay as they are.", "C becomes G."],
-        explanation: "Only letters shift. CLASS becomes GPEWW, while the space, 3, and ! stay unchanged."
+        hints: ["Compare the first pair: T becomes E.", "Count forward from T and wrap after Z."],
+        explanation: "T moves 11 places and wraps around to E. The same shift works for H, I, and S.",
+        correctFeedback: "You found the key. The shift is 11.",
+        incorrectFeedback: "Count forward from T to E, wrapping after Z."
       }
-    ]
+    ],
+    create: {
+      title: "Make your own secret message",
+      prompt: "Write a short message for a friend and choose your own key.",
+      defaultText: "MEET ME AT 4",
+      defaultShift: 3,
+      friendPrompt: "Can your friend decode it using the same key?"
+    },
+    reflection: {
+      title: "What rule did you discover?",
+      prompt: "Write the rule in your own words.",
+      learningPoints: [
+        "A cipher can hide a message.",
+        "The key tells every letter how far to move.",
+        "After Z, the alphabet wraps back to A.",
+        "The same key can encode and decode a message."
+      ]
+    }
   },
   studentContent: {
     introduction:
-      "A Caesar Cipher hides a message by moving each letter forward by the same number of places. That number is the key.",
+      "A Caesar Cipher hides a message by moving every letter with one secret key.",
     keyIdeas: [
       "Use one shift for every letter.",
       "After Z, wrap back to A.",
@@ -99,7 +175,7 @@ export const caesarCipherExperience: LearningExperience<CipherActivityConfig> = 
       "Do not shift spaces, numbers, or symbols."
     ],
     instructions:
-      "Try different shifts, watch the alphabet mapping change, then solve the practice questions one step at a time.",
+      "Use the wheel when you need it. Try again or ask for a hint if you get stuck.",
     reflectionPrompt: "How many shifts would someone need to try if they did not know the key?"
   },
   teacherContent: {
@@ -157,5 +233,5 @@ export const caesarCipherExperience: LearningExperience<CipherActivityConfig> = 
   ],
   status: "published",
   publishedAt: "2026-08-10",
-  updatedAt: "2026-08-10"
+  updatedAt: "2026-08-11"
 };
