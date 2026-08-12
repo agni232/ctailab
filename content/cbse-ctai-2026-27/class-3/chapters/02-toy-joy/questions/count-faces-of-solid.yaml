@@ -1,0 +1,51 @@
+id: c3-toy-joy-count-faces-of-solid
+slug: count-faces-of-solid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-solid-shapes
+    - c3-ch2-faces-edges-corners
+  primaryTopic: c3-ch2-faces-edges-corners
+  estimatedMinutes: 2
+content:
+  prompt: Count the number of surfaces (faces) in the given solid.
+  stimulus:
+    assetRefs:
+      - count-faces-solid
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Five faces can be seen from the front. The sixth face is on the left side, the
+    seventh is on the bottom, and the eighth is at the back. The solid has 8 faces.
+  assetRefs: []
+assets:
+  - ref: count-faces-solid
+    file: ../assets/count-faces-solid.png
+    role: stem
+    visibility: public
+    alt: A step-shaped solid drawn in three dimensions with one shaded face
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 2 answer and solution"

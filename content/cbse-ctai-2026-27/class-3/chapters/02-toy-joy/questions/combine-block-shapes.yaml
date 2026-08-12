@@ -1,0 +1,80 @@
+id: c3-toy-joy-combine-block-shapes
+slug: combine-block-shapes
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch2-building-with-blocks
+    - c3-ch2-solid-shapes
+  primaryTopic: c3-ch2-building-with-blocks
+  estimatedMinutes: 4
+content:
+  prompt: Which of the following options can be formed by combining the shapes given below?
+  stimulus:
+    assetRefs:
+      - combine-shapes
+  options:
+    - id: option-a
+      assetRef: combine-shapes-option-a
+      accessibleLabel: A block structure with the middle block missing
+    - id: option-b
+      assetRef: combine-shapes-option-b
+      accessibleLabel: A block structure that matches only the first two shapes
+    - id: option-c
+      assetRef: combine-shapes-option-c
+      accessibleLabel: A block structure with the third block of the first row missing
+    - id: option-d
+      assetRef: combine-shapes-option-d
+      accessibleLabel: A block structure that uses all the given blocks
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Combining the first and second shapes gives a structure found in options b and
+    d. Option a is missing the middle block and option c is missing the third block
+    of the first row. Adding the third shape gives the structure in option d.
+  assetRefs: []
+assets:
+  - ref: combine-shapes
+    file: ../assets/combine-shapes.jpg
+    role: stem
+    visibility: public
+    alt: Three groups of yellow cubes joined by plus signs
+    position: 0
+  - ref: combine-shapes-option-a
+    file: ../assets/combine-shapes-option-a.png
+    role: option
+    visibility: public
+    alt: Yellow cube structure with a gap in the middle
+    position: 1
+  - ref: combine-shapes-option-b
+    file: ../assets/combine-shapes-option-b.jpg
+    role: option
+    visibility: public
+    alt: Yellow cube structure formed from only the first two groups
+    position: 2
+  - ref: combine-shapes-option-c
+    file: ../assets/combine-shapes-option-c.png
+    role: option
+    visibility: public
+    alt: Yellow cube structure missing the third block of the first row
+    position: 3
+  - ref: combine-shapes-option-d
+    file: ../assets/combine-shapes-option-d.png
+    role: option
+    visibility: public
+    alt: Yellow cube structure built from all three groups of cubes
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 17
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 2 question 10 answer and solution"

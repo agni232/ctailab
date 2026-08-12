@@ -1,0 +1,44 @@
+topics:
+  - id: c3-ch2-solid-shapes
+    slug: solid-shapes
+    title: Solid Shapes
+    position: 1
+    status: published
+  - id: c3-ch2-faces-edges-corners
+    slug: faces-edges-and-corners
+    title: Faces, Edges, and Corners
+    position: 2
+    parentId: c3-ch2-solid-shapes
+    status: published
+  - id: c3-ch2-views-of-solids
+    slug: views-of-solids
+    title: Views of Solids
+    position: 3
+    status: published
+  - id: c3-ch2-top-view
+    slug: top-view
+    title: Top View
+    position: 4
+    parentId: c3-ch2-views-of-solids
+    status: published
+  - id: c3-ch2-side-view
+    slug: side-view
+    title: Side View
+    position: 5
+    parentId: c3-ch2-views-of-solids
+    status: published
+  - id: c3-ch2-building-with-blocks
+    slug: building-with-blocks
+    title: Building with Blocks
+    position: 6
+    status: published
+  - id: c3-ch2-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 7
+    status: published
+  - id: c3-ch2-sorting-shapes
+    slug: sorting-shapes
+    title: Sorting Shapes
+    position: 8
+    status: published

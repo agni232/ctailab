@@ -1,0 +1,82 @@
+id: c3-toy-joy-side-view-of-blocks
+slug: side-view-of-blocks
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-views-of-solids
+    - c3-ch2-side-view
+    - c3-ch2-building-with-blocks
+  primaryTopic: c3-ch2-side-view
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If the given solid is viewed from the direction of the arrow, what will it look
+    like? You cannot rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - side-view-solid
+  options:
+    - id: option-a
+      assetRef: side-view-option-a
+      accessibleLabel: Two squares stacked on the right with two squares side by side at the bottom
+    - id: option-b
+      assetRef: side-view-option-b
+      accessibleLabel: One square on top of a block of four squares
+    - id: option-c
+      assetRef: side-view-option-c
+      accessibleLabel: Three squares stacked vertically with one extra square to the left of the middle square
+    - id: option-d
+      assetRef: side-view-option-d
+      accessibleLabel: Two squares stacked on the left with two squares side by side at the bottom
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    From the side, four blocks are visible. Three blocks are stacked vertically and
+    the fourth sticks out to the left of the middle block, which matches option c.
+  assetRefs: []
+assets:
+  - ref: side-view-solid
+    file: ../assets/side-view-solid.png
+    role: stem
+    visibility: public
+    alt: A solid built from cubes with an arrow pointing at it from the right
+    position: 0
+  - ref: side-view-option-a
+    file: ../assets/side-view-option-a.png
+    role: option
+    visibility: public
+    alt: Grid of squares with two stacked on the right and two side by side at the bottom
+    position: 1
+  - ref: side-view-option-b
+    file: ../assets/side-view-option-b.png
+    role: option
+    visibility: public
+    alt: Grid of squares with one square on top of a two-by-two block
+    position: 2
+  - ref: side-view-option-c
+    file: ../assets/side-view-option-c.png
+    role: option
+    visibility: public
+    alt: Grid of squares with three stacked vertically and one square to the left of the middle
+    position: 3
+  - ref: side-view-option-d
+    file: ../assets/side-view-option-d.png
+    role: option
+    visibility: public
+    alt: Grid of squares with two stacked on the left and two side by side at the bottom
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 8 answer and solution"

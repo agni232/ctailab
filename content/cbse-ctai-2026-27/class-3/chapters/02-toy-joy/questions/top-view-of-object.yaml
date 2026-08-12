@@ -1,0 +1,80 @@
+id: c3-toy-joy-top-view-of-object
+slug: top-view-of-object
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-views-of-solids
+    - c3-ch2-top-view
+  primaryTopic: c3-ch2-top-view
+  estimatedMinutes: 2
+content:
+  prompt: Which of the following options represents the top view of the object given below?
+  stimulus:
+    assetRefs:
+      - top-view-object
+  options:
+    - id: option-a
+      assetRef: top-view-option-a
+      accessibleLabel: A black L-shape with a white square at the top right and a grey square at the bottom right
+    - id: option-b
+      assetRef: top-view-option-b
+      accessibleLabel: A tall grey rectangle on the left and a small grey square at the top right
+    - id: option-c
+      assetRef: top-view-option-c
+      accessibleLabel: A tall white rectangle on the left, a grey square at the top right, and a black square at the bottom right
+    - id: option-d
+      assetRef: top-view-option-d
+      accessibleLabel: A tall grey rectangle on the left, a white square at the top right, and a black square at the bottom right
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Looking straight down at the object, a grey rectangle is visible, which rules
+    out options a and c. A white area and a black area are also visible, so option
+    d is the top view of the object.
+  assetRefs: []
+assets:
+  - ref: top-view-object
+    file: ../assets/top-view-object.png
+    role: stem
+    visibility: public
+    alt: A three-dimensional open box with an arrow pointing down at it from above
+    position: 0
+  - ref: top-view-option-a
+    file: ../assets/top-view-option-a.png
+    role: option
+    visibility: public
+    alt: Black shape with a white square at the top right and a grey square at the bottom right
+    position: 1
+  - ref: top-view-option-b
+    file: ../assets/top-view-option-b.png
+    role: option
+    visibility: public
+    alt: Tall grey rectangle beside a small grey square at the top right
+    position: 2
+  - ref: top-view-option-c
+    file: ../assets/top-view-option-c.png
+    role: option
+    visibility: public
+    alt: Tall white rectangle with a grey square above a black square on the right
+    position: 3
+  - ref: top-view-option-d
+    file: ../assets/top-view-option-d.png
+    role: option
+    visibility: public
+    alt: Tall grey rectangle with a white square above a black square on the right
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 1 answer and solution"

@@ -1,0 +1,55 @@
+id: c3-toy-joy-bucket-sort-six-edges
+slug: bucket-sort-six-edges
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-sorting-shapes
+    - c3-ch2-faces-edges-corners
+  primaryTopic: c3-ch2-sorting-shapes
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    The given shapes are to be placed in the buckets. Shapes with a number of edges
+    greater than 5 are kept in a yellow bucket while the others are kept in the
+    white bucket. Out of the shapes in the yellow bucket, how many have EXACTLY 6
+    edges?
+  stimulus:
+    assetRefs:
+      - bucket-sort-shapes
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Six shapes have more than 5 edges, so they go into the yellow bucket. Out of
+    those six shapes, only 3 have exactly 6 edges.
+  assetRefs: []
+assets:
+  - ref: bucket-sort-shapes
+    file: ../assets/bucket-sort-shapes.jpg
+    role: stem
+    visibility: public
+    alt: Sixteen blue shapes shown above a yellow bucket and a white bucket
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 3 answer and solution"

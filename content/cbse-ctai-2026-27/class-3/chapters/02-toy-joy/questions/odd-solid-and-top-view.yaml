@@ -1,0 +1,72 @@
+id: c3-toy-joy-odd-solid-and-top-view
+slug: odd-solid-and-top-view
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-views-of-solids
+    - c3-ch2-top-view
+    - c3-ch2-sorting-shapes
+  primaryTopic: c3-ch2-top-view
+  estimatedMinutes: 3
+content:
+  prompt: Find the odd one out.
+  options:
+    - id: option-a
+      assetRef: odd-one-out-option-a
+      accessibleLabel: A red cube shown with a red square
+    - id: option-b
+      assetRef: odd-one-out-option-b
+      accessibleLabel: A purple cone shown with a purple triangle
+    - id: option-c
+      assetRef: odd-one-out-option-c
+      accessibleLabel: A pink cuboid shown with a pink rectangle
+    - id: option-d
+      assetRef: odd-one-out-option-d
+      accessibleLabel: A purple cylinder shown with a purple circle
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In every other box the flat shape is the top view of the solid beside it. In
+    box b the flat shape is a triangle, but the top view of a cone is a circle, so
+    box b is the odd one out.
+  assetRefs: []
+assets:
+  - ref: odd-one-out-option-a
+    file: ../assets/odd-one-out-option-a.png
+    role: option
+    visibility: public
+    alt: Red cube in the top left corner and red square in the bottom right corner
+    position: 1
+  - ref: odd-one-out-option-b
+    file: ../assets/odd-one-out-option-b.png
+    role: option
+    visibility: public
+    alt: Purple cone in the top left corner and purple triangle in the bottom right corner
+    position: 2
+  - ref: odd-one-out-option-c
+    file: ../assets/odd-one-out-option-c.png
+    role: option
+    visibility: public
+    alt: Pink cuboid in the top left corner and pink rectangle in the bottom right corner
+    position: 3
+  - ref: odd-one-out-option-d
+    file: ../assets/odd-one-out-option-d.png
+    role: option
+    visibility: public
+    alt: Purple cylinder in the top left corner and purple circle in the bottom right corner
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 question 7 answer and solution"

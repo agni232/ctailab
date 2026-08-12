@@ -1,0 +1,83 @@
+id: c3-toy-joy-box-not-part-of-stack
+slug: box-not-part-of-stack
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch2-building-with-blocks
+    - c3-ch2-solid-shapes
+  primaryTopic: c3-ch2-building-with-blocks
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Given below is a large box consisting of four smaller transparent boxes with
+    some sides coloured. Which of the boxes shown in the options is not a part of
+    the larger box in the question image? Rotation of the option images is not
+    allowed.
+  stimulus:
+    assetRefs:
+      - transparent-box-stack
+  options:
+    - id: option-a
+      assetRef: transparent-box-option-a
+      accessibleLabel: A transparent box with the back side coloured grey
+    - id: option-b
+      assetRef: transparent-box-option-b
+      accessibleLabel: A transparent box with the left and bottom sides coloured grey
+    - id: option-c
+      assetRef: transparent-box-option-c
+      accessibleLabel: A transparent box with the top, back, and left sides coloured grey
+    - id: option-d
+      assetRef: transparent-box-option-d
+      accessibleLabel: A transparent box with only the top side coloured grey
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Options a, b, and d can each be found inside the larger box. Option c cannot,
+    because no smaller box has its top, back, and left sides coloured grey.
+  assetRefs: []
+assets:
+  - ref: transparent-box-stack
+    file: ../assets/transparent-box-stack.png
+    role: stem
+    visibility: public
+    alt: A large transparent cube made of four smaller cubes with some sides shaded grey
+    position: 0
+  - ref: transparent-box-option-a
+    file: ../assets/transparent-box-option-a.png
+    role: option
+    visibility: public
+    alt: Transparent box with the back side shaded grey
+    position: 1
+  - ref: transparent-box-option-b
+    file: ../assets/transparent-box-option-b.png
+    role: option
+    visibility: public
+    alt: Transparent box with the left and bottom sides shaded grey
+    position: 2
+  - ref: transparent-box-option-c
+    file: ../assets/transparent-box-option-c.png
+    role: option
+    visibility: public
+    alt: Transparent box with the top, back, and left sides shaded grey
+    position: 3
+  - ref: transparent-box-option-d
+    file: ../assets/transparent-box-option-d.png
+    role: option
+    visibility: public
+    alt: Transparent box with only the top side shaded grey
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 4 answer and solution"

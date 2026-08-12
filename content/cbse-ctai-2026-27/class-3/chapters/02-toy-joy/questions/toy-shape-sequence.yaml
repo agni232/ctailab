@@ -1,0 +1,81 @@
+id: c3-toy-joy-toy-shape-sequence
+slug: toy-shape-sequence
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch2-shape-patterns
+    - c3-ch2-solid-shapes
+  primaryTopic: c3-ch2-shape-patterns
+  estimatedMinutes: 2
+content:
+  prompt: What will come in place of 'A' and 'B'?
+  stimulus:
+    assetRefs:
+      - toy-shape-sequence
+  options:
+    - id: option-a
+      assetRef: toy-sequence-option-a
+      accessibleLabel: A is a cardboard box and B is a round gift box
+    - id: option-b
+      assetRef: toy-sequence-option-b
+      accessibleLabel: A is an ice cream cone and B is a cardboard box
+    - id: option-c
+      assetRef: toy-sequence-option-c
+      accessibleLabel: A is an ice cream cone and B is a basketball
+    - id: option-d
+      assetRef: toy-sequence-option-d
+      accessibleLabel: A is a round gift box and B is a basketball
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The toys repeat in a pattern of three shapes: cone, cube, sphere. Following the
+    pattern, a cone-shaped object replaces A and a sphere-shaped object replaces B.
+  assetRefs: []
+assets:
+  - ref: toy-shape-sequence
+    file: ../assets/toy-shape-sequence.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A row of toys: party hat, gift box, football, traffic cone, puzzle cube,
+      tennis ball, the letter A, an ice cube, and the letter B
+    position: 0
+  - ref: toy-sequence-option-a
+    file: ../assets/toy-sequence-option-a.jpg
+    role: option
+    visibility: public
+    alt: A equals a cardboard box and B equals a round gift box
+    position: 1
+  - ref: toy-sequence-option-b
+    file: ../assets/toy-sequence-option-b.jpg
+    role: option
+    visibility: public
+    alt: A equals an ice cream cone and B equals a cardboard box
+    position: 2
+  - ref: toy-sequence-option-c
+    file: ../assets/toy-sequence-option-c.png
+    role: option
+    visibility: public
+    alt: A equals an ice cream cone and B equals a basketball
+    position: 3
+  - ref: toy-sequence-option-d
+    file: ../assets/toy-sequence-option-d.jpg
+    role: option
+    visibility: public
+    alt: A equals a round gift box and B equals a basketball
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 question 6 answer and solution"

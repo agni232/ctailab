@@ -1,0 +1,53 @@
+id: c3-toy-joy-same-coloured-dot-edges
+slug: same-coloured-dot-edges
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch2-faces-edges-corners
+    - c3-ch2-solid-shapes
+  primaryTopic: c3-ch2-faces-edges-corners
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How many edges of the solid shown below have the same-coloured dots on both of
+    their corners?
+  stimulus:
+    assetRefs:
+      - coloured-dot-solid
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Check every edge and compare the colours of the dots at its two corners. Four
+    edges have dots of the same colour at both ends.
+  assetRefs: []
+assets:
+  - ref: coloured-dot-solid
+    file: ../assets/coloured-dot-solid.png
+    role: stem
+    visibility: public
+    alt: A hexagonal prism with red, green, and blue dots marked at its corners
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 17
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 9 answer and solution"

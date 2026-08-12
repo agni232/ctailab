@@ -1,0 +1,51 @@
+id: c3-toy-joy-hidden-dots-on-cubes
+slug: hidden-dots-on-cubes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch2-faces-edges-corners
+    - c3-ch2-solid-shapes
+  primaryTopic: c3-ch2-faces-edges-corners
+  estimatedMinutes: 3
+content:
+  prompt: If there is a dot on each corner of the cubes below, then how many dots are hidden?
+  stimulus:
+    assetRefs:
+      - hidden-dots-cubes
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each cube has 8 corners, so two cubes have 16 dots in total. Only 12 dots can
+    be seen in the picture, so 4 dots are hidden.
+  assetRefs: []
+assets:
+  - ref: hidden-dots-cubes
+    file: ../assets/hidden-dots-cubes.png
+    role: stem
+    visibility: public
+    alt: Two cubes drawn side by side with black dots marked on their visible corners
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 question 5 answer and solution"
