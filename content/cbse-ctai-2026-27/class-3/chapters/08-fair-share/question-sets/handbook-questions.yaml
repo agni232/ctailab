@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch8-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 8 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-fair-share-original-shape-before-the-fold
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-matching-letter-in-the-other-half
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-who-covered-the-least-distance
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-half-of-four-plus-half-of-eight
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-symbols-that-make-three
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-figure-made-from-quarter-circles
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-folds-needed-for-a-quarter-circle
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 32
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-sum-of-top-and-bottom-faces
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-step-where-no-one-wins
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Fair Share"
+  - questionId: c3-fair-share-triple-transformation-pattern
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Fair Share"

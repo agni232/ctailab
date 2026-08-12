@@ -1,0 +1,37 @@
+topics:
+  - id: c3-ch7-multiples-and-grouping
+    slug: multiples-and-grouping
+    title: Multiples and Grouping
+    position: 1
+    status: published
+  - id: c3-ch7-multiplication
+    slug: multiplication
+    title: Multiplication
+    position: 2
+    status: published
+  - id: c3-ch7-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 3
+    status: published
+  - id: c3-ch7-shape-and-number-puzzles
+    slug: shape-and-number-puzzles
+    title: Shape and Number Puzzles
+    position: 4
+    parentId: c3-ch7-number-patterns
+    status: published
+  - id: c3-ch7-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 5
+    status: published
+  - id: c3-ch7-counting-and-colour
+    slug: counting-and-colour
+    title: Counting and Colour
+    position: 6
+    status: published
+  - id: c3-ch7-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

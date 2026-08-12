@@ -1,0 +1,54 @@
+id: c3-raksha-bandhan-possible-values-of-rs
+slug: possible-values-of-rs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch7-multiplication
+    - c3-ch7-reasoning-with-clues
+  primaryTopic: c3-ch7-multiplication
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    PQ and RS are 2-digit numbers in the equation given below. How many different
+    possible values can "RS" have?
+  stimulus:
+    assetRefs:
+      - rs-equals-four-times-pq
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "13"
+    - id: option-c
+      text: "14"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    RS has to stay under 100, so PQ multiplied by 4 must stay under 100. The
+    smallest 2-digit PQ is 10, giving 40, and PQ can go up to 24, because 25 times 4
+    is already 100. That is every number from 10 to 24, which is 15 values.
+  assetRefs: []
+assets:
+  - ref: rs-equals-four-times-pq
+    file: ../assets/rs-equals-four-times-pq.png
+    role: stem
+    visibility: public
+    alt: The equation RS equals 4 times PQ
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 7 question 5 answer and solution"

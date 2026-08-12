@@ -1,0 +1,53 @@
+id: c3-raksha-bandhan-number-inside-the-triangle
+slug: number-inside-the-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch7-shape-and-number-puzzles
+    - c3-ch7-multiplication
+  primaryTopic: c3-ch7-shape-and-number-puzzles
+  estimatedMinutes: 4
+content:
+  prompt: If all the given triangles follow the same pattern, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - triangle-number-pattern
+  options:
+    - id: option-a
+      text: "15"
+    - id: option-b
+      text: "19"
+    - id: option-c
+      text: "32"
+    - id: option-d
+      text: "17"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Multiply the two numbers at the top, then take away the number at the bottom. For
+    the last triangle, 9 × 3 = 27 and 27 − 8 = 19.
+  assetRefs: []
+assets:
+  - ref: triangle-number-pattern
+    file: ../assets/triangle-number-pattern.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four boxes each holding a triangle with numbers at its two top corners, one
+      inside, and one below, the last one marked with a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 30
+    section: "Chapter 7 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 51
+    section: "Chapter 7 question 8 answer and solution"

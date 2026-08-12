@@ -1,0 +1,82 @@
+id: c3-raksha-bandhan-shaded-circle-series
+slug: shaded-circle-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch7-number-patterns
+    - c3-ch7-counting-and-colour
+  primaryTopic: c3-ch7-number-patterns
+  estimatedMinutes: 3
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - shaded-circle-series
+  options:
+    - id: option-a
+      assetRef: circle-series-option-a
+      accessibleLabel: The number 8 with 8 shaded circles around it
+    - id: option-b
+      assetRef: circle-series-option-b
+      accessibleLabel: The number 7 with 8 shaded circles around it
+    - id: option-c
+      assetRef: circle-series-option-c
+      accessibleLabel: The number 8 with 9 shaded circles around it
+    - id: option-d
+      assetRef: circle-series-option-d
+      accessibleLabel: The number 8 with 6 shaded circles around it
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The numbers count up in even steps: 0, 2, 4, 6, then 8. The number of shaded
+    circles always matches the number inside, and the shading grows from the left
+    and right corners. So the next term is 8 with 8 shaded circles.
+  assetRefs: []
+assets:
+  - ref: shaded-circle-series
+    file: ../assets/shaded-circle-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A series of diamonds made of small circles holding 0, 2, 4, and 6, with more
+      circles shaded each time, ending in a question mark
+    position: 0
+  - ref: circle-series-option-a
+    file: ../assets/circle-series-option-a.png
+    role: option
+    visibility: public
+    alt: The number 8 with 8 shaded circles around it
+    position: 1
+  - ref: circle-series-option-b
+    file: ../assets/circle-series-option-b.png
+    role: option
+    visibility: public
+    alt: The number 7 with 8 shaded circles around it
+    position: 2
+  - ref: circle-series-option-c
+    file: ../assets/circle-series-option-c.png
+    role: option
+    visibility: public
+    alt: The number 8 with 9 shaded circles around it
+    position: 3
+  - ref: circle-series-option-d
+    file: ../assets/circle-series-option-d.png
+    role: option
+    visibility: public
+    alt: The number 8 with 6 shaded circles around it
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 7 question 2 answer and solution"

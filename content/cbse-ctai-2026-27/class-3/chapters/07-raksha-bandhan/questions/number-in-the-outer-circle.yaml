@@ -1,0 +1,54 @@
+id: c3-raksha-bandhan-number-in-the-outer-circle
+slug: number-in-the-outer-circle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch7-shape-and-number-puzzles
+    - c3-ch7-multiplication
+  primaryTopic: c3-ch7-shape-and-number-puzzles
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - circle-hexagon-puzzle
+  options:
+    - id: option-a
+      text: "24"
+    - id: option-b
+      text: "30"
+    - id: option-c
+      text: "25"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each number in the outer ring is the sum of the two numbers just inside it,
+    multiplied by the number in the middle. For example, 9 + 3 = 12 and 12 × 3 = 36.
+    Here 5 + 5 = 10 and 10 × 3 = 30.
+  assetRefs: []
+assets:
+  - ref: circle-hexagon-puzzle
+    file: ../assets/circle-hexagon-puzzle.png
+    role: stem
+    visibility: public
+    alt: >-
+      A circle divided into rings of numbers around a central 3, with a question
+      mark in one outer segment
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 30
+    section: "Chapter 7 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 7 question 9 answer and solution"

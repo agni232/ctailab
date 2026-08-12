@@ -1,0 +1,82 @@
+id: c3-raksha-bandhan-product-of-coloured-lines
+slug: product-of-coloured-lines
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch7-counting-and-colour
+    - c3-ch7-multiplication
+  primaryTopic: c3-ch7-counting-and-colour
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - coloured-line-grids
+  options:
+    - id: option-a
+      assetRef: line-grid-option-a
+      accessibleLabel: The number 6 written in blue
+    - id: option-b
+      assetRef: line-grid-option-b
+      accessibleLabel: The number 9 written in orange
+    - id: option-c
+      assetRef: line-grid-option-c
+      accessibleLabel: The number 9 written in blue
+    - id: option-d
+      assetRef: line-grid-option-d
+      accessibleLabel: The number 6 written in orange
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count the lines of each colour and multiply them, then write the answer in the
+    colour of the horizontal lines. The last grid has 3 blue and 3 orange lines, so
+    the answer is 3 × 3 = 9 written in blue.
+  assetRefs: []
+assets:
+  - ref: coloured-line-grids
+    file: ../assets/coloured-line-grids.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three grids of crossing coloured lines, the first two pointing to 4 and 12 and
+      the last pointing to a question mark
+    position: 0
+  - ref: line-grid-option-a
+    file: ../assets/line-grid-option-a.png
+    role: option
+    visibility: public
+    alt: The number 6 written in blue
+    position: 1
+  - ref: line-grid-option-b
+    file: ../assets/line-grid-option-b.png
+    role: option
+    visibility: public
+    alt: The number 9 written in orange
+    position: 2
+  - ref: line-grid-option-c
+    file: ../assets/line-grid-option-c.png
+    role: option
+    visibility: public
+    alt: The number 9 written in blue
+    position: 3
+  - ref: line-grid-option-d
+    file: ../assets/line-grid-option-d.png
+    role: option
+    visibility: public
+    alt: The number 6 written in orange
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 30
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 7 question 10 answer and solution"

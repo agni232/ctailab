@@ -1,0 +1,53 @@
+id: c3-fair-share-sum-of-top-and-bottom-faces
+slug: sum-of-top-and-bottom-faces
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch8-spatial-reasoning
+  primaryTopic: c3-ch8-spatial-reasoning
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If the number on the bottom face of the cube is double the number on the front
+    face, what is the sum of the number on the top face and bottom face?
+  stimulus:
+    assetRefs:
+      - numbered-cube
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The front face shows 2 and the top face shows 3. The bottom face is double the
+    front face, so it is 4. The top and bottom faces add up to 3 + 4 = 7.
+  assetRefs: []
+assets:
+  - ref: numbered-cube
+    file: ../assets/numbered-cube.png
+    role: stem
+    visibility: public
+    alt: A cube showing 3 on the top face, 2 on the front face, and 1 on the right face
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 56
+    pageEnd: 57
+    section: "Chapter 8 question 8 answer and solution"

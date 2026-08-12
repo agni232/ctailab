@@ -1,0 +1,55 @@
+id: c3-raksha-bandhan-thinking-spot-common-levels-of-rods
+slug: thinking-spot-common-levels-of-rods
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch7-logical-puzzles
+  primaryTopic: c3-ch7-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are 3 rods A, B, and C placed at different levels as shown below. Rod A
+    moves 1 level up, rod B moves 2 levels down, and rod C moves 2 levels up. HOW
+    MANY levels are COMMON between ALL three rods?
+  stimulus:
+    assetRefs:
+      - rods-at-levels
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Slide each rod as described and mark the levels it now covers. After all three
+    moves there is exactly 1 level that all three rods share.
+  assetRefs: []
+assets:
+  - ref: rods-at-levels
+    file: ../assets/rods-at-levels.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid labelled Level 1 to Level 6 with three upright rods A, B, and C
+      spanning different levels
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 7 The Thinking Spot answer and solution"

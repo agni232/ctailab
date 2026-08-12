@@ -1,0 +1,60 @@
+id: c3-fair-share-step-where-no-one-wins
+slug: step-where-no-one-wins
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch8-number-patterns
+    - c3-ch8-fractions-of-numbers
+  primaryTopic: c3-ch8-number-patterns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Three friends are playing a game. In this game, a staircase with numbers written
+    on it is given. The students shown on the right side have to stand on any random
+    step. If a student stands on a step where the numbers in the column below that
+    step add up to either half or double their age, then he/she will win the game.
+    Which of A, B, C, D, or E is the step on which no one will win?
+  stimulus:
+    assetRefs:
+      - staircase-game
+  options:
+    - id: option-a
+      text: Step A
+    - id: option-b
+      text: Both steps B and C
+    - id: option-c
+      text: Step D
+    - id: option-d
+      text: Step E
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Add up each column: A gives 8, which is double Nia's age of 4. B gives 4, which
+    is half Tina's age of 8. C gives 16, which is double Tina's age. E gives 14,
+    which is double Ron's age of 7. D gives 13, which is neither half nor double
+    anyone's age.
+  assetRefs: []
+assets:
+  - ref: staircase-game
+    file: ../assets/staircase-game.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A numbered staircase with steps labelled A to E beside three children named
+      Ron aged 7, Nia aged 4, and Tina aged 8
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 57
+    section: "Chapter 8 question 9 answer and solution"

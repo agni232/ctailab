@@ -1,0 +1,46 @@
+id: c3-raksha-bandhan-statements-needed-to-find-the-number
+slug: statements-needed-to-find-the-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch7-reasoning-with-clues
+    - c3-ch7-multiplication
+  primaryTopic: c3-ch7-reasoning-with-clues
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which of the following statements is/are necessarily required to answer the
+    question "Which number am I?" Statement 1: I am not an even number. Statement 2:
+    If you multiply any number with me then the answer is the same as the number
+    which was multiplied with me.
+  options:
+    - id: option-a
+      text: Only statement 1 is required
+    - id: option-b
+      text: Only statement 2 is required
+    - id: option-c
+      text: Both statements 1 and 2 are required
+    - id: option-d
+      text: Cannot be answered even if we use both the statements together
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Statement 1 leaves far too many numbers to choose from. Statement 2 pins it down
+    on its own, because only 1 leaves every number unchanged when you multiply by it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 7 question 4 answer and solution"

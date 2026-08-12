@@ -1,0 +1,45 @@
+id: c3-fair-share-figure-made-from-quarter-circles
+slug: figure-made-from-quarter-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch8-halves-and-quarters
+    - c3-ch8-folding-paper
+  primaryTopic: c3-ch8-halves-and-quarters
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A circular piece of paper is cut into four identical quarters. Two or more
+    quarters are joined together. Which of these figures can possibly be made by
+    joining them? You cannot overlap the quarters.
+  options:
+    - id: option-a
+      text: Triangle
+    - id: option-b
+      text: Semicircle
+    - id: option-c
+      text: Trapezium
+    - id: option-d
+      text: Rectangle
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each piece is a quarter of the circle. Putting two quarters back together along
+    their straight edges makes a semicircle.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 32
+    section: "Chapter 8 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 56
+    section: "Chapter 8 question 6 answer and solution"

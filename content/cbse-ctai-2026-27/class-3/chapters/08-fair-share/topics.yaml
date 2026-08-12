@@ -1,0 +1,43 @@
+topics:
+  - id: c3-ch8-halves-and-quarters
+    slug: halves-and-quarters
+    title: Halves and Quarters
+    position: 1
+    status: published
+  - id: c3-ch8-folding-paper
+    slug: folding-paper
+    title: Folding Paper
+    position: 2
+    parentId: c3-ch8-halves-and-quarters
+    status: published
+  - id: c3-ch8-fractions-of-numbers
+    slug: fractions-of-numbers
+    title: Fractions of Numbers
+    position: 3
+    parentId: c3-ch8-halves-and-quarters
+    status: published
+  - id: c3-ch8-symbol-substitution
+    slug: symbol-substitution
+    title: Symbol Substitution
+    position: 4
+    status: published
+  - id: c3-ch8-letter-positions
+    slug: letter-positions
+    title: Letter Positions
+    position: 5
+    status: published
+  - id: c3-ch8-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 6
+    status: published
+  - id: c3-ch8-spatial-reasoning
+    slug: spatial-reasoning
+    title: Spatial Reasoning
+    position: 7
+    status: published
+  - id: c3-ch8-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

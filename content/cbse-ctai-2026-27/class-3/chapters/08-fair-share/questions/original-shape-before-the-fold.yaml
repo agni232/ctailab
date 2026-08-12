@@ -1,0 +1,70 @@
+id: c3-fair-share-original-shape-before-the-fold
+slug: original-shape-before-the-fold
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch8-folding-paper
+    - c3-ch8-halves-and-quarters
+  primaryTopic: c3-ch8-folding-paper
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A piece of paper was folded in half to get a semicircle. What was the original
+    shape before the fold?
+  options:
+    - id: option-a
+      assetRef: fold-origin-option-a
+      accessibleLabel: A shape with a rounded top and a flat bottom
+    - id: option-b
+      assetRef: fold-origin-option-b
+      accessibleLabel: A quarter circle
+    - id: option-c
+      assetRef: fold-origin-option-c
+      accessibleLabel: A semicircle
+    - id: option-d
+      assetRef: fold-origin-option-d
+      accessibleLabel: A full circle
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: Folding a circle in half along its middle gives a semicircle, so the paper started as a circle.
+  assetRefs: []
+assets:
+  - ref: fold-origin-option-a
+    file: ../assets/fold-origin-option-a.png
+    role: option
+    visibility: public
+    alt: A shape with a rounded top and a flat bottom
+    position: 1
+  - ref: fold-origin-option-b
+    file: ../assets/fold-origin-option-b.png
+    role: option
+    visibility: public
+    alt: A quarter circle
+    position: 2
+  - ref: fold-origin-option-c
+    file: ../assets/fold-origin-option-c.png
+    role: option
+    visibility: public
+    alt: A semicircle
+    position: 3
+  - ref: fold-origin-option-d
+    file: ../assets/fold-origin-option-d.png
+    role: option
+    visibility: public
+    alt: A full circle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 32
+    section: "Chapter 8 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 8 question 1 answer and solution"

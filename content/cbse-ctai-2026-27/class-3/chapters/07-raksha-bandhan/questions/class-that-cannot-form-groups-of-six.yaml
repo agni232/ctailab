@@ -1,0 +1,45 @@
+id: c3-raksha-bandhan-class-that-cannot-form-groups-of-six
+slug: class-that-cannot-form-groups-of-six
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch7-multiples-and-grouping
+  primaryTopic: c3-ch7-multiples-and-grouping
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Every class that visits the National Museum is divided into groups of 6 students
+    for each tour guide. Among the given options, which of the classes would not be
+    able to form groups of 6 students with none left over? The number in the option
+    is the number of students in that class.
+  options:
+    - id: option-a
+      text: "36"
+    - id: option-b
+      text: "42"
+    - id: option-c
+      text: "38"
+    - id: option-d
+      text: "48"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Only a count from the 6 times table splits into groups of 6 with nobody left
+    over. 36, 42, and 48 are all in the 6 times table, but 38 leaves 2 students over.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 7 question 1 answer and solution"
