@@ -1,0 +1,45 @@
+id: c3-give-and-take-thinking-spot-vehicles-in-four-slots
+slug: thinking-spot-vehicles-in-four-slots
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch12-logical-puzzles
+  primaryTopic: c3-ch12-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In a parking space there are 4 slots, where each slot can accommodate either a
+    car, 2 scooters, or 3 bicycles. If there are 3 cars, 3 scooters, and 3 bicycles
+    to be parked, then what is the MAXIMUM number of vehicles that can be parked?
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Start with the vehicles that pack in tightest. One slot holds 3 bicycles, and
+    another holds 2 scooters, which is 5 vehicles in 2 slots. The last 2 slots can
+    take 2 more vehicles, giving 3 + 2 + 2 = 7 in total.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 12 The Thinking Spot answer and solution"

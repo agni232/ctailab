@@ -1,0 +1,44 @@
+id: c3-time-goes-on-possible-dates-for-the-event
+slug: possible-dates-for-the-event
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch13-calendar
+  primaryTopic: c3-ch13-calendar
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    The school is organizing an event in the 5th month of the year. The event will
+    take place twice a month. If the event occurs on even numbered dates only, then
+    which of the following could be possible dates for this event?
+  options:
+    - id: option-a
+      text: 6th and 8th June
+    - id: option-b
+      text: 6th and 13th May
+    - id: option-c
+      text: 7th and 15th May
+    - id: option-d
+      text: 6th and 12th May
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The 5th month is May, so June is out. Both dates must be even numbers, which
+    rules out 13th and 7th and 15th. Only 6th and 12th May fits.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 13 question 2 answer and solution"

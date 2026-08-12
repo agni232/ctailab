@@ -1,0 +1,60 @@
+id: c3-surajkund-fair-destination-of-the-pathway
+slug: destination-of-the-pathway
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch14-paths-and-routes
+    - c3-ch14-fitting-pieces
+  primaryTopic: c3-ch14-paths-and-routes
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Place all the pathway blocks in the image given below to form a connected pathway
+    (indicated by black stripes) starting from Home. Which of the following
+    destinations will the pathway lead to? You are not allowed to rotate the pathway
+    blocks.
+  stimulus:
+    assetRefs:
+      - pathway-blocks
+  options:
+    - id: option-a
+      text: School
+    - id: option-b
+      text: Cafe
+    - id: option-c
+      text: Office
+    - id: option-d
+      text: Gym
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The block below Home must turn the path to the right, since there is nowhere else
+    to go. The next block needs an opening on its left, and the one that reaches the
+    top is unusable. Working through the remaining blocks in the only order that fits,
+    the finished pathway leads to the School.
+  assetRefs: []
+assets:
+  - ref: pathway-blocks
+    file: ../assets/pathway-blocks.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with Home, School, Cafe, Office, and Gym around empty grey squares, beside
+      four pathway blocks each showing a curved black stripe
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 92
+    pageEnd: 93
+    section: "Chapter 14 question 9 answer and solution"

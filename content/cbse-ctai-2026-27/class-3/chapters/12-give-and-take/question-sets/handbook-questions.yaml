@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch12-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 12 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-give-and-take-who-has-the-most-pencils
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 43
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-item-sam-cannot-buy
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 43
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-sum-that-cannot-be-shot
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 43
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-marbles-that-can-be-shifted
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 43
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-numbers-to-exchange-between-rows
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 43
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-most-chocolates-after-exchange
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-difference-in-blue-balloons
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-pairs-of-shoes-tom-and-mary-have
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-denominations-of-three-notes
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Give and Take"
+  - questionId: c3-give-and-take-statements-needed-for-total-money
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Give and Take"

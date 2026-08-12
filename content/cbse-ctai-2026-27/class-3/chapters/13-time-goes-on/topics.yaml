@@ -1,0 +1,37 @@
+topics:
+  - id: c3-ch13-telling-time
+    slug: telling-time
+    title: Telling Time
+    position: 1
+    status: published
+  - id: c3-ch13-clock-hands
+    slug: clock-hands
+    title: Clock Hands
+    position: 2
+    parentId: c3-ch13-telling-time
+    status: published
+  - id: c3-ch13-days-of-the-week
+    slug: days-of-the-week
+    title: Days of the Week
+    position: 3
+    status: published
+  - id: c3-ch13-calendar
+    slug: calendar
+    title: Calendar
+    position: 4
+    status: published
+  - id: c3-ch13-time-order
+    slug: time-order
+    title: Time Order
+    position: 5
+    status: published
+  - id: c3-ch13-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 6
+    status: published
+  - id: c3-ch13-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

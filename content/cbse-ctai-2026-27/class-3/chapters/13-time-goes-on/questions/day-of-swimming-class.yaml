@@ -1,0 +1,43 @@
+id: c3-time-goes-on-day-of-swimming-class
+slug: day-of-swimming-class
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch13-days-of-the-week
+  primaryTopic: c3-ch13-days-of-the-week
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Mariya has her swimming class tomorrow. If the day before yesterday was Monday,
+    then on which day does Mariya have her swimming class?
+  options:
+    - id: option-a
+      text: Monday
+    - id: option-b
+      text: Tuesday
+    - id: option-c
+      text: Wednesday
+    - id: option-d
+      text: Thursday
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    If the day before yesterday was Monday, then yesterday was Tuesday and today is
+    Wednesday. Tomorrow is Thursday, so that is when her class falls.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 13 question 9 answer and solution"

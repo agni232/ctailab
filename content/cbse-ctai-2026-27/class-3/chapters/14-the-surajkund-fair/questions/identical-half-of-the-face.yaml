@@ -1,0 +1,80 @@
+id: c3-surajkund-fair-identical-half-of-the-face
+slug: identical-half-of-the-face
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-matching-halves
+    - c3-ch14-symmetry
+  primaryTopic: c3-ch14-matching-halves
+  estimatedMinutes: 4
+content:
+  prompt: "Find the IDENTICAL half of the image given below:"
+  stimulus:
+    assetRefs:
+      - half-face-question
+  options:
+    - id: option-a
+      assetRef: half-face-option-a
+      accessibleLabel: A matching half with a difference in the outline
+    - id: option-b
+      assetRef: half-face-option-b
+      accessibleLabel: A matching half with an extra whisker
+    - id: option-c
+      assetRef: half-face-option-c
+      accessibleLabel: A matching half that mirrors the question image exactly
+    - id: option-d
+      assetRef: half-face-option-d
+      accessibleLabel: A matching half with a different eye
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Compare each option against the question image one detail at a time. Option a has
+    a change in the outline, option b has an extra whisker, and option d has a
+    different eye. Only option c matches exactly.
+  assetRefs: []
+assets:
+  - ref: half-face-question
+    file: ../assets/half-face-question.png
+    role: stem
+    visibility: public
+    alt: The left half of a line drawing of a big cat's face
+    position: 0
+  - ref: half-face-option-a
+    file: ../assets/half-face-option-a.png
+    role: option
+    visibility: public
+    alt: A right half of the cat face with a changed outline
+    position: 1
+  - ref: half-face-option-b
+    file: ../assets/half-face-option-b.png
+    role: option
+    visibility: public
+    alt: A right half of the cat face with an extra whisker
+    position: 2
+  - ref: half-face-option-c
+    file: ../assets/half-face-option-c.png
+    role: option
+    visibility: public
+    alt: A right half of the cat face that matches the question image
+    position: 3
+  - ref: half-face-option-d
+    file: ../assets/half-face-option-d.png
+    role: option
+    visibility: public
+    alt: A right half of the cat face with a different eye
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 48
+    section: "Chapter 14 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 14 question 3 answer and solution"

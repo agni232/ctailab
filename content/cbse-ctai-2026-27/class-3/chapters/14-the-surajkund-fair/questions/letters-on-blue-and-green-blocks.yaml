@@ -1,0 +1,55 @@
+id: c3-surajkund-fair-letters-on-blue-and-green-blocks
+slug: letters-on-blue-and-green-blocks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch14-mirror-images
+  primaryTopic: c3-ch14-mirror-images
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If the image on the right is reflected in a mirror placed along the line AB, then
+    which letters will be reflected on the blue and green coloured blocks in the image
+    on the left?
+  stimulus:
+    assetRefs:
+      - mirror-letter-grid
+  options:
+    - id: option-a
+      text: F and L
+    - id: option-b
+      text: D and J
+    - id: option-c
+      text: F and J
+    - id: option-d
+      text: D and L
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    In a mirror the left column becomes the right column. Reflecting the lettered grid
+    across AB puts D on the blue block and L on the green block.
+  assetRefs: []
+assets:
+  - ref: mirror-letter-grid
+    file: ../assets/mirror-letter-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      An empty grid with one blue and one green square beside a mirror line from A to
+      B, with a grid of letters A to O on the other side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 14 question 8 answer and solution"

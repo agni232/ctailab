@@ -1,0 +1,55 @@
+id: c3-give-and-take-who-has-the-most-pencils
+slug: who-has-the-most-pencils
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch12-giving-and-receiving
+    - c3-ch12-comparing-amounts
+  primaryTopic: c3-ch12-giving-and-receiving
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Aman, Bob, and Tom have some pencils as shown below. After Bob gives one pencil
+    to Aman and 1 to Tom, who will have the MOST number of pencils at the end?
+  stimulus:
+    assetRefs:
+      - pencils-of-three-friends
+  options:
+    - id: option-a
+      text: Aman
+    - id: option-b
+      text: Bob
+    - id: option-c
+      text: Tom
+    - id: option-d
+      text: All have an equal number of pencils
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Aman starts with 3, Bob with 4, and Tom with 2. Bob gives away 2 pencils, so
+    Aman has 4, Bob has 2, and Tom has 3. Aman ends up with the most.
+  assetRefs: []
+assets:
+  - ref: pencils-of-three-friends
+    file: ../assets/pencils-of-three-friends.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three columns labelled Aman, Bob, and Tom, each showing a boy above his
+      pencils, with 3, 4, and 2 pencils
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 43
+    section: "Chapter 12 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 12 question 1 answer and solution"

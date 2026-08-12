@@ -1,0 +1,54 @@
+id: c3-surajkund-fair-carrots-the-rabbit-can-collect
+slug: carrots-the-rabbit-can-collect
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-paths-and-routes
+  primaryTopic: c3-ch14-paths-and-routes
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If the rabbit can move only towards RIGHT or UP, then what is the MAXIMUM number
+    of carrots it can collect from START to END?
+  stimulus:
+    assetRefs:
+      - rabbit-carrot-grid
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Try the routes that pass through the most carrots, remembering the rabbit can only
+    step right or up. The best route picks up 4 carrots.
+  assetRefs: []
+assets:
+  - ref: rabbit-carrot-grid
+    file: ../assets/rabbit-carrot-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with carrots in some squares, a rabbit at START in the bottom left and
+      END at the top right, beside a key showing UP, DOWN, LEFT, and RIGHT arrows
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 48
+    section: "Chapter 14 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 14 question 1 answer and solution"

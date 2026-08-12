@@ -1,0 +1,42 @@
+id: c3-time-goes-on-day-after-tomorrow-from-saturday
+slug: day-after-tomorrow-from-saturday
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch13-days-of-the-week
+  primaryTopic: c3-ch13-days-of-the-week
+  estimatedMinutes: 3
+content:
+  prompt: If the day before yesterday was Saturday, which day will be the day after tomorrow?
+  options:
+    - id: option-a
+      text: Friday
+    - id: option-b
+      text: Tuesday
+    - id: option-c
+      text: Thursday
+    - id: option-d
+      text: Wednesday
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The day before yesterday is two days back. If that was Saturday, yesterday was
+    Sunday and today is Monday. Tomorrow is Tuesday, so the day after tomorrow is
+    Wednesday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 13 question 5 answer and solution"

@@ -1,0 +1,48 @@
+id: c3-give-and-take-statements-needed-for-total-money
+slug: statements-needed-for-total-money
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch12-reasoning-with-clues
+    - c3-ch12-money
+  primaryTopic: c3-ch12-reasoning-with-clues
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Given below is a question followed by two statements. Identify which of the
+    following statement(s) is/are necessary to answer the question. Question: How
+    much money do A and B have together? Statement 1: A has Rs. 30 more than what C
+    has and Rs. 20 less than what B has. Statement 2: A has Rs. 100.
+  options:
+    - id: option-a
+      text: Statement 1 alone is sufficient
+    - id: option-b
+      text: Statement 2 alone is sufficient
+    - id: option-c
+      text: Both Statement 1 and Statement 2 are necessarily required
+    - id: option-d
+      text: Question cannot be answered even if both Statement 1 and Statement 2 are taken
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Statement 1 only tells us how the amounts compare, not what they are. Statement 2
+    gives A's amount but says nothing about B. Together they tell us A has Rs. 100 and
+    B has Rs. 20 more, so B has Rs. 120 and the two have Rs. 220 between them.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 79
+    pageEnd: 80
+    section: "Chapter 12 question 10 answer and solution"

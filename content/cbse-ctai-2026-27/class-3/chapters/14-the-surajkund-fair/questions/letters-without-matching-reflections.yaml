@@ -1,0 +1,45 @@
+id: c3-surajkund-fair-letters-without-matching-reflections
+slug: letters-without-matching-reflections
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-mirror-images
+    - c3-ch14-symmetry
+  primaryTopic: c3-ch14-mirror-images
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which of the following pairs of letters will NOT have the same image if they are
+    reflected in a mirror? Assume that the mirror is placed vertically next to the
+    letter.
+  options:
+    - id: option-a
+      text: A and H
+    - id: option-b
+      text: O and T
+    - id: option-c
+      text: U and Y
+    - id: option-d
+      text: M and N
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A, H, O, T, U, Y, and M all look the same in a vertical mirror because each has a
+    matching left and right side. N does not, so the pair M and N is the odd one out.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 89
+    section: "Chapter 14 question 4 answer and solution"

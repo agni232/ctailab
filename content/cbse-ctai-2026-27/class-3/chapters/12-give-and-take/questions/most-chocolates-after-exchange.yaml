@@ -1,0 +1,44 @@
+id: c3-give-and-take-most-chocolates-after-exchange
+slug: most-chocolates-after-exchange
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch12-giving-and-receiving
+  primaryTopic: c3-ch12-giving-and-receiving
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Four friends A, B, C, and D had 5 chocolates each. A gave 2 chocolates to C, and
+    B gave 3 chocolates to A. Who has the most number of chocolates after the
+    exchange?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Take one step at a time. After A gives 2 to C, the counts are A 3, B 5, C 7,
+    D 5. After B gives 3 to A, they are A 6, B 2, C 7, D 5. C has the most.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 12 question 6 answer and solution"

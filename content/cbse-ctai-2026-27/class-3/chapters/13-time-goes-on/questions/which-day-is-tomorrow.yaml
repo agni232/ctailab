@@ -1,0 +1,41 @@
+id: c3-time-goes-on-which-day-is-tomorrow
+slug: which-day-is-tomorrow
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch13-days-of-the-week
+  primaryTopic: c3-ch13-days-of-the-week
+  estimatedMinutes: 2
+content:
+  prompt: The day after tomorrow is Friday. Which day of the week is tomorrow?
+  options:
+    - id: option-a
+      text: Wednesday
+    - id: option-b
+      text: Thursday
+    - id: option-c
+      text: Friday
+    - id: option-d
+      text: Saturday
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The day after tomorrow is two days ahead. Counting back two days from Friday
+    makes today Wednesday, so tomorrow is Thursday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 13 question 3 answer and solution"

@@ -1,0 +1,56 @@
+id: c3-surajkund-fair-overlapping-same-coloured-squares
+slug: overlapping-same-coloured-squares
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch14-folding-paper
+  primaryTopic: c3-ch14-folding-paper
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If the given sheet of paper is folded along the line AB, then how many pairs of
+    same-coloured squares will overlap each other? Count two overlapped squares as 1
+    pair.
+  stimulus:
+    assetRefs:
+      - folded-colour-sheet
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Folding along AB lands Row 1 on Row 4 and Row 2 on Row 3. Checking each pair that
+    meets, only the yellow squares in the last column of Rows 2 and 3 share a colour,
+    so there is 1 such pair.
+  assetRefs: []
+assets:
+  - ref: folded-colour-sheet
+    file: ../assets/folded-colour-sheet.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four sheet of green and yellow squares with a red dashed fold line
+      running from A on the left to B on the right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 14 question 6 answer and solution"

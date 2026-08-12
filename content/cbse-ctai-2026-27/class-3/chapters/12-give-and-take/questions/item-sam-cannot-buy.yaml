@@ -1,0 +1,56 @@
+id: c3-give-and-take-item-sam-cannot-buy
+slug: item-sam-cannot-buy
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch12-money
+    - c3-ch12-addition-and-subtraction
+  primaryTopic: c3-ch12-money
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Sam has Rs. 20. He gives half of the amount to Ram. After that, he buys 2
+    Pencils. Which of the following options shows the item(s) which he will NOT be
+    able to buy with the remaining money?
+  stimulus:
+    assetRefs:
+      - price-list
+  options:
+    - id: option-a
+      text: 2 Chocolates
+    - id: option-b
+      text: 3 Erasers
+    - id: option-c
+      text: 1 Sharpener
+    - id: option-d
+      text: 1 Ruler
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Sam gives away half of Rs. 20, leaving Rs. 10. Two pencils cost Rs. 6, so he is
+    left with Rs. 4. A sharpener costs Rs. 5, which is more than he has.
+  assetRefs: []
+assets:
+  - ref: price-list
+    file: ../assets/price-list.png
+    role: stem
+    visibility: public
+    alt: >-
+      A price table listing pencil Rs. 3, chocolate Rs. 2, eraser Rs. 1, ruler
+      Rs. 4, and sharpener Rs. 5
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 43
+    section: "Chapter 12 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 12 question 2 answer and solution"

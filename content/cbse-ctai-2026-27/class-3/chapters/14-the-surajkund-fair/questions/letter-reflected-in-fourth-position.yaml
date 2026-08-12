@@ -1,0 +1,55 @@
+id: c3-surajkund-fair-letter-reflected-in-fourth-position
+slug: letter-reflected-in-fourth-position
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-mirror-images
+  primaryTopic: c3-ch14-mirror-images
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If the given image is reflected in a mirror along the line XY, then which letter's
+    reflection will appear in the 4th position?
+  stimulus:
+    assetRefs:
+      - letters-mirror-xy
+  options:
+    - id: option-a
+      text: P
+    - id: option-b
+      text: B
+    - id: option-c
+      text: R
+    - id: option-d
+      text: C
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A mirror reverses the order, so the letter nearest the mirror lands in position 1
+    and the one furthest lands last. Counting back along A C B P R, the letter that
+    reaches the 4th place is C.
+  assetRefs: []
+assets:
+  - ref: letters-mirror-xy
+    file: ../assets/letters-mirror-xy.png
+    role: stem
+    visibility: public
+    alt: >-
+      The letters A C B P R beside a mirror line marked X at the top and Y at the
+      bottom, with five numbered blank places on the other side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 7"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 14 question 7 answer and solution"

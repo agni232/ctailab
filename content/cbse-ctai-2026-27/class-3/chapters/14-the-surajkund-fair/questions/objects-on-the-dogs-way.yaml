@@ -1,0 +1,80 @@
+id: c3-surajkund-fair-objects-on-the-dogs-way
+slug: objects-on-the-dogs-way
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-paths-and-routes
+  primaryTopic: c3-ch14-paths-and-routes
+  estimatedMinutes: 3
+content:
+  prompt: Which objects will the dog come across on its way if it wants to reach the boy?
+  stimulus:
+    assetRefs:
+      - dog-path-to-boy
+  options:
+    - id: option-a
+      assetRef: dog-path-option-a
+      accessibleLabel: A car and a tree
+    - id: option-b
+      assetRef: dog-path-option-b
+      accessibleLabel: A car and a flower
+    - id: option-c
+      assetRef: dog-path-option-c
+      accessibleLabel: A car and a cat
+    - id: option-d
+      assetRef: dog-path-option-d
+      accessibleLabel: A flower and a cat
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Follow the striped road from the dog to the boy. Along the way it passes the car
+    at the crossing and then the cat, so those are the two objects it meets.
+  assetRefs: []
+assets:
+  - ref: dog-path-to-boy
+    file: ../assets/dog-path-to-boy.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A crossroads of striped roads with a dog, a tree, a car, a cat, a flower, and a
+      boy placed around it
+    position: 0
+  - ref: dog-path-option-a
+    file: ../assets/dog-path-option-a.png
+    role: option
+    visibility: public
+    alt: A car and a tree
+    position: 1
+  - ref: dog-path-option-b
+    file: ../assets/dog-path-option-b.png
+    role: option
+    visibility: public
+    alt: A car and a flower
+    position: 2
+  - ref: dog-path-option-c
+    file: ../assets/dog-path-option-c.png
+    role: option
+    visibility: public
+    alt: A car and a cat
+    position: 3
+  - ref: dog-path-option-d
+    file: ../assets/dog-path-option-d.png
+    role: option
+    visibility: public
+    alt: A flower and a cat
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 48
+    section: "Chapter 14 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 14 question 2 answer and solution"

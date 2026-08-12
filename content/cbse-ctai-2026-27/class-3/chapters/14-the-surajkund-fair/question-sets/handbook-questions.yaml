@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch14-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 14 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-surajkund-fair-carrots-the-rabbit-can-collect
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 48
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-objects-on-the-dogs-way
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 48
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-identical-half-of-the-face
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 48
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-letters-without-matching-reflections
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 49
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-mirror-image-along-line-ab
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 49
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-overlapping-same-coloured-squares
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 49
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-letter-reflected-in-fourth-position
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 49
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-letters-on-blue-and-green-blocks
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 50
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-destination-of-the-pathway
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 50
+    sourceSection: "Chapter 14: The Surajkund Fair"
+  - questionId: c3-surajkund-fair-piece-that-completes-the-question-image
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 50
+    sourceSection: "Chapter 14: The Surajkund Fair"

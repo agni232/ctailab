@@ -1,0 +1,83 @@
+id: c3-surajkund-fair-mirror-image-along-line-ab
+slug: mirror-image-along-line-ab
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-mirror-images
+  primaryTopic: c3-ch14-mirror-images
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If a mirror is placed along the line AB, then how will the mirror image of the
+    image given below look like?
+  stimulus:
+    assetRefs:
+      - mirror-blocks-question
+  options:
+    - id: option-a
+      assetRef: mirror-blocks-option-a
+      accessibleLabel: A grid of black and white squares that does not match the reflection
+    - id: option-b
+      assetRef: mirror-blocks-option-b
+      accessibleLabel: A second grid of black and white squares that does not match the reflection
+    - id: option-c
+      assetRef: mirror-blocks-option-c
+      accessibleLabel: A grid of black and white squares that matches the reflection
+    - id: option-d
+      assetRef: mirror-blocks-option-d
+      accessibleLabel: A fourth grid of black and white squares that does not match the reflection
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In a mirror the left side becomes the right side. Flip the pattern across the line
+    AB and compare it with each option. Only option c follows the rule of reflection.
+  assetRefs: []
+assets:
+  - ref: mirror-blocks-question
+    file: ../assets/mirror-blocks-question.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid of black and white squares beside a mirror line labelled A at the top and
+      B at the bottom, with a question mark on the far side
+    position: 0
+  - ref: mirror-blocks-option-a
+    file: ../assets/mirror-blocks-option-a.png
+    role: option
+    visibility: public
+    alt: Grid of black and white squares, option a
+    position: 1
+  - ref: mirror-blocks-option-b
+    file: ../assets/mirror-blocks-option-b.png
+    role: option
+    visibility: public
+    alt: Grid of black and white squares, option b
+    position: 2
+  - ref: mirror-blocks-option-c
+    file: ../assets/mirror-blocks-option-c.png
+    role: option
+    visibility: public
+    alt: Grid of black and white squares, option c
+    position: 3
+  - ref: mirror-blocks-option-d
+    file: ../assets/mirror-blocks-option-d.png
+    role: option
+    visibility: public
+    alt: Grid of black and white squares, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 89
+    pageEnd: 90
+    section: "Chapter 14 question 5 answer and solution"

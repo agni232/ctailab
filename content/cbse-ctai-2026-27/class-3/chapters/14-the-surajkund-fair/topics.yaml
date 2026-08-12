@@ -1,0 +1,38 @@
+topics:
+  - id: c3-ch14-paths-and-routes
+    slug: paths-and-routes
+    title: Paths and Routes
+    position: 1
+    status: published
+  - id: c3-ch14-mirror-images
+    slug: mirror-images
+    title: Mirror Images
+    position: 2
+    status: published
+  - id: c3-ch14-symmetry
+    slug: symmetry
+    title: Symmetry
+    position: 3
+    parentId: c3-ch14-mirror-images
+    status: published
+  - id: c3-ch14-matching-halves
+    slug: matching-halves
+    title: Matching Halves
+    position: 4
+    parentId: c3-ch14-symmetry
+    status: published
+  - id: c3-ch14-folding-paper
+    slug: folding-paper
+    title: Folding Paper
+    position: 5
+    status: published
+  - id: c3-ch14-fitting-pieces
+    slug: fitting-pieces
+    title: Fitting Pieces Together
+    position: 6
+    status: published
+  - id: c3-ch14-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

@@ -1,0 +1,54 @@
+id: c3-give-and-take-marbles-that-can-be-shifted
+slug: marbles-that-can-be-shifted
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch12-comparing-amounts
+    - c3-ch12-addition-and-subtraction
+  primaryTopic: c3-ch12-comparing-amounts
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    What is the MAXIMUM number of marbles that can be shifted from Box 1 to Box 2,
+    such that Box 1 will still have MORE marbles than Box 2?
+  stimulus:
+    assetRefs:
+      - two-marble-boxes
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Altogether there are 18 + 8 = 26 marbles. To keep Box 1 ahead while moving as
+    many as possible, Box 1 should end with 14 and Box 2 with 12. Box 1 starts with
+    18, so 18 − 14 = 4 marbles can be shifted.
+  assetRefs: []
+assets:
+  - ref: two-marble-boxes
+    file: ../assets/two-marble-boxes.png
+    role: stem
+    visibility: public
+    alt: Two labelled boxes, Box 1 holding 18 marbles and Box 2 holding 8 marbles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 43
+    section: "Chapter 12 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 12 question 4 answer and solution"

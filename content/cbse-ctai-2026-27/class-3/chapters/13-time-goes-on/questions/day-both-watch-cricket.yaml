@@ -1,0 +1,46 @@
+id: c3-time-goes-on-day-both-watch-cricket
+slug: day-both-watch-cricket
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch13-days-of-the-week
+    - c3-ch13-time-order
+  primaryTopic: c3-ch13-days-of-the-week
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Cricket matches are held every day from Monday to Friday. Tim watches on
+    Wednesday, as well as the day before and the day after Wednesday. Sam watches on
+    Friday, as well as the day before Friday. On which day do both Tim and Sam watch
+    a cricket match?
+  options:
+    - id: option-a
+      text: Thursday
+    - id: option-b
+      text: Wednesday
+    - id: option-c
+      text: Tuesday
+    - id: option-d
+      text: Friday
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Tim watches on Tuesday, Wednesday, and Thursday. Sam watches on Thursday and
+    Friday. The day they share is Thursday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 13 question 4 answer and solution"

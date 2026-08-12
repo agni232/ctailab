@@ -1,0 +1,83 @@
+id: c3-surajkund-fair-thinking-spot-pattern-without-matching-dots
+slug: thinking-spot-pattern-without-matching-dots
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch14-logical-puzzles
+    - c3-ch14-paths-and-routes
+  primaryTopic: c3-ch14-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Which of the following patterns from the options CAN be drawn by connecting dots
+    in the given grid such that NO TWO dots of the same colour are directly connected?
+    You are not allowed to rotate any of the images.
+  stimulus:
+    assetRefs:
+      - dot-grid-colours
+  options:
+    - id: option-a
+      assetRef: dot-pattern-option-a
+      accessibleLabel: A line that runs right and then turns up
+    - id: option-b
+      assetRef: dot-pattern-option-b
+      accessibleLabel: A line that runs right along the top and then turns down
+    - id: option-c
+      assetRef: dot-pattern-option-c
+      accessibleLabel: A line that runs down and then turns right
+    - id: option-d
+      assetRef: dot-pattern-option-d
+      accessibleLabel: A line that runs down, right, and then up again
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Lay each pattern over the grid without turning it and check the colour of the dots
+    at both ends of every segment. Options a, b, and c each join two dots of the same
+    colour. Only option d keeps every joined pair different.
+  assetRefs: []
+assets:
+  - ref: dot-grid-colours
+    file: ../assets/dot-grid-colours.png
+    role: stem
+    visibility: public
+    alt: A three by three grid of dots, some grey and some white
+    position: 0
+  - ref: dot-pattern-option-a
+    file: ../assets/dot-pattern-option-a.png
+    role: option
+    visibility: public
+    alt: A line running right and then turning up
+    position: 1
+  - ref: dot-pattern-option-b
+    file: ../assets/dot-pattern-option-b.png
+    role: option
+    visibility: public
+    alt: A line running right along the top and then turning down
+    position: 2
+  - ref: dot-pattern-option-c
+    file: ../assets/dot-pattern-option-c.png
+    role: option
+    visibility: public
+    alt: A line running down and then turning right
+    position: 3
+  - ref: dot-pattern-option-d
+    file: ../assets/dot-pattern-option-d.png
+    role: option
+    visibility: public
+    alt: A line running down, right, and then up again
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 51
+    section: "Chapter 14 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 14 The Thinking Spot answer and solution"

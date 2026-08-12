@@ -1,0 +1,82 @@
+id: c3-time-goes-on-next-clock-in-the-series
+slug: next-clock-in-the-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch13-clock-hands
+    - c3-ch13-number-patterns
+  primaryTopic: c3-ch13-clock-hands
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - clock-hand-series
+  options:
+    - id: option-a
+      assetRef: clock-option-a
+      accessibleLabel: A clock with the longer hand pointing at 10
+    - id: option-b
+      assetRef: clock-option-b
+      accessibleLabel: A clock with the longer hand pointing at 6
+    - id: option-c
+      assetRef: clock-option-c
+      accessibleLabel: A clock with the longer hand pointing at 9
+    - id: option-d
+      assetRef: clock-option-d
+      accessibleLabel: A clock with the longer hand pointing at 11
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The longer hand moves 2 steps, then 1 step, over and over. Starting at 1 it goes
+    to 3, then 4, and so on. The last move was 1 step, so the next is 2 steps, taking
+    the hand from 7 to 9.
+  assetRefs: []
+assets:
+  - ref: clock-hand-series
+    file: ../assets/clock-hand-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Five clock faces in a row with the hands in different positions, followed by a
+      question mark
+    position: 0
+  - ref: clock-option-a
+    file: ../assets/clock-option-a.png
+    role: option
+    visibility: public
+    alt: Clock face with the longer hand pointing at 10
+    position: 1
+  - ref: clock-option-b
+    file: ../assets/clock-option-b.png
+    role: option
+    visibility: public
+    alt: Clock face with the longer hand pointing at 6
+    position: 2
+  - ref: clock-option-c
+    file: ../assets/clock-option-c.png
+    role: option
+    visibility: public
+    alt: Clock face with the longer hand pointing at 9
+    position: 3
+  - ref: clock-option-d
+    file: ../assets/clock-option-d.png
+    role: option
+    visibility: public
+    alt: Clock face with the longer hand pointing at 11
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 13 question 1 answer and solution"

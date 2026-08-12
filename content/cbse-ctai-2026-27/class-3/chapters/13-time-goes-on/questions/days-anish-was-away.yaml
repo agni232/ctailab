@@ -1,0 +1,46 @@
+id: c3-time-goes-on-days-anish-was-away
+slug: days-anish-was-away
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch13-calendar
+    - c3-ch13-days-of-the-week
+  primaryTopic: c3-ch13-calendar
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Anish went on a trip for a few days. He left on a certain day and returned on the
+    same day the next week. How many days did he go out for? Please include the day
+    he left and the day he returned in the duration of his trip.
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Say he left on a Wednesday and came back the next Wednesday. There are 6 days in
+    between, and counting the day he left and the day he returned gives 6 + 2 = 8
+    days.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 46
+    section: "Chapter 13 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 13 question 6 answer and solution"

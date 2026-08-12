@@ -1,0 +1,46 @@
+id: c3-give-and-take-pairs-of-shoes-tom-and-mary-have
+slug: pairs-of-shoes-tom-and-mary-have
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch12-addition-and-subtraction
+    - c3-ch12-reasoning-with-clues
+  primaryTopic: c3-ch12-addition-and-subtraction
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Three friends Mary, Sam, and Tom have some pairs of shoes as follows. Mary has 8
+    pairs of shoes with her. Tom and Sam together have 12 pairs of shoes. Sam and
+    Mary together have 14 pairs of shoes. How many pairs of shoes do Tom and Mary
+    together have?
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "12"
+    - id: option-d
+      text: "14"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Sam and Mary have 14 pairs and Mary has 8, so Sam has 6. Tom and Sam have 12
+    pairs, so Tom also has 6. Tom and Mary together have 6 + 8 = 14 pairs.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 12 question 8 answer and solution"

@@ -1,0 +1,46 @@
+id: c3-give-and-take-denominations-of-three-notes
+slug: denominations-of-three-notes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch12-money
+    - c3-ch12-reasoning-with-clues
+  primaryTopic: c3-ch12-money
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A has some money which could be in denominations of Rs. 10, Rs. 20, or Rs. 50. If
+    A has three notes whose total is Rs. 90, then which of the following statements is
+    necessarily TRUE?
+  options:
+    - id: option-a
+      text: A has only 1 type (denomination) of currency note
+    - id: option-b
+      text: A has only 2 types (denominations) of currency notes
+    - id: option-c
+      text: A has all the 3 types (denominations) of currency notes
+    - id: option-d
+      text: Either option a or option c
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Three notes adding to Rs. 90 can only be 20 + 20 + 50. Using one of each type
+    would need 50 + 20 + 10 plus another note, which is four notes, and that breaks
+    the rule. So A holds exactly two types of note.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 12 question 9 answer and solution"

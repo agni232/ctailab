@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch13-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 13 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-time-goes-on-next-clock-in-the-series
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-possible-dates-for-the-event
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-which-day-is-tomorrow
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-day-both-watch-cricket
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-day-after-tomorrow-from-saturday
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-days-anish-was-away
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-who-entered-the-class-last
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 46
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-animals-the-clock-points-to
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 47
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-day-of-swimming-class
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 47
+    sourceSection: "Chapter 13: Time Goes On"
+  - questionId: c3-time-goes-on-maximum-holidays-in-july
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 47
+    sourceSection: "Chapter 13: Time Goes On"

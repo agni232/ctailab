@@ -1,0 +1,55 @@
+id: c3-give-and-take-sum-that-cannot-be-shot
+slug: sum-that-cannot-be-shot
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch12-addition-and-subtraction
+    - c3-ch12-comparing-amounts
+  primaryTopic: c3-ch12-addition-and-subtraction
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Out of the four balloons shown below, Sam shot TWO balloons of DIFFERENT colour.
+    Which of the following CANNOT be the sum of the numbers on the balloons shot?
+  stimulus:
+    assetRefs:
+      - four-balloons
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    One balloon must be black and the other white. The black balloons hold 2 and 4,
+    and the white ones hold 5 and 3. The possible sums are 2 + 5 = 7, 2 + 3 = 5,
+    4 + 3 = 7, and 4 + 5 = 9. There is no way to make 8.
+  assetRefs: []
+assets:
+  - ref: four-balloons
+    file: ../assets/four-balloons.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four balloons, two black holding 2 and 4 and two white holding 5 and 3
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 43
+    section: "Chapter 12 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 12 question 3 answer and solution"

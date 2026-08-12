@@ -1,0 +1,56 @@
+id: c3-give-and-take-numbers-to-exchange-between-rows
+slug: numbers-to-exchange-between-rows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch12-addition-and-subtraction
+    - c3-ch12-comparing-amounts
+  primaryTopic: c3-ch12-addition-and-subtraction
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which two numbers should be exchanged such that the sum of numbers in Row 1 and
+    Row 2 is equal?
+  stimulus:
+    assetRefs:
+      - two-number-rows
+  options:
+    - id: option-a
+      text: 5 and 2
+    - id: option-b
+      text: 3 and 2
+    - id: option-c
+      text: 6 and 7
+    - id: option-d
+      text: 3 and 1
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Row 1 adds to 5 + 6 + 3 = 14 and Row 2 adds to 7 + 1 + 2 = 10, a gap of 4. The
+    rows meet in the middle if 2 moves across, so swap a number from Row 1 that is 2
+    more than one from Row 2. That pair is 3 and 1, giving 5 + 6 + 1 = 12 and
+    7 + 3 + 2 = 12.
+  assetRefs: []
+assets:
+  - ref: two-number-rows
+    file: ../assets/two-number-rows.png
+    role: stem
+    visibility: public
+    alt: Row 1 holding 5, 6, and 3, and Row 2 holding 7, 1, and 2 in boxes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 43
+    section: "Chapter 12 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 77
+    pageEnd: 78
+    section: "Chapter 12 question 5 answer and solution"

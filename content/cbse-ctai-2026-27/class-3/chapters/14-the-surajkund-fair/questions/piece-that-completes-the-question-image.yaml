@@ -1,0 +1,81 @@
+id: c3-surajkund-fair-piece-that-completes-the-question-image
+slug: piece-that-completes-the-question-image
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch14-fitting-pieces
+  primaryTopic: c3-ch14-fitting-pieces
+  estimatedMinutes: 4
+content:
+  prompt: Which of the following options will complete the Question Image given below?
+  stimulus:
+    assetRefs:
+      - question-image-circle
+  options:
+    - id: option-a
+      assetRef: circle-piece-option-a
+      accessibleLabel: A tile with a curve running from the left edge to the bottom edge
+    - id: option-b
+      assetRef: circle-piece-option-b
+      accessibleLabel: A tile with a diagonal line and a curve meeting at the right
+    - id: option-c
+      assetRef: circle-piece-option-c
+      accessibleLabel: A tile with a curve across the top left corner
+    - id: option-d
+      assetRef: circle-piece-option-d
+      accessibleLabel: A tile with a diagonal line crossing a curve
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The missing corner has to carry on both the big circle and the diagonal line that
+    run through the grid. Only option d has a curve and a diagonal that line up with
+    the drawing, so it completes the image.
+  assetRefs: []
+assets:
+  - ref: question-image-circle
+    file: ../assets/question-image-circle.png
+    role: stem
+    visibility: public
+    alt: >-
+      A three by three grid holding a large circle and a diagonal line, with a question
+      mark in the bottom right cell
+    position: 0
+  - ref: circle-piece-option-a
+    file: ../assets/circle-piece-option-a.png
+    role: option
+    visibility: public
+    alt: Tile with a curve from the left edge to the bottom edge
+    position: 1
+  - ref: circle-piece-option-b
+    file: ../assets/circle-piece-option-b.png
+    role: option
+    visibility: public
+    alt: Tile with a diagonal line and a curve meeting at the right
+    position: 2
+  - ref: circle-piece-option-c
+    file: ../assets/circle-piece-option-c.png
+    role: option
+    visibility: public
+    alt: Tile with a curve across the top left corner
+    position: 3
+  - ref: circle-piece-option-d
+    file: ../assets/circle-piece-option-d.png
+    role: option
+    visibility: public
+    alt: Tile with a diagonal line crossing a curve
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 14 question 10 answer and solution"

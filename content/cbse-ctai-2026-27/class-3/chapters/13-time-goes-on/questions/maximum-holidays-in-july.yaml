@@ -1,0 +1,46 @@
+id: c3-time-goes-on-maximum-holidays-in-july
+slug: maximum-holidays-in-july
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch13-calendar
+    - c3-ch13-logical-puzzles
+  primaryTopic: c3-ch13-calendar
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In the month of July, no two holidays are on consecutive days. Which of the given
+    options can be understood from the given statement? Note that Sundays are not
+    necessarily holidays.
+  options:
+    - id: option-a
+      text: There cannot be more than 11 holidays in the month of July
+    - id: option-b
+      text: There cannot be more than 16 holidays in the month of July
+    - id: option-c
+      text: There cannot be more than 7 holidays in the month of July
+    - id: option-d
+      text: None of these
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    July has 31 days. To fit in as many holidays as possible, make every other day a
+    holiday starting from the 1st. That gives holidays on all the odd dates, ending on
+    the 31st, which is 16 holidays.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 85
+    section: "Chapter 13 question 10 answer and solution"
