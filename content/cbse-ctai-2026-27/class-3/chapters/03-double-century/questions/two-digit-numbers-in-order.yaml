@@ -1,0 +1,84 @@
+id: c3-double-century-two-digit-numbers-in-order
+slug: two-digit-numbers-in-order
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch3-number-formation
+    - c3-ch3-ordering-numbers
+    - c3-ch3-comparing-numbers
+  primaryTopic: c3-ch3-number-formation
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - two-digit-number-terms
+  options:
+    - id: option-a
+      assetRef: two-digit-option-a
+      accessibleLabel: 89, 86, 85
+    - id: option-b
+      assetRef: two-digit-option-b
+      accessibleLabel: 85, 86, 89
+    - id: option-c
+      assetRef: two-digit-option-c
+      accessibleLabel: 86, 89, 85
+    - id: option-d
+      assetRef: two-digit-option-d
+      accessibleLabel: 85, 89, 86
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In each box the digit the arrow points to becomes the tens digit of three
+    2-digit numbers, and the other digits become the ones digits. The numbers are
+    then written in order from smallest to largest. In the fourth box the arrow
+    points to 8, giving 86, 89, and 85, which in order is 85, 86, 89.
+  assetRefs: []
+assets:
+  - ref: two-digit-number-terms
+    file: ../assets/two-digit-number-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four boxes of four digits with an arrow inside each, followed by the three
+      2-digit numbers they make, with the last one marked by a question mark
+    position: 0
+  - ref: two-digit-option-a
+    file: ../assets/two-digit-option-a.png
+    role: option
+    visibility: public
+    alt: The numbers 89, 86, 85
+    position: 1
+  - ref: two-digit-option-b
+    file: ../assets/two-digit-option-b.png
+    role: option
+    visibility: public
+    alt: The numbers 85, 86, 89
+    position: 2
+  - ref: two-digit-option-c
+    file: ../assets/two-digit-option-c.png
+    role: option
+    visibility: public
+    alt: The numbers 86, 89, 85
+    position: 3
+  - ref: two-digit-option-d
+    file: ../assets/two-digit-option-d.png
+    role: option
+    visibility: public
+    alt: The numbers 85, 89, 86
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 3 question 5 answer and solution"

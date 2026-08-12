@@ -1,0 +1,54 @@
+id: c3-double-century-row-with-most-numbers-left
+slug: row-with-most-numbers-left
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch3-comparing-numbers
+    - c3-ch3-counting-and-steps
+  primaryTopic: c3-ch3-comparing-numbers
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If you remove all the numbers greater than 5 from row 1, all the numbers less
+    than 4 from row 2, and all the numbers greater than 7 from row 3, then which
+    row will have the largest count of numbers remaining?
+  stimulus:
+    assetRefs:
+      - number-rows
+  options:
+    - id: option-a
+      text: Row 1
+    - id: option-b
+      text: Row 2
+    - id: option-c
+      text: Row 3
+    - id: option-d
+      text: Both rows 1 and 3 have equal numbers
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work through one row at a time and count what survives each rule. Row 3 keeps
+    the most numbers.
+  assetRefs: []
+assets:
+  - ref: number-rows
+    file: ../assets/number-rows.png
+    role: stem
+    visibility: public
+    alt: Three labelled rows of single-digit numbers in boxes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 3 question 6 answer and solution"

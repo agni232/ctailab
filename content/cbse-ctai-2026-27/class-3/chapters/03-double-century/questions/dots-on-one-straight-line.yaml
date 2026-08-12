@@ -1,0 +1,52 @@
+id: c3-double-century-dots-on-one-straight-line
+slug: dots-on-one-straight-line
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch3-spatial-reasoning
+  primaryTopic: c3-ch3-spatial-reasoning
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    In the image given below, what is the maximum number of dots that can be
+    connected by drawing a single straight line?
+  stimulus:
+    assetRefs:
+      - dot-grid
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Try lines in every direction, not just across and down. The best straight line
+    passes through 5 dots.
+  assetRefs: []
+assets:
+  - ref: dot-grid
+    file: ../assets/dot-grid.png
+    role: stem
+    visibility: public
+    alt: A pattern of black dots arranged in rows of different lengths
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 3 question 8 answer and solution"

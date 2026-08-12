@@ -1,0 +1,45 @@
+id: c3-double-century-stacks-of-coins
+slug: stacks-of-coins
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch3-number-patterns
+    - c3-ch3-counting-and-steps
+  primaryTopic: c3-ch3-number-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Altogether, 25 coins are to be arranged in different stacks in such a way that
+    each stack has one more coin than the previous stack. If the last stack has 7
+    coins, how many such stacks will be required so that no coins are left?
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Work backwards from the last stack: 7 + 6 + 5 + 4 + 3 = 25. That uses all the
+    coins, so 5 stacks are needed.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 31
+    section: "Chapter 3 question 10 answer and solution"

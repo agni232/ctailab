@@ -1,0 +1,53 @@
+id: c3-double-century-digits-in-circles
+slug: digits-in-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch3-number-formation
+    - c3-ch3-place-value
+  primaryTopic: c3-ch3-number-formation
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Each shape has a digit in it. Which of the following numbers in the options can
+    be formed by using the digits in the CIRCLES only?
+  stimulus:
+    assetRefs:
+      - shapes-with-digits
+  options:
+    - id: option-a
+      text: "615"
+    - id: option-b
+      text: "142"
+    - id: option-c
+      text: "467"
+    - id: option-d
+      text: "146"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: The digits inside the circles are 6, 1, and 4. Those three digits make 146.
+  assetRefs: []
+assets:
+  - ref: shapes-with-digits
+    file: ../assets/shapes-with-digits.png
+    role: stem
+    visibility: public
+    alt: >-
+      Nine shapes in a grid, each holding a digit, including circles containing 6,
+      1, and 4
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 3 question 3 answer and solution"

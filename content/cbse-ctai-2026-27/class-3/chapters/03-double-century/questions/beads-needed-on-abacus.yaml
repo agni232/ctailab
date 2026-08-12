@@ -1,0 +1,52 @@
+id: c3-double-century-beads-needed-on-abacus
+slug: beads-needed-on-abacus
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch3-place-value
+    - c3-ch3-abacus
+  primaryTopic: c3-ch3-abacus
+  estimatedMinutes: 3
+content:
+  prompt: At minimum, how many more beads are required to show number 496 on the given abacus?
+  stimulus:
+    assetRefs:
+      - abacus-243
+  options:
+    - id: option-a
+      text: "487"
+    - id: option-b
+      text: "253"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The abacus shows 2 hundreds, 4 tens, and 3 ones, which is 243. To reach 496 we
+    need 2 more hundreds, 5 more tens, and 3 more ones. That is 2 + 5 + 3 = 10 more
+    beads.
+  assetRefs: []
+assets:
+  - ref: abacus-243
+    file: ../assets/abacus-243.png
+    role: stem
+    visibility: public
+    alt: An abacus with 2 beads on the hundreds rod, 4 on the tens rod, and 3 on the ones rod
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 27
+    section: "Chapter 3 question 1 answer and solution"

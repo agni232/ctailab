@@ -1,0 +1,86 @@
+id: c3-double-century-item-the-rabbit-missed
+slug: item-the-rabbit-missed
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch3-counting-and-steps
+    - c3-ch3-number-patterns
+  primaryTopic: c3-ch3-counting-and-steps
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The rabbit has to reach the end of the path by stepping on EACH block WITHOUT
+    skipping any blocks in between. It collects an item from every 5th block it
+    steps on. Which of the following objects did it NOT collect? The rabbit can
+    step on a block exactly once.
+  stimulus:
+    assetRefs:
+      - rabbit-path
+  options:
+    - id: option-a
+      assetRef: rabbit-option-a
+      accessibleLabel: A black triangle
+    - id: option-b
+      assetRef: rabbit-option-b
+      accessibleLabel: A black square
+    - id: option-c
+      assetRef: rabbit-option-c
+      accessibleLabel: A black diamond
+    - id: option-d
+      assetRef: rabbit-option-d
+      accessibleLabel: A black hexagon
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count the blocks along the path and mark every 5th one. Those are the blocks
+    where the rabbit picks something up. The diamond is not on any of them, so it
+    is the object the rabbit did not collect.
+  assetRefs: []
+assets:
+  - ref: rabbit-path
+    file: ../assets/rabbit-path.png
+    role: stem
+    visibility: public
+    alt: >-
+      A winding path of blocks from START to END with shapes drawn on some of the
+      blocks and a rabbit at the start
+    position: 0
+  - ref: rabbit-option-a
+    file: ../assets/rabbit-option-a.png
+    role: option
+    visibility: public
+    alt: Black triangle
+    position: 1
+  - ref: rabbit-option-b
+    file: ../assets/rabbit-option-b.png
+    role: option
+    visibility: public
+    alt: Black square
+    position: 2
+  - ref: rabbit-option-c
+    file: ../assets/rabbit-option-c.png
+    role: option
+    visibility: public
+    alt: Black diamond
+    position: 3
+  - ref: rabbit-option-d
+    file: ../assets/rabbit-option-d.png
+    role: option
+    visibility: public
+    alt: Black hexagon
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 3 question 9 answer and solution"

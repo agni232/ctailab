@@ -1,0 +1,83 @@
+id: c3-double-century-consecutive-number-series
+slug: consecutive-number-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch3-number-patterns
+    - c3-ch3-comparing-numbers
+  primaryTopic: c3-ch3-number-patterns
+  estimatedMinutes: 3
+content:
+  prompt: If each of the following terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - consecutive-number-series
+  options:
+    - id: option-a
+      assetRef: consecutive-series-option-a
+      accessibleLabel: 438 and 440
+    - id: option-b
+      assetRef: consecutive-series-option-b
+      accessibleLabel: 440 and 441
+    - id: option-c
+      assetRef: consecutive-series-option-c
+      accessibleLabel: 438 and 437
+    - id: option-d
+      assetRef: consecutive-series-option-d
+      accessibleLabel: 437 and 438
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each term holds three numbers that come one after another. The numbers already
+    shown stay where they are, and the missing numbers appear after the arrow. The
+    last term shows "_ _ 439", so the missing numbers are 437 and 438.
+  assetRefs: []
+assets:
+  - ref: consecutive-number-series
+    file: ../assets/consecutive-number-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four terms of three boxes each with an arrow to the missing numbers, showing
+      455, 450, 402, and 439 with the last term marked by a question mark
+    position: 0
+  - ref: consecutive-series-option-a
+    file: ../assets/consecutive-series-option-a.png
+    role: option
+    visibility: public
+    alt: Two boxes showing 438 and 440
+    position: 1
+  - ref: consecutive-series-option-b
+    file: ../assets/consecutive-series-option-b.png
+    role: option
+    visibility: public
+    alt: Two boxes showing 440 and 441
+    position: 2
+  - ref: consecutive-series-option-c
+    file: ../assets/consecutive-series-option-c.png
+    role: option
+    visibility: public
+    alt: Two boxes showing 438 and 437
+    position: 3
+  - ref: consecutive-series-option-d
+    file: ../assets/consecutive-series-option-d.png
+    role: option
+    visibility: public
+    alt: Two boxes showing 437 and 438
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 27
+    pageEnd: 28
+    section: "Chapter 3 question 2 answer and solution"

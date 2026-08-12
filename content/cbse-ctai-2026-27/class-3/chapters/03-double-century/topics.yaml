@@ -1,0 +1,49 @@
+topics:
+  - id: c3-ch3-place-value
+    slug: place-value
+    title: Place Value
+    position: 1
+    status: published
+  - id: c3-ch3-abacus
+    slug: reading-an-abacus
+    title: Reading an Abacus
+    position: 2
+    parentId: c3-ch3-place-value
+    status: published
+  - id: c3-ch3-number-formation
+    slug: making-numbers-from-digits
+    title: Making Numbers from Digits
+    position: 3
+    parentId: c3-ch3-place-value
+    status: published
+  - id: c3-ch3-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 4
+    status: published
+  - id: c3-ch3-comparing-numbers
+    slug: comparing-numbers
+    title: Comparing Numbers
+    position: 5
+    status: published
+  - id: c3-ch3-ordering-numbers
+    slug: ordering-numbers
+    title: Ordering Numbers
+    position: 6
+    parentId: c3-ch3-comparing-numbers
+    status: published
+  - id: c3-ch3-counting-and-steps
+    slug: counting-and-steps
+    title: Counting and Steps
+    position: 7
+    status: published
+  - id: c3-ch3-spatial-reasoning
+    slug: spatial-reasoning
+    title: Spatial Reasoning
+    position: 8
+    status: published
+  - id: c3-ch3-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 9
+    status: published

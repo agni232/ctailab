@@ -1,0 +1,54 @@
+id: c3-double-century-most-beneficial-ladder
+slug: most-beneficial-ladder
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch3-counting-and-steps
+    - c3-ch3-comparing-numbers
+  primaryTopic: c3-ch3-counting-and-steps
+  estimatedMinutes: 3
+content:
+  prompt: Given below is a game board of snakes and ladders. Which ladder is most beneficial?
+  stimulus:
+    assetRefs:
+      - snakes-and-ladders-board
+  options:
+    - id: option-a
+      text: Black
+    - id: option-b
+      text: Blue
+    - id: option-c
+      text: Red
+    - id: option-d
+      text: Green
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count how many steps each ladder moves you forward. Black gives 4 steps, blue
+    gives 12, red gives 6, and green gives 2. The blue ladder helps the most.
+  assetRefs: []
+assets:
+  - ref: snakes-and-ladders-board
+    file: ../assets/snakes-and-ladders-board.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A snakes and ladders board numbered 1 to 30 with black, blue, red, and green
+      ladders and four snakes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 7"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 29
+    pageEnd: 30
+    section: "Chapter 3 question 7 answer and solution"
