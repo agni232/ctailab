@@ -1,0 +1,81 @@
+id: c3-fun-with-shapes-image-that-completes-the-grid
+slug: image-that-completes-the-grid
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-fitting-pieces
+    - c3-ch5-shapes-and-grids
+  primaryTopic: c3-ch5-fitting-pieces
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Identify the image which will complete the square grid given below. You CANNOT
+    rotate the question image or the option images to find the answer.
+  stimulus:
+    assetRefs:
+      - incomplete-square-grid
+  options:
+    - id: option-a
+      assetRef: grid-piece-option-a
+      accessibleLabel: A piece of three boxes with two on top and one below at the left
+    - id: option-b
+      assetRef: grid-piece-option-b
+      accessibleLabel: A piece of three boxes shaped like a step
+    - id: option-c
+      assetRef: grid-piece-option-c
+      accessibleLabel: A piece of three boxes with a gap at the top right
+    - id: option-d
+      assetRef: grid-piece-option-d
+      accessibleLabel: A piece of four boxes climbing to the right
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Match the missing gap in the grid to each option without turning it. Only option
+    a drops straight into the empty space and completes the square.
+  assetRefs: []
+assets:
+  - ref: incomplete-square-grid
+    file: ../assets/incomplete-square-grid.png
+    role: stem
+    visibility: public
+    alt: A square grid of small boxes with a piece missing
+    position: 0
+  - ref: grid-piece-option-a
+    file: ../assets/grid-piece-option-a.png
+    role: option
+    visibility: public
+    alt: Three boxes with two on top and one below at the left
+    position: 1
+  - ref: grid-piece-option-b
+    file: ../assets/grid-piece-option-b.png
+    role: option
+    visibility: public
+    alt: Three boxes shaped like a step
+    position: 2
+  - ref: grid-piece-option-c
+    file: ../assets/grid-piece-option-c.png
+    role: option
+    visibility: public
+    alt: Three boxes with a gap at the top right
+    position: 3
+  - ref: grid-piece-option-d
+    file: ../assets/grid-piece-option-d.png
+    role: option
+    visibility: public
+    alt: Four boxes climbing to the right
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 5 question 9 answer and solution"

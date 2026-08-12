@@ -1,0 +1,56 @@
+id: c3-fun-with-shapes-how-many-times-image-x-appears
+slug: how-many-times-image-x-appears
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch5-hidden-shapes
+    - c3-ch5-counting-shapes
+  primaryTopic: c3-ch5-hidden-shapes
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How many times is Image X present in the Question Image? Rotation of Image X or
+    the Question Image is not allowed.
+  stimulus:
+    assetRefs:
+      - image-x-search
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Search the woven pattern for the six-pointed star exactly as it is drawn,
+    without turning it. It appears 4 times.
+  assetRefs: []
+assets:
+  - ref: image-x-search
+    file: ../assets/image-x-search.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A large woven diamond pattern labelled Question Image beside a six-pointed
+      star labelled Image X
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 11"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 42
+    pageEnd: 43
+    section: "Chapter 5 question 11 answer and solution"

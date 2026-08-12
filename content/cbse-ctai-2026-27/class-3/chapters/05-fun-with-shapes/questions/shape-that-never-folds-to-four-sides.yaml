@@ -1,0 +1,73 @@
+id: c3-fun-with-shapes-shape-that-never-folds-to-four-sides
+slug: shape-that-never-folds-to-four-sides
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch5-folding-and-symmetry
+  primaryTopic: c3-ch5-folding-and-symmetry
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which of the following shapes CAN NEVER give a 4-sided figure, when folded only
+    once into two equal halves?
+  options:
+    - id: option-a
+      assetRef: fold-shape-option-a
+      accessibleLabel: A square
+    - id: option-b
+      assetRef: fold-shape-option-b
+      accessibleLabel: A pentagon
+    - id: option-c
+      assetRef: fold-shape-option-c
+      accessibleLabel: A hexagon
+    - id: option-d
+      assetRef: fold-shape-option-d
+      accessibleLabel: A four-pointed star
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Fold each shape in half and count the sides of the half that is left. The
+    four-pointed star always keeps its spiky edges, so it can never make a
+    four-sided figure.
+  assetRefs: []
+assets:
+  - ref: fold-shape-option-a
+    file: ../assets/fold-shape-option-a.png
+    role: option
+    visibility: public
+    alt: A square
+    position: 1
+  - ref: fold-shape-option-b
+    file: ../assets/fold-shape-option-b.png
+    role: option
+    visibility: public
+    alt: A pentagon
+    position: 2
+  - ref: fold-shape-option-c
+    file: ../assets/fold-shape-option-c.png
+    role: option
+    visibility: public
+    alt: A hexagon
+    position: 3
+  - ref: fold-shape-option-d
+    file: ../assets/fold-shape-option-d.png
+    role: option
+    visibility: public
+    alt: A four-pointed star
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 23
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 38
+    pageEnd: 39
+    section: "Chapter 5 question 4 answer and solution"

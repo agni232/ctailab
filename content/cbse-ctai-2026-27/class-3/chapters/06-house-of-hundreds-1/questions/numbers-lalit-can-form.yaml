@@ -1,0 +1,58 @@
+id: c3-house-of-hundreds-1-numbers-lalit-can-form
+slug: numbers-lalit-can-form
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch6-making-numbers
+    - c3-ch6-place-value
+  primaryTopic: c3-ch6-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Lalit has 3 marbles and 3 boxes, where each box represents a place value, as
+    labelled. He places the marbles into the boxes to form a number. In the image
+    shown below, the number 120 is formed. How many different numbers can Lalit form
+    if he uses all 3 marbles every time to make a number?
+  stimulus:
+    assetRefs:
+      - marbles-in-place-value-boxes
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Group the marbles in every possible way. All three in one box gives 3, 30, and
+    300. Two together with one apart gives 120, 102, 12, 210, 21, and 201. One in
+    each box gives 111. That is 3 + 6 + 1 = 10 numbers.
+  assetRefs: []
+assets:
+  - ref: marbles-in-place-value-boxes
+    file: ../assets/marbles-in-place-value-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three boxes labelled Hundreds, Tens, and Units holding one marble, two
+      marbles, and no marbles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 27
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 6 question 8 answer and solution"

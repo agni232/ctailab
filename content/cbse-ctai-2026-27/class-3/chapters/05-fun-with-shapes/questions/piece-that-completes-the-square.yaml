@@ -1,0 +1,82 @@
+id: c3-fun-with-shapes-piece-that-completes-the-square
+slug: piece-that-completes-the-square
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-fitting-pieces
+  primaryTopic: c3-ch5-fitting-pieces
+  estimatedMinutes: 3
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - square-completion-analogy
+  options:
+    - id: option-a
+      assetRef: square-piece-option-a
+      accessibleLabel: A piece with a slanted left edge
+    - id: option-b
+      assetRef: square-piece-option-b
+      accessibleLabel: A piece with a slanted top edge
+    - id: option-c
+      assetRef: square-piece-option-c
+      accessibleLabel: A piece with a slanted right edge
+    - id: option-d
+      assetRef: square-piece-option-d
+      accessibleLabel: A plain upright rectangle
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In the first pair the two shapes join into a perfect square with straight outer
+    edges. Options a and c have slants that do not line up, and option d is the
+    wrong size. Only option b fits the given shape into a complete square.
+  assetRefs: []
+assets:
+  - ref: square-completion-analogy
+    file: ../assets/square-completion-analogy.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two shapes adding up to a square, then a second shape plus a question mark
+      adding up to another square
+    position: 0
+  - ref: square-piece-option-a
+    file: ../assets/square-piece-option-a.png
+    role: option
+    visibility: public
+    alt: Piece with a slanted left edge
+    position: 1
+  - ref: square-piece-option-b
+    file: ../assets/square-piece-option-b.png
+    role: option
+    visibility: public
+    alt: Piece with a slanted top edge
+    position: 2
+  - ref: square-piece-option-c
+    file: ../assets/square-piece-option-c.png
+    role: option
+    visibility: public
+    alt: Piece with a slanted right edge
+    position: 3
+  - ref: square-piece-option-d
+    file: ../assets/square-piece-option-d.png
+    role: option
+    visibility: public
+    alt: Plain upright rectangle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 40
+    pageEnd: 41
+    section: "Chapter 5 question 8 answer and solution"

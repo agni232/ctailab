@@ -1,0 +1,43 @@
+topics:
+  - id: c3-ch5-shapes-and-grids
+    slug: shapes-and-grids
+    title: Shapes and Grids
+    position: 1
+    status: published
+  - id: c3-ch5-counting-shapes
+    slug: counting-shapes
+    title: Counting Shapes
+    position: 2
+    parentId: c3-ch5-shapes-and-grids
+    status: published
+  - id: c3-ch5-hidden-shapes
+    slug: hidden-shapes
+    title: Hidden Shapes
+    position: 3
+    parentId: c3-ch5-shapes-and-grids
+    status: published
+  - id: c3-ch5-folding-and-symmetry
+    slug: folding-and-symmetry
+    title: Folding and Symmetry
+    position: 4
+    status: published
+  - id: c3-ch5-fitting-pieces
+    slug: fitting-pieces
+    title: Fitting Pieces Together
+    position: 5
+    status: published
+  - id: c3-ch5-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 6
+    status: published
+  - id: c3-ch5-turning-shapes
+    slug: turning-shapes
+    title: Turning Shapes
+    position: 7
+    status: published
+  - id: c3-ch5-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

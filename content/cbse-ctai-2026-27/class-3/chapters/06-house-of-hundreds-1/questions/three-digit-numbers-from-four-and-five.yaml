@@ -1,0 +1,43 @@
+id: c3-house-of-hundreds-1-three-digit-numbers-from-four-and-five
+slug: three-digit-numbers-from-four-and-five
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch6-making-numbers
+  primaryTopic: c3-ch6-making-numbers
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    How many 3-digit numbers can you make with only 4 and 5, if one of the digits
+    is present exactly twice?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The digits must be either 4, 4, 5 or 4, 5, 5. Those give 445, 454, 544, 455,
+    545, and 554, which is 6 numbers.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 27
+    section: "Chapter 6 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 6 question 1 answer and solution"

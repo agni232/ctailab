@@ -1,0 +1,44 @@
+id: c3-fun-with-shapes-thinking-spot-possible-team
+slug: thinking-spot-possible-team
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch5-logical-puzzles
+  primaryTopic: c3-ch5-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A coach must make 2 teams of two players each from four friends A, B, C, and D
+    such that each player can be in only one team. A cannot team up with B, and C
+    cannot team up with B. Which of the following is a possible team?
+  options:
+    - id: option-a
+      text: D and A
+    - id: option-b
+      text: C and D
+    - id: option-c
+      text: C and B
+    - id: option-d
+      text: D and B
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    B cannot be with A and cannot be with C, so the only partner left for B is D.
+    That leaves A and C to make the second team.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 5 The Thinking Spot answer and solution"

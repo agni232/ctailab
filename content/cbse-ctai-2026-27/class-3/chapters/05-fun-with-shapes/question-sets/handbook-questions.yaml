@@ -1,0 +1,78 @@
+id: cbse-2026-27-c3-ch5-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 11 questions from Chapter 5 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-fun-with-shapes-complete-the-grey-square
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 23
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-count-the-rectangles
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 23
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-shapes-that-overlap-when-folded
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 23
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-shape-that-never-folds-to-four-sides
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 23
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-term-that-forms-a-square
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 24
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-turns-needed-to-form-a-square
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 24
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-shape-not-hidden-in-the-figure
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 24
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-piece-that-completes-the-square
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-image-that-completes-the-grid
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-block-that-appears-most-often
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Fun with Shapes"
+  - questionId: c3-fun-with-shapes-how-many-times-image-x-appears
+    questionVersion: 1
+    position: 11
+    displayNumber: "11"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Fun with Shapes"

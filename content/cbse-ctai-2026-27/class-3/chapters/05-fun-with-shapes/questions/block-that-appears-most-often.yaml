@@ -1,0 +1,75 @@
+id: c3-fun-with-shapes-block-that-appears-most-often
+slug: block-that-appears-most-often
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-counting-shapes
+    - c3-ch5-shapes-and-grids
+  primaryTopic: c3-ch5-counting-shapes
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    The figure below is formed of different blocks. Which block appears the MOST
+    number of times in the given figure?
+  stimulus:
+    assetRefs:
+      - block-figure
+  options:
+    - id: option-a
+      assetRef: block-option-a
+      accessibleLabel: An L-shaped grey block
+    - id: option-b
+      assetRef: block-option-b
+      accessibleLabel: A grey triangle
+    - id: option-c
+      assetRef: block-option-c
+      accessibleLabel: A grey square
+    - id: option-d
+      text: All of them occur equally
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Count each block in turn. The L-shaped block appears three times, while the
+    triangle and the square appear twice each, so the L-shaped block appears most
+    often.
+  assetRefs: []
+assets:
+  - ref: block-figure
+    file: ../assets/block-figure.png
+    role: stem
+    visibility: public
+    alt: A wide figure built from grey blocks of different shapes
+    position: 0
+  - ref: block-option-a
+    file: ../assets/block-option-a.png
+    role: option
+    visibility: public
+    alt: An L-shaped grey block
+    position: 1
+  - ref: block-option-b
+    file: ../assets/block-option-b.png
+    role: option
+    visibility: public
+    alt: A grey triangle
+    position: 2
+  - ref: block-option-c
+    file: ../assets/block-option-c.png
+    role: option
+    visibility: public
+    alt: A grey square
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 5 question 10 answer and solution"

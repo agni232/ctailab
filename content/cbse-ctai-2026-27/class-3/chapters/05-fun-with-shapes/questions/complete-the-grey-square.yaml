@@ -1,0 +1,82 @@
+id: c3-fun-with-shapes-complete-the-grey-square
+slug: complete-the-grey-square
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-fitting-pieces
+    - c3-ch5-shapes-and-grids
+  primaryTopic: c3-ch5-fitting-pieces
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Given below is an incomplete grid. Which option will complete the grid such
+    that ALL the grey boxes TOGETHER form a square?
+  stimulus:
+    assetRefs:
+      - grid-with-grey-boxes
+  options:
+    - id: option-a
+      assetRef: grid-option-a
+      accessibleLabel: A grid whose grey boxes make an uneven block
+    - id: option-b
+      assetRef: grid-option-b
+      accessibleLabel: A grid whose grey boxes make a taller than wide block
+    - id: option-c
+      assetRef: grid-option-c
+      accessibleLabel: A grid whose grey boxes make a square block
+    - id: option-d
+      assetRef: grid-option-d
+      accessibleLabel: A grid whose grey boxes are split apart
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count each small box as one unit. A square needs the same number of boxes along
+    every side. Only option c gives the grey boxes an equal number of boxes on each
+    side.
+  assetRefs: []
+assets:
+  - ref: grid-with-grey-boxes
+    file: ../assets/grid-with-grey-boxes.png
+    role: stem
+    visibility: public
+    alt: An incomplete grid with some boxes shaded grey and a question mark below
+    position: 0
+  - ref: grid-option-a
+    file: ../assets/grid-option-a.png
+    role: option
+    visibility: public
+    alt: Grid with grey boxes forming an uneven block
+    position: 1
+  - ref: grid-option-b
+    file: ../assets/grid-option-b.png
+    role: option
+    visibility: public
+    alt: Grid with grey boxes forming a tall block
+    position: 2
+  - ref: grid-option-c
+    file: ../assets/grid-option-c.png
+    role: option
+    visibility: public
+    alt: Grid with grey boxes forming a square block
+    position: 3
+  - ref: grid-option-d
+    file: ../assets/grid-option-d.png
+    role: option
+    visibility: public
+    alt: Grid with grey boxes split into separate parts
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 23
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 5 question 1 answer and solution"

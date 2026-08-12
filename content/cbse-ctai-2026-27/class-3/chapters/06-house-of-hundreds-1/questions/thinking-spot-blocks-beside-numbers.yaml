@@ -1,0 +1,83 @@
+id: c3-house-of-hundreds-1-thinking-spot-blocks-beside-numbers
+slug: thinking-spot-blocks-beside-numbers
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch6-logical-puzzles
+    - c3-ch6-place-value
+  primaryTopic: c3-ch6-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: If every row follows the same theme, what will come in the place of "A" and "B"?
+  stimulus:
+    assetRefs:
+      - number-block-rows
+  options:
+    - id: option-a
+      assetRef: block-rows-option-a
+      accessibleLabel: A equals 3 and B is 2 blocks
+    - id: option-b
+      assetRef: block-rows-option-b
+      accessibleLabel: A equals 3 and B is 3 blocks
+    - id: option-c
+      assetRef: block-rows-option-c
+      accessibleLabel: A equals 4 and B is 3 blocks
+    - id: option-d
+      assetRef: block-rows-option-d
+      accessibleLabel: A equals 4 and B is 2 blocks
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The number of small blocks beside a number matches its value. In the last row, 5
+    already has 2 blocks on its right, so B must be 3 blocks to make 5. A then has
+    one block on its left and B's 3 blocks on its right, which is 4 blocks in total,
+    so A is 4.
+  assetRefs: []
+assets:
+  - ref: number-block-rows
+    file: ../assets/number-block-rows.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows of boxed numbers with small blocks between them, the last row
+      containing the letters A and B
+    position: 0
+  - ref: block-rows-option-a
+    file: ../assets/block-rows-option-a.png
+    role: option
+    visibility: public
+    alt: A equals 3 and B is drawn as 2 blocks
+    position: 1
+  - ref: block-rows-option-b
+    file: ../assets/block-rows-option-b.png
+    role: option
+    visibility: public
+    alt: A equals 3 and B is drawn as 3 blocks
+    position: 2
+  - ref: block-rows-option-c
+    file: ../assets/block-rows-option-c.png
+    role: option
+    visibility: public
+    alt: A equals 4 and B is drawn as 3 blocks
+    position: 3
+  - ref: block-rows-option-d
+    file: ../assets/block-rows-option-d.png
+    role: option
+    visibility: public
+    alt: A equals 4 and B is drawn as 2 blocks
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 6 The Thinking Spot answer and solution"

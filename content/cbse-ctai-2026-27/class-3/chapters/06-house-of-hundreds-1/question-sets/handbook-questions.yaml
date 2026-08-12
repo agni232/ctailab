@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch6-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 6 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-house-of-hundreds-1-three-digit-numbers-from-four-and-five
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-numbers-less-than-150-after-shifting
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-difference-of-two-largest-numbers
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-odd-one-out-number-names
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-lowest-sum-of-digits
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-interchanging-digits-of-435
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-shreyas-score
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-numbers-lalit-can-form
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 27
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-units-digit-counting-zeros
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 28
+    sourceSection: "Chapter 6: House of Hundreds – I"
+  - questionId: c3-house-of-hundreds-1-difference-that-cannot-happen
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 28
+    sourceSection: "Chapter 6: House of Hundreds – I"

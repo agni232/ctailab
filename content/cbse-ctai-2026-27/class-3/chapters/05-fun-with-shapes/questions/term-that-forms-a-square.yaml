@@ -1,0 +1,53 @@
+id: c3-fun-with-shapes-term-that-forms-a-square
+slug: term-that-forms-a-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch5-shape-patterns
+    - c3-ch5-shapes-and-grids
+  primaryTopic: c3-ch5-shape-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If the boxes keep getting added in the same pattern, then in which term, a
+    complete square (made up of boxes) will be formed?
+  stimulus:
+    assetRefs:
+      - growing-box-pattern
+  options:
+    - id: option-a
+      text: "7"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each term adds one more box, so term 9 has 9 boxes. The boxes fill a column at a
+    time, so by the 9th term they make three rows of three, which is a square.
+  assetRefs: []
+assets:
+  - ref: growing-box-pattern
+    file: ../assets/growing-box-pattern.png
+    role: stem
+    visibility: public
+    alt: Terms 1 to 5 of a pattern, each adding one more box than the term before
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 24
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 5 question 5 answer and solution"

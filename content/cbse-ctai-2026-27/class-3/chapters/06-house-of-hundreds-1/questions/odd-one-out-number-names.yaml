@@ -1,0 +1,47 @@
+id: c3-house-of-hundreds-1-odd-one-out-number-names
+slug: odd-one-out-number-names
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch6-number-names
+    - c3-ch6-place-value
+  primaryTopic: c3-ch6-number-names
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Find the odd one out. It is not related to the number of letters, vowels, or
+    consonants of the words.
+  options:
+    - id: option-a
+      text: Thirty-Two tens and two ones
+    - id: option-b
+      text: Three hundreds and Twelve ones
+    - id: option-c
+      text: Three hundred and twenty-two
+    - id: option-d
+      text: Three hundreds, two tens and two ones
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Work out the value each one describes. Thirty-two tens and two ones is 320 + 2 =
+    322. Three hundred and twenty-two is 322. Three hundreds, two tens and two ones
+    is 300 + 20 + 2 = 322. But three hundreds and twelve ones is 300 + 12 = 312, so
+    that one is the odd one out.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 27
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 44
+    pageEnd: 45
+    section: "Chapter 6 question 4 answer and solution"

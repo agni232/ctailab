@@ -1,0 +1,54 @@
+id: c3-fun-with-shapes-turns-needed-to-form-a-square
+slug: turns-needed-to-form-a-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch5-turning-shapes
+    - c3-ch5-fitting-pieces
+  primaryTopic: c3-ch5-turning-shapes
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The given shapes must be arranged to form a square without removing any shape.
+    Which of the following actions are required to do so?
+  stimulus:
+    assetRefs:
+      - shapes-to-form-square
+  options:
+    - id: option-a
+      text: All the green shapes must take one left turn
+    - id: option-b
+      text: All the green shapes must take one right turn
+    - id: option-c
+      text: All the orange shapes must take one right turn
+    - id: option-d
+      text: All the orange shapes must take one left turn
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Turn each orange piece one step to the right and the gaps close up, leaving a
+    closed square with no shape left over.
+  assetRefs: []
+assets:
+  - ref: shapes-to-form-square
+    file: ../assets/shapes-to-form-square.png
+    role: stem
+    visibility: public
+    alt: Green and orange interlocking pieces arranged in a ring with a gap in the middle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 24
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 39
+    pageEnd: 40
+    section: "Chapter 5 question 6 answer and solution"

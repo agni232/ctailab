@@ -1,0 +1,44 @@
+id: c3-house-of-hundreds-1-difference-that-cannot-happen
+slug: difference-that-cannot-happen
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch6-subtraction
+    - c3-ch6-comparing-numbers
+  primaryTopic: c3-ch6-subtraction
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If P and Q are two 3-digit numbers, then which of the following CANNOT be the
+    difference of P and Q?
+  options:
+    - id: option-a
+      text: "950"
+    - id: option-b
+      text: "150"
+    - id: option-c
+      text: "300"
+    - id: option-d
+      text: "750"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The biggest gap between two 3-digit numbers is 999 − 100 = 899. Since 950 is
+    more than 899, it can never be the difference.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 6 question 10 answer and solution"

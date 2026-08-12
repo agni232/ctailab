@@ -1,0 +1,53 @@
+id: c3-fun-with-shapes-shapes-that-overlap-when-folded
+slug: shapes-that-overlap-when-folded
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-folding-and-symmetry
+  primaryTopic: c3-ch5-folding-and-symmetry
+  estimatedMinutes: 3
+content:
+  prompt: When the sheet is folded along the red dotted line, which two identical shapes will overlap?
+  stimulus:
+    assetRefs:
+      - folding-sheet
+  options:
+    - id: option-a
+      text: Triangle
+    - id: option-b
+      text: Square
+    - id: option-c
+      text: Circle
+    - id: option-d
+      text: Diamond
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Folding along the dotted line brings Part A on top of Part B, so the shapes at
+    matching positions land on each other. The only shape that lands on another
+    just like it is the triangle.
+  assetRefs: []
+assets:
+  - ref: folding-sheet
+    file: ../assets/folding-sheet.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A sheet split by a red dotted line into Part A and Part B, each holding
+      coloured circles, triangles, squares, and diamonds
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 23
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 5 question 3 answer and solution"

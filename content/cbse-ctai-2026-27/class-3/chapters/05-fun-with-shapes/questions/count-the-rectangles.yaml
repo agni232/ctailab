@@ -1,0 +1,51 @@
+id: c3-fun-with-shapes-count-the-rectangles
+slug: count-the-rectangles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch5-counting-shapes
+  primaryTopic: c3-ch5-counting-shapes
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Count the number of rectangles in the given figure. Please count all squares as
+    rectangles for the purpose of this question.
+  stimulus:
+    assetRefs:
+      - rectangles-figure
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: Trace the outline of every four-sided box in the figure. There are 4 rectangles.
+  assetRefs: []
+assets:
+  - ref: rectangles-figure
+    file: ../assets/rectangles-figure.png
+    role: stem
+    visibility: public
+    alt: A house-like figure drawn from overlapping rectangles and triangles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 23
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 37
+    pageEnd: 38
+    section: "Chapter 5 question 2 answer and solution"
