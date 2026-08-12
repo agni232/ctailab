@@ -1,0 +1,46 @@
+id: c3-whats-in-a-name-thinking-spot-movie-day
+slug: thinking-spot-movie-day
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch1-logical-puzzles
+  primaryTopic: c3-ch1-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Raj, Aryan, and Rahul went to a movie on different days. Raj did not go to the
+    movie on Monday, Wednesday, or Thursday. Aryan went to the movie on Friday, and
+    Rahul went to the movie on Sunday. Which of the following days could Raj have
+    gone to the movie?
+  options:
+    - id: option-a
+      text: Thursday
+    - id: option-b
+      text: Tuesday
+    - id: option-c
+      text: Saturday
+    - id: option-d
+      text: Either Tuesday or Saturday
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Cross out Monday, Wednesday, and Thursday because Raj did not go on those days.
+    Cross out Friday and Sunday because Aryan and Rahul went then. Tuesday and
+    Saturday are the only days left for Raj.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 14
+    section: "Chapter 1 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 1 The Thinking Spot answer and solution"

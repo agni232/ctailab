@@ -29,13 +29,16 @@ describe("content authoring", () => {
       defaultShift: 3,
       defaultText: "HELLO"
     });
-    expect(chapter?.questions).toHaveLength(16);
+    expect(chapter?.questions).toHaveLength(17);
 
     const chapterPractice = chapter?.questionSets.find(
       (questionSet) => questionSet.data.slug === "chapter-practice"
     );
     const handbookQuestions = chapter?.questionSets.find(
       (questionSet) => questionSet.data.slug === "handbook-questions"
+    );
+    const thinkingSpot = chapter?.questionSets.find(
+      (questionSet) => questionSet.data.slug === "thinking-spot"
     );
 
     expect(chapterPractice?.data.items.map((item) => item.position)).toEqual([1, 2, 3]);
@@ -48,6 +51,12 @@ describe("content authoring", () => {
     expect(handbookQuestions?.data.items.map((item) => item.sourcePage)).toEqual([
       12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 14, 14, 14
     ]);
+
+    // The Thinking Spot is a bonus puzzle, so it stays out of the handbook
+    // numbering and carries no display number of its own.
+    expect(thinkingSpot?.data.kind).toBe("challenge");
+    expect(thinkingSpot?.data.items).toHaveLength(1);
+    expect(thinkingSpot?.data.items[0]?.displayNumber).toBeUndefined();
   });
 
   it("rejects a choice answer that does not reference an option", () => {

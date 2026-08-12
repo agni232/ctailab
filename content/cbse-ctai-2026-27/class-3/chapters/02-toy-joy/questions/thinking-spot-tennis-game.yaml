@@ -1,0 +1,44 @@
+id: c3-toy-joy-thinking-spot-tennis-game
+slug: thinking-spot-tennis-game
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch2-logical-puzzles
+  primaryTopic: c3-ch2-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Two friends A and B play a game of tennis with 5 sets. No set can end in a
+    draw. Anyone who wins 3 or more sets will win the game. A won set 1, B won sets
+    2 and 3. If B did not lose any EVEN NUMBERED set, who won the tennis game?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: The game ended in a tie
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    B won sets 2 and 3. B also won set 4, because B did not lose any even numbered
+    set and no set can be a draw. That gives B 3 wins out of 5, so B won the game.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 17
+    section: "Chapter 2 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 2 The Thinking Spot answer and solution"

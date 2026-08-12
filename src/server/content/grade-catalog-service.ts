@@ -5,6 +5,14 @@ import {
 } from "@/generated/prisma/client";
 import { prisma } from "@/server/db/prisma";
 
+export interface ChapterQuestionSetSummary {
+  id: string;
+  slug: string;
+  title: string;
+  description: string | null;
+  questionCount: number;
+}
+
 export interface PublicGradeCatalog {
   grade: {
     level: number;
@@ -34,15 +42,37 @@ export interface PublicGradeCatalog {
         description: string;
         displayLabel: string | null;
       }>;
-      handbookSets: Array<{
-        id: string;
-        slug: string;
-        title: string;
-        description: string | null;
-        questionCount: number;
-      }>;
+      handbookSets: ChapterQuestionSetSummary[];
+      challengeSets: ChapterQuestionSetSummary[];
     }>;
   }>;
+}
+
+interface QuestionSetRow {
+  id: string;
+  slug: string;
+  title: string;
+  description: string | null;
+  kind: QuestionSetKind;
+  versions: Array<{ _count: { items: number } }>;
+}
+
+function summariseSets(
+  questionSets: QuestionSetRow[],
+  kind: QuestionSetKind
+): ChapterQuestionSetSummary[] {
+  return questionSets.flatMap((questionSet) => {
+    const version = questionSet.versions[0];
+    return questionSet.kind === kind && version
+      ? [{
+          id: questionSet.id,
+          slug: questionSet.slug,
+          title: questionSet.title,
+          description: questionSet.description,
+          questionCount: version._count.items
+        }]
+      : [];
+  });
 }
 
 export async function getPublishedGradeCatalog(
@@ -88,7 +118,7 @@ export async function getPublishedGradeCatalog(
                 }
               },
               questionSets: {
-                where: { kind: QuestionSetKind.HANDBOOK },
+                where: { kind: { in: [QuestionSetKind.HANDBOOK, QuestionSetKind.CHALLENGE] } },
                 orderBy: { createdAt: "asc" },
                 include: {
                   versions: {
@@ -145,18 +175,8 @@ export async function getPublishedGradeCatalog(
           description: item.activityVersion.description,
           displayLabel: item.displayLabel
         })),
-        handbookSets: chapter.questionSets.flatMap((questionSet) => {
-          const version = questionSet.versions[0];
-          return version
-            ? [{
-                id: questionSet.id,
-                slug: questionSet.slug,
-                title: questionSet.title,
-                description: questionSet.description,
-                questionCount: version._count.items
-              }]
-            : [];
-        })
+        handbookSets: summariseSets(chapter.questionSets, QuestionSetKind.HANDBOOK),
+        challengeSets: summariseSets(chapter.questionSets, QuestionSetKind.CHALLENGE)
       }))
     }))
   };

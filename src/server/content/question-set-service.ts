@@ -196,13 +196,14 @@ export function getPublishedQuestionSet(identifier: string): Promise<PublicQuest
   });
 }
 
-export function getPublishedHandbookQuestionSet(params: {
+export function getPublishedChapterQuestionSet(params: {
   gradeLevel: number;
   subjectSlug: string;
   chapterSlug: string;
+  kind: QuestionSetKind;
 }): Promise<PublicQuestionSet | null> {
   return getPublishedQuestionSetWhere({
-    kind: QuestionSetKind.HANDBOOK,
+    kind: params.kind,
     chapter: {
       slug: params.chapterSlug,
       course: {
@@ -212,6 +213,22 @@ export function getPublishedHandbookQuestionSet(params: {
       }
     }
   });
+}
+
+export function getPublishedHandbookQuestionSet(params: {
+  gradeLevel: number;
+  subjectSlug: string;
+  chapterSlug: string;
+}): Promise<PublicQuestionSet | null> {
+  return getPublishedChapterQuestionSet({ ...params, kind: QuestionSetKind.HANDBOOK });
+}
+
+export function getPublishedThinkingSpotQuestionSet(params: {
+  gradeLevel: number;
+  subjectSlug: string;
+  chapterSlug: string;
+}): Promise<PublicQuestionSet | null> {
+  return getPublishedChapterQuestionSet({ ...params, kind: QuestionSetKind.CHALLENGE });
 }
 
 export async function checkChoiceQuestion(

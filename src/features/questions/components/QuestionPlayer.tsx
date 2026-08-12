@@ -44,9 +44,11 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
   const result = results[currentQuestion.id];
   const completedCount = Object.keys(results).length;
   const correctCount = Object.values(results).filter((item) => item.correct).length;
-  const progress = questionSet.questions.length === 0
+  const totalQuestions = questionSet.questions.length;
+  const isSingleQuestion = totalQuestions === 1;
+  const progress = totalQuestions === 0
     ? 0
-    : Math.round((completedCount / questionSet.questions.length) * 100);
+    : Math.round((completedCount / totalQuestions) * 100);
 
   function goToQuestion(index: number) {
     const boundedIndex = Math.max(0, Math.min(questionSet.questions.length - 1, index));
@@ -107,10 +109,11 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
 
   return (
     <div className="handbook-player">
+      {isSingleQuestion ? null : (
       <nav className="question-jump-nav" aria-label="Choose a handbook question">
         <div className="question-jump-heading">
           <span>Jump to a question</span>
-          <strong>{completedCount}/{questionSet.questions.length} checked</strong>
+          <strong>{completedCount}/{totalQuestions} checked</strong>
         </div>
         <div className="question-number-strip">
           {questionSet.questions.map((question, index) => {
@@ -130,16 +133,21 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
           })}
         </div>
       </nav>
+      )}
 
-      <div className="handbook-progress" aria-label={`${progress}% of questions checked`}>
-        <span style={{ width: `${progress}%` }} />
-      </div>
+      {isSingleQuestion ? null : (
+        <div className="handbook-progress" aria-label={`${progress}% of questions checked`}>
+          <span style={{ width: `${progress}%` }} />
+        </div>
+      )}
 
       <article className="handbook-question-panel">
         <header className="handbook-question-header">
           <div>
             <p className="handbook-question-kicker">
-              Question {currentQuestion.displayNumber} of {questionSet.questions.length}
+              {isSingleQuestion
+                ? "Brain teaser"
+                : `Question ${currentQuestion.displayNumber} of ${totalQuestions}`}
             </p>
             <h2 ref={questionHeadingRef} tabIndex={-1}>
               {currentQuestion.content.prompt}
@@ -200,15 +208,17 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
         ) : null}
 
         <footer className="handbook-question-footer">
-          <button
-            className="button button-quiet"
-            type="button"
-            disabled={currentIndex === 0}
-            onClick={() => goToQuestion(currentIndex - 1)}
-          >
-            <ArrowLeft size={18} aria-hidden="true" />
-            Previous
-          </button>
+          {isSingleQuestion ? <span /> : (
+            <button
+              className="button button-quiet"
+              type="button"
+              disabled={currentIndex === 0}
+              onClick={() => goToQuestion(currentIndex - 1)}
+            >
+              <ArrowLeft size={18} aria-hidden="true" />
+              Previous
+            </button>
+          )}
 
           {!result ? (
             <button
@@ -220,7 +230,7 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
               <Check size={19} aria-hidden="true" />
               {checking ? "Checking..." : "Check answer"}
             </button>
-          ) : currentIndex < questionSet.questions.length - 1 ? (
+          ) : currentIndex < totalQuestions - 1 ? (
             <button
               className="button button-primary"
               type="button"
@@ -233,13 +243,13 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
         </footer>
       </article>
 
-      {completedCount === questionSet.questions.length ? (
+      {completedCount === totalQuestions && !isSingleQuestion ? (
         <section className="handbook-complete" aria-labelledby="handbook-complete-title">
           <span aria-hidden="true"><BookOpenCheck size={30} /></span>
           <div>
             <p className="eyebrow">Chapter practice complete</p>
             <h2 id="handbook-complete-title">
-              You explored all {questionSet.questions.length} questions.
+              You explored all {totalQuestions} questions.
             </h2>
             <p>You solved {correctCount} correctly. Revisit any number to keep practising.</p>
           </div>

@@ -37,3 +37,8 @@ topics:
     title: Classification
     position: 7
     status: published
+  - id: c3-ch1-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

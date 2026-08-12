@@ -42,3 +42,8 @@ topics:
     title: Sorting Shapes
     position: 8
     status: published
+  - id: c3-ch2-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 9
+    status: published

@@ -3064,6 +3064,16 @@ input[type="range"] {
   background: var(--coral-soft);
 }
 
+.chapter-resource-challenge {
+  border-color: var(--violet);
+  background: #f7f4fe;
+}
+
+.chapter-resource-challenge:hover {
+  border-color: var(--violet);
+  background: var(--violet-soft);
+}
+
 .chapter-resource-icon {
   display: grid;
   width: 50px;
@@ -3076,6 +3086,10 @@ input[type="range"] {
 
 .chapter-resource-practice .chapter-resource-icon {
   background: var(--coral);
+}
+
+.chapter-resource-challenge .chapter-resource-icon {
+  background: var(--violet);
 }
 
 .chapter-resource > span:nth-child(2) {
@@ -3577,6 +3591,15 @@ input[type="range"] {
   border-bottom: 1px solid #dec769;
   padding: 26px 0 30px;
   background: var(--yellow-soft);
+}
+
+.handbook-hero-challenge {
+  border-bottom-color: #c9bbe8;
+  background: var(--violet-soft);
+}
+
+.handbook-hero-challenge .handbook-hero-icon {
+  color: var(--violet);
 }
 
 .handbook-hero-inner {

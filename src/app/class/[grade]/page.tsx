@@ -6,6 +6,7 @@ import {
   ArrowRight,
   BookOpenCheck,
   BrainCircuit,
+  Lightbulb,
   Play,
   Sparkles
 } from "lucide-react";
@@ -121,6 +122,26 @@ export default async function ClassPage({ params }: ClassPageProps) {
                               </span>
                               <span>
                                 <small>Practice · {questionSet.questionCount} questions</small>
+                                <strong>{questionSet.title}</strong>
+                              </span>
+                              <ArrowRight size={21} aria-hidden="true" />
+                            </Link>
+                          ))}
+
+                          {chapter.challengeSets.map((questionSet) => (
+                            <Link
+                              className="chapter-resource chapter-resource-challenge"
+                              href={`/class/${catalog.grade.level}/${course.subject.slug}/${chapter.slug}/thinking-spot`}
+                              key={questionSet.id}
+                            >
+                              <span className="chapter-resource-icon" aria-hidden="true">
+                                <Lightbulb size={23} />
+                              </span>
+                              <span>
+                                <small>
+                                  Bonus · {questionSet.questionCount}{" "}
+                                  {questionSet.questionCount === 1 ? "puzzle" : "puzzles"}
+                                </small>
                                 <strong>{questionSet.title}</strong>
                               </span>
                               <ArrowRight size={21} aria-hidden="true" />
