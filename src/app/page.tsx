@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Bot, BrainCircuit, Check, LockKeyhole, Play } from "lucide-react";
+import { ArrowRight, BookOpenCheck, Bot, BrainCircuit, Check, LockKeyhole, Play } from "lucide-react";
 import { SiteHeader } from "@/app/SiteHeader";
 import { getLearningExperiencesByGrade, grades } from "@/features/curriculum/catalog";
 
@@ -76,11 +76,11 @@ export default function HomePage() {
                     </span>
                     <div className="class-card-copy">
                       <h3>{grade.name}</h3>
-                      <p>{available ? `${experiences.length} mission ready` : "Missions coming soon"}</p>
+                      <p>{available ? "Start with Chapter 1" : "Missions coming soon"}</p>
                     </div>
                     {available ? (
-                      <Link className="class-action" href={`/activity/${experiences[0].slug}`}>
-                        Open
+                      <Link className="class-action" href={`/class/${grade.level}`}>
+                        Explore class
                         <ArrowRight size={19} aria-hidden="true" />
                       </Link>
                     ) : (
@@ -145,10 +145,19 @@ export default function HomePage() {
                 <h2 id="mission-heading">Crack a secret message</h2>
                 <p>{featuredExperience.description}</p>
               </div>
-              <Link className="button button-dark" href={`/activity/${featuredExperience.slug}`}>
-                <Play size={19} fill="currentColor" aria-hidden="true" />
-                Start Caesar Cipher
-              </Link>
+              <div className="mission-actions">
+                <Link className="button button-dark" href={`/activity/${featuredExperience.slug}`}>
+                  <Play size={19} fill="currentColor" aria-hidden="true" />
+                  Start Caesar Cipher
+                </Link>
+                <Link
+                  className="text-link"
+                  href="/class/3/computational-thinking-ai/whats-in-a-name/questions"
+                >
+                  <BookOpenCheck size={18} aria-hidden="true" />
+                  Handbook questions
+                </Link>
+              </div>
             </div>
           </section>
         ) : null}

@@ -6,6 +6,7 @@ import { requireActivityImplementation } from "@/activity-engine/registry";
 import { SiteHeader } from "@/app/SiteHeader";
 import {
   getDomainTitle,
+  getGradeLevel,
   getGradeName,
   getLearningExperienceBySlug,
   getPublishedLearningExperiences
@@ -60,6 +61,7 @@ export default async function ActivityPage({ params }: ActivityPageProps) {
   const ActivityComponent = activity.component;
   const grades = experience.gradeIds.map(getGradeName).join(", ");
   const domains = experience.domainIds.map(getDomainTitle).join(", ");
+  const primaryGradeLevel = getGradeLevel(experience.gradeIds[0]);
 
   return (
     <>
@@ -67,9 +69,9 @@ export default async function ActivityPage({ params }: ActivityPageProps) {
       <main id="main-content">
         <section className="activity-hero">
           <div className="content-frame activity-heading">
-            <Link className="back-link" href="/">
+            <Link className="back-link" href={primaryGradeLevel ? `/class/${primaryGradeLevel}` : "/"}>
               <ArrowLeft size={18} aria-hidden="true" />
-              All classes
+              {primaryGradeLevel ? `Class ${primaryGradeLevel} chapters` : "All classes"}
             </Link>
             <p className="mission-kicker">Mission 01 · {grades}</p>
             <h1>{experience.title}</h1>

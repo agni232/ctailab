@@ -22,6 +22,10 @@ export function getGradeName(gradeId: string): string {
   return grades.find((grade) => grade.id === gradeId)?.name ?? gradeId;
 }
 
+export function getGradeLevel(gradeId: string): number | undefined {
+  return grades.find((grade) => grade.id === gradeId)?.level;
+}
+
 export function getDomainTitle(domainCode: DomainCode): string {
   return domains.find((domain) => domain.code === domainCode)?.title ?? domainCode;
 }
