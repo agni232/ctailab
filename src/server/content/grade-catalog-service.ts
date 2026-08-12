@@ -75,6 +75,23 @@ function summariseSets(
   });
 }
 
+/**
+ * Grade levels that actually have published, publicly readable content behind
+ * them. The home page uses this so a class becomes reachable the moment its
+ * content is synced, rather than waiting on a hand-maintained list.
+ */
+export async function getPublishedGradeLevels(): Promise<number[]> {
+  const courses = await prisma.course.findMany({
+    where: {
+      status: ContentStatus.PUBLISHED,
+      chapters: { some: { status: ContentStatus.PUBLISHED } }
+    },
+    select: { grade: { select: { level: true } } }
+  });
+
+  return [...new Set(courses.map((course) => course.grade.level))].sort((a, b) => a - b);
+}
+
 export async function getPublishedGradeCatalog(
   gradeLevel: number
 ): Promise<PublicGradeCatalog | null> {

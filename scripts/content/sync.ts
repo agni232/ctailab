@@ -708,7 +708,10 @@ async function main() {
           }
         }
       }
-    }, { maxWait: 20_000, timeout: 120_000 });
+      // The whole catalog is published in one transaction so a failed import can
+      // never leave the runtime tables half-updated. That means the budget has to
+      // cover every upsert for every class, and it grows as classes are added.
+    }, { maxWait: 60_000, timeout: 900_000 });
 
     console.log(
       `Content synchronized to ${target}: ${catalog.editions.length} edition(s), ` +

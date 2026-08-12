@@ -3,12 +3,16 @@ import Image from "next/image";
 import { ArrowRight, BookOpenCheck, Bot, BrainCircuit, Check, LockKeyhole, Play } from "lucide-react";
 import { SiteHeader } from "@/app/SiteHeader";
 import { getLearningExperiencesByGrade, grades } from "@/features/curriculum/catalog";
+import { getPublishedGradeLevels } from "@/server/content/grade-catalog-service";
 
 const gradeThemes = ["teal", "blue", "coral", "yellow", "violet", "green"];
 
-export default function HomePage() {
+export const dynamic = "force-dynamic";
+
+export default async function HomePage() {
   const classThreeExperiences = getLearningExperiencesByGrade("grade-3");
   const featuredExperience = classThreeExperiences[0];
+  const publishedGradeLevels = new Set(await getPublishedGradeLevels());
 
   return (
     <>
@@ -66,8 +70,7 @@ export default function HomePage() {
 
             <div className="class-grid">
               {grades.map((grade, index) => {
-                const experiences = getLearningExperiencesByGrade(grade.id);
-                const available = grade.status === "available" && experiences.length > 0;
+                const available = publishedGradeLevels.has(grade.level);
 
                 return (
                   <article className={`class-card class-card-${gradeThemes[index]}`} key={grade.id}>
