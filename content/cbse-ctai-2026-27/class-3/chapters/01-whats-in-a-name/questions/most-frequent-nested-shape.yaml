@@ -1,0 +1,79 @@
+id: c3-whats-in-a-name-most-frequent-nested-shape
+slug: most-frequent-nested-shape
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-visual-patterns
+  primaryTopic: c3-ch1-visual-patterns
+  estimatedMinutes: 2
+content:
+  prompt: If each term follows the same theme, what will replace the question mark?
+  stimulus:
+    assetRefs:
+      - most-frequent-nested-shape
+  options:
+    - id: option-a
+      assetRef: most-frequent-option-a
+      accessibleLabel: A circle containing a black triangle
+    - id: option-b
+      assetRef: most-frequent-option-b
+      accessibleLabel: A black pentagon
+    - id: option-c
+      assetRef: most-frequent-option-c
+      accessibleLabel: A circle containing a black circle
+    - id: option-d
+      assetRef: most-frequent-option-d
+      accessibleLabel: A black diamond containing a white circle
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    In each example, the shape that appears most often before the arrow is shown
+    after it. In the final box, the circle containing a triangle appears most
+    often, so option A is correct.
+  assetRefs: []
+assets:
+  - ref: most-frequent-nested-shape
+    file: ../assets/most-frequent-nested-shape.png
+    role: stem
+    visibility: public
+    alt: Three examples and one incomplete group of nested shapes
+    position: 0
+  - ref: most-frequent-option-a
+    file: ../assets/most-frequent-option-a.png
+    role: option
+    visibility: public
+    alt: Circle containing a black triangle
+    position: 1
+  - ref: most-frequent-option-b
+    file: ../assets/most-frequent-option-b.png
+    role: option
+    visibility: public
+    alt: Black pentagon
+    position: 2
+  - ref: most-frequent-option-c
+    file: ../assets/most-frequent-option-c.png
+    role: option
+    visibility: public
+    alt: Circle containing a black circle
+    position: 3
+  - ref: most-frequent-option-d
+    file: ../assets/most-frequent-option-d.png
+    role: option
+    visibility: public
+    alt: Black diamond containing a white circle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 5 answer and solution"

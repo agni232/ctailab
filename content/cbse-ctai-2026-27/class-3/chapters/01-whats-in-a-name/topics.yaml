@@ -1,0 +1,39 @@
+topics:
+  - id: c3-ch1-secret-messages
+    slug: secret-messages
+    title: Secret Messages
+    position: 1
+    status: published
+  - id: c3-ch1-letter-shifts
+    slug: letter-shifts
+    title: Letter Shifts
+    position: 2
+    parentId: c3-ch1-secret-messages
+    status: published
+  - id: c3-ch1-encode-and-decode
+    slug: encode-and-decode
+    title: Encode and Decode
+    position: 3
+    parentId: c3-ch1-secret-messages
+    status: published
+  - id: c3-ch1-number-names
+    slug: number-names
+    title: Number Names
+    position: 4
+    status: published
+  - id: c3-ch1-word-and-letter-patterns
+    slug: word-and-letter-patterns
+    title: Word and Letter Patterns
+    position: 5
+    parentId: c3-ch1-number-names
+    status: published
+  - id: c3-ch1-visual-patterns
+    slug: visual-patterns
+    title: Visual Patterns
+    position: 6
+    status: published
+  - id: c3-ch1-classification
+    slug: classification
+    title: Classification
+    position: 7
+    status: published

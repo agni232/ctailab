@@ -1,0 +1,44 @@
+id: c3-whats-in-a-name-roys-favourite-number
+slug: roys-favourite-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-number-names
+  estimatedMinutes: 1
+content:
+  prompt: >-
+    Roy's favourite number has 3 letters in its name. The number of vowels is
+    double the number of consonants in its name. What is Roy's favourite number?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "1"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    ONE has 3 letters. It has 2 vowels, O and E, and 1 consonant, N. Therefore,
+    the number of vowels is double the number of consonants.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 question 2 answer and solution"

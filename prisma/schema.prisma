@@ -1,0 +1,470 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum ContentAccessTier {
+  PUBLIC
+  ACCOUNT
+  PREMIUM
+}
+
+enum QuestionOrigin {
+  OFFICIAL_HANDBOOK
+  PLATFORM_CREATED
+  ADAPTED
+}
+
+enum ResponseType {
+  SINGLE_CHOICE
+  MULTIPLE_CHOICE
+  FILL_IN_BLANKS
+  SHORT_TEXT
+  NUMERIC
+  SELF_REVIEW
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  DIFFICULT
+}
+
+enum QuestionSetKind {
+  HANDBOOK
+  TOPIC_PRACTICE
+  CHAPTER_PRACTICE
+  REVISION
+  CHALLENGE
+  MIXED
+}
+
+enum AssetVisibility {
+  PUBLIC
+  PRIVATE
+}
+
+enum AssetProvider {
+  SUPABASE_STORAGE
+  AWS_S3
+}
+
+enum AssetRole {
+  STEM
+  OPTION
+  SUPPORTING
+  SOLUTION
+  SOURCE
+}
+
+enum SourceDocumentType {
+  STUDENT_HANDBOOK
+  TEACHER_HANDBOOK
+  PLATFORM_CREATED
+  OTHER
+}
+
+model Curriculum {
+  id        String              @id
+  code      String              @unique
+  name      String
+  editions  CurriculumEdition[]
+  createdAt DateTime            @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime            @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("curricula")
+}
+
+model CurriculumEdition {
+  id              String           @id
+  curriculumId    String           @map("curriculum_id")
+  curriculum      Curriculum       @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
+  academicSession String           @map("academic_session")
+  status          ContentStatus    @default(DRAFT)
+  courses         Course[]
+  sourceDocuments SourceDocument[]
+  createdAt       DateTime         @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt       DateTime         @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([curriculumId, academicSession])
+  @@map("curriculum_editions")
+}
+
+model Grade {
+  id        String   @id
+  level     Int      @unique
+  label     String
+  courses   Course[]
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("grades")
+}
+
+model Subject {
+  id          String   @id
+  code        String   @unique
+  slug        String   @unique
+  name        String
+  description String?
+  courses     Course[]
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("subjects")
+}
+
+model Course {
+  id                  String                  @id
+  curriculumEditionId String                  @map("curriculum_edition_id")
+  curriculumEdition   CurriculumEdition       @relation(fields: [curriculumEditionId], references: [id], onDelete: Restrict)
+  gradeId             String                  @map("grade_id")
+  grade               Grade                   @relation(fields: [gradeId], references: [id], onDelete: Restrict)
+  subjectId           String                  @map("subject_id")
+  subject             Subject                 @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  slug                String
+  title               String
+  description         String?
+  status              ContentStatus           @default(DRAFT)
+  position            Int                     @default(0)
+  chapters            Chapter[]
+  questionProfiles    QuestionCourseProfile[]
+  createdAt           DateTime                @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt           DateTime                @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([curriculumEditionId, gradeId, subjectId])
+  @@unique([curriculumEditionId, slug])
+  @@index([gradeId, subjectId])
+  @@map("courses")
+}
+
+model Chapter {
+  id               String                @id
+  courseId         String                @map("course_id")
+  course           Course                @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  slug             String
+  displayNumber    String?               @map("display_number")
+  title            String
+  summary          String?
+  position         Int
+  status           ContentStatus         @default(DRAFT)
+  topics           Topic[]
+  activityItems    ChapterActivityItem[]
+  questionSets     QuestionSet[]
+  sourceReferences SourceReference[]
+  createdAt        DateTime              @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime              @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([courseId, slug])
+  @@unique([courseId, position])
+  @@map("chapters")
+}
+
+model Topic {
+  id            String              @id
+  chapterId     String              @map("chapter_id")
+  chapter       Chapter             @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  parentId      String?             @map("parent_id")
+  parent        Topic?              @relation("TopicTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children      Topic[]             @relation("TopicTree")
+  slug          String
+  title         String
+  position      Int
+  status        ContentStatus       @default(DRAFT)
+  questionLinks QuestionTopicLink[]
+  createdAt     DateTime            @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime            @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([chapterId, slug])
+  @@unique([chapterId, position])
+  @@index([parentId])
+  @@map("topics")
+}
+
+model Activity {
+  id        String            @id
+  slug      String            @unique
+  engineKey String            @map("engine_key")
+  versions  ActivityVersion[]
+  createdAt DateTime          @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime          @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("activities")
+}
+
+model ActivityVersion {
+  id               String                @id
+  activityId       String                @map("activity_id")
+  activity         Activity              @relation(fields: [activityId], references: [id], onDelete: Cascade)
+  version          Int
+  title            String
+  description      String
+  configuration    Json                  @db.JsonB
+  contentHash      String                @map("content_hash")
+  studentContent   Json                  @map("student_content") @db.JsonB
+  teacherContent   Json?                 @map("teacher_content") @db.JsonB
+  accessTier       ContentAccessTier     @default(PUBLIC) @map("access_tier")
+  status           ContentStatus         @default(DRAFT)
+  publishedAt      DateTime?             @map("published_at") @db.Timestamptz(3)
+  chapterItems     ChapterActivityItem[]
+  sourceReferences SourceReference[]
+  createdAt        DateTime              @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime              @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([activityId, version])
+  @@index([status, publishedAt])
+  @@map("activity_versions")
+}
+
+model ChapterActivityItem {
+  id                String          @id
+  chapterId         String          @map("chapter_id")
+  chapter           Chapter         @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  activityVersionId String          @map("activity_version_id")
+  activityVersion   ActivityVersion @relation(fields: [activityVersionId], references: [id], onDelete: Restrict)
+  position          Int
+  displayLabel      String?         @map("display_label")
+  createdAt         DateTime        @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@unique([chapterId, position])
+  @@unique([chapterId, activityVersionId])
+  @@map("chapter_activity_items")
+}
+
+model Question {
+  id        String            @id
+  slug      String            @unique
+  versions  QuestionVersion[]
+  createdAt DateTime          @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime          @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("questions")
+}
+
+model QuestionVersion {
+  id               String                  @id
+  questionId       String                  @map("question_id")
+  question         Question                @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  version          Int
+  renderer         String
+  responseType     ResponseType            @map("response_type")
+  content          Json                    @db.JsonB
+  responseConfig   Json                    @map("response_config") @db.JsonB
+  contentHash      String                  @map("content_hash")
+  origin           QuestionOrigin
+  language         String                  @default("en")
+  status           ContentStatus           @default(DRAFT)
+  publishedAt      DateTime?               @map("published_at") @db.Timestamptz(3)
+  answerKey        QuestionAnswerKey?
+  solution         QuestionSolution?
+  courseProfiles   QuestionCourseProfile[]
+  setItems         QuestionSetItem[]
+  assetLinks       QuestionAsset[]
+  sourceReferences SourceReference[]
+  createdAt        DateTime                @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime                @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([questionId, version])
+  @@index([renderer, responseType, status])
+  @@map("question_versions")
+}
+
+model QuestionAnswerKey {
+  questionVersionId String          @id @map("question_version_id")
+  questionVersion   QuestionVersion @relation(fields: [questionVersionId], references: [id], onDelete: Cascade)
+  gradingConfig     Json            @map("grading_config") @db.JsonB
+  maxScore          Float           @default(1) @map("max_score")
+  createdAt         DateTime        @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt         DateTime        @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("question_answer_keys")
+}
+
+model QuestionSolution {
+  questionVersionId String          @id @map("question_version_id")
+  questionVersion   QuestionVersion @relation(fields: [questionVersionId], references: [id], onDelete: Cascade)
+  content           Json            @db.JsonB
+  createdAt         DateTime        @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt         DateTime        @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("question_solutions")
+}
+
+model QuestionCourseProfile {
+  id                String              @id
+  questionVersionId String              @map("question_version_id")
+  questionVersion   QuestionVersion     @relation(fields: [questionVersionId], references: [id], onDelete: Cascade)
+  courseId          String              @map("course_id")
+  course            Course              @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  difficulty        Difficulty
+  estimatedMinutes  Int?                @map("estimated_minutes")
+  topicLinks        QuestionTopicLink[]
+  createdAt         DateTime            @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt         DateTime            @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([questionVersionId, courseId])
+  @@index([courseId, difficulty])
+  @@map("question_course_profiles")
+}
+
+model QuestionTopicLink {
+  questionCourseProfileId String                @map("question_course_profile_id")
+  questionCourseProfile   QuestionCourseProfile @relation(fields: [questionCourseProfileId], references: [id], onDelete: Cascade)
+  topicId                 String                @map("topic_id")
+  topic                   Topic                 @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  isPrimary               Boolean               @default(false) @map("is_primary")
+
+  @@id([questionCourseProfileId, topicId])
+  @@index([topicId])
+  @@map("question_topic_links")
+}
+
+model QuestionSet {
+  id          String               @id
+  chapterId   String               @map("chapter_id")
+  chapter     Chapter              @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  slug        String
+  title       String
+  description String?
+  kind        QuestionSetKind
+  versions    QuestionSetVersion[]
+  createdAt   DateTime             @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime             @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([chapterId, slug])
+  @@map("question_sets")
+}
+
+model QuestionSetVersion {
+  id            String            @id
+  questionSetId String            @map("question_set_id")
+  questionSet   QuestionSet       @relation(fields: [questionSetId], references: [id], onDelete: Cascade)
+  version       Int
+  instructions  Json?             @db.JsonB
+  contentHash   String            @map("content_hash")
+  accessTier    ContentAccessTier @default(PUBLIC) @map("access_tier")
+  status        ContentStatus     @default(DRAFT)
+  publishedAt   DateTime?         @map("published_at") @db.Timestamptz(3)
+  items         QuestionSetItem[]
+  createdAt     DateTime          @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime          @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([questionSetId, version])
+  @@index([status, publishedAt])
+  @@map("question_set_versions")
+}
+
+model QuestionSetItem {
+  id                   String             @id
+  questionSetVersionId String             @map("question_set_version_id")
+  questionSetVersion   QuestionSetVersion @relation(fields: [questionSetVersionId], references: [id], onDelete: Cascade)
+  questionVersionId    String             @map("question_version_id")
+  questionVersion      QuestionVersion    @relation(fields: [questionVersionId], references: [id], onDelete: Restrict)
+  position             Int
+  displayNumber        String?            @map("display_number")
+  sourcePage           Int?               @map("source_page")
+  sourceSection        String?            @map("source_section")
+  createdAt            DateTime           @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@unique([questionSetVersionId, position])
+  @@unique([questionSetVersionId, questionVersionId])
+  @@index([questionSetVersionId, displayNumber])
+  @@map("question_set_items")
+}
+
+model ContentAsset {
+  id               String           @id
+  sha256           String
+  mimeType         String           @map("mime_type")
+  width            Int?
+  height           Int?
+  visibility       AssetVisibility
+  originalFileName String?          @map("original_file_name")
+  locations        AssetLocation[]
+  questionLinks    QuestionAsset[]
+  sourceDocuments  SourceDocument[]
+  createdAt        DateTime         @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime         @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@unique([sha256, visibility])
+  @@map("content_assets")
+}
+
+model AssetLocation {
+  id        String        @id
+  assetId   String        @map("asset_id")
+  asset     ContentAsset  @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  provider  AssetProvider
+  bucket    String
+  objectKey String        @map("object_key")
+  isPrimary Boolean       @default(false) @map("is_primary")
+  createdAt DateTime      @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@unique([provider, bucket, objectKey])
+  @@index([assetId, isPrimary])
+  @@map("asset_locations")
+}
+
+model QuestionAsset {
+  questionVersionId String          @map("question_version_id")
+  questionVersion   QuestionVersion @relation(fields: [questionVersionId], references: [id], onDelete: Cascade)
+  assetId           String          @map("asset_id")
+  asset             ContentAsset    @relation(fields: [assetId], references: [id], onDelete: Restrict)
+  role              AssetRole
+  refKey            String          @map("ref_key")
+  altText           String          @map("alt_text")
+  position          Int             @default(0)
+
+  @@id([questionVersionId, refKey])
+  @@index([assetId])
+  @@map("question_assets")
+}
+
+model SourceDocument {
+  id                  String             @id
+  curriculumEditionId String?            @map("curriculum_edition_id")
+  curriculumEdition   CurriculumEdition? @relation(fields: [curriculumEditionId], references: [id], onDelete: SetNull)
+  assetId             String?            @map("asset_id")
+  asset               ContentAsset?      @relation(fields: [assetId], references: [id], onDelete: SetNull)
+  title               String
+  fileName            String?            @map("file_name")
+  documentType        SourceDocumentType @map("document_type")
+  rightsNotes         String?            @map("rights_notes")
+  references          SourceReference[]
+  createdAt           DateTime           @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt           DateTime           @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([curriculumEditionId])
+  @@map("source_documents")
+}
+
+model SourceReference {
+  id                String           @id
+  sourceDocumentId  String           @map("source_document_id")
+  sourceDocument    SourceDocument   @relation(fields: [sourceDocumentId], references: [id], onDelete: Cascade)
+  page              Int?
+  pageEnd           Int?             @map("page_end")
+  section           String?
+  notes             String?
+  chapterId         String?          @map("chapter_id")
+  chapter           Chapter?         @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  activityVersionId String?          @map("activity_version_id")
+  activityVersion   ActivityVersion? @relation(fields: [activityVersionId], references: [id], onDelete: Cascade)
+  questionVersionId String?          @map("question_version_id")
+  questionVersion   QuestionVersion? @relation(fields: [questionVersionId], references: [id], onDelete: Cascade)
+  createdAt         DateTime         @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@index([sourceDocumentId])
+  @@index([questionVersionId])
+  @@map("source_references")
+}

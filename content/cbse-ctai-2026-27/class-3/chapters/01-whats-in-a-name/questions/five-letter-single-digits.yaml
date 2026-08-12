@@ -1,0 +1,44 @@
+id: c3-whats-in-a-name-five-letter-single-digits
+slug: five-letter-single-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-number-names
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    X is a single-digit number. If its spelling has exactly five letters, how
+    many different values can X have? Count a repeated letter every time it appears.
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Of the single-digit numbers from 0 to 9, THREE, SEVEN, and EIGHT each have
+    exactly five letters. There are 3 possible values.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 13"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 1 question 13 answer and solution"

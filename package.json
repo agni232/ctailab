@@ -6,25 +6,41 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "content:validate": "node --import tsx scripts/content/validate.ts",
+    "content:sync": "node --import tsx scripts/content/sync.ts",
     "lint": "eslint . --max-warnings=0",
+    "postinstall": "prisma generate",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "@supabase/supabase-js": "^2.112.2",
+    "dotenv": "^17.4.2",
     "lucide-react": "^0.468.0",
     "next": "^15.5.0",
+    "pg": "^8.23.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@types/node": "^24.0.0",
+    "@types/pg": "^8.21.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "eslint": "^9.32.0",
     "eslint-config-next": "^15.5.0",
     "jsdom": "^26.1.0",
+    "prisma": "^7.9.1",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.0",
     "vitest": "^3.2.0"
   },

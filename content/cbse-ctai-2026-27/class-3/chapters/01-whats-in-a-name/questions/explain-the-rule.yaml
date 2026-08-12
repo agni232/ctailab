@@ -1,0 +1,35 @@
+id: caesar-explain-the-rule
+slug: caesar-explain-the-rule
+version: 1
+renderer: short-answer
+origin: platform-created
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-secret-messages
+    - c3-ch1-encode-and-decode
+  primaryTopic: c3-ch1-encode-and-decode
+  estimatedMinutes: 3
+content:
+  prompt: In your own words, what does the key tell us to do?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 300
+answer:
+  evaluation: self-review
+  accepted: []
+  normalization:
+    - trim
+  keyIdeas:
+    - The key tells us how many places to move.
+    - Every letter moves by the same number of places.
+solution:
+  text: Compare your answer with the key ideas. You can improve it before moving on.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctailab-platform-content
+    notes: Platform-created reflection question.

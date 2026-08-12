@@ -1,0 +1,47 @@
+id: c3-whats-in-a-name-hidden-largest-number-name
+slug: hidden-largest-number-name
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-word-and-letter-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Find the largest number name hidden in the series. The letters in the
+    number name must appear together as continuous letters.
+  stimulus:
+    text: FORHLKJLTEMELEVENDSKLFOURSDGSTWENTYSJLSIXTKSEVENL
+    assetRefs: []
+  options:
+    - id: option-a
+      text: "60"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "20"
+    - id: option-d
+      text: "70"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    SIX and TWENTY are hidden in the series. Twenty is larger than six, so 20
+    is the correct answer.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 question 1 answer and solution"

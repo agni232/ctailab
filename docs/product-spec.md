@@ -5,8 +5,8 @@
 **Current curriculum scope:** CBSE CT & AI Classes 3–8, academic session 2026–27  
 **MVP:** Class 3 Caesar Cipher interactive learning experience  
 **Primary stack:** Next.js + TypeScript + Vercel  
-**Database:** MongoDB, introduced when persistent application data is required  
-**Product model:** Student + Teacher, with a parent view inside the student's account  
+**Database:** PostgreSQL through Prisma, initially hosted by Supabase
+**Product model:** Public learning first; parent accounts with child profiles later; teacher workflows after that
 **Owner:** One-person development team
 
 ---
@@ -920,9 +920,9 @@ Use references/IDs.
 
 ---
 
-# 22. Suggested MongoDB Collections
+# 22. Suggested PostgreSQL Tables
 
-Initial logical model:
+Initial relational model:
 
 ```text
 users
@@ -1220,7 +1220,7 @@ Score/result
 - teacher login
 - parent login
 - full student dashboard
-- MongoDB
+- authentication and saved progress
 - test series
 - subscriptions
 - payments
@@ -1282,7 +1282,7 @@ Do not optimise for revenue before establishing engagement.
           │                         │
           │                  ┌──────┴──────┐
           │                  │             │
-          │              MongoDB       Event API
+          │             PostgreSQL     Event API
           │
           └── Activity Engine
                  │
@@ -2045,7 +2045,7 @@ Next.js
 +
 Vercel
 +
-MongoDB when needed
+PostgreSQL through Prisma
 +
 First-party event API
 ```
@@ -2146,7 +2146,7 @@ For the product:
 | Initial platform | Web |
 | Framework | Next.js + TypeScript |
 | Deployment | Vercel |
-| Database | MongoDB when persistent data is required |
+| Database | PostgreSQL through Prisma |
 | Analytics | First-party events + basic traffic analytics |
 | Segment | Not required for MVP |
 | Content storage | Data-driven |

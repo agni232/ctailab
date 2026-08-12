@@ -1,0 +1,35 @@
+id: caesar-key-shift-choice
+slug: caesar-key-shift-choice
+version: 1
+renderer: single-choice-text
+origin: platform-created
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch1-letter-shifts
+  primaryTopic: c3-ch1-letter-shifts
+  estimatedMinutes: 1
+content:
+  prompt: With key 3, what does F become?
+  options:
+    - id: option-h
+      text: H
+    - id: option-i
+      text: I
+    - id: option-j
+      text: J
+    - id: option-k
+      text: K
+response:
+  type: single-choice
+answer:
+  optionId: option-i
+solution:
+  text: Move three places from F. F moves to G, then H, then I.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctailab-platform-content
+    notes: Platform-created practice reinforcing the chapter's shift-key concept.

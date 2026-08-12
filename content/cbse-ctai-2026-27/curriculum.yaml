@@ -1,0 +1,24 @@
+curriculum:
+  id: cbse
+  code: CBSE
+  name: Central Board of Secondary Education
+
+edition:
+  id: cbse-2026-27
+  academicSession: 2026-27
+  status: published
+
+sourceDocuments:
+  - id: ctai-class-3-student-handbook-2026-27
+    title: Computational Thinking and Artificial Intelligence Class 3 Student Handbook
+    fileName: CTAI_Pri3SH_2026-27.pdf
+    documentType: student-handbook
+    rightsNotes: Source material is retained for internal curriculum authoring and provenance.
+  - id: ctai-class-3-teacher-handbook-2026-27
+    title: Computational Thinking and Artificial Intelligence Class 3 Teacher Handbook
+    fileName: CTAI_Pri3TH_2026-27.pdf
+    documentType: teacher-handbook
+    rightsNotes: Source material is retained for internal curriculum authoring and provenance.
+  - id: ctailab-platform-content
+    title: CTAI Lab Platform-Created Content
+    documentType: platform-created

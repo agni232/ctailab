@@ -1,0 +1,90 @@
+id: cbse-2026-27-c3-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 13 questions from Chapter 1 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-whats-in-a-name-hidden-largest-number-name
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 12
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-roys-favourite-number
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 12
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-black-white-number-code
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 12
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-number-name-range-pattern
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 12
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-most-frequent-nested-shape
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 12
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-odd-transport-mode
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 13
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-number-names-dictionary-order
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 13
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-circle-letters-number-name
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 13
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-ordered-letter-number-name
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 13
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-letter-shape-number-name
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 13
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-alternating-number-name-series
+    questionVersion: 1
+    position: 11
+    displayNumber: "11"
+    sourcePage: 14
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-single-vowel-number-name
+    questionVersion: 1
+    position: 12
+    displayNumber: "12"
+    sourcePage: 14
+    sourceSection: "Chapter 1: What's in a Name?"
+  - questionId: c3-whats-in-a-name-five-letter-single-digits
+    questionVersion: 1
+    position: 13
+    displayNumber: "13"
+    sourcePage: 14
+    sourceSection: "Chapter 1: What's in a Name?"

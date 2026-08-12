@@ -1,0 +1,56 @@
+id: caesar-wrap-around-blanks
+slug: caesar-wrap-around-blanks
+version: 1
+renderer: fill-in-blanks
+origin: platform-created
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-letter-shifts
+    - c3-ch1-encode-and-decode
+  primaryTopic: c3-ch1-letter-shifts
+  estimatedMinutes: 2
+content:
+  prompt: Complete both letter shifts using key 3.
+  segments:
+    - type: text
+      value: X becomes
+    - type: blank
+      id: blank-x
+      label: secret letter for X
+    - type: text
+      value: and Z becomes
+    - type: blank
+      id: blank-z
+      label: secret letter for Z
+    - type: text
+      value: .
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-x
+      input: text
+      maxLength: 1
+    - id: blank-z
+      input: text
+      maxLength: 1
+answer:
+  blanks:
+    blank-x:
+      accepted:
+        - A
+      caseSensitive: false
+    blank-z:
+      accepted:
+        - C
+      caseSensitive: false
+  scoring: per-blank
+solution:
+  text: X moves to Y, Z, then A. Z wraps to A, B, then C.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctailab-platform-content
+    notes: Platform-created practice for alphabet wrap-around.

@@ -1,0 +1,81 @@
+id: c3-whats-in-a-name-alternating-number-name-series
+slug: alternating-number-name-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-visual-patterns
+  primaryTopic: c3-ch1-visual-patterns
+  estimatedMinutes: 3
+content:
+  prompt: What will replace the question mark in the series?
+  stimulus:
+    assetRefs:
+      - alternating-number-series
+  options:
+    - id: option-a
+      assetRef: alternating-series-option-a
+      accessibleLabel: Rectangles show 9 and TEN with 17 in a diamond below
+    - id: option-b
+      assetRef: alternating-series-option-b
+      accessibleLabel: Rectangles show NINE and 10 with 19 in a diamond below
+    - id: option-c
+      assetRef: alternating-series-option-c
+      accessibleLabel: A diamond with 19 above rectangles showing 9 and TEN
+    - id: option-d
+      assetRef: alternating-series-option-d
+      accessibleLabel: Rectangles show 9 and TEN with 19 in a diamond below
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The rectangles continue with 9 and TEN. Their sum is 19. The number and
+    number-name formats alternate, and the diamond also alternates between below
+    and above. The next diamond belongs below the rectangles, so option D is correct.
+  assetRefs: []
+assets:
+  - ref: alternating-number-series
+    file: ../assets/alternating-number-series.png
+    role: stem
+    visibility: public
+    alt: Four terms alternating number and number-name rectangles with their sum in a diamond
+    position: 0
+  - ref: alternating-series-option-a
+    file: ../assets/alternating-series-option-a.png
+    role: option
+    visibility: public
+    alt: Rectangles with 9 and TEN and a lower diamond containing 17
+    position: 1
+  - ref: alternating-series-option-b
+    file: ../assets/alternating-series-option-b.png
+    role: option
+    visibility: public
+    alt: Rectangles with NINE and 10 and a lower diamond containing 19
+    position: 2
+  - ref: alternating-series-option-c
+    file: ../assets/alternating-series-option-c.png
+    role: option
+    visibility: public
+    alt: Upper diamond containing 19 and rectangles with 9 and TEN
+    position: 3
+  - ref: alternating-series-option-d
+    file: ../assets/alternating-series-option-d.png
+    role: option
+    visibility: public
+    alt: Rectangles with 9 and TEN and a lower diamond containing 19
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 11"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 18
+    pageEnd: 19
+    section: "Chapter 1 question 11 answer and solution"

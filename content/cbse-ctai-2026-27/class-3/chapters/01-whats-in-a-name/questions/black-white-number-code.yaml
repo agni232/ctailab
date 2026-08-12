@@ -1,0 +1,52 @@
+id: c3-whats-in-a-name-black-white-number-code
+slug: black-white-number-code
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-visual-patterns
+  primaryTopic: c3-ch1-visual-patterns
+  estimatedMinutes: 2
+content:
+  prompt: If each box follows the same theme, what will replace the question mark?
+  stimulus:
+    assetRefs:
+      - black-white-number-code
+  options:
+    - id: option-a
+      text: NINE3
+    - id: option-b
+      text: THREE9
+    - id: option-c
+      text: THREE3
+    - id: option-d
+      text: 9THREE
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Write the number in the black circle first as a word, then write the number
+    in the white circle as a numeral. The black circle has 3 and the white
+    circle has 9, so the answer is THREE9.
+  assetRefs: []
+assets:
+  - ref: black-white-number-code
+    file: ../assets/black-white-number-code.png
+    role: stem
+    visibility: public
+    alt: Four boxes pairing black and white numbered circles with a word-number code
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 question 3 answer and solution"

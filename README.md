@@ -16,6 +16,7 @@ pnpm dev
 pnpm typecheck
 pnpm test
 pnpm build
+pnpm content:validate
 ```
 
 ## Architecture Notes
@@ -25,4 +26,5 @@ pnpm build
 - Activity behavior lives in reusable engines.
 - The Caesar Cipher algorithm is independent of React.
 - Analytics use a first-party event envelope and avoid personal data.
-- MongoDB, authentication, teacher tools and saved progress are deferred until product usage justifies them.
+- Curriculum and questions are stored in PostgreSQL through Prisma and authored as validated YAML.
+- Authentication, teacher tools and saved progress are deferred until the content foundation is established.

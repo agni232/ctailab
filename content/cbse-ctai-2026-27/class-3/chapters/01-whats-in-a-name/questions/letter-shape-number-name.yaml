@@ -1,0 +1,53 @@
+id: c3-whats-in-a-name-letter-shape-number-name
+slug: letter-shape-number-name
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-word-and-letter-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which number cannot be spelt using the letters in the image? A letter shown
+    in the image may be used more than once.
+  stimulus:
+    assetRefs:
+      - overlapping-number-letters
+  options:
+    - id: option-a
+      text: "50"
+    - id: option-b
+      text: "30"
+    - id: option-c
+      text: "85"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    FIFTY, THIRTY, and EIGHTY FIVE can be made from the displayed letters.
+    ELEVEN needs the letter N, which is missing, so 11 cannot be formed.
+  assetRefs: []
+assets:
+  - ref: overlapping-number-letters
+    file: ../assets/overlapping-number-letters.png
+    role: stem
+    visibility: public
+    alt: Overlapping letters G, Y, F, T, L, R, V, H, I, and E
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 1 question 10 answer and solution"

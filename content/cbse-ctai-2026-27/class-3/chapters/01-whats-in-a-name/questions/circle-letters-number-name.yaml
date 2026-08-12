@@ -1,0 +1,53 @@
+id: c3-whats-in-a-name-circle-letters-number-name
+slug: circle-letters-number-name
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-word-and-letter-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Each shape has a letter in it. Which number name can be made using only the
+    letters inside the circles?
+  stimulus:
+    assetRefs:
+      - circle-letters-grid
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The circles contain the letters N, I, N, and E. These letters form NINE,
+    so the answer is 9.
+  assetRefs: []
+assets:
+  - ref: circle-letters-grid
+    file: ../assets/circle-letters-grid.png
+    role: stem
+    visibility: public
+    alt: A three-by-three arrangement of letters inside circles and other shapes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 17
+    section: "Chapter 1 question 8 answer and solution"

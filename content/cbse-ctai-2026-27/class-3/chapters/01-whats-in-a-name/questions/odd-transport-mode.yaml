@@ -1,0 +1,69 @@
+id: c3-whats-in-a-name-odd-transport-mode
+slug: odd-transport-mode
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch1-classification
+  primaryTopic: c3-ch1-classification
+  estimatedMinutes: 1
+content:
+  prompt: Find the odd one out.
+  options:
+    - id: option-a
+      assetRef: transport-motorcycle
+      accessibleLabel: Motorcycle
+    - id: option-b
+      assetRef: transport-aeroplane
+      accessibleLabel: Aeroplane
+    - id: option-c
+      assetRef: transport-scooter
+      accessibleLabel: Scooter
+    - id: option-d
+      assetRef: transport-car
+      accessibleLabel: Car
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The motorcycle, scooter, and car travel on roads. The aeroplane travels in
+    the air, so it is the odd one out.
+  assetRefs: []
+assets:
+  - ref: transport-motorcycle
+    file: ../assets/transport-motorcycle.png
+    role: option
+    visibility: public
+    alt: Motorcycle
+    position: 0
+  - ref: transport-aeroplane
+    file: ../assets/transport-aeroplane.png
+    role: option
+    visibility: public
+    alt: Aeroplane
+    position: 1
+  - ref: transport-scooter
+    file: ../assets/transport-scooter.png
+    role: option
+    visibility: public
+    alt: Scooter
+    position: 2
+  - ref: transport-car
+    file: ../assets/transport-car.png
+    role: option
+    visibility: public
+    alt: Car
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 6 answer and solution"

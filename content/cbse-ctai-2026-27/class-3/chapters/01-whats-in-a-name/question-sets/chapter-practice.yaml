@@ -1,0 +1,21 @@
+id: caesar-chapter-practice
+slug: chapter-practice
+version: 1
+title: Caesar Cipher Practice
+description: Build confidence with keys, letter shifts, and wrap-around.
+kind: chapter-practice
+instructions:
+  introduction: Try each question and check the explanation when you need it.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: caesar-key-shift-choice
+    questionVersion: 1
+    position: 1
+  - questionId: caesar-wrap-around-blanks
+    questionVersion: 1
+    position: 2
+  - questionId: caesar-explain-the-rule
+    questionVersion: 1
+    position: 3

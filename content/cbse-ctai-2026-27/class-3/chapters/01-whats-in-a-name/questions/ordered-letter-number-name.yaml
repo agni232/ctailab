@@ -1,0 +1,47 @@
+id: c3-whats-in-a-name-ordered-letter-number-name
+slug: ordered-letter-number-name
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-word-and-letter-patterns
+  primaryTopic: c3-ch1-word-and-letter-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which option's number name appears in the letter group in the same order as
+    it is written?
+  stimulus:
+    text: TWLVETOWELEVENSVENTHREEIFEIHGT
+    assetRefs: []
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The letters T-H-R-E-E appear in order in the group. They spell THREE, so
+    the correct answer is 3.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 17
+    section: "Chapter 1 question 9 answer and solution"

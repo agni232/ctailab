@@ -450,11 +450,11 @@ The important rule is:
 
 ## 19. Database
 
-MongoDB is **not required for the core Caesar Cipher experience**.
+Student persistence is **not required for the core Caesar Cipher experience**. PostgreSQL is used for the published content catalogue.
 
 Do not build student profiles or persistent progress yet.
 
-If event persistence requires MongoDB, use it only for the event data initially.
+If event persistence is introduced, keep analytics events separate from authoritative progress and attempt records.
 
 Student/application persistence can be introduced with authentication later.
 

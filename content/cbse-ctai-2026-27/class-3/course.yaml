@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-3-ctai
+grade:
+  id: grade-3
+  level: 3
+  label: Class 3
+subject:
+  id: computational-thinking-ai
+  code: CTAI
+  slug: computational-thinking-ai
+  name: Computational Thinking and Artificial Intelligence
+  description: Learn how to solve problems, recognize patterns, and understand age-appropriate AI ideas.
+slug: computational-thinking-ai
+title: Class 3 Computational Thinking and AI
+description: Chapter-wise activities and practice for Class 3 learners.
+status: published
+position: 1

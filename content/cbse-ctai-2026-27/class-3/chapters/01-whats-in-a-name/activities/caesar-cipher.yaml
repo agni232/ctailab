@@ -1,0 +1,42 @@
+id: caesar-cipher-001
+slug: caesar-cipher
+engineKey: cipher
+version: 3
+title: Caesar Cipher
+description: Crack a secret message by moving every letter with one shift key.
+configuration:
+  kind: module
+  file: src/content/activities/class-3/caesar-cipher.ts
+  exportName: caesarCipherExperience
+  property: activityConfig
+studentContent:
+  introduction: A Caesar Cipher hides a message by moving every letter with one secret key.
+  keyIdeas:
+    - Use one shift for every letter.
+    - After Z, wrap back to A.
+    - Decode by moving backward.
+    - Do not shift spaces, numbers, or symbols.
+  instructions: Use the wheel when you need it. Try again or ask for a hint if you get stuck.
+  reflectionPrompt: How many shifts would someone need to try if they did not know the key?
+teacherContent:
+  objective: Introduce basic encryption through a concrete letter-shifting rule and connect it to algorithmic thinking.
+  facilitationNotes:
+    - Ask students to predict one letter before checking the transformed message.
+    - Encourage students to say the rule aloud.
+  assessmentNotes:
+    - Look for consistent use of the shift rule.
+    - Use hint usage and retries as formative signals, not as labels.
+accessTier: public
+status: published
+publishedAt: 2026-08-10T00:00:00.000Z
+position: 1
+displayLabel: Activity 1
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 9
+    pageEnd: 11
+    section: "Activity: Caesar Cipher"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 9
+    pageEnd: 14
+    section: "Activity: Caesar Cipher"

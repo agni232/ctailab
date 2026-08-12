@@ -1,0 +1,51 @@
+id: c3-whats-in-a-name-number-name-range-pattern
+slug: number-name-range-pattern
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch1-number-names
+    - c3-ch1-visual-patterns
+  primaryTopic: c3-ch1-visual-patterns
+  estimatedMinutes: 2
+content:
+  prompt: If each term follows the same theme, what will replace the question mark?
+  stimulus:
+    assetRefs:
+      - number-name-range-pattern
+  options:
+    - id: option-a
+      text: 4 5 6 7
+    - id: option-b
+      text: 3 4 5
+    - id: option-c
+      text: 4 5 6
+    - id: option-d
+      text: 3 4 5 6
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The number name tells where the series starts, and the digit tells how many
+    numbers to include. Four-3 starts at 4 and contains three numbers: 4, 5, 6.
+  assetRefs: []
+assets:
+  - ref: number-name-range-pattern
+    file: ../assets/number-name-range-pattern.png
+    role: stem
+    visibility: public
+    alt: Examples showing a number name and a count producing consecutive number sequences
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 4 answer and solution"
