@@ -1,0 +1,40 @@
+id: c3-house-of-hundreds-2-one-less-than-smallest-three-digit-number
+slug: one-less-than-smallest-three-digit-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch9-addition-and-subtraction
+    - c3-ch9-place-value
+  primaryTopic: c3-ch9-addition-and-subtraction
+  estimatedMinutes: 2
+content:
+  prompt: Which number will you get if you subtract 1 from the smallest 3-digit number?
+  options:
+    - id: option-a
+      text: Largest 3-digit number
+    - id: option-b
+      text: Smallest 2-digit number
+    - id: option-c
+      text: Largest single digit number
+    - id: option-d
+      text: Largest 2-digit number
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: The smallest 3-digit number is 100, and 100 − 1 = 99, which is the largest 2-digit number.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 34
+    section: "Chapter 9 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 9 question 4 answer and solution"

@@ -1,0 +1,57 @@
+id: c3-fun-at-class-party-thinking-spot-glasses-in-a-section
+slug: thinking-spot-glasses-in-a-section
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch10-logical-puzzles
+    - c3-ch10-step-by-step-tracking
+  primaryTopic: c3-ch10-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Cut the given strip into exactly 3 different sections by making 2 cuts - one
+    section having 3 blocks, one with 4 blocks, and one with 6 blocks. What is the
+    MAXIMUM number of glasses that can appear in any section?
+  stimulus:
+    assetRefs:
+      - glasses-strip
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The 6-block section is the longest, so aim to pack the glasses into it. One
+    placement squeezes in 5 glasses, but then the leftover blocks cannot be split
+    into a 3-block and a 4-block section. Shifting the cuts so all three sections
+    work gives 4 glasses in the 6-block section and 2 in each of the others, so the
+    most in any section is 4.
+  assetRefs: []
+assets:
+  - ref: glasses-strip
+    file: ../assets/glasses-strip.png
+    role: stem
+    visibility: public
+    alt: A strip of thirteen blocks with glasses drawn in some of them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 10 The Thinking Spot answer and solution"

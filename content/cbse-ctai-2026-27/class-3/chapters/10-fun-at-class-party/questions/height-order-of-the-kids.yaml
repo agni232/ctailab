@@ -1,0 +1,56 @@
+id: c3-fun-at-class-party-height-order-of-the-kids
+slug: height-order-of-the-kids
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch10-ordering-by-size
+    - c3-ch10-comparing-heights
+  primaryTopic: c3-ch10-ordering-by-size
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - kids-on-blocks-analogy
+  options:
+    - id: option-a
+      text: A > C > B > D
+    - id: option-b
+      text: D > C > B > A
+    - id: option-c
+      text: D > B > C > A
+    - id: option-d
+      text: A > B > C > D
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Every kid reaches the same total height, so the tallest kid stands on the
+    shortest block. The letters after the arrow list the kids from tallest to
+    shortest. In the last row D is on the shortest block and so is tallest, B is next,
+    then C, then A, giving D > B > C > A.
+  assetRefs: []
+assets:
+  - ref: kids-on-blocks-analogy
+    file: ../assets/kids-on-blocks-analogy.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows of children standing on lettered blocks, the first three followed by a
+      height order and the last followed by a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 68
+    pageEnd: 69
+    section: "Chapter 10 question 9 answer and solution"

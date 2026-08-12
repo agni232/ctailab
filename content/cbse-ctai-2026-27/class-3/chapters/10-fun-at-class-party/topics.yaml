@@ -1,0 +1,37 @@
+topics:
+  - id: c3-ch10-comparing-heights
+    slug: comparing-heights
+    title: Comparing Heights
+    position: 1
+    status: published
+  - id: c3-ch10-ordering-by-size
+    slug: ordering-by-size
+    title: Ordering by Size
+    position: 2
+    parentId: c3-ch10-comparing-heights
+    status: published
+  - id: c3-ch10-measuring-length
+    slug: measuring-length
+    title: Measuring Length
+    position: 3
+    status: published
+  - id: c3-ch10-reading-charts
+    slug: reading-charts
+    title: Reading Charts
+    position: 4
+    status: published
+  - id: c3-ch10-number-line
+    slug: number-line
+    title: Number Line
+    position: 5
+    status: published
+  - id: c3-ch10-step-by-step-tracking
+    slug: step-by-step-tracking
+    title: Step by Step Tracking
+    position: 6
+    status: published
+  - id: c3-ch10-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

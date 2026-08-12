@@ -1,0 +1,45 @@
+id: c3-house-of-hundreds-2-highest-number-after-rearranging
+slug: highest-number-after-rearranging
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch9-place-value
+    - c3-ch9-digit-puzzles
+  primaryTopic: c3-ch9-place-value
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If the digits of the options given below are rearranged to form the highest
+    possible number, then which of the following options will give the highest
+    number after the rearrangement?
+  options:
+    - id: option-a
+      text: "546"
+    - id: option-b
+      text: "273"
+    - id: option-c
+      text: "370"
+    - id: option-d
+      text: "154"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Look first for the option with the biggest digit. Both 273 and 370 contain a 7.
+    Rearranged, 273 becomes 732 and 370 becomes 730, so 273 gives the higher number.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 34
+    section: "Chapter 9 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 9 question 6 answer and solution"

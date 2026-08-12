@@ -1,0 +1,52 @@
+id: c3-fun-at-class-party-combined-length-of-pencil-and-eraser
+slug: combined-length-of-pencil-and-eraser
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch10-measuring-length
+  primaryTopic: c3-ch10-measuring-length
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Find the combined length (in units) of the pencil and the eraser. Note that 1 box
+    equals 1 unit.
+  stimulus:
+    assetRefs:
+      - pencil-and-eraser
+  options:
+    - id: option-a
+      text: 12 units
+    - id: option-b
+      text: 11 units
+    - id: option-c
+      text: 10 units
+    - id: option-d
+      text: 13 units
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count the boxes each object stretches across. The pencil is 7 units long and the
+    eraser is 4 units long, so together they measure 11 units.
+  assetRefs: []
+assets:
+  - ref: pencil-and-eraser
+    file: ../assets/pencil-and-eraser.jpg
+    role: stem
+    visibility: public
+    alt: A pencil and an eraser each drawn beneath a strip of equal-sized boxes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 37
+    section: "Chapter 10 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 10 question 2 answer and solution"

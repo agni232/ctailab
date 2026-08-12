@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch9-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 9 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-house-of-hundreds-2-maximum-sum-of-digits
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-product-of-two-numbers-is-hundred
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-highest-possible-value-of-x
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-one-less-than-smallest-three-digit-number
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-what-is-not-true-about-the-sum
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-highest-number-after-rearranging
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 34
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-who-picks-the-last-needle
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 35
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-next-term-in-the-series
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 35
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-valid-phone-password-combinations
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 35
+    sourceSection: "Chapter 9: House of Hundreds – II"
+  - questionId: c3-house-of-hundreds-2-students-who-play-exactly-one-sport
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 35
+    sourceSection: "Chapter 9: House of Hundreds – II"

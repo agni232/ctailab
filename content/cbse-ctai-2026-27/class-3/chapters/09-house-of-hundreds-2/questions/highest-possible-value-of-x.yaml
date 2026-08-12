@@ -1,0 +1,57 @@
+id: c3-house-of-hundreds-2-highest-possible-value-of-x
+slug: highest-possible-value-of-x
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch9-place-value
+    - c3-ch9-addition-and-subtraction
+  primaryTopic: c3-ch9-place-value
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    With regards to the figure given below, X = (The smallest 3-digit number made
+    using different digits from the circles) + (any one digit present ONLY in a
+    rectangle). What is the highest possible value of X?
+  stimulus:
+    assetRefs:
+      - shapes-with-digits-figure
+  options:
+    - id: option-a
+      text: "255"
+    - id: option-b
+      text: "253"
+    - id: option-c
+      text: "252"
+    - id: option-d
+      text: "247"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The smallest 3-digit number from the circle digits is 247. To make X as big as
+    possible, add the largest digit that sits only in a rectangle, which is 6. Note
+    that 8 is in a rectangle and a triangle, so it does not count. X = 247 + 6 = 253.
+  assetRefs: []
+assets:
+  - ref: shapes-with-digits-figure
+    file: ../assets/shapes-with-digits-figure.png
+    role: stem
+    visibility: public
+    alt: >-
+      Overlapping rectangles, circles, and a triangle with the digits 1 to 9 placed
+      in their different regions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 34
+    section: "Chapter 9 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 59
+    section: "Chapter 9 question 3 answer and solution"

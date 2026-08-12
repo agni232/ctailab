@@ -1,0 +1,45 @@
+id: c3-fun-at-class-party-difference-between-longest-and-shortest
+slug: difference-between-longest-and-shortest
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch10-measuring-length
+    - c3-ch10-comparing-heights
+  primaryTopic: c3-ch10-measuring-length
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A cricket bat is 11 cm long, a badminton racket is 10 cm long, and a tennis
+    racket is 8 cm long. What is the difference between the length of the longest
+    object and the shortest object?
+  options:
+    - id: option-a
+      text: 1 cm
+    - id: option-b
+      text: 2 cm
+    - id: option-c
+      text: 3 cm
+    - id: option-d
+      text: 4 cm
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The cricket bat is the longest at 11 cm and the tennis racket is the shortest at
+    8 cm, so the difference is 11 − 8 = 3 cm.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 37
+    section: "Chapter 10 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 10 question 3 answer and solution"

@@ -1,0 +1,56 @@
+id: c3-fun-at-class-party-segments-one-unit-greater
+slug: segments-one-unit-greater
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch10-number-line
+    - c3-ch10-measuring-length
+  primaryTopic: c3-ch10-number-line
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In the following image, how many line segments are present, which are EXACTLY a
+    unit greater than any other line segment? Please consider only those segments
+    which are named using the letters.
+  stimulus:
+    assetRefs:
+      - number-line-segments
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Measure each named segment: CD is 3 units, AB is 4, BC is 5, BD is 8, and AC is
+    9. AB is one more than CD, BC is one more than AB, and AC is one more than BD.
+    That is 3 segments.
+  assetRefs: []
+assets:
+  - ref: number-line-segments
+    file: ../assets/number-line-segments.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A number line from −8 to 8 with points A, B, C, and D marked at −6, −2, 3, and 6
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 38
+    section: "Chapter 10 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 10 question 8 answer and solution"

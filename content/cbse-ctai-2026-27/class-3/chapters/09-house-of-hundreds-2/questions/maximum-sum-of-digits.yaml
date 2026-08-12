@@ -1,0 +1,45 @@
+id: c3-house-of-hundreds-2-maximum-sum-of-digits
+slug: maximum-sum-of-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch9-digit-puzzles
+    - c3-ch9-place-value
+  primaryTopic: c3-ch9-digit-puzzles
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    In a 3-digit number, the digit in the tens place is twice the digit in hundreds
+    place. What could be the maximum possible sum of the digits?
+  options:
+    - id: option-a
+      text: "21"
+    - id: option-b
+      text: "12"
+    - id: option-c
+      text: "27"
+    - id: option-d
+      text: "18"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The hundreds and tens digits can be 1 and 2, 2 and 4, 3 and 6, or 4 and 8. Take
+    the largest pair, 4 and 8, and make the units digit the biggest it can be, 9.
+    The number 489 has digits adding to 4 + 8 + 9 = 21.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 34
+    section: "Chapter 9 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 59
+    section: "Chapter 9 question 1 answer and solution"

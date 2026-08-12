@@ -1,0 +1,53 @@
+id: c3-fun-at-class-party-kids-with-a-shorter-neighbour
+slug: kids-with-a-shorter-neighbour
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch10-comparing-heights
+  primaryTopic: c3-ch10-comparing-heights
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A group of kids with different heights is shown below. How many kids have at
+    least one shorter kid as their immediate neighbour?
+  stimulus:
+    assetRefs:
+      - kids-in-a-row
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Take each kid in turn and compare them with the kid on their left and the kid on
+    their right. 5 of them have at least one neighbour who is shorter.
+  assetRefs: []
+assets:
+  - ref: kids-in-a-row
+    file: ../assets/kids-in-a-row.jpg
+    role: stem
+    visibility: public
+    alt: A row of ten children of clearly different heights standing side by side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 38
+    section: "Chapter 10 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 65
+    pageEnd: 66
+    section: "Chapter 10 question 5 answer and solution"

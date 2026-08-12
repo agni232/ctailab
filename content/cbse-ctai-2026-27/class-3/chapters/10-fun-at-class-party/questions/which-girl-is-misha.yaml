@@ -1,0 +1,55 @@
+id: c3-fun-at-class-party-which-girl-is-misha
+slug: which-girl-is-misha
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch10-ordering-by-size
+    - c3-ch10-comparing-heights
+  primaryTopic: c3-ch10-ordering-by-size
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If the girls shown below are arranged in the descending order of their heights,
+    then Misha is neither first nor last. Also, in the original picture Misha is not
+    standing at either of the ends. Who is Misha?
+  stimulus:
+    assetRefs:
+      - four-girls
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Misha is not at either end of the picture, so she is not girl 1 or girl 4. She is
+    also neither the tallest nor the shortest, which rules out girl 2. That leaves
+    girl 3.
+  assetRefs: []
+assets:
+  - ref: four-girls
+    file: ../assets/four-girls.jpg
+    role: stem
+    visibility: public
+    alt: Four girls of different heights standing in a row, numbered 1 to 4
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 37
+    section: "Chapter 10 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 10 question 4 answer and solution"

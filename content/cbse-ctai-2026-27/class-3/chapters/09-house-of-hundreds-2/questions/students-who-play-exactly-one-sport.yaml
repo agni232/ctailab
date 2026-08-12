@@ -1,0 +1,45 @@
+id: c3-house-of-hundreds-2-students-who-play-exactly-one-sport
+slug: students-who-play-exactly-one-sport
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch9-grouping-and-sets
+    - c3-ch9-addition-and-subtraction
+  primaryTopic: c3-ch9-grouping-and-sets
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    There are 600 students in a school. Some of them play cricket or football, and
+    240 students play both. The number of students who do not play any sport is 56.
+    How many students play exactly one sport?
+  options:
+    - id: option-a
+      text: "544"
+    - id: option-b
+      text: "520"
+    - id: option-c
+      text: "340"
+    - id: option-d
+      text: "304"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Take away the 56 who play nothing: 600 − 56 = 544 students play at least one
+    sport. Of those, 240 play both, so 544 − 240 = 304 play exactly one.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 35
+    section: "Chapter 9 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 9 question 10 answer and solution"

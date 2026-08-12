@@ -1,0 +1,59 @@
+id: c3-fun-at-class-party-jumps-to-reach-the-pole
+slug: jumps-to-reach-the-pole
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch10-step-by-step-tracking
+  primaryTopic: c3-ch10-step-by-step-tracking
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A man starts at point X, jumps forward, and is immediately dragged backward by
+    some distance. The distances of both the forward jump and the backward drag
+    increase by exactly 1 foot in every turn, as shown in the table below. He starts
+    by jumping 3 feet forward. Find the total number of jumps he makes to touch a
+    pole, 12 feet away from point X.
+  stimulus:
+    assetRefs:
+      - jump-and-drag-table
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Track him jump by jump. After jump 1 he is at 3 − 1 = 2 feet, after jump 2 at
+    2 + 4 − 2 = 4 feet, and after jump 3 at 4 + 5 − 3 = 6 feet. On jump 4 he moves
+    6 feet forward from 6 feet and touches the pole at 12 feet before being dragged
+    back.
+  assetRefs: []
+assets:
+  - ref: jump-and-drag-table
+    file: ../assets/jump-and-drag-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table with columns Jumps forward and Dragged backwards listing 3 and 1, 4 and
+      2, 5 and 3, 6 and 4, and 7 and 5 feet
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 38
+    section: "Chapter 10 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 10 question 6 answer and solution"

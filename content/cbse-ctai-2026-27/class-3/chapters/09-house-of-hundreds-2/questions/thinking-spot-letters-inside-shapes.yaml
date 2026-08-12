@@ -1,0 +1,82 @@
+id: c3-house-of-hundreds-2-thinking-spot-letters-inside-shapes
+slug: thinking-spot-letters-inside-shapes
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch9-logical-puzzles
+  primaryTopic: c3-ch9-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shape-letter-analogy
+  options:
+    - id: option-a
+      assetRef: shape-letter-option-a
+      accessibleLabel: RECTANGLE with the first 3 letters inside rectangles
+    - id: option-b
+      assetRef: shape-letter-option-b
+      accessibleLabel: RECTANGLE with the first 5 letters inside rectangles
+    - id: option-c
+      assetRef: shape-letter-option-c
+      accessibleLabel: RECTANGLE with the first 4 letters inside rectangles
+    - id: option-d
+      assetRef: shape-letter-option-d
+      accessibleLabel: RECTANGLE with the first 6 letters inside rectangles
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The shape's name is written after the arrow, and the number of letters wrapped
+    inside that shape matches its number of sides. A square has 4 sides, so 4 letters
+    of SQUARE sit in squares. A rectangle also has 4 sides, so 4 letters of RECTANGLE
+    sit in rectangles.
+  assetRefs: []
+assets:
+  - ref: shape-letter-analogy
+    file: ../assets/shape-letter-analogy.png
+    role: stem
+    visibility: public
+    alt: >-
+      SQUARE with its first four letters in squares, TRIANGLE with its first three
+      letters in triangles, and RECTANGLE followed by a question mark
+    position: 0
+  - ref: shape-letter-option-a
+    file: ../assets/shape-letter-option-a.png
+    role: option
+    visibility: public
+    alt: RECTANGLE with the first 3 letters inside rectangles
+    position: 1
+  - ref: shape-letter-option-b
+    file: ../assets/shape-letter-option-b.png
+    role: option
+    visibility: public
+    alt: RECTANGLE with the first 5 letters inside rectangles
+    position: 2
+  - ref: shape-letter-option-c
+    file: ../assets/shape-letter-option-c.png
+    role: option
+    visibility: public
+    alt: RECTANGLE with the first 4 letters inside rectangles
+    position: 3
+  - ref: shape-letter-option-d
+    file: ../assets/shape-letter-option-d.png
+    role: option
+    visibility: public
+    alt: RECTANGLE with the first 6 letters inside rectangles
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 9 The Thinking Spot answer and solution"

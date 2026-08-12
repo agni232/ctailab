@@ -1,0 +1,57 @@
+id: c3-fun-at-class-party-colour-that-matches-riya
+slug: colour-that-matches-riya
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch10-reading-charts
+    - c3-ch10-comparing-heights
+  primaryTopic: c3-ch10-reading-charts
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Height bars on the right show the heights of the children on the left. If Rahul
+    is related to red and Akshay is related to green, then Riya is related to which
+    of the following colours?
+  stimulus:
+    assetRefs:
+      - height-bars
+  options:
+    - id: option-a
+      text: Blue
+    - id: option-b
+      text: Red
+    - id: option-c
+      text: Yellow
+    - id: option-d
+      text: Grey
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Rahul is the shortest child and Akshay is the tallest, so Riya is in between. Her
+    bar has to be taller than the red one and shorter than the green one, and only
+    the grey bar fits.
+  assetRefs: []
+assets:
+  - ref: height-bars
+    file: ../assets/height-bars.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Riya, Rahul, and Akshay drawn at different heights beside a chart of grey,
+      yellow, red, blue, and green bars
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 37
+    section: "Chapter 10 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 10 question 1 answer and solution"
