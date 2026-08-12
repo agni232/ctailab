@@ -1,0 +1,44 @@
+id: c3-filling-and-lifting-item-the-machine-cannot-weigh
+slug: item-the-machine-cannot-weigh
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch11-units-of-measure
+    - c3-ch11-comparing-weights
+  primaryTopic: c3-ch11-units-of-measure
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    I am a weighing machine and I can measure weights from 20 kg to 120 kg. Which of
+    the following items will I not be able to weigh?
+  options:
+    - id: option-a
+      text: A cylinder of 29 kg
+    - id: option-b
+      text: A suitcase of 18 kg
+    - id: option-c
+      text: A boy of 52 kg
+    - id: option-d
+      text: A box of mangoes of 40 kg
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The machine only reads from 20 kg upwards. The suitcase is 18 kg, which is under
+    20 kg, so it cannot be weighed.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 40
+    section: "Chapter 11 question 5"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 11 question 5 answer and solution"

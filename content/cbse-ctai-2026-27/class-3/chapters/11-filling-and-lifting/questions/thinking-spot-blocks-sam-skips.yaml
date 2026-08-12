@@ -1,0 +1,57 @@
+id: c3-filling-and-lifting-thinking-spot-blocks-sam-skips
+slug: thinking-spot-blocks-sam-skips
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch11-logical-puzzles
+  primaryTopic: c3-ch11-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Sam must travel from block numbered 1 to block numbered 11, moving ONLY in the
+    forward direction. When on a WHITE block, he must skip the next TWO blocks. When
+    on a BLACK block, he must skip the next ONE block. How many black and white
+    blocks will he skip during this journey?
+  stimulus:
+    assetRefs:
+      - numbered-block-strip
+  options:
+    - id: option-a
+      text: Black - 4, White - 2
+    - id: option-b
+      text: Black - 3, White - 2
+    - id: option-c
+      text: Black - 4, White - 1
+    - id: option-d
+      text: Black - 3, White - 3
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Walk the strip block by block, applying the rule for the colour Sam is standing
+    on and marking every block he jumps over. Across the whole journey he skips 4
+    black blocks and 2 white blocks.
+  assetRefs: []
+assets:
+  - ref: numbered-block-strip
+    file: ../assets/numbered-block-strip.png
+    role: stem
+    visibility: public
+    alt: >-
+      A row of eleven numbered blocks, some black and some white, with a FORWARD
+      arrow pointing right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 11 The Thinking Spot answer and solution"

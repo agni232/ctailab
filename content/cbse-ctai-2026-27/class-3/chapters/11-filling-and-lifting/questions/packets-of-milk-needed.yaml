@@ -1,0 +1,44 @@
+id: c3-filling-and-lifting-packets-of-milk-needed
+slug: packets-of-milk-needed
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-capacity
+    - c3-ch11-units-of-measure
+  primaryTopic: c3-ch11-capacity
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A recipe requires 3 litres of milk, and there are 4 litres in 1 packet. How many
+    packets are needed to make the recipe four times?
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "1"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Making the recipe four times needs 3 × 4 = 12 litres of milk. Each packet holds
+    4 litres, so 12 ÷ 4 = 3 packets are needed.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 10"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 11 question 10 answer and solution"

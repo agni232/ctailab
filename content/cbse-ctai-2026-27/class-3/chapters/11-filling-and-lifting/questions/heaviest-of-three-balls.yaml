@@ -1,0 +1,56 @@
+id: c3-filling-and-lifting-heaviest-of-three-balls
+slug: heaviest-of-three-balls
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-reading-scales
+    - c3-ch11-comparing-weights
+  primaryTopic: c3-ch11-reading-scales
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    There are 3 balls of different weights. Can you find the heaviest ball based on
+    the weighing scales given below?
+  stimulus:
+    assetRefs:
+      - three-ball-scales
+  options:
+    - id: option-a
+      text: Red ball
+    - id: option-b
+      text: Blue ball
+    - id: option-c
+      text: Green ball
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    On the first scale the green side goes down, so green is heavier than red. On the
+    second scale the blue side goes down, so blue is heavier than green. That gives
+    blue > green > red, and the blue ball is heaviest.
+  assetRefs: []
+assets:
+  - ref: three-ball-scales
+    file: ../assets/three-ball-scales.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two tilted scales, the first with the green ball down against the red ball, the
+      second with the blue ball down against the green ball
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 11 question 8 answer and solution"

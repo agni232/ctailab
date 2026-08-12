@@ -1,0 +1,82 @@
+id: c3-filling-and-lifting-numbers-on-hanging-strings
+slug: numbers-on-hanging-strings
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-number-patterns
+    - c3-ch11-comparing-weights
+  primaryTopic: c3-ch11-number-patterns
+  estimatedMinutes: 3
+content:
+  prompt: If each of the following terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - hanging-numbers-terms
+  options:
+    - id: option-a
+      assetRef: hanging-option-a
+      accessibleLabel: 1 hanging low and 5 hanging high
+    - id: option-b
+      assetRef: hanging-option-b
+      accessibleLabel: 7 hanging high and 3 hanging low
+    - id: option-c
+      assetRef: hanging-option-c
+      accessibleLabel: 6 hanging low and 9 hanging high
+    - id: option-d
+      assetRef: hanging-option-d
+      accessibleLabel: 2 hanging high and 9 hanging low
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    In every term the greater number hangs from the longer string and the smaller
+    number from the shorter one. Option d puts 9 on the longer string and 2 on the
+    shorter, so it follows the rule.
+  assetRefs: []
+assets:
+  - ref: hanging-numbers-terms
+    file: ../assets/hanging-numbers-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three boxes each showing two numbered circles hanging from strings of
+      different lengths, followed by a box with a question mark
+    position: 0
+  - ref: hanging-option-a
+    file: ../assets/hanging-option-a.png
+    role: option
+    visibility: public
+    alt: 1 hanging from the longer string and 5 from the shorter string
+    position: 1
+  - ref: hanging-option-b
+    file: ../assets/hanging-option-b.png
+    role: option
+    visibility: public
+    alt: 7 hanging from the shorter string and 3 from the longer string
+    position: 2
+  - ref: hanging-option-c
+    file: ../assets/hanging-option-c.png
+    role: option
+    visibility: public
+    alt: 6 hanging from the longer string and 9 from the shorter string
+    position: 3
+  - ref: hanging-option-d
+    file: ../assets/hanging-option-d.png
+    role: option
+    visibility: public
+    alt: 2 hanging from the shorter string and 9 from the longer string
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 40
+    section: "Chapter 11 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 11 question 1 answer and solution"

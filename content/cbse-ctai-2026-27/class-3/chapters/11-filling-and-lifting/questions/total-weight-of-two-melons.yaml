@@ -1,0 +1,45 @@
+id: c3-filling-and-lifting-total-weight-of-two-melons
+slug: total-weight-of-two-melons
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-units-of-measure
+  primaryTopic: c3-ch11-units-of-measure
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    I am a pumpkin weighing 800 grams. A watermelon weighs 450 grams more than me. A
+    musk melon weighs 450 grams less than me. What will be the total weight of musk
+    melon and watermelon?
+  options:
+    - id: option-a
+      text: 1 kg and 200 grams
+    - id: option-b
+      text: 1 kg
+    - id: option-c
+      text: 1 kg and 600 grams
+    - id: option-d
+      text: 2 kg
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The watermelon weighs 800 + 450 = 1250 grams and the musk melon weighs
+    800 − 450 = 350 grams. Together that is 1600 grams, and since 1000 grams make
+    1 kilogram, the total is 1 kg and 600 grams.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 40
+    section: "Chapter 11 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 11 question 4 answer and solution"

@@ -1,0 +1,47 @@
+id: c3-filling-and-lifting-minimum-weighings-for-heavier-ball
+slug: minimum-weighings-for-heavier-ball
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch11-logical-puzzles
+    - c3-ch11-weight-and-balance
+  primaryTopic: c3-ch11-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    You have 12 balls. All weigh the same except for one which is a little heavier
+    than the other 11. With the help of a weighing balance, in how many MINIMUM
+    weighings can you certainly find the heavier ball?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Split the 12 balls into two groups of 6 and weigh them; the heavier side holds
+    the odd ball. Split those 6 into two groups of 3 and weigh again. Then weigh two
+    of the last three balls against each other, and if they balance the third is the
+    heavy one. That is 3 weighings.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 11 question 9 answer and solution"

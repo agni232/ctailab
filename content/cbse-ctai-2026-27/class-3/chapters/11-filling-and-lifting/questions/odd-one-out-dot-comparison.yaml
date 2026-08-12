@@ -1,0 +1,69 @@
+id: c3-filling-and-lifting-odd-one-out-dot-comparison
+slug: odd-one-out-dot-comparison
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch11-comparison-symbols
+  primaryTopic: c3-ch11-comparison-symbols
+  estimatedMinutes: 2
+content:
+  prompt: Find the odd one out.
+  options:
+    - id: option-a
+      assetRef: dot-comparison-option-a
+      accessibleLabel: 1 dot is less than 3 dots
+    - id: option-b
+      assetRef: dot-comparison-option-b
+      accessibleLabel: 5 dots is less than 3 dots
+    - id: option-c
+      assetRef: dot-comparison-option-c
+      accessibleLabel: 1 dot is less than 4 dots
+    - id: option-d
+      assetRef: dot-comparison-option-d
+      accessibleLabel: 2 dots is less than 3 dots
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The "less than" sign is used correctly everywhere except in option b, which
+    claims 5 dots are fewer than 3 dots.
+  assetRefs: []
+assets:
+  - ref: dot-comparison-option-a
+    file: ../assets/dot-comparison-option-a.png
+    role: option
+    visibility: public
+    alt: One dot, a less than sign, then three dots
+    position: 1
+  - ref: dot-comparison-option-b
+    file: ../assets/dot-comparison-option-b.png
+    role: option
+    visibility: public
+    alt: Five dots, a less than sign, then three dots
+    position: 2
+  - ref: dot-comparison-option-c
+    file: ../assets/dot-comparison-option-c.png
+    role: option
+    visibility: public
+    alt: One dot, a less than sign, then four dots
+    position: 3
+  - ref: dot-comparison-option-d
+    file: ../assets/dot-comparison-option-d.png
+    role: option
+    visibility: public
+    alt: Two dots, a less than sign, then three dots
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 40
+    section: "Chapter 11 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 11 question 2 answer and solution"

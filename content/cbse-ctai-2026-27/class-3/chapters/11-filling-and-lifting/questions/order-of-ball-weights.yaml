@@ -1,0 +1,60 @@
+id: c3-filling-and-lifting-order-of-ball-weights
+slug: order-of-ball-weights
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch11-reading-scales
+    - c3-ch11-weight-and-balance
+    - c3-ch11-comparing-weights
+  primaryTopic: c3-ch11-reading-scales
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Given below are two weighing scales balanced using four different types of balls
+    A, B, C, and D. Identify the option which correctly depicts the relationship
+    between weights of balls A, B, and C.
+  stimulus:
+    assetRefs:
+      - two-balance-scales
+  options:
+    - id: option-a
+      text: A > B > C
+    - id: option-b
+      text: B > C > A
+    - id: option-c
+      text: C > A > B
+    - id: option-d
+      text: A > C > B
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The first scale shows A balancing B and C together, so A is heavier than either
+    of them on its own. The second scale has B plus two Ds against C plus one D.
+    Taking one D off each side leaves B plus D equal to C, so B is lighter than C.
+    The order is A > C > B.
+  assetRefs: []
+assets:
+  - ref: two-balance-scales
+    file: ../assets/two-balance-scales.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Two balanced scales, the first with ball A against balls B and C, the second
+      with balls B, D, and D against balls C and D
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 40
+    section: "Chapter 11 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 71
+    pageEnd: 72
+    section: "Chapter 11 question 3 answer and solution"

@@ -1,0 +1,43 @@
+topics:
+  - id: c3-ch11-weight-and-balance
+    slug: weight-and-balance
+    title: Weight and Balance
+    position: 1
+    status: published
+  - id: c3-ch11-reading-scales
+    slug: reading-scales
+    title: Reading Scales
+    position: 2
+    parentId: c3-ch11-weight-and-balance
+    status: published
+  - id: c3-ch11-comparing-weights
+    slug: comparing-weights
+    title: Comparing Weights
+    position: 3
+    parentId: c3-ch11-weight-and-balance
+    status: published
+  - id: c3-ch11-units-of-measure
+    slug: units-of-measure
+    title: Units of Measure
+    position: 4
+    status: published
+  - id: c3-ch11-capacity
+    slug: capacity
+    title: Capacity
+    position: 5
+    status: published
+  - id: c3-ch11-comparison-symbols
+    slug: comparison-symbols
+    title: Comparison Symbols
+    position: 6
+    status: published
+  - id: c3-ch11-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 7
+    status: published
+  - id: c3-ch11-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

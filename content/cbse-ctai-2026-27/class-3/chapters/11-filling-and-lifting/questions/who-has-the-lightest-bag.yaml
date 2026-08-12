@@ -1,0 +1,44 @@
+id: c3-filling-and-lifting-who-has-the-lightest-bag
+slug: who-has-the-lightest-bag
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-comparing-weights
+  primaryTopic: c3-ch11-comparing-weights
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A, B, C, and D are carrying bags of different weights. Each of B, C, and D has a
+    bag lighter than A's bag. Also, C's bag is heavier than B's bag but lighter than
+    D's bag. Who among these 4 has the lightest bag?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A's bag is the heaviest. C is heavier than B but lighter than D, so the order is
+    A > D > C > B. B has the lightest bag.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 11 question 6 answer and solution"

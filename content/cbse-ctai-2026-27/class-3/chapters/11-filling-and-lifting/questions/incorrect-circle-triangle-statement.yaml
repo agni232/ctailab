@@ -1,0 +1,80 @@
+id: c3-filling-and-lifting-incorrect-circle-triangle-statement
+slug: incorrect-circle-triangle-statement
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch11-comparison-symbols
+    - c3-ch11-weight-and-balance
+  primaryTopic: c3-ch11-comparison-symbols
+  estimatedMinutes: 3
+content:
+  prompt: Choose the INCORRECT option.
+  stimulus:
+    assetRefs:
+      - circle-triangle-balance
+  options:
+    - id: option-a
+      assetRef: circle-triangle-option-a
+      accessibleLabel: 2 circles equals 2 triangles
+    - id: option-b
+      assetRef: circle-triangle-option-b
+      accessibleLabel: 2 circles is greater than 3 triangles
+    - id: option-c
+      assetRef: circle-triangle-option-c
+      accessibleLabel: 1 circle equals 1 triangle
+    - id: option-d
+      assetRef: circle-triangle-option-d
+      accessibleLabel: 1 circle is less than 2 triangles
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The scale shows that 1 circle weighs the same as 1 triangle. So 2 circles equal
+    2 triangles, 1 circle equals 1 triangle, and 1 circle is less than 2 triangles.
+    But 2 circles cannot be more than 3 triangles, so option b is the incorrect one.
+  assetRefs: []
+assets:
+  - ref: circle-triangle-balance
+    file: ../assets/circle-triangle-balance.png
+    role: stem
+    visibility: public
+    alt: A balanced scale with one circle on the left pan and one triangle on the right pan
+    position: 0
+  - ref: circle-triangle-option-a
+    file: ../assets/circle-triangle-option-a.png
+    role: option
+    visibility: public
+    alt: Two circles, an equals sign, then two triangles
+    position: 1
+  - ref: circle-triangle-option-b
+    file: ../assets/circle-triangle-option-b.png
+    role: option
+    visibility: public
+    alt: Two circles, a greater than sign, then three triangles
+    position: 2
+  - ref: circle-triangle-option-c
+    file: ../assets/circle-triangle-option-c.png
+    role: option
+    visibility: public
+    alt: One circle, an equals sign, then one triangle
+    position: 3
+  - ref: circle-triangle-option-d
+    file: ../assets/circle-triangle-option-d.png
+    role: option
+    visibility: public
+    alt: One circle, a less than sign, then two triangles
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 7"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 11 question 7 answer and solution"
