@@ -1,0 +1,81 @@
+id: c4-shapes-around-us-cube-arrangement-subtraction
+slug: cube-arrangement-subtraction
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-building-with-cubes
+    - c4-ch1-3d-shapes
+  primaryTopic: c4-ch1-building-with-cubes
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?" You cannot rotate the images.
+  stimulus:
+    assetRefs:
+      - cube-subtraction
+  options:
+    - id: option-a
+      assetRef: cube-diff-option-a
+      accessibleLabel: A stack of cubes, option a
+    - id: option-b
+      assetRef: cube-diff-option-b
+      accessibleLabel: A stack of cubes, option b
+    - id: option-c
+      assetRef: cube-diff-option-c
+      accessibleLabel: A stack of cubes, option c
+    - id: option-d
+      assetRef: cube-diff-option-d
+      accessibleLabel: A stack of cubes, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Find the smaller arrangement inside the bigger one, matching cube for cube in the
+    same positions. Take those cubes away and the shape that is left over is option d.
+  assetRefs: []
+assets:
+  - ref: cube-subtraction
+    file: ../assets/cube-subtraction.png
+    role: stem
+    visibility: public
+    alt: >-
+      A large arrangement of cubes, a minus sign, a smaller arrangement of cubes, an
+      equals sign, and a question mark
+    position: 0
+  - ref: cube-diff-option-a
+    file: ../assets/cube-diff-option-a.png
+    role: option
+    visibility: public
+    alt: Arrangement of cubes, option a
+    position: 1
+  - ref: cube-diff-option-b
+    file: ../assets/cube-diff-option-b.png
+    role: option
+    visibility: public
+    alt: Arrangement of cubes, option b
+    position: 2
+  - ref: cube-diff-option-c
+    file: ../assets/cube-diff-option-c.png
+    role: option
+    visibility: public
+    alt: Arrangement of cubes, option c
+    position: 3
+  - ref: cube-diff-option-d
+    file: ../assets/cube-diff-option-d.png
+    role: option
+    visibility: public
+    alt: Arrangement of cubes, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 1 answer and solution"

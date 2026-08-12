@@ -1,0 +1,51 @@
+id: c4-shapes-around-us-count-the-triangles
+slug: count-the-triangles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch1-counting-shapes
+  primaryTopic: c4-ch1-counting-shapes
+  estimatedMinutes: 3
+content:
+  prompt: Count the number of TRIANGLES in the image given below.
+  stimulus:
+    assetRefs:
+      - triangle-count-figure
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Trace round each closed three-sided region in the figure, including the ones made
+    by crossing lines. There are 4 triangles altogether.
+  assetRefs: []
+assets:
+  - ref: triangle-count-figure
+    file: ../assets/triangle-count-figure.png
+    role: stem
+    visibility: public
+    alt: A square crossed by several straight lines forming smaller regions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 11
+    pageEnd: 12
+    section: "Chapter 1 question 4 answer and solution"

@@ -1,0 +1,71 @@
+id: c4-shapes-around-us-odd-shape-with-letter-and-number
+slug: odd-shape-with-letter-and-number
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch1-sides-and-angles
+    - c4-ch1-2d-shapes
+  primaryTopic: c4-ch1-sides-and-angles
+  estimatedMinutes: 3
+content:
+  prompt: Find the ODD one out.
+  options:
+    - id: option-a
+      assetRef: odd-shape-option-a
+      accessibleLabel: A rectangle holding M4
+    - id: option-b
+      assetRef: odd-shape-option-b
+      accessibleLabel: A triangle holding T3
+    - id: option-c
+      assetRef: odd-shape-option-c
+      accessibleLabel: A square holding S4
+    - id: option-d
+      assetRef: odd-shape-option-d
+      accessibleLabel: A pentagon holding P5
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    In each shape the letter is the first letter of the shape's name and the number is
+    how many sides it has. Triangle gives T3, square gives S4, and pentagon gives P5.
+    A rectangle should give R4, not M4, so option a breaks the rule.
+  assetRefs: []
+assets:
+  - ref: odd-shape-option-a
+    file: ../assets/odd-shape-option-a.png
+    role: option
+    visibility: public
+    alt: A rectangle with M4 written inside
+    position: 1
+  - ref: odd-shape-option-b
+    file: ../assets/odd-shape-option-b.png
+    role: option
+    visibility: public
+    alt: A triangle with T3 written inside
+    position: 2
+  - ref: odd-shape-option-c
+    file: ../assets/odd-shape-option-c.png
+    role: option
+    visibility: public
+    alt: A square with S4 written inside
+    position: 3
+  - ref: odd-shape-option-d
+    file: ../assets/odd-shape-option-d.png
+    role: option
+    visibility: public
+    alt: A pentagon with P5 written inside
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 5 answer and solution"

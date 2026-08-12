@@ -1,0 +1,90 @@
+id: c4-shapes-around-us-thinking-spot-shapes-not-next-to-each-other
+slug: thinking-spot-shapes-not-next-to-each-other
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-logical-puzzles
+  primaryTopic: c4-ch1-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    All the shapes of Set A must be placed into the squares present in Box 1, such that
+    each square has EXACTLY ONE shape, the shape and the square CANNOT be of the same
+    colour, and two squares connected by a line CANNOT have the same shape inside them.
+    Which option shows the shapes which are NOT next to each other in the final
+    arrangement?
+  stimulus:
+    assetRefs:
+      - box-one-and-set-a
+  options:
+    - id: option-a
+      assetRef: not-next-to-option-a
+      accessibleLabel: A black triangle and a black circle
+    - id: option-b
+      assetRef: not-next-to-option-b
+      accessibleLabel: Two black circles
+    - id: option-c
+      assetRef: not-next-to-option-c
+      accessibleLabel: A white triangle and a black circle
+    - id: option-d
+      assetRef: not-next-to-option-d
+      accessibleLabel: A black triangle and a white triangle
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Start with the white square that has two black squares joined to it. A black
+    triangle there would force two white circles into those black squares, and Set A
+    only has one. So that white square takes the black circle and the joined black
+    squares take white triangles. In the remaining connected pair the white circle goes
+    in the black square, so the white square takes the black triangle, and the last
+    black circle fills the empty white square. In that arrangement the black triangle
+    and the black circle are not next to each other.
+  assetRefs: []
+assets:
+  - ref: box-one-and-set-a
+    file: ../assets/box-one-and-set-a.png
+    role: stem
+    visibility: public
+    alt: >-
+      Box 1 holding six black and white squares joined by lines, beside Set A holding a
+      white circle, two white triangles, two black circles, and a black triangle
+    position: 0
+  - ref: not-next-to-option-a
+    file: ../assets/not-next-to-option-a.png
+    role: option
+    visibility: public
+    alt: A black triangle and a black circle
+    position: 1
+  - ref: not-next-to-option-b
+    file: ../assets/not-next-to-option-b.png
+    role: option
+    visibility: public
+    alt: Two black circles
+    position: 2
+  - ref: not-next-to-option-c
+    file: ../assets/not-next-to-option-c.png
+    role: option
+    visibility: public
+    alt: A white triangle and a black circle
+    position: 3
+  - ref: not-next-to-option-d
+    file: ../assets/not-next-to-option-d.png
+    role: option
+    visibility: public
+    alt: A black triangle and a white triangle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 The Thinking Spot answer and solution"

@@ -1,0 +1,45 @@
+topics:
+  - id: c4-ch1-2d-shapes
+    slug: two-dimensional-shapes
+    title: 2D Shapes
+    position: 1
+    status: published
+  - id: c4-ch1-sides-and-angles
+    slug: sides-and-angles
+    title: Sides and Angles
+    position: 2
+    parentId: c4-ch1-2d-shapes
+    status: published
+  - id: c4-ch1-counting-shapes
+    slug: counting-shapes
+    title: Counting Shapes
+    position: 3
+    parentId: c4-ch1-2d-shapes
+    status: published
+  - id: c4-ch1-3d-shapes
+    slug: three-dimensional-shapes
+    title: 3D Shapes
+    position: 4
+    status: published
+  - id: c4-ch1-nets-and-faces
+    slug: nets-and-faces
+    title: Nets and Faces
+    position: 5
+    parentId: c4-ch1-3d-shapes
+    status: published
+  - id: c4-ch1-building-with-cubes
+    slug: building-with-cubes
+    title: Building with Cubes
+    position: 6
+    parentId: c4-ch1-3d-shapes
+    status: published
+  - id: c4-ch1-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 7
+    status: published
+  - id: c4-ch1-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

@@ -1,0 +1,45 @@
+id: c4-shapes-around-us-angles-that-cannot-be-cut
+slug: angles-that-cannot-be-cut
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-sides-and-angles
+    - c4-ch1-2d-shapes
+  primaryTopic: c4-ch1-sides-and-angles
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    From a rectangular piece of paper, a shape having which of the following number of
+    angles CANNOT be formed by making only a SINGLE STRAIGHT CUT in any direction?
+  options:
+    - id: option-a
+      text: 3 angles
+    - id: option-b
+      text: 4 angles
+    - id: option-c
+      text: 5 angles
+    - id: option-d
+      text: 6 angles
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    One straight cut across a rectangle can leave a shape with 3 angles, 4 angles, or
+    5 angles depending on where the cut starts and ends. There is no way for a single
+    cut to make a shape with 6 angles.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 3 answer and solution"

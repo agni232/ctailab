@@ -1,0 +1,86 @@
+id: c4-shapes-around-us-shapes-for-a-and-b-in-the-grid
+slug: shapes-for-a-and-b-in-the-grid
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-shape-patterns
+    - c4-ch1-logical-puzzles
+  primaryTopic: c4-ch1-shape-patterns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Which of these shapes will come in place of A and B, such that no two shapes having
+    the same number of sides, pattern, or colour appear in the same row or column? Not
+    all blocks will necessarily have a shape present in them.
+  stimulus:
+    assetRefs:
+      - shape-grid-ab
+  options:
+    - id: option-a
+      assetRef: grid-ab-option-a
+      accessibleLabel: A is a grey pentagon and B is a grey circle
+    - id: option-b
+      assetRef: grid-ab-option-b
+      accessibleLabel: A is a circle divided into sections and B is a grey pentagon
+    - id: option-c
+      assetRef: grid-ab-option-c
+      accessibleLabel: A is a white circle and B is a grey circle
+    - id: option-d
+      assetRef: grid-ab-option-d
+      accessibleLabel: A is a grey circle and B is a grey pentagon
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Option b repeats a pattern already in A's column and repeats the pentagon in B's
+    row. Option c puts white shapes where white already appears in A's row and column.
+    Option d repeats a shape already in B's row. Only option a avoids matching the
+    number of sides, the pattern, and the colour everywhere.
+  assetRefs: []
+assets:
+  - ref: shape-grid-ab
+    file: ../assets/shape-grid-ab.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A three by three grid holding a pentagon, a patterned hexagon, and a triangle,
+      with the letters B and A marking two empty cells
+    position: 0
+  - ref: grid-ab-option-a
+    file: ../assets/grid-ab-option-a.png
+    role: option
+    visibility: public
+    alt: A equals a grey pentagon and B equals a grey circle
+    position: 1
+  - ref: grid-ab-option-b
+    file: ../assets/grid-ab-option-b.png
+    role: option
+    visibility: public
+    alt: A equals a circle divided into sections and B equals a grey pentagon
+    position: 2
+  - ref: grid-ab-option-c
+    file: ../assets/grid-ab-option-c.png
+    role: option
+    visibility: public
+    alt: A equals a white circle and B equals a grey circle
+    position: 3
+  - ref: grid-ab-option-d
+    file: ../assets/grid-ab-option-d.png
+    role: option
+    visibility: public
+    alt: A equals a grey circle and B equals a grey pentagon
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 8 answer and solution"

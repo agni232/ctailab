@@ -1,0 +1,82 @@
+id: c4-shapes-around-us-shape-that-adds-up-the-sides
+slug: shape-that-adds-up-the-sides
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch1-shape-patterns
+    - c4-ch1-sides-and-angles
+  primaryTopic: c4-ch1-shape-patterns
+  estimatedMinutes: 4
+content:
+  prompt: If each of the given terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shape-sum-terms
+  options:
+    - id: option-a
+      assetRef: shape-sum-option-a
+      accessibleLabel: A plus-shaped figure
+    - id: option-b
+      assetRef: shape-sum-option-b
+      accessibleLabel: An octagon
+    - id: option-c
+      assetRef: shape-sum-option-c
+      accessibleLabel: A hexagon
+    - id: option-d
+      assetRef: shape-sum-option-d
+      accessibleLabel: An L-shaped figure
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In each row the sides of the two yellow shapes add up to the number of sides of
+    the middle shape. The last row has a square and a parallelogram, and 4 + 4 = 8, so
+    the missing shape needs 8 sides. That is the octagon.
+  assetRefs: []
+assets:
+  - ref: shape-sum-terms
+    file: ../assets/shape-sum-terms.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three rows of three boxes holding yellow and white shapes, with a question mark
+      in the middle box of the last row
+    position: 0
+  - ref: shape-sum-option-a
+    file: ../assets/shape-sum-option-a.png
+    role: option
+    visibility: public
+    alt: A plus-shaped figure
+    position: 1
+  - ref: shape-sum-option-b
+    file: ../assets/shape-sum-option-b.png
+    role: option
+    visibility: public
+    alt: An octagon
+    position: 2
+  - ref: shape-sum-option-c
+    file: ../assets/shape-sum-option-c.png
+    role: option
+    visibility: public
+    alt: A hexagon
+    position: 3
+  - ref: shape-sum-option-d
+    file: ../assets/shape-sum-option-d.png
+    role: option
+    visibility: public
+    alt: An L-shaped figure
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 6 answer and solution"

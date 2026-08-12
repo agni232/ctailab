@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-4-ctai
+grade:
+  id: grade-4
+  level: 4
+  label: Class 4
+subject:
+  id: computational-thinking-ai
+  code: CTAI
+  slug: computational-thinking-ai
+  name: Computational Thinking and Artificial Intelligence
+  description: Learn how to solve problems, recognize patterns, and understand age-appropriate AI ideas.
+slug: class-4-computational-thinking-ai
+title: Class 4 Computational Thinking and AI
+description: Chapter-wise activities and practice for Class 4 learners.
+status: published
+position: 2

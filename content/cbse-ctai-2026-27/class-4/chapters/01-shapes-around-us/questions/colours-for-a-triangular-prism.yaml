@@ -1,0 +1,47 @@
+id: c4-shapes-around-us-colours-for-a-triangular-prism
+slug: colours-for-a-triangular-prism
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-3d-shapes
+    - c4-ch1-nets-and-faces
+  primaryTopic: c4-ch1-3d-shapes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Each face of a triangular prism is coloured with a colour in such a way that no two
+    adjacent faces have the same colour. What is the MINIMUM number of colours required
+    to do this? Two faces are said to be adjacent if they share a common edge.
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The front triangle touches three rectangular faces, so those three plus the
+    triangle all need different colours, which is 4. The two triangular faces never
+    touch each other, so they can share a colour. That means 4 colours are enough.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 12
+    pageEnd: 13
+    section: "Chapter 1 question 7 answer and solution"

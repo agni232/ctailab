@@ -1,0 +1,53 @@
+id: c4-shapes-around-us-hidden-faces-of-the-stairs
+slug: hidden-faces-of-the-stairs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-building-with-cubes
+    - c4-ch1-nets-and-faces
+  primaryTopic: c4-ch1-building-with-cubes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Six concrete blocks of cubical shape are used for building the stairs as shown
+    below. How many faces of these blocks are not visible?
+  stimulus:
+    assetRefs:
+      - cube-stairs
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "15"
+    - id: option-c
+      text: "21"
+    - id: option-d
+      text: "24"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Six cubes have 6 × 6 = 36 faces in total. Counting the faces you can actually see
+    in the picture gives 15, so the number hidden is 36 − 15 = 21.
+  assetRefs: []
+assets:
+  - ref: cube-stairs
+    file: ../assets/cube-stairs.jpg
+    role: stem
+    visibility: public
+    alt: Six stone-textured cubes stacked into a two-step staircase
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 9 answer and solution"

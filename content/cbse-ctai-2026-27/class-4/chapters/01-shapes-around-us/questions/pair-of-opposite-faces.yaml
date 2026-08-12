@@ -1,0 +1,84 @@
+id: c4-shapes-around-us-pair-of-opposite-faces
+slug: pair-of-opposite-faces
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch1-nets-and-faces
+    - c4-ch1-3d-shapes
+  primaryTopic: c4-ch1-nets-and-faces
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    The figure below forms a cube when folded. Which of the following options
+    represents a pair of opposite faces of the cube? You cannot rotate the question or
+    option images.
+  stimulus:
+    assetRefs:
+      - cube-net
+  options:
+    - id: option-a
+      assetRef: opposite-faces-option-a
+      accessibleLabel: A square with a yellow lower half beside a square with a yellow diagonal band
+    - id: option-b
+      assetRef: opposite-faces-option-b
+      accessibleLabel: Two squares each with a yellow triangle in the lower left
+    - id: option-c
+      assetRef: opposite-faces-option-c
+      accessibleLabel: A square with a yellow band near the top beside a square with a yellow lower left triangle
+    - id: option-d
+      assetRef: opposite-faces-option-d
+      accessibleLabel: A square with a yellow left half beside a square with a yellow diagonal band
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Number the faces of the net and fold it up in your head. Four faces stand upright
+    and the last one closes on top as a lid. That gives three pairs of opposite faces.
+    Only the pair in option c actually ends up facing away from each other.
+  assetRefs: []
+assets:
+  - ref: cube-net
+    file: ../assets/cube-net.jpg
+    role: stem
+    visibility: public
+    alt: A cross-shaped net of six squares, each with a different yellow and white pattern
+    position: 0
+  - ref: opposite-faces-option-a
+    file: ../assets/opposite-faces-option-a.png
+    role: option
+    visibility: public
+    alt: Square with a yellow lower half beside a square with a yellow diagonal band
+    position: 1
+  - ref: opposite-faces-option-b
+    file: ../assets/opposite-faces-option-b.jpg
+    role: option
+    visibility: public
+    alt: Two squares each with a yellow triangle in the lower left
+    position: 2
+  - ref: opposite-faces-option-c
+    file: ../assets/opposite-faces-option-c.jpg
+    role: option
+    visibility: public
+    alt: Square with a yellow band near the top beside a square with a yellow lower left triangle
+    position: 3
+  - ref: opposite-faces-option-d
+    file: ../assets/opposite-faces-option-d.png
+    role: option
+    visibility: public
+    alt: Square with a yellow left half beside a square with a yellow diagonal band
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 10
+    pageEnd: 11
+    section: "Chapter 1 question 2 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 1 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-shapes-around-us-cube-arrangement-subtraction
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 9
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-pair-of-opposite-faces
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 9
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-angles-that-cannot-be-cut
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 9
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-count-the-triangles
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 9
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-odd-shape-with-letter-and-number
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 9
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-shape-that-adds-up-the-sides
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 10
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-colours-for-a-triangular-prism
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 10
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-shapes-for-a-and-b-in-the-grid
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 10
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-hidden-faces-of-the-stairs
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 10
+    sourceSection: "Chapter 1: Shapes Around Us"
+  - questionId: c4-shapes-around-us-edges-with-yellow-but-no-red-dot
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Shapes Around Us"

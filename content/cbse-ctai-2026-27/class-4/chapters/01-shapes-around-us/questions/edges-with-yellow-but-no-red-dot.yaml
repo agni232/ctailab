@@ -1,0 +1,53 @@
+id: c4-shapes-around-us-edges-with-yellow-but-no-red-dot
+slug: edges-with-yellow-but-no-red-dot
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch1-3d-shapes
+  primaryTopic: c4-ch1-3d-shapes
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How many edges of the pyramid shown below have a yellow dot at one of their corners
+    but do not have a red dot on the other corner?
+  stimulus:
+    assetRefs:
+      - pyramid-with-dots
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Take each edge that touches a yellow dot and check the colour of the dot at its
+    other end. Only 2 of those edges have something other than a red dot at the far
+    corner.
+  assetRefs: []
+assets:
+  - ref: pyramid-with-dots
+    file: ../assets/pyramid-with-dots.jpg
+    role: stem
+    visibility: public
+    alt: A pyramid drawn in three dimensions with red and yellow dots marked at its corners
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 10 answer and solution"
