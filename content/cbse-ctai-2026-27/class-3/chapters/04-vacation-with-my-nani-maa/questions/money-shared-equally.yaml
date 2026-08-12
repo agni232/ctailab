@@ -1,0 +1,45 @@
+id: c3-nani-maa-money-shared-equally
+slug: money-shared-equally
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch4-sharing-equally
+  primaryTopic: c3-ch4-sharing-equally
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A, B, and C have some amount of money (in rupees) as shown below: A = 50,
+    B = 100, and C = 150. How much money should B and C together give to A such
+    that each of them ends up with the same amount of money?
+  options:
+    - id: option-a
+      text: "15"
+    - id: option-b
+      text: "25"
+    - id: option-c
+      text: "50"
+    - id: option-d
+      text: "75"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Together they have 50 + 100 + 150 = 300 rupees, so an equal share is 100 rupees
+    each. B already has 100 and gives nothing. C has 150 and gives away 50. So B
+    and C together give A 50 rupees.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 3"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 4 question 3 answer and solution"

@@ -1,0 +1,46 @@
+id: c3-nani-maa-final-score-after-five-rounds
+slug: final-score-after-five-rounds
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch4-scores-and-points
+  primaryTopic: c3-ch4-scores-and-points
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    X, Y, and Z start a game with 100 points each. After each round, the winner
+    takes 10 points from each player. Z won only the fourth round, and they played
+    5 rounds in total. What is Z's final score? No round can end in a draw.
+  options:
+    - id: option-a
+      text: "70"
+    - id: option-b
+      text: "80"
+    - id: option-c
+      text: "90"
+    - id: option-d
+      text: "100"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Z lost 4 rounds and gave away 10 points each time, which is 40 points. Z won
+    one round and took 10 points from each of the other two players, which is 20
+    points. So Z ends with 100 − 40 + 20 = 80 points.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 34
+    pageEnd: 35
+    section: "Chapter 4 question 8 answer and solution"

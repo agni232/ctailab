@@ -1,0 +1,52 @@
+topics:
+  - id: c3-ch4-logical-reasoning
+    slug: logical-reasoning
+    title: Logical Reasoning
+    position: 1
+    status: published
+  - id: c3-ch4-family-puzzles
+    slug: family-puzzles
+    title: Family Puzzles
+    position: 2
+    parentId: c3-ch4-logical-reasoning
+    status: published
+  - id: c3-ch4-position-and-order
+    slug: position-and-order
+    title: Position and Order
+    position: 3
+    status: published
+  - id: c3-ch4-sharing-equally
+    slug: sharing-equally
+    title: Sharing Equally
+    position: 4
+    status: published
+  - id: c3-ch4-scores-and-points
+    slug: scores-and-points
+    title: Scores and Points
+    position: 5
+    status: published
+  - id: c3-ch4-number-line-jumps
+    slug: number-line-jumps
+    title: Number Line Jumps
+    position: 6
+    status: published
+  - id: c3-ch4-adding-numbers
+    slug: adding-numbers
+    title: Adding Numbers
+    position: 7
+    status: published
+  - id: c3-ch4-counting-objects
+    slug: counting-objects
+    title: Counting Objects
+    position: 8
+    status: published
+  - id: c3-ch4-comparing-digits
+    slug: comparing-digits
+    title: Comparing Digits
+    position: 9
+    status: published
+  - id: c3-ch4-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 10
+    status: published

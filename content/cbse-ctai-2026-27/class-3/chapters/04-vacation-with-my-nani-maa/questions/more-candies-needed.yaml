@@ -1,0 +1,52 @@
+id: c3-nani-maa-more-candies-needed
+slug: more-candies-needed
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c3-ch4-counting-objects
+  primaryTopic: c3-ch4-counting-objects
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    The given boxes have some candies, and if EACH of the given boxes should have
+    EXACTLY 3 candies, then how many MORE candies do we need in total?
+  stimulus:
+    assetRefs:
+      - candy-boxes
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The first box has 2 candies and needs 1 more. The second box already has 3. The
+    third box has 2 and needs 1 more. That is 2 more candies in total.
+  assetRefs: []
+assets:
+  - ref: candy-boxes
+    file: ../assets/candy-boxes.png
+    role: stem
+    visibility: public
+    alt: Three boxes of candies holding 2, 3, and 2 candies
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 4 question 6 answer and solution"

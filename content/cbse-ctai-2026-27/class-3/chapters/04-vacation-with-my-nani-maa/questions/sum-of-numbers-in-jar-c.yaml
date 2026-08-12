@@ -1,0 +1,58 @@
+id: c3-nani-maa-sum-of-numbers-in-jar-c
+slug: sum-of-numbers-in-jar-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch4-counting-objects
+    - c3-ch4-logical-reasoning
+  primaryTopic: c3-ch4-counting-objects
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Jars A, B, and C together have 9 balls, with each ball having a number written
+    on it. Each number appears EXACTLY 3 times. What is the sum of the numbers in
+    Jar C?
+  stimulus:
+    assetRefs:
+      - jars-of-balls
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Jar A has 4 balls and Jar B has 2, so Jar C holds the remaining 3. Number 1
+    already appears three times, number 2 appears twice so one more is in Jar C,
+    and number 3 appears once so two more are in Jar C. Jar C holds 2, 3, and 3,
+    which add up to 8.
+  assetRefs: []
+assets:
+  - ref: jars-of-balls
+    file: ../assets/jars-of-balls.png
+    role: stem
+    visibility: public
+    alt: >-
+      Jar A holding balls numbered 1, 2, 3, and 1; Jar B holding balls numbered 1
+      and 2; and Jar C shown covered
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 4 question 1 answer and solution"

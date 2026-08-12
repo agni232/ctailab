@@ -1,0 +1,44 @@
+id: c3-nani-maa-sum-you-can-never-get
+slug: sum-you-can-never-get
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch4-adding-numbers
+    - c3-ch4-comparing-digits
+  primaryTopic: c3-ch4-adding-numbers
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which number will you NEVER get if you add a single digit number and a two-digit
+    number?
+  options:
+    - id: option-a
+      text: "11"
+    - id: option-b
+      text: "102"
+    - id: option-c
+      text: "105"
+    - id: option-d
+      text: "109"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The largest single digit number is 9 and the largest two-digit number is 99, so
+    the biggest sum possible is 108. 109 is more than 108, so it can never be made.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 4 question 9 answer and solution"

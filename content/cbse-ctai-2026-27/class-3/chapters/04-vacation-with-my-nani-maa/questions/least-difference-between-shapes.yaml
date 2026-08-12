@@ -1,0 +1,84 @@
+id: c3-nani-maa-least-difference-between-shapes
+slug: least-difference-between-shapes
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch4-comparing-digits
+  primaryTopic: c3-ch4-comparing-digits
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    For each shape, if we remove the smallest digit, the difference between the
+    remaining digits of which two shapes will be the LEAST?
+  stimulus:
+    assetRefs:
+      - shapes-with-two-digits
+  options:
+    - id: option-a
+      assetRef: shape-pair-option-a
+      accessibleLabel: The pentagon and the circle
+    - id: option-b
+      assetRef: shape-pair-option-b
+      accessibleLabel: The circle and the rectangle
+    - id: option-c
+      assetRef: shape-pair-option-c
+      accessibleLabel: The triangle and the pentagon
+    - id: option-d
+      assetRef: shape-pair-option-d
+      accessibleLabel: The rectangle and the triangle
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Removing the smaller digit leaves 7 in the circle, 5 in the pentagon, 6 in the
+    triangle, and 6 in the rectangle. The triangle and the rectangle both leave 6,
+    so their difference is 0, the smallest possible.
+  assetRefs: []
+assets:
+  - ref: shapes-with-two-digits
+    file: ../assets/shapes-with-two-digits.png
+    role: stem
+    visibility: public
+    alt: >-
+      A circle holding 3 and 7, a pentagon holding 5 and 4, a triangle holding 6
+      and 5, and a rectangle holding 4 and 6
+    position: 0
+  - ref: shape-pair-option-a
+    file: ../assets/shape-pair-option-a.png
+    role: option
+    visibility: public
+    alt: A pentagon and a circle
+    position: 1
+  - ref: shape-pair-option-b
+    file: ../assets/shape-pair-option-b.png
+    role: option
+    visibility: public
+    alt: A circle and a rectangle
+    position: 2
+  - ref: shape-pair-option-c
+    file: ../assets/shape-pair-option-c.png
+    role: option
+    visibility: public
+    alt: A triangle and a pentagon
+    position: 3
+  - ref: shape-pair-option-d
+    file: ../assets/shape-pair-option-d.png
+    role: option
+    visibility: public
+    alt: A rectangle and a triangle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 32
+    pageEnd: 33
+    section: "Chapter 4 question 2 answer and solution"

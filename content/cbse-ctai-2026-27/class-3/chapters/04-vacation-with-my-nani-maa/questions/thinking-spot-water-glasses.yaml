@@ -1,0 +1,46 @@
+id: c3-nani-maa-thinking-spot-water-glasses
+slug: thinking-spot-water-glasses
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c3-ch4-logical-puzzles
+    - c3-ch4-sharing-equally
+  primaryTopic: c3-ch4-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are 3 identical glasses A, B, and C which are filled equally. Then half
+    of the water in glass A is poured into glass C, and after that half of the water
+    in glass C is poured into glass B. Which glass has the maximum amount of water?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: Either A or C
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Imagine each glass starts with 4 litres. Pouring half of A into C leaves A with
+    2 and gives C 6. Pouring half of C, which is 3 litres, into B gives B 7 and
+    leaves C with 3. So B has the most water.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 The Thinking Spot"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 4 The Thinking Spot answer and solution"

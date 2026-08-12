@@ -1,0 +1,72 @@
+id: cbse-2026-27-c3-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 4 in the Class 3 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-12T00:00:00.000Z
+items:
+  - questionId: c3-nani-maa-sum-of-numbers-in-jar-c
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-least-difference-between-shapes
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-money-shared-equally
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-seventh-item-from-the-right
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-how-many-children-does-toms-mother-have
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-more-candies-needed
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-frog-jumps-to-eighteen
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-final-score-after-five-rounds
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-sum-you-can-never-get
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"
+  - questionId: c3-nani-maa-maximum-score-difference
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Vacation with My Nani Maa"

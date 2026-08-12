@@ -1,0 +1,53 @@
+id: c3-nani-maa-seventh-item-from-the-right
+slug: seventh-item-from-the-right
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c3-ch4-position-and-order
+  primaryTopic: c3-ch4-position-and-order
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Starting from the left end of a row, there are three kites, followed by two
+    umbrellas, then three balls, and then three bottles in that order. Which item
+    is located 7th from the right end of the given row?
+  stimulus:
+    assetRefs:
+      - left-right-arrow
+  options:
+    - id: option-a
+      text: Umbrella
+    - id: option-b
+      text: Kite
+    - id: option-c
+      text: Bottle
+    - id: option-d
+      text: Ball
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Count from the right instead: 3 bottles, then 3 balls, which is 6 items. The
+    7th item from the right is the next one along, an umbrella.
+  assetRefs: []
+assets:
+  - ref: left-right-arrow
+    file: ../assets/left-right-arrow.png
+    role: supporting
+    visibility: public
+    alt: A double-headed arrow labelled LEFT at one end and RIGHT at the other
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-3-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-3-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 4 question 4 answer and solution"
