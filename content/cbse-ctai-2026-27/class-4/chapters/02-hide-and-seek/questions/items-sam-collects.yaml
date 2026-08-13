@@ -1,0 +1,56 @@
+id: c4-hide-and-seek-items-sam-collects
+slug: items-sam-collects
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-paths-and-routes
+    - c4-ch2-maps-and-grids
+  primaryTopic: c4-ch2-paths-and-routes
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Sam travels from Start to End by visiting every block. He collects an item from
+    every block except from the block which comes immediately after a GREY BLOCK. What
+    is the TOTAL NUMBER of items he will collect?
+  stimulus:
+    assetRefs:
+      - item-strip
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Walk the strip from Start to End and cross out every block that sits immediately
+    after a grey one. Counting what is left gives 5 items.
+  assetRefs: []
+assets:
+  - ref: item-strip
+    file: ../assets/item-strip.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A row of ten blocks from Start to End, some grey and some white, each holding an
+      item such as a car, a cup, an ice cream, or a teddy bear
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 1 answer and solution"

@@ -1,0 +1,44 @@
+id: c4-sharing-and-measuring-price-a-pen-cannot-be
+slug: price-a-pen-cannot-be
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch5-equal-sharing
+  primaryTopic: c4-ch5-equal-sharing
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Diksha bought some pens for exactly Rs. 80. If each pen costs the same, which of the
+    following CANNOT be the price of a pen?
+  options:
+    - id: option-a
+      text: Rs. 4
+    - id: option-b
+      text: Rs. 5
+    - id: option-c
+      text: Rs. 6
+    - id: option-d
+      text: Rs. 8
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The price has to divide 80 exactly, since she cannot buy part of a pen. 80 splits
+    evenly by 4, 5, and 8, but not by 6.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 45
+    pageEnd: 46
+    section: "Chapter 5 question 3 answer and solution"

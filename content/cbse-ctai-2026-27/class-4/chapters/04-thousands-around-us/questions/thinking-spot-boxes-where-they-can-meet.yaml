@@ -1,0 +1,53 @@
+id: c4-thousands-around-us-thinking-spot-boxes-where-they-can-meet
+slug: thinking-spot-boxes-where-they-can-meet
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch4-logical-puzzles
+  primaryTopic: c4-ch4-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A, B, and C want to meet. They cannot meet in the boxes they are currently standing
+    in or in any boxes immediately connected to them. In how many boxes can they meet?
+  stimulus:
+    assetRefs:
+      - connected-boxes-abc
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Cross out the three boxes A, B, and C are standing in, then cross out every box
+    joined directly to any of them. Counting what is left gives 2 boxes where all three
+    can meet.
+  assetRefs: []
+assets:
+  - ref: connected-boxes-abc
+    file: ../assets/connected-boxes-abc.png
+    role: stem
+    visibility: public
+    alt: A grid of boxes joined by lines, with three of them labelled A, B, and C
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 4 The Thinking Spot answer and solution"

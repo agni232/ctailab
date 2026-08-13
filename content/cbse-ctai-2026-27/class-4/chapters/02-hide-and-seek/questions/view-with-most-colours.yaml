@@ -1,0 +1,54 @@
+id: c4-hide-and-seek-view-with-most-colours
+slug: view-with-most-colours
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch2-views-of-solids
+  primaryTopic: c4-ch2-views-of-solids
+  estimatedMinutes: 5
+content:
+  prompt: Which of the views given in the options shows the highest number of different colours?
+  stimulus:
+    assetRefs:
+      - two-colour-arrangements
+  options:
+    - id: option-a
+      text: Front View – ARRANGEMENT 1
+    - id: option-b
+      text: Right-side View – ARRANGEMENT 1
+    - id: option-c
+      text: Front View – ARRANGEMENT 2
+    - id: option-d
+      text: Right-side View – ARRANGEMENT 2
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Check each view in turn. Arrangement 1 from the front shows red, green, and yellow,
+    and from the right shows red and blue. Arrangement 2 from the front shows red,
+    green, and blue, and from the right shows red, yellow, green, and blue. That last
+    view shows 4 colours, the most of any.
+  assetRefs: []
+assets:
+  - ref: two-colour-arrangements
+    file: ../assets/two-colour-arrangements.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two stacks of coloured cubes labelled ARRANGEMENT 1 and ARRANGEMENT 2, each with
+      arrows marking the Front View and the Right-side View
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 2 question 7 answer and solution"

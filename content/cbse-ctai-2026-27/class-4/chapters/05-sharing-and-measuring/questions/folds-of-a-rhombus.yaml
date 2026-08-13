@@ -1,0 +1,44 @@
+id: c4-sharing-and-measuring-folds-of-a-rhombus
+slug: folds-of-a-rhombus
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch5-symmetry
+  primaryTopic: c4-ch5-symmetry
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A piece of paper is shaped like a rhombus, but not a square. At most, how many times
+    can it be folded so that each fold divides it into two identical halves?
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A rhombus folds neatly along each of its two diagonals, and both folds give matching
+    halves. After that no further fold splits it evenly, so the answer is 2.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 48
+    pageEnd: 49
+    section: "Chapter 5 question 9 answer and solution"

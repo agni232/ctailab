@@ -1,0 +1,46 @@
+id: c4-patterns-around-us-who-is-standing-last
+slug: who-is-standing-last
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch3-ordering-and-position
+    - c4-ch3-reasoning-with-clues
+  primaryTopic: c4-ch3-ordering-and-position
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are only 4 people, A, B, C, and D, standing in a queue. A is not standing at
+    an even-numbered position from the front. D is standing immediately ahead of B. If B
+    is not standing last, then who is standing last?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A must be at position 1 or 3. D has to sit immediately in front of B, and B cannot
+    be last. Trying the arrangements that fit, C ends up at the back every time.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 31
+    pageEnd: 32
+    section: "Chapter 3 question 9 answer and solution"

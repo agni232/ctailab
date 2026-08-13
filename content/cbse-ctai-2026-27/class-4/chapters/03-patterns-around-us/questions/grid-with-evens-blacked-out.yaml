@@ -1,0 +1,82 @@
+id: c4-patterns-around-us-grid-with-evens-blacked-out
+slug: grid-with-evens-blacked-out
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch3-odd-and-even
+    - c4-ch3-number-patterns
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - even-number-grids
+  options:
+    - id: option-a
+      assetRef: even-grid-option-a
+      accessibleLabel: A grid where 10 is left as a number
+    - id: option-b
+      assetRef: even-grid-option-b
+      accessibleLabel: A grid where 31 is replaced by a black circle
+    - id: option-c
+      assetRef: even-grid-option-c
+      accessibleLabel: A grid where every even number is replaced by a black circle
+    - id: option-d
+      assetRef: even-grid-option-d
+      accessibleLabel: A grid where 18 is left as a number
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In each pair of grids, every even number on the left turns into a black circle on
+    the right and the odd numbers stay. Applying that to the last grid blacks out 28,
+    14, 18, 32, and 10, which is option c.
+  assetRefs: []
+assets:
+  - ref: even-number-grids
+    file: ../assets/even-number-grids.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four pairs of three by three number grids joined by arrows, with black circles
+      replacing some numbers and the last pair ending in a question mark
+    position: 0
+  - ref: even-grid-option-a
+    file: ../assets/even-grid-option-a.jpg
+    role: option
+    visibility: public
+    alt: Number grid with black circles, option a
+    position: 1
+  - ref: even-grid-option-b
+    file: ../assets/even-grid-option-b.png
+    role: option
+    visibility: public
+    alt: Number grid with black circles, option b
+    position: 2
+  - ref: even-grid-option-c
+    file: ../assets/even-grid-option-c.jpg
+    role: option
+    visibility: public
+    alt: Number grid with black circles, option c
+    position: 3
+  - ref: even-grid-option-d
+    file: ../assets/even-grid-option-d.jpg
+    role: option
+    visibility: public
+    alt: Number grid with black circles, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 3 question 5 answer and solution"

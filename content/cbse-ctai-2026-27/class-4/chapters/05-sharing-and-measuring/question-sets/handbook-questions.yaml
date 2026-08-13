@@ -1,0 +1,66 @@
+id: cbse-2026-27-c4-ch5-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: Questions 1 to 9 from Chapter 5 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-sharing-and-measuring-bottles-under-half-full
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-fraction-shaded-grey
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-price-a-pen-cannot-be
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-next-figure-in-the-circle-series
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-minutes-in-three-quarters-of-an-hour
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-odd-one-out-pizza-slice
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 25
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-symbol-for-the-shaded-bars
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-fraction-from-coloured-edges
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Sharing and Measuring"
+  - questionId: c4-sharing-and-measuring-folds-of-a-rhombus
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Sharing and Measuring"

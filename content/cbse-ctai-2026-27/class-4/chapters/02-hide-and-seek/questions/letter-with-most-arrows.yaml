@@ -1,0 +1,51 @@
+id: c4-hide-and-seek-letter-with-most-arrows
+slug: letter-with-most-arrows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-following-directions
+    - c4-ch2-maps-and-grids
+  primaryTopic: c4-ch2-following-directions
+  estimatedMinutes: 4
+content:
+  prompt: In the grid given below, which letter has the MOST number of arrows pointing towards it?
+  stimulus:
+    assetRefs:
+      - arrow-letter-grid
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Follow each arrow to see which letter it leads to. A gets 1 arrow, C gets 2, D gets
+    2, and B gets 3, so B has the most.
+  assetRefs: []
+assets:
+  - ref: arrow-letter-grid
+    file: ../assets/arrow-letter-grid.png
+    role: stem
+    visibility: public
+    alt: A five by five grid holding the letters A, B, C, and D among arrows pointing in different directions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 2 question 5 answer and solution"

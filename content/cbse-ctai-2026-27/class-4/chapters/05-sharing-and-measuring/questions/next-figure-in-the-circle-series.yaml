@@ -1,0 +1,81 @@
+id: c4-sharing-and-measuring-next-figure-in-the-circle-series
+slug: next-figure-in-the-circle-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch5-shape-patterns
+    - c4-ch5-halves-and-quarters
+  primaryTopic: c4-ch5-shape-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - circle-series
+  options:
+    - id: option-a
+      assetRef: circle-series-option-a
+      accessibleLabel: A complete inner circle with a quarter of the outer circle
+    - id: option-b
+      assetRef: circle-series-option-b
+      accessibleLabel: Circle figure, option b
+    - id: option-c
+      assetRef: circle-series-option-c
+      accessibleLabel: Circle figure, option c
+    - id: option-d
+      assetRef: circle-series-option-d
+      accessibleLabel: Circle figure, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Two things happen each step: the inner circle gains a quarter turning
+    anti-clockwise, and the outer circle loses a quarter turning clockwise. Carrying
+    that on, the inner circle becomes complete and the outer circle is down to a
+    quarter, which matches option a.
+  assetRefs: []
+assets:
+  - ref: circle-series
+    file: ../assets/circle-series.png
+    role: stem
+    visibility: public
+    alt: A series of figures each holding an inner and an outer circle divided into quarters
+    position: 0
+  - ref: circle-series-option-a
+    file: ../assets/circle-series-option-a.png
+    role: option
+    visibility: public
+    alt: Circle figure, option a
+    position: 1
+  - ref: circle-series-option-b
+    file: ../assets/circle-series-option-b.png
+    role: option
+    visibility: public
+    alt: Circle figure, option b
+    position: 2
+  - ref: circle-series-option-c
+    file: ../assets/circle-series-option-c.png
+    role: option
+    visibility: public
+    alt: Circle figure, option c
+    position: 3
+  - ref: circle-series-option-d
+    file: ../assets/circle-series-option-d.png
+    role: option
+    visibility: public
+    alt: Circle figure, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 5 question 4 answer and solution"

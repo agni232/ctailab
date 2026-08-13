@@ -1,0 +1,84 @@
+id: c4-hide-and-seek-missing-part-of-the-grey-strip
+slug: missing-part-of-the-grey-strip
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-paths-and-routes
+    - c4-ch2-maps-and-grids
+  primaryTopic: c4-ch2-paths-and-routes
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Sam wants to reach HOME by walking along the GREY STRIP. Identify the missing part
+    of the strip. You are not allowed to rotate any of the option images.
+  stimulus:
+    assetRefs:
+      - sam-grey-strip
+  options:
+    - id: option-a
+      assetRef: grey-strip-option-a
+      accessibleLabel: A grey strip piece that turns upwards
+    - id: option-b
+      assetRef: grey-strip-option-b
+      accessibleLabel: A grey strip piece that runs sideways
+    - id: option-c
+      assetRef: grey-strip-option-c
+      accessibleLabel: A short grey strip piece that turns downwards
+    - id: option-d
+      assetRef: grey-strip-option-d
+      accessibleLabel: A longer grey strip piece that turns downwards
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    HOME sits at the bottom of the grid, so the missing piece has to carry the path
+    downwards. Options a and b end going up or sideways. Option c heads down but runs
+    out of grey cells before reaching HOME. Option d has just enough to get there.
+  assetRefs: []
+assets:
+  - ref: sam-grey-strip
+    file: ../assets/sam-grey-strip.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Sam beside a grid with a partly drawn grey strip, and exits marked PARK, SCHOOL,
+      and HOME
+    position: 0
+  - ref: grey-strip-option-a
+    file: ../assets/grey-strip-option-a.png
+    role: option
+    visibility: public
+    alt: Grey strip piece, option a
+    position: 1
+  - ref: grey-strip-option-b
+    file: ../assets/grey-strip-option-b.png
+    role: option
+    visibility: public
+    alt: Grey strip piece, option b
+    position: 2
+  - ref: grey-strip-option-c
+    file: ../assets/grey-strip-option-c.jpg
+    role: option
+    visibility: public
+    alt: Grey strip piece, option c
+    position: 3
+  - ref: grey-strip-option-d
+    file: ../assets/grey-strip-option-d.png
+    role: option
+    visibility: public
+    alt: Grey strip piece, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 2 question 4 answer and solution"

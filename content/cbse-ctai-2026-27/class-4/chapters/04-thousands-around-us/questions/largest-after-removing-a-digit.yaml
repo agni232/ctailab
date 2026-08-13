@@ -1,0 +1,55 @@
+id: c4-thousands-around-us-largest-after-removing-a-digit
+slug: largest-after-removing-a-digit
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch4-comparing-numbers
+    - c4-ch4-digit-puzzles
+  primaryTopic: c4-ch4-comparing-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If you remove the digit that is common to all four numbers shown below, which number
+    will become the largest? You cannot re-arrange the digits to form a number.
+  stimulus:
+    assetRefs:
+      - four-five-digit-numbers
+  options:
+    - id: option-a
+      text: Number 1
+    - id: option-b
+      text: Number 2
+    - id: option-c
+      text: Number 3
+    - id: option-d
+      text: Number 4
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The digit 4 appears in all four numbers. Taking it out without shuffling the rest
+    gives 9526, 2172, 6801, and 6851. The largest of those is 9526, which came from
+    Number 1.
+  assetRefs: []
+assets:
+  - ref: four-five-digit-numbers
+    file: ../assets/four-five-digit-numbers.png
+    role: stem
+    visibility: public
+    alt: Four boxes labelled Number 1 to Number 4 holding 49526, 21724, 68401, and 64851
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 40
+    pageEnd: 41
+    section: "Chapter 4 question 5 answer and solution"

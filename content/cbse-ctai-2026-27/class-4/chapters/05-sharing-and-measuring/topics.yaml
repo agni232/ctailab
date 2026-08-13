@@ -1,0 +1,48 @@
+topics:
+  - id: c4-ch5-fractions
+    slug: fractions
+    title: Fractions
+    position: 1
+    status: published
+  - id: c4-ch5-halves-and-quarters
+    slug: halves-and-quarters
+    title: Halves and Quarters
+    position: 2
+    parentId: c4-ch5-fractions
+    status: published
+  - id: c4-ch5-comparing-fractions
+    slug: comparing-fractions
+    title: Comparing Fractions
+    position: 3
+    parentId: c4-ch5-fractions
+    status: published
+  - id: c4-ch5-capacity
+    slug: capacity
+    title: Capacity
+    position: 4
+    status: published
+  - id: c4-ch5-time
+    slug: time
+    title: Time
+    position: 5
+    status: published
+  - id: c4-ch5-equal-sharing
+    slug: equal-sharing
+    title: Equal Sharing
+    position: 6
+    status: published
+  - id: c4-ch5-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 7
+    status: published
+  - id: c4-ch5-symmetry
+    slug: symmetry
+    title: Symmetry
+    position: 8
+    status: published
+  - id: c4-ch5-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 9
+    status: published

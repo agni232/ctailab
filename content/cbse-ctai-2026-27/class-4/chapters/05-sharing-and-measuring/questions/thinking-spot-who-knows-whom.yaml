@@ -1,0 +1,45 @@
+id: c4-sharing-and-measuring-thinking-spot-who-knows-whom
+slug: thinking-spot-who-knows-whom
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch5-logical-puzzles
+  primaryTopic: c4-ch5-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    At a party, there are 10 people. Each person at the party knows at least one other
+    person there. Which of the following statements can never be true? If A knows B,
+    then it does not necessarily mean that B knows A.
+  options:
+    - id: option-a
+      text: Every person knows only one other person
+    - id: option-b
+      text: Every person knows all the other people
+    - id: option-c
+      text: Every person knows a different number of people
+    - id: option-d
+      text: Every person knows exactly two other people
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each person knows somewhere between 1 and 9 others, which is only 9 possible counts.
+    With 10 people at the party, two of them must share the same count, so everyone
+    knowing a different number of people can never happen.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 5 The Thinking Spot answer and solution"

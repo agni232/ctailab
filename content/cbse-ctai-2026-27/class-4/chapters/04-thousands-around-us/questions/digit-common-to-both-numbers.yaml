@@ -1,0 +1,46 @@
+id: c4-thousands-around-us-digit-common-to-both-numbers
+slug: digit-common-to-both-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch4-making-numbers
+    - c4-ch4-comparing-numbers
+  primaryTopic: c4-ch4-making-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Using the digits 4, 8, 7, 6, 1, 3, and 5, form the largest and the smallest 4-digit
+    numbers such that no digit repeats within a number. Which digit will be common in
+    both numbers?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The largest number takes the four biggest digits in descending order, 8765. The
+    smallest takes the four smallest in ascending order, 1345. The digit 5 appears in
+    both.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 40
+    section: "Chapter 4 question 4 answer and solution"

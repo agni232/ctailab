@@ -1,0 +1,47 @@
+id: c4-hide-and-seek-thinking-spot-coins-among-four-people
+slug: thinking-spot-coins-among-four-people
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch2-logical-puzzles
+  primaryTopic: c4-ch2-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Ten coins are distributed among four people P, Q, R, and S such that one of them
+    gets one coin, another gets two coins, the third gets three coins, and the fourth
+    gets four coins. It is known that Q gets more coins than P, and S gets fewer coins
+    than R. If R gets at least two more coins than S, then which one of the following is
+    necessarily true?
+  options:
+    - id: option-a
+      text: Q gets at least two more coins than S
+    - id: option-b
+      text: Q and R together get seven coins every time
+    - id: option-c
+      text: P gets more coins than S
+    - id: option-d
+      text: P and Q together get at least five coins
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The four amounts are 1, 2, 3, and 4. Start from Q > P and R > S, then keep only the
+    arrangements where R is at least two more than S. In every one of those, Q and R
+    add up to seven, while the other statements fail in at least one case.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 The Thinking Spot answer and solution"

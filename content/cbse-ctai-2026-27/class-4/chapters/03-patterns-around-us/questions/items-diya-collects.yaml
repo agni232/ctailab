@@ -1,0 +1,54 @@
+id: c4-patterns-around-us-items-diya-collects
+slug: items-diya-collects
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch3-odd-and-even
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Diya wants to pick only the items placed on the steps marked with even numbers.
+    Which of the following options shows the food items she would collect?
+  stimulus:
+    assetRefs:
+      - staircase-with-food
+  options:
+    - id: option-a
+      text: 2 Pizzas, 2 Ice-creams, and 1 Apple
+    - id: option-b
+      text: 1 Pizza, 1 Ice-cream, and 2 Apples
+    - id: option-c
+      text: 1 Pizza, 2 Ice-creams, and 1 Apple
+    - id: option-d
+      text: 2 Pizzas, 1 Ice-cream, and 1 Apple
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The even-numbered steps are 6, 4, 8, and 2. Collecting only what sits on those four
+    steps gives 1 pizza, 2 ice-creams, and 1 apple.
+  assetRefs: []
+assets:
+  - ref: staircase-with-food
+    file: ../assets/staircase-with-food.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A staircase with numbered steps holding pizzas, ice-creams, and apples, with a
+      girl standing at the bottom
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 3 question 6 answer and solution"

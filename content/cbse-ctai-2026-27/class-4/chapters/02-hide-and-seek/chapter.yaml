@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-4-chapter-2
+slug: hide-and-seek
+displayNumber: "2"
+title: Hide and Seek
+summary: Follow routes across a grid and work out how a solid looks from each side.
+position: 2
+status: published
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 12
+    pageEnd: 14
+    section: "Chapter 2: Hide and Seek"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 16
+    pageEnd: 23
+    section: "Chapter 2: Hide and Seek"

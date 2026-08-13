@@ -1,0 +1,44 @@
+id: c4-patterns-around-us-why-sweets-cannot-be-shared
+slug: why-sweets-cannot-be-shared
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch3-odd-and-even
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Mani has some sweets with him. He wants to divide them between him and his friend
+    Swami equally. He tries many times but is not able to divide the sweets equally.
+    What could be the reason? A full sweet cannot be split into parts.
+  options:
+    - id: option-a
+      text: The number of sweets that Mani has is even
+    - id: option-b
+      text: The number of sweets that Mani has is odd
+    - id: option-c
+      text: The number of sweets that Mani has is 46
+    - id: option-d
+      text: None of these
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    An even number of sweets always splits into two equal whole shares. Since Mani can
+    never split his equally, the number he has must be odd.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 31
+    section: "Chapter 3 question 7 answer and solution"

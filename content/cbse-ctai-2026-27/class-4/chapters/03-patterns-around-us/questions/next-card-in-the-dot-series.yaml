@@ -1,0 +1,80 @@
+id: c4-patterns-around-us-next-card-in-the-dot-series
+slug: next-card-in-the-dot-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch3-dot-patterns
+    - c4-ch3-number-patterns
+  primaryTopic: c4-ch3-dot-patterns
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - dot-card-series
+  options:
+    - id: option-a
+      assetRef: dot-card-option-a
+      accessibleLabel: A card with 6 dots
+    - id: option-b
+      assetRef: dot-card-option-b
+      accessibleLabel: A card with 4 dots
+    - id: option-c
+      assetRef: dot-card-option-c
+      accessibleLabel: A card with 9 dots
+    - id: option-d
+      assetRef: dot-card-option-d
+      accessibleLabel: A card with 7 dots
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Read the cards in two interleaved runs. The 1st, 3rd, 5th, and 7th cards count up
+    2, 3, 4, 5, and the 2nd, 4th, and 6th count up 4, 5, 6. The next card belongs to the
+    second run, so it holds 7 dots.
+  assetRefs: []
+assets:
+  - ref: dot-card-series
+    file: ../assets/dot-card-series.jpg
+    role: stem
+    visibility: public
+    alt: Seven cards holding different numbers of purple dots, followed by a question mark
+    position: 0
+  - ref: dot-card-option-a
+    file: ../assets/dot-card-option-a.png
+    role: option
+    visibility: public
+    alt: Card with 6 dots
+    position: 1
+  - ref: dot-card-option-b
+    file: ../assets/dot-card-option-b.png
+    role: option
+    visibility: public
+    alt: Card with 4 dots
+    position: 2
+  - ref: dot-card-option-c
+    file: ../assets/dot-card-option-c.png
+    role: option
+    visibility: public
+    alt: Card with 9 dots
+    position: 3
+  - ref: dot-card-option-d
+    file: ../assets/dot-card-option-d.png
+    role: option
+    visibility: public
+    alt: Card with 7 dots
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 3 question 4 answer and solution"

@@ -1,0 +1,46 @@
+id: c4-patterns-around-us-possible-values-of-x
+slug: possible-values-of-x
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch3-odd-and-even
+    - c4-ch3-place-value
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    XY is a two-digit odd number. The sum of X and Y is a single-digit odd number. At
+    maximum, how many different possible values can X have?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: More than 4
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Because XY is odd, Y must be odd. An odd plus an even makes an odd total, so X has
+    to be even. X cannot be 0 or XY would not be a 2-digit number, which leaves 2, 4,
+    6, and 8 — four values.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 28
+    pageEnd: 29
+    section: "Chapter 3 question 2 answer and solution"

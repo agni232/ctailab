@@ -1,0 +1,83 @@
+id: c4-sharing-and-measuring-fraction-from-coloured-edges
+slug: fraction-from-coloured-edges
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch5-fractions
+    - c4-ch5-shape-patterns
+  primaryTopic: c4-ch5-fractions
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - coloured-edges-terms
+  options:
+    - id: option-a
+      assetRef: fraction-option-a
+      accessibleLabel: The fraction 2 over 4 with 2 in purple and 4 in pink
+    - id: option-b
+      assetRef: fraction-option-b
+      accessibleLabel: A fraction, option b
+    - id: option-c
+      assetRef: fraction-option-c
+      accessibleLabel: A fraction, option c
+    - id: option-d
+      assetRef: fraction-option-d
+      accessibleLabel: A fraction, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each fraction counts the edges of the two colours, with the smaller count on top,
+    and each number is written in the colour of the edges it counts. Here 2 edges are
+    purple and 4 are pink, so the answer is 2 over 4 with the 2 in purple and the 4 in
+    pink.
+  assetRefs: []
+assets:
+  - ref: coloured-edges-terms
+    file: ../assets/coloured-edges-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Shapes drawn with edges in two colours, each followed by a coloured fraction, and
+      the last one followed by a question mark
+    position: 0
+  - ref: fraction-option-a
+    file: ../assets/fraction-option-a.png
+    role: option
+    visibility: public
+    alt: The fraction 2 over 4, option a
+    position: 1
+  - ref: fraction-option-b
+    file: ../assets/fraction-option-b.png
+    role: option
+    visibility: public
+    alt: A coloured fraction, option b
+    position: 2
+  - ref: fraction-option-c
+    file: ../assets/fraction-option-c.png
+    role: option
+    visibility: public
+    alt: A coloured fraction, option c
+    position: 3
+  - ref: fraction-option-d
+    file: ../assets/fraction-option-d.png
+    role: option
+    visibility: public
+    alt: A coloured fraction, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 5 question 8 answer and solution"

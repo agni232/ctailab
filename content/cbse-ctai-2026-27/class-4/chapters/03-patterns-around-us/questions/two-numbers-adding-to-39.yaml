@@ -1,0 +1,44 @@
+id: c4-patterns-around-us-two-numbers-adding-to-39
+slug: two-numbers-adding-to-39
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch3-odd-and-even
+    - c4-ch3-reasoning-with-clues
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Statement: The sum of two natural numbers is 39. Which of the given options can be
+    understood from the given statement?
+  options:
+    - id: option-a
+      text: One of the two natural numbers is odd
+    - id: option-b
+      text: Both the natural numbers are odd
+    - id: option-c
+      text: One of the two natural numbers is even
+    - id: option-d
+      text: Both a and c
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Two numbers only add to an odd total when one is even and the other is odd. So it
+    is true that one of them is odd and also true that one of them is even.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 31
+    section: "Chapter 3 question 8 answer and solution"

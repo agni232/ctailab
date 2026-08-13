@@ -1,0 +1,75 @@
+id: c4-sharing-and-measuring-symbol-for-the-shaded-bars
+slug: symbol-for-the-shaded-bars
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch5-comparing-fractions
+    - c4-ch5-fractions
+  primaryTopic: c4-ch5-comparing-fractions
+  estimatedMinutes: 5
+content:
+  prompt: If each of the given terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - bar-comparison-terms
+  options:
+    - id: option-a
+      assetRef: bar-option-a
+      accessibleLabel: An equals sign
+    - id: option-b
+      assetRef: bar-option-b
+      accessibleLabel: A comparison sign, option b
+    - id: option-c
+      assetRef: bar-option-c
+      accessibleLabel: A comparison sign, option c
+    - id: option-d
+      text: None of these
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    In each row, add up the shaded parts of the top and bottom bars together and compare
+    that with the total white parts. In the last row the shaded and white amounts come
+    out the same, so the symbol is the equals sign.
+  assetRefs: []
+assets:
+  - ref: bar-comparison-terms
+    file: ../assets/bar-comparison-terms.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Rows each holding a box of two part-shaded bars beside a comparison symbol, with
+      the last row ending in a question mark
+    position: 0
+  - ref: bar-option-a
+    file: ../assets/bar-option-a.png
+    role: option
+    visibility: public
+    alt: An equals sign
+    position: 1
+  - ref: bar-option-b
+    file: ../assets/bar-option-b.png
+    role: option
+    visibility: public
+    alt: A comparison sign, option b
+    position: 2
+  - ref: bar-option-c
+    file: ../assets/bar-option-c.png
+    role: option
+    visibility: public
+    alt: A comparison sign, option c
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 5 question 7 answer and solution"

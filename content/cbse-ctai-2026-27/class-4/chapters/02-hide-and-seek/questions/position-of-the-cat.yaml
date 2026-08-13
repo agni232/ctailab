@@ -1,0 +1,54 @@
+id: c4-hide-and-seek-position-of-the-cat
+slug: position-of-the-cat
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-position-and-direction
+  primaryTopic: c4-ch2-position-and-direction
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If a person is standing on block number 3, facing the animals, what will be the
+    position of the cat with respect to the fox from his point of view?
+  stimulus:
+    assetRefs:
+      - animals-and-blocks
+  options:
+    - id: option-a
+      text: In front
+    - id: option-b
+      text: Behind
+    - id: option-c
+      text: Left
+    - id: option-d
+      text: Right
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Stand where block 3 is and look towards the animals. From that side the fox is
+    nearer and the cat is further away, so the cat is behind the fox.
+  assetRefs: []
+assets:
+  - ref: animals-and-blocks
+    file: ../assets/animals-and-blocks.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A cat, a fox, a dog, and a zebra in a square, with numbered blocks 1, 2, 3, and 4
+      placed on the four sides
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 9 answer and solution"

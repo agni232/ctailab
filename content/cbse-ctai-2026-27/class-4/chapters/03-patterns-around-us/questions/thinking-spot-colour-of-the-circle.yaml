@@ -1,0 +1,58 @@
+id: c4-patterns-around-us-thinking-spot-colour-of-the-circle
+slug: thinking-spot-colour-of-the-circle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch3-logical-puzzles
+  primaryTopic: c4-ch3-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Given below is an arrangement of 6 circles, each filled with a different colour:
+    Yellow, Black, Purple, Red, Blue, and Green. The Yellow circle is connected to all
+    circles except the Black circle. The Black circle is only connected to the Purple
+    circle. The Yellow circle is the only circle that is connected to the Red circle.
+    The Blue circle is directly connected to the Yellow circle and to only one other
+    circle. What is the colour of the circle marked with "?"
+  stimulus:
+    assetRefs:
+      - connected-circles
+  options:
+    - id: option-a
+      text: Red
+    - id: option-b
+      text: Purple
+    - id: option-c
+      text: Green
+    - id: option-d
+      text: Blue
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count the lines leaving each circle. Yellow joins everything except Black, so Yellow
+    is the busiest. Black has only one line, to Purple. Red has only one line, to Yellow.
+    Blue has exactly two. Fitting those counts onto the picture leaves Green for the
+    marked circle.
+  assetRefs: []
+assets:
+  - ref: connected-circles
+    file: ../assets/connected-circles.png
+    role: stem
+    visibility: public
+    alt: Six circles joined by lines, with one circle marked with a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 3 The Thinking Spot answer and solution"

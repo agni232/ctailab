@@ -1,0 +1,60 @@
+id: c4-hide-and-seek-who-started-from-the-question-mark
+slug: who-started-from-the-question-mark
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch2-maps-and-grids
+    - c4-ch2-logical-puzzles
+  primaryTopic: c4-ch2-maps-and-grids
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A, B, C, and D each go to one of the following places: the Zoo, the Shop, the Cafe,
+    and the Gym. Each person visits a DIFFERENT location and starts from a DIFFERENT
+    white square. B reaches the Gym in exactly 1 turn. A reaches the Cafe in exactly 2
+    turns. D did not take any turns to reach his destination. Who among them started
+    from the square having the question mark?
+  stimulus:
+    assetRefs:
+      - four-destinations-map
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Only two squares let B reach the Gym in one turn. A needs two turns to reach the
+    Cafe, which pins A to one of them, so B takes the other. Of the two squares left,
+    one reaches the Shop with no turns at all, so that is D. The last square, the one
+    with the question mark, must be C.
+  assetRefs: []
+assets:
+  - ref: four-destinations-map
+    file: ../assets/four-destinations-map.png
+    role: stem
+    visibility: public
+    alt: >-
+      A map of crossing roads with boxes labelled Gym, Zoo, Shop, and Cafe, three blank
+      white squares, and one square marked with a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 17
+    section: "Chapter 2 question 3 answer and solution"

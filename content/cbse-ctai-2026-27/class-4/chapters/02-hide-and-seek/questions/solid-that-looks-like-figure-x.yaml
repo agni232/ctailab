@@ -1,0 +1,82 @@
+id: c4-hide-and-seek-solid-that-looks-like-figure-x
+slug: solid-that-looks-like-figure-x
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch2-side-view
+    - c4-ch2-views-of-solids
+  primaryTopic: c4-ch2-side-view
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which of the following options will look like Figure X when viewed along the
+    direction of the arrow? You cannot rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - figure-x
+  options:
+    - id: option-a
+      assetRef: figure-x-option-a
+      accessibleLabel: Three cubes, two blue and one yellow
+    - id: option-b
+      assetRef: figure-x-option-b
+      accessibleLabel: Three yellow cubes with blue side faces
+    - id: option-c
+      assetRef: figure-x-option-c
+      accessibleLabel: Two yellow cubes and one blue cube nearest the arrow
+    - id: option-d
+      assetRef: figure-x-option-d
+      accessibleLabel: Three blue cubes with yellow side faces
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Look at each stack from the direction of the arrow and picture the coloured squares
+    you would see. Only option c gives a blue square beside two yellow ones in the same
+    L shape as Figure X.
+  assetRefs: []
+assets:
+  - ref: figure-x
+    file: ../assets/figure-x.png
+    role: stem
+    visibility: public
+    alt: Figure X, an L shape made of one blue square and two yellow squares
+    position: 0
+  - ref: figure-x-option-a
+    file: ../assets/figure-x-option-a.png
+    role: option
+    visibility: public
+    alt: Stack of cubes with an arrow pointing at it, option a
+    position: 1
+  - ref: figure-x-option-b
+    file: ../assets/figure-x-option-b.jpg
+    role: option
+    visibility: public
+    alt: Stack of cubes with an arrow pointing at it, option b
+    position: 2
+  - ref: figure-x-option-c
+    file: ../assets/figure-x-option-c.png
+    role: option
+    visibility: public
+    alt: Stack of cubes with an arrow pointing at it, option c
+    position: 3
+  - ref: figure-x-option-d
+    file: ../assets/figure-x-option-d.png
+    role: option
+    visibility: public
+    alt: Stack of cubes with an arrow pointing at it, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 8 answer and solution"

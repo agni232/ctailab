@@ -1,0 +1,45 @@
+id: c4-thousands-around-us-condition-that-can-be-true
+slug: condition-that-can-be-true
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch4-comparing-numbers
+    - c4-ch4-place-value
+  primaryTopic: c4-ch4-comparing-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    15A9 and 1A79 are two 4-digit numbers where A represents one of their digits. Which
+    of these conditions about these 4-digit numbers CAN be true, when A is less than 6?
+  options:
+    - id: option-a
+      text: 15A9 > 1A79
+    - id: option-b
+      text: 15A9 < 1A79
+    - id: option-c
+      text: 15A9 = 1A79
+    - id: option-d
+      text: Either A or B
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Both numbers start with 1, so compare the hundreds digits, 5 and A. If A is 5 the
+    numbers become 1559 and 1579, so the first is smaller. If A is anything below 5, say
+    4, they become 1549 and 1479, so the first is bigger. Both conditions can happen.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 4 question 1 answer and solution"

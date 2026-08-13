@@ -1,0 +1,51 @@
+id: c4-sharing-and-measuring-bottles-under-half-full
+slug: bottles-under-half-full
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch5-capacity
+    - c4-ch5-halves-and-quarters
+  primaryTopic: c4-ch5-capacity
+  estimatedMinutes: 3
+content:
+  prompt: How many bottles in the image below are filled to less than half their capacity?
+  stimulus:
+    assetRefs:
+      - bottles
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Picture the halfway mark on each bottle and check whether the liquid reaches it. 4
+    of the bottles are filled below that line.
+  assetRefs: []
+assets:
+  - ref: bottles
+    file: ../assets/bottles.jpg
+    role: stem
+    visibility: public
+    alt: Several bottles filled to different levels
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 5 question 1 answer and solution"

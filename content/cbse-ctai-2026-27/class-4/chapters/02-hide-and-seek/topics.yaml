@@ -1,0 +1,44 @@
+topics:
+  - id: c4-ch2-paths-and-routes
+    slug: paths-and-routes
+    title: Paths and Routes
+    position: 1
+    status: published
+  - id: c4-ch2-following-directions
+    slug: following-directions
+    title: Following Directions
+    position: 2
+    parentId: c4-ch2-paths-and-routes
+    status: published
+  - id: c4-ch2-maps-and-grids
+    slug: maps-and-grids
+    title: Maps and Grids
+    position: 3
+    status: published
+  - id: c4-ch2-views-of-solids
+    slug: views-of-solids
+    title: Views of Solids
+    position: 4
+    status: published
+  - id: c4-ch2-top-view
+    slug: top-view
+    title: Top View
+    position: 5
+    parentId: c4-ch2-views-of-solids
+    status: published
+  - id: c4-ch2-side-view
+    slug: side-view
+    title: Side View
+    position: 6
+    parentId: c4-ch2-views-of-solids
+    status: published
+  - id: c4-ch2-position-and-direction
+    slug: position-and-direction
+    title: Position and Direction
+    position: 7
+    status: published
+  - id: c4-ch2-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

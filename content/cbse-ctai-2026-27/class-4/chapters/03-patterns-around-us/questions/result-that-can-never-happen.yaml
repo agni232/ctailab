@@ -1,0 +1,59 @@
+id: c4-patterns-around-us-result-that-can-never-happen
+slug: result-that-can-never-happen
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch3-odd-and-even
+    - c4-ch3-reasoning-with-clues
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Given below are 8 squares, to be filled with unique numbers from 1 to 8, and some
+    numbers are already filled as shown below. If the result of all the four operations
+    is always a single-digit ODD NUMBER, then which of the following can NEVER be the
+    result of any operation?
+  stimulus:
+    assetRefs:
+      - eight-squares-operations
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The numbers left to place are 1, 4, 5, and 6. An odd result needs an odd number
+    paired with an even one, so 3 and 7 take the even numbers 4 and 6, and 8 and 2 take
+    the odd numbers 1 and 5. Working through the placements, 5 never turns up as a
+    result.
+  assetRefs: []
+assets:
+  - ref: eight-squares-operations
+    file: ../assets/eight-squares-operations.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows each showing a filled number, a plus or minus sign, an empty square,
+      and an equals sign
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 3 question 1 answer and solution"

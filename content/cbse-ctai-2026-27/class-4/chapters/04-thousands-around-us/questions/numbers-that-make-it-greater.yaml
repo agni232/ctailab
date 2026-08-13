@@ -1,0 +1,53 @@
+id: c4-thousands-around-us-numbers-that-make-it-greater
+slug: numbers-that-make-it-greater
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch4-comparing-numbers
+    - c4-ch4-place-value
+  primaryTopic: c4-ch4-comparing-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How many numbers from Set A can be placed in the blank, to form a number greater
+    than 6632?
+  stimulus:
+    assetRefs:
+      - blank-number-and-set-a
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Filling the blank in 6_44 with each of 4, 5, 6, and 7 gives 6444, 6544, 6644, and
+    6744. Only 6644 and 6744 are more than 6632, so 2 of them work.
+  assetRefs: []
+assets:
+  - ref: blank-number-and-set-a
+    file: ../assets/blank-number-and-set-a.png
+    role: stem
+    visibility: public
+    alt: The number 6 blank 4 4 beside Set A holding the digits 4, 5, 6, and 7
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 4 question 7 answer and solution"

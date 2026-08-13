@@ -1,0 +1,55 @@
+id: c4-thousands-around-us-smallest-number-from-circles
+slug: smallest-number-from-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch4-making-numbers
+    - c4-ch4-place-value
+  primaryTopic: c4-ch4-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    What is the smallest possible 4-digit number formed using 4 different circles from
+    the grid given below, such that the number of white circles in the number formed is
+    less than that of the black circles?
+  stimulus:
+    assetRefs:
+      - black-and-white-digit-circles
+  options:
+    - id: option-a
+      text: "1360"
+    - id: option-b
+      text: "1023"
+    - id: option-c
+      text: "1063"
+    - id: option-d
+      text: "1036"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Black circles must outnumber white ones, and there are only 3 black circles, so the
+    number uses all 3 black digits (6, 3, and 1) plus one white digit. Picking 0 keeps
+    the number small, and arranging 1, 0, 3, and 6 from smallest gives 1036.
+  assetRefs: []
+assets:
+  - ref: black-and-white-digit-circles
+    file: ../assets/black-and-white-digit-circles.png
+    role: stem
+    visibility: public
+    alt: Six circles holding the digits 2, 6, 8, 3, 1, and 0, some black and some white
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 4 question 2 answer and solution"

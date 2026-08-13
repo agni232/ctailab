@@ -1,0 +1,50 @@
+id: c4-thousands-around-us-number-in-place-of-hash
+slug: number-in-place-of-hash
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch4-comparing-numbers
+  primaryTopic: c4-ch4-comparing-numbers
+  estimatedMinutes: 3
+content:
+  prompt: Which of the following numbers can come in place of "#" in the given expression?
+  stimulus:
+    assetRefs:
+      - hash-inequalities
+  options:
+    - id: option-a
+      text: "5321"
+    - id: option-b
+      text: "6489"
+    - id: option-c
+      text: "4897"
+    - id: option-d
+      text: "4678"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The two statements together say # must be smaller than 5678 and smaller than 4687.
+    The tighter of the two is 4687, and 4678 is the only option below it.
+  assetRefs: []
+assets:
+  - ref: hash-inequalities
+    file: ../assets/hash-inequalities.png
+    role: stem
+    visibility: public
+    alt: Two statements, 5678 is greater than hash, and hash is less than 4687
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 4 question 6 answer and solution"

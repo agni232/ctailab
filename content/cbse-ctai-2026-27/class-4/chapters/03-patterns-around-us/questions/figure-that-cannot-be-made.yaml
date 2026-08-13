@@ -1,0 +1,82 @@
+id: c4-patterns-around-us-figure-that-cannot-be-made
+slug: figure-that-cannot-be-made
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch3-odd-and-even
+    - c4-ch3-ordering-and-position
+  primaryTopic: c4-ch3-odd-and-even
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If any 4 odd numbers in the figure shown below are connected in the ascending order
+    by using straight lines, then which of the following figures CANNOT be made?
+  stimulus:
+    assetRefs:
+      - numbered-circles-figure
+  options:
+    - id: option-a
+      assetRef: connect-option-a
+      accessibleLabel: Four circles joined by a zigzag line, option a
+    - id: option-b
+      assetRef: connect-option-b
+      accessibleLabel: Four circles joined by a zigzag line, option b
+    - id: option-c
+      assetRef: connect-option-c
+      accessibleLabel: Four circles joined by a zigzag line, option c
+    - id: option-d
+      assetRef: connect-option-d
+      accessibleLabel: Four circles joined by a zigzag line, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The odd numbers in the figure are 1, 3, 5, 7, and 9. Joining any four of them from
+    smallest to largest makes the shapes in options a, b, and c. Option d joins the
+    circles in an order that is not ascending, so it cannot be made.
+  assetRefs: []
+assets:
+  - ref: numbered-circles-figure
+    file: ../assets/numbered-circles-figure.png
+    role: stem
+    visibility: public
+    alt: A box holding nine numbered circles scattered in different positions
+    position: 0
+  - ref: connect-option-a
+    file: ../assets/connect-option-a.png
+    role: option
+    visibility: public
+    alt: Four joined circles, option a
+    position: 1
+  - ref: connect-option-b
+    file: ../assets/connect-option-b.png
+    role: option
+    visibility: public
+    alt: Four joined circles, option b
+    position: 2
+  - ref: connect-option-c
+    file: ../assets/connect-option-c.png
+    role: option
+    visibility: public
+    alt: Four joined circles, option c
+    position: 3
+  - ref: connect-option-d
+    file: ../assets/connect-option-d.png
+    role: option
+    visibility: public
+    alt: Four joined circles, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 3 question 10 answer and solution"

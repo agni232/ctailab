@@ -1,0 +1,54 @@
+id: c4-thousands-around-us-tens-digit-of-the-hundreds-total
+slug: tens-digit-of-the-hundreds-total
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch4-place-value
+    - c4-ch4-addition-and-subtraction
+  primaryTopic: c4-ch4-place-value
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If you add ALL the digits in the HUNDREDS place of the numbers given below, what
+    will be the digit in the TENS place of the resulting number?
+  stimulus:
+    assetRefs:
+      - three-four-digit-numbers
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "0"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The hundreds digits are 4 in 5432, 8 in 2879, and 9 in 1945. Adding them gives
+    4 + 8 + 9 = 21, and the tens digit of 21 is 2.
+  assetRefs: []
+assets:
+  - ref: three-four-digit-numbers
+    file: ../assets/three-four-digit-numbers.png
+    role: stem
+    visibility: public
+    alt: Three boxes holding the numbers 5432, 2879, and 1945
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 41
+    pageEnd: 42
+    section: "Chapter 4 question 8 answer and solution"

@@ -1,0 +1,53 @@
+id: c4-thousands-around-us-numbers-under-3000-after-swapping
+slug: numbers-under-3000-after-swapping
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch4-place-value
+    - c4-ch4-comparing-numbers
+  primaryTopic: c4-ch4-place-value
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    How many numbers in Box A, after swapping their tens and thousands digits, will be
+    less than 3000?
+  stimulus:
+    assetRefs:
+      - box-a-numbers
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "1"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Swapping the 1st and 3rd digits turns 3425 into 2435, 5647 into 4657, 7423 into
+    2473, and 8851 into 5881. Of those, 2435 and 2473 are below 3000, so the answer is 2.
+  assetRefs: []
+assets:
+  - ref: box-a-numbers
+    file: ../assets/box-a-numbers.png
+    role: stem
+    visibility: public
+    alt: Box A holding the numbers 3425, 5647, 7423, and 8851
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 4 question 9 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 4 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-thousands-around-us-condition-that-can-be-true
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-smallest-number-from-circles
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-values-b-can-take
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-digit-common-to-both-numbers
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-largest-after-removing-a-digit
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-number-in-place-of-hash
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-numbers-that-make-it-greater
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-tens-digit-of-the-hundreds-total
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-numbers-under-3000-after-swapping
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Thousands Around Us"
+  - questionId: c4-thousands-around-us-numbers-that-fit-both-boxes
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Thousands Around Us"

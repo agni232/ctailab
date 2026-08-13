@@ -1,0 +1,55 @@
+id: c4-hide-and-seek-paths-the-star-can-take
+slug: paths-the-star-can-take
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-following-directions
+    - c4-ch2-paths-and-routes
+  primaryTopic: c4-ch2-following-directions
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The star must follow the arrows and return back to the square. How many different
+    paths can it take?
+  stimulus:
+    assetRefs:
+      - star-arrow-grid
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Trace every route that obeys the arrow directions and comes back to the starting
+    square. There are 4 different loops the star can make.
+  assetRefs: []
+assets:
+  - ref: star-arrow-grid
+    file: ../assets/star-arrow-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A three by three ring of circles joined by one-way arrows, with a star in the
+      middle square
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 2 answer and solution"

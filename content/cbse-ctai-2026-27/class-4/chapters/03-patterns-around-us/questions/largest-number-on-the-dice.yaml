@@ -1,0 +1,44 @@
+id: c4-patterns-around-us-largest-number-on-the-dice
+slug: largest-number-on-the-dice
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch3-number-patterns
+    - c4-ch3-odd-and-even
+  primaryTopic: c4-ch3-number-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Six consecutive even numbers are written on the faces of a single dice. If the
+    smallest number is 8, then what will be the largest number?
+  options:
+    - id: option-a
+      text: "18"
+    - id: option-b
+      text: "28"
+    - id: option-c
+      text: "16"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Counting six even numbers up from 8 gives 8, 10, 12, 14, 16, and 18. The largest is
+    18.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 3 question 3 answer and solution"

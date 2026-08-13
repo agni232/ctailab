@@ -1,0 +1,81 @@
+id: c4-hide-and-seek-top-view-of-the-solid
+slug: top-view-of-the-solid
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-top-view
+    - c4-ch2-views-of-solids
+  primaryTopic: c4-ch2-top-view
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which of the following figures is the top view of the solid? You cannot rotate the
+    question or option images.
+  stimulus:
+    assetRefs:
+      - stacked-cube-solid
+  options:
+    - id: option-a
+      assetRef: solid-top-option-a
+      accessibleLabel: A diamond made of smaller diamonds
+    - id: option-b
+      assetRef: solid-top-option-b
+      accessibleLabel: A three by three grid of squares
+    - id: option-c
+      assetRef: solid-top-option-c
+      accessibleLabel: A row of three squares
+    - id: option-d
+      assetRef: solid-top-option-d
+      accessibleLabel: An L shape made of four squares
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The top view is what you see looking straight down at the solid. From there only
+    the upward-facing faces show, and they form the diamond pattern in option a.
+  assetRefs: []
+assets:
+  - ref: stacked-cube-solid
+    file: ../assets/stacked-cube-solid.png
+    role: stem
+    visibility: public
+    alt: A solid built from many cubes drawn in three dimensions
+    position: 0
+  - ref: solid-top-option-a
+    file: ../assets/solid-top-option-a.png
+    role: option
+    visibility: public
+    alt: A diamond made of smaller diamonds
+    position: 1
+  - ref: solid-top-option-b
+    file: ../assets/solid-top-option-b.png
+    role: option
+    visibility: public
+    alt: A three by three grid of squares
+    position: 2
+  - ref: solid-top-option-c
+    file: ../assets/solid-top-option-c.png
+    role: option
+    visibility: public
+    alt: A row of three squares
+    position: 3
+  - ref: solid-top-option-d
+    file: ../assets/solid-top-option-d.png
+    role: option
+    visibility: public
+    alt: An L shape made of four squares
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 10 answer and solution"

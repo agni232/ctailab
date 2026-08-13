@@ -1,0 +1,70 @@
+id: c4-sharing-and-measuring-odd-one-out-pizza-slice
+slug: odd-one-out-pizza-slice
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch5-halves-and-quarters
+    - c4-ch5-comparing-fractions
+  primaryTopic: c4-ch5-halves-and-quarters
+  estimatedMinutes: 2
+content:
+  prompt: Find the ODD one out.
+  options:
+    - id: option-a
+      assetRef: pizza-option-a
+      accessibleLabel: Half a pizza
+    - id: option-b
+      assetRef: pizza-option-b
+      accessibleLabel: Half a pizza
+    - id: option-c
+      assetRef: pizza-option-c
+      accessibleLabel: Half a pizza
+    - id: option-d
+      assetRef: pizza-option-d
+      accessibleLabel: Three quarters of a pizza
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Three of the pictures show half a pizza. Option d shows three quarters, so it is the
+    odd one out.
+  assetRefs: []
+assets:
+  - ref: pizza-option-a
+    file: ../assets/pizza-option-a.jpg
+    role: option
+    visibility: public
+    alt: A pizza with half of it remaining
+    position: 1
+  - ref: pizza-option-b
+    file: ../assets/pizza-option-b.jpg
+    role: option
+    visibility: public
+    alt: A pizza with half of it remaining
+    position: 2
+  - ref: pizza-option-c
+    file: ../assets/pizza-option-c.jpg
+    role: option
+    visibility: public
+    alt: A pizza with half of it remaining
+    position: 3
+  - ref: pizza-option-d
+    file: ../assets/pizza-option-d.jpg
+    role: option
+    visibility: public
+    alt: A pizza with three quarters of it remaining
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 5 question 6 answer and solution"

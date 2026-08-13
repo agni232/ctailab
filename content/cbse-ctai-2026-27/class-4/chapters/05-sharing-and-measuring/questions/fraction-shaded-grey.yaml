@@ -1,0 +1,50 @@
+id: c4-sharing-and-measuring-fraction-shaded-grey
+slug: fraction-shaded-grey
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch5-fractions
+  primaryTopic: c4-ch5-fractions
+  estimatedMinutes: 4
+content:
+  prompt: What fraction of the given image is shaded grey?
+  stimulus:
+    assetRefs:
+      - shaded-figure
+  options:
+    - id: option-a
+      text: 5/18
+    - id: option-b
+      text: 5/9
+    - id: option-c
+      text: 6/18
+    - id: option-d
+      text: 7/9
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Split every square into 2 triangles so all the pieces are the same size. That gives
+    18 triangles in total, and 6 of them are grey, so the shaded fraction is 6/18.
+  assetRefs: []
+assets:
+  - ref: shaded-figure
+    file: ../assets/shaded-figure.png
+    role: stem
+    visibility: public
+    alt: A figure made of squares with some parts shaded grey
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 5 question 2 answer and solution"

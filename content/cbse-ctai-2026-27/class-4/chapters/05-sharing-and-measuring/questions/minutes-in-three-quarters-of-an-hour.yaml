@@ -1,0 +1,43 @@
+id: c4-sharing-and-measuring-minutes-in-three-quarters-of-an-hour
+slug: minutes-in-three-quarters-of-an-hour
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch5-time
+    - c4-ch5-fractions
+  primaryTopic: c4-ch5-time
+  estimatedMinutes: 3
+content:
+  prompt: Which of the following options shows the correct number of minutes in (1/4 + 1/2) hour?
+  options:
+    - id: option-a
+      text: 5 × 8 minutes
+    - id: option-b
+      text: 60 - 10 minutes
+    - id: option-c
+      text: 21 + 24 minutes
+    - id: option-d
+      text: 3 × 10 minutes
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    An hour is 60 minutes, so a quarter is 15 and a half is 30, making 45 minutes
+    together. Checking the options, 5 × 8 is 40, 60 − 10 is 50, 3 × 10 is 30, and
+    21 + 24 is 45.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 25
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 5 question 5 answer and solution"

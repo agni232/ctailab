@@ -1,0 +1,55 @@
+id: c4-thousands-around-us-numbers-that-fit-both-boxes
+slug: numbers-that-fit-both-boxes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch4-sorting-and-filtering
+    - c4-ch4-comparing-numbers
+  primaryTopic: c4-ch4-sorting-and-filtering
+  estimatedMinutes: 5
+content:
+  prompt: How many numbers from "Image A" can be placed in BOTH the boxes given below?
+  stimulus:
+    assetRefs:
+      - image-a-and-two-boxes
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Apply one rule at a time. Numbers above 4550 are 4856, 4674, 4775, 4563, and 4653.
+    Of those, only the ones ending in an odd digit survive the second box: 4775, 4563,
+    and 4653. That is 3 numbers.
+  assetRefs: []
+assets:
+  - ref: image-a-and-two-boxes
+    file: ../assets/image-a-and-two-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Image A listing eight 4-digit numbers beside two boxes labelled Numbers greater
+      than 4550 only and Odd numbers only
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 42
+    pageEnd: 43
+    section: "Chapter 4 question 10 answer and solution"

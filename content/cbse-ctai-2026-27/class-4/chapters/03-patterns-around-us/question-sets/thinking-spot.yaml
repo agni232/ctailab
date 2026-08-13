@@ -1,0 +1,17 @@
+id: cbse-2026-27-c4-ch3-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 3.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-patterns-around-us-thinking-spot-colour-of-the-circle
+    questionVersion: 1
+    position: 1
+    sourcePage: 19
+    sourceSection: "Chapter 3 The Thinking Spot"

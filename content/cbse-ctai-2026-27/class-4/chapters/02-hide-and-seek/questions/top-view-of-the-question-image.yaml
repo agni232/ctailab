@@ -1,0 +1,81 @@
+id: c4-hide-and-seek-top-view-of-the-question-image
+slug: top-view-of-the-question-image
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch2-top-view
+    - c4-ch2-views-of-solids
+  primaryTopic: c4-ch2-top-view
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which of the following options is the Top view of the question image? You cannot
+    rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - blocks-from-top
+  options:
+    - id: option-a
+      assetRef: top-view-option-a
+      accessibleLabel: Two squares on top with two squares below them
+    - id: option-b
+      assetRef: top-view-option-b
+      accessibleLabel: Two separated squares above a column of two squares
+    - id: option-c
+      assetRef: top-view-option-c
+      accessibleLabel: Three squares in a row with one square below the middle one
+    - id: option-d
+      assetRef: top-view-option-d
+      accessibleLabel: A column of two squares with one square either side at the bottom
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Looking straight down, four blocks show. Three of them sit in a straight line and
+    the fourth sits below the middle one, making a T shape. That matches option c.
+  assetRefs: []
+assets:
+  - ref: blocks-from-top
+    file: ../assets/blocks-from-top.jpg
+    role: stem
+    visibility: public
+    alt: An arrangement of cubes with an arrow labelled Top pointing down at it
+    position: 0
+  - ref: top-view-option-a
+    file: ../assets/top-view-option-a.png
+    role: option
+    visibility: public
+    alt: Arrangement of squares, option a
+    position: 1
+  - ref: top-view-option-b
+    file: ../assets/top-view-option-b.png
+    role: option
+    visibility: public
+    alt: Arrangement of squares, option b
+    position: 2
+  - ref: top-view-option-c
+    file: ../assets/top-view-option-c.png
+    role: option
+    visibility: public
+    alt: Arrangement of squares, option c
+    position: 3
+  - ref: top-view-option-d
+    file: ../assets/top-view-option-d.png
+    role: option
+    visibility: public
+    alt: Arrangement of squares, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 2 question 6 answer and solution"

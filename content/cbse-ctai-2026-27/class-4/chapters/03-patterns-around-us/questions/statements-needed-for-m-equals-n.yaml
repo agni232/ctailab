@@ -1,0 +1,46 @@
+id: c4-patterns-around-us-statements-needed-for-m-equals-n
+slug: statements-needed-for-m-equals-n
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch3-reasoning-with-clues
+    - c4-ch3-odd-and-even
+  primaryTopic: c4-ch3-reasoning-with-clues
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Question: Is M = N? Statement 1: N is an even number. Statement 2: M is an odd
+    number. To answer the given question, which of the given statements is/are
+    sufficient?
+  options:
+    - id: option-a
+      text: Only 1
+    - id: option-b
+      text: Only 2
+    - id: option-c
+      text: Both 1 and 2 together
+    - id: option-d
+      text: Question cannot be answered even if both statements are used
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Knowing only that N is even, or only that M is odd, says nothing about whether they
+    match. Put together they show one is even and the other odd, so M and N can never be
+    equal.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 11"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 3 question 11 answer and solution"
