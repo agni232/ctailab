@@ -1,0 +1,49 @@
+id: c5-travellers-2-extra-distance-two-walkers-need
+slug: extra-distance-two-walkers-need
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch4-reasoning-with-clues
+    - c5-ch4-number-properties
+  primaryTopic: c5-ch4-reasoning-with-clues
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A, B, and C each walk a certain distance. The person who covered the least distance
+    walks 25 km, and another person walks 6 times this distance. C walks 12 km more than B,
+    while A did not cover the least distance. If only two among A, B, and C are allowed to
+    walk further, how many more kilometres must they walk so that their COMBINED distance
+    (from the start) equals the distance walked by the third person?
+  options:
+    - id: option-a
+      text: "92 km"
+    - id: option-b
+      text: "78 km"
+    - id: option-c
+      text: "88 km"
+    - id: option-d
+      text: "62 km"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    C walks more than B, so C is not the smallest, and A is ruled out too, which makes
+    B = 25 km. Then C = 25 + 12 = 37 km and A = 6 x 25 = 150 km. The two who walk further
+    must be B and C, since the pair has to catch up with the largest distance. They have
+    covered 25 + 37 = 62 km, so they need 150 - 62 = 88 km more.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 19
+    section: "Chapter 4 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 4 question 10 answer and solution"

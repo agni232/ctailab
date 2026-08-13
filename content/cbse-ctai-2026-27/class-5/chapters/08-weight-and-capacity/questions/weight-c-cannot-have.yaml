@@ -1,0 +1,46 @@
+id: c5-weight-capacity-weight-c-cannot-have
+slug: weight-c-cannot-have
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-reasoning-with-clues
+    - c5-ch8-weight
+  primaryTopic: c5-ch8-reasoning-with-clues
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    The sum of the weights of A and B is 50 kg, while the sum of the weights of B and C is
+    70 kg. If the weight of A is greater than or equal to 20 kg, which of the following
+    CANNOT be the weight of C?
+  options:
+    - id: option-a
+      text: "30 kg"
+    - id: option-b
+      text: "40 kg"
+    - id: option-c
+      text: "50 kg"
+    - id: option-d
+      text: "60 kg"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The bigger A is, the smaller B is, and the smaller B is, the bigger C is. At the
+    smallest allowed A of 20 kg, B is 30 kg and C is 40 kg, and C only grows from there. So
+    C can never be as low as 30 kg.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 8 question 5 answer and solution"

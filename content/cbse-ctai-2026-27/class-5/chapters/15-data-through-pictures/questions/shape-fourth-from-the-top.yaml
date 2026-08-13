@@ -1,0 +1,58 @@
+id: c5-data-pictures-shape-fourth-from-the-top
+slug: shape-fourth-from-the-top
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-logical-puzzles
+    - c5-ch15-reasoning-with-clues
+  primaryTopic: c5-ch15-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    All three stacks shown below are placed one on top of another so that exactly one shape
+    separates each pair of neighbouring stars. After arranging the stacks, which shape is
+    fourth from the top? Note: You cannot rearrange the shapes of each stack.
+  stimulus:
+    assetRefs:
+      - three-stacks
+  options:
+    - id: option-a
+      text: "Circle"
+    - id: option-b
+      text: "Star"
+    - id: option-c
+      text: "Triangle"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each stack holds one star, and the stars have to end up with exactly one shape between
+    them. Stack A on top or Stack B on top both break that rule, so Stack C goes on top,
+    followed by Stack A and then Stack B. Reading down that arrangement, the fourth shape is
+    the circle.
+  assetRefs: []
+assets:
+  - ref: three-stacks
+    file: ../assets/three-stacks.png
+    role: stem
+    visibility: public
+    alt: >-
+      Stack A holding a circle, a star, and a triangle; Stack B holding a star, a triangle,
+      and a circle; Stack C holding a triangle, a circle, and a star
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 57
+    section: "Chapter 15 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 111
+    section: "Chapter 15 question 7 answer and solution"

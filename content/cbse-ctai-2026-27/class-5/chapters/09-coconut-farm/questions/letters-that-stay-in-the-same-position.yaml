@@ -1,0 +1,57 @@
+id: c5-coconut-farm-letters-that-stay-in-the-same-position
+slug: letters-that-stay-in-the-same-position
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch9-ordering-values
+    - c5-ch9-factors-and-multiples
+  primaryTopic: c5-ch9-ordering-values
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Each of the letters A, B, C, D, E, and F is assigned a value, shown by the mathematical
+    expression written above it. If the letters are rearranged in descending order of their
+    values, how many letters will stay in the same position as before?
+  stimulus:
+    assetRefs:
+      - letter-values
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "More than 2"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Work out the values first: A is 42, B is 44, C is 0, D is 64, E is 36, and F is 50.
+    Sorting them from largest to smallest gives D, F, B, A, E, C. Comparing that with the
+    original order, only E is still in the same place.
+  assetRefs: []
+assets:
+  - ref: letter-values
+    file: ../assets/letter-values.png
+    role: stem
+    visibility: public
+    alt: >-
+      A strip of six cells labelled A to F, with the expressions 42 x 1, 22 x 2, 60 x 0,
+      16 x 4, 12 x 3, and 10 x 5 written above them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 6 answer and solution"

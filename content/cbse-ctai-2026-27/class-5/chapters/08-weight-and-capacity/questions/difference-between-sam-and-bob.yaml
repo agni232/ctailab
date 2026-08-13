@@ -1,0 +1,44 @@
+id: c5-weight-capacity-difference-between-sam-and-bob
+slug: difference-between-sam-and-bob
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch8-weight
+    - c5-ch8-balancing-and-comparing
+  primaryTopic: c5-ch8-weight
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    John weighs 2 kg more than Bob. Sam weighs 1 kg less than John. What is the difference
+    between the weights of Sam and Bob?
+  options:
+    - id: option-a
+      text: "1 kg"
+    - id: option-b
+      text: "2 kg"
+    - id: option-c
+      text: "3 kg"
+    - id: option-d
+      text: "4 kg"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    John is Bob plus 2 kg, and Sam is John minus 1 kg, so Sam is Bob plus 2 minus 1, which
+    is Bob plus 1. The difference is 1 kg.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 8 question 3 answer and solution"

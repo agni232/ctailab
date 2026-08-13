@@ -1,0 +1,49 @@
+id: c5-quilt-thinking-spot-top-two-books-in-the-stack
+slug: thinking-spot-top-two-books-in-the-stack
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch11-logical-puzzles
+    - c5-ch11-sufficient-information
+  primaryTopic: c5-ch11-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Maths, English, Science, History, French, and Geography books are stacked one above the
+    other. The Maths book is stacked below only 2 books. Five books are stacked on top of the
+    French book. The Geography book has only 1 book below it, and History is not one of the
+    2 books stacked above Maths. If Ms. Patsy pulls out the top two books from the stack,
+    which two books did she pull out?
+  options:
+    - id: option-a
+      text: "Maths and Science"
+    - id: option-b
+      text: "History and English"
+    - id: option-c
+      text: "Science and English"
+    - id: option-d
+      text: "Cannot be Determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Number the stack from the top. Maths has 2 books above it, so Maths is 3rd. French has 5
+    above it, so French is 6th. Geography has only 1 book below it, so Geography is 5th.
+    History cannot be in the top two, so History is 4th. That leaves English and Science for
+    the top two places.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 45
+    section: "Chapter 11 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 89
+    section: "Chapter 11 The Thinking Spot answer and solution"

@@ -1,0 +1,45 @@
+id: c5-animal-jumps-greatest-length-of-each-yarn-piece
+slug: greatest-length-of-each-yarn-piece
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-common-factors
+    - c5-ch13-sharing-equally
+  primaryTopic: c5-ch13-common-factors
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Seema has two yarns measuring 56 cm and 98 cm which she plans to cut into pieces of equal
+    length with nothing left over. What is the greatest possible length of each piece?
+  options:
+    - id: option-a
+      text: "7 cm"
+    - id: option-b
+      text: "14 cm"
+    - id: option-c
+      text: "21 cm"
+    - id: option-d
+      text: "28 cm"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The piece length has to divide both yarns exactly. The factors of 56 are 1, 2, 4, 7, 8,
+    14, 28, and 56, and the factors of 98 are 1, 2, 7, 14, 49, and 98. The largest they share
+    is 14 cm.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 50
+    section: "Chapter 13 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 13 question 7 answer and solution"

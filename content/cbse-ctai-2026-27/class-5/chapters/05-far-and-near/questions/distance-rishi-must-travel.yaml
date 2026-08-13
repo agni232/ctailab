@@ -1,0 +1,49 @@
+id: c5-far-and-near-distance-rishi-must-travel
+slug: distance-rishi-must-travel
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch5-length-and-distance
+    - c5-ch5-movement-and-position
+  primaryTopic: c5-ch5-length-and-distance
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Rishi visited Goa and made new friends. His new friends stay near the beach. Parish
+    lives 800 metres east of the beach. Anil lives 1400 metres east of the beach. Sunil's
+    house is exactly between the houses of Parish and Anil. What distance must Rishi travel
+    if he visits the houses of Sunil and Parish, starting from the beach and returning to
+    the beach?
+  options:
+    - id: option-a
+      text: "2500 m"
+    - id: option-b
+      text: "3800 m"
+    - id: option-c
+      text: "1900 m"
+    - id: option-d
+      text: "2200 m"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Parish and Anil are 1400 - 800 = 600 m apart, so Sunil lives 300 m past Parish, which is
+    1100 m from the beach. All three places lie on the same straight line east of the beach,
+    so Rishi walks out to Sunil's house and back, passing Parish's house on the way. That is
+    1100 + 1100 = 2200 m.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 22
+    section: "Chapter 5 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 5 question 7 answer and solution"

@@ -1,0 +1,85 @@
+id: c5-symmetrical-designs-image-s-after-two-reflections
+slug: image-s-after-two-reflections
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-reflections
+    - c5-ch10-symmetry
+  primaryTopic: c5-ch10-reflections
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    The given Image P is first reflected along the line AB to obtain Image R. Then, Image R
+    is reflected along the line CD to obtain Image S. Which of the following options is the
+    same as Image S?
+  stimulus:
+    assetRefs:
+      - reflection-setup
+  options:
+    - id: option-a
+      assetRef: reflect-option-a
+      accessibleLabel: A red 6 flipped left to right
+    - id: option-b
+      assetRef: reflect-option-b
+      accessibleLabel: A red 6 flipped top to bottom and left to right
+    - id: option-c
+      assetRef: reflect-option-c
+      accessibleLabel: A red 9
+    - id: option-d
+      assetRef: reflect-option-d
+      accessibleLabel: A red 6
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Reflect the 6 in the vertical mirror AB first, which flips it left to right. Then reflect
+    that result in the horizontal mirror CD, which flips it top to bottom. The two flips
+    together turn the 6 into a 9, which is option c.
+  assetRefs: []
+assets:
+  - ref: reflection-setup
+    file: ../assets/reflection-setup.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box holding a red 6 labelled Image P, a vertical mirror line AB beside it, and two
+      dashed boxes with a horizontal mirror line CD between them
+    position: 0
+  - ref: reflect-option-a
+    file: ../assets/reflect-option-a.png
+    role: option
+    visibility: public
+    alt: Reflected figure, option a
+    position: 1
+  - ref: reflect-option-b
+    file: ../assets/reflect-option-b.png
+    role: option
+    visibility: public
+    alt: Reflected figure, option b
+    position: 2
+  - ref: reflect-option-c
+    file: ../assets/reflect-option-c.png
+    role: option
+    visibility: public
+    alt: Reflected figure, option c
+    position: 3
+  - ref: reflect-option-d
+    file: ../assets/reflect-option-d.png
+    role: option
+    visibility: public
+    alt: Reflected figure, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 10 question 7 answer and solution"

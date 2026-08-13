@@ -1,0 +1,54 @@
+id: c5-quilt-faces-whose-area-becomes-half
+slug: faces-whose-area-becomes-half
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch11-solids-and-faces
+    - c5-ch11-area
+  primaryTopic: c5-ch11-solids-and-faces
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    The Length and Breadth of a cube are reduced to half. The areas of how many faces of the
+    cube will become exactly half because of this?
+  stimulus:
+    assetRefs:
+      - cube-outline
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Two faces measure length times breadth, and halving both shrinks those to a quarter. The
+    other four faces each use the height together with one halved measurement, so their areas
+    come to exactly half. That is 4 faces.
+  assetRefs: []
+assets:
+  - ref: cube-outline
+    file: ../assets/cube-outline.png
+    role: stem
+    visibility: public
+    alt: An outline drawing of a cube shown in three dimensions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 85
+    section: "Chapter 11 question 5 answer and solution"

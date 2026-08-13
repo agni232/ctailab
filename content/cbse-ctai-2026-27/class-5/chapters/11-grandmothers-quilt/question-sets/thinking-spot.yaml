@@ -1,0 +1,17 @@
+id: cbse-2026-27-c5-ch11-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 11.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-quilt-thinking-spot-top-two-books-in-the-stack
+    questionVersion: 1
+    position: 1
+    sourcePage: 45
+    sourceSection: "Chapter 11 The Thinking Spot"

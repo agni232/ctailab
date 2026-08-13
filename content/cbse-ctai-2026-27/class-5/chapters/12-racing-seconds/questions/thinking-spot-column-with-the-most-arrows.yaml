@@ -1,0 +1,56 @@
+id: c5-racing-seconds-thinking-spot-column-with-the-most-arrows
+slug: thinking-spot-column-with-the-most-arrows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch12-logical-puzzles
+    - c5-ch12-reasoning-with-clues
+  primaryTopic: c5-ch12-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    In the grid given below, if all the arrows move EXACTLY one block in the direction they
+    are pointing to, then which column will have the MAXIMUM number of arrows?
+  stimulus:
+    assetRefs:
+      - arrow-grid
+  options:
+    - id: option-a
+      text: "Column 1"
+    - id: option-b
+      text: "Column 2"
+    - id: option-c
+      text: "Column 3"
+    - id: option-d
+      text: "Column 4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Move each arrow one block the way it points and note where it lands. Arrows pointing up
+    or down stay in their own column, while arrows pointing left or right change column.
+    Once every arrow has moved, Column 3 is holding the most.
+  assetRefs: []
+assets:
+  - ref: arrow-grid
+    file: ../assets/arrow-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with columns labelled Col 1 to Col 4, holding arrows that point
+      left, right, up, and down
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 48
+    section: "Chapter 12 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 12 The Thinking Spot answer and solution"

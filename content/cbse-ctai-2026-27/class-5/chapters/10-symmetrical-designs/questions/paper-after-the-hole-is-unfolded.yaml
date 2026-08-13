@@ -1,0 +1,85 @@
+id: c5-symmetrical-designs-paper-after-the-hole-is-unfolded
+slug: paper-after-the-hole-is-unfolded
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-folding-and-cutting
+    - c5-ch10-symmetry
+  primaryTopic: c5-ch10-folding-and-cutting
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A sheet of paper is folded along the dotted line in steps 1 and 2, as shown in the image
+    below. After this, a hole is made, as shown in step 3. How will the paper look after it
+    is unfolded?
+  stimulus:
+    assetRefs:
+      - fold-steps-and-hole
+  options:
+    - id: option-a
+      assetRef: hole-option-a
+      accessibleLabel: A square with four holes grouped near the middle
+    - id: option-b
+      assetRef: hole-option-b
+      accessibleLabel: A square with four holes spread wide and low
+    - id: option-c
+      assetRef: hole-option-c
+      accessibleLabel: A square with four holes near the corners
+    - id: option-d
+      assetRef: hole-option-d
+      accessibleLabel: A square with four holes grouped low and to the right
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Unfold in reverse. Opening the last fold doubles the single hole into two, sitting close
+    to the top and bottom edges and near the fold. Opening the first fold doubles them again,
+    giving four holes clustered near the middle, which matches option a.
+  assetRefs: []
+assets:
+  - ref: fold-steps-and-hole
+    file: ../assets/fold-steps-and-hole.png
+    role: stem
+    visibility: public
+    alt: >-
+      A square sheet folded in half at step 1, folded again at step 2, and a small round hole
+      punched in the folded sheet at step 3
+    position: 0
+  - ref: hole-option-a
+    file: ../assets/hole-option-a.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet with holes, option a
+    position: 1
+  - ref: hole-option-b
+    file: ../assets/hole-option-b.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet with holes, option b
+    position: 2
+  - ref: hole-option-c
+    file: ../assets/hole-option-c.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet with holes, option c
+    position: 3
+  - ref: hole-option-d
+    file: ../assets/hole-option-d.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet with holes, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 41
+    section: "Chapter 10 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 10 question 10 answer and solution"

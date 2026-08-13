@@ -1,0 +1,47 @@
+id: c5-shapes-patterns-small-cubes-with-a-painted-face
+slug: small-cubes-with-a-painted-face
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-cubes-and-nets
+    - c5-ch7-counting-strategies
+  primaryTopic: c5-ch7-cubes-and-nets
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Two faces of a plain white cube are painted red. Now the cube is divided into 27 small
+    cubes of equal dimensions. How many such smaller cubes will have at least one face
+    painted?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "12"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each painted face covers 9 small cubes. If the two painted faces meet along an edge,
+    3 small cubes get paint on both faces and the count is 9 + 9 - 3 = 15. If the painted
+    faces are on opposite sides, no cube is shared and the count is 18. The question does
+    not say which, so it cannot be determined.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 7 question 10 answer and solution"

@@ -1,0 +1,54 @@
+id: c5-far-and-near-trees-with-a-taller-and-shorter-neighbour
+slug: trees-with-a-taller-and-shorter-neighbour
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch5-comparing-heights
+    - c5-ch5-reasoning-with-clues
+  primaryTopic: c5-ch5-comparing-heights
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A group of trees with different heights is shown below. How many trees have both a
+    taller and a shorter tree immediately next to them, compared to their own height?
+  stimulus:
+    assetRefs:
+      - tree-heights
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Check each tree against the tree on its left and the tree on its right. The two end
+    trees only have one neighbour, so they cannot count. Among the rest, only two trees have
+    one neighbour taller than them and the other shorter.
+  assetRefs: []
+assets:
+  - ref: tree-heights
+    file: ../assets/tree-heights.jpg
+    role: stem
+    visibility: public
+    alt: A row of seven cartoon trees of different heights standing side by side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 22
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 5 question 8 answer and solution"

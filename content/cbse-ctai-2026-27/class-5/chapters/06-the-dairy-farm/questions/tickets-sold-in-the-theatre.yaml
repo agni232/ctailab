@@ -1,0 +1,45 @@
+id: c5-dairy-farm-tickets-sold-in-the-theatre
+slug: tickets-sold-in-the-theatre
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch6-rows-and-columns
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-rows-and-columns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In a theatre, seats are arranged in rows labelled A to F and columns labelled 1 to 5. If
+    the entire row C and the entire columns 3 and 5 are empty and the rest of the seats are
+    sold out, then how many tickets are sold in total?
+  options:
+    - id: option-a
+      text: "13"
+    - id: option-b
+      text: "17"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "14"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Once row C and columns 3 and 5 are struck out, 5 rows and 3 columns are left holding
+    seats. Every one of those crossings is sold, so the count is 5 x 3 = 15.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 25
+    section: "Chapter 6 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 6 question 6 answer and solution"

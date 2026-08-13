@@ -1,0 +1,32 @@
+topics:
+  - id: c5-ch14-directions
+    slug: directions
+    title: Directions
+    position: 1
+    status: published
+  - id: c5-ch14-turns
+    slug: turns
+    title: Turns
+    position: 2
+    parentId: c5-ch14-directions
+    status: published
+  - id: c5-ch14-maps-and-routes
+    slug: maps-and-routes
+    title: Maps and Routes
+    position: 3
+    status: published
+  - id: c5-ch14-grids-and-paths
+    slug: grids-and-paths
+    title: Grids and Paths
+    position: 4
+    status: published
+  - id: c5-ch14-distance
+    slug: distance
+    title: Distance
+    position: 5
+    status: published
+  - id: c5-ch14-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

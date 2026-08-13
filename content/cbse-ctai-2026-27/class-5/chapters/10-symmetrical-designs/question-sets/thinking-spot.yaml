@@ -1,0 +1,17 @@
+id: cbse-2026-27-c5-ch10-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 10.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-symmetrical-designs-thinking-spot-floor-where-the-lifts-meet
+    questionVersion: 1
+    position: 1
+    sourcePage: 42
+    sourceSection: "Chapter 10 The Thinking Spot"

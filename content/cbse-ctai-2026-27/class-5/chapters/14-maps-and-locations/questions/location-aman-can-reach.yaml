@@ -1,0 +1,56 @@
+id: c5-maps-locations-location-aman-can-reach
+slug: location-aman-can-reach
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch14-maps-and-routes
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-maps-and-routes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Aman can only travel EAST and NORTH from point X, following the route shown on the map.
+    Which of the following locations can Aman reach?
+  stimulus:
+    assetRefs:
+      - map-from-x
+  options:
+    - id: option-a
+      text: "Garden"
+    - id: option-b
+      text: "School"
+    - id: option-c
+      text: "Hospital"
+    - id: option-d
+      text: "Both b and c"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Trace each route from X and watch for any stretch heading south. The routes to the
+    hospital and the garden both dip south at some point, which Aman cannot do. Only the
+    route to the school stays east and north the whole way.
+  assetRefs: []
+assets:
+  - ref: map-from-x
+    file: ../assets/map-from-x.png
+    role: stem
+    visibility: public
+    alt: >-
+      A street map with X at the lower left and routes leading to a Mall, a School, a
+      Hospital, and a Garden, beside a compass showing north, south, east, and west
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 52
+    section: "Chapter 14 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 101
+    section: "Chapter 14 question 1 answer and solution"

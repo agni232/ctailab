@@ -1,0 +1,49 @@
+id: c5-quilt-information-needed-for-the-wire
+slug: information-needed-for-the-wire
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch11-sufficient-information
+    - c5-ch11-perimeter
+  primaryTopic: c5-ch11-sufficient-information
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Question: How many metres of wire are needed to cover the perimeter of the field once,
+    without overlapping? Information 1: The shape of the field is an isosceles triangle.
+    Information 2: One of the sides of the field has length 16 metres and another side has
+    length 40 metres. To answer the given question, which of the given information is/are
+    sufficient?
+  options:
+    - id: option-a
+      text: "Only 1"
+    - id: option-b
+      text: "Only 2"
+    - id: option-c
+      text: "Both 1 and 2 together"
+    - id: option-d
+      text: "Question cannot be answered even if both information are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    On its own, neither statement is enough: the first gives the shape but no lengths, and
+    the second gives lengths but no shape. Together they work. Two sides must be equal, and
+    they cannot both be 16 m because 16 + 16 is less than 40. So the sides are 40, 40, and
+    16, and the perimeter is 96 m.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 44
+    section: "Chapter 11 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 11 question 8 answer and solution"

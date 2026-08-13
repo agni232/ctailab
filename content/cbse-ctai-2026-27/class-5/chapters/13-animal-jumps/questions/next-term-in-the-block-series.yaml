@@ -1,0 +1,83 @@
+id: c5-animal-jumps-next-term-in-the-block-series
+slug: next-term-in-the-block-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch13-patterns-and-series
+    - c5-ch13-multiples-and-factors
+  primaryTopic: c5-ch13-patterns-and-series
+  estimatedMinutes: 8
+content:
+  prompt: "Find the next term in the following series:"
+  stimulus:
+    assetRefs:
+      - block-series
+  options:
+    - id: option-a
+      assetRef: block-option-a
+      accessibleLabel: A block with 12 in the white cells, 10 in the black cell, and four grey cells
+    - id: option-b
+      assetRef: block-option-b
+      accessibleLabel: A block with 15 in the white cells, 10 in the black cell, and five grey cells
+    - id: option-c
+      assetRef: block-option-c
+      accessibleLabel: A block with 12 in the white cells, 8 in the black cell, and five grey cells
+    - id: option-d
+      assetRef: block-option-d
+      accessibleLabel: A block with 12 in the white cells, 10 in the black cell, and five grey cells
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Three things move together. The white number times the black number is always 120, the
+    black number goes up by 2 each term, and one more grey cell appears each term, going
+    clockwise from the top left. After a black 8 with four greys comes a black 10 with five
+    greys, and 120 / 10 = 12 in the white cells.
+  assetRefs: []
+assets:
+  - ref: block-series
+    file: ../assets/block-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four square blocks in a row, each holding a black centre cell, some white numbered
+      cells, and some grey cells, followed by a question mark
+    position: 0
+  - ref: block-option-a
+    file: ../assets/block-option-a.png
+    role: option
+    visibility: public
+    alt: Numbered block, option a
+    position: 1
+  - ref: block-option-b
+    file: ../assets/block-option-b.png
+    role: option
+    visibility: public
+    alt: Numbered block, option b
+    position: 2
+  - ref: block-option-c
+    file: ../assets/block-option-c.png
+    role: option
+    visibility: public
+    alt: Numbered block, option c
+    position: 3
+  - ref: block-option-d
+    file: ../assets/block-option-d.png
+    role: option
+    visibility: public
+    alt: Numbered block, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 50
+    section: "Chapter 13 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 98
+    section: "Chapter 13 question 8 answer and solution"

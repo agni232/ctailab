@@ -1,0 +1,58 @@
+id: c5-shapes-patterns-matchsticks-needed-for-six-equal-parts
+slug: matchsticks-needed-for-six-equal-parts
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-equal-parts
+    - c5-ch7-shapes-and-figures
+  primaryTopic: c5-ch7-equal-parts
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    What is the minimum number of matchsticks needed to make a figure which is divided into
+    6 equal parts? Note: You can't change the placement of the matchsticks already in the
+    image.
+  stimulus:
+    assetRefs:
+      - matchstick-figure
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Start by closing the outer square with one matchstick along the top. Then add a vertical
+    and a horizontal matchstick to finish the inner structure, and two more verticals to
+    even out the divisions. That makes a square split into 6 equal parts using 5 extra
+    matchsticks.
+  assetRefs: []
+assets:
+  - ref: matchstick-figure
+    file: ../assets/matchstick-figure.png
+    role: stem
+    visibility: public
+    alt: >-
+      An unfinished figure built from matchsticks with red tips, forming most of a square
+      with some inner divisions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 28
+    section: "Chapter 7 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 7 question 7 answer and solution"

@@ -1,0 +1,45 @@
+id: c5-maps-locations-direction-of-r-from-s
+slug: direction-of-r-from-s
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch14-directions
+    - c5-ch14-maps-and-routes
+  primaryTopic: c5-ch14-directions
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are 5 villages, P, Q, R, S, and T, situated close to each other. P is to the west
+    of Q, R is to the south of P, T is to the north of Q, and S is to the east of T. In which
+    direction is R with respect to S?
+  options:
+    - id: option-a
+      text: "North-West"
+    - id: option-b
+      text: "South-East"
+    - id: option-c
+      text: "South-West"
+    - id: option-d
+      text: "North-East"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Sketch it out. Put Q somewhere and place P to its west, R below P, T above Q, and S to
+    the east of T. R then sits down and to the left of S, which is south-west.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 52
+    section: "Chapter 14 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 101
+    section: "Chapter 14 question 2 answer and solution"

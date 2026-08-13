@@ -1,0 +1,55 @@
+id: c5-coconut-farm-thinking-spot-number-names-from-one-swap
+slug: thinking-spot-number-names-from-one-swap
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch9-logical-puzzles
+    - c5-ch9-ordering-values
+  primaryTopic: c5-ch9-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Exactly one letter of the given word should be replaced with any other letter of the
+    English alphabet to form a number name. How many number names can be formed this way?
+    Note: The remaining letters of the word cannot be rearranged to form a meaningful word.
+  stimulus:
+    assetRefs:
+      - the-word-fine
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "1"
+    - id: option-d
+      text: "0"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Take the letters of FINE one at a time. Swapping the F for an N gives NINE, and swapping
+    the N for a V gives FIVE. Changing the I or the E leads nowhere, so 2 number names can
+    be made.
+  assetRefs: []
+assets:
+  - ref: the-word-fine
+    file: ../assets/the-word-fine.png
+    role: stem
+    visibility: public
+    alt: The word FINE printed in capital letters
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 38
+    section: "Chapter 9 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 9 The Thinking Spot answer and solution"

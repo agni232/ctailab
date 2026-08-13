@@ -1,0 +1,56 @@
+id: c5-data-pictures-towers-with-the-same-count-to-their-left
+slug: towers-with-the-same-count-to-their-left
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-comparing-heights
+    - c5-ch15-reading-data
+  primaryTopic: c5-ch15-comparing-heights
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Shown below are six towers of different heights. Which two towers have the same number of
+    shorter towers placed to their left? Note: Please consider ALL towers to the left while
+    counting the number of shorter towers.
+  stimulus:
+    assetRefs:
+      - six-towers
+  options:
+    - id: option-a
+      text: "B - C"
+    - id: option-b
+      text: "B - D"
+    - id: option-c
+      text: "C - F"
+    - id: option-d
+      text: "D - F"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Go along the row and count how many towers to the left of each one are shorter than it.
+    A has none, B has 1, C has none, D has 3, E has none, and F has 3. So D and F match.
+  assetRefs: []
+assets:
+  - ref: six-towers
+    file: ../assets/six-towers.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six towers of different heights labelled A to F standing in a row, with LEFT marked at
+      one end and RIGHT at the other
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 57
+    section: "Chapter 15 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 111
+    section: "Chapter 15 question 6 answer and solution"

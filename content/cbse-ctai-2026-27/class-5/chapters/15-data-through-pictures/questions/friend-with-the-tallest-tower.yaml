@@ -1,0 +1,56 @@
+id: c5-data-pictures-friend-with-the-tallest-tower
+slug: friend-with-the-tallest-tower
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch15-comparing-heights
+    - c5-ch15-reasoning-with-clues
+  primaryTopic: c5-ch15-comparing-heights
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    From the towers shown below, Tom, Paul, John, and Sam each owns one tower. Tom owns a
+    tower which is positioned between A and C. Paul owns a tower which is positioned between
+    B and D. John owns a tower which is positioned between F and H. Sam owns a tower which is
+    positioned between E and G. Which friend's tower is the tallest among them?
+  stimulus:
+    assetRefs:
+      - eight-towers
+  options:
+    - id: option-a
+      text: "Sam"
+    - id: option-b
+      text: "Tom"
+    - id: option-c
+      text: "Paul"
+    - id: option-d
+      text: "John"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each clue names the tower squeezed between two others, so Tom owns B, Paul owns C, John
+    owns G, and Sam owns F. Comparing the heights of B, C, G, and F, tower F is the tallest,
+    and that is Sam's.
+  assetRefs: []
+assets:
+  - ref: eight-towers
+    file: ../assets/eight-towers.png
+    role: stem
+    visibility: public
+    alt: A bar chart of eight towers of different heights labelled A to H
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 58
+    section: "Chapter 15 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 113
+    section: "Chapter 15 question 9 answer and solution"

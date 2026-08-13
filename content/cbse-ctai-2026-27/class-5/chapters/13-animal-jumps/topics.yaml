@@ -1,0 +1,38 @@
+topics:
+  - id: c5-ch13-multiples-and-factors
+    slug: multiples-and-factors
+    title: Multiples and Factors
+    position: 1
+    status: published
+  - id: c5-ch13-common-factors
+    slug: common-factors
+    title: Common Factors
+    position: 2
+    parentId: c5-ch13-multiples-and-factors
+    status: published
+  - id: c5-ch13-divisibility
+    slug: divisibility
+    title: Divisibility
+    position: 3
+    parentId: c5-ch13-multiples-and-factors
+    status: published
+  - id: c5-ch13-sharing-equally
+    slug: sharing-equally
+    title: Sharing Equally
+    position: 4
+    status: published
+  - id: c5-ch13-patterns-and-series
+    slug: patterns-and-series
+    title: Patterns and Series
+    position: 5
+    status: published
+  - id: c5-ch13-sufficient-information
+    slug: sufficient-information
+    title: Sufficient Information
+    position: 6
+    status: published
+  - id: c5-ch13-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

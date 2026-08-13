@@ -1,0 +1,60 @@
+id: c5-maps-locations-thinking-spot-friend-with-the-highest-score
+slug: thinking-spot-friend-with-the-highest-score
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-logical-puzzles
+    - c5-ch14-grids-and-paths
+  primaryTopic: c5-ch14-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Three friends - A, B, and C - are standing in a grid as shown below. Each of them moves 5
+    steps in the grid by following the exact sequence of arrows given below, such that for a
+    WHITE arrow they move in the OPPOSITE direction of the arrow, and for a BLACK arrow they
+    move in the SAME direction as the arrow. If they score 1 point for stepping on a block
+    with a star then which friend will score the HIGHEST points?
+  stimulus:
+    assetRefs:
+      - star-grid-and-arrows
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "All will get an equal number of points"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    First turn the arrow sequence into the moves actually taken, flipping every white arrow
+    and keeping every black one. Then walk each friend through those five moves from where
+    they stand and count the starred blocks they land on. B collects the most.
+  assetRefs: []
+assets:
+  - ref: star-grid-and-arrows
+    file: ../assets/star-grid-and-arrows.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with friends A, B, and C marked in circles and stars scattered through the other
+      blocks, beside a panel headed Sequence of Arrows listing five black and white arrows
+      from Start to End
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 55
+    section: "Chapter 14 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 14 The Thinking Spot answer and solution"

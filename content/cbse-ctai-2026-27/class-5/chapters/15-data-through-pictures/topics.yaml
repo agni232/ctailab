@@ -1,0 +1,38 @@
+topics:
+  - id: c5-ch15-reading-data
+    slug: reading-data
+    title: Reading Data
+    position: 1
+    status: published
+  - id: c5-ch15-pictographs
+    slug: pictographs
+    title: Pictographs
+    position: 2
+    parentId: c5-ch15-reading-data
+    status: published
+  - id: c5-ch15-comparing-heights
+    slug: comparing-heights
+    title: Comparing Heights
+    position: 3
+    parentId: c5-ch15-reading-data
+    status: published
+  - id: c5-ch15-tables-and-grids
+    slug: tables-and-grids
+    title: Tables and Grids
+    position: 4
+    status: published
+  - id: c5-ch15-venn-diagrams
+    slug: venn-diagrams
+    title: Venn Diagrams
+    position: 5
+    status: published
+  - id: c5-ch15-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 6
+    status: published
+  - id: c5-ch15-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

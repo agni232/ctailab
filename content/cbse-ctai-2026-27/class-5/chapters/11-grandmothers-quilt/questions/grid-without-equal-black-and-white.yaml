@@ -1,0 +1,73 @@
+id: c5-quilt-grid-without-equal-black-and-white
+slug: grid-without-equal-black-and-white
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch11-comparing-areas
+    - c5-ch11-area
+  primaryTopic: c5-ch11-comparing-areas
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Which of the following grids does NOT have an EQUAL portion of black and white area?
+    Note: The dots along each edge are spaced equidistantly.
+  options:
+    - id: option-a
+      assetRef: dot-grid-option-a
+      accessibleLabel: A dotted square with a black L-shaped region, option a
+    - id: option-b
+      assetRef: dot-grid-option-b
+      accessibleLabel: A dotted square with a black stepped region, option b
+    - id: option-c
+      assetRef: dot-grid-option-c
+      accessibleLabel: A dotted square with a black zigzag region, option c
+    - id: option-d
+      assetRef: dot-grid-option-d
+      accessibleLabel: A dotted square with a black region down the right side, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The equally spaced dots let you rule the square into 16 small squares. Counting the black
+    ones gives 8 for options a, b, and d, which is exactly half of 16. Option c comes to 9,
+    so its black and white areas are not equal.
+  assetRefs: []
+assets:
+  - ref: dot-grid-option-a
+    file: ../assets/dot-grid-option-a.png
+    role: option
+    visibility: public
+    alt: Dotted square with a black region, option a
+    position: 1
+  - ref: dot-grid-option-b
+    file: ../assets/dot-grid-option-b.png
+    role: option
+    visibility: public
+    alt: Dotted square with a black region, option b
+    position: 2
+  - ref: dot-grid-option-c
+    file: ../assets/dot-grid-option-c.png
+    role: option
+    visibility: public
+    alt: Dotted square with a black region, option c
+    position: 3
+  - ref: dot-grid-option-d
+    file: ../assets/dot-grid-option-d.png
+    role: option
+    visibility: public
+    alt: Dotted square with a black region, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 11 question 4 answer and solution"

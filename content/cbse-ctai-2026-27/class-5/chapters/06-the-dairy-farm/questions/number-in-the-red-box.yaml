@@ -1,0 +1,56 @@
+id: c5-dairy-farm-number-in-the-red-box
+slug: number-in-the-red-box
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-factors-and-products
+    - c5-ch6-number-rules
+  primaryTopic: c5-ch6-factors-and-products
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    If we place the numbers 5, 6, and 7 in the boxes shown below and the product is 455,
+    which number will go in the red box?
+  stimulus:
+    assetRefs:
+      - multiplication-boxes
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "Either option a or option c"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A product ending in 5 needs a 5 somewhere. If the single-digit multiplier were 5, then
+    67 x 5 = 335 and 76 x 5 = 380, neither of which is 455. So the 5 belongs in the red box
+    of the two-digit number, and 65 x 7 = 455 works.
+  assetRefs: []
+assets:
+  - ref: multiplication-boxes
+    file: ../assets/multiplication-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      A multiplication set out in columns, with two empty boxes on the top row - the right
+      one outlined in red - and one empty box below beside a multiplication sign
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 25
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 6 question 8 answer and solution"

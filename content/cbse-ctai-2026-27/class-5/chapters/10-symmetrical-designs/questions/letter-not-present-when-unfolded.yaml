@@ -1,0 +1,57 @@
+id: c5-symmetrical-designs-letter-not-present-when-unfolded
+slug: letter-not-present-when-unfolded
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch10-symmetry
+    - c5-ch10-folding-and-cutting
+  primaryTopic: c5-ch10-symmetry
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A transparent symmetrical sheet of paper has letters written on it and is folded in half.
+    Which of the following letters given in the options is NOT present if the given sheet is
+    unfolded?
+  stimulus:
+    assetRefs:
+      - folded-sheet-letters
+  options:
+    - id: option-a
+      text: "N"
+    - id: option-b
+      text: "T"
+    - id: option-c
+      text: "A"
+    - id: option-d
+      text: "O"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The sheet is symmetrical, so whatever shows on the folded half is the left half of each
+    letter and the right half will mirror it. The left halves of T, A, and O are all there,
+    but the left half of N is not, so N is missing.
+  assetRefs: []
+assets:
+  - ref: folded-sheet-letters
+    file: ../assets/folded-sheet-letters.png
+    role: stem
+    visibility: public
+    alt: >-
+      A folded transparent sheet showing overlapping letter strokes on the left half, with a
+      dashed outline where the other half folds over
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 10 question 1 answer and solution"

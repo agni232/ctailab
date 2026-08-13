@@ -1,0 +1,48 @@
+id: c5-data-pictures-days-with-at-least-three-items
+slug: days-with-at-least-three-items
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-tables-and-grids
+    - c5-ch15-reasoning-with-clues
+  primaryTopic: c5-ch15-tables-and-grids
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Company A packages different types of mobile parts/accessories on the following days:
+    Charger on Mondays, Tuesday, and Thursdays; Batteries on all days except on Friday;
+    Earphones only on Mondays and Wednesdays; Screen on all days except on Thursday;
+    Headphones on all days except on Wednesday. On which days would it be possible for at
+    least three accessories/parts to be packaged on the same day?
+  options:
+    - id: option-a
+      text: "Everyday"
+    - id: option-b
+      text: "All days except Thursday"
+    - id: option-c
+      text: "All days except Friday"
+    - id: option-d
+      text: "Only on Mondays and Tuesdays"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Draw a table with the days across the top and the five items down the side, and tick each
+    box where that item is packaged. Counting the ticks in each column gives three or more on
+    every day except Friday, which only manages two.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 56
+    section: "Chapter 15 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 109
+    section: "Chapter 15 question 3 answer and solution"

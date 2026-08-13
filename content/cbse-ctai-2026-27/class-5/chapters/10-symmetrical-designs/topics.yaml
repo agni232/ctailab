@@ -1,0 +1,32 @@
+topics:
+  - id: c5-ch10-symmetry
+    slug: symmetry
+    title: Symmetry
+    position: 1
+    status: published
+  - id: c5-ch10-lines-of-symmetry
+    slug: lines-of-symmetry
+    title: Lines of Symmetry
+    position: 2
+    parentId: c5-ch10-symmetry
+    status: published
+  - id: c5-ch10-reflections
+    slug: reflections
+    title: Reflections
+    position: 3
+    status: published
+  - id: c5-ch10-folding-and-cutting
+    slug: folding-and-cutting
+    title: Folding and Cutting
+    position: 4
+    status: published
+  - id: c5-ch10-shapes-and-figures
+    slug: shapes-and-figures
+    title: Shapes and Figures
+    position: 5
+    status: published
+  - id: c5-ch10-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

@@ -1,0 +1,85 @@
+id: c5-data-pictures-flowers-for-a-and-d
+slug: flowers-for-a-and-d
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-tables-and-grids
+    - c5-ch15-reasoning-with-clues
+  primaryTopic: c5-ch15-tables-and-grids
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Each flower has a value shown in Image 1. These flowers are placed in Image 2. The
+    numbers written at the end of each row represent the sum of the values of the flowers in
+    that row. Which flowers from the options below can come in place of A and D?
+  stimulus:
+    assetRefs:
+      - flower-values-and-grid
+  options:
+    - id: option-a
+      assetRef: flower-option-a
+      accessibleLabel: A is the five petal outline flower and D is the round many petal flower
+    - id: option-b
+      assetRef: flower-option-b
+      accessibleLabel: A is the round many petal flower and D is the pointed star flower
+    - id: option-c
+      assetRef: flower-option-c
+      accessibleLabel: A and D are both the five petal outline flower
+    - id: option-d
+      assetRef: flower-option-d
+      accessibleLabel: A is the round many petal flower and D is the five petal outline flower
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The second row gives A + B + 8 = 19, so A + B = 11, which only works as 6 and 5. The
+    third row gives C + D + 9 = 19, so C + D = 10, which works as 6 and 4 or as 5 and 5.
+    That rules out A being 4 and D being 3, leaving option d, with A as 6 and D as 4.
+  assetRefs: []
+assets:
+  - ref: flower-values-and-grid
+    file: ../assets/flower-values-and-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      Image 1 shows four flowers worth 6, 5, 4, and 3, and Image 2 is a four by four grid of
+      flowers with A, B, C, and D among them and the row totals 22, 19, 19, and 15
+    position: 0
+  - ref: flower-option-a
+    file: ../assets/flower-option-a.png
+    role: option
+    visibility: public
+    alt: Flowers for A and D, option a
+    position: 1
+  - ref: flower-option-b
+    file: ../assets/flower-option-b.png
+    role: option
+    visibility: public
+    alt: Flowers for A and D, option b
+    position: 2
+  - ref: flower-option-c
+    file: ../assets/flower-option-c.png
+    role: option
+    visibility: public
+    alt: Flowers for A and D, option c
+    position: 3
+  - ref: flower-option-d
+    file: ../assets/flower-option-d.png
+    role: option
+    visibility: public
+    alt: Flowers for A and D, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 56
+    section: "Chapter 15 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 108
+    section: "Chapter 15 question 1 answer and solution"

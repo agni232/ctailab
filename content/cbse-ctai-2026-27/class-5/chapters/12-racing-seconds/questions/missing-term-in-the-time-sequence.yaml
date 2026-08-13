@@ -1,0 +1,44 @@
+id: c5-racing-seconds-missing-term-in-the-time-sequence
+slug: missing-term-in-the-time-sequence
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch12-clock-times
+    - c5-ch12-repeating-schedules
+  primaryTopic: c5-ch12-clock-times
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A term is missing in between the sequence. Find the missing term. 10:15 AM, 10:45 AM,
+    11:15 AM, 11:45 AM, ______________ , 12:45 PM, 1:15 PM
+  options:
+    - id: option-a
+      text: "11:30 AM"
+    - id: option-b
+      text: "12:15 PM"
+    - id: option-c
+      text: "12:15 AM"
+    - id: option-d
+      text: "12:30 PM"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each time is 30 minutes after the one before, so the missing term is 11:45 AM plus 30
+    minutes, which is 12:15. Since it is past 12 noon, it is written as PM.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 12 question 3 answer and solution"

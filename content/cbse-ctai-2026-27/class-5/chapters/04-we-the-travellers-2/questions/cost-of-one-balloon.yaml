@@ -1,0 +1,45 @@
+id: c5-travellers-2-cost-of-one-balloon
+slug: cost-of-one-balloon
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch4-money-and-exchange
+    - c5-ch4-reasoning-with-clues
+  primaryTopic: c5-ch4-money-and-exchange
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    John has Rs. 12 with him. He went to a shop and bought 3 balls and 2 balloons. After
+    buying these items, he still has Rs. 2 remaining, which is exactly the cost of 1 ball.
+    What is the cost of 1 balloon?
+  options:
+    - id: option-a
+      text: "Rs. 1"
+    - id: option-b
+      text: "Rs. 2"
+    - id: option-c
+      text: "Rs. 3"
+    - id: option-d
+      text: "Rs. 4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    John spent 12 - 2 = Rs. 10. One ball costs Rs. 2, so 3 balls cost Rs. 6. That leaves
+    Rs. 4 for the 2 balloons, so each balloon costs Rs. 2.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 4 question 4 answer and solution"

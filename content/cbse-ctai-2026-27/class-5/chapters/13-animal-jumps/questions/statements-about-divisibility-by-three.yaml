@@ -1,0 +1,46 @@
+id: c5-animal-jumps-statements-about-divisibility-by-three
+slug: statements-about-divisibility-by-three
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-sufficient-information
+    - c5-ch13-divisibility
+  primaryTopic: c5-ch13-sufficient-information
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which of the following statements is/are sufficient to answer the given question?
+    Question: Is any one of the integers A, B, or C divisible by 3? Statement 1: A, B, and C
+    are three consecutive natural numbers. Statement 2: Value of B is 32.
+  options:
+    - id: option-a
+      text: "Only 1 is sufficient"
+    - id: option-b
+      text: "Only 2 is sufficient"
+    - id: option-c
+      text: "Both 1 and 2 are necessarily required"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Among any three numbers in a row, one is always a multiple of 3, so Statement 1 settles
+    it by itself. Knowing that B is 32 says nothing about how A, B, and C are related, so
+    Statement 2 is no help.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 50
+    section: "Chapter 13 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 98
+    section: "Chapter 13 question 9 answer and solution"

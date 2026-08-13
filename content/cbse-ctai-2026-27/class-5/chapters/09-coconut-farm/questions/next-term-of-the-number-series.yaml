@@ -1,0 +1,43 @@
+id: c5-coconut-farm-next-term-of-the-number-series
+slug: next-term-of-the-number-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch9-number-series
+    - c5-ch9-factors-and-multiples
+  primaryTopic: c5-ch9-number-series
+  estimatedMinutes: 4
+content:
+  prompt: "Find the next term of the given series: 8, 24, 12, 36, 18, 54, ?"
+  options:
+    - id: option-a
+      text: "27"
+    - id: option-b
+      text: "28"
+    - id: option-c
+      text: "37"
+    - id: option-d
+      text: "39"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The series alternates between multiplying by 3 and dividing by 2: 8 x 3 = 24,
+    24 / 2 = 12, 12 x 3 = 36, 36 / 2 = 18, and 18 x 3 = 54. The next step is to halve, so
+    54 / 2 = 27.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 9 question 10 answer and solution"

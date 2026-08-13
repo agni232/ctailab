@@ -1,0 +1,46 @@
+id: c5-weight-capacity-minimum-possible-weight-of-a-bag
+slug: minimum-possible-weight-of-a-bag
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-reasoning-with-clues
+    - c5-ch8-weight
+  primaryTopic: c5-ch8-reasoning-with-clues
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    There are three bags, P, Q, and R, and the weight of each bag is a NATURAL NUMBER. Two
+    bags have the same weight. P and R weigh 4 kg together, and Q and R weigh 6 kg together.
+    What is the MINIMUM possible weight of a bag?
+  options:
+    - id: option-a
+      text: "2 kg"
+    - id: option-b
+      text: "3 kg"
+    - id: option-c
+      text: "4 kg"
+    - id: option-d
+      text: "1 kg"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    P and Q cannot be the equal pair, because R is in both sums and the totals differ. If
+    P = R then both are 2 and Q is 4. If Q = R then both are 3 and P is 1. The smallest
+    weight that turns up is 1 kg.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 8 question 7 answer and solution"

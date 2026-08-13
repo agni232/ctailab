@@ -1,0 +1,46 @@
+id: c5-far-and-near-taxi-fare-between-a-and-b
+slug: taxi-fare-between-a-and-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch5-reasoning-with-clues
+    - c5-ch5-length-and-distance
+  primaryTopic: c5-ch5-reasoning-with-clues
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Mahesh knew that the distance between A and B was more than 3 km but less than 7 km.
+    Ravi knew that the distance was more than 5 km but less than 10 km. If both of them are
+    correct and the distance can only be an EXACT (integer) number of kilometres, how much
+    must they pay if the taxi charges Rs. 8 per km?
+  options:
+    - id: option-a
+      text: "Rs. 48"
+    - id: option-b
+      text: "Rs. 56"
+    - id: option-c
+      text: "Rs. 40"
+    - id: option-d
+      text: "Rs. 64"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Mahesh allows 4, 5, or 6 km and Ravi allows 6, 7, 8, or 9 km. The only distance that
+    fits both is 6 km, so the fare is 6 x 8 = Rs. 48.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 22
+    section: "Chapter 5 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 5 question 10 answer and solution"

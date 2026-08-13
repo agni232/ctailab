@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch13-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 13 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-animal-jumps-what-the-two-digit-number-divides-by
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 49
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-maximum-number-of-gift-boxes
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 49
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-pencils-sam-must-give-mary
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 49
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-minimum-boxes-alex-needs
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 49
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-time-for-the-rabbit-to-reach-the-carrot
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 49
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-odd-one-out-among-the-number-pairs
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 50
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-greatest-length-of-each-yarn-piece
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 50
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-next-term-in-the-block-series
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 50
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-statements-about-divisibility-by-three
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 50
+    sourceSection: "Chapter 13: Animal Jumps"
+  - questionId: c5-animal-jumps-information-needed-for-the-value-of-x
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 50
+    sourceSection: "Chapter 13: Animal Jumps"

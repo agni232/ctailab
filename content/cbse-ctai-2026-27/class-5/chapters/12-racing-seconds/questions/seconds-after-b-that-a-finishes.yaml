@@ -1,0 +1,57 @@
+id: c5-racing-seconds-seconds-after-b-that-a-finishes
+slug: seconds-after-b-that-a-finishes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch12-speed-and-races
+    - c5-ch12-elapsed-time
+  primaryTopic: c5-ch12-speed-and-races
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    As shown in the image, A and B are racing towards the End box. A takes 5 seconds to move
+    from one box to the next. B takes 4 seconds to move from one box to the next. How many
+    seconds after B will A reach the End box?
+  stimulus:
+    assetRefs:
+      - race-boxes
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count the moves each one needs. A has 5 boxes to cross at 5 seconds each, which is 25
+    seconds. B has 4 boxes at 4 seconds each, which is 16 seconds. A finishes 25 - 16 = 9
+    seconds later.
+  assetRefs: []
+assets:
+  - ref: race-boxes
+    file: ../assets/race-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two strips of boxes with an End box at the right, A standing part way along the upper
+      strip and B part way along the lower strip, with an arrow showing the running direction
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 12 question 7 answer and solution"

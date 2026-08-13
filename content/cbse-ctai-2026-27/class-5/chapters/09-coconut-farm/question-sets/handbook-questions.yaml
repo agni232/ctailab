@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch9-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 9 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-coconut-farm-statements-needed-for-teams-of-eight
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 36
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-ways-to-arrange-twenty-four-soldiers
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 36
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-correct-statement-about-the-grid-rows
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 36
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-three-digit-multiples-with-remainder-six
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 36
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-operator-that-cannot-replace-the-symbol
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 36
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-letters-that-stay-in-the-same-position
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-how-the-captain-checks-for-leftovers
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-pizzas-and-slices-after-fifteen-days
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-expression-with-the-highest-output
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Coconut Farm"
+  - questionId: c5-coconut-farm-next-term-of-the-number-series
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Coconut Farm"

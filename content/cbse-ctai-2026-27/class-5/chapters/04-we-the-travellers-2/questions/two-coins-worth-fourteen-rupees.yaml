@@ -1,0 +1,45 @@
+id: c5-travellers-2-two-coins-worth-fourteen-rupees
+slug: two-coins-worth-fourteen-rupees
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch4-reasoning-with-clues
+    - c5-ch4-money-and-exchange
+  primaryTopic: c5-ch4-reasoning-with-clues
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Bob has 4 coins with different values: 2, 4, 6, and 8. Coin C is worth more than Coin A.
+    The total value of Coins B and C is equal to the value of Coin D. Which TWO coins can
+    Bob use to buy a candy that costs Rs. 14?
+  options:
+    - id: option-a
+      text: "Coins A and D"
+    - id: option-b
+      text: "Coins B and D"
+    - id: option-c
+      text: "Coins A and C"
+    - id: option-d
+      text: "Coins C and D"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    B + C = D only works with D = 8, B = 2, and C = 6. Coin C must beat Coin A, so A is 4.
+    The only pair adding to 14 is 6 and 8, which are Coins C and D.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 19
+    section: "Chapter 4 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 31
+    section: "Chapter 4 question 7 answer and solution"

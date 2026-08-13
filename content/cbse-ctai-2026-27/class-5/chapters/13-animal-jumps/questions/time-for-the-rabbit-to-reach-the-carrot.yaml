@@ -1,0 +1,55 @@
+id: c5-animal-jumps-time-for-the-rabbit-to-reach-the-carrot
+slug: time-for-the-rabbit-to-reach-the-carrot
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-multiples-and-factors
+    - c5-ch13-sharing-equally
+  primaryTopic: c5-ch13-multiples-and-factors
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If the rabbit always jumps to every third tile from its position and it takes 2 minutes
+    for each jump, how long will it take the rabbit to reach the carrot?
+  stimulus:
+    assetRefs:
+      - rabbit-tile-path
+  options:
+    - id: option-a
+      text: "10 minutes"
+    - id: option-b
+      text: "8 minutes"
+    - id: option-c
+      text: "6 minutes"
+    - id: option-d
+      text: "5 minutes"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    There are 15 tiles on the way to the carrot, and the rabbit lands on every third one, so
+    it makes 15 / 3 = 5 jumps. At 2 minutes a jump that is 5 x 2 = 10 minutes.
+  assetRefs: []
+assets:
+  - ref: rabbit-tile-path
+    file: ../assets/rabbit-tile-path.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A rabbit at the start of a winding path of coloured tiles, with branches leading to
+      grass, an apple, and a carrot
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 49
+    section: "Chapter 13 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 96
+    section: "Chapter 13 question 5 answer and solution"

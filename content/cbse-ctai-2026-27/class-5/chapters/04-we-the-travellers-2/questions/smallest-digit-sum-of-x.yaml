@@ -1,0 +1,45 @@
+id: c5-travellers-2-smallest-digit-sum-of-x
+slug: smallest-digit-sum-of-x
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch4-making-numbers
+    - c5-ch4-place-value
+  primaryTopic: c5-ch4-making-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    X is a 4-digit number which has only even numbers and only 2 unique digits. What could
+    be the minimum value of the sum of the digits of the number X?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "12"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Use the two smallest even digits, 0 and 2. A 4-digit number cannot start with 0, so the
+    first digit is 2, and using 2 only once keeps the sum as small as possible. That gives
+    2000, whose digits add to 2.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 19
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 4 question 9 answer and solution"

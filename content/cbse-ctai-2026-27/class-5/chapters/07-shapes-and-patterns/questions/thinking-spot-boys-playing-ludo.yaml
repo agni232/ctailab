@@ -1,0 +1,45 @@
+id: c5-shapes-patterns-thinking-spot-boys-playing-ludo
+slug: thinking-spot-boys-playing-ludo
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch7-logical-puzzles
+    - c5-ch7-counting-strategies
+  primaryTopic: c5-ch7-logical-puzzles
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A, B, C, D, E, and F are 6 friends. A, C, and F are girls, while the others are boys.
+    C and E are playing chess, while the others are playing Ludo. How many boys are playing
+    Ludo?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A, C, and F are the girls, so B, D, and E are the boys. C and E are at the chess board,
+    so the Ludo players are A, B, D, and F. Of those, B and D are boys, which makes 2.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 7 The Thinking Spot answer and solution"

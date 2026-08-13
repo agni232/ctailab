@@ -1,0 +1,82 @@
+id: c5-symmetrical-designs-half-that-appears-only-once
+slug: half-that-appears-only-once
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-symmetry
+    - c5-ch10-shapes-and-figures
+  primaryTopic: c5-ch10-symmetry
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Some symmetrical figures are cut into two halves and placed in the grid below. Which of
+    the following options has only one half present in the grid?
+  stimulus:
+    assetRefs:
+      - half-figure-grid
+  options:
+    - id: option-a
+      assetRef: half-option-a
+      accessibleLabel: A black curved half shape, option a
+    - id: option-b
+      assetRef: half-option-b
+      accessibleLabel: A black curved half shape, option b
+    - id: option-c
+      assetRef: half-option-c
+      accessibleLabel: A black curved half shape, option c
+    - id: option-d
+      assetRef: half-option-d
+      accessibleLabel: A black curved half shape, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each half in the grid should pair up with its mirror image somewhere else in the grid.
+    Match them off one by one, and the half shown in option d is the one left without a
+    partner.
+  assetRefs: []
+assets:
+  - ref: half-figure-grid
+    file: ../assets/half-figure-grid.png
+    role: stem
+    visibility: public
+    alt: A three by three grid of cells, each holding a black curved half shape
+    position: 0
+  - ref: half-option-a
+    file: ../assets/half-option-a.png
+    role: option
+    visibility: public
+    alt: Curved half shape, option a
+    position: 1
+  - ref: half-option-b
+    file: ../assets/half-option-b.png
+    role: option
+    visibility: public
+    alt: Curved half shape, option b
+    position: 2
+  - ref: half-option-c
+    file: ../assets/half-option-c.png
+    role: option
+    visibility: public
+    alt: Curved half shape, option c
+    position: 3
+  - ref: half-option-d
+    file: ../assets/half-option-d.png
+    role: option
+    visibility: public
+    alt: Curved half shape, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 10 question 2 answer and solution"

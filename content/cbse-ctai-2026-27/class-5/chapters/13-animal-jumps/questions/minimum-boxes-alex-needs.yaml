@@ -1,0 +1,47 @@
+id: c5-animal-jumps-minimum-boxes-alex-needs
+slug: minimum-boxes-alex-needs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-multiples-and-factors
+    - c5-ch13-divisibility
+  primaryTopic: c5-ch13-multiples-and-factors
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Alex has four boxes - A, B, C, and D. A can accommodate all numbers which are multiples
+    of 5, B can accommodate all numbers which are multiples of 3, C can accommodate all
+    numbers which are even, and D can accommodate all numbers which are multiples of 4. Alex
+    has to fit the following numbers in the boxes above. What is the MINIMUM number of boxes
+    he needs? 3, 15, 24, 36, 45, 60
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Check the list against each box. Every one of 3, 15, 24, 36, 45, and 60 is a multiple of
+    3, so box B on its own takes all of them. That is just 1 box.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 49
+    section: "Chapter 13 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 96
+    section: "Chapter 13 question 4 answer and solution"

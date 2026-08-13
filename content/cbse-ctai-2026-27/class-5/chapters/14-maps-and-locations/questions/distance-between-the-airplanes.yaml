@@ -1,0 +1,48 @@
+id: c5-maps-locations-distance-between-the-airplanes
+slug: distance-between-the-airplanes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-distance
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-distance
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Two airplanes A and B are moving north. After flying for 50 metres: 1. Airplane A turns
+    right and travels for 25 metres, then turns left and travels for another 25 metres.
+    2. Airplane B turns left and travels for 50 metres, then turns right and travels for 25
+    metres. What is the distance between the airplanes now if the initial distance between
+    them is 10 metres and A is on the right side?
+  options:
+    - id: option-a
+      text: "25 meters"
+    - id: option-b
+      text: "85 meters"
+    - id: option-c
+      text: "50 meters"
+    - id: option-d
+      text: "100 meters"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Both planes finish heading north, so only their side to side positions matter. A shifts
+    25 m to the east and B shifts 50 m to the west, and they started 10 m apart. That makes
+    50 + 10 + 25 = 85 metres between them.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 53
+    section: "Chapter 14 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 14 question 9 answer and solution"

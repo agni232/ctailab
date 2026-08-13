@@ -1,0 +1,45 @@
+id: c5-racing-seconds-when-the-bulb-turns-on-the-fourth-time
+slug: when-the-bulb-turns-on-the-fourth-time
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch12-repeating-schedules
+    - c5-ch12-elapsed-time
+  primaryTopic: c5-ch12-repeating-schedules
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A light bulb is turned ON for seven minutes and OFF for seven minutes. This process is
+    then repeated. At what time will the light bulb be turned on for the 4th time?
+  options:
+    - id: option-a
+      text: "Beginning of 43rd minute"
+    - id: option-b
+      text: "Beginning of 29th minute"
+    - id: option-c
+      text: "Beginning of 57th minute"
+    - id: option-d
+      text: "Beginning of 50th minute"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Seven minutes on and seven off makes a cycle of 14 minutes. The bulb switches on at the
+    start of minute 1, then at the 15th, the 29th, and the 43rd minute, which is the 4th
+    time.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 12 question 2 answer and solution"

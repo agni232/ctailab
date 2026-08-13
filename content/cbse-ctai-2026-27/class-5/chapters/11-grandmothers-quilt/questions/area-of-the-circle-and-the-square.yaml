@@ -1,0 +1,44 @@
+id: c5-quilt-area-of-the-circle-and-the-square
+slug: area-of-the-circle-and-the-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch11-comparing-areas
+    - c5-ch11-area
+  primaryTopic: c5-ch11-comparing-areas
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If the diameter of a circle is equal to the side of a square, what can you say about the
+    area of both the shapes?
+  options:
+    - id: option-a
+      text: "The area of the circle is greater than that of the square"
+    - id: option-b
+      text: "The area of the square is greater than that of the circle"
+    - id: option-c
+      text: "The area of the square is the same as that of the circle"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Draw the circle inside the square: it touches the middle of each side but leaves the four
+    corners uncovered. So the square holds everything the circle does and more.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 44
+    section: "Chapter 11 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 11 question 7 answer and solution"

@@ -1,0 +1,55 @@
+id: c5-maps-locations-right-turns-from-a-to-b
+slug: right-turns-from-a-to-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch14-turns
+    - c5-ch14-grids-and-paths
+  primaryTopic: c5-ch14-turns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A person travels from point A to B along the path shown. How many times did the person
+    take a right turn?
+  stimulus:
+    assetRefs:
+      - path-a-to-b
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Walk the path from A, and at each corner ask which way the traveller turns from their own
+    point of view rather than from the page. Counting only the turns to their right gives 4.
+  assetRefs: []
+assets:
+  - ref: path-a-to-b
+    file: ../assets/path-a-to-b.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with a winding arrowed path entering at A at the bottom and leaving at B at the
+      top left
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 52
+    section: "Chapter 14 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 14 question 4 answer and solution"

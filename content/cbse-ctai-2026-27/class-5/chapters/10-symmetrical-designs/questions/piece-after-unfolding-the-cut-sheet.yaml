@@ -1,0 +1,85 @@
+id: c5-symmetrical-designs-piece-after-unfolding-the-cut-sheet
+slug: piece-after-unfolding-the-cut-sheet
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-folding-and-cutting
+    - c5-ch10-symmetry
+  primaryTopic: c5-ch10-folding-and-cutting
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A sheet of paper is folded in half and after folding, some part is cut as shown in the
+    image below. Now the sheet is unfolded. Choose the option which represents the piece
+    after unfolding.
+  stimulus:
+    assetRefs:
+      - fold-and-cut
+  options:
+    - id: option-a
+      assetRef: unfold-option-a
+      accessibleLabel: A grey shape with a notch cut out of the top edge only
+    - id: option-b
+      assetRef: unfold-option-b
+      accessibleLabel: A grey shape with a step cut out of the top and the bottom edges
+    - id: option-c
+      assetRef: unfold-option-c
+      accessibleLabel: A grey shape with notches on the top edge and on both sides
+    - id: option-d
+      assetRef: unfold-option-d
+      accessibleLabel: A grey shape with a notch on the top edge and one on the bottom right
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The cut goes through both layers, so whatever is removed on the folded half is also
+    removed on the hidden half, mirrored about the fold. Putting the two halves back
+    together gives the shape in option b.
+  assetRefs: []
+assets:
+  - ref: fold-and-cut
+    file: ../assets/fold-and-cut.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grey square sheet, then the sheet folded in half along a dashed line, then the
+      folded sheet with two pieces snipped away by scissors
+    position: 0
+  - ref: unfold-option-a
+    file: ../assets/unfold-option-a.png
+    role: option
+    visibility: public
+    alt: Unfolded grey shape, option a
+    position: 1
+  - ref: unfold-option-b
+    file: ../assets/unfold-option-b.png
+    role: option
+    visibility: public
+    alt: Unfolded grey shape, option b
+    position: 2
+  - ref: unfold-option-c
+    file: ../assets/unfold-option-c.png
+    role: option
+    visibility: public
+    alt: Unfolded grey shape, option c
+    position: 3
+  - ref: unfold-option-d
+    file: ../assets/unfold-option-d.png
+    role: option
+    visibility: public
+    alt: Unfolded grey shape, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 10 question 4 answer and solution"

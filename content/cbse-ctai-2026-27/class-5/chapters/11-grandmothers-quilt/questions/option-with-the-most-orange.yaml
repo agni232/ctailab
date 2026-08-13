@@ -1,0 +1,71 @@
+id: c5-quilt-option-with-the-most-orange
+slug: option-with-the-most-orange
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch11-comparing-areas
+    - c5-ch11-area
+  primaryTopic: c5-ch11-comparing-areas
+  estimatedMinutes: 5
+content:
+  prompt: Which option has the maximum area filled with orange colour?
+  options:
+    - id: option-a
+      assetRef: orange-option-a
+      accessibleLabel: A four by four grid with the orange blocks filling the top rows
+    - id: option-b
+      assetRef: orange-option-b
+      accessibleLabel: A four by four grid with orange and blue blocks in a checked arrangement
+    - id: option-c
+      assetRef: orange-option-c
+      accessibleLabel: A four by four grid with orange blocks on the left and blue down the right side
+    - id: option-d
+      assetRef: orange-option-d
+      accessibleLabel: A four by four grid that is mostly orange with a few scattered blue blocks
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Every option is a 4 by 4 grid of 16 equal blocks, so the one with the most orange blocks
+    has the most orange area. Counting gives 10 for option a, 8 for option b, 9 for option c,
+    and 11 for option d.
+  assetRefs: []
+assets:
+  - ref: orange-option-a
+    file: ../assets/orange-option-a.png
+    role: option
+    visibility: public
+    alt: Grid of orange and blue blocks, option a
+    position: 1
+  - ref: orange-option-b
+    file: ../assets/orange-option-b.png
+    role: option
+    visibility: public
+    alt: Grid of orange and blue blocks, option b
+    position: 2
+  - ref: orange-option-c
+    file: ../assets/orange-option-c.png
+    role: option
+    visibility: public
+    alt: Grid of orange and blue blocks, option c
+    position: 3
+  - ref: orange-option-d
+    file: ../assets/orange-option-d.png
+    role: option
+    visibility: public
+    alt: Grid of orange and blue blocks, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 11 question 3 answer and solution"

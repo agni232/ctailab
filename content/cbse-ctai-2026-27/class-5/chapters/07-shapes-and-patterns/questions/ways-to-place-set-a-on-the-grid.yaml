@@ -1,0 +1,58 @@
+id: c5-shapes-patterns-ways-to-place-set-a-on-the-grid
+slug: ways-to-place-set-a-on-the-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-tiling-and-fitting
+    - c5-ch7-counting-strategies
+  primaryTopic: c5-ch7-tiling-and-fitting
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    In how many different ways can Set A (without rotating) be placed completely on the grid
+    so that no two squares overlap and no two adjacent squares have the same pattern? Note:
+    Squares that share common sides are considered to be adjacent. Squares that share a
+    common corner alone are NOT adjacent.
+  stimulus:
+    assetRefs:
+      - set-a-and-grid
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    First mark every spot where the L-shape fits inside the grid without covering a square
+    that is already filled. Then throw out the placements where one of its patterned squares
+    ends up sharing a side with a grid square of the same pattern. Six placements survive.
+  assetRefs: []
+assets:
+  - ref: set-a-and-grid
+    file: ../assets/set-a-and-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A square grid holding starred, grey, and striped squares, beside an L-shaped Set A
+      made of a starred square, a grey square, and a striped square
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 28
+    section: "Chapter 7 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 51
+    section: "Chapter 7 question 6 answer and solution"

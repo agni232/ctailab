@@ -1,0 +1,55 @@
+id: c5-travellers-2-thinking-spot-rectangles-with-the-black-circle
+slug: thinking-spot-rectangles-with-the-black-circle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch4-logical-puzzles
+    - c5-ch4-ordering-and-arrangements
+  primaryTopic: c5-ch4-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Count the number of rectangles which contain the black circle. Note: Please count the
+    squares also as rectangles for the purpose of this question.
+  stimulus:
+    assetRefs:
+      - rectangles-with-circle
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work through the figure shape by shape, counting both the rectangles drawn outright and
+    the ones formed where two shapes overlap. Five of them enclose the black circle.
+  assetRefs: []
+assets:
+  - ref: rectangles-with-circle
+    file: ../assets/rectangles-with-circle.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three overlapping rectangles of different sizes, with a small black circle sitting in
+      the middle of the overlap
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 20
+    section: "Chapter 4 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 4 The Thinking Spot answer and solution"

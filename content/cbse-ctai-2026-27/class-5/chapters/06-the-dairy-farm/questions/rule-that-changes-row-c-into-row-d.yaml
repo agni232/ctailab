@@ -1,0 +1,55 @@
+id: c5-dairy-farm-rule-that-changes-row-c-into-row-d
+slug: rule-that-changes-row-c-into-row-d
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch6-number-rules
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-number-rules
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The numbers in Row C have been changed to the numbers in Row D by using a specific rule.
+    Which of the following options shows that rule?
+  stimulus:
+    assetRefs:
+      - row-c-and-row-d
+  options:
+    - id: option-a
+      text: "8 x C = D"
+    - id: option-b
+      text: "8 x D = C"
+    - id: option-c
+      text: "C + 210 = D"
+    - id: option-d
+      text: "Both a and c are correct"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Test each rule on every pair. Multiplying by 8 works all the way along: 30 gives 240,
+    60 gives 480, 10 gives 80, 90 gives 720, and 150 gives 1200. Adding 210 only happens to
+    work for the first pair, and the other two options fail straight away.
+  assetRefs: []
+assets:
+  - ref: row-c-and-row-d
+    file: ../assets/row-c-and-row-d.png
+    role: stem
+    visibility: public
+    alt: >-
+      Row C holding 30, 60, 10, 90, and 150 above Row D holding 240, 480, 80, 720, and 1200
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 25
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 6 question 10 answer and solution"

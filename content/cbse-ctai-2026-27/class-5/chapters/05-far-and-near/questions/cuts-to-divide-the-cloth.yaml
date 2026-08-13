@@ -1,0 +1,44 @@
+id: c5-far-and-near-cuts-to-divide-the-cloth
+slug: cuts-to-divide-the-cloth
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch5-measuring-with-units
+    - c5-ch5-length-and-distance
+  primaryTopic: c5-ch5-measuring-with-units
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    I have to cut a 50-metre piece of cloth into sections of 1 metre each. How many cuts
+    will I have to make at minimum? Note: I cannot double up the cloth to make 2 layers.
+  options:
+    - id: option-a
+      text: "47"
+    - id: option-b
+      text: "48"
+    - id: option-c
+      text: "49"
+    - id: option-d
+      text: "50"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    One cut makes 2 pieces, two cuts make 3 pieces, and so on, so the number of cuts is
+    always one less than the number of pieces. For 50 pieces you need 49 cuts.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 22
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 5 question 6 answer and solution"

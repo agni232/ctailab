@@ -1,0 +1,53 @@
+id: c5-data-pictures-more-candies-for-tables-b-and-c
+slug: more-candies-for-tables-b-and-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch15-reading-data
+    - c5-ch15-pictographs
+  primaryTopic: c5-ch15-reading-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If at most 9 candies can be kept on each table, then how many more candies in total can
+    be kept on table B and table C?
+  stimulus:
+    assetRefs:
+      - candy-tables
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count the candies already on each table and take that away from 9. Table B has room for 3
+    more and table C has room for 4 more, which is 7 altogether.
+  assetRefs: []
+assets:
+  - ref: candy-tables
+    file: ../assets/candy-tables.jpg
+    role: stem
+    visibility: public
+    alt: Three orange tables labelled A, B, and C, each with some striped candies on it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 57
+    section: "Chapter 15 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 110
+    section: "Chapter 15 question 5 answer and solution"

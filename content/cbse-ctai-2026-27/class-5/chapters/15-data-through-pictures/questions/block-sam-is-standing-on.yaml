@@ -1,0 +1,57 @@
+id: c5-data-pictures-block-sam-is-standing-on
+slug: block-sam-is-standing-on
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-tables-and-grids
+    - c5-ch15-reading-data
+  primaryTopic: c5-ch15-tables-and-grids
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Sam is standing on a block where there are 6 items in total in its row and column
+    combined, with more ice creams than pizza. Out of A, B, C, and D, which block is Sam
+    standing on?
+  stimulus:
+    assetRefs:
+      - ice-cream-pizza-grid
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    For each labelled block, add up the items in its row and in its column. Block C gives
+    3 + 3 = 6 items, made up of 4 ice creams and 2 pizzas, which fits both conditions. Block
+    D also totals 6 but has 3 of each, and the others do not total 6.
+  assetRefs: []
+assets:
+  - ref: ice-cream-pizza-grid
+    file: ../assets/ice-cream-pizza-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid whose cells hold ice cream cones, pizza slices, the letters A, B, C, and D, or
+      nothing at all
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 57
+    section: "Chapter 15 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 110
+    section: "Chapter 15 question 4 answer and solution"

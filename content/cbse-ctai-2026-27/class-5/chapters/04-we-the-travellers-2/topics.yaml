@@ -1,0 +1,43 @@
+topics:
+  - id: c5-ch4-number-properties
+    slug: number-properties
+    title: Number Properties
+    position: 1
+    status: published
+  - id: c5-ch4-odd-and-even
+    slug: odd-and-even-numbers
+    title: Odd and Even Numbers
+    position: 2
+    parentId: c5-ch4-number-properties
+    status: published
+  - id: c5-ch4-place-value
+    slug: place-value
+    title: Place Value
+    position: 3
+    status: published
+  - id: c5-ch4-making-numbers
+    slug: making-numbers
+    title: Making Numbers
+    position: 4
+    parentId: c5-ch4-place-value
+    status: published
+  - id: c5-ch4-ordering-and-arrangements
+    slug: ordering-and-arrangements
+    title: Ordering and Arrangements
+    position: 5
+    status: published
+  - id: c5-ch4-money-and-exchange
+    slug: money-and-exchange
+    title: Money and Exchange
+    position: 6
+    status: published
+  - id: c5-ch4-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 7
+    status: published
+  - id: c5-ch4-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

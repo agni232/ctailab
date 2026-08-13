@@ -1,0 +1,45 @@
+id: c5-travellers-2-sum-of-three-odd-and-two-even-digits
+slug: sum-of-three-odd-and-two-even-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch4-odd-and-even
+    - c5-ch4-number-properties
+  primaryTopic: c5-ch4-odd-and-even
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which statement is DEFINITELY true about a five-digit number that consists of three odd
+    digits and two even digits?
+  options:
+    - id: option-a
+      text: "The sum of all the 5 digits is an odd number"
+    - id: option-b
+      text: "The sum of all the 5 digits is an even number"
+    - id: option-c
+      text: "The sum of all the 5 digits is a prime number"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Add the odd digits first. Two odds make an even, so the three odd digits add up to an
+    odd number. The two even digits add to an even number, and even plus odd is odd. For
+    example 1 + 2 + 3 + 4 + 5 = 15, which is odd.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 4 question 1 answer and solution"

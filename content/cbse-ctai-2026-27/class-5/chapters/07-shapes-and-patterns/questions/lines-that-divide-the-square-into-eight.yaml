@@ -1,0 +1,83 @@
+id: c5-shapes-patterns-lines-that-divide-the-square-into-eight
+slug: lines-that-divide-the-square-into-eight
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-equal-parts
+    - c5-ch7-shapes-and-figures
+  primaryTopic: c5-ch7-equal-parts
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Which of the following additional lines, shown in the options, should be drawn so that
+    the square given in the question image is divided into 8 EQUAL parts? Note: You cannot
+    rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - square-to-divide
+  options:
+    - id: option-a
+      assetRef: line-option-a
+      accessibleLabel: A horizontal line with a slanted line rising from its middle
+    - id: option-b
+      assetRef: line-option-b
+      accessibleLabel: A vertical line with a slanted line and a short horizontal line leaving its middle
+    - id: option-c
+      assetRef: line-option-c
+      accessibleLabel: A vertical line crossing a horizontal line
+    - id: option-d
+      assetRef: line-option-d
+      accessibleLabel: A vertical line crossing a horizontal line with a slanted line closing off a triangle at the top right
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The square already carries one diagonal, which splits it into two equal triangles. To
+    reach 8 equal parts each triangle has to become four, and only the set of lines in
+    option d does that, cutting the square into eight matching pieces.
+  assetRefs: []
+assets:
+  - ref: square-to-divide
+    file: ../assets/square-to-divide.png
+    role: stem
+    visibility: public
+    alt: A square labelled SQUARE with one diagonal drawn from the top left corner
+    position: 0
+  - ref: line-option-a
+    file: ../assets/line-option-a.png
+    role: option
+    visibility: public
+    alt: Set of lines, option a
+    position: 1
+  - ref: line-option-b
+    file: ../assets/line-option-b.png
+    role: option
+    visibility: public
+    alt: Set of lines, option b
+    position: 2
+  - ref: line-option-c
+    file: ../assets/line-option-c.png
+    role: option
+    visibility: public
+    alt: Set of lines, option c
+    position: 3
+  - ref: line-option-d
+    file: ../assets/line-option-d.png
+    role: option
+    visibility: public
+    alt: Set of lines, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 27
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 7 question 2 answer and solution"

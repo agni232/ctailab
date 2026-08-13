@@ -1,0 +1,59 @@
+id: c5-weight-capacity-thinking-spot-shop-on-the-dairy-side
+slug: thinking-spot-shop-on-the-dairy-side
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-logical-puzzles
+    - c5-ch8-reasoning-with-clues
+  primaryTopic: c5-ch8-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A road has shops on both sides (left and right as shown in the image below) such that:
+    the Sweet shop is on the opposite side of the Electronics shop; the Toy shop is next to
+    the Electronics shop; on the opposite side of the Toy shop is the Furniture shop; the
+    Clothes shop is next to the Toy shop; the Dairy shop is next to the Furniture shop.
+    Which shop is on the same side of the road as the Dairy shop?
+  stimulus:
+    assetRefs:
+      - road-with-shops
+  options:
+    - id: option-a
+      text: "Toy Shop"
+    - id: option-b
+      text: "Clothes Shop"
+    - id: option-c
+      text: "Electronics Shop"
+    - id: option-d
+      text: "Sweets Shop"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Take the clues one at a time and place each shop on the map. Sweets and Electronics go
+    on opposite sides, Toy joins Electronics, Furniture sits opposite Toy, Clothes joins Toy,
+    and Dairy joins Furniture. That puts Dairy on the same side as the Sweets shop.
+  assetRefs: []
+assets:
+  - ref: road-with-shops
+    file: ../assets/road-with-shops.png
+    role: stem
+    visibility: public
+    alt: >-
+      A road drawn as a vertical strip with three empty shop plots on the left side and
+      three on the right side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 8 The Thinking Spot answer and solution"

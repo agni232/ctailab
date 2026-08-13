@@ -1,0 +1,47 @@
+id: c5-symmetrical-designs-sides-of-the-original-polygon
+slug: sides-of-the-original-polygon
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-shapes-and-figures
+    - c5-ch10-lines-of-symmetry
+  primaryTopic: c5-ch10-shapes-and-figures
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A symmetrical paper sheet is in the form of a polygon. It is cut into halves so that each
+    half forms a polygon of 5 sides. How many sides were possibly there in the original paper
+    sheet?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The cut adds one new side to each half, and the original sides get shared out between
+    them, sometimes with one side being split in two. Working through the possibilities, a
+    six-sided, a seven-sided, and an eight-sided figure can all be halved into two
+    five-sided pieces.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 10 question 6 answer and solution"

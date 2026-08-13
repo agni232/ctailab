@@ -1,0 +1,46 @@
+id: c5-dairy-farm-total-matches-in-the-tournament
+slug: total-matches-in-the-tournament
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-counting-strategies
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-counting-strategies
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    8 teams are divided into two pools of 4 teams. The teams within a pool play with every
+    other team in the pool twice. After these matches, the top team from each pool is
+    selected and they play a final to decide the winner. How many matches will be played in
+    total?
+  options:
+    - id: option-a
+      text: "24"
+    - id: option-b
+      text: "25"
+    - id: option-c
+      text: "28"
+    - id: option-d
+      text: "29"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Four teams make 6 different pairs, and each pair meets twice, so one pool has 12
+    matches. Two pools give 24, and the final adds one more, making 25 matches.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 24
+    section: "Chapter 6 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 6 question 3 answer and solution"

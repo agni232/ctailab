@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch15-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 15 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-data-pictures-flowers-for-a-and-d
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 56
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-extra-trees-team-b-has
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 56
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-days-with-at-least-three-items
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 56
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-block-sam-is-standing-on
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 57
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-more-candies-for-tables-b-and-c
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 57
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-towers-with-the-same-count-to-their-left
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 57
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-shape-fourth-from-the-top
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 57
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-more-rings-sam-must-place
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 58
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-friend-with-the-tallest-tower
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 58
+    sourceSection: "Chapter 15: Data Through Pictures"
+  - questionId: c5-data-pictures-venn-diagram-for-females-mothers-doctors
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 58
+    sourceSection: "Chapter 15: Data Through Pictures"

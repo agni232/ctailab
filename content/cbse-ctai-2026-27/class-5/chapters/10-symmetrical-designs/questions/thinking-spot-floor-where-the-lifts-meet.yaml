@@ -1,0 +1,59 @@
+id: c5-symmetrical-designs-thinking-spot-floor-where-the-lifts-meet
+slug: thinking-spot-floor-where-the-lifts-meet
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch10-logical-puzzles
+    - c5-ch10-shapes-and-figures
+  primaryTopic: c5-ch10-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Given below is a 10-storey building with 2 elevators, with their current positions
+    highlighted in black. If the buttons for both elevators are pressed simultaneously on
+    floor 1, and both elevators travel at the same speed to the topmost floor and return to
+    the 1st floor without stopping, on which floor will they meet?
+  stimulus:
+    assetRefs:
+      - building-elevators
+  options:
+    - id: option-a
+      text: "Floor 7"
+    - id: option-b
+      text: "Floor 8"
+    - id: option-c
+      text: "Floor 9"
+    - id: option-d
+      text: "Floor 10"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Both lifts first come down to floor 1, then set off upward together. Because they start
+    from different floors, one reaches the top and turns back while the other is still
+    climbing. Stepping them along floor by floor, the rising lift is at 7 while the
+    descending one is at 9, and on the next step both arrive at floor 8.
+  assetRefs: []
+assets:
+  - ref: building-elevators
+    file: ../assets/building-elevators.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two elevator shafts drawn as columns of 10 stacked cells, labelled Floor 10 at the top
+      and Floor 1 at the bottom, with one black cell marking each lift's position
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 42
+    section: "Chapter 10 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 10 The Thinking Spot answer and solution"

@@ -1,0 +1,46 @@
+id: c5-maps-locations-direction-the-traveller-went
+slug: direction-the-traveller-went
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-directions
+    - c5-ch14-turns
+  primaryTopic: c5-ch14-directions
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Due to an accident, a direction pole at a road crossing turns in such a manner that now
+    the east pointer is showing south-west. A traveller went in the wrong direction thinking
+    that he was travelling south. In what direction did he actually end up going?
+  options:
+    - id: option-a
+      text: "South-West"
+    - id: option-b
+      text: "North-West"
+    - id: option-c
+      text: "North-East"
+    - id: option-d
+      text: "South-East"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    On an eight-point compass each step is 45 degrees, and moving the east pointer round to
+    south-west is 135 degrees clockwise. Every label on the pole has shifted by that much, so
+    the arm labelled south is really pointing north-west.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 52
+    section: "Chapter 14 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 14 question 3 answer and solution"

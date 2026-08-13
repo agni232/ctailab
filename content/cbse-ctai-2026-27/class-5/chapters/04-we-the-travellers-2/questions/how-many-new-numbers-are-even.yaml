@@ -1,0 +1,46 @@
+id: c5-travellers-2-how-many-new-numbers-are-even
+slug: how-many-new-numbers-are-even
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch4-place-value
+    - c5-ch4-odd-and-even
+  primaryTopic: c5-ch4-odd-and-even
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If you add 1 to the digit in the ones place and subtract 2 from the digit in the tens
+    place in the numbers given below, how many of the new numbers will be even?
+    4434, 2655, 3561, 1636, 1253, 8094, 1371, 3038, 2335, 1045
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Whether a number is even depends only on its ones digit, and the tens change does not
+    touch that. Adding 1 turns an odd ones digit into an even one, so count the numbers
+    that already end in an odd digit: 2655, 3561, 1253, 1371, 2335, and 1045. That is 6.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 4 question 5 answer and solution"

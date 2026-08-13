@@ -1,0 +1,46 @@
+id: c5-far-and-near-squares-from-the-stick-pieces
+slug: squares-from-the-stick-pieces
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch5-measuring-with-units
+    - c5-ch5-length-and-distance
+  primaryTopic: c5-ch5-measuring-with-units
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Soham collected 10 sticks, each measuring 6 cm. He breaks each stick into two equal
+    halves. Using all the stick pieces, what is the maximum number of squares of side 3 cm
+    he can form if each piece can be used only once and no piece can be shared by two
+    squares?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Breaking 10 sticks in half gives 20 pieces of 3 cm each. A square of side 3 cm needs 4
+    pieces, so 20 divided by 4 is 5 squares.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 21
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 5 question 3 answer and solution"

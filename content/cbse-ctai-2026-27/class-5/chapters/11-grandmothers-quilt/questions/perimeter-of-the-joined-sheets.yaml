@@ -1,0 +1,46 @@
+id: c5-quilt-perimeter-of-the-joined-sheets
+slug: perimeter-of-the-joined-sheets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch11-perimeter
+    - c5-ch11-cutting-and-joining
+  primaryTopic: c5-ch11-cutting-and-joining
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Two identical polygonal shaped paper sheets A and B are taken and joined (not
+    overlapping) along an equal side. What would be the perimeter of the resultant paper
+    sheet?
+  options:
+    - id: option-a
+      text: "More than twice the perimeter of sheet B"
+    - id: option-b
+      text: "Lesser than twice the perimeter of sheet B"
+    - id: option-c
+      text: "Twice the perimeter of sheet B"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Joining the sheets hides the shared side on both of them, so the joined shape loses that
+    length twice from the total. Its perimeter is therefore less than twice the perimeter of
+    one sheet.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 44
+    section: "Chapter 11 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 11 question 10 answer and solution"

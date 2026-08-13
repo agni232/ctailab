@@ -1,0 +1,56 @@
+id: c5-shapes-patterns-opposite-faces-of-the-folded-cube
+slug: opposite-faces-of-the-folded-cube
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-cubes-and-nets
+    - c5-ch7-symmetry-and-folding
+  primaryTopic: c5-ch7-cubes-and-nets
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Given below is the net of an unfolded cube. Which of the following pairs of numbers
+    would be on the opposite faces of the cube when the net is folded?
+  stimulus:
+    assetRefs:
+      - cube-net
+  options:
+    - id: option-a
+      text: "6 and 4"
+    - id: option-b
+      text: "1 and 3"
+    - id: option-c
+      text: "5 and 6"
+    - id: option-d
+      text: "1 and 5"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Hold 1 as the top face. Then 2 and 4 fold down to the left and right, so they end up
+    opposite each other, and 3 and 6 fold to the back and front. The only face left for 5 is
+    the bottom, which is opposite 1.
+  assetRefs: []
+assets:
+  - ref: cube-net
+    file: ../assets/cube-net.png
+    role: stem
+    visibility: public
+    alt: >-
+      A cross-shaped net of a cube with 2, 1, 4, and 5 in a row, 3 above the 4, and 6 below
+      the 1
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 28
+    section: "Chapter 7 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 7 question 8 answer and solution"

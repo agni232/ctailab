@@ -1,0 +1,56 @@
+id: c5-weight-capacity-maximum-passengers-the-train-can-carry
+slug: maximum-passengers-the-train-can-carry
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch8-capacity
+    - c5-ch8-reasoning-with-clues
+  primaryTopic: c5-ch8-capacity
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The numbers below the bogies show the number of passengers each bogie can carry. A train
+    is formed using three bogies, each of a different colour, and one of them must be green.
+    What is the MAXIMUM total number of passengers the train can carry?
+  stimulus:
+    assetRefs:
+      - train-bogies
+  options:
+    - id: option-a
+      text: "21"
+    - id: option-b
+      text: "17"
+    - id: option-c
+      text: "23"
+    - id: option-d
+      text: "18"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The green bogie has to be in the train, and it carries 5. To fill the other two places,
+    take the largest capacities left, which are the yellow bogie with 9 and the orange one
+    with 7. That totals 5 + 9 + 7 = 21.
+  assetRefs: []
+assets:
+  - ref: train-bogies
+    file: ../assets/train-bogies.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four train bogies in yellow, blue, green, and orange, labelled 9, 6, 5, and 7
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 8 question 10 answer and solution"

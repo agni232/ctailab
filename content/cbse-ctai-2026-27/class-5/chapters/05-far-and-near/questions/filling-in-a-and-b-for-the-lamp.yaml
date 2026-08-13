@@ -1,0 +1,56 @@
+id: c5-far-and-near-filling-in-a-and-b-for-the-lamp
+slug: filling-in-a-and-b-for-the-lamp
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch5-comparing-heights
+    - c5-ch5-measuring-with-units
+  primaryTopic: c5-ch5-comparing-heights
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Statement: The lamp is A unit(s) taller than the cup but 2 units shorter than the B.
+    What will come in place of A and B, in the given statement?
+  stimulus:
+    assetRefs:
+      - object-heights
+  options:
+    - id: option-a
+      text: "A - 2, B - lunch box"
+    - id: option-b
+      text: "A - 1, B - bottle"
+    - id: option-c
+      text: "A - 1, B - lunch box"
+    - id: option-d
+      text: "A - 2, B - bottle"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Read the heights off the scale on the left: the lamp is 4 units, the cup 3 units, the
+    bottle 6 units, and the lunch box 8 units. So the lamp is 1 unit taller than the cup and
+    2 units shorter than the bottle.
+  assetRefs: []
+assets:
+  - ref: object-heights
+    file: ../assets/object-heights.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A lamp, a cup, a bottle, and a stacked lunch box standing in a row beside a vertical
+      scale marked in equal units
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 22
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 5 question 9 answer and solution"

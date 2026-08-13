@@ -1,0 +1,47 @@
+id: c5-far-and-near-who-is-farther-from-the-football
+slug: who-is-farther-from-the-football
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch5-movement-and-position
+    - c5-ch5-reasoning-with-clues
+  primaryTopic: c5-ch5-movement-and-position
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A and B are two friends. They are standing at two opposite ends of a football field
+    which is 60 metres long. They both start running towards each other. A runs with a speed
+    which is double the speed of B. There is a football at the centre of the field. When
+    they meet each other, who is farther from the football?
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "Need to know the speed of A or B to know the distance"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Because A runs twice as fast, A covers 40 m and B covers 20 m before they meet. But they
+    meet at one and the same spot, so at that moment both are the same distance from the
+    football. Neither is farther, which is option d.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 21
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 5 question 5 answer and solution"

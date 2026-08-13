@@ -1,0 +1,45 @@
+id: c5-racing-seconds-time-a-train-is-scheduled
+slug: time-a-train-is-scheduled
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch12-reasoning-with-clues
+    - c5-ch12-clock-times
+  primaryTopic: c5-ch12-reasoning-with-clues
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A and B are boarding different trains. B arrives at the station 10 minutes before A. B's
+    train is scheduled to depart at 6:30 PM and he arrives 5 minutes before the scheduled
+    departure. At what time is A's train scheduled if he reaches exactly on time?
+  options:
+    - id: option-a
+      text: "6:20 PM"
+    - id: option-b
+      text: "6:25 PM"
+    - id: option-c
+      text: "6:30 PM"
+    - id: option-d
+      text: "6:35 PM"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    B gets to the station 5 minutes before 6:30 PM, so at 6:25 PM. A arrives 10 minutes after
+    B, at 6:35 PM, and since A is exactly on time, A's train is scheduled for 6:35 PM.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 47
+    section: "Chapter 12 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 12 question 10 answer and solution"

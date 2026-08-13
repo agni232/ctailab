@@ -1,0 +1,46 @@
+id: c5-racing-seconds-time-d-reaches-the-party
+slug: time-d-reaches-the-party
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch12-reasoning-with-clues
+    - c5-ch12-elapsed-time
+  primaryTopic: c5-ch12-reasoning-with-clues
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A, B, C, and D are going to a party. A leaves home at 6:10 PM and reaches the party after
+    70 minutes. B reaches the party 30 minutes before A. If D reaches the party 60 minutes
+    after C, at what exact time does D reach the party?
+  options:
+    - id: option-a
+      text: "19:00"
+    - id: option-b
+      text: "18:30"
+    - id: option-c
+      text: "19:30"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A arrives at 7:20 PM and B at 6:50 PM, but nothing ties C to the clock. All you know is
+    that D arrives an hour after C, and without C's actual time D's time cannot be worked
+    out.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 12 question 5 answer and solution"

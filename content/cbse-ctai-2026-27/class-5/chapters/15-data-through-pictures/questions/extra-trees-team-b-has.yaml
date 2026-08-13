@@ -1,0 +1,56 @@
+id: c5-data-pictures-extra-trees-team-b-has
+slug: extra-trees-team-b-has
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch15-pictographs
+    - c5-ch15-reading-data
+  primaryTopic: c5-ch15-pictographs
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The given image shows the number of trees with Teams A and B. One full tree picture
+    represents 10 trees, and a half tree represents 5 trees. How many more trees does Team B
+    have than Team A?
+  stimulus:
+    assetRefs:
+      - tree-pictograph
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Team A shows 5 full trees and 1 half tree, which is 50 + 5 = 55. Team B shows 6 full
+    trees and 2 half trees, which is 60 + 10 = 70. The difference is 70 - 55 = 15.
+  assetRefs: []
+assets:
+  - ref: tree-pictograph
+    file: ../assets/tree-pictograph.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A pictograph with a row of tree pictures for Team A and a longer row for Team B, with a
+      key showing a full tree equals 10 and a half tree equals 5
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 56
+    section: "Chapter 15 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 109
+    section: "Chapter 15 question 2 answer and solution"

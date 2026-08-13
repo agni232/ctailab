@@ -1,0 +1,50 @@
+id: c5-coconut-farm-statements-needed-for-teams-of-eight
+slug: statements-needed-for-teams-of-eight
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch9-sufficient-information
+    - c5-ch9-division-and-remainders
+  primaryTopic: c5-ch9-sufficient-information
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below is a question followed by two statements. Identify which of the following
+    statement(s) is/are necessary to answer the question. Question: Four students are added
+    to a dance class. Will the teacher be able to divide her students evenly into a dance
+    team (or teams) of 8? Statement A: If 12 students were added, the teacher could put
+    everyone in teams of 8 without any leftovers. Statement B: The number of students in the
+    class is currently not divisible by 8.
+  options:
+    - id: option-a
+      text: "Statement A alone is sufficient"
+    - id: option-b
+      text: "Statement B alone is sufficient"
+    - id: option-c
+      text: "Both statements are required"
+    - id: option-d
+      text: "None of the above"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Adding 12 is the same as adding 4 and then adding one full team of 8, and a full team
+    never upsets the grouping. So if the class divides evenly after 12 are added, it also
+    divides evenly after only 4. Statement B just says the class does not divide evenly
+    right now, which settles nothing.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 9 question 1 answer and solution"

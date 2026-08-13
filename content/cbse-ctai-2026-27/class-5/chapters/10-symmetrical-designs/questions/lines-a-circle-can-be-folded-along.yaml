@@ -1,0 +1,43 @@
+id: c5-symmetrical-designs-lines-a-circle-can-be-folded-along
+slug: lines-a-circle-can-be-folded-along
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch10-lines-of-symmetry
+    - c5-ch10-shapes-and-figures
+  primaryTopic: c5-ch10-lines-of-symmetry
+  estimatedMinutes: 3
+content:
+  prompt: Along how many different lines can a circular sheet be folded into half?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "100"
+    - id: option-d
+      text: "More than 100"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A fold only splits a circle into equal halves if it passes through the centre, and every
+    such line is a diameter. A circle has endlessly many diameters, which is certainly more
+    than 100.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 10 question 5 answer and solution"

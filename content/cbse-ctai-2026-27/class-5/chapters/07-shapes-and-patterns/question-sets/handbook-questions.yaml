@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch7-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 7 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-shapes-patterns-triangular-tiles-removed-from-the-wall
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 27
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-lines-that-divide-the-square-into-eight
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 27
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-lines-sam-used-for-six-equal-parts
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 27
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-folding-a-regular-pentagon-in-half
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 27
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-cubes-needed-to-complete-the-arrangement
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 28
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-ways-to-place-set-a-on-the-grid
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 28
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-matchsticks-needed-for-six-equal-parts
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 28
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-opposite-faces-of-the-folded-cube
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 28
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-pieces-that-cannot-fill-the-grey-space
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 29
+    sourceSection: "Chapter 7: Shapes and Patterns"
+  - questionId: c5-shapes-patterns-small-cubes-with-a-painted-face
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 29
+    sourceSection: "Chapter 7: Shapes and Patterns"

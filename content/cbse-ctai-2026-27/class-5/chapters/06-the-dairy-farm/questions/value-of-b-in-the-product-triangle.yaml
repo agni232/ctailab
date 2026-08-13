@@ -1,0 +1,56 @@
+id: c5-dairy-farm-value-of-b-in-the-product-triangle
+slug: value-of-b-in-the-product-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-factors-and-products
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-factors-and-products
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If the number in each square is the product of the two numbers in the circles connected
+    to it, what is the value of B?
+  stimulus:
+    assetRefs:
+      - circle-product-triangle
+  options:
+    - id: option-a
+      text: "9"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The three squares tell you A x B = 24, A x C = 36, and B x C = 54, so B must divide both
+    24 and 54. Trying the common factors, B = 6 gives A = 4 and C = 9, and those also
+    satisfy A x C = 36. So B is 6.
+  assetRefs: []
+assets:
+  - ref: circle-product-triangle
+    file: ../assets/circle-product-triangle.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three circles labelled A, B, and C at the corners of a triangle, with squares holding
+      24, 36, and 54 on the sides joining them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 25
+    section: "Chapter 6 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 6 question 7 answer and solution"

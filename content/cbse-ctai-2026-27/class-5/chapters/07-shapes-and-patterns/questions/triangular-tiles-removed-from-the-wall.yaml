@@ -1,0 +1,56 @@
+id: c5-shapes-patterns-triangular-tiles-removed-from-the-wall
+slug: triangular-tiles-removed-from-the-wall
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch7-shapes-and-figures
+    - c5-ch7-counting-strategies
+  primaryTopic: c5-ch7-counting-strategies
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In a wall there are some triangular tiles with equal sides, of which some have been
+    removed, leaving a black coloured wall. How many such triangular tiles have been
+    removed?
+  stimulus:
+    assetRefs:
+      - triangle-tile-wall
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The black region is where the tiles are gone. Trace the grid lines across it and count
+    how many whole triangles that shape covers, and you get 5.
+  assetRefs: []
+assets:
+  - ref: triangle-tile-wall
+    file: ../assets/triangle-tile-wall.png
+    role: stem
+    visibility: public
+    alt: >-
+      A square wall of triangular tiles laid in a grid, with a black patch near the bottom
+      right where some tiles are missing
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 27
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 7 question 1 answer and solution"

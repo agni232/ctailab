@@ -1,0 +1,59 @@
+id: c5-dairy-farm-maximum-marks-raj-could-score
+slug: maximum-marks-raj-could-score
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-counting-strategies
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-counting-strategies
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Raj took an entrance exam where he attempted 38 questions out of 40, out of which he got
+    3 questions wrong. If the marking scheme per question is shown below, what is the
+    maximum marks Raj could score?
+  stimulus:
+    assetRefs:
+      - marking-scheme
+  options:
+    - id: option-a
+      text: "76"
+    - id: option-b
+      text: "79"
+    - id: option-c
+      text: "81"
+    - id: option-d
+      text: "83"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Section B punishes an unattempted question, so put both skipped questions in Section A.
+    All 15 of Section B are then answered correctly for 15 x 3 = 45. That leaves 23 of the
+    attempted questions in Section A, of which 3 are wrong: 20 x 2 - 3 x 2 = 34. Together
+    that is 45 + 34 = 79.
+  assetRefs: []
+assets:
+  - ref: marking-scheme
+    file: ../assets/marking-scheme.png
+    role: stem
+    visibility: public
+    alt: >-
+      A marking scheme table: Section A has 25 questions scoring plus 2 for correct, minus 2
+      for wrong, and 0 for unattempted; Section B has 15 questions scoring plus 3 for
+      correct, minus 2 for wrong, and minus 1 for unattempted
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 24
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 6 question 4 answer and solution"

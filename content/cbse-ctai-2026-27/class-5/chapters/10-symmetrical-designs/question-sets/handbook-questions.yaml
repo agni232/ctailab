@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch10-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 10 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-symmetrical-designs-letter-not-present-when-unfolded
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 39
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-half-that-appears-only-once
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 39
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-folds-needed-to-make-a-square
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 39
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-piece-after-unfolding-the-cut-sheet
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 39
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-lines-a-circle-can-be-folded-along
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 40
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-sides-of-the-original-polygon
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 40
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-image-s-after-two-reflections
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 40
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-letters-with-the-same-mirror-image
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 40
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-how-the-folded-sheet-looks
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 41
+    sourceSection: "Chapter 10: Symmetrical Designs"
+  - questionId: c5-symmetrical-designs-paper-after-the-hole-is-unfolded
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 41
+    sourceSection: "Chapter 10: Symmetrical Designs"

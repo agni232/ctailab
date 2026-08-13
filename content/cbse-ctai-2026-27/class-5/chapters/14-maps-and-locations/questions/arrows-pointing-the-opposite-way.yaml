@@ -1,0 +1,57 @@
+id: c5-maps-locations-arrows-pointing-the-opposite-way
+slug: arrows-pointing-the-opposite-way
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-grids-and-paths
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-grids-and-paths
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    How many arrows in the image below are pointing in the OPPOSITE DIRECTION compared to the
+    direction written in the boxes they are adjacent to? Note: For two boxes to be adjacent
+    they MUST share one common side. Boxes having only a common corner are not adjacent.
+  stimulus:
+    assetRefs:
+      - arrow-boxes
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Take each arrow and look only at the boxes sharing a side with it, ignoring the ones that
+    touch at a corner. Count the arrow when a neighbouring box says LEFT and the arrow points
+    right, or the box says RIGHT and the arrow points left. That happens 3 times.
+  assetRefs: []
+assets:
+  - ref: arrow-boxes
+    file: ../assets/arrow-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      A three by three grid whose cells hold either the word LEFT or RIGHT or an arrow
+      pointing left or right, with one grey cell in the middle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 54
+    section: "Chapter 14 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 106
+    section: "Chapter 14 question 10 answer and solution"

@@ -1,0 +1,83 @@
+id: c5-weight-capacity-third-heaviest-object
+slug: third-heaviest-object
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-balancing-and-comparing
+    - c5-ch8-reasoning-with-clues
+  primaryTopic: c5-ch8-balancing-and-comparing
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Which object would be the 3rd heaviest if you arrange the following objects in
+    decreasing order of their weights?
+  stimulus:
+    assetRefs:
+      - three-balance-scales
+  options:
+    - id: option-a
+      assetRef: object-option-a
+      accessibleLabel: The weight marked with a heart
+    - id: option-b
+      assetRef: object-option-b
+      accessibleLabel: The weight marked with a diamond
+    - id: option-c
+      assetRef: object-option-c
+      accessibleLabel: The weight marked with a star
+    - id: option-d
+      assetRef: object-option-d
+      accessibleLabel: The weight marked with a triangle
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Read each balance in turn to see which pan sinks, then chain the results into one
+    order from heaviest to lightest. The diamond weight comes third in that order.
+  assetRefs: []
+assets:
+  - ref: three-balance-scales
+    file: ../assets/three-balance-scales.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three balance scales, each weighing two marked weights against each other, with the
+      marks being a heart, a diamond, a star, and a triangle
+    position: 0
+  - ref: object-option-a
+    file: ../assets/object-option-a.png
+    role: option
+    visibility: public
+    alt: Weight marked with a heart, option a
+    position: 1
+  - ref: object-option-b
+    file: ../assets/object-option-b.png
+    role: option
+    visibility: public
+    alt: Weight marked with a diamond, option b
+    position: 2
+  - ref: object-option-c
+    file: ../assets/object-option-c.png
+    role: option
+    visibility: public
+    alt: Weight marked with a star, option c
+    position: 3
+  - ref: object-option-d
+    file: ../assets/object-option-d.png
+    role: option
+    visibility: public
+    alt: Weight marked with a triangle, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 8 question 1 answer and solution"

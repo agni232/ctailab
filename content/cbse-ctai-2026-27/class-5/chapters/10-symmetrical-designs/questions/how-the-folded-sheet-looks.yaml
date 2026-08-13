@@ -1,0 +1,86 @@
+id: c5-symmetrical-designs-how-the-folded-sheet-looks
+slug: how-the-folded-sheet-looks
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch10-folding-and-cutting
+    - c5-ch10-reflections
+  primaryTopic: c5-ch10-folding-and-cutting
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A transparent sheet of paper of the given shape is folded along the dotted line in the
+    direction as shown by the arrow. What will the folded sheet look like? Note: You cannot
+    rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - transparent-sheet-fold
+  options:
+    - id: option-a
+      assetRef: folded-option-a
+      accessibleLabel: Two triangles, both pointing right
+    - id: option-b
+      assetRef: folded-option-b
+      accessibleLabel: Two triangles, both pointing left
+    - id: option-c
+      assetRef: folded-option-c
+      accessibleLabel: An upper triangle pointing left and a lower triangle pointing right
+    - id: option-d
+      assetRef: folded-option-d
+      accessibleLabel: An upper triangle pointing right and a lower triangle pointing left
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Only the half that is folded over changes. The lower triangle stays exactly as it was,
+    pointing right, while the upper triangle swings across the fold and ends up pointing
+    left. That is option c.
+  assetRefs: []
+assets:
+  - ref: transparent-sheet-fold
+    file: ../assets/transparent-sheet-fold.png
+    role: stem
+    visibility: public
+    alt: >-
+      A square transparent sheet with a dashed vertical fold line, a triangle pointing right
+      in the top half, a triangle pointing right in the bottom half, and a curved arrow
+      showing the fold direction
+    position: 0
+  - ref: folded-option-a
+    file: ../assets/folded-option-a.png
+    role: option
+    visibility: public
+    alt: Folded sheet, option a
+    position: 1
+  - ref: folded-option-b
+    file: ../assets/folded-option-b.png
+    role: option
+    visibility: public
+    alt: Folded sheet, option b
+    position: 2
+  - ref: folded-option-c
+    file: ../assets/folded-option-c.png
+    role: option
+    visibility: public
+    alt: Folded sheet, option c
+    position: 3
+  - ref: folded-option-d
+    file: ../assets/folded-option-d.png
+    role: option
+    visibility: public
+    alt: Folded sheet, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 41
+    section: "Chapter 10 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 10 question 9 answer and solution"

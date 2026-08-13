@@ -1,0 +1,45 @@
+id: c5-animal-jumps-what-the-two-digit-number-divides-by
+slug: what-the-two-digit-number-divides-by
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch13-divisibility
+    - c5-ch13-multiples-and-factors
+  primaryTopic: c5-ch13-divisibility
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    I am a two-digit number. The digit in the ones place is twice the digit in the tens place.
+    Which of the following numbers would I always be divisible by?
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "Both options a and b"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Call the tens digit x, so the ones digit is 2x and the number is 10x + 2x = 12x. Every
+    such number is a multiple of 12, and 12 is divisible by both 4 and 6. It is not always
+    divisible by 7, since 12 and 24 are not.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 49
+    section: "Chapter 13 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 13 question 1 answer and solution"

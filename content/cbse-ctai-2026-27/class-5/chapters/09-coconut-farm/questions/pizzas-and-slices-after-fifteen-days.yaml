@@ -1,0 +1,45 @@
+id: c5-coconut-farm-pizzas-and-slices-after-fifteen-days
+slug: pizzas-and-slices-after-fifteen-days
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch9-division-and-remainders
+    - c5-ch9-factors-and-multiples
+  primaryTopic: c5-ch9-division-and-remainders
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    An employee at a pizza shop works for 15 days, receiving 2 slices of pizza each day he
+    works. Each pizza contains 8 slices. By the end of 15 days, how many whole pizzas and
+    individual slices has he received?
+  options:
+    - id: option-a
+      text: "4 pizzas and 2 slices"
+    - id: option-b
+      text: "2 pizzas and 6 slices"
+    - id: option-c
+      text: "3 pizzas and 6 slices"
+    - id: option-d
+      text: "3 pizzas and 4 slices"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    He collects 15 x 2 = 30 slices. Dividing 30 by 8 gives 3 whole pizzas, which uses 24
+    slices, and leaves 6 slices over.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 8 answer and solution"

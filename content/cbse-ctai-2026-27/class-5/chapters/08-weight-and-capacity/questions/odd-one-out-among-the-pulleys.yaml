@@ -1,0 +1,71 @@
+id: c5-weight-capacity-odd-one-out-among-the-pulleys
+slug: odd-one-out-among-the-pulleys
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch8-balancing-and-comparing
+    - c5-ch8-weight
+  primaryTopic: c5-ch8-balancing-and-comparing
+  estimatedMinutes: 5
+content:
+  prompt: "Find the odd one out."
+  options:
+    - id: option-a
+      assetRef: pulley-option-a
+      accessibleLabel: A pulley with a 30 kg block hanging low on the left and a 20 kg block higher on the right
+    - id: option-b
+      assetRef: pulley-option-b
+      accessibleLabel: A pulley with a 20 kg block hanging low on the left and a 15 kg block higher on the right
+    - id: option-c
+      assetRef: pulley-option-c
+      accessibleLabel: A pulley with a 25 kg block hanging higher on the left and a 30 kg block lower on the right
+    - id: option-d
+      assetRef: pulley-option-d
+      accessibleLabel: A pulley with a 40 kg block hanging low on the left and a 30 kg block higher on the right
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In three of the pictures the lighter block is the one hanging higher up, which is what
+    you would expect. Option c breaks the pattern, because there the lighter 25 kg block is
+    the one hanging lower.
+  assetRefs: []
+assets:
+  - ref: pulley-option-a
+    file: ../assets/pulley-option-a.png
+    role: option
+    visibility: public
+    alt: Pulley with 30 kg and 20 kg blocks, option a
+    position: 1
+  - ref: pulley-option-b
+    file: ../assets/pulley-option-b.png
+    role: option
+    visibility: public
+    alt: Pulley with 20 kg and 15 kg blocks, option b
+    position: 2
+  - ref: pulley-option-c
+    file: ../assets/pulley-option-c.png
+    role: option
+    visibility: public
+    alt: Pulley with 25 kg and 30 kg blocks, option c
+    position: 3
+  - ref: pulley-option-d
+    file: ../assets/pulley-option-d.png
+    role: option
+    visibility: public
+    alt: Pulley with 40 kg and 30 kg blocks, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 8 question 8 answer and solution"

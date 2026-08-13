@@ -1,0 +1,45 @@
+id: c5-coconut-farm-operator-that-cannot-replace-the-symbol
+slug: operator-that-cannot-replace-the-symbol
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch9-operators
+    - c5-ch9-division-and-remainders
+  primaryTopic: c5-ch9-operators
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which of the following operators CANNOT replace "@" to satisfy the condition given
+    below? 10 @ 1 < 11
+  options:
+    - id: option-a
+      text: "÷"
+    - id: option-b
+      text: "-"
+    - id: option-c
+      text: "×"
+    - id: option-d
+      text: "+"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Try each operator in the gap. Division gives 10 ÷ 1 = 10, subtraction gives 9, and
+    multiplication gives 10, all of which are under 11. Addition gives exactly 11, which is
+    not less than 11, so + is the one that fails.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 9 question 5 answer and solution"

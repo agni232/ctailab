@@ -1,0 +1,54 @@
+id: c5-quilt-perimeter-when-piece-a-is-placed
+slug: perimeter-when-piece-a-is-placed
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch11-perimeter
+    - c5-ch11-cutting-and-joining
+  primaryTopic: c5-ch11-perimeter
+  estimatedMinutes: 6
+content:
+  prompt: What will happen to the overall perimeter of the puzzle if piece A is placed at position 1?
+  stimulus:
+    assetRefs:
+      - hexagon-puzzle
+  options:
+    - id: option-a
+      text: "It will increase"
+    - id: option-b
+      text: "It will decrease"
+    - id: option-c
+      text: "It will remain unchanged"
+    - id: option-d
+      text: "Cannot say"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Slotting piece A into position 1 tucks it into a notch, so four edges that used to be on
+    the outside are hidden away and only two new edges appear. Losing more than you gain
+    makes the perimeter smaller.
+  assetRefs: []
+assets:
+  - ref: hexagon-puzzle
+    file: ../assets/hexagon-puzzle.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A puzzle built from blue hexagons with a notch marked 1 on its lower edge, and a single
+      loose hexagon labelled A to one side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 44
+    section: "Chapter 11 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 11 question 6 answer and solution"

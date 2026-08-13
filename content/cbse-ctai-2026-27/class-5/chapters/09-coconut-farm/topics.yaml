@@ -1,0 +1,42 @@
+topics:
+  - id: c5-ch9-division-and-remainders
+    slug: division-and-remainders
+    title: Division and Remainders
+    position: 1
+    status: published
+  - id: c5-ch9-factors-and-multiples
+    slug: factors-and-multiples
+    title: Factors and Multiples
+    position: 2
+    parentId: c5-ch9-division-and-remainders
+    status: published
+  - id: c5-ch9-rows-and-columns
+    slug: rows-and-columns
+    title: Rows and Columns
+    position: 3
+    status: published
+  - id: c5-ch9-operators
+    slug: operators
+    title: Operators
+    position: 4
+    status: published
+  - id: c5-ch9-ordering-values
+    slug: ordering-values
+    title: Ordering Values
+    position: 5
+    status: published
+  - id: c5-ch9-number-series
+    slug: number-series
+    title: Number Series
+    position: 6
+    status: published
+  - id: c5-ch9-sufficient-information
+    slug: sufficient-information
+    title: Sufficient Information
+    position: 7
+    status: published
+  - id: c5-ch9-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

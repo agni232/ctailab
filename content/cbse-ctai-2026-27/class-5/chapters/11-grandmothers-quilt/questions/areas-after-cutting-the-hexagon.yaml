@@ -1,0 +1,45 @@
+id: c5-quilt-areas-after-cutting-the-hexagon
+slug: areas-after-cutting-the-hexagon
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch11-cutting-and-joining
+    - c5-ch11-area
+  primaryTopic: c5-ch11-cutting-and-joining
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A piece of regular hexagonal paper is cut along a line joining two opposite corners. What
+    would be the areas of the two pieces?
+  options:
+    - id: option-a
+      text: "Areas would be unequal"
+    - id: option-b
+      text: "Areas would be equal to each other"
+    - id: option-c
+      text: "Area would be one fourth of original sheet"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A line joining two opposite corners of a regular hexagon runs through its centre, and the
+    two pieces it makes are mirror images of each other. Mirror images cover the same amount
+    of paper, so the areas are equal.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 11 question 1 answer and solution"

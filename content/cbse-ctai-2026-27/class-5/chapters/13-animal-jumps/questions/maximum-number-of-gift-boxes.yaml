@@ -1,0 +1,45 @@
+id: c5-animal-jumps-maximum-number-of-gift-boxes
+slug: maximum-number-of-gift-boxes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-common-factors
+    - c5-ch13-sharing-equally
+  primaryTopic: c5-ch13-common-factors
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Tom wants to make gift boxes combining chocolates and toys. He has 36 chocolates and 48
+    toys. If he wants to make all the boxes identical and have nothing left over, what is the
+    maximum number of gift boxes he can make?
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "24"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "13"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The number of boxes has to divide both 36 and 48 exactly, and the largest number that
+    does is 12. Each box then holds 36 / 12 = 3 chocolates and 48 / 12 = 4 toys.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 49
+    section: "Chapter 13 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 13 question 2 answer and solution"

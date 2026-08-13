@@ -1,0 +1,45 @@
+id: c5-racing-seconds-how-long-lunch-took
+slug: how-long-lunch-took
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch12-elapsed-time
+    - c5-ch12-clock-times
+  primaryTopic: c5-ch12-elapsed-time
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Tom started playing cricket with his friends at 10:15 AM. They played for 1 hour and 15
+    minutes before stopping for lunch, which they completed by 12:30 PM. How long did their
+    lunch take?
+  options:
+    - id: option-a
+      text: "45 minutes"
+    - id: option-b
+      text: "60 minutes"
+    - id: option-c
+      text: "90 minutes"
+    - id: option-d
+      text: "75 minutes"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Playing from 10:15 AM for 1 hour 15 minutes takes them to 11:30 AM. Lunch runs from then
+    until 12:30 PM, which is 1 hour, or 60 minutes.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 12 question 1 answer and solution"

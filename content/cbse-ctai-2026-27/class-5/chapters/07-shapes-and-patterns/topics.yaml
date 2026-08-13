@@ -1,0 +1,37 @@
+topics:
+  - id: c5-ch7-shapes-and-figures
+    slug: shapes-and-figures
+    title: Shapes and Figures
+    position: 1
+    status: published
+  - id: c5-ch7-equal-parts
+    slug: dividing-into-equal-parts
+    title: Dividing into Equal Parts
+    position: 2
+    parentId: c5-ch7-shapes-and-figures
+    status: published
+  - id: c5-ch7-symmetry-and-folding
+    slug: symmetry-and-folding
+    title: Symmetry and Folding
+    position: 3
+    status: published
+  - id: c5-ch7-cubes-and-nets
+    slug: cubes-and-nets
+    title: Cubes and Nets
+    position: 4
+    status: published
+  - id: c5-ch7-tiling-and-fitting
+    slug: tiling-and-fitting
+    title: Tiling and Fitting
+    position: 5
+    status: published
+  - id: c5-ch7-counting-strategies
+    slug: counting-strategies
+    title: Counting Strategies
+    position: 6
+    status: published
+  - id: c5-ch7-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

@@ -1,0 +1,46 @@
+id: c5-travellers-2-coins-with-a-after-the-exchange
+slug: coins-with-a-after-the-exchange
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch4-money-and-exchange
+    - c5-ch4-reasoning-with-clues
+  primaryTopic: c5-ch4-money-and-exchange
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A has 5 gold coins and B has 7 silver coins. B can exchange 2 silver coins for 1 gold
+    coin with A. If B exchanges as many coins as possible, what will be the total number of
+    coins (both gold and silver) with A at the end?
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    B can only trade in pairs, so out of 7 silver coins the most B can hand over is 6, and
+    that brings back 3 gold coins. A is left with 5 - 3 = 2 gold coins and gains 6 silver
+    coins, which is 8 coins in all.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 4 question 2 answer and solution"

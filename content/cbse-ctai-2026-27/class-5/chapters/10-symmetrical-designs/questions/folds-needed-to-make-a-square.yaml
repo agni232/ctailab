@@ -1,0 +1,51 @@
+id: c5-symmetrical-designs-folds-needed-to-make-a-square
+slug: folds-needed-to-make-a-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch10-folding-and-cutting
+    - c5-ch10-shapes-and-figures
+  primaryTopic: c5-ch10-folding-and-cutting
+  estimatedMinutes: 4
+content:
+  prompt: At least how many times should the given paper sheet be folded in half to make a square?
+  stimulus:
+    assetRefs:
+      - paper-sheet-dimensions
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Fold across the long side and the 60 m becomes 30 m, so the sheet is 30 m by 15 m. Fold
+    the same way again and it becomes 15 m by 15 m, which is a square. That takes 2 folds.
+  assetRefs: []
+assets:
+  - ref: paper-sheet-dimensions
+    file: ../assets/paper-sheet-dimensions.png
+    role: stem
+    visibility: public
+    alt: A rectangular sheet labelled 60 m along the top and 15 m down the side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 10 question 3 answer and solution"

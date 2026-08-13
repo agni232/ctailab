@@ -1,0 +1,84 @@
+id: c5-shapes-patterns-pieces-that-cannot-fill-the-grey-space
+slug: pieces-that-cannot-fill-the-grey-space
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-tiling-and-fitting
+    - c5-ch7-shapes-and-figures
+  primaryTopic: c5-ch7-tiling-and-fitting
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Which of the following set of pieces CANNOT be arranged in the grey space to complete
+    the rectangle? Note: You cannot rotate or overlap the given pieces.
+  stimulus:
+    assetRefs:
+      - rectangle-with-grey-space
+  options:
+    - id: option-a
+      assetRef: piece-option-a
+      accessibleLabel: An L-shaped piece next to a wide rectangle
+    - id: option-b
+      assetRef: piece-option-b
+      accessibleLabel: A cross-shaped piece next to a small square
+    - id: option-c
+      assetRef: piece-option-c
+      accessibleLabel: An L-shaped piece next to a tall narrow rectangle
+    - id: option-d
+      assetRef: piece-option-d
+      accessibleLabel: A small square next to a stepped zigzag piece
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    For each pair, try the bigger piece in the grey area first and see whether the gap left
+    behind matches the smaller piece exactly. Three of the pairs can be made to fit without
+    turning them. The pieces in option c cannot.
+  assetRefs: []
+assets:
+  - ref: rectangle-with-grey-space
+    file: ../assets/rectangle-with-grey-space.png
+    role: stem
+    visibility: public
+    alt: >-
+      A rectangle filled with interlocking white pieces, with an L-shaped grey gap on the
+      left side
+    position: 0
+  - ref: piece-option-a
+    file: ../assets/piece-option-a.png
+    role: option
+    visibility: public
+    alt: Pair of pieces, option a
+    position: 1
+  - ref: piece-option-b
+    file: ../assets/piece-option-b.png
+    role: option
+    visibility: public
+    alt: Pair of pieces, option b
+    position: 2
+  - ref: piece-option-c
+    file: ../assets/piece-option-c.png
+    role: option
+    visibility: public
+    alt: Pair of pieces, option c
+    position: 3
+  - ref: piece-option-d
+    file: ../assets/piece-option-d.png
+    role: option
+    visibility: public
+    alt: Pair of pieces, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 29
+    section: "Chapter 7 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 7 question 9 answer and solution"

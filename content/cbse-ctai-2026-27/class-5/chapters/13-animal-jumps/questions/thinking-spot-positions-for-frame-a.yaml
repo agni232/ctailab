@@ -1,0 +1,58 @@
+id: c5-animal-jumps-thinking-spot-positions-for-frame-a
+slug: thinking-spot-positions-for-frame-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch13-logical-puzzles
+    - c5-ch13-patterns-and-series
+  primaryTopic: c5-ch13-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    At how many DIFFERENT POSITIONS can we place FRAME A in GRID X such that none of the grey
+    blocks of the FRAME overlap any grey block of the GRID? The entire FRAME A should lie on
+    the GRID. Note: You cannot rotate the FRAME.
+  stimulus:
+    assetRefs:
+      - grid-and-frame
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Pick one cell of the frame to track, and work out the rectangle of grid cells it can sit
+    in while the rest of the frame still fits inside the grid. That already rules out most of
+    the grid. Then check those spots and drop the ones where a grey frame block lands on a
+    grey grid block. Eight positions are left.
+  assetRefs: []
+assets:
+  - ref: grid-and-frame
+    file: ../assets/grid-and-frame.png
+    role: stem
+    visibility: public
+    alt: >-
+      GRID X drawn as a five by five grid with some cells shaded grey, beside FRAME A, a
+      small stepped piece of four cells with two of them grey
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 51
+    section: "Chapter 13 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 13 The Thinking Spot answer and solution"

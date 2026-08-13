@@ -1,0 +1,55 @@
+id: c5-maps-locations-red-blocks-he-can-never-reach
+slug: red-blocks-he-can-never-reach
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-grids-and-paths
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-grids-and-paths
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If a person can only move upwards (towards the top) or to the right, how many red blocks
+    can he never reach if he starts from the green block?
+  stimulus:
+    assetRefs:
+      - red-block-grid
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Moving only up or right means he can never get to a block that is below the green one or
+    to its left. Marking those off leaves 5 red blocks out of his reach.
+  assetRefs: []
+assets:
+  - ref: red-block-grid
+    file: ../assets/red-block-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A cluster of red blocks with one green block among them, beside a cross of arrows
+      labelled Top, Bottom, Left, and Right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 53
+    section: "Chapter 14 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 103
+    section: "Chapter 14 question 6 answer and solution"

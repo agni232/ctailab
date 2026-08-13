@@ -1,0 +1,60 @@
+id: c5-racing-seconds-rabbits-in-the-same-column
+slug: rabbits-in-the-same-column
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch12-speed-and-races
+    - c5-ch12-logical-puzzles
+  primaryTopic: c5-ch12-speed-and-races
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Rabbit A runs on blue-coloured boxes. Similarly, rabbit B runs on red-coloured boxes and
+    rabbit C runs on green-coloured boxes. If each rabbit runs at the same speed and starts
+    at the same time to reach the carrots, which among the following rabbits can be seen in
+    the same column upon taking the 13th step? Note: A column is a vertical stack of blocks
+    in the given grid.
+  stimulus:
+    assetRefs:
+      - rabbit-grid
+  options:
+    - id: option-a
+      text: "Rabbits A and B"
+    - id: option-b
+      text: "Rabbits B and C"
+    - id: option-c
+      text: "Rabbits A and C"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count 13 boxes along each coloured path from where that rabbit starts. Since every rabbit
+    moves one box per step, they have all taken the same number of steps, but their paths
+    twist differently. On the 13th box, the blue path and the green path sit in the same
+    column, so it is rabbits A and C.
+  assetRefs: []
+assets:
+  - ref: rabbit-grid
+    file: ../assets/rabbit-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with rabbits A, B, and C on the left and three carrots on the right, joined by a
+      winding blue path, a winding red path, and a winding green path of coloured boxes
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 47
+    section: "Chapter 12 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 12 question 9 answer and solution"

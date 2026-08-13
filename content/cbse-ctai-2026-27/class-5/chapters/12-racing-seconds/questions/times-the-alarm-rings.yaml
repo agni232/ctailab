@@ -1,0 +1,44 @@
+id: c5-racing-seconds-times-the-alarm-rings
+slug: times-the-alarm-rings
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch12-repeating-schedules
+    - c5-ch12-clock-times
+  primaryTopic: c5-ch12-repeating-schedules
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If an alarm clock is set to ring every three hours, how many times will it ring between
+    8 AM and 4 PM, if it rings for the first time at 9 AM?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Starting at 9 AM and adding three hours each time gives 9 AM, 12 noon, and 3 PM. The next
+    would be 6 PM, which is past 4 PM, so the alarm rings 3 times.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 12 question 4 answer and solution"

@@ -1,0 +1,45 @@
+id: c5-shapes-patterns-folding-a-regular-pentagon-in-half
+slug: folding-a-regular-pentagon-in-half
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch7-symmetry-and-folding
+    - c5-ch7-shapes-and-figures
+  primaryTopic: c5-ch7-symmetry-and-folding
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A paper piece is in the form of a regular pentagon. At most how many times can it be
+    folded in half? Note: Once the paper is folded, it cannot be unfolded.
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A shape can only be folded in half along a line of symmetry. The regular pentagon has
+    such lines, so the first fold works. The shape you are left with has no line of symmetry
+    of its own, and the paper cannot be unfolded, so only 1 fold is possible.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 27
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 7 question 4 answer and solution"

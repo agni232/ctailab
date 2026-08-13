@@ -1,0 +1,46 @@
+id: c5-animal-jumps-information-needed-for-the-value-of-x
+slug: information-needed-for-the-value-of-x
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch13-sufficient-information
+    - c5-ch13-multiples-and-factors
+  primaryTopic: c5-ch13-sufficient-information
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    What is the value of X? Information 1: The sum of factors of X is 42. Information 2: X
+    has exactly two factors. To answer the given question, which of the given information
+    is/are sufficient?
+  options:
+    - id: option-a
+      text: "Only 1"
+    - id: option-b
+      text: "Only 2"
+    - id: option-c
+      text: "Both 1 and 2 are required"
+    - id: option-d
+      text: "Question cannot be answered even if both pieces of information are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Alone, neither pins X down: plenty of numbers have factors adding to 42, and plenty of
+    numbers have exactly two factors. Together they do. Two factors means X is prime, so its
+    factors are 1 and X, and 1 + X = 42 gives X = 41.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 50
+    section: "Chapter 13 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 99
+    section: "Chapter 13 question 10 answer and solution"

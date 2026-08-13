@@ -1,0 +1,47 @@
+id: c5-weight-capacity-weight-the-faulty-machine-shows
+slug: weight-the-faulty-machine-shows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch8-weight
+    - c5-ch8-reasoning-with-clues
+  primaryTopic: c5-ch8-weight
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Amit, Devashish, and Ajay are weighing themselves on a FAULTY weighing machine. This
+    machine always shows weight more than the actual weight by some constant amount in kg.
+    This machine shows Devashish's weight as 78 kg. Amit's weight is 6 kg less than
+    Devashish's weight, and the actual weight of Amit is 65 kg. What will be Ajay's weight
+    shown by this machine if Ajay's actual weight is 56 kg?
+  options:
+    - id: option-a
+      text: "65 kg"
+    - id: option-b
+      text: "63 kg"
+    - id: option-c
+      text: "60 kg"
+    - id: option-d
+      text: "49 kg"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The machine shows Amit as 78 - 6 = 72 kg while his real weight is 65 kg, so it always
+    adds 7 kg. Ajay really weighs 56 kg, so the machine will read 56 + 7 = 63 kg.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 8 question 2 answer and solution"

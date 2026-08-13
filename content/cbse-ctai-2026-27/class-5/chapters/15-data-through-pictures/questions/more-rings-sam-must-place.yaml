@@ -1,0 +1,56 @@
+id: c5-data-pictures-more-rings-sam-must-place
+slug: more-rings-sam-must-place
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch15-tables-and-grids
+    - c5-ch15-reading-data
+  primaryTopic: c5-ch15-tables-and-grids
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Sam must travel across the grid following the path shown in Grid 1. Each block along his
+    path must have a ring. Some blocks already have rings placed on them. How many MORE rings
+    does Sam need to place along his path? Note: Rings in Sam's grid cannot be moved.
+  stimulus:
+    assetRefs:
+      - sam-grid-and-path
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Copy the path from Grid 1 onto Sam's grid and mark every block it passes through. Then
+    check which of those blocks already hold a ring. Five of them are still empty.
+  assetRefs: []
+assets:
+  - ref: sam-grid-and-path
+    file: ../assets/sam-grid-and-path.png
+    role: stem
+    visibility: public
+    alt: >-
+      Grid 1 showing a winding path from Start to End, beside Sam's grid holding rings in
+      some of its blocks
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 58
+    section: "Chapter 15 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 112
+    section: "Chapter 15 question 8 answer and solution"

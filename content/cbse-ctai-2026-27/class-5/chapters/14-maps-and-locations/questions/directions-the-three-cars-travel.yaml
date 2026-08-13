@@ -1,0 +1,46 @@
+id: c5-maps-locations-directions-the-three-cars-travel
+slug: directions-the-three-cars-travel
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch14-turns
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-turns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Three cars A, B, and C started moving towards the East. After travelling for a while,
+    cars A and B took a right turn. After travelling further, car C took a left turn and car
+    A took another right turn. In which directions are cars A, B, and C travelling now?
+  options:
+    - id: option-a
+      text: "A = East, B = West, C = North"
+    - id: option-b
+      text: "A = West, B = North, C = South"
+    - id: option-c
+      text: "A = West, B = South, C = North"
+    - id: option-d
+      text: "A = East, B = West, C = South"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Starting from East, one right turn points a car South and a second right turn points it
+    West, so A ends up facing West and B facing South. Car C turns left from East, which
+    points it North.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 53
+    section: "Chapter 14 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 104
+    section: "Chapter 14 question 8 answer and solution"

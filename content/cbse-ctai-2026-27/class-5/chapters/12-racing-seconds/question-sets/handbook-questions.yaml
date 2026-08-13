@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch12-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 12 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-racing-seconds-how-long-lunch-took
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-when-the-bulb-turns-on-the-fourth-time
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-missing-term-in-the-time-sequence
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-times-the-alarm-rings
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-time-d-reaches-the-party
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-pages-virat-writes-in-an-hour
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-seconds-after-b-that-a-finishes
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 46
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-when-the-badminton-game-started
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 47
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-rabbits-in-the-same-column
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 47
+    sourceSection: "Chapter 12: Racing Seconds"
+  - questionId: c5-racing-seconds-time-a-train-is-scheduled
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 47
+    sourceSection: "Chapter 12: Racing Seconds"

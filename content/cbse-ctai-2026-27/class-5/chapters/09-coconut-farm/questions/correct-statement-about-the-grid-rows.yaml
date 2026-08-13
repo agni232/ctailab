@@ -1,0 +1,57 @@
+id: c5-coconut-farm-correct-statement-about-the-grid-rows
+slug: correct-statement-about-the-grid-rows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch9-division-and-remainders
+    - c5-ch9-rows-and-columns
+  primaryTopic: c5-ch9-division-and-remainders
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Some natural numbers from 101 to 200 are to be placed in the 3 x 3 grid shown below. The
+    arrangement must follow these rules: in each row and each column, the three numbers must
+    leave different remainders when divided by 3, and no number can be repeated. Which of the
+    following statements is correct?
+  stimulus:
+    assetRefs:
+      - three-by-three-grid
+  options:
+    - id: option-a
+      text: "A row can have three consecutive even numbers"
+    - id: option-b
+      text: "A row can have three consecutive odd numbers"
+    - id: option-c
+      text: "A row can have three consecutive numbers"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Dividing by 3 leaves a remainder of 0, 1, or 2. Three consecutive numbers step through
+    those remainders one at a time, so all three appear. Three consecutive even numbers, or
+    three consecutive odd numbers, step by 2 each time, which also lands on all three
+    remainders. Every case works.
+  assetRefs: []
+assets:
+  - ref: three-by-three-grid
+    file: ../assets/three-by-three-grid.png
+    role: stem
+    visibility: public
+    alt: An empty 3 by 3 grid of squares
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 9 question 3 answer and solution"

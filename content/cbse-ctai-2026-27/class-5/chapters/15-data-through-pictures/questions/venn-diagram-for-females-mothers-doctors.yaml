@@ -1,0 +1,74 @@
+id: c5-data-pictures-venn-diagram-for-females-mothers-doctors
+slug: venn-diagram-for-females-mothers-doctors
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch15-venn-diagrams
+    - c5-ch15-reasoning-with-clues
+  primaryTopic: c5-ch15-venn-diagrams
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which of the following Venn diagrams depicts the relationship between females, mothers,
+    and doctors?
+  options:
+    - id: option-a
+      assetRef: venn-option-a
+      accessibleLabel: A large oval holding two overlapping circles inside it
+    - id: option-b
+      assetRef: venn-option-b
+      accessibleLabel: Two large overlapping circles with a small circle sitting inside the left one
+    - id: option-c
+      assetRef: venn-option-c
+      accessibleLabel: Three circles of the same size overlapping in a row
+    - id: option-d
+      assetRef: venn-option-d
+      accessibleLabel: Three circles of the same size all overlapping one another
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Every mother is a female, so the mothers circle has to sit completely inside the females
+    circle, which rules out options c and d. A doctor may be a female or a mother but need
+    not be either, so the doctors circle has to cross the other two rather than sit inside
+    them. That is option b.
+  assetRefs: []
+assets:
+  - ref: venn-option-a
+    file: ../assets/venn-option-a.jpg
+    role: option
+    visibility: public
+    alt: Venn diagram, option a
+    position: 1
+  - ref: venn-option-b
+    file: ../assets/venn-option-b.png
+    role: option
+    visibility: public
+    alt: Venn diagram, option b
+    position: 2
+  - ref: venn-option-c
+    file: ../assets/venn-option-c.png
+    role: option
+    visibility: public
+    alt: Venn diagram, option c
+    position: 3
+  - ref: venn-option-d
+    file: ../assets/venn-option-d.png
+    role: option
+    visibility: public
+    alt: Venn diagram, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 58
+    section: "Chapter 15 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 114
+    section: "Chapter 15 question 10 answer and solution"

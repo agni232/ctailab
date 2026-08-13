@@ -1,0 +1,56 @@
+id: c5-shapes-patterns-cubes-needed-to-complete-the-arrangement
+slug: cubes-needed-to-complete-the-arrangement
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch7-cubes-and-nets
+    - c5-ch7-counting-strategies
+  primaryTopic: c5-ch7-cubes-and-nets
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Given below is an incomplete arrangement of a 3 x 3 x 3 cube where all the smallest
+    cubes are of the same size. How many such smallest cubes are required to complete the
+    cube?
+  stimulus:
+    assetRefs:
+      - incomplete-cube
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Look for the dents in the stack. Three small cubes are missing from the top layer and
+    three more are missing from the front face, which is 6 cubes in all.
+  assetRefs: []
+assets:
+  - ref: incomplete-cube
+    file: ../assets/incomplete-cube.png
+    role: stem
+    visibility: public
+    alt: >-
+      A stack of small cubes forming most of a 3 by 3 by 3 cube, with notches missing along
+      the top and the front
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 28
+    section: "Chapter 7 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 7 question 5 answer and solution"

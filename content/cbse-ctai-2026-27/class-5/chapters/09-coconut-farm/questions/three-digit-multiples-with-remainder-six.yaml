@@ -1,0 +1,45 @@
+id: c5-coconut-farm-three-digit-multiples-with-remainder-six
+slug: three-digit-multiples-with-remainder-six
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch9-factors-and-multiples
+    - c5-ch9-division-and-remainders
+  primaryTopic: c5-ch9-factors-and-multiples
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A three-digit number divisible by 18 leaves a remainder of 6 when divided by 12. How
+    many different possible values can this number have?
+  options:
+    - id: option-a
+      text: "50"
+    - id: option-b
+      text: "26"
+    - id: option-c
+      text: "25"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Multiples of 18 divided by 12 leave remainders 0 and 6 alternately: 108 leaves 0, 126
+    leaves 6, 144 leaves 0, 162 leaves 6, and so on. There are 50 three-digit multiples of
+    18, from 108 to 990, and exactly half of them leave remainder 6, which is 25.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 9 question 4 answer and solution"

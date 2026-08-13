@@ -1,0 +1,46 @@
+id: c5-coconut-farm-expression-with-the-highest-output
+slug: expression-with-the-highest-output
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch9-operators
+    - c5-ch9-ordering-values
+  primaryTopic: c5-ch9-operators
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If the multiplication operator is placed only between two even digits and an addition
+    operator is placed in any other case, then which of the following expressions gives the
+    highest output?
+  options:
+    - id: option-a
+      text: "3 _ 2 _ 4 _ 7"
+    - id: option-b
+      text: "5 _ 2 _ 6 _ 3"
+    - id: option-c
+      text: "3 _ 9 _ 2 _ 4"
+    - id: option-d
+      text: "6 _ 4 _ 3 _ 7"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Fill in the operators, then work out each expression remembering that multiplication
+    comes first. Option a gives 3 + 2 x 4 + 7 = 18, option b gives 5 + 2 x 6 + 3 = 20,
+    option c gives 3 + 9 + 2 x 4 = 20, and option d gives 6 x 4 + 3 + 7 = 34. Option d wins.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 9 question 9 answer and solution"

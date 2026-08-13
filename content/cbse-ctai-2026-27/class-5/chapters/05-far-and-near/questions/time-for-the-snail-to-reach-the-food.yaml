@@ -1,0 +1,46 @@
+id: c5-far-and-near-time-for-the-snail-to-reach-the-food
+slug: time-for-the-snail-to-reach-the-food
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch5-movement-and-position
+    - c5-ch5-length-and-distance
+  primaryTopic: c5-ch5-movement-and-position
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A snail moves forward by 3 cm in 1 minute, and then immediately after that moves
+    backward by 2 cm in 1 minute. It follows the same rhythm in its movement. How much time
+    will the snail take to reach the food placed 10 cm away for the first time?
+  options:
+    - id: option-a
+      text: "20 minutes"
+    - id: option-b
+      text: "10 minutes"
+    - id: option-c
+      text: "4 minutes"
+    - id: option-d
+      text: "15 minutes"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Every pair of minutes the snail gains just 1 cm, so after 14 minutes it has reached
+    7 cm. In the 15th minute it moves 3 cm forward and touches 10 cm for the first time,
+    before it would slide back again.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 21
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 5 question 4 answer and solution"

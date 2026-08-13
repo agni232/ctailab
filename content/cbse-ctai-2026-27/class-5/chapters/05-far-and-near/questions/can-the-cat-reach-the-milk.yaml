@@ -1,0 +1,48 @@
+id: c5-far-and-near-can-the-cat-reach-the-milk
+slug: can-the-cat-reach-the-milk
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch5-length-and-distance
+    - c5-ch5-movement-and-position
+  primaryTopic: c5-ch5-length-and-distance
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Ram tied his cat to a small pole using a 10 feet long rope. At noon, Ram placed some
+    milk 15 feet away FROM THE PLACE WHERE THE CAT WAS STANDING at that time. Can the cat
+    reach the milk? (Assume that the cat's body length is negligible and it is tied in the
+    middle of an open field.)
+  options:
+    - id: option-a
+      text: "Definitely yes"
+    - id: option-b
+      text: "Definitely no"
+    - id: option-c
+      text: "Sometimes yes, sometimes no; it depends on the exact location of the milk"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The 15 feet is measured from the cat, not from the pole. If the milk is placed further
+    out along the same line, it lies beyond the rope and the cat cannot reach it. But if the
+    milk is on the far side of the pole, it can be within 10 feet of the pole and the cat
+    can reach it. So it depends on where the milk is.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 21
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 5 question 1 answer and solution"

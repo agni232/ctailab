@@ -1,0 +1,47 @@
+id: c5-maps-locations-directions-sam-and-bob-face
+slug: directions-sam-and-bob-face
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch14-turns
+    - c5-ch14-directions
+  primaryTopic: c5-ch14-turns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Sam and Bob are facing North. After this, they take the following turns. 1. Sam takes 1
+    left turn, then 2 right turns, and finally 1 left turn. 2. Bob takes 2 left turns
+    followed by 3 right turns. Which of the following directions are they facing currently?
+    Note: A Right or a Left turn refers to a 90-degree turn.
+  options:
+    - id: option-a
+      text: "Sam faces North and Bob faces East"
+    - id: option-b
+      text: "Sam faces North and Bob faces South"
+    - id: option-c
+      text: "Sam faces North and Bob faces West"
+    - id: option-d
+      text: "Sam faces East and Bob faces North"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A right turn cancels a left turn. Sam makes 2 lefts and 2 rights, which cancel out
+    completely, so he still faces North. Bob makes 2 lefts and 3 rights, leaving one right
+    turn, which takes him from North to East.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 53
+    section: "Chapter 14 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 104
+    section: "Chapter 14 question 7 answer and solution"

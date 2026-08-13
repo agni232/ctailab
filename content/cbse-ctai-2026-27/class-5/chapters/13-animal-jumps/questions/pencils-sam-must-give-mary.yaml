@@ -1,0 +1,46 @@
+id: c5-animal-jumps-pencils-sam-must-give-mary
+slug: pencils-sam-must-give-mary
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-sharing-equally
+    - c5-ch13-multiples-and-factors
+  primaryTopic: c5-ch13-sharing-equally
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Sam has 22 pencils and Mary has 14 pencils. They both need to individually divide their
+    pencils among 4 students such that neither Sam nor Mary has any pencil left. Also, all
+    the 4 students should receive an equal number of pencils. What is the least number of
+    pencils that Sam must give to Mary to fulfil the condition?
+  options:
+    - id: option-a
+      text: "1 pencil"
+    - id: option-b
+      text: "2 pencils"
+    - id: option-c
+      text: "4 pencils"
+    - id: option-d
+      text: "6 pencils"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each of them needs a number of pencils that is a multiple of 4. Handing over 2 pencils
+    leaves Sam with 20 and Mary with 16, and both of those divide by 4.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 49
+    section: "Chapter 13 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 96
+    section: "Chapter 13 question 3 answer and solution"

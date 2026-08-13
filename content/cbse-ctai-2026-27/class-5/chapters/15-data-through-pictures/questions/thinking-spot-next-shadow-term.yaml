@@ -1,0 +1,84 @@
+id: c5-data-pictures-thinking-spot-next-shadow-term
+slug: thinking-spot-next-shadow-term
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch15-logical-puzzles
+    - c5-ch15-reading-data
+  primaryTopic: c5-ch15-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: If each of the following terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shadow-terms
+  options:
+    - id: option-a
+      assetRef: shadow-option-a
+      accessibleLabel: A black bird in the upper box and a white bird in the lower box, option a
+    - id: option-b
+      assetRef: shadow-option-b
+      accessibleLabel: A black bird in the upper box and a white bird in the lower box, option b
+    - id: option-c
+      assetRef: shadow-option-c
+      accessibleLabel: A black bird in the upper box and a white bird in the lower box, option c
+    - id: option-d
+      assetRef: shadow-option-d
+      accessibleLabel: A black bird in the upper box and a white bird in the lower box, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In each term, three shadows sit above one picture, and only one of those shadows really
+    belongs to it. After the arrow, that matching shadow is kept together with the picture,
+    in the same positions they had on the left. For the bird, the shadow that lines up
+    exactly is the one shown in option c.
+  assetRefs: []
+assets:
+  - ref: shadow-terms
+    file: ../assets/shadow-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels, each with three black shadows above a white outline picture of a frog, an
+      elephant, a seahorse, or a bird, and an arrow leading to the matching shadow and
+      picture, with the last panel ending in a question mark
+    position: 0
+  - ref: shadow-option-a
+    file: ../assets/shadow-option-a.png
+    role: option
+    visibility: public
+    alt: Bird shadow and bird outline, option a
+    position: 1
+  - ref: shadow-option-b
+    file: ../assets/shadow-option-b.png
+    role: option
+    visibility: public
+    alt: Bird shadow and bird outline, option b
+    position: 2
+  - ref: shadow-option-c
+    file: ../assets/shadow-option-c.png
+    role: option
+    visibility: public
+    alt: Bird shadow and bird outline, option c
+    position: 3
+  - ref: shadow-option-d
+    file: ../assets/shadow-option-d.png
+    role: option
+    visibility: public
+    alt: Bird shadow and bird outline, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 59
+    section: "Chapter 15 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 116
+    section: "Chapter 15 The Thinking Spot answer and solution"

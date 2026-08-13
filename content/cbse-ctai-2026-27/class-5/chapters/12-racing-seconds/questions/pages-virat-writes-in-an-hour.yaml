@@ -1,0 +1,48 @@
+id: c5-racing-seconds-pages-virat-writes-in-an-hour
+slug: pages-virat-writes-in-an-hour
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch12-speed-and-races
+    - c5-ch12-reasoning-with-clues
+  primaryTopic: c5-ch12-speed-and-races
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Four friends Mayank, Rahul, Sachin, and Virat have different writing speeds. Mayank can
+    write 2 pages in 10 minutes. Rahul can write 4 more pages than what Mayank writes in 10
+    minutes. In 15 minutes, Sachin can write half the number of pages as Rahul can write in
+    10 minutes. In 30 minutes, Virat finishes 1 page less than the number of pages Sachin
+    finishes in 30 minutes. How many pages can Virat write in an hour?
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "12"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Rahul writes 2 + 4 = 6 pages in 10 minutes. Half of that is 3 pages, which is what Sachin
+    writes in 15 minutes, so Sachin writes 6 pages in 30 minutes. Virat writes one less, so
+    5 pages in 30 minutes, which is 10 pages in an hour.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 12 question 6 answer and solution"

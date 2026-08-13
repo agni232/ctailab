@@ -1,0 +1,59 @@
+id: c5-far-and-near-same-position-in-both-sports
+slug: same-position-in-both-sports
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch5-reading-tables
+    - c5-ch5-reasoning-with-clues
+  primaryTopic: c5-ch5-reading-tables
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below are the results for the Javelin and High Jump competition. Tom threw the
+    javelin 12 m farther than Roy. Kim jumped 1 inch higher than Roy. Roy jumped 2 inches
+    less than John. Which participant has secured the same position in both the sports?
+  stimulus:
+    assetRefs:
+      - competition-results
+  options:
+    - id: option-a
+      text: "Mary"
+    - id: option-b
+      text: "Tom"
+    - id: option-c
+      text: "Roy"
+    - id: option-d
+      text: "John"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Fill in the gaps first. Roy threw 40 m, so Tom threw 52 m. John jumped 29 inches, so
+    Roy jumped 27 and Kim jumped 28. Now rank both columns: in the javelin the order is
+    Mary 58, Tom 52, Roy 40, John 34, Kim 31, and in the high jump it is John 29, Kim 28,
+    Roy 27, Mary 24, Tom 20. Roy is third in both.
+  assetRefs: []
+assets:
+  - ref: competition-results
+    file: ../assets/competition-results.png
+    role: stem
+    visibility: public
+    alt: >-
+      A results table with columns for participants, javelin throw in metres, position,
+      high jump in inches, and position, listing Roy, Tom, John, Kim, and Mary with some
+      cells left blank
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 21
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 5 question 2 answer and solution"

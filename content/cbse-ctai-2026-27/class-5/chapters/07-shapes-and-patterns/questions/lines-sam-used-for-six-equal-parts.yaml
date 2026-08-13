@@ -1,0 +1,46 @@
+id: c5-shapes-patterns-lines-sam-used-for-six-equal-parts
+slug: lines-sam-used-for-six-equal-parts
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch7-equal-parts
+    - c5-ch7-shapes-and-figures
+  primaryTopic: c5-ch7-equal-parts
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Sam divided a rectangle into 6 equal parts using lines such that each line further
+    divided the rectangle into more parts. Which of the below options could represent the
+    number of lines used by Sam?
+  options:
+    - id: option-a
+      text: "The rectangle is divided using 3 horizontal and 3 vertical lines"
+    - id: option-b
+      text: "The rectangle is divided using 3 horizontal and 2 vertical lines"
+    - id: option-c
+      text: "The rectangle is divided using 2 horizontal and 2 vertical lines"
+    - id: option-d
+      text: "The rectangle is divided using 2 horizontal and 1 vertical line"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Horizontal lines cut the rectangle into rows and vertical lines into columns, so 2
+    horizontal lines make 3 rows and 1 vertical line makes 2 columns. That is 3 x 2 = 6
+    equal parts.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 27
+    section: "Chapter 7 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 7 question 3 answer and solution"

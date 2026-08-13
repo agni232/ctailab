@@ -1,0 +1,47 @@
+id: c5-weight-capacity-capacities-of-the-remaining-buckets
+slug: capacities-of-the-remaining-buckets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-capacity
+    - c5-ch8-reasoning-with-clues
+  primaryTopic: c5-ch8-capacity
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A total of 15 litres of water is completely emptied into five different buckets. Three
+    of the five buckets have capacities of 3 litres, 6 litres, and 2 litres. If all five
+    buckets are filled such that 1 litre of space remains unfilled in each bucket, find the
+    capacities of the remaining two buckets.
+  options:
+    - id: option-a
+      text: "2 litres and 3 litres"
+    - id: option-b
+      text: "4 litres and 5 litres"
+    - id: option-c
+      text: "3 litres and 4 litres"
+    - id: option-d
+      text: "5 litres and 6 litres"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each bucket holds 1 litre less than its capacity, so the three known buckets take
+    2 + 5 + 1 = 8 litres. That leaves 7 litres for the other two, and since they also lose
+    1 litre each, their capacities must add up to 9. Only 4 and 5 do.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 8 question 6 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch8-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 8 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-weight-capacity-third-heaviest-object
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-weight-the-faulty-machine-shows
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-difference-between-sam-and-bob
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-statements-that-give-the-tile-weight
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-weight-c-cannot-have
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-capacities-of-the-remaining-buckets
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 33
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-minimum-possible-weight-of-a-bag
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-odd-one-out-among-the-pulleys
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-next-balance-in-the-series
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weight and Capacity"
+  - questionId: c5-weight-capacity-maximum-passengers-the-train-can-carry
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weight and Capacity"

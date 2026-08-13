@@ -1,0 +1,45 @@
+id: c5-quilt-perimeter-after-cutting-the-square
+slug: perimeter-after-cutting-the-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch11-perimeter
+    - c5-ch11-cutting-and-joining
+  primaryTopic: c5-ch11-perimeter
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If a square sheet is cut in half along one of its sides, how does the perimeter of the
+    original square compare with the combined perimeter of the two new shapes formed?
+  options:
+    - id: option-a
+      text: "The combined perimeter is greater than the perimeter of the original square"
+    - id: option-b
+      text: "The combined perimeter is less than the perimeter of the original square"
+    - id: option-c
+      text: "The combined perimeter is equal to the perimeter of the original square"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The cut creates a brand new edge that was inside the square before. That edge now counts
+    once for each of the two pieces, so the two perimeters together come to more than the
+    original one.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 11 question 2 answer and solution"

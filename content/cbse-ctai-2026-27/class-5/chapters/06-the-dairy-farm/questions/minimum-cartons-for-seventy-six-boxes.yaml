@@ -1,0 +1,46 @@
+id: c5-dairy-farm-minimum-cartons-for-seventy-six-boxes
+slug: minimum-cartons-for-seventy-six-boxes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-grouping-and-sharing
+    - c5-ch6-counting-strategies
+  primaryTopic: c5-ch6-grouping-and-sharing
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Two types of boxes, A and B, are being transported. Each carton can hold either 8 boxes
+    of type A or 10 boxes of type B. If a total of 76 boxes were transported, what is the
+    minimum number of cartons required, given that all the cartons are full?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Every carton must be full, so 76 has to be made up entirely of tens and eights. Seven
+    tens leaves 6, which no carton can hold. Six tens leaves 16, and that is exactly two
+    cartons of 8. So 6 + 2 = 8 cartons.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 24
+    section: "Chapter 6 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 6 question 2 answer and solution"

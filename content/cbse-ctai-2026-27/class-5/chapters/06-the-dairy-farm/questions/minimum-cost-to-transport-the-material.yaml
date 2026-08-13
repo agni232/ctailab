@@ -1,0 +1,52 @@
+id: c5-dairy-farm-minimum-cost-to-transport-the-material
+slug: minimum-cost-to-transport-the-material
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-multiplication-and-division
+    - c5-ch6-counting-strategies
+  primaryTopic: c5-ch6-multiplication-and-division
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    80 kg of material needs to be transported to a place that is 10 km away. The material
+    must be divided into only one fixed load size for the entire transport, and the possible
+    load sizes are 10 kg, 20 kg, or 40 kg. Any number of couriers may be used. Each courier
+    charges Rs. 10 per hour, travels at 10 km/hr when empty, 5 km/hr while carrying 10 kg,
+    2 km/hr while carrying 20 kg, and 1 km/hr while carrying 40 kg, and can carry at most
+    40 kg at a time. After delivering a load, the courier must return empty before the next
+    trip. Even after the final delivery, the courier returns empty, and all return journeys
+    are charged. What is the minimum total cost required to transport all 80 kg of material?
+  options:
+    - id: option-a
+      text: "Rs. 220"
+    - id: option-b
+      text: "Rs. 240"
+    - id: option-c
+      text: "Rs. 260"
+    - id: option-d
+      text: "Rs. 280"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Price each load size. With 40 kg loads there are 2 trips, each taking 10 hours out and
+    1 hour back, so 22 hours and Rs. 220. With 20 kg loads there are 4 trips of 5 + 1
+    hours, so 24 hours and Rs. 240. With 10 kg loads there are 8 trips of 2 + 1 hours, so
+    again 24 hours and Rs. 240. The 40 kg plan is cheapest at Rs. 220.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 24
+    section: "Chapter 6 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 6 question 5 answer and solution"

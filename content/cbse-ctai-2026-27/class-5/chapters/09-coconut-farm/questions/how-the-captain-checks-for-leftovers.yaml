@@ -1,0 +1,45 @@
+id: c5-coconut-farm-how-the-captain-checks-for-leftovers
+slug: how-the-captain-checks-for-leftovers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch9-division-and-remainders
+    - c5-ch9-rows-and-columns
+  primaryTopic: c5-ch9-division-and-remainders
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Captain Malhotra has to align his troop of soldiers into some rows. Each row should have
+    exactly 25 soldiers. He knows the total number of soldiers in his troop. He wants to find
+    out if any soldiers will be left out after the alignment is done. How can he do this?
+  options:
+    - id: option-a
+      text: "Divide the total number of soldiers by 5 and check if the remainder left is 0"
+    - id: option-b
+      text: "Divide the total number of soldiers by 15 and check if the remainder left is 0"
+    - id: option-c
+      text: "Divide the total number of soldiers by 25 and check if the remainder left is 0"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Dividing the total by 25 gives the number of full rows as the quotient and the soldiers
+    left over as the remainder. So a remainder of 0 means nobody is left out.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 7 answer and solution"

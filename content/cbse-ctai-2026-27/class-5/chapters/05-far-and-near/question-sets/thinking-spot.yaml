@@ -1,0 +1,17 @@
+id: cbse-2026-27-c5-ch5-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 5.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-far-and-near-thinking-spot-secret-locker-code
+    questionVersion: 1
+    position: 1
+    sourcePage: 23
+    sourceSection: "Chapter 5 The Thinking Spot"

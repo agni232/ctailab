@@ -1,0 +1,48 @@
+id: c5-weight-capacity-statements-that-give-the-tile-weight
+slug: statements-that-give-the-tile-weight
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-sufficient-information
+    - c5-ch8-weight
+  primaryTopic: c5-ch8-sufficient-information
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Which of the following statements is/are sufficient to answer the following question?
+    QUESTION: What will be the total weight of 10 tiles, if each of them weighs the same?
+    STATEMENT 1: One-fifth of the weight of all the tiles together is at least 10 kg more
+    than the weight of each tile. STATEMENT 2: The total weight of three tiles is 10 kg more
+    than the total weight of two tiles.
+  options:
+    - id: option-a
+      text: "Statement 1 alone is sufficient"
+    - id: option-b
+      text: "Statement 2 alone is sufficient"
+    - id: option-c
+      text: "Both Statement 1 and Statement 2 are necessarily required"
+    - id: option-d
+      text: "Question cannot be answered even if both Statement 1 and Statement 2 are taken"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Statement 1 only sets a lower limit on the weight of a tile, so the total stays unknown.
+    Statement 2 says the third tile adds exactly 10 kg, so one tile weighs 10 kg and ten
+    tiles weigh 100 kg. Statement 2 alone is enough.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 33
+    section: "Chapter 8 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 8 question 4 answer and solution"

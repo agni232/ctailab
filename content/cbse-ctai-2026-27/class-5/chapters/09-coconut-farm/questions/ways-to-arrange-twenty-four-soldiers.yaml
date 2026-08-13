@@ -1,0 +1,48 @@
+id: c5-coconut-farm-ways-to-arrange-twenty-four-soldiers
+slug: ways-to-arrange-twenty-four-soldiers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch9-rows-and-columns
+    - c5-ch9-factors-and-multiples
+  primaryTopic: c5-ch9-rows-and-columns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are 24 soldiers in an army. A commando wants to arrange them in rows and columns
+    such that each row has the same number of soldiers across all the rows, each column has
+    the same number of soldiers across all the columns, and several rows and columns are
+    formed. In how many different ways can this arrangement be done? Note: Number of rows
+    and columns are not same.
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    List the ways of writing 24 as rows times columns, leaving out 1 x 24 because several
+    rows and columns are needed. That gives 2 x 12, 12 x 2, 3 x 8, 8 x 3, 4 x 6, and 6 x 4,
+    which is 6 arrangements.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 36
+    section: "Chapter 9 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 9 question 2 answer and solution"

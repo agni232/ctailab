@@ -1,0 +1,60 @@
+id: c5-dairy-farm-thinking-spot-boxes-in-both-groups-two-and-four
+slug: thinking-spot-boxes-in-both-groups-two-and-four
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-classifying-and-sorting
+    - c5-ch6-logical-puzzles
+  primaryTopic: c5-ch6-classifying-and-sorting
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below are 6 boxes, A, B, C, D, E, and F, each having a pair of shapes. They need
+    to be categorised into 4 groups, as follows. If both shapes in a box are of the same
+    colour, they belong to Group 1; if not, they belong to Group 2. If both shapes in a box
+    are the same (irrespective of their colour), they belong to Group 3; if not, they belong
+    to Group 4. One box can be part of more than one group. How many boxes belong to BOTH
+    groups 2 and 4?
+  stimulus:
+    assetRefs:
+      - shape-pair-boxes
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "1"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A box lands in Group 2 when its two shapes differ in colour, which rules out C and E.
+    A box lands in Group 4 when its two shapes are different shapes, which rules out B and
+    E. Boxes A, D, and F are left in both, so the answer is 3.
+  assetRefs: []
+assets:
+  - ref: shape-pair-boxes
+    file: ../assets/shape-pair-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six boxes labelled A to F, each holding a pair of shapes drawn as squares, circles,
+      and triangles that are either filled black or left white
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 26
+    section: "Chapter 6 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 6 The Thinking Spot answer and solution"

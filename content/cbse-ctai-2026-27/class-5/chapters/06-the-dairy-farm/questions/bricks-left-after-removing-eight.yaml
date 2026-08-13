@@ -1,0 +1,44 @@
+id: c5-dairy-farm-bricks-left-after-removing-eight
+slug: bricks-left-after-removing-eight
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch6-grouping-and-sharing
+    - c5-ch6-multiplication-and-division
+  primaryTopic: c5-ch6-grouping-and-sharing
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A mason laid 100 bricks in a row. He grouped bricks together, where every group has 25
+    bricks. If 8 bricks from each group are removed, then how many bricks are left in total?
+  options:
+    - id: option-a
+      text: "32"
+    - id: option-b
+      text: "64"
+    - id: option-c
+      text: "68"
+    - id: option-d
+      text: "92"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    100 bricks split into groups of 25 gives 4 groups. Removing 8 from each takes away
+    8 x 4 = 32 bricks, so 100 - 32 = 68 bricks are left.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 24
+    section: "Chapter 6 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 6 question 1 answer and solution"

@@ -1,0 +1,59 @@
+id: c5-maps-locations-gate-with-the-sun-on-the-left
+slug: gate-with-the-sun-on-the-left
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch14-directions
+    - c5-ch14-maps-and-routes
+  primaryTopic: c5-ch14-directions
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below are jogging tracks with four different gates A, B, C, and D. A person who
+    enters from Gate A must exit through Gate C and vice versa. A person who enters from Gate
+    B must exit through Gate D and vice versa. Which gate should a person choose to enter if
+    he wants the sun to be on his left when he reaches the black circle for the first time in
+    the morning?
+  stimulus:
+    assetRefs:
+      - jogging-tracks
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In the morning the sun is in the east, so for it to be on his left he must be heading
+    south when he first reaches the black circle. Following each track back from the circle,
+    only the one entered at Gate B arrives there going south.
+  assetRefs: []
+assets:
+  - ref: jogging-tracks
+    file: ../assets/jogging-tracks.png
+    role: stem
+    visibility: public
+    alt: >-
+      A set of nested jogging tracks with gates A, B, C, and D along the left side and a
+      black circle at the top left, beside a compass marked N, S, E, and W
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 53
+    section: "Chapter 14 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 103
+    section: "Chapter 14 question 5 answer and solution"

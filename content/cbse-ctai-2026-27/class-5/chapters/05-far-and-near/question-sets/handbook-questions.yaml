@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch5-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 5 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-far-and-near-can-the-cat-reach-the-milk
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 21
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-same-position-in-both-sports
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 21
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-squares-from-the-stick-pieces
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 21
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-time-for-the-snail-to-reach-the-food
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 21
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-who-is-farther-from-the-football
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 21
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-cuts-to-divide-the-cloth
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 22
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-distance-rishi-must-travel
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 22
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-trees-with-a-taller-and-shorter-neighbour
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 22
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-filling-in-a-and-b-for-the-lamp
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 22
+    sourceSection: "Chapter 5: Far and Near"
+  - questionId: c5-far-and-near-taxi-fare-between-a-and-b
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 22
+    sourceSection: "Chapter 5: Far and Near"

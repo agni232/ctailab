@@ -1,0 +1,56 @@
+id: c5-travellers-2-arrangements-when-b-is-one
+slug: arrangements-when-b-is-one
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch4-ordering-and-arrangements
+    - c5-ch4-reasoning-with-clues
+  primaryTopic: c5-ch4-ordering-and-arrangements
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    You have to place 4 numbers from 1, 2, 3, 4, and 5 in the squares below to satisfy the
+    given comparisons. How many different arrangements of numbers are possible if box B
+    contains number 1? Note: You cannot use the same number twice in the same arrangement.
+  stimulus:
+    assetRefs:
+      - comparison-boxes
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: "12"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The boxes must satisfy A greater than B, B less than C, and C less than D. With B fixed
+    at 1, every remaining number beats it, so the only real condition left is C less than D.
+    From 2, 3, 4, and 5 there are 6 such pairs, and for each pair either of the two unused
+    numbers can go in A. That gives 6 times 2 = 12 arrangements.
+  assetRefs: []
+assets:
+  - ref: comparison-boxes
+    file: ../assets/comparison-boxes.png
+    role: stem
+    visibility: public
+    alt: "Four boxes in a row labelled A, B, C, and D, with the signs A greater than B, B less than C, and C less than D between them"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 4 question 6 answer and solution"

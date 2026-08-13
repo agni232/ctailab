@@ -1,0 +1,56 @@
+id: c5-quilt-area-occupied-by-the-red-blocks
+slug: area-occupied-by-the-red-blocks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch11-area
+    - c5-ch11-comparing-areas
+  primaryTopic: c5-ch11-area
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In the given square, there are some red blocks and some yellow blocks each being equal in
+    area. Find the area occupied by the red blocks if the side of the bigger square is equal
+    to 6 units.
+  stimulus:
+    assetRefs:
+      - red-and-yellow-blocks
+  options:
+    - id: option-a
+      text: "6 sq. units"
+    - id: option-b
+      text: "12 sq. units"
+    - id: option-c
+      text: "8 sq. units"
+    - id: option-d
+      text: "16 sq. units"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The big square is 3 blocks across, so each small block has a side of 6 / 3 = 2 units and
+    an area of 4 square units. There are 3 red blocks, giving 3 x 4 = 12 square units.
+  assetRefs: []
+assets:
+  - ref: red-and-yellow-blocks
+    file: ../assets/red-and-yellow-blocks.png
+    role: stem
+    visibility: public
+    alt: >-
+      A square divided into a three by three arrangement of blocks, most of them yellow with
+      three red ones among them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 44
+    section: "Chapter 11 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 11 question 9 answer and solution"

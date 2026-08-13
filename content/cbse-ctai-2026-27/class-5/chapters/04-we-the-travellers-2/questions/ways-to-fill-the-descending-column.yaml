@@ -1,0 +1,57 @@
+id: c5-travellers-2-ways-to-fill-the-descending-column
+slug: ways-to-fill-the-descending-column
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch4-ordering-and-arrangements
+    - c5-ch4-number-properties
+  primaryTopic: c5-ch4-ordering-and-arrangements
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In how many different ways can you fill in all the shaded cells such that the numbers in
+    the column are arranged in descending order and each cell has a unique number?
+  stimulus:
+    assetRefs:
+      - descending-column
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The column runs from 30 at the top down to 25 at the bottom, so the three shaded cells
+    must hold three different numbers chosen from 26, 27, 28, and 29, in descending order.
+    Choosing which one of the four to leave out fixes the whole arrangement, so there are
+    4 ways.
+  assetRefs: []
+assets:
+  - ref: descending-column
+    file: ../assets/descending-column.png
+    role: stem
+    visibility: public
+    alt: >-
+      A column of five stacked cells headed Column, with 30 in the top cell, 25 in the
+      bottom cell, and three shaded empty cells in between
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 18
+    section: "Chapter 4 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 29
+    section: "Chapter 4 question 3 answer and solution"

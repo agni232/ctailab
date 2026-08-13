@@ -1,0 +1,85 @@
+id: c5-weight-capacity-next-balance-in-the-series
+slug: next-balance-in-the-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch8-patterns-and-series
+    - c5-ch8-balancing-and-comparing
+  primaryTopic: c5-ch8-patterns-and-series
+  estimatedMinutes: 8
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - balance-series
+  options:
+    - id: option-a
+      assetRef: balance-option-a
+      accessibleLabel: A level balance with a circle on the left and a square on the right, on a black pivot
+    - id: option-b
+      assetRef: balance-option-b
+      accessibleLabel: A level balance with a circle on the left and a square on the right, on a white pivot
+    - id: option-c
+      assetRef: balance-option-c
+      accessibleLabel: A tilted balance with a circle on the left and a square on the right, on a white pivot
+    - id: option-d
+      assetRef: balance-option-d
+      accessibleLabel: A level balance with a triangle on the left and a square on the right, on a black pivot
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Three things change together. The beam goes left, level, right, level, and so on. The
+    shape on the right of one term moves to the left in the next, and the shape that was
+    missing appears on the right. The pivot switches between black and white each time. The
+    fifth term tilts left with a black pivot and shows a triangle and a circle, so the next
+    term is level, has a white pivot, and shows a circle on the left with a square on the
+    right.
+  assetRefs: []
+assets:
+  - ref: balance-series
+    file: ../assets/balance-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      A series of five balance scales carrying squares, triangles, and circles, some level
+      and some tilted, followed by a question mark
+    position: 0
+  - ref: balance-option-a
+    file: ../assets/balance-option-a.png
+    role: option
+    visibility: public
+    alt: Balance scale, option a
+    position: 1
+  - ref: balance-option-b
+    file: ../assets/balance-option-b.png
+    role: option
+    visibility: public
+    alt: Balance scale, option b
+    position: 2
+  - ref: balance-option-c
+    file: ../assets/balance-option-c.png
+    role: option
+    visibility: public
+    alt: Balance scale, option c
+    position: 3
+  - ref: balance-option-d
+    file: ../assets/balance-option-d.png
+    role: option
+    visibility: public
+    alt: Balance scale, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 8 question 9 answer and solution"

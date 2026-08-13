@@ -1,0 +1,56 @@
+id: c5-symmetrical-designs-letters-with-the-same-mirror-image
+slug: letters-with-the-same-mirror-image
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch10-reflections
+    - c5-ch10-lines-of-symmetry
+  primaryTopic: c5-ch10-reflections
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which of the following pairs of letters will have the same image if they are reflected in
+    a mirror placed along the line AB?
+  stimulus:
+    assetRefs:
+      - mirror-line-letters
+  options:
+    - id: option-a
+      text: "H and U"
+    - id: option-b
+      text: "X and U"
+    - id: option-c
+      text: "H and X"
+    - id: option-d
+      text: "All of the above"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The mirror lies along AB, so each letter flips top to bottom. H and X look the same after
+    that flip because both have a line of symmetry across the middle, while U turns upside
+    down and does not match itself.
+  assetRefs: []
+assets:
+  - ref: mirror-line-letters
+    file: ../assets/mirror-line-letters.png
+    role: stem
+    visibility: public
+    alt: >-
+      Boxes holding the letters H, X, and U arranged above a hatched mirror line labelled A
+      at the left end and B at the right end
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 10 question 8 answer and solution"

@@ -1,0 +1,46 @@
+id: c5-travellers-2-three-digit-even-numbers-from-five-zero-nine
+slug: three-digit-even-numbers-from-five-zero-nine
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch4-making-numbers
+    - c5-ch4-odd-and-even
+  primaryTopic: c5-ch4-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    How many different three-digit even numbers can you make using the digits 5, 0, and 9?
+    Note: You can use any one, any two, or all the digits, and you may repeat the digits.
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    An even number must end in an even digit, and 0 is the only even digit available, so
+    every number ends in 0. The hundreds digit cannot be 0, leaving 5 or 9, and the tens
+    digit can be 5, 0, or 9. That gives 550, 500, 590, 950, 900, and 990, which is 6
+    numbers.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 19
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 4 question 8 answer and solution"

@@ -1,0 +1,48 @@
+id: c5-dairy-farm-rows-remaining-in-the-classroom
+slug: rows-remaining-in-the-classroom
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch6-rows-and-columns
+    - c5-ch6-factors-and-products
+  primaryTopic: c5-ch6-rows-and-columns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In a classroom, there are 5 desks in each row. The number of rows is not known. First,
+    all the desks in the front row are removed. Then, one desk is added to the leftmost side
+    of each remaining row. After these changes, the total number of desks in the classroom
+    becomes one of the following: 18, 20, 22, or 28. Which of these could represent the
+    number of rows remaining after the front row was removed at the start?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    After the extra desk is added, every remaining row holds 6 desks, so the new total has
+    to be a multiple of 6. Out of 18, 20, 22, and 28, only 18 qualifies, and 18 divided by
+    6 gives 3 rows.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 25
+    section: "Chapter 6 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 6 question 9 answer and solution"

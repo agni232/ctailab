@@ -1,0 +1,44 @@
+id: c5-animal-jumps-odd-one-out-among-the-number-pairs
+slug: odd-one-out-among-the-number-pairs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch13-common-factors
+    - c5-ch13-divisibility
+  primaryTopic: c5-ch13-common-factors
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    All the number pairs given in the options have a characteristic common to them, except
+    one pair which is different. Find the number pair that is the odd one out.
+  options:
+    - id: option-a
+      text: "13, 25"
+    - id: option-b
+      text: "12, 42"
+    - id: option-c
+      text: "10, 15"
+    - id: option-d
+      text: "45, 72"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Look for a factor the two numbers share. 12 and 42 share 2, 3, and 6; 10 and 15 share 5;
+    45 and 72 share 3 and 9. But 13 and 25 have nothing in common besides 1.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 50
+    section: "Chapter 13 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 13 question 6 answer and solution"

@@ -1,0 +1,43 @@
+topics:
+  - id: c5-ch6-multiplication-and-division
+    slug: multiplication-and-division
+    title: Multiplication and Division
+    position: 1
+    status: published
+  - id: c5-ch6-grouping-and-sharing
+    slug: grouping-and-sharing
+    title: Grouping and Sharing
+    position: 2
+    parentId: c5-ch6-multiplication-and-division
+    status: published
+  - id: c5-ch6-factors-and-products
+    slug: factors-and-products
+    title: Factors and Products
+    position: 3
+    parentId: c5-ch6-multiplication-and-division
+    status: published
+  - id: c5-ch6-rows-and-columns
+    slug: rows-and-columns
+    title: Rows and Columns
+    position: 4
+    status: published
+  - id: c5-ch6-number-rules
+    slug: number-rules
+    title: Number Rules
+    position: 5
+    status: published
+  - id: c5-ch6-counting-strategies
+    slug: counting-strategies
+    title: Counting Strategies
+    position: 6
+    status: published
+  - id: c5-ch6-classifying-and-sorting
+    slug: classifying-and-sorting
+    title: Classifying and Sorting
+    position: 7
+    status: published
+  - id: c5-ch6-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published
