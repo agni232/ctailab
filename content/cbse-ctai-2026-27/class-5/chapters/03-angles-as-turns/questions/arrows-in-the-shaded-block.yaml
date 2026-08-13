@@ -1,0 +1,86 @@
+id: c5-angles-arrows-in-the-shaded-block
+slug: arrows-in-the-shaded-block
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch3-right-angle-turns
+    - c5-ch3-rotation
+  primaryTopic: c5-ch3-right-angle-turns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Two arrows must pass through five blocks to reach the opposite side, making a
+    right-angle clockwise turn each time they enter a block. Which of the following options
+    shows the correct positions of these arrows when they are present in the shaded block?
+  stimulus:
+    assetRefs:
+      - five-block-strip
+  options:
+    - id: option-a
+      assetRef: arrow-option-a
+      accessibleLabel: An arrow pointing up beside an arrow pointing down
+    - id: option-b
+      assetRef: arrow-option-b
+      accessibleLabel: An arrow pointing up beside an arrow pointing left
+    - id: option-c
+      assetRef: arrow-option-c
+      accessibleLabel: An arrow pointing down beside an arrow pointing up
+    - id: option-d
+      assetRef: arrow-option-d
+      accessibleLabel: An arrow pointing up beside an arrow pointing right
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Track each arrow one block at a time, turning it a right angle clockwise as it enters.
+    The arrow that starts on the left pointing right has turned twice by the middle block,
+    and the arrow that starts on the right pointing left has also turned twice. In the
+    shaded middle block they point in opposite vertical directions, which is option a.
+  assetRefs: []
+assets:
+  - ref: five-block-strip
+    file: ../assets/five-block-strip.png
+    role: stem
+    visibility: public
+    alt: >-
+      A strip of five square blocks with the middle one shaded grey, an arrow entering from
+      the left pointing right and an arrow entering from the right pointing left
+    position: 0
+  - ref: arrow-option-a
+    file: ../assets/arrow-option-a.png
+    role: option
+    visibility: public
+    alt: Arrow pointing up and arrow pointing down, option a
+    position: 1
+  - ref: arrow-option-b
+    file: ../assets/arrow-option-b.png
+    role: option
+    visibility: public
+    alt: Arrow pointing up and arrow pointing left, option b
+    position: 2
+  - ref: arrow-option-c
+    file: ../assets/arrow-option-c.png
+    role: option
+    visibility: public
+    alt: Arrow pointing down and arrow pointing up, option c
+    position: 3
+  - ref: arrow-option-d
+    file: ../assets/arrow-option-d.png
+    role: option
+    visibility: public
+    alt: Arrow pointing up and arrow pointing right, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 15
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 2 answer and solution"

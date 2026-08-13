@@ -1,0 +1,81 @@
+id: c5-angles-next-figure-in-the-turning-series
+slug: next-figure-in-the-turning-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch3-rotation
+    - c5-ch3-shape-patterns
+  primaryTopic: c5-ch3-shape-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - turn-series
+  options:
+    - id: option-a
+      assetRef: turn-option-a
+      accessibleLabel: A three-sided path with an arrow head at the top right and one at the lower left
+    - id: option-b
+      assetRef: turn-option-b
+      accessibleLabel: A three-sided path with an arrow head at the top right and one at the lower left, turned the other way
+    - id: option-c
+      assetRef: turn-option-c
+      accessibleLabel: A three-sided path with an arrow head at the top right and one at the lower left, opening upward
+    - id: option-d
+      assetRef: turn-option-d
+      accessibleLabel: A three-sided path with an arrow head at the top left and one at the top right
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each figure in the series is the one before it turned a right angle clockwise. Applying
+    one more right-angle clockwise turn to the third figure gives the figure in option d.
+  assetRefs: []
+assets:
+  - ref: turn-series
+    file: ../assets/turn-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three double-headed arrow paths shown in a row, each one turned a little from the
+      last, followed by a question mark
+    position: 0
+  - ref: turn-option-a
+    file: ../assets/turn-option-a.png
+    role: option
+    visibility: public
+    alt: Double-headed arrow path, option a
+    position: 1
+  - ref: turn-option-b
+    file: ../assets/turn-option-b.png
+    role: option
+    visibility: public
+    alt: Double-headed arrow path, option b
+    position: 2
+  - ref: turn-option-c
+    file: ../assets/turn-option-c.png
+    role: option
+    visibility: public
+    alt: Double-headed arrow path, option c
+    position: 3
+  - ref: turn-option-d
+    file: ../assets/turn-option-d.png
+    role: option
+    visibility: public
+    alt: Double-headed arrow path, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 16
+    section: "Chapter 3 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 3 question 9 answer and solution"

@@ -1,0 +1,46 @@
+id: c5-angles-pratik-after-a-quarter-and-a-half-turn
+slug: pratik-after-a-quarter-and-a-half-turn
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch3-angles-and-turns
+    - c5-ch3-directions
+  primaryTopic: c5-ch3-angles-and-turns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Pratik is facing north. He first makes a 1/4 clockwise turn, followed by a 1/2
+    anti-clockwise turn. In which direction was he facing at the end?
+  options:
+    - id: option-a
+      text: "North"
+    - id: option-b
+      text: "East"
+    - id: option-c
+      text: "West"
+    - id: option-d
+      text: "South"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A full turn is four right angles, so a quarter turn is one right angle and a half turn
+    is two. Pratik makes one right-angle turn clockwise and two anti-clockwise. One turn
+    each way cancels out, leaving a single anti-clockwise right-angle turn, and that takes
+    him from North to West.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 16
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 3 question 6 answer and solution"

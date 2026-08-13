@@ -1,0 +1,37 @@
+topics:
+  - id: c5-ch3-angles-and-turns
+    slug: angles-and-turns
+    title: Angles and Turns
+    position: 1
+    status: published
+  - id: c5-ch3-right-angle-turns
+    slug: right-angle-turns
+    title: Right Angle Turns
+    position: 2
+    parentId: c5-ch3-angles-and-turns
+    status: published
+  - id: c5-ch3-directions
+    slug: directions
+    title: Directions
+    position: 3
+    status: published
+  - id: c5-ch3-rotation
+    slug: rotation
+    title: Rotation
+    position: 4
+    status: published
+  - id: c5-ch3-position-and-seating
+    slug: position-and-seating
+    title: Position and Seating
+    position: 5
+    status: published
+  - id: c5-ch3-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 6
+    status: published
+  - id: c5-ch3-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

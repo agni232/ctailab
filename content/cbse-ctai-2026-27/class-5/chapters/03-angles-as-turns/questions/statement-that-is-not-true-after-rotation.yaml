@@ -1,0 +1,57 @@
+id: c5-angles-statement-that-is-not-true-after-rotation
+slug: statement-that-is-not-true-after-rotation
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch3-rotation
+    - c5-ch3-position-and-seating
+  primaryTopic: c5-ch3-rotation
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Sam rotates Image 2 by a right-angle clockwise turn. If Tom places the rotated Image 2
+    on Image 1, which of the following statements is NOT true?
+  stimulus:
+    assetRefs:
+      - two-ring-images
+  options:
+    - id: option-a
+      text: "A and E overlap with each other"
+    - id: option-b
+      text: "9 and 8 are opposite to each other"
+    - id: option-c
+      text: "F and B are diagonal to each other"
+    - id: option-d
+      text: "9 and 1 overlap with each other"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Rotate Image 2 a right angle clockwise first, then lay it over Image 1 and compare
+    positions. A and E do land on the same spot, 9 and 8 end up on opposite edges, and F
+    and B sit at opposite corners. But 9 and 1 finish in different places, so option d is
+    the statement that is not true.
+  assetRefs: []
+assets:
+  - ref: two-ring-images
+    file: ../assets/two-ring-images.png
+    role: stem
+    visibility: public
+    alt: >-
+      Image 1 is a ring of circles reading A, 9, B, C, 0, D with two filled black circles;
+      Image 2 is a ring reading H, G, 8, F, 1, E with two filled black circles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 15
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 3 question 5 answer and solution"

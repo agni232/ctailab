@@ -1,0 +1,83 @@
+id: c5-angles-image-you-cannot-get-by-rotating
+slug: image-you-cannot-get-by-rotating
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch3-rotation
+    - c5-ch3-shape-patterns
+  primaryTopic: c5-ch3-rotation
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The given question image could be rotated clockwise or anticlockwise multiple times.
+    Which of the following options will you NOT get on rotating the given question image?
+  stimulus:
+    assetRefs:
+      - rotation-question-image
+  options:
+    - id: option-a
+      assetRef: rotation-option-a
+      accessibleLabel: A pinwheel of four white bars on a black square, option a
+    - id: option-b
+      assetRef: rotation-option-b
+      accessibleLabel: A pinwheel of four white bars on a black square, option b
+    - id: option-c
+      assetRef: rotation-option-c
+      accessibleLabel: A pinwheel of four white bars on a black square, option c
+    - id: option-d
+      assetRef: rotation-option-d
+      accessibleLabel: A pinwheel of four white bars on a black square, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Turn the question image a right angle at a time and compare each result with the
+    options. Three of the options appear among those turns, but the arrangement in option b
+    never does, because its bars spin the other way round.
+  assetRefs: []
+assets:
+  - ref: rotation-question-image
+    file: ../assets/rotation-question-image.png
+    role: stem
+    visibility: public
+    alt: >-
+      A black square with four white bars arranged in a pinwheel, labelled Question Image
+    position: 0
+  - ref: rotation-option-a
+    file: ../assets/rotation-option-a.png
+    role: option
+    visibility: public
+    alt: Pinwheel of white bars, option a
+    position: 1
+  - ref: rotation-option-b
+    file: ../assets/rotation-option-b.png
+    role: option
+    visibility: public
+    alt: Pinwheel of white bars, option b
+    position: 2
+  - ref: rotation-option-c
+    file: ../assets/rotation-option-c.png
+    role: option
+    visibility: public
+    alt: Pinwheel of white bars, option c
+    position: 3
+  - ref: rotation-option-d
+    file: ../assets/rotation-option-d.png
+    role: option
+    visibility: public
+    alt: Pinwheel of white bars, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 15
+    section: "Chapter 3 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 3 question 4 answer and solution"

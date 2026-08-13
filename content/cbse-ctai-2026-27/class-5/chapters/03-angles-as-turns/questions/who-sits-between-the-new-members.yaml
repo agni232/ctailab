@@ -1,0 +1,58 @@
+id: c5-angles-who-sits-between-the-new-members
+slug: who-sits-between-the-new-members
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch3-position-and-seating
+    - c5-ch3-logical-puzzles
+  primaryTopic: c5-ch3-position-and-seating
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A, B, C, D, E, and F are seated around a table, facing the centre, with two chairs left
+    empty, as shown below. Two new members join the group. E, C, and B move one seat
+    clockwise, while D and F move one seat anticlockwise. After these changes, the new
+    members occupy the empty chairs. Who is sitting between the two new members?
+  stimulus:
+    assetRefs:
+      - seating-circle
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "E"
+    - id: option-d
+      text: "F"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Move E, C, and B one seat clockwise, then move D and F one seat anticlockwise. A does
+    not move at all, and the two chairs that are still free end up on either side of A. So
+    the new members sit on both sides of A.
+  assetRefs: []
+assets:
+  - ref: seating-circle
+    file: ../assets/seating-circle.png
+    role: stem
+    visibility: public
+    alt: >-
+      Eight seats around a circle, six labelled A, E, C, B, D, and F, and two shown as
+      plain black circles for the empty chairs
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 16
+    section: "Chapter 3 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 3 question 7 answer and solution"

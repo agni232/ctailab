@@ -1,0 +1,46 @@
+id: c5-angles-prachi-after-two-clockwise-turns
+slug: prachi-after-two-clockwise-turns
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c5-ch3-right-angle-turns
+    - c5-ch3-directions
+  primaryTopic: c5-ch3-directions
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Prachi is facing North. She takes a right-angle turn in the clockwise direction. She
+    then takes a right-angle turn again in the clockwise direction. What direction is she
+    facing now?
+  options:
+    - id: option-a
+      text: "North"
+    - id: option-b
+      text: "East"
+    - id: option-c
+      text: "West"
+    - id: option-d
+      text: "South"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The first clockwise right-angle turn takes Prachi from North to East. The second one
+    takes her from East to South. Two right-angle turns the same way always leave you
+    facing the opposite direction.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 15
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 3 question 3 answer and solution"

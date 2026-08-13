@@ -1,0 +1,59 @@
+id: c5-angles-thinking-spot-blocks-to-colour-for-the-birds
+slug: thinking-spot-blocks-to-colour-for-the-birds
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch3-logical-puzzles
+    - c5-ch3-position-and-seating
+  primaryTopic: c5-ch3-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    In the grid given below, colour some of the empty blocks such that each bird has exactly
+    one coloured block adjacent to it. What is the MINIMUM number of blocks that need to be
+    coloured? Note: For two blocks to be adjacent they MUST share one common side. Blocks
+    having only a common corner are not adjacent.
+  stimulus:
+    assetRefs:
+      - bird-grid
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Look for an empty block that sits next to as many birds as possible. One block touches
+    three birds at once, so colouring it takes care of all three. The birds in the top two
+    rows share two empty blocks between them, and colouring either one gives each of the
+    remaining birds exactly one coloured neighbour. So two blocks are enough.
+  assetRefs: []
+assets:
+  - ref: bird-grid
+    file: ../assets/bird-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A five by five grid of squares with black bird silhouettes in some of the squares and
+      the rest left empty
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 27
+    section: "Chapter 3 The Thinking Spot answer and solution"

@@ -1,0 +1,85 @@
+id: c5-angles-image-after-the-blue-boxes-shift
+slug: image-after-the-blue-boxes-shift
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch3-rotation
+    - c5-ch3-position-and-seating
+  primaryTopic: c5-ch3-rotation
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If both the blue boxes shift to the next corner in clockwise direction, how will the
+    image look after the shift?
+  stimulus:
+    assetRefs:
+      - blue-boxes
+  options:
+    - id: option-a
+      assetRef: blue-box-option-a
+      accessibleLabel: Left square with the blue box inside at the bottom right, right square with the blue box at the top right
+    - id: option-b
+      assetRef: blue-box-option-b
+      accessibleLabel: Both squares with the blue box at the top left
+    - id: option-c
+      assetRef: blue-box-option-c
+      accessibleLabel: Left square with the blue box at the top left, right square with the blue box at the bottom right
+    - id: option-d
+      assetRef: blue-box-option-d
+      accessibleLabel: Left square with the blue box at the top left, right square with the blue box at the bottom left
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Move each blue box one corner clockwise on its own square. The box in the bottom-left
+    corner of the first square goes to the top-left corner, and the box in the bottom-right
+    corner of the second square goes to the bottom-left corner. That is the picture in
+    option d.
+  assetRefs: []
+assets:
+  - ref: blue-boxes
+    file: ../assets/blue-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two squares side by side, the first with a blue box in its bottom-left corner and the
+      second with a blue box in its bottom-right corner
+    position: 0
+  - ref: blue-box-option-a
+    file: ../assets/blue-box-option-a.png
+    role: option
+    visibility: public
+    alt: Two squares with blue corner boxes, option a
+    position: 1
+  - ref: blue-box-option-b
+    file: ../assets/blue-box-option-b.png
+    role: option
+    visibility: public
+    alt: Two squares with blue corner boxes, option b
+    position: 2
+  - ref: blue-box-option-c
+    file: ../assets/blue-box-option-c.png
+    role: option
+    visibility: public
+    alt: Two squares with blue corner boxes, option c
+    position: 3
+  - ref: blue-box-option-d
+    file: ../assets/blue-box-option-d.png
+    role: option
+    visibility: public
+    alt: Two squares with blue corner boxes, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 16
+    section: "Chapter 3 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 3 question 10 answer and solution"

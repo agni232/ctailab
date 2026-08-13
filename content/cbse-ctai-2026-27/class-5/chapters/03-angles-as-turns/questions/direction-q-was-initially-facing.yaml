@@ -1,0 +1,47 @@
+id: c5-angles-direction-q-was-initially-facing
+slug: direction-q-was-initially-facing
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch3-right-angle-turns
+    - c5-ch3-directions
+  primaryTopic: c5-ch3-right-angle-turns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    P and Q are standing in a playground. P took a right-angle turn in the clockwise
+    direction and Q took a right-angle turn in the anti-clockwise direction, and now both
+    of them face the same direction. If P is currently facing North, which direction was Q
+    initially facing?
+  options:
+    - id: option-a
+      text: "East"
+    - id: option-b
+      text: "West"
+    - id: option-c
+      text: "South"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Both end up facing the same way, so Q is also facing North now. Q got there with one
+    right-angle turn anti-clockwise, and one anti-clockwise right-angle turn from East
+    lands on North. So Q started out facing East.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 15
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 1 answer and solution"

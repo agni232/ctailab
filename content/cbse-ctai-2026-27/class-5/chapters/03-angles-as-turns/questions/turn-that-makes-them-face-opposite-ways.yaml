@@ -1,0 +1,48 @@
+id: c5-angles-turn-that-makes-them-face-opposite-ways
+slug: turn-that-makes-them-face-opposite-ways
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch3-right-angle-turns
+    - c5-ch3-directions
+  primaryTopic: c5-ch3-right-angle-turns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Rohan and Kamini are facing East. Rohan takes 2 quarter turns in clockwise direction
+    and Kamini takes 2 quarter turns in anti-clockwise direction and then Kamini takes 1
+    quarter turn in clockwise direction. Which of the following will lead Kamini and Rohan
+    to face opposite directions?
+  options:
+    - id: option-a
+      text: "Rohan taking 1 quarter turn in a clockwise direction"
+    - id: option-b
+      text: "Kamini taking 1 quarter turn in a clockwise direction"
+    - id: option-c
+      text: "Rohan taking 2 quarter turns in an anti-clockwise direction"
+    - id: option-d
+      text: "Both options a and b"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Rohan starts facing East and turns two quarters clockwise, so he faces West. Kamini's
+    two anti-clockwise quarters and one clockwise quarter cancel down to a single
+    anti-clockwise quarter turn, so she faces North. One more quarter turn clockwise takes
+    Kamini to East, which is opposite to Rohan's West.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 16
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 3 question 8 answer and solution"

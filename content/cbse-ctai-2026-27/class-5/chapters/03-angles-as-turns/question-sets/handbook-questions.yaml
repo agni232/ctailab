@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 3 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-angles-direction-q-was-initially-facing
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 15
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-arrows-in-the-shaded-block
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 15
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-prachi-after-two-clockwise-turns
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 15
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-image-you-cannot-get-by-rotating
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 15
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-statement-that-is-not-true-after-rotation
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 15
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-pratik-after-a-quarter-and-a-half-turn
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 16
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-who-sits-between-the-new-members
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 16
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-turn-that-makes-them-face-opposite-ways
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 16
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-next-figure-in-the-turning-series
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 16
+    sourceSection: "Chapter 3: Angles as Turns"
+  - questionId: c5-angles-image-after-the-blue-boxes-shift
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 16
+    sourceSection: "Chapter 3: Angles as Turns"
