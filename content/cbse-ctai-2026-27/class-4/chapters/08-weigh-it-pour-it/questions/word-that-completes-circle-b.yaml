@@ -1,0 +1,54 @@
+id: c4-weigh-it-pour-it-word-that-completes-circle-b
+slug: word-that-completes-circle-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch8-units-of-measure
+  primaryTopic: c4-ch8-units-of-measure
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which word should replace the question mark in circle B, such that every word in
+    circle A has a word closely related to it in circle B?
+  stimulus:
+    assetRefs:
+      - word-circles
+  options:
+    - id: option-a
+      text: MINUTES
+    - id: option-b
+      text: STONES
+    - id: option-c
+      text: KILOGRAMS
+    - id: option-d
+      text: BALANCE
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Circle B holds the unit each word in circle A is measured in. Height goes with
+    metres and volume goes with litres, so weight goes with kilograms.
+  assetRefs: []
+assets:
+  - ref: word-circles
+    file: ../assets/word-circles.png
+    role: stem
+    visibility: public
+    alt: >-
+      Circle A holding HEIGHT, WEIGHT, and VOLUME beside circle B holding a question
+      mark, LITRES, and METRES
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 8 question 3 answer and solution"

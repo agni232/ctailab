@@ -1,0 +1,42 @@
+id: c4-equal-groups-expression-with-the-highest-value
+slug: expression-with-the-highest-value
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-multiplication
+    - c4-ch9-number-patterns
+  primaryTopic: c4-ch9-multiplication
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If A = 6, Y is double of B, B is double of Z, and Z is double of A, which of the following expressions has the HIGHEST value?
+  options:
+    - id: option-a
+      text: "2 × B − Z"
+    - id: option-b
+      text: "3 × Z + A"
+    - id: option-c
+      text: "Y + Z − A"
+    - id: option-d
+      text: "2 × Y − B"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Build the values up from A. Z is 12, B is 24, and Y is 48. The options then work out to 36, 42, 54, and 72, so the last one is highest.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 9 question 9 answer and solution"

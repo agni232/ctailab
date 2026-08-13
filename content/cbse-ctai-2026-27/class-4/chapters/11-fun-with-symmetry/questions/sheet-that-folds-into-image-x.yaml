@@ -1,0 +1,79 @@
+id: c4-fun-with-symmetry-sheet-that-folds-into-image-x
+slug: sheet-that-folds-into-image-x
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch11-folding-paper
+    - c4-ch11-symmetry
+  primaryTopic: c4-ch11-folding-paper
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which transparent sheet from the given options, when folded in half as shown by the arrow, will result in Image X?
+  stimulus:
+    assetRefs:
+      - image-x-folded
+  options:
+    - id: option-a
+      assetRef: sheet-option-a
+      accessibleLabel: A transparent sheet design, option a
+    - id: option-b
+      assetRef: sheet-option-b
+      accessibleLabel: A transparent sheet design, option b
+    - id: option-c
+      assetRef: sheet-option-c
+      accessibleLabel: A transparent sheet design, option c
+    - id: option-d
+      assetRef: sheet-option-d
+      accessibleLabel: A transparent sheet design, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Fold each sheet along the arrow and imagine the two halves laid over one another. Only option d lines its marks up to produce exactly the pattern in Image X.
+  assetRefs: []
+assets:
+  - ref: image-x-folded
+    file: ../assets/image-x-folded.png
+    role: stem
+    visibility: public
+    alt: Image X, a square holding a stepped shape and a corner line
+    position: 0
+  - ref: sheet-option-a
+    file: ../assets/sheet-option-a.png
+    role: option
+    visibility: public
+    alt: A transparent sheet design, option a
+    position: 1
+  - ref: sheet-option-b
+    file: ../assets/sheet-option-b.png
+    role: option
+    visibility: public
+    alt: A transparent sheet design, option b
+    position: 2
+  - ref: sheet-option-c
+    file: ../assets/sheet-option-c.png
+    role: option
+    visibility: public
+    alt: A transparent sheet design, option c
+    position: 3
+  - ref: sheet-option-d
+    file: ../assets/sheet-option-d.png
+    role: option
+    visibility: public
+    alt: A transparent sheet design, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 11 question 2 answer and solution"

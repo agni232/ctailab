@@ -1,0 +1,42 @@
+id: c4-fun-with-symmetry-letter-without-both-symmetries
+slug: letter-without-both-symmetries
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-lines-of-symmetry
+    - c4-ch11-letters-and-words
+  primaryTopic: c4-ch11-lines-of-symmetry
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which of the following options DOES not exhibit BOTH vertical and horizontal symmetry together?
+  options:
+    - id: option-a
+      text: "The alphabet 'O'"
+    - id: option-b
+      text: "The alphabet 'E'"
+    - id: option-c
+      text: "The alphabet 'H'"
+    - id: option-d
+      text: "The alphabet 'I'"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    O, H, and I all match themselves when folded left to right and again top to bottom. E only matches when folded top to bottom, so it lacks vertical symmetry.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 11 question 4 answer and solution"

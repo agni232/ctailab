@@ -1,0 +1,51 @@
+id: c4-fun-with-symmetry-how-images-a-and-c-compare
+slug: how-images-a-and-c-compare
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-mirror-images
+    - c4-ch11-symmetry
+  primaryTopic: c4-ch11-mirror-images
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If Images A and C are mirror images of Image B when a mirror is placed along lines PQ and ST, as shown below, then Images A and C will be ______.
+  stimulus:
+    assetRefs:
+      - images-a-b-c-mirrors
+  options:
+    - id: option-a
+      text: "Different from each other"
+    - id: option-b
+      text: "Same as each other"
+    - id: option-c
+      text: "Same as Image B"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Image B is reflected once to the left and once to the right. Both reflections flip the same pattern the same way, so A and C end up identical to each other, though neither matches B.
+  assetRefs: []
+assets:
+  - ref: images-a-b-c-mirrors
+    file: ../assets/images-a-b-c-mirrors.png
+    role: stem
+    visibility: public
+    alt: Three grids labelled Image A, Image B, and Image C, with red mirror lines PQ and ST between them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 11 question 10 answer and solution"

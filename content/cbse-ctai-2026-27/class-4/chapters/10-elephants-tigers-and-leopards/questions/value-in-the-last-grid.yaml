@@ -1,0 +1,51 @@
+id: c4-elephants-tigers-leopards-value-in-the-last-grid
+slug: value-in-the-last-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-grid-rules
+    - c4-ch10-number-patterns
+  primaryTopic: c4-ch10-grid-rules
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Each row follows a certain rule. Choose an option for the box with a question mark.
+  stimulus:
+    assetRefs:
+      - row-rule-grid
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In each row the first number is split by the middle number to give the last one. 82 and 10 give 1 the way 49 and 13 give 4, and applying the same rule to 74 and 11 gives 2.
+  assetRefs: []
+assets:
+  - ref: row-rule-grid
+    file: ../assets/row-rule-grid.png
+    role: stem
+    visibility: public
+    alt: A three by three grid holding 82, 10, 1, then 49, 13, 4, then 74, 11, and a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 10 question 10 answer and solution"

@@ -1,0 +1,37 @@
+topics:
+  - id: c4-ch11-symmetry
+    slug: symmetry
+    title: Symmetry
+    position: 1
+    status: published
+  - id: c4-ch11-lines-of-symmetry
+    slug: lines-of-symmetry
+    title: Lines of Symmetry
+    position: 2
+    parentId: c4-ch11-symmetry
+    status: published
+  - id: c4-ch11-mirror-images
+    slug: mirror-images
+    title: Mirror Images
+    position: 3
+    status: published
+  - id: c4-ch11-folding-paper
+    slug: folding-paper
+    title: Folding Paper
+    position: 4
+    status: published
+  - id: c4-ch11-shape-patterns
+    slug: shape-patterns
+    title: Shape Patterns
+    position: 5
+    status: published
+  - id: c4-ch11-letters-and-words
+    slug: letters-and-words
+    title: Letters and Words
+    position: 6
+    status: published
+  - id: c4-ch11-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

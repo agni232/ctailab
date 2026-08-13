@@ -1,0 +1,79 @@
+id: c4-fun-with-symmetry-folded-circular-paper
+slug: folded-circular-paper
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-folding-paper
+    - c4-ch11-symmetry
+  primaryTopic: c4-ch11-folding-paper
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    As shown below in the question image, a grey circular paper with a round hole in the middle (the white part) is folded along the dotted line. How will it look after folding?
+  stimulus:
+    assetRefs:
+      - circular-paper-fold
+  options:
+    - id: option-a
+      assetRef: fold-option-a
+      accessibleLabel: A folded half ring, option a
+    - id: option-b
+      assetRef: fold-option-b
+      accessibleLabel: A folded half ring, option b
+    - id: option-c
+      assetRef: fold-option-c
+      accessibleLabel: A folded half ring, option c
+    - id: option-d
+      assetRef: fold-option-d
+      accessibleLabel: A folded half ring, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Folding along the line through the middle brings the top half exactly onto the bottom half. The hole folds onto itself, leaving a half ring with a semicircular notch, which matches option c.
+  assetRefs: []
+assets:
+  - ref: circular-paper-fold
+    file: ../assets/circular-paper-fold.jpg
+    role: stem
+    visibility: public
+    alt: A grey ring of paper with a white hole in the middle and a dotted fold line across its centre
+    position: 0
+  - ref: fold-option-a
+    file: ../assets/fold-option-a.png
+    role: option
+    visibility: public
+    alt: A folded half ring, option a
+    position: 1
+  - ref: fold-option-b
+    file: ../assets/fold-option-b.png
+    role: option
+    visibility: public
+    alt: A folded half ring, option b
+    position: 2
+  - ref: fold-option-c
+    file: ../assets/fold-option-c.png
+    role: option
+    visibility: public
+    alt: A folded half ring, option c
+    position: 3
+  - ref: fold-option-d
+    file: ../assets/fold-option-d.png
+    role: option
+    visibility: public
+    alt: A folded half ring, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 11 question 1 answer and solution"

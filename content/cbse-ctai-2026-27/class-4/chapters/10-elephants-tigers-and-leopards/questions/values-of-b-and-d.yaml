@@ -1,0 +1,51 @@
+id: c4-elephants-tigers-leopards-values-of-b-and-d
+slug: values-of-b-and-d
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-digit-puzzles
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-digit-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A, B, C, and D represent different digits in the 4-digit numbers given below. What will come in place of B and D?
+  stimulus:
+    assetRefs:
+      - subtraction-with-letters
+  options:
+    - id: option-a
+      text: "B = 7 and D = 2"
+    - id: option-b
+      text: "B = 8 and D = 6"
+    - id: option-c
+      text: "B = 8 and D = 2"
+    - id: option-d
+      text: "B = 5 and D = 3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work the subtraction column by column from the right, carrying where needed. The digits that make every column work out are B = 8 and D = 2.
+  assetRefs: []
+assets:
+  - ref: subtraction-with-letters
+    file: ../assets/subtraction-with-letters.png
+    role: stem
+    visibility: public
+    alt: A subtraction sum, 5B23 minus A69C leaving 41D9
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 10 question 4 answer and solution"

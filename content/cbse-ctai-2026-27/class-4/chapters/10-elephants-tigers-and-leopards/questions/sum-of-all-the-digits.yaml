@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-sum-of-all-the-digits
+slug: sum-of-all-the-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-digit-puzzles
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-digit-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    There is a three-digit number. In this number, one odd digit occurs twice. The third digit is a sum of the digits occurring twice. What is the sum of all the digits?
+  options:
+    - id: option-a
+      text: "4 or 12"
+    - id: option-b
+      text: "12 or 20"
+    - id: option-c
+      text: "20 or 28"
+    - id: option-d
+      text: "28 or 36"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The repeated digit is odd, and doubling it must still leave a single digit, so it is 1 or 3. If it is 1 the third digit is 2 and the total is 1 + 1 + 2 = 4. If it is 3 the third digit is 6 and the total is 3 + 3 + 6 = 12.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 10 question 1 answer and solution"

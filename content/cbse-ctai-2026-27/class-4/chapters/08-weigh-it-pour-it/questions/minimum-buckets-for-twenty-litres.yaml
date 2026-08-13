@@ -1,0 +1,56 @@
+id: c4-weigh-it-pour-it-minimum-buckets-for-twenty-litres
+slug: minimum-buckets-for-twenty-litres
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-capacity
+  primaryTopic: c4-ch8-capacity
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    You have buckets of capacities 5 litres, 3 litres, and 1 litre. You may use any
+    bucket more than once, but each type must be used at least once. What is the minimum
+    number of buckets required to hold EXACTLY 20 litres of water? Each bucket must be
+    filled completely.
+  stimulus:
+    assetRefs:
+      - three-buckets
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Four 5-litre buckets would make 20 litres, but then the 3-litre and 1-litre buckets
+    never get used. Using three 5-litre buckets gives 15 litres, and the remaining 5
+    litres come from one 3-litre bucket and two 1-litre buckets. That is 6 buckets in
+    total.
+  assetRefs: []
+assets:
+  - ref: three-buckets
+    file: ../assets/three-buckets.jpg
+    role: stem
+    visibility: public
+    alt: Three spotted buckets labelled 5 litres, 3 litres, and 1 litre
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 8 question 5 answer and solution"

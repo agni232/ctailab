@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-total-that-cannot-be-true
+slug: total-that-cannot-be-true
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-money
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-money
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    B has some money which could be in denominations of Rs. 10, Rs. 20, or Rs. 50. If B has four notes and only two types (denominations) of currency notes, then which of the following CANNOT be true regarding the amount of money B has?
+  options:
+    - id: option-a
+      text: "B has a total of 50 Rupees"
+    - id: option-b
+      text: "B has a total of 70 Rupees"
+    - id: option-c
+      text: "B has a total of 90 Rupees"
+    - id: option-d
+      text: "B has a total of 110 Rupees"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Try four notes drawn from exactly two denominations. 10+10+10+20 makes 50, 10+10+20+30 is not allowed but 10+20+20+20 makes 70, and 20+20+20+50 makes 110. There is no way to reach 90 with four notes from just two denominations.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 10 question 3 answer and solution"

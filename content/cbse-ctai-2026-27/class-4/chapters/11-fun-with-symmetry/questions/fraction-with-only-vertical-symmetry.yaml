@@ -1,0 +1,42 @@
+id: c4-fun-with-symmetry-fraction-with-only-vertical-symmetry
+slug: fraction-with-only-vertical-symmetry
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch11-letters-and-words
+    - c4-ch11-lines-of-symmetry
+  primaryTopic: c4-ch11-letters-and-words
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Some letters are written on the board: V, N, A, H, U, X, C, D, K. What fraction of these letters have only vertical symmetry?
+  options:
+    - id: option-a
+      text: "2/3"
+    - id: option-b
+      text: "1/3"
+    - id: option-c
+      text: "1/2"
+    - id: option-d
+      text: "5/6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Check each of the nine letters for a left-to-right fold that matches, and rule out any that also fold top to bottom. V, A, and U qualify on their own, which is 3 out of 9, or 1/3.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 11 question 8 answer and solution"

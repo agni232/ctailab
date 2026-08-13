@@ -1,0 +1,51 @@
+id: c4-fun-with-symmetry-symmetry-in-the-given-figure
+slug: symmetry-in-the-given-figure
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-lines-of-symmetry
+    - c4-ch11-symmetry
+  primaryTopic: c4-ch11-lines-of-symmetry
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Which type of symmetry(s) is/are present in the given figure?
+  stimulus:
+    assetRefs:
+      - l-shaped-figure
+  options:
+    - id: option-a
+      text: "Vertical Symmetry"
+    - id: option-b
+      text: "Horizontal Symmetry"
+    - id: option-c
+      text: "Both of these"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Fold the shape down the middle and the two halves do not match. Fold it across the middle and they do not match either. The figure has neither kind of symmetry.
+  assetRefs: []
+assets:
+  - ref: l-shaped-figure
+    file: ../assets/l-shaped-figure.png
+    role: stem
+    visibility: public
+    alt: An L-shaped outline made of straight edges
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 11 question 7 answer and solution"

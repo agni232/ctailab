@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch11-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 11 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-fun-with-symmetry-folded-circular-paper
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 41
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-sheet-that-folds-into-image-x
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 41
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-pattern-on-the-folded-paper
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 41
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-letter-without-both-symmetries
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 41
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-mirror-image-of-image-a
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 42
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-next-bird-in-the-series
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 42
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-symmetry-in-the-given-figure
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 42
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-fraction-with-only-vertical-symmetry
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 42
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-image-that-makes-it-symmetrical
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 42
+    sourceSection: "Chapter 11: Fun with Symmetry"
+  - questionId: c4-fun-with-symmetry-how-images-a-and-c-compare
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 43
+    sourceSection: "Chapter 11: Fun with Symmetry"

@@ -1,0 +1,82 @@
+id: c4-elephants-tigers-leopards-result-of-the-dollar-operator
+slug: result-of-the-dollar-operator
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-number-patterns
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-number-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - dollar-operator-terms
+  options:
+    - id: option-a
+      assetRef: dollar-option-a
+      accessibleLabel: The number 66
+    - id: option-b
+      assetRef: dollar-option-b
+      accessibleLabel: The number 62
+    - id: option-c
+      assetRef: dollar-option-c
+      accessibleLabel: The number 42
+    - id: option-d
+      assetRef: dollar-option-d
+      accessibleLabel: The number 46
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    In each block the two stacked 2-digit numbers combine digit by digit to give the
+    result. Checking that against the first two blocks and applying it to 52 over 14
+    gives 46.
+  assetRefs: []
+assets:
+  - ref: dollar-operator-terms
+    file: ../assets/dollar-operator-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three blocks each showing two stacked 2-digit numbers joined by a dollar sign and
+      an equals sign, the last one ending in a question mark
+    position: 0
+  - ref: dollar-option-a
+    file: ../assets/dollar-option-a.png
+    role: option
+    visibility: public
+    alt: The number 66
+    position: 1
+  - ref: dollar-option-b
+    file: ../assets/dollar-option-b.png
+    role: option
+    visibility: public
+    alt: The number 62
+    position: 2
+  - ref: dollar-option-c
+    file: ../assets/dollar-option-c.png
+    role: option
+    visibility: public
+    alt: The number 42
+    position: 3
+  - ref: dollar-option-d
+    file: ../assets/dollar-option-d.png
+    role: option
+    visibility: public
+    alt: The number 46
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 10 question 7 answer and solution"

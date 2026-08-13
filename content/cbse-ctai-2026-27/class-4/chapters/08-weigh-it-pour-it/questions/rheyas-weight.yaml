@@ -1,0 +1,44 @@
+id: c4-weigh-it-pour-it-rheyas-weight
+slug: rheyas-weight
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch8-weight
+    - c4-ch8-comparing-weights
+  primaryTopic: c4-ch8-weight
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Rheya weighs 18 kg less than her father. Her father weighs 10 kg more than her
+    mother. If her mother's weight is 65 kg, find Rheya's weight.
+  options:
+    - id: option-a
+      text: 57 kg
+    - id: option-b
+      text: 59 kg
+    - id: option-c
+      text: 47 kg
+    - id: option-d
+      text: 49 kg
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Start from the mother at 65 kg. The father is 10 kg more, so 75 kg. Rheya is 18 kg
+    less than her father, so 75 − 18 = 57 kg.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 67
+    section: "Chapter 8 question 7 answer and solution"

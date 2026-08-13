@@ -1,0 +1,42 @@
+id: c4-equal-groups-number-that-triples-when-22-is-added
+slug: number-that-triples-when-22-is-added
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch9-multiplication
+    - c4-ch9-reasoning-with-clues
+  primaryTopic: c4-ch9-multiplication
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    When 22 is added to a number, the resultant number is three times the number itself. What was the number?
+  options:
+    - id: option-a
+      text: "11"
+    - id: option-b
+      text: "22"
+    - id: option-c
+      text: "33"
+    - id: option-d
+      text: "44"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Adding 22 turns the number into three of itself, so the 22 must equal two of the number. That makes the number 11, and 11 + 22 = 33, which is three 11s.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 9 question 1 answer and solution"

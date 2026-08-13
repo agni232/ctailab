@@ -1,0 +1,83 @@
+id: c4-elephants-tigers-leopards-missing-box-in-the-grid
+slug: missing-box-in-the-grid
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-grid-rules
+    - c4-ch10-number-patterns
+  primaryTopic: c4-ch10-grid-rules
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If all the rows and columns follow the same rule, then find the missing box in the
+    given image.
+  stimulus:
+    assetRefs:
+      - black-and-white-number-grid
+  options:
+    - id: option-a
+      assetRef: grid-cell-option-a
+      accessibleLabel: The number 3 on a white background
+    - id: option-b
+      assetRef: grid-cell-option-b
+      accessibleLabel: The number 3 on a black background
+    - id: option-c
+      assetRef: grid-cell-option-c
+      accessibleLabel: The number 11 on a white background
+    - id: option-d
+      assetRef: grid-cell-option-d
+      accessibleLabel: The number 11 on a black background
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The number follows the rule the rows and columns share, and the shading follows its
+    own pattern across the grid. Both together point to 11 on a black background.
+  assetRefs: []
+assets:
+  - ref: black-and-white-number-grid
+    file: ../assets/black-and-white-number-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A three by three grid of numbers, some on black backgrounds and some on white,
+      with a question mark in one cell
+    position: 0
+  - ref: grid-cell-option-a
+    file: ../assets/grid-cell-option-a.png
+    role: option
+    visibility: public
+    alt: The number 3 on a white background
+    position: 1
+  - ref: grid-cell-option-b
+    file: ../assets/grid-cell-option-b.png
+    role: option
+    visibility: public
+    alt: The number 3 on a black background
+    position: 2
+  - ref: grid-cell-option-c
+    file: ../assets/grid-cell-option-c.png
+    role: option
+    visibility: public
+    alt: The number 11 on a white background
+    position: 3
+  - ref: grid-cell-option-d
+    file: ../assets/grid-cell-option-d.png
+    role: option
+    visibility: public
+    alt: The number 11 on a black background
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 10 question 8 answer and solution"

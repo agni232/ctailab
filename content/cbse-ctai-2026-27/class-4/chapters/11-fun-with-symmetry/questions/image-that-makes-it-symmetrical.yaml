@@ -1,0 +1,79 @@
+id: c4-fun-with-symmetry-image-that-makes-it-symmetrical
+slug: image-that-makes-it-symmetrical
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch11-symmetry
+    - c4-ch11-lines-of-symmetry
+  primaryTopic: c4-ch11-symmetry
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which image will come in place of the question mark if the Question image is symmetrical?
+  stimulus:
+    assetRefs:
+      - symmetrical-question-image
+  options:
+    - id: option-a
+      assetRef: symmetry-option-a
+      accessibleLabel: A corner piece, option a
+    - id: option-b
+      assetRef: symmetry-option-b
+      accessibleLabel: A corner piece, option b
+    - id: option-c
+      assetRef: symmetry-option-c
+      accessibleLabel: A corner piece, option c
+    - id: option-d
+      assetRef: symmetry-option-d
+      accessibleLabel: A corner piece, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    For the whole picture to be symmetrical, the missing corner has to mirror the corner opposite it. Option b is the piece that balances the figure.
+  assetRefs: []
+assets:
+  - ref: symmetrical-question-image
+    file: ../assets/symmetrical-question-image.png
+    role: stem
+    visibility: public
+    alt: A square holding a black cross shape with a question mark in the lower left corner
+    position: 0
+  - ref: symmetry-option-a
+    file: ../assets/symmetry-option-a.png
+    role: option
+    visibility: public
+    alt: A corner piece, option a
+    position: 1
+  - ref: symmetry-option-b
+    file: ../assets/symmetry-option-b.png
+    role: option
+    visibility: public
+    alt: A corner piece, option b
+    position: 2
+  - ref: symmetry-option-c
+    file: ../assets/symmetry-option-c.png
+    role: option
+    visibility: public
+    alt: A corner piece, option c
+    position: 3
+  - ref: symmetry-option-d
+    file: ../assets/symmetry-option-d.png
+    role: option
+    visibility: public
+    alt: A corner piece, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 11 question 9 answer and solution"

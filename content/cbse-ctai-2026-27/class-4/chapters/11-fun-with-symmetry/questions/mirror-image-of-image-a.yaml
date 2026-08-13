@@ -1,0 +1,78 @@
+id: c4-fun-with-symmetry-mirror-image-of-image-a
+slug: mirror-image-of-image-a
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-mirror-images
+  primaryTopic: c4-ch11-mirror-images
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which of the following options represents the mirror image of Image A when the mirror is placed along line XY?
+  stimulus:
+    assetRefs:
+      - image-a-with-mirror
+  options:
+    - id: option-a
+      assetRef: mirror-option-a
+      accessibleLabel: A reflected stack of boxes, option a
+    - id: option-b
+      assetRef: mirror-option-b
+      accessibleLabel: A reflected stack of boxes, option b
+    - id: option-c
+      assetRef: mirror-option-c
+      accessibleLabel: A reflected stack of boxes, option c
+    - id: option-d
+      assetRef: mirror-option-d
+      accessibleLabel: A reflected stack of boxes, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A mirror swaps left and right while leaving top and bottom alone. Flipping the stack of boxes that way gives option c.
+  assetRefs: []
+assets:
+  - ref: image-a-with-mirror
+    file: ../assets/image-a-with-mirror.png
+    role: stem
+    visibility: public
+    alt: Image A, a stack of open boxes drawn beside a mirror line marked X at the top and Y at the bottom
+    position: 0
+  - ref: mirror-option-a
+    file: ../assets/mirror-option-a.png
+    role: option
+    visibility: public
+    alt: A reflected stack of boxes, option a
+    position: 1
+  - ref: mirror-option-b
+    file: ../assets/mirror-option-b.png
+    role: option
+    visibility: public
+    alt: A reflected stack of boxes, option b
+    position: 2
+  - ref: mirror-option-c
+    file: ../assets/mirror-option-c.png
+    role: option
+    visibility: public
+    alt: A reflected stack of boxes, option c
+    position: 3
+  - ref: mirror-option-d
+    file: ../assets/mirror-option-d.png
+    role: option
+    visibility: public
+    alt: A reflected stack of boxes, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 11 question 5 answer and solution"

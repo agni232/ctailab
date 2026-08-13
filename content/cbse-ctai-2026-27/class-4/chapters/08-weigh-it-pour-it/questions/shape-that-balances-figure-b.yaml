@@ -1,0 +1,86 @@
+id: c4-weigh-it-pour-it-shape-that-balances-figure-b
+slug: shape-that-balances-figure-b
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-balance-scales
+    - c4-ch8-weight
+  primaryTopic: c4-ch8-balance-scales
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In Figure A, the balance is equal and each shape has a different weight. Using this
+    information, determine which option, when placed in place of the "?", will balance
+    the scale in Figure B.
+  stimulus:
+    assetRefs:
+      - two-balances
+  options:
+    - id: option-a
+      assetRef: balance-option-a
+      accessibleLabel: One purple triangle and one orange circle
+    - id: option-b
+      assetRef: balance-option-b
+      accessibleLabel: Two purple triangles
+    - id: option-c
+      assetRef: balance-option-c
+      accessibleLabel: One blue square
+    - id: option-d
+      assetRef: balance-option-d
+      accessibleLabel: Two yellow stars
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In Figure A the blue square and the orange circle sit on both pans, so take them off
+    both sides and the scale still balances. That leaves two purple triangles matching
+    one yellow star, so a star is balanced by two purple triangles.
+  assetRefs: []
+assets:
+  - ref: two-balances
+    file: ../assets/two-balances.png
+    role: stem
+    visibility: public
+    alt: >-
+      Balance A holding two purple triangles, a blue square, and an orange circle against
+      a yellow star, a blue square, and an orange circle, and balance B holding a yellow
+      star against a question mark
+    position: 0
+  - ref: balance-option-a
+    file: ../assets/balance-option-a.png
+    role: option
+    visibility: public
+    alt: One purple triangle and one orange circle
+    position: 1
+  - ref: balance-option-b
+    file: ../assets/balance-option-b.png
+    role: option
+    visibility: public
+    alt: Two purple triangles
+    position: 2
+  - ref: balance-option-c
+    file: ../assets/balance-option-c.png
+    role: option
+    visibility: public
+    alt: One blue square
+    position: 3
+  - ref: balance-option-d
+    file: ../assets/balance-option-d.png
+    role: option
+    visibility: public
+    alt: Two yellow stars
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 8 question 2 answer and solution"

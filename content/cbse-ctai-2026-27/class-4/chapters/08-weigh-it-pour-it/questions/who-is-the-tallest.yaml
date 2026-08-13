@@ -1,0 +1,45 @@
+id: c4-weigh-it-pour-it-who-is-the-tallest
+slug: who-is-the-tallest
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-reasoning-with-clues
+    - c4-ch8-comparing-weights
+  primaryTopic: c4-ch8-reasoning-with-clues
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A is taller than B and heavier than C. C is taller than D and heavier than E. If a
+    heavier person is always taller, then who is the tallest?
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Because heavier always means taller, A being heavier than C makes A taller than C,
+    and C being heavier than E makes C taller than E. Adding the direct facts that A is
+    taller than B and C is taller than D, A ends up above everyone.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 8 question 9 answer and solution"

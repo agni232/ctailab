@@ -1,0 +1,42 @@
+id: c4-equal-groups-sisters-of-rajs-sister
+slug: sisters-of-rajs-sister
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-multiplication
+    - c4-ch9-reasoning-with-clues
+  primaryTopic: c4-ch9-multiplication
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The number of sisters that Raj has is double the number of brothers he has. Raj does not have more than 5 brothers. At most, how many sisters will any sister of Raj have?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    To make the number biggest, give Raj the most brothers allowed, which is 5. Then he has 10 sisters. Any one of those sisters counts the other 9 as her sisters.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 9 question 8 answer and solution"

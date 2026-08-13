@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch9-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 9 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-equal-groups-number-that-triples-when-22-is-added
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-numbers-possible-opposite-one
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-mayanks-position-from-the-right
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-rule-of-the-number-sequence
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-how-radha-finds-her-total
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-days-for-the-lily-to-cover-half
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-students-the-vehicle-can-carry
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-sisters-of-rajs-sister
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-expression-with-the-highest-value
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 37
+    sourceSection: "Chapter 9: Equal Groups"
+  - questionId: c4-equal-groups-squares-that-cannot-be-cut
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 38
+    sourceSection: "Chapter 9: Equal Groups"

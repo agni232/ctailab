@@ -1,0 +1,42 @@
+id: c4-equal-groups-how-radha-finds-her-total
+slug: how-radha-finds-her-total
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch9-multiplication
+    - c4-ch9-equal-groups
+  primaryTopic: c4-ch9-multiplication
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Radha has some five-rupee coins. Her friend Seeta asks how much money she has. What should Radha do to answer Seeta's question?
+  options:
+    - id: option-a
+      text: "Multiply the number of five-rupee coins she has with 2"
+    - id: option-b
+      text: "Multiply the number of five-rupee coins she has with 5"
+    - id: option-c
+      text: "Multiply the number of five-rupee coins she has with 0.5"
+    - id: option-d
+      text: "Multiply the number of five-rupee coins she has with 50"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Every coin is worth 5 rupees, so the coins make equal groups of 5. Multiplying how many coins she has by 5 gives the total.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 5 answer and solution"

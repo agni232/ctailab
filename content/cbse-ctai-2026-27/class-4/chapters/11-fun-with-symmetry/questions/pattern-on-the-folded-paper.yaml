@@ -1,0 +1,79 @@
+id: c4-fun-with-symmetry-pattern-on-the-folded-paper
+slug: pattern-on-the-folded-paper
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch11-folding-paper
+    - c4-ch11-mirror-images
+  primaryTopic: c4-ch11-folding-paper
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The given paper X is a transparent sheet with the design shown. If paper X is folded along the dotted line, which of the following options represents the pattern that will appear on the folded paper?
+  stimulus:
+    assetRefs:
+      - paper-x
+  options:
+    - id: option-a
+      assetRef: paper-x-option-a
+      accessibleLabel: A folded pattern, option a
+    - id: option-b
+      assetRef: paper-x-option-b
+      accessibleLabel: A folded pattern, option b
+    - id: option-c
+      assetRef: paper-x-option-c
+      accessibleLabel: A folded pattern, option c
+    - id: option-d
+      assetRef: paper-x-option-d
+      accessibleLabel: A folded pattern, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Because the sheet is see-through, folding it lays the design on top of its own mirror image. Combining the teardrop with its flipped copy gives the shape in option a.
+  assetRefs: []
+assets:
+  - ref: paper-x
+    file: ../assets/paper-x.png
+    role: stem
+    visibility: public
+    alt: Paper X, a square holding a teardrop shape with a dotted fold line down the middle
+    position: 0
+  - ref: paper-x-option-a
+    file: ../assets/paper-x-option-a.png
+    role: option
+    visibility: public
+    alt: A folded pattern, option a
+    position: 1
+  - ref: paper-x-option-b
+    file: ../assets/paper-x-option-b.png
+    role: option
+    visibility: public
+    alt: A folded pattern, option b
+    position: 2
+  - ref: paper-x-option-c
+    file: ../assets/paper-x-option-c.png
+    role: option
+    visibility: public
+    alt: A folded pattern, option c
+    position: 3
+  - ref: paper-x-option-d
+    file: ../assets/paper-x-option-d.png
+    role: option
+    visibility: public
+    alt: A folded pattern, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 41
+    section: "Chapter 11 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 11 question 3 answer and solution"

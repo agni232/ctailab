@@ -1,0 +1,79 @@
+id: c4-fun-with-symmetry-next-bird-in-the-series
+slug: next-bird-in-the-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch11-shape-patterns
+    - c4-ch11-mirror-images
+  primaryTopic: c4-ch11-shape-patterns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - bird-series
+  options:
+    - id: option-a
+      assetRef: bird-option-a
+      accessibleLabel: A paper bird figure, option a
+    - id: option-b
+      assetRef: bird-option-b
+      accessibleLabel: A paper bird figure, option b
+    - id: option-c
+      assetRef: bird-option-c
+      accessibleLabel: A paper bird figure, option c
+    - id: option-d
+      assetRef: bird-option-d
+      accessibleLabel: A paper bird figure, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Read along the row and watch how each figure flips compared with the one before it. Carrying that flip on one more step gives option d.
+  assetRefs: []
+assets:
+  - ref: bird-series
+    file: ../assets/bird-series.jpg
+    role: stem
+    visibility: public
+    alt: A row of folded paper bird figures repeating in a pattern, ending in a question mark
+    position: 0
+  - ref: bird-option-a
+    file: ../assets/bird-option-a.jpg
+    role: option
+    visibility: public
+    alt: A paper bird figure, option a
+    position: 1
+  - ref: bird-option-b
+    file: ../assets/bird-option-b.jpg
+    role: option
+    visibility: public
+    alt: A paper bird figure, option b
+    position: 2
+  - ref: bird-option-c
+    file: ../assets/bird-option-c.jpg
+    role: option
+    visibility: public
+    alt: A paper bird figure, option c
+    position: 3
+  - ref: bird-option-d
+    file: ../assets/bird-option-d.jpg
+    role: option
+    visibility: public
+    alt: A paper bird figure, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 42
+    section: "Chapter 11 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 11 question 6 answer and solution"

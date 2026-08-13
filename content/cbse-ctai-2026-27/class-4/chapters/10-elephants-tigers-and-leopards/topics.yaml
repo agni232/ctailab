@@ -1,0 +1,38 @@
+topics:
+  - id: c4-ch10-place-value
+    slug: place-value
+    title: Place Value
+    position: 1
+    status: published
+  - id: c4-ch10-digit-puzzles
+    slug: digit-puzzles
+    title: Digit Puzzles
+    position: 2
+    parentId: c4-ch10-place-value
+    status: published
+  - id: c4-ch10-addition-and-subtraction
+    slug: addition-and-subtraction
+    title: Addition and Subtraction
+    position: 3
+    status: published
+  - id: c4-ch10-money
+    slug: money
+    title: Money
+    position: 4
+    status: published
+  - id: c4-ch10-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 5
+    status: published
+  - id: c4-ch10-grid-rules
+    slug: grid-rules
+    title: Grid Rules
+    position: 6
+    parentId: c4-ch10-number-patterns
+    status: published
+  - id: c4-ch10-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

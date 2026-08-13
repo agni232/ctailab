@@ -1,0 +1,42 @@
+id: c4-equal-groups-mayanks-position-from-the-right
+slug: mayanks-position-from-the-right
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-position-and-order
+    - c4-ch9-multiplication
+  primaryTopic: c4-ch9-position-and-order
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In a row of 50 boys, both Deepak and Mayank are positioned at multiples of 10 from the left end. Mayank's position is twice that of Deepak's position, and Deepak is not positioned at the 10th place from the left end. What will be Mayank's position from the right end?
+  options:
+    - id: option-a
+      text: "10th"
+    - id: option-b
+      text: "40th"
+    - id: option-c
+      text: "11th"
+    - id: option-d
+      text: "41st"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Deepak is at a multiple of 10 but not at 10, so he is at 20, which puts Mayank at 40 from the left. Counting from the other end, 50 - 40 + 1 = 11, so Mayank is 11th from the right.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 9 question 3 answer and solution"

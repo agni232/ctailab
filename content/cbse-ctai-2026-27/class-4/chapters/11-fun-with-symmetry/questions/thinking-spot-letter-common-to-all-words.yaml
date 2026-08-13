@@ -1,0 +1,51 @@
+id: c4-fun-with-symmetry-thinking-spot-letter-common-to-all-words
+slug: thinking-spot-letter-common-to-all-words
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch11-logical-puzzles
+    - c4-ch11-letters-and-words
+  primaryTopic: c4-ch11-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Use the letters N, W, and O to fill in the blanks below to form three meaningful 3-letter English words. If none of the words has repeating letters within itself, which letter will be COMMON to all three words?
+  stimulus:
+    assetRefs:
+      - three-word-grid
+  options:
+    - id: option-a
+      text: "Only O"
+    - id: option-b
+      text: "Only N"
+    - id: option-c
+      text: "Both O and N"
+    - id: option-d
+      text: "Both W and O"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Filling the grid so each across and down run makes a real 3-letter word without repeating a letter gives SON, NOW, and OWN. Every one of those contains both O and N.
+  assetRefs: []
+assets:
+  - ref: three-word-grid
+    file: ../assets/three-word-grid.png
+    role: stem
+    visibility: public
+    alt: A crossword-style grid of empty squares already holding the letters S, O, and N
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 43
+    section: "Chapter 11 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 11 The Thinking Spot answer and solution"

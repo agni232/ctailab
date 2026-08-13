@@ -1,0 +1,85 @@
+id: c4-weigh-it-pour-it-relationship-between-stone-weights
+slug: relationship-between-stone-weights
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-comparing-weights
+    - c4-ch8-weight
+  primaryTopic: c4-ch8-comparing-weights
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If the shapes given below represent weighing stones of different weights, which of
+    the following options is definitely true?
+  stimulus:
+    assetRefs:
+      - weight-equations
+  options:
+    - id: option-a
+      assetRef: weight-order-option-a
+      accessibleLabel: Triangle greater than circle greater than square
+    - id: option-b
+      assetRef: weight-order-option-b
+      accessibleLabel: Triangle less than circle less than square
+    - id: option-c
+      assetRef: weight-order-option-c
+      accessibleLabel: Triangle greater than square greater than circle
+    - id: option-d
+      assetRef: weight-order-option-d
+      accessibleLabel: Square greater than triangle greater than circle
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The first line says a triangle weighs the same as a circle plus a square, so the
+    triangle is heavier than either on its own. The second line says a square weighs the
+    same as two circles, so the square is heavier than one circle. Putting those
+    together, triangle > square > circle.
+  assetRefs: []
+assets:
+  - ref: weight-equations
+    file: ../assets/weight-equations.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two equations, a triangle equals a circle plus a square, and a square equals a
+      circle plus a circle
+    position: 0
+  - ref: weight-order-option-a
+    file: ../assets/weight-order-option-a.png
+    role: option
+    visibility: public
+    alt: Triangle greater than circle greater than square
+    position: 1
+  - ref: weight-order-option-b
+    file: ../assets/weight-order-option-b.png
+    role: option
+    visibility: public
+    alt: Triangle less than circle less than square
+    position: 2
+  - ref: weight-order-option-c
+    file: ../assets/weight-order-option-c.png
+    role: option
+    visibility: public
+    alt: Triangle greater than square greater than circle
+    position: 3
+  - ref: weight-order-option-d
+    file: ../assets/weight-order-option-d.png
+    role: option
+    visibility: public
+    alt: Square greater than triangle greater than circle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 8 question 1 answer and solution"

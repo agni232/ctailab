@@ -1,0 +1,49 @@
+id: c4-weigh-it-pour-it-water-in-the-first-six-bottles
+slug: water-in-the-first-six-bottles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-capacity
+    - c4-ch8-reasoning-with-clues
+  primaryTopic: c4-ch8-capacity
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Twenty bottles are arranged from left to right in a single row. The position of a
+    bottle from the left end of the row determines the quantity of water it contains. For
+    example, the first bottle from the left has 1 L of water, the second bottle has 2 L,
+    and so on. If the third bottle from the left is interchanged with the sixth bottle
+    from the right, how many litres of water will finally be present in the first six
+    bottles from the left?
+  options:
+    - id: option-a
+      text: 24 L
+    - id: option-b
+      text: 27 L
+    - id: option-c
+      text: 31 L
+    - id: option-d
+      text: 33 L
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The 6th bottle from the right has 5 bottles after it, so it is the 15th from the
+    left and holds 15 L. Before the swap the first six bottles hold 1 + 2 + 3 + 4 + 5 + 6
+    = 21 L. Swapping the 3 L bottle for the 15 L one adds 12 L, giving 33 L.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 8 question 10 answer and solution"

@@ -1,0 +1,54 @@
+id: c4-equal-groups-thinking-spot-safe-cells-for-the-balloon
+slug: thinking-spot-safe-cells-for-the-balloon
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-logical-puzzles
+  primaryTopic: c4-ch9-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If arrows can only travel straight in the direction they are pointing, then in how
+    many empty cells can you place the balloon such that NO arrow can shoot it?
+  stimulus:
+    assetRefs:
+      - arrow-grid-for-balloon
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Take each arrow and shade every cell in the straight line it points along. Any cell
+    left unshaded is safe. Counting the empty cells no arrow reaches gives 4.
+  assetRefs: []
+assets:
+  - ref: arrow-grid-for-balloon
+    file: ../assets/arrow-grid-for-balloon.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid holding several arrows pointing in different directions, with a balloon
+      drawn beside it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 38
+    section: "Chapter 9 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 9 The Thinking Spot answer and solution"

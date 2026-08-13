@@ -1,0 +1,42 @@
+id: c4-equal-groups-students-the-vehicle-can-carry
+slug: students-the-vehicle-can-carry
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-division
+    - c4-ch9-equal-groups
+  primaryTopic: c4-ch9-division
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    I am a vehicle. To carry a group of 60 students, 8 vehicles like me are needed. To carry a group of 55 students, 7 vehicles like me are needed. How many students can I carry at most?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Try each capacity against both facts. At 8 students per vehicle, 60 students need 8 vehicles because 7 would only hold 56, and 55 students need exactly 7. No other option fits both.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 7 answer and solution"

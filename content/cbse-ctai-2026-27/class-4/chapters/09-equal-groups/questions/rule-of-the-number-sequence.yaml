@@ -1,0 +1,42 @@
+id: c4-equal-groups-rule-of-the-number-sequence
+slug: rule-of-the-number-sequence
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch9-number-patterns
+    - c4-ch9-multiplication
+  primaryTopic: c4-ch9-number-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A sequence of numbers is given: 13, 26, 52, 104, 208. What would be the rule that is governing this sequence?
+  options:
+    - id: option-a
+      text: "Every term is 13 more than the previous term"
+    - id: option-b
+      text: "Every term is thrice the previous term"
+    - id: option-c
+      text: "Every term is two times the previous term"
+    - id: option-d
+      text: "Every term is 26 more than the previous term"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Check one step at a time: 13 doubles to 26, 26 doubles to 52, 52 doubles to 104, and 104 doubles to 208. Each term is twice the one before it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 4 answer and solution"

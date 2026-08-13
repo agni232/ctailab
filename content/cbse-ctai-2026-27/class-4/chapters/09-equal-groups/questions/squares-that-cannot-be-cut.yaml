@@ -1,0 +1,42 @@
+id: c4-equal-groups-squares-that-cannot-be-cut
+slug: squares-that-cannot-be-cut
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch9-division
+    - c4-ch9-equal-groups
+  primaryTopic: c4-ch9-division
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A square sheet has a side length of 10 cm. Among the options given below, how many equal-sized square sheets CANNOT be cut from this sheet such that no portion of the sheet remains?
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "16"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Cutting a square into equal squares with nothing left over means the count has to be a square number: 4 is 2 by 2, 9 is 3 by 3, and 16 is 4 by 4. 10 is not a square number, so it cannot be done.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 38
+    section: "Chapter 9 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 9 question 10 answer and solution"

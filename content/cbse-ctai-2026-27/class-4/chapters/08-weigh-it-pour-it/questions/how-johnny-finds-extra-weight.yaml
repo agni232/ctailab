@@ -1,0 +1,45 @@
+id: c4-weigh-it-pour-it-how-johnny-finds-extra-weight
+slug: how-johnny-finds-extra-weight
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch8-weight
+    - c4-ch8-units-of-measure
+  primaryTopic: c4-ch8-weight
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A flight allows a passenger to carry a maximum of 20 kg of luggage. Johnny already
+    has a bag with him. He wants to find out the maximum additional weight he can carry
+    (other than the bag), without crossing the limit. How can Johnny calculate this?
+  options:
+    - id: option-a
+      text: By adding the weight of bag to 20 kg
+    - id: option-b
+      text: By subtracting the weight of bag from 20 kg
+    - id: option-c
+      text: By multiplying the weight of bag to 20 kg
+    - id: option-d
+      text: None of these
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The bag and anything extra together must stay within 20 kg. So the room left over is
+    20 kg minus whatever the bag already weighs.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 67
+    section: "Chapter 8 question 6 answer and solution"

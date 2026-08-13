@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-digits-that-never-appear
+slug: digits-that-never-appear
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-digit-puzzles
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-digit-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A 4-digit number (which may or may not have repeating digits) is selected such that the sum of its digits is not less than 34. How many single-digit whole numbers will not appear in such numbers?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The largest possible digit sum is 9 + 9 + 9 + 9 = 36, so a total of at least 34 means the digits can only be 7, 8, or 9. Of the ten single-digit whole numbers from 0 to 9, that leaves 7 that never turn up.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 10 question 9 answer and solution"

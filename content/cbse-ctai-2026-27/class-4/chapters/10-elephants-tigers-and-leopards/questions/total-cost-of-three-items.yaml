@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-total-cost-of-three-items
+slug: total-cost-of-three-items
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch10-money
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-money
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Chris bought a notebook for Rs. 120, a compass box for Rs. 20 less than the notebook, and a water bottle for Rs. 80 more than the compass box. What is the total cost of all the three items?
+  options:
+    - id: option-a
+      text: "Rs. 380"
+    - id: option-b
+      text: "Rs. 420"
+    - id: option-c
+      text: "Rs. 400"
+    - id: option-d
+      text: "Rs. 360"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The compass box costs 120 - 20 = Rs. 100 and the water bottle costs 100 + 80 = Rs. 180. Adding all three gives 120 + 100 + 180 = Rs. 400.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 10 question 2 answer and solution"

@@ -1,0 +1,86 @@
+id: c4-elephants-tigers-leopards-thinking-spot-shapes-from-box-one
+slug: thinking-spot-shapes-from-box-one
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-logical-puzzles
+  primaryTopic: c4-ch10-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Sam collects 2 objects of different colours from each box. If all 6 items which he
+    collected from the 3 boxes are of different shapes, which shapes did he select from
+    Box 1?
+  stimulus:
+    assetRefs:
+      - three-shape-boxes
+  options:
+    - id: option-a
+      assetRef: box-one-option-a
+      accessibleLabel: A white circle and a black diamond
+    - id: option-b
+      assetRef: box-one-option-b
+      accessibleLabel: A white circle and a black pentagon
+    - id: option-c
+      assetRef: box-one-option-c
+      accessibleLabel: A black diamond and a white triangle
+    - id: option-d
+      assetRef: box-one-option-d
+      accessibleLabel: A black pentagon and a white triangle
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Box 2 can only give a square and a hexagon, so those two shapes are used up. Box 3
+    must then supply a triangle and a pentagon, since they are its only remaining
+    different-coloured pair. That leaves the circle and the diamond for Box 1, taken one
+    black and one white.
+  assetRefs: []
+assets:
+  - ref: three-shape-boxes
+    file: ../assets/three-shape-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Box 1 holding a black pentagon, a black diamond, a white triangle, and a white
+      circle, Box 2 holding black squares and white hexagons, and Box 3 holding black and
+      white triangles and a white pentagon
+    position: 0
+  - ref: box-one-option-a
+    file: ../assets/box-one-option-a.jpg
+    role: option
+    visibility: public
+    alt: A white circle and a black diamond
+    position: 1
+  - ref: box-one-option-b
+    file: ../assets/box-one-option-b.jpg
+    role: option
+    visibility: public
+    alt: A white circle and a black pentagon
+    position: 2
+  - ref: box-one-option-c
+    file: ../assets/box-one-option-c.jpg
+    role: option
+    visibility: public
+    alt: A black diamond and a white triangle
+    position: 3
+  - ref: box-one-option-d
+    file: ../assets/box-one-option-d.jpg
+    role: option
+    visibility: public
+    alt: A black pentagon and a white triangle
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 40
+    section: "Chapter 10 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 10 The Thinking Spot answer and solution"

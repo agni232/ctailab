@@ -1,0 +1,42 @@
+id: c4-equal-groups-days-for-the-lily-to-cover-half
+slug: days-for-the-lily-to-cover-half
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch9-number-patterns
+    - c4-ch9-multiplication
+  primaryTopic: c4-ch9-number-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    In the middle of a round pool lies a beautiful water lily. The water lily doubles in size every day. After exactly 20 days, the lily will cover the complete pool. After how many days will the water lily cover half of the pool?
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "19"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Work backwards. The lily doubles each day, so the day before it fills the pool it must have covered exactly half. That is day 19.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 37
+    section: "Chapter 9 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 9 question 6 answer and solution"

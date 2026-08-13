@@ -1,0 +1,56 @@
+id: c4-weigh-it-pour-it-bottles-left-empty
+slug: bottles-left-empty
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-capacity
+  primaryTopic: c4-ch8-capacity
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A water cooler has 35 litres of water. There are two bags of empty bottles. One
+    contains 5 bottles of 3 litre capacity each and the other contains 8 bottles of 5
+    litre capacity each. You have to empty the water cooler by filling in at least one
+    bottle from each bag. When a bottle is picked, it must be filled completely. What is
+    the MAXIMUM number of bottles that can be left empty, finally?
+  stimulus:
+    assetRefs:
+      - water-cooler
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    There are 13 bottles in all. To leave as many empty as possible, use the biggest
+    ones. Filling six 5-litre bottles and at least one 3-litre bottle uses up all 35
+    litres in 9 bottles, leaving 4 empty.
+  assetRefs: []
+assets:
+  - ref: water-cooler
+    file: ../assets/water-cooler.jpg
+    role: supporting
+    visibility: public
+    alt: A water cooler with a full bottle on top
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 34
+    section: "Chapter 8 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 8 question 4 answer and solution"

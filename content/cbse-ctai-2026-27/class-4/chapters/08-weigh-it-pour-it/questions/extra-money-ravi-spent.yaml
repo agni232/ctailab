@@ -1,0 +1,56 @@
+id: c4-weigh-it-pour-it-extra-money-ravi-spent
+slug: extra-money-ravi-spent
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch8-money
+    - c4-ch8-units-of-measure
+  primaryTopic: c4-ch8-money
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Ravi's mother asked him to purchase 3 kg of mangoes and 2 kg of papaya. However, Ravi
+    ended up buying 2 kg of mangoes and 3 kg of strawberry instead. How much extra money
+    did he spend on fruits compared to his mother's list?
+  stimulus:
+    assetRefs:
+      - fruit-price-table
+  options:
+    - id: option-a
+      text: Rs. 10
+    - id: option-b
+      text: Rs. 20
+    - id: option-c
+      text: Rs. 40
+    - id: option-d
+      text: Rs. 50
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The list would have cost 3 × 100 + 2 × 170 = Rs. 640. What Ravi actually bought cost
+    2 × 100 + 3 × 150 = Rs. 650. He spent Rs. 10 more than he needed to.
+  assetRefs: []
+assets:
+  - ref: fruit-price-table
+    file: ../assets/fruit-price-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A price table listing apples Rs. 50, mangoes Rs. 100, strawberry Rs. 150, and
+      papaya Rs. 170 per kilogram
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 35
+    section: "Chapter 8 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 67
+    section: "Chapter 8 question 8 answer and solution"

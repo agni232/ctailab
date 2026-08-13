@@ -1,0 +1,45 @@
+id: c4-weigh-it-pour-it-thinking-spot-numbers-opposite-two
+slug: thinking-spot-numbers-opposite-two
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch8-logical-puzzles
+  primaryTopic: c4-ch8-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    For a six-faced dice with the numbers 1 to 6 written on its faces (one number on each
+    face), which of the following statements can be definitely implied from the statement
+    given below? Statement: All numbers opposite to 2 are less than it.
+  options:
+    - id: option-a
+      text: 3 is written adjacent to 2
+    - id: option-b
+      text: 3 is written opposite to 2
+    - id: option-c
+      text: 4 is written opposite to 5
+    - id: option-d
+      text: None of these
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each face has one opposite face and four adjacent ones. The only number below 2 is 1,
+    so 1 must be opposite 2. That leaves 3, 4, 5, and 6 all touching 2, so 3 is certainly
+    adjacent to it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 36
+    section: "Chapter 8 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 8 The Thinking Spot answer and solution"

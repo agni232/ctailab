@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-minimum-digit-sum-of-a-palindrome
+slug: minimum-digit-sum-of-a-palindrome
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch10-place-value
+    - c4-ch10-digit-puzzles
+  primaryTopic: c4-ch10-place-value
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    When the digits of a 3-digit number are reversed, the difference between the new number and the original number comes out to be zero. What is the minimum possible sum of the digits of the original number?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A difference of zero means the reversed number is the same as the original, so the first and last digits match. The smallest such 3-digit number is 101, whose digits add to 1 + 0 + 1 = 2.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 10 question 6 answer and solution"

@@ -1,0 +1,43 @@
+topics:
+  - id: c4-ch8-weight
+    slug: weight
+    title: Weight
+    position: 1
+    status: published
+  - id: c4-ch8-balance-scales
+    slug: balance-scales
+    title: Balance Scales
+    position: 2
+    parentId: c4-ch8-weight
+    status: published
+  - id: c4-ch8-comparing-weights
+    slug: comparing-weights
+    title: Comparing Weights
+    position: 3
+    parentId: c4-ch8-weight
+    status: published
+  - id: c4-ch8-capacity
+    slug: capacity
+    title: Capacity
+    position: 4
+    status: published
+  - id: c4-ch8-units-of-measure
+    slug: units-of-measure
+    title: Units of Measure
+    position: 5
+    status: published
+  - id: c4-ch8-money
+    slug: money
+    title: Money
+    position: 6
+    status: published
+  - id: c4-ch8-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 7
+    status: published
+  - id: c4-ch8-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

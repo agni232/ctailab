@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch8-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 8 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-weigh-it-pour-it-relationship-between-stone-weights
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-shape-that-balances-figure-b
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-word-that-completes-circle-b
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-bottles-left-empty
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 34
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-minimum-buckets-for-twenty-litres
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-how-johnny-finds-extra-weight
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-rheyas-weight
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-extra-money-ravi-spent
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-who-is-the-tallest
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"
+  - questionId: c4-weigh-it-pour-it-water-in-the-first-six-bottles
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 35
+    sourceSection: "Chapter 8: Weigh It, Pour It"

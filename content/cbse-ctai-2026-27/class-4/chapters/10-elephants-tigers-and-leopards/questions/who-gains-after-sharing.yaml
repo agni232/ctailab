@@ -1,0 +1,42 @@
+id: c4-elephants-tigers-leopards-who-gains-after-sharing
+slug: who-gains-after-sharing
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch10-money
+    - c4-ch10-addition-and-subtraction
+  primaryTopic: c4-ch10-money
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Ram, Rohit, and Rohan are best friends, and each of them has some money. Ram has Rs. 10 more than Rohit, and Rohan has Rs. 10 less than Rohit. They decide to pool all their money and divide it equally. After the division, who gets more money than what he had before the division?
+  options:
+    - id: option-a
+      text: "Ram"
+    - id: option-b
+      text: "Rohit"
+    - id: option-c
+      text: "Rohan"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Ram is Rs. 10 above Rohit and Rohan is Rs. 10 below, so sharing the pool equally gives everyone what Rohit already had. Ram loses Rs. 10, Rohit stays the same, and Rohan gains Rs. 10.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 39
+    section: "Chapter 10 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 10 question 5 answer and solution"
