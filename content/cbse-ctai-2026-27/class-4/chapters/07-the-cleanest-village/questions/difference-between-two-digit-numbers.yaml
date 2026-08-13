@@ -1,0 +1,54 @@
+id: c4-cleanest-village-difference-between-two-digit-numbers
+slug: difference-between-two-digit-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-making-numbers
+    - c4-ch7-comparing-numbers
+  primaryTopic: c4-ch7-making-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which option represents the difference between the smallest and the largest possible
+    2-digit numbers (with both digits different) which you can form using the digits
+    given below?
+  stimulus:
+    assetRefs:
+      - digit-grid
+  options:
+    - id: option-a
+      text: "66"
+    - id: option-b
+      text: "64"
+    - id: option-c
+      text: "55"
+    - id: option-d
+      text: "98"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The two smallest digits are 3 and 4, giving the smallest number 34. The two largest
+    are 9 and 8, giving the largest number 98. The difference is 98 − 34 = 64.
+  assetRefs: []
+assets:
+  - ref: digit-grid
+    file: ../assets/digit-grid.png
+    role: stem
+    visibility: public
+    alt: A box holding circled digits scattered across it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 32
+    section: "Chapter 7 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 7 question 8 answer and solution"

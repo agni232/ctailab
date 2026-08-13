@@ -1,0 +1,58 @@
+id: c4-cleanest-village-step-the-monkey-must-skip
+slug: step-the-monkey-must-skip
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch7-step-by-step-tracking
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-step-by-step-tracking
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The monkey starts at 0 points and needs to climb the staircase to the END. On each
+    step, it either gains or loses points. Which ONE step must the monkey SKIP to earn
+    exactly 114 points in total?
+  stimulus:
+    assetRefs:
+      - monkey-staircase
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: B
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Try leaving out each step in turn. Skipping B leaves 111 + 117 − 114 = 114, which is
+    exactly right. Skipping C gives −113 and skipping D gives 118, and skipping A loses
+    too many points to ever reach 114.
+  assetRefs: []
+assets:
+  - ref: monkey-staircase
+    file: ../assets/monkey-staircase.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A monkey at 0 points beside a staircase whose steps A, B, C, and D are marked
+      +111, −110, +117, and −114, leading to END
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 57
+    pageEnd: 58
+    section: "Chapter 7 question 2 answer and solution"

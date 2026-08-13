@@ -1,0 +1,47 @@
+id: c4-cleanest-village-balls-left-in-the-container
+slug: balls-left-in-the-container
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-step-by-step-tracking
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-step-by-step-tracking
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    In a container, there are 20 blue balls and 13 red balls. On pressing the Red button,
+    2 blue balls are removed. On pressing the Blue button, 2 red balls are removed. On
+    pressing the Green button, 1 blue ball and 1 red ball are removed. If Sam presses the
+    buttons in the order Red, Green, Blue, Green, then which option shows the balls
+    remaining in the container?
+  options:
+    - id: option-a
+      text: 9 blue balls and 16 red balls
+    - id: option-b
+      text: 16 blue balls and 9 red balls
+    - id: option-c
+      text: 18 blue balls and 8 red balls
+    - id: option-d
+      text: 16 blue balls and 10 red balls
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Follow the presses one at a time from 20 blue and 13 red. Red leaves 18 blue and 13
+    red. Green leaves 17 and 12. Blue leaves 17 and 10. Green leaves 16 blue and 9 red.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 32
+    section: "Chapter 7 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 7 question 7 answer and solution"

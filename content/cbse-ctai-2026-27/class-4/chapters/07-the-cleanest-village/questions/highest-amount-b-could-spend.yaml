@@ -1,0 +1,44 @@
+id: c4-cleanest-village-highest-amount-b-could-spend
+slug: highest-amount-b-could-spend
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-money
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-money
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    A and B have Rs. 200 each. Each of them visited a shop and bought an item. A spent
+    Rs. 110 more than B. What could be the highest possible amount spent by B?
+  options:
+    - id: option-a
+      text: Rs. 200
+    - id: option-b
+      text: Rs. 180
+    - id: option-c
+      text: Rs. 100
+    - id: option-d
+      text: Rs. 90
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Whatever B spends, A spends Rs. 110 more, and A only has Rs. 200. So B can spend at
+    most 200 − 110 = Rs. 90. Any more than that would push A's spending past Rs. 200.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 57
+    section: "Chapter 7 question 1 answer and solution"

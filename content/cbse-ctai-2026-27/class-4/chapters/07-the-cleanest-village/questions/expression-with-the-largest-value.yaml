@@ -1,0 +1,45 @@
+id: c4-cleanest-village-expression-with-the-largest-value
+slug: expression-with-the-largest-value
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-addition-and-subtraction
+    - c4-ch7-comparing-numbers
+  primaryTopic: c4-ch7-addition-and-subtraction
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If @ means addition (+) and # means subtraction (−), which of the following options
+    will give the largest number?
+  options:
+    - id: option-a
+      text: "434 @ 125 # 236"
+    - id: option-b
+      text: "443 @ 121 # 234"
+    - id: option-c
+      text: "457 # 117 @ 233"
+    - id: option-d
+      text: "441 @ 111 # 50"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Swap the symbols for the real signs and work left to right. Option a gives 323,
+    option b gives 330, option c gives 457 − 117 + 233 = 573, and option d gives 502. The
+    largest is option c.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 32
+    section: "Chapter 7 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 7 question 9 answer and solution"

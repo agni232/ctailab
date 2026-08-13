@@ -1,0 +1,53 @@
+id: c4-cleanest-village-missing-total-in-the-diagram
+slug: missing-total-in-the-diagram
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-addition-and-subtraction
+    - c4-ch7-number-patterns
+  primaryTopic: c4-ch7-addition-and-subtraction
+  estimatedMinutes: 3
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - addition-diagrams
+  options:
+    - id: option-a
+      text: "970"
+    - id: option-b
+      text: "989"
+    - id: option-c
+      text: "999"
+    - id: option-d
+      text: "990"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The first diagram says 654 + A = 777, so A must be 123. Using the same A in the
+    second diagram gives 876 + 123 = 999.
+  assetRefs: []
+assets:
+  - ref: addition-diagrams
+    file: ../assets/addition-diagrams.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two diagrams, one showing 654 plus A giving 777 and the other showing 876 plus A
+      giving a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 32
+    section: "Chapter 7 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 7 question 6 answer and solution"

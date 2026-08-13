@@ -1,0 +1,53 @@
+id: c4-cleanest-village-sums-of-adjacent-digits
+slug: sums-of-adjacent-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch7-number-patterns
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-number-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - digit-sum-terms
+  options:
+    - id: option-a
+      text: 5_0_7
+    - id: option-b
+      text: 9_0_7
+    - id: option-c
+      text: 9_7_7
+    - id: option-d
+      text: 9_5_7
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each result adds up neighbouring digits of the 4-digit number. For 2613 that is
+    (2+6)_(6+1)_(1+3) = 8_7_4. Doing the same to 4507 gives (4+5)_(5+0)_(0+7) = 9_5_7.
+  assetRefs: []
+assets:
+  - ref: digit-sum-terms
+    file: ../assets/digit-sum-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows each showing a 4-digit number, an arrow, and a result written with
+      underscores, the last one ending in a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 32
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 7 question 10 answer and solution"

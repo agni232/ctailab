@@ -1,0 +1,42 @@
+topics:
+  - id: c4-ch7-addition-and-subtraction
+    slug: addition-and-subtraction
+    title: Addition and Subtraction
+    position: 1
+    status: published
+  - id: c4-ch7-money
+    slug: money
+    title: Money
+    position: 2
+    status: published
+  - id: c4-ch7-place-value
+    slug: place-value
+    title: Place Value
+    position: 3
+    status: published
+  - id: c4-ch7-making-numbers
+    slug: making-numbers
+    title: Making Numbers
+    position: 4
+    parentId: c4-ch7-place-value
+    status: published
+  - id: c4-ch7-comparing-numbers
+    slug: comparing-numbers
+    title: Comparing Numbers
+    position: 5
+    status: published
+  - id: c4-ch7-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 6
+    status: published
+  - id: c4-ch7-step-by-step-tracking
+    slug: step-by-step-tracking
+    title: Step by Step Tracking
+    position: 7
+    status: published
+  - id: c4-ch7-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

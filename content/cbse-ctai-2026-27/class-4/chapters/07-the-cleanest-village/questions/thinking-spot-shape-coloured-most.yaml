@@ -1,0 +1,81 @@
+id: c4-cleanest-village-thinking-spot-shape-coloured-most
+slug: thinking-spot-shape-coloured-most
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch7-logical-puzzles
+  primaryTopic: c4-ch7-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If you colour all the shapes that are immediately next to a triangle on both sides,
+    which shape will be coloured the maximum number of times?
+  stimulus:
+    assetRefs:
+      - shape-strip
+  options:
+    - id: option-a
+      assetRef: shape-option-a
+      accessibleLabel: A circle
+    - id: option-b
+      assetRef: shape-option-b
+      accessibleLabel: A square
+    - id: option-c
+      assetRef: shape-option-c
+      accessibleLabel: A triangle
+    - id: option-d
+      assetRef: shape-option-d
+      accessibleLabel: A pentagon
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Look along the strip for any shape that has a triangle on its left and a triangle on
+    its right. Counting those, the square qualifies twice, the pentagon twice, and the
+    circle three times, so the circle gets coloured most often.
+  assetRefs: []
+assets:
+  - ref: shape-strip
+    file: ../assets/shape-strip.png
+    role: stem
+    visibility: public
+    alt: A long row of squares, triangles, circles, and pentagons in mixed order
+    position: 0
+  - ref: shape-option-a
+    file: ../assets/shape-option-a.jpg
+    role: option
+    visibility: public
+    alt: A circle
+    position: 1
+  - ref: shape-option-b
+    file: ../assets/shape-option-b.jpg
+    role: option
+    visibility: public
+    alt: A square
+    position: 2
+  - ref: shape-option-c
+    file: ../assets/shape-option-c.jpg
+    role: option
+    visibility: public
+    alt: A triangle
+    position: 3
+  - ref: shape-option-d
+    file: ../assets/shape-option-d.jpg
+    role: option
+    visibility: public
+    alt: A pentagon
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 7 The Thinking Spot answer and solution"

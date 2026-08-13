@@ -1,0 +1,47 @@
+id: c4-cleanest-village-boxes-with-equal-chocolates
+slug: boxes-with-equal-chocolates
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch7-addition-and-subtraction
+    - c4-ch7-step-by-step-tracking
+  primaryTopic: c4-ch7-addition-and-subtraction
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Boxes A, B, and C each have 500 chocolates. Diya removed 222 chocolates from box B
+    and 222 chocolates from box C. Nihal added 111 chocolates to box B, and Jay removed
+    111 chocolates from box A. Which boxes have an equal number of chocolates at the
+    end?
+  options:
+    - id: option-a
+      text: A and B
+    - id: option-b
+      text: A and C
+    - id: option-c
+      text: B and C
+    - id: option-d
+      text: No two boxes have the same number of chocolates
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Work each box out on its own. A goes 500 − 111 = 389. B goes 500 − 222 + 111 = 389.
+    C goes 500 − 222 = 278. Boxes A and B end up level.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 58
+    pageEnd: 59
+    section: "Chapter 7 question 3 answer and solution"

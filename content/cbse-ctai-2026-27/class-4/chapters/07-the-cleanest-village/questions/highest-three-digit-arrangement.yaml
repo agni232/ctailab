@@ -1,0 +1,55 @@
+id: c4-cleanest-village-highest-three-digit-arrangement
+slug: highest-three-digit-arrangement
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch7-making-numbers
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A, B, and C represent 3 different single-digit numbers in the grid given below. If
+    each of these options represents a 3-digit number formed using A, B, and C, find the
+    option having the highest value.
+  stimulus:
+    assetRefs:
+      - abc-equations
+  options:
+    - id: option-a
+      text: BAC
+    - id: option-b
+      text: BCA
+    - id: option-c
+      text: CBA
+    - id: option-d
+      text: ABC
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Solve the little equations first. 4 + A = 5 gives A = 1, C + 5 = 8 gives C = 3, and
+    7 − B = C gives B = 4. Putting the biggest digit first, BCA makes 431, the highest of
+    the four.
+  assetRefs: []
+assets:
+  - ref: abc-equations
+    file: ../assets/abc-equations.png
+    role: stem
+    visibility: public
+    alt: Three boxed equations, 4 plus A equals 5, 7 minus B equals C, and C plus 5 equals 8
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 59
+    section: "Chapter 7 question 4 answer and solution"

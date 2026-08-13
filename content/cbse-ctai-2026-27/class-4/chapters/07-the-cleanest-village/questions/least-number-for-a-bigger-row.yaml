@@ -1,0 +1,56 @@
+id: c4-cleanest-village-least-number-for-a-bigger-row
+slug: least-number-for-a-bigger-row
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch7-comparing-numbers
+    - c4-ch7-addition-and-subtraction
+  primaryTopic: c4-ch7-comparing-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which of the following is the LEAST possible number that can replace the "?" such
+    that the sum of the numbers in Row 2 is GREATER than the sum of the numbers in Row 1?
+  stimulus:
+    assetRefs:
+      - two-number-rows
+  options:
+    - id: option-a
+      text: "221"
+    - id: option-b
+      text: "222"
+    - id: option-c
+      text: "223"
+    - id: option-d
+      text: "224"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Row 1 adds to 227 + 229 + 222 = 678. The two known numbers in Row 2 add to
+    228 + 227 = 455, which is 223 short. The missing number must be more than 223, so the
+    smallest option that works is 224.
+  assetRefs: []
+assets:
+  - ref: two-number-rows
+    file: ../assets/two-number-rows.png
+    role: stem
+    visibility: public
+    alt: >-
+      Row 1 holding 227, 229, and 222, and Row 2 holding a question mark, 228, and 227
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 31
+    section: "Chapter 7 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 59
+    pageEnd: 60
+    section: "Chapter 7 question 5 answer and solution"
