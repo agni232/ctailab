@@ -1,6 +1,6 @@
 id: c3-fair-share-symbols-that-make-three
 slug: symbols-that-make-three
-version: 1
+version: 2
 renderer: single-choice-text
 origin: official-handbook
 language: en
@@ -18,13 +18,13 @@ content:
     of these options results in 3?
   options:
     - id: option-a
-      text: 6 – $ – #
+      text: "6 – $ – #"
     - id: option-b
-      text: 6 – # – &
+      text: "6 – # – &"
     - id: option-c
-      text: 6 + & + #
+      text: "6 + & + #"
     - id: option-d
-      text: 6 – # + &
+      text: "6 – # + &"
 response:
   type: single-choice
 answer:

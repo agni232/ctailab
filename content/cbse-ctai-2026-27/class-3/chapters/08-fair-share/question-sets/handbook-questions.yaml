@@ -1,6 +1,6 @@
 id: cbse-2026-27-c3-ch8-handbook-questions
 slug: handbook-questions
-version: 1
+version: 2
 title: Handbook Questions
 description: The 10 questions from Chapter 8 in the Class 3 student handbook.
 kind: handbook
@@ -35,7 +35,7 @@ items:
     sourcePage: 32
     sourceSection: "Chapter 8: Fair Share"
   - questionId: c3-fair-share-symbols-that-make-three
-    questionVersion: 1
+    questionVersion: 2
     position: 5
     displayNumber: "5"
     sourcePage: 32
