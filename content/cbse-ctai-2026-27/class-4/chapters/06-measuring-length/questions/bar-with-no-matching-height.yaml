@@ -1,0 +1,52 @@
+id: c4-measuring-length-bar-with-no-matching-height
+slug: bar-with-no-matching-height
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-comparing-lengths
+    - c4-ch6-reading-charts
+  primaryTopic: c4-ch6-comparing-lengths
+  estimatedMinutes: 4
+content:
+  prompt: In the set of bars given below, which bar does NOT have any other bar of the SAME height?
+  stimulus:
+    assetRefs:
+      - bars-a-to-f
+  options:
+    - id: option-a
+      text: Bar E
+    - id: option-b
+      text: Bar D
+    - id: option-c
+      text: Bar C
+    - id: option-d
+      text: Bar F
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Use the guide lines running across the picture to match the bars. A and D are the
+    same height, and B, C, and E are the same as each other. That leaves F on its own.
+  assetRefs: []
+assets:
+  - ref: bars-a-to-f
+    file: ../assets/bars-a-to-f.jpg
+    role: stem
+    visibility: public
+    alt: Six grey bars labelled A to F at different heights against a set of guide lines
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 29
+    section: "Chapter 6 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 53
+    pageEnd: 54
+    section: "Chapter 6 question 6 answer and solution"

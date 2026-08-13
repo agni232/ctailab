@@ -1,0 +1,86 @@
+id: c4-measuring-length-tiles-on-the-monkeys-path
+slug: tiles-on-the-monkeys-path
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch6-paths-and-routes
+  primaryTopic: c4-ch6-paths-and-routes
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If the monkey follows the shortest path to reach the banana, which of the following
+    options represents the tiles that will appear immediately one after another on its
+    path? The tiles must appear in the same SEQUENCE as they appear in the original
+    path. The monkey can move only horizontally or vertically along the tiles, not
+    diagonally.
+  stimulus:
+    assetRefs:
+      - monkey-tile-path
+  options:
+    - id: option-a
+      assetRef: tile-sequence-option-a
+      accessibleLabel: Pentagon, diamond, then triangle
+    - id: option-b
+      assetRef: tile-sequence-option-b
+      accessibleLabel: Triangle, parallelogram, then circle
+    - id: option-c
+      assetRef: tile-sequence-option-c
+      accessibleLabel: Parallelogram, pentagon, then triangle
+    - id: option-d
+      assetRef: tile-sequence-option-d
+      accessibleLabel: Pentagon, triangle, then parallelogram
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Trace the shortest route from the monkey to the banana, moving only across or up and
+    down. Reading the shapes along that route, the three tiles in option d appear one
+    straight after another.
+  assetRefs: []
+assets:
+  - ref: monkey-tile-path
+    file: ../assets/monkey-tile-path.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A monkey on the left and a banana on the right joined by a winding trail of tiles,
+      each holding a shape
+    position: 0
+  - ref: tile-sequence-option-a
+    file: ../assets/tile-sequence-option-a.png
+    role: option
+    visibility: public
+    alt: Three tiles, option a
+    position: 1
+  - ref: tile-sequence-option-b
+    file: ../assets/tile-sequence-option-b.png
+    role: option
+    visibility: public
+    alt: Three tiles, option b
+    position: 2
+  - ref: tile-sequence-option-c
+    file: ../assets/tile-sequence-option-c.png
+    role: option
+    visibility: public
+    alt: Three tiles, option c
+    position: 3
+  - ref: tile-sequence-option-d
+    file: ../assets/tile-sequence-option-d.png
+    role: option
+    visibility: public
+    alt: Three tiles, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 29
+    section: "Chapter 6 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 6 question 9 answer and solution"

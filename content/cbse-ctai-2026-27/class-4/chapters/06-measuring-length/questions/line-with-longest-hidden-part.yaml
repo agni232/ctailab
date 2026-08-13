@@ -1,0 +1,77 @@
+id: c4-measuring-length-line-with-longest-hidden-part
+slug: line-with-longest-hidden-part
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-counting-units
+    - c4-ch6-length
+  primaryTopic: c4-ch6-counting-units
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    In the image given below, there are 20 small squares, each of the same size. Which
+    line has the longest part hidden behind the black squares?
+  stimulus:
+    assetRefs:
+      - hidden-lines-grid
+  options:
+    - id: option-a
+      assetRef: line-style-option-a
+      accessibleLabel: The solid line
+    - id: option-b
+      assetRef: line-style-option-b
+      accessibleLabel: The dotted line
+    - id: option-c
+      assetRef: line-style-option-c
+      accessibleLabel: The wavy line
+    - id: option-d
+      text: Both a and b
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Follow each line across the grid and count the squares where it disappears behind a
+    black square. The solid line is hidden in two places and so is the dotted line, but
+    the wavy line is hidden in three, so it has the longest hidden part.
+  assetRefs: []
+assets:
+  - ref: hidden-lines-grid
+    file: ../assets/hidden-lines-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid of 20 small squares, several of them black, with a solid line, a dotted
+      line, and a wavy line running across it
+    position: 0
+  - ref: line-style-option-a
+    file: ../assets/line-style-option-a.png
+    role: option
+    visibility: public
+    alt: A solid line
+    position: 1
+  - ref: line-style-option-b
+    file: ../assets/line-style-option-b.png
+    role: option
+    visibility: public
+    alt: A dotted line
+    position: 2
+  - ref: line-style-option-c
+    file: ../assets/line-style-option-c.png
+    role: option
+    visibility: public
+    alt: A wavy line
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 51
+    section: "Chapter 6 question 1 answer and solution"

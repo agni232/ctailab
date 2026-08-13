@@ -1,0 +1,57 @@
+id: c4-measuring-length-fastest-dog
+slug: fastest-dog
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch6-paths-and-routes
+    - c4-ch6-counting-units
+  primaryTopic: c4-ch6-paths-and-routes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Each of the dogs A, B, and C use the red, yellow, and pink paths (in the same
+    order), to go to their bone. If each dog takes 10 minutes to reach the bone, which
+    dog runs the fastest?
+  stimulus:
+    assetRefs:
+      - three-dog-paths
+  options:
+    - id: option-a
+      text: Dog A
+    - id: option-b
+      text: Dog B
+    - id: option-c
+      text: Dog C
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    All three dogs run for the same 10 minutes, so the fastest is the one that covers
+    the most ground. Counting blocks, the red path is 17, the yellow is 15, and the pink
+    is 19. Dog C covers the most, so Dog C is fastest.
+  assetRefs: []
+assets:
+  - ref: three-dog-paths
+    file: ../assets/three-dog-paths.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with red, yellow, and pink paths joining three numbered bones on the left
+      to dogs A, B, and C on the right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 29
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 6 question 8 answer and solution"

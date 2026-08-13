@@ -1,0 +1,55 @@
+id: c4-measuring-length-line-in-all-three-groups
+slug: line-in-all-three-groups
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-comparing-lengths
+  primaryTopic: c4-ch6-comparing-lengths
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Given below are lines of different lengths. They are to be categorized into three
+    groups based on their lengths: Group 1 for lines taller than line E, Group 2 for
+    lines shorter than line D, and Group 3 for lines taller than line B. Which line will
+    belong to all three groups?
+  stimulus:
+    assetRefs:
+      - lines-a-to-h
+  options:
+    - id: option-a
+      text: A
+    - id: option-b
+      text: F
+    - id: option-c
+      text: C
+    - id: option-d
+      text: D
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Build each group in turn. Taller than E gives A, B, C, D, F, and H. Shorter than D
+    gives A, B, E, G, and H. Taller than B gives A, C, D, and F. Line A is the only one
+    that shows up in all three.
+  assetRefs: []
+assets:
+  - ref: lines-a-to-h
+    file: ../assets/lines-a-to-h.png
+    role: stem
+    visibility: public
+    alt: Eight upright lines of different heights labelled A to H
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 29
+    section: "Chapter 6 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 6 question 5 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c4-ch6-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 6 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c4-measuring-length-line-with-longest-hidden-part
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 28
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-block-that-shrinks-the-perimeter
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 28
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-junctions-on-the-shortest-path
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 28
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-blocks-with-three-different-lines
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 28
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-line-in-all-three-groups
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 29
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-bar-with-no-matching-height
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 29
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-symbols-in-height-order
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 29
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-fastest-dog
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 29
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-tiles-on-the-monkeys-path
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 29
+    sourceSection: "Chapter 6: Measuring Length"
+  - questionId: c4-measuring-length-faces-with-unchanged-perimeter
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 30
+    sourceSection: "Chapter 6: Measuring Length"

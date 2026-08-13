@@ -1,0 +1,54 @@
+id: c4-measuring-length-symbols-in-height-order
+slug: symbols-in-height-order
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-reading-charts
+    - c4-ch6-comparing-lengths
+  primaryTopic: c4-ch6-reading-charts
+  estimatedMinutes: 4
+content:
+  prompt: Which option will come in place of "?"
+  stimulus:
+    assetRefs:
+      - bar-symbol-order-terms
+  options:
+    - id: option-a
+      text: "% + / >"
+    - id: option-b
+      text: "/ % + >"
+    - id: option-c
+      text: "% > + /"
+    - id: option-d
+      text: "% + > /"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each bar carries a symbol, and after the arrow the symbols are listed from the
+    tallest bar down to the shortest. Reading the last set of bars that way gives
+    % + > /.
+  assetRefs: []
+assets:
+  - ref: bar-symbol-order-terms
+    file: ../assets/bar-symbol-order-terms.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels each showing bars labelled with symbols and an arrow pointing to the
+      symbols in order, with the last panel ending in a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 29
+    section: "Chapter 6 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 6 question 7 answer and solution"

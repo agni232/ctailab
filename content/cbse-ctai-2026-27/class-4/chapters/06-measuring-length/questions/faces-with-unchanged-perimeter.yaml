@@ -1,0 +1,57 @@
+id: c4-measuring-length-faces-with-unchanged-perimeter
+slug: faces-with-unchanged-perimeter
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch6-perimeter
+    - c4-ch6-length
+  primaryTopic: c4-ch6-perimeter
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The cube shown below is cut horizontally along the red dotted line into two EQUAL
+    halves. In each resulting shape, how many faces will still have the same perimeter
+    as a face of the original cube?
+  stimulus:
+    assetRefs:
+      - cube-with-cut-line
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Every face of the original cube is a square, so its perimeter is four equal sides.
+    Cutting the cube in half horizontally halves its height, which changes the left,
+    right, front, and back faces. The top and bottom faces keep their original square
+    shape, so 2 faces still have the same perimeter.
+  assetRefs: []
+assets:
+  - ref: cube-with-cut-line
+    file: ../assets/cube-with-cut-line.png
+    role: stem
+    visibility: public
+    alt: A cube with a red dotted line running horizontally around its middle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 55
+    pageEnd: 56
+    section: "Chapter 6 question 10 answer and solution"

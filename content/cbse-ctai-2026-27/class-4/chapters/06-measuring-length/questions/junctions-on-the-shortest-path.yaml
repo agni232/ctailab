@@ -1,0 +1,55 @@
+id: c4-measuring-length-junctions-on-the-shortest-path
+slug: junctions-on-the-shortest-path
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-paths-and-routes
+  primaryTopic: c4-ch6-paths-and-routes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Every coloured line represents a path and through this path the boy on the LEFT can
+    reach the RIGHT side. If he chooses the shortest path, how many junctions will he
+    come across? A junction is the point where any two coloured lines cross each other.
+  stimulus:
+    assetRefs:
+      - coloured-path-maze
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Compare the coloured routes from left to right. The black one is the shortest, and
+    counting every place another line crosses it gives 8 junctions.
+  assetRefs: []
+assets:
+  - ref: coloured-path-maze
+    file: ../assets/coloured-path-maze.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A boy on the left beside several coloured zigzag paths that cross each other on
+      the way to the right side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 6 question 3 answer and solution"

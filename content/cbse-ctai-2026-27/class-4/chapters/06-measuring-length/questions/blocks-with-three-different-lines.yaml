@@ -1,0 +1,52 @@
+id: c4-measuring-length-blocks-with-three-different-lines
+slug: blocks-with-three-different-lines
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch6-comparing-lengths
+    - c4-ch6-counting-units
+  primaryTopic: c4-ch6-comparing-lengths
+  estimatedMinutes: 4
+content:
+  prompt: Count the number of blocks that have ALL THREE lines of different lengths.
+  stimulus:
+    assetRefs:
+      - blocks-of-three-lines
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Take one block at a time and compare its three lines. A block only counts when no
+    two of its lines match. 4 of the blocks pass that test.
+  assetRefs: []
+assets:
+  - ref: blocks-of-three-lines
+    file: ../assets/blocks-of-three-lines.png
+    role: stem
+    visibility: public
+    alt: A grid of blocks, each holding three lines of varying lengths
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 52
+    pageEnd: 53
+    section: "Chapter 6 question 4 answer and solution"

@@ -1,0 +1,55 @@
+id: c4-measuring-length-block-that-shrinks-the-perimeter
+slug: block-that-shrinks-the-perimeter
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch6-perimeter
+  primaryTopic: c4-ch6-perimeter
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If Block __ is removed from the given Figure, the perimeter of the Figure will be
+    decreased. Fill in the blank appropriately.
+  stimulus:
+    assetRefs:
+      - lettered-block-figure
+  options:
+    - id: option-a
+      text: Q
+    - id: option-b
+      text: S
+    - id: option-c
+      text: R
+    - id: option-d
+      text: P
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    For each block, count the sides taken away from the outline and the new sides
+    opened up. Removing Q or S takes one side away but adds three, so the perimeter
+    grows. Removing R takes two away and adds two, so it stays the same. Removing P
+    takes three away and adds only one, so the perimeter shrinks.
+  assetRefs: []
+assets:
+  - ref: lettered-block-figure
+    file: ../assets/lettered-block-figure.png
+    role: stem
+    visibility: public
+    alt: A figure made of lettered square blocks joined edge to edge
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 28
+    section: "Chapter 6 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 51
+    pageEnd: 52
+    section: "Chapter 6 question 2 answer and solution"

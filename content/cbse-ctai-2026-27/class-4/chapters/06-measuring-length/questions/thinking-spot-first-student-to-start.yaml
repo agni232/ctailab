@@ -1,0 +1,49 @@
+id: c4-measuring-length-thinking-spot-first-student-to-start
+slug: thinking-spot-first-student-to-start
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch6-logical-puzzles
+  primaryTopic: c4-ch6-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    E-1, E-2, and E-3 are three engineering students writing their assignments at night.
+    Each of them starts at a different time and completes the assignment at a different
+    time. The digit in their name cannot match the order in which they start or complete
+    the assignment. For example, E-1 cannot be the first to start or the first to
+    complete the assignment because his name contains the digit 1. The last student to
+    start is the first to complete the assignment. Who is the first student to start
+    writing the assignment?
+  options:
+    - id: option-a
+      text: E-1
+    - id: option-b
+      text: E-2
+    - id: option-c
+      text: E-3
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    One student is both last to start, which is third, and first to complete. E-1 cannot
+    be first to complete and E-3 cannot be third to start, so that student is E-2. E-1
+    cannot start first either, so E-1 starts second, leaving E-3 to start first.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 56
+    section: "Chapter 6 The Thinking Spot answer and solution"

@@ -1,0 +1,38 @@
+topics:
+  - id: c4-ch6-length
+    slug: length
+    title: Length
+    position: 1
+    status: published
+  - id: c4-ch6-comparing-lengths
+    slug: comparing-lengths
+    title: Comparing Lengths
+    position: 2
+    parentId: c4-ch6-length
+    status: published
+  - id: c4-ch6-counting-units
+    slug: counting-units
+    title: Counting Units
+    position: 3
+    parentId: c4-ch6-length
+    status: published
+  - id: c4-ch6-perimeter
+    slug: perimeter
+    title: Perimeter
+    position: 4
+    status: published
+  - id: c4-ch6-paths-and-routes
+    slug: paths-and-routes
+    title: Paths and Routes
+    position: 5
+    status: published
+  - id: c4-ch6-reading-charts
+    slug: reading-charts
+    title: Reading Charts
+    position: 6
+    status: published
+  - id: c4-ch6-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published
