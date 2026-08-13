@@ -1,0 +1,42 @@
+id: c5-travellers-1-statements-to-crack-the-code
+slug: statements-to-crack-the-code
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-reasoning-with-clues
+    - c5-ch1-making-numbers
+  primaryTopic: c5-ch1-reasoning-with-clues
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Rohan revealed his 5-digit phone password in a code word to Rajesh where all the digits are NATURAL NUMBERS. Which of the following statements are SUFFICIENT to crack the code? Statement 1: One of these digits is 1, and 2 appears thrice in the password. Statement 2: The first digit is smaller than all other digits and the 2nd digit is smaller than the 3rd. Statement 3: The largest digit in the password is 3 and it appears only once.
+  options:
+    - id: option-a
+      text: "Statements 1 and 2"
+    - id: option-b
+      text: "Statements 2 and 3"
+    - id: option-c
+      text: "All the statements are required"
+    - id: option-d
+      text: "Cannot be determined even after using all the statements"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Statement 3 fixes the biggest digit as a single 3, and statement 2 forces the digits to climb from the smallest first digit. Together those pin the password down without needing statement 1.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 2 answer and solution"

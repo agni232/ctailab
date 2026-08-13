@@ -1,0 +1,42 @@
+id: c5-travellers-1-minimum-times-a-digit-appears
+slug: minimum-times-a-digit-appears
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-place-value
+    - c5-ch1-making-numbers
+  primaryTopic: c5-ch1-place-value
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A 5-digit number has the property that the number formed by its first three digits is the same as the number formed by its last three digits (without changing the order of digits). What is the minimum number of times any digit can appear in this number?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Matching the first three digits to the last three forces the 1st digit to equal the 4th and the 2nd to equal the 5th. So at least one digit turns up twice.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 9 answer and solution"

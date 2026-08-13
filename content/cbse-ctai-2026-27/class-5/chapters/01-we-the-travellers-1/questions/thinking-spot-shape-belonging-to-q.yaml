@@ -1,0 +1,56 @@
+id: c5-travellers-1-thinking-spot-shape-belonging-to-q
+slug: thinking-spot-shape-belonging-to-q
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-logical-puzzles
+  primaryTopic: c5-ch1-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    P, Q, R, and S each has a different shape - Circle, Pentagon, Square, and Triangle
+    (not necessarily in the same order). They arranged the shapes as shown below, where
+    the Circle is placed at the bottom-most position. S placed his shape immediately
+    above P's shape. There are exactly 2 shapes placed above R's shape. Which of the
+    following is Q's shape?
+  stimulus:
+    assetRefs:
+      - shape-stack
+  options:
+    - id: option-a
+      text: Circle
+    - id: option-b
+      text: Square
+    - id: option-c
+      text: Pentagon
+    - id: option-d
+      text: Triangle
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Two shapes sit above R, so R is third from the top. S sits directly above P, and the
+    only pair of neighbouring spots left puts them at the top two. That leaves the
+    bottom-most spot for Q, and the bottom shape is the circle.
+  assetRefs: []
+assets:
+  - ref: shape-stack
+    file: ../assets/shape-stack.png
+    role: stem
+    visibility: public
+    alt: A circle, a triangle, a pentagon, and a square drawn overlapping in a stack
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 The Thinking Spot answer and solution"

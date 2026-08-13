@@ -1,0 +1,51 @@
+id: c5-travellers-1-minimum-swaps-for-second-largest
+slug: minimum-swaps-for-second-largest
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-sorting-digits
+    - c5-ch1-comparing-numbers
+  primaryTopic: c5-ch1-sorting-digits
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A string of digits is given below. At MINIMUM, how many pairs of digits (may or may not be adjacent to each other) must be interchanged such that the second largest 5-digit number is formed from left to right? A digit can change its position any number of times.
+  stimulus:
+    assetRefs:
+      - digit-string
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The digits 0, 7, 3, 6, and 5 make 76530 as the largest number and 76503 as the second largest. Rearranging 07365 into 76503 takes 3 swaps at the least.
+  assetRefs: []
+assets:
+  - ref: digit-string
+    file: ../assets/digit-string.png
+    role: stem
+    visibility: public
+    alt: The digits 0 7 3 6 5 written in a row, labelled Left at one end and Right at the other
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 7 answer and solution"

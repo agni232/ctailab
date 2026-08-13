@@ -1,0 +1,42 @@
+id: c5-travellers-1-highest-digit-with-sum-ten
+slug: highest-digit-with-sum-ten
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-making-numbers
+    - c5-ch1-place-value
+  primaryTopic: c5-ch1-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A 5-digit number is formed such that all the digits are different and the sum of all the digits is 10. What is the highest digit this number can have?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    To leave the most room for one large digit, make the other four as small as possible and all different: 0, 1, 2, and 3 add to 6. That leaves 10 - 6 = 4 for the largest digit.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 4 answer and solution"

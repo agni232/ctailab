@@ -1,0 +1,52 @@
+id: c5-fractions-fraction-of-circles-shaded-grey
+slug: fraction-of-circles-shaded-grey
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-fractions
+    - c5-ch2-comparing-fractions
+  primaryTopic: c5-ch2-fractions
+  estimatedMinutes: 5
+content:
+  prompt: What fraction of the total area of all the circles is shaded grey?
+  stimulus:
+    assetRefs:
+      - shaded-circles
+  options:
+    - id: option-a
+      text: 10/24
+    - id: option-b
+      text: 5/6
+    - id: option-c
+      text: 5/24
+    - id: option-d
+      text: 14/24
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Think of each circle as 4 quarters, so the six circles hold 24 quarters altogether.
+    Counting the shaded quarters across all six circles gives 10, so the shaded fraction
+    is 10/24.
+  assetRefs: []
+assets:
+  - ref: shaded-circles
+    file: ../assets/shaded-circles.png
+    role: stem
+    visibility: public
+    alt: Six circles in two rows, each with a different amount shaded grey
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 4 answer and solution"

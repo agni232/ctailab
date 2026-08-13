@@ -1,0 +1,42 @@
+id: c5-travellers-1-tens-digit-of-second-largest
+slug: tens-digit-of-second-largest
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch1-making-numbers
+    - c5-ch1-comparing-numbers
+  primaryTopic: c5-ch1-making-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which digit appears in the tens place of the second largest 5-digit number formed using 1, 5, and 7, where each digit is used at least once?
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "1"
+    - id: option-d
+      text: "Either a or c"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Using each of 1, 5, and 7 at least once, the largest 5-digit number is 77751 and the next largest is 77715. Its tens digit is 1.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 10 answer and solution"

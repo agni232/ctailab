@@ -1,0 +1,58 @@
+id: c5-travellers-1-sum-of-the-two-numbers-formed
+slug: sum-of-the-two-numbers-formed
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-making-numbers
+    - c5-ch1-place-value
+  primaryTopic: c5-ch1-making-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Using the instructions given below, form two numbers. Instruction 1: Form the largest
+    5-digit number using the digits in the 5-sided figures, without repeating any digit.
+    Instruction 2: Form the smallest 3-digit number using the digits in the circles,
+    without repeating any digit. What is the sum of the two numbers formed?
+  stimulus:
+    assetRefs:
+      - shapes-with-digits
+  options:
+    - id: option-a
+      text: "99394"
+    - id: option-b
+      text: "93394"
+    - id: option-c
+      text: "98743"
+    - id: option-d
+      text: "98848"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The pentagons hold 7, 9, 4, 2, 3, and 8, so the largest 5-digit number from them is
+    98743. The circles hold 1, 0, 5, and 6, and the smallest 3-digit number from those is
+    105. Adding gives 98743 + 105 = 98848.
+  assetRefs: []
+assets:
+  - ref: shapes-with-digits
+    file: ../assets/shapes-with-digits.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box holding pentagons with the digits 7, 9, 4, 2, 3, and 8 and circles with the
+      digits 1, 0, 5, and 6
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 5 answer and solution"

@@ -1,0 +1,42 @@
+id: c5-fractions-activity-with-the-least-people
+slug: activity-with-the-least-people
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-fractions-of-a-set
+    - c5-ch2-comparing-fractions
+  primaryTopic: c5-ch2-fractions-of-a-set
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Three groups of people - A, B, and C - each have the same number of members. They take part in three activities: 1, 2, and 3. Each person within a group can only be part of one activity. Half of Group A does Activity 1, which is also done by all members of Group B. Half of Group C does Activity 3, which is also done by the remaining members of Group A. All remaining people do Activity 2. Which activity is done by the least number of people?
+  options:
+    - id: option-a
+      text: "Activity 1"
+    - id: option-b
+      text: "Activity 2"
+    - id: option-c
+      text: "Activity 3"
+    - id: option-d
+      text: "Both options a and b"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Call each group's size 1 whole. Activity 1 takes half of A plus all of B, which is one and a half groups. Activity 3 takes half of C plus the other half of A, which is one group. That leaves only the other half of C for Activity 2, which is the smallest share.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 2 answer and solution"

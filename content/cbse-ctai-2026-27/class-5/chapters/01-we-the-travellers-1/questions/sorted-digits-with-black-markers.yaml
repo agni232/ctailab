@@ -1,0 +1,82 @@
+id: c5-travellers-1-sorted-digits-with-black-markers
+slug: sorted-digits-with-black-markers
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-sorting-digits
+    - c5-ch1-comparing-numbers
+  primaryTopic: c5-ch1-sorting-digits
+  estimatedMinutes: 6
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - sorted-digit-terms
+  options:
+    - id: option-a
+      assetRef: sort-option-a
+      accessibleLabel: 1, 2, 4, 5, 8 with only the 2 blacked out
+    - id: option-b
+      assetRef: sort-option-b
+      accessibleLabel: 1, 2, 4, 5, 8 with the 1, 4, and 8 blacked out
+    - id: option-c
+      assetRef: sort-option-c
+      accessibleLabel: 1, 2, 4, 5, 8 with the 2 and the 5 blacked out
+    - id: option-d
+      assetRef: sort-option-d
+      accessibleLabel: 1, 2, 4, 5, 8 with the 2 and the 4 blacked out
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each row sorts its digits from smallest to largest, and a digit is blacked out when
+    it ends up in the same position it already had. Sorting 8, 2, 1, 5, 4 gives
+    1, 2, 4, 5, 8, and only the 2 and the 5 have not moved.
+  assetRefs: []
+assets:
+  - ref: sorted-digit-terms
+    file: ../assets/sorted-digit-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows, each showing five digits, an arrow, and the same digits in order with
+      some marked as black circles, the last row ending in a question mark
+    position: 0
+  - ref: sort-option-a
+    file: ../assets/sort-option-a.png
+    role: option
+    visibility: public
+    alt: Sorted digits with one blacked out, option a
+    position: 1
+  - ref: sort-option-b
+    file: ../assets/sort-option-b.png
+    role: option
+    visibility: public
+    alt: Sorted digits with three blacked out, option b
+    position: 2
+  - ref: sort-option-c
+    file: ../assets/sort-option-c.png
+    role: option
+    visibility: public
+    alt: Sorted digits with the 2 and the 5 blacked out, option c
+    position: 3
+  - ref: sort-option-d
+    file: ../assets/sort-option-d.png
+    role: option
+    visibility: public
+    alt: Sorted digits with the 2 and the 4 blacked out, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 3"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 3 answer and solution"

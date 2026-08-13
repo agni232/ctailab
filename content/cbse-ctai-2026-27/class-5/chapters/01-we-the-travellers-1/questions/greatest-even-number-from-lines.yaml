@@ -1,0 +1,85 @@
+id: c5-travellers-1-greatest-even-number-from-lines
+slug: greatest-even-number-from-lines
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-making-numbers
+    - c5-ch1-odd-and-even
+  primaryTopic: c5-ch1-making-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Using the digits at the ends of the vertical lines, form numbers by reading the digits
+    from left to right without rearranging them. Which option represents the greatest even
+    number that can be formed?
+  stimulus:
+    assetRefs:
+      - vertical-line-digits
+  options:
+    - id: option-a
+      assetRef: line-option-a
+      accessibleLabel: A pattern of lines pointing up and down, option a
+    - id: option-b
+      assetRef: line-option-b
+      accessibleLabel: A pattern of lines pointing up and down, option b
+    - id: option-c
+      assetRef: line-option-c
+      accessibleLabel: A pattern of lines pointing up and down, option c
+    - id: option-d
+      assetRef: line-option-d
+      accessibleLabel: A pattern of lines pointing up and down, option d
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each line picks either its top digit or its bottom digit, and the picks are read left
+    to right in place. To make the largest even number, take the biggest digit at every
+    line except the last, where an even digit is needed. Option d makes those picks.
+  assetRefs: []
+assets:
+  - ref: vertical-line-digits
+    file: ../assets/vertical-line-digits.png
+    role: stem
+    visibility: public
+    alt: >-
+      Five vertical lines on a horizontal bar, with 5, 8, 2, 4, and 9 above them and 7, 3,
+      9, 0, and 6 below them
+    position: 0
+  - ref: line-option-a
+    file: ../assets/line-option-a.png
+    role: option
+    visibility: public
+    alt: Line pattern, option a
+    position: 1
+  - ref: line-option-b
+    file: ../assets/line-option-b.png
+    role: option
+    visibility: public
+    alt: Line pattern, option b
+    position: 2
+  - ref: line-option-c
+    file: ../assets/line-option-c.png
+    role: option
+    visibility: public
+    alt: Line pattern, option c
+    position: 3
+  - ref: line-option-d
+    file: ../assets/line-option-d.png
+    role: option
+    visibility: public
+    alt: Line pattern, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 6 answer and solution"

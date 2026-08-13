@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-5-ctai
+grade:
+  id: grade-5
+  level: 5
+  label: Class 5
+subject:
+  id: computational-thinking-ai
+  code: CTAI
+  slug: computational-thinking-ai
+  name: Computational Thinking and Artificial Intelligence
+  description: Learn how to solve problems, recognize patterns, and understand age-appropriate AI ideas.
+slug: class-5-computational-thinking-ai
+title: Class 5 Computational Thinking and AI
+description: Chapter-wise activities and practice for Class 5 learners.
+status: published
+position: 3

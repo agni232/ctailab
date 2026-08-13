@@ -1,0 +1,72 @@
+id: cbse-2026-27-c5-ch2-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 2 in the Class 5 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-fractions-difference-between-a-and-b
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-activity-with-the-least-people
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-value-of-the-symbol-expression
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-fraction-of-circles-shaded-grey
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-land-left-undistributed
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-values-of-a-and-b-in-the-rows
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 12
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-what-the-coin-statement-tells-us
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 13
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-pieces-after-three-cuts
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 13
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-who-am-i-fraction-riddle
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 13
+    sourceSection: "Chapter 2: Fractions"
+  - questionId: c5-fractions-chocolates-in-the-shop-at-first
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 13
+    sourceSection: "Chapter 2: Fractions"

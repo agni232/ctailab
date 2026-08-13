@@ -1,0 +1,42 @@
+id: c5-travellers-1-digits-y-and-z-must-share
+slug: digits-y-and-z-must-share
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-making-numbers
+    - c5-ch1-reasoning-with-clues
+  primaryTopic: c5-ch1-making-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    There is a 7-digit number X in which all the digits are different. Using the digits of X, two 5-digit numbers Y and Z are formed, such that no digit is repeated within Y or within Z. What is the MINIMUM number of digits that Y and Z must have in common?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Y and Z each pick 5 digits from the same pool of 7, which is 10 picks in total. Since only 7 different digits exist, at least 10 - 7 = 3 of them have to be used by both.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 10
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 8 answer and solution"

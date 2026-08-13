@@ -1,0 +1,42 @@
+id: c5-fractions-difference-between-a-and-b
+slug: difference-between-a-and-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch2-halves-and-quarters
+    - c5-ch2-fractions-of-a-set
+  primaryTopic: c5-ch2-halves-and-quarters
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Sam has some chocolates. He gave 1 more than half the chocolates to A and 1 less than half the chocolates (of the original number of chocolates) to B. What is the difference between the number of chocolates given to A and B?
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Both shares are measured from the same half. A gets one above that half and B gets one below it, so A has 2 more than B whatever the starting number was.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 1 answer and solution"

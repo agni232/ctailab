@@ -1,0 +1,39 @@
+topics:
+  - id: c5-ch2-fractions
+    slug: fractions
+    title: Fractions
+    position: 1
+    status: published
+  - id: c5-ch2-halves-and-quarters
+    slug: halves-and-quarters
+    title: Halves and Quarters
+    position: 2
+    parentId: c5-ch2-fractions
+    status: published
+  - id: c5-ch2-fractions-of-a-set
+    slug: fractions-of-a-set
+    title: Fractions of a Set
+    position: 3
+    parentId: c5-ch2-fractions
+    status: published
+  - id: c5-ch2-comparing-fractions
+    slug: comparing-fractions
+    title: Comparing Fractions
+    position: 4
+    parentId: c5-ch2-fractions
+    status: published
+  - id: c5-ch2-symbol-substitution
+    slug: symbol-substitution
+    title: Symbol Substitution
+    position: 5
+    status: published
+  - id: c5-ch2-working-backwards
+    slug: working-backwards
+    title: Working Backwards
+    position: 6
+    status: published
+  - id: c5-ch2-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

@@ -1,0 +1,42 @@
+id: c5-fractions-chocolates-in-the-shop-at-first
+slug: chocolates-in-the-shop-at-first
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-working-backwards
+    - c5-ch2-halves-and-quarters
+  primaryTopic: c5-ch2-working-backwards
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In a chocolate shop, four buyers come in one by one to buy chocolates. Each buyer purchases half of the chocolates that are currently in the shop. For example, if there are X chocolates initially, the first buyer buys X/2 chocolates. Then, from the remaining chocolates, the second buyer buys half. This process continues until the fourth buyer, who buys only 1 chocolate. How many chocolates were there in the shop initially?
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "32"
+    - id: option-c
+      text: "16"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work backwards from the last buyer. The fourth buyer took 1, so 2 were there before that buyer. Doubling back through each earlier buyer gives 4, then 8, then 16 at the start.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 2 question 10 answer and solution"

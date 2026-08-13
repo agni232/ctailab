@@ -1,0 +1,42 @@
+id: c5-travellers-1-what-the-statement-implies
+slug: what-the-statement-implies
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch1-odd-and-even
+    - c5-ch1-place-value
+  primaryTopic: c5-ch1-odd-and-even
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Which of the following CAN be implied if the given statement is true? Statement: A 5-digit number is formed using single-digit whole numbers such that the units digit is even and all the remaining digits are odd.
+  options:
+    - id: option-a
+      text: "The number definitely lies between 11111 and 99999"
+    - id: option-b
+      text: "The number formed CAN be a multiple of 100"
+    - id: option-c
+      text: "The sum of the digits of the largest such number is 44"
+    - id: option-d
+      text: "The sum of the digits is NOT divisible by 2"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The largest such number puts 9 in each of the four odd places and the largest even digit, 8, in the units place, giving 99998. Its digits add to 9 + 9 + 9 + 9 + 8 = 44.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 9
+    section: "Chapter 1 question 1 answer and solution"

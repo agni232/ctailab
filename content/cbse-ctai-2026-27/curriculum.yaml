@@ -29,6 +29,16 @@ sourceDocuments:
     fileName: CTAI_Pri4TH_2026-27.pdf
     documentType: teacher-handbook
     rightsNotes: Source material is retained for internal curriculum authoring and provenance.
+  - id: ctai-class-5-student-handbook-2026-27
+    title: Computational Thinking and Artificial Intelligence Class 5 Student Handbook
+    fileName: CTAI_Pri5SH_2026-27.pdf
+    documentType: student-handbook
+    rightsNotes: Source material is retained for internal curriculum authoring and provenance.
+  - id: ctai-class-5-teacher-handbook-2026-27
+    title: Computational Thinking and Artificial Intelligence Class 5 Teacher Handbook
+    fileName: CTAI_Pri5TH_2026-27.pdf
+    documentType: teacher-handbook
+    rightsNotes: Source material is retained for internal curriculum authoring and provenance.
   - id: ctailab-platform-content
     title: CTAI Lab Platform-Created Content
     documentType: platform-created

@@ -1,0 +1,57 @@
+id: c5-fractions-thinking-spot-sum-of-b-and-c
+slug: thinking-spot-sum-of-b-and-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-logical-puzzles
+  primaryTopic: c5-ch2-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below is a set of 8 cards, each having a WHOLE NUMBER on it. Cards A, B, C, and
+    D represent numbers that are either one more or one less than the number on the card
+    directly above them. If all 8 numbers on these cards are different, what is the sum
+    of B and C?
+  stimulus:
+    assetRefs:
+      - eight-cards
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: Cannot be determined
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each lower card sits one either side of the number above it, so A comes from 1, B from
+    4, C from 6, and D from 3. Every one of the eight numbers must be different, and the
+    only choices that avoid a repeat give B = 5 and C = 7, which add to 12.
+  assetRefs: []
+assets:
+  - ref: eight-cards
+    file: ../assets/eight-cards.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two rows of four cards, the top row holding 1, 4, 6, and 3 and the bottom row
+      labelled A, B, C, and D
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 The Thinking Spot"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 2 The Thinking Spot answer and solution"

@@ -1,0 +1,42 @@
+id: c5-fractions-land-left-undistributed
+slug: land-left-undistributed
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch2-halves-and-quarters
+    - c5-ch2-fractions
+  primaryTopic: c5-ch2-halves-and-quarters
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A piece of land is distributed between Raj and Rahul. Raj receives 1/2 of the total land, and Rahul receives land equal to 1/2 of what Raj receives. What fraction of the land remains undistributed?
+  options:
+    - id: option-a
+      text: "1/2"
+    - id: option-b
+      text: "1/8"
+    - id: option-c
+      text: "1/4"
+    - id: option-d
+      text: "The land is distributed completely"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Raj takes half the land. Rahul takes half of Raj's share, which is a quarter of the whole. Together that is 1/2 + 1/4 = 3/4, so 1/4 is left over.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 12
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 5 answer and solution"

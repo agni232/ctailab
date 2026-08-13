@@ -1,0 +1,42 @@
+id: c5-fractions-who-am-i-fraction-riddle
+slug: who-am-i-fraction-riddle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-fractions
+    - c5-ch2-working-backwards
+  primaryTopic: c5-ch2-fractions
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If you take 6 times of me, you will get a whole and a half. If you take me out of a whole, you are left with three times of me. Who am I?
+  options:
+    - id: option-a
+      text: "Half"
+    - id: option-b
+      text: "Quarter"
+    - id: option-c
+      text: "Whole"
+    - id: option-d
+      text: "Zero"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Six quarters make one and a half, which fits the first clue. Taking a quarter away from a whole leaves three quarters, which is three times a quarter, so the second clue fits too.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 2 question 9 answer and solution"

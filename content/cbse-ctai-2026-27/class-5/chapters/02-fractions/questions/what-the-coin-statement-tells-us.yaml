@@ -1,0 +1,42 @@
+id: c5-fractions-what-the-coin-statement-tells-us
+slug: what-the-coin-statement-tells-us
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c5-ch2-fractions-of-a-set
+    - c5-ch2-fractions
+  primaryTopic: c5-ch2-fractions-of-a-set
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Which of these options can we conclude from the following statement? Statement: Three quarters of total coins that Kiran has are of denomination five rupees.
+  options:
+    - id: option-a
+      text: "All coins that Kiran has are of more than 2 rupees"
+    - id: option-b
+      text: "All coins that Kiran has are of less than 10 rupees"
+    - id: option-c
+      text: "Only one-fourth of the coins with Kiran are not of five rupees"
+    - id: option-d
+      text: "Kiran has 30 coins of denomination five rupees"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    If three quarters of the coins are five-rupee coins, the rest must make up the remaining quarter. Nothing in the statement says what those other coins are worth or how many coins there are in total.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 17
+    section: "Chapter 2 question 7 answer and solution"

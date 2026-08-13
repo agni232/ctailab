@@ -1,0 +1,17 @@
+id: cbse-2026-27-c5-ch1-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 1.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-13T00:00:00.000Z
+items:
+  - questionId: c5-travellers-1-thinking-spot-shape-belonging-to-q
+    questionVersion: 1
+    position: 1
+    sourcePage: 11
+    sourceSection: "Chapter 1 The Thinking Spot"

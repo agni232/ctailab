@@ -1,0 +1,56 @@
+id: c5-fractions-pieces-after-three-cuts
+slug: pieces-after-three-cuts
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c5-ch2-fractions
+    - c5-ch2-halves-and-quarters
+  primaryTopic: c5-ch2-fractions
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Sam makes three cuts on the same apple, as shown by the dotted lines in the image
+    below. Altogether, how many pieces of apple will he have?
+  stimulus:
+    assetRefs:
+      - apple-cuts
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The first cut splits the apple into 2. The second cut runs the other way and doubles
+    that to 4. The third cut goes across both of the others and doubles it again, giving
+    8 pieces.
+  assetRefs: []
+assets:
+  - ref: apple-cuts
+    file: ../assets/apple-cuts.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      The same apple drawn three times, with a vertical dotted cut, a horizontal dotted
+      cut, and a third dotted cut across it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-5-student-handbook-2026-27
+    page: 13
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-5-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 2 question 8 answer and solution"
