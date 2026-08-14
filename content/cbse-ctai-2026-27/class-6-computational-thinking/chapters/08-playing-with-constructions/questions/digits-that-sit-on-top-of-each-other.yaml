@@ -1,0 +1,56 @@
+id: c6-ct-constructions-digits-that-sit-on-top-of-each-other
+slug: digits-that-sit-on-top-of-each-other
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch8-grids-and-constraints
+    - c6-ct-ch8-joining-pieces
+  primaryTopic: c6-ct-ch8-grids-and-constraints
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    When Figure A is placed over Figure B to form a square grid, which same digits will be
+    positioned exactly on top of each other?
+  stimulus:
+    assetRefs:
+      - figures-a-and-b-digits
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The two figures each fill part of a 2 by 3 grid, and laying one over the other lines the
+    cells up. Matching the filled cells position by position, the only digit that lands on a
+    copy of itself is 3.
+  assetRefs: []
+assets:
+  - ref: figures-a-and-b-digits
+    file: ../assets/figures-a-and-b-digits.png
+    role: stem
+    visibility: public
+    alt: >-
+      Figure A holding 1, 4, 2, and 3 in a partly filled grid, and Figure B holding 2, 3, 4,
+      and 1 in a partly filled grid
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 37
+    section: "Chapter 8 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 8 question 7 answer and solution"

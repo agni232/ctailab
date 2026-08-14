@@ -1,0 +1,45 @@
+id: c6-ct-other-side-zero-first-letter-beside-a-negative-number
+slug: first-letter-beside-a-negative-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch10-negative-numbers
+    - c6-ct-ch10-number-series
+  primaryTopic: c6-ct-ch10-negative-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the following series, which of these English alphabets would appear first alongside a
+    negative number? A165, B153, C141, D129, ...
+  options:
+    - id: option-a
+      text: "M"
+    - id: option-b
+      text: "N"
+    - id: option-c
+      text: "O"
+    - id: option-d
+      text: "P"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The numbers drop by 12 each step while the letters advance one at a time. Continuing from
+    A165 gives M is 21, N is 9, and O is -3. So O is the first letter paired with a negative
+    number.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 44
+    section: "Chapter 10 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 10 question 1 answer and solution"

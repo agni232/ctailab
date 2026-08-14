@@ -1,0 +1,55 @@
+id: c6-ct-constructions-lines-needed-for-more-than-five-squares
+slug: lines-needed-for-more-than-five-squares
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch8-counting-squares
+    - c6-ct-ch8-shapes-and-figures
+  primaryTopic: c6-ct-ch8-counting-squares
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Given below is an arrangement of squares. What is the minimum number of straight lines
+    required so that the total number of square shapes that appear in the final image
+    (including the existing ones) is more than 5?
+  stimulus:
+    assetRefs:
+      - square-arrangement
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The figure already shows 5 squares: the four small ones and the large outer one. Drawing
+    one line across the middle each way cuts the figure into a finer grid, which creates
+    several new squares at once and takes the total past 5. Two lines are enough.
+  assetRefs: []
+assets:
+  - ref: square-arrangement
+    file: ../assets/square-arrangement.png
+    role: stem
+    visibility: public
+    alt: A large square divided into four equal smaller squares
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 36
+    section: "Chapter 8 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 8 question 2 answer and solution"

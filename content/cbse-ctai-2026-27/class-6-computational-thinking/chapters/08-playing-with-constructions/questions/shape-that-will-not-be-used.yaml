@@ -1,0 +1,83 @@
+id: c6-ct-constructions-shape-that-will-not-be-used
+slug: shape-that-will-not-be-used
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-joining-pieces
+    - c6-ct-ch8-grids-and-constraints
+  primaryTopic: c6-ct-ch8-joining-pieces
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Form a 3 x 3 square using exactly 3 shapes from the set given below. Which shape will NOT
+    be used? Note: You cannot rotate or overlap the shapes.
+  stimulus:
+    assetRefs:
+      - set-a-shapes
+  options:
+    - id: option-a
+      assetRef: shape-option-a
+      accessibleLabel: A piece of two squares stacked vertically
+    - id: option-b
+      assetRef: shape-option-b
+      accessibleLabel: A stepped piece of four squares
+    - id: option-c
+      assetRef: shape-option-c
+      accessibleLabel: A piece of three squares in a T-like step
+    - id: option-d
+      assetRef: shape-option-d
+      accessibleLabel: A piece of three squares in an L shape
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A 3 x 3 square needs 9 cells, so the three chosen pieces must total 9 and interlock
+    without turning. Trying the combinations, the set that tiles the square leaves out the
+    piece in option c.
+  assetRefs: []
+assets:
+  - ref: set-a-shapes
+    file: ../assets/set-a-shapes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Set A holding four pieces made of squares, of two, three, four, and four cells
+    position: 0
+  - ref: shape-option-a
+    file: ../assets/shape-option-a.png
+    role: option
+    visibility: public
+    alt: Piece made of squares, option a
+    position: 1
+  - ref: shape-option-b
+    file: ../assets/shape-option-b.png
+    role: option
+    visibility: public
+    alt: Piece made of squares, option b
+    position: 2
+  - ref: shape-option-c
+    file: ../assets/shape-option-c.png
+    role: option
+    visibility: public
+    alt: Piece made of squares, option c
+    position: 3
+  - ref: shape-option-d
+    file: ../assets/shape-option-d.png
+    role: option
+    visibility: public
+    alt: Piece made of squares, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 37
+    section: "Chapter 8 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 8 question 4 answer and solution"

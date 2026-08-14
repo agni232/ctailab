@@ -1,0 +1,46 @@
+id: c6-ct-lines-angles-times-the-hands-form-a-straight-line
+slug: times-the-hands-form-a-straight-line
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-clock-angles
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-clock-angles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    How many times in a day, on a 12-hour format clock, do the minute and hour hands form a
+    straight line (i.e., an angle of 180 degrees)?
+  options:
+    - id: option-a
+      text: "11"
+    - id: option-b
+      text: "12"
+    - id: option-c
+      text: "22"
+    - id: option-d
+      text: "24"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The hands line up opposite each other once in most hourly intervals, which would suggest
+    12 times in 12 hours. But the moment at 6:00 belongs to both the 5-to-6 interval and the
+    6-to-7 interval, so it gets counted twice. That leaves 12 - 1 = 11 times in 12 hours, and
+    11 x 2 = 22 times in a day.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 question 7 answer and solution"

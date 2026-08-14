@@ -1,0 +1,45 @@
+id: c6-ct-prime-time-what-is-always-true-about-x
+slug: what-is-always-true-about-x
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-primes
+    - c6-ct-ch5-factors-and-multiples
+  primaryTopic: c6-ct-ch5-primes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If "X" is a number formed by the multiplication of 2 single-digit prime numbers, which of
+    the following options is ALWAYS TRUE about the number "X"?
+  options:
+    - id: option-a
+      text: "The number \"X\" cannot be even"
+    - id: option-b
+      text: "The number \"X\" is a 2-digit number"
+    - id: option-c
+      text: "The number \"X\" is a multiple of 4"
+    - id: option-d
+      text: "The number \"X\" is less than 50"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    One counterexample kills each of the first three: 2 x 3 = 6 is even and is a single digit,
+    and 3 x 5 = 15 is not a multiple of 4. The largest possible product is 7 x 7 = 49, so X is
+    always under 50.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 5 question 8 answer and solution"

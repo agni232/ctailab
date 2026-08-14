@@ -1,0 +1,45 @@
+id: c6-ct-fractions-fraction-that-fits-in-the-middle
+slug: fraction-that-fits-in-the-middle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch7-comparing-fractions
+    - c6-ct-ch7-fractions
+  primaryTopic: c6-ct-ch7-comparing-fractions
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Arrange the given fractions in ascending order. Which option can be placed exactly in the
+    middle of the new arrangement so that the order remains ascending? 10/15, 8/9, 17/18, 5/6
+  options:
+    - id: option-a
+      text: "68/90"
+    - id: option-b
+      text: "71/90"
+    - id: option-c
+      text: "77/90"
+    - id: option-d
+      text: "84/90"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Put everything over 90: 10/15 = 60/90, 5/6 = 75/90, 8/9 = 80/90, and 17/18 = 85/90. In
+    order those are 60, 75, 80, 85, so the middle slot sits between 75/90 and 80/90. Only
+    77/90 falls there.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 7 question 3 answer and solution"

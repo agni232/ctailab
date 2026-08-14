@@ -1,0 +1,60 @@
+id: c6-ct-data-handling-fruit-matching-the-difference
+slug: fruit-matching-the-difference
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-pictographs
+    - c6-ct-ch4-averages-and-totals
+  primaryTopic: c6-ct-ch4-pictographs
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The pictograph represents students' fruit preferences. Let X denote the number of students
+    who like Watermelon and Y denote those who like Muskmelon. X is half the total number of
+    students who like Strawberry and Banana. Y equals the total number of students who like
+    Pear and Mango. Which fruit has a number of students equal to the difference between X and
+    Y?
+  stimulus:
+    assetRefs:
+      - fruit-pictograph
+  options:
+    - id: option-a
+      text: "Strawberry"
+    - id: option-b
+      text: "Banana"
+    - id: option-c
+      text: "Pear"
+    - id: option-d
+      text: "Mango"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each symbol stands for 2 students, and a half symbol for 1. That gives Strawberry 12,
+    Banana 8, Pear 9, and Mango 13. So X = (12 + 8) / 2 = 10 and Y = 9 + 13 = 22. The
+    difference is 22 - 10 = 12, which matches Strawberry.
+  assetRefs: []
+assets:
+  - ref: fruit-pictograph
+    file: ../assets/fruit-pictograph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A pictograph of fruit preferences with rows for Strawberry, Watermelon marked X,
+      Muskmelon marked Y, Banana, Pear, and Mango, where one child symbol stands for 2
+      students
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 40
+    section: "Chapter 4 question 6 answer and solution"

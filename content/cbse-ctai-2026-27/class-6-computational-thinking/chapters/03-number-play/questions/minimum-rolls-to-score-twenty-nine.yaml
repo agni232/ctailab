@@ -1,0 +1,49 @@
+id: c6-ct-number-play-minimum-rolls-to-score-twenty-nine
+slug: minimum-rolls-to-score-twenty-nine
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-sums-and-combinations
+    - c6-ct-ch3-counting-strategies
+  primaryTopic: c6-ct-ch3-sums-and-combinations
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Sachin plays a game using a standard die numbered 1 to 6. At each roll he scores points
+    equal to the number shown. He may roll the die any number of times. The game ends when
+    the number 6 appears three times (the three 6s need not be consecutive). If the total
+    score at the end of the game is 29, what is the minimum number of rolls Sachin could have
+    made?
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Three 6s must appear, giving 18 points, so the other rolls come to 29 - 18 = 11. Those
+    rolls cannot include another 6, because the third 6 ends the game. The largest score
+    without a 6 is 5, and 11 cannot be made from one or two such rolls, so it takes three
+    more, such as 5 + 5 + 1 or 5 + 4 + 2. That is 3 + 3 = 6 rolls.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 3 question 1 answer and solution"

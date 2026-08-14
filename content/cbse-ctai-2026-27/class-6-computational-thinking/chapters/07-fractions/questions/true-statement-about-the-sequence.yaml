@@ -1,0 +1,46 @@
+id: c6-ct-fractions-true-statement-about-the-sequence
+slug: true-statement-about-the-sequence
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch7-fraction-sequences
+    - c6-ct-ch7-operations-on-fractions
+  primaryTopic: c6-ct-ch7-fraction-sequences
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Some numbers appear in a series as shown below: 1/2, 3/4, 1, 5/4, 3/2, 7/4... Which of the
+    following statements is definitely true regarding the above sequence?
+  options:
+    - id: option-a
+      text: "The seventh term of the series would be 5/2"
+    - id: option-b
+      text: "The difference between the sixth and eighth terms would be 3/4"
+    - id: option-c
+      text: "The product of seventh and tenth terms is 20/4"
+    - id: option-d
+      text: "The sum of the ninth and eleventh terms is 22/4"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The series climbs by 1/4 each time, giving 1/2, 3/4, 1, 5/4, 3/2, 7/4, 2, 9/4, 5/2, 11/4,
+    3. So the seventh term is 2, not 5/2. The sixth and eighth differ by 2/4, not 3/4, and
+    2 x 11/4 = 22/4, not 20/4. The ninth and eleventh are 5/2 and 3, and 5/2 + 3 = 11/2, which
+    is 22/4.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 7 question 7 answer and solution"

@@ -1,0 +1,83 @@
+id: c6-ct-perimeter-area-arrangement-with-the-highest-perimeter
+slug: arrangement-with-the-highest-perimeter
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-perimeter
+    - c6-ct-ch6-tiling-and-fitting
+  primaryTopic: c6-ct-ch6-perimeter
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    All the squares and rectangles given below are to be used to form an arrangement. The
+    arrangement shown in which of these options will give the HIGHEST perimeter?
+  stimulus:
+    assetRefs:
+      - shapes-to-arrange
+  options:
+    - id: option-a
+      assetRef: arrangement-option-a
+      accessibleLabel: The four pieces stacked in a single column
+    - id: option-b
+      assetRef: arrangement-option-b
+      accessibleLabel: The four pieces in a row with the smaller ones raised
+    - id: option-c
+      assetRef: arrangement-option-c
+      accessibleLabel: Two squares side by side with the two rectangles beside them
+    - id: option-d
+      assetRef: arrangement-option-d
+      accessibleLabel: The pieces arranged in a stepped shape with one piece sticking out
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Perimeter is the distance round the outside, so the more edges left exposed, the longer it
+    is. Adding up the exposed sides gives 36 cm for option a, 42 cm for option b, and 40 cm for
+    option c. Option d leaves the most edges showing and comes out highest.
+  assetRefs: []
+assets:
+  - ref: shapes-to-arrange
+    file: ../assets/shapes-to-arrange.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four pieces labelled A to D: two 4 cm squares and two rectangles measuring 4 cm by 3 cm
+    position: 0
+  - ref: arrangement-option-a
+    file: ../assets/arrangement-option-a.png
+    role: option
+    visibility: public
+    alt: Arrangement of the four pieces, option a
+    position: 1
+  - ref: arrangement-option-b
+    file: ../assets/arrangement-option-b.png
+    role: option
+    visibility: public
+    alt: Arrangement of the four pieces, option b
+    position: 2
+  - ref: arrangement-option-c
+    file: ../assets/arrangement-option-c.png
+    role: option
+    visibility: public
+    alt: Arrangement of the four pieces, option c
+    position: 3
+  - ref: arrangement-option-d
+    file: ../assets/arrangement-option-d.png
+    role: option
+    visibility: public
+    alt: Arrangement of the four pieces, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 6 question 6 answer and solution"

@@ -1,0 +1,59 @@
+id: c6-ct-data-handling-students-in-exactly-two-groups
+slug: students-in-exactly-two-groups
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-bar-graphs
+    - c6-ct-ch4-averages-and-totals
+  primaryTopic: c6-ct-ch4-averages-and-totals
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    The bar graph shows the quiz scores of six students A, B, C, D, E, and F. The students are
+    grouped as follows. Group 1: students whose scores are composite numbers. Group 2:
+    students whose score forms a perfect square when added to any other student's score.
+    Group 3: students whose score is greater than the average score of all six students. How
+    many students belong to exactly two of these groups?
+  stimulus:
+    assetRefs:
+      - quiz-scores-graph
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The scores are 9, 7, 12, 14, 10, and 16. Group 1 holds the composite scores: A, C, D, E,
+    and F. Group 2 needs a pair summing to a perfect square, and 9 + 7 = 16 and 9 + 16 = 25
+    give A, B, and F. The average is 68 / 6, about 11.33, so Group 3 holds C, D, and F.
+    Counting how many groups each student lands in, exactly three of them appear in two.
+  assetRefs: []
+assets:
+  - ref: quiz-scores-graph
+    file: ../assets/quiz-scores-graph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A bar graph of quiz scores for students A to F reaching 9, 7, 12, 14, 10, and 16
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 4 question 9 answer and solution"

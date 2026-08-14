@@ -1,0 +1,59 @@
+id: c6-ct-symmetry-squares-adjacent-to-exactly-two-others
+slug: squares-adjacent-to-exactly-two-others
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-rotational-symmetry
+    - c6-ct-ch9-symmetry
+  primaryTopic: c6-ct-ch9-rotational-symmetry
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The following grid is made of 6 small white squares. Each square has a black shape inside
+    it. Count the number of squares which are adjacent to exactly two other squares, whose
+    shapes have an angle of rotational symmetry of 90 degrees. Note: The red circle in each
+    shape acts as the centre of rotation. Two squares are said to be adjacent if they share
+    common sides. Squares that share a common corner alone are not adjacent to each other.
+  stimulus:
+    assetRefs:
+      - rotational-shapes-grid
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "More than 3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A shape has 90 degree rotational symmetry if a quarter turn about the red dot leaves it
+    looking the same, which is true of the diamond and the cross. Then check which of those
+    squares touch exactly two others along a side. Two of them do.
+  assetRefs: []
+assets:
+  - ref: rotational-shapes-grid
+    file: ../assets/rotational-shapes-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid of six white squares, each holding a black shape with a red dot at its centre,
+      including a chevron, a diamond, a ring, a curved square, a cross, and a slit circle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 42
+    section: "Chapter 9 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 85
+    section: "Chapter 9 question 6 answer and solution"

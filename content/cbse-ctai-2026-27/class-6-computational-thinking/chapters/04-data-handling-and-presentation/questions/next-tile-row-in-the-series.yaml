@@ -1,0 +1,82 @@
+id: c6-ct-data-handling-next-tile-row-in-the-series
+slug: next-tile-row-in-the-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch4-figure-patterns
+    - c6-ct-ch4-reading-data
+  primaryTopic: c6-ct-ch4-figure-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - tile-ball-series
+  options:
+    - id: option-a
+      assetRef: tile-option-a
+      accessibleLabel: A row with two black tiles on the left and bottles on the right
+    - id: option-b
+      assetRef: tile-option-b
+      accessibleLabel: A row with bottles on the left and black tiles on the right
+    - id: option-c
+      assetRef: tile-option-c
+      accessibleLabel: A row with bottles at both ends and black tiles in the middle
+    - id: option-d
+      assetRef: tile-option-d
+      accessibleLabel: A row with one bottle, then three black tiles, then bottles
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The tile holding the ball turns black along with the tile on each side of it, and every
+    remaining tile gets a bottle. Here the ball sits on the 3rd tile, so tiles 2, 3, and 4 go
+    black and the rest carry bottles, which is option d.
+  assetRefs: []
+assets:
+  - ref: tile-ball-series
+    file: ../assets/tile-ball-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels, each showing a row of tiles with a ball on one tile and an arrow to a row
+      of black tiles and bottles, the last replaced by a question mark
+    position: 0
+  - ref: tile-option-a
+    file: ../assets/tile-option-a.png
+    role: option
+    visibility: public
+    alt: Row of tiles and bottles, option a
+    position: 1
+  - ref: tile-option-b
+    file: ../assets/tile-option-b.png
+    role: option
+    visibility: public
+    alt: Row of tiles and bottles, option b
+    position: 2
+  - ref: tile-option-c
+    file: ../assets/tile-option-c.png
+    role: option
+    visibility: public
+    alt: Row of tiles and bottles, option c
+    position: 3
+  - ref: tile-option-d
+    file: ../assets/tile-option-d.png
+    role: option
+    visibility: public
+    alt: Row of tiles and bottles, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 4 question 8 answer and solution"

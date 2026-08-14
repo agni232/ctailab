@@ -1,0 +1,81 @@
+id: c6-ct-data-handling-lines-for-the-word-seven
+slug: lines-for-the-word-seven
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch4-figure-patterns
+    - c6-ct-ch4-reading-data
+  primaryTopic: c6-ct-ch4-figure-patterns
+  estimatedMinutes: 3
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - word-line-series
+  options:
+    - id: option-a
+      assetRef: line-option-a
+      accessibleLabel: Seven vertical lines
+    - id: option-b
+      assetRef: line-option-b
+      accessibleLabel: Four vertical lines
+    - id: option-c
+      assetRef: line-option-c
+      accessibleLabel: Five vertical lines
+    - id: option-d
+      assetRef: line-option-d
+      accessibleLabel: Six vertical lines
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The lines count the letters in the word, not its value. ONE has 3 letters and 3 lines,
+    THREE has 5, FOUR has 4. SEVEN has 5 letters, so it needs 5 lines.
+  assetRefs: []
+assets:
+  - ref: word-line-series
+    file: ../assets/word-line-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A list pairing the words One, Three, Four, and Seven with groups of vertical lines, the
+      last replaced by a question mark
+    position: 0
+  - ref: line-option-a
+    file: ../assets/line-option-a.png
+    role: option
+    visibility: public
+    alt: Group of vertical lines, option a
+    position: 1
+  - ref: line-option-b
+    file: ../assets/line-option-b.png
+    role: option
+    visibility: public
+    alt: Group of vertical lines, option b
+    position: 2
+  - ref: line-option-c
+    file: ../assets/line-option-c.png
+    role: option
+    visibility: public
+    alt: Group of vertical lines, option c
+    position: 3
+  - ref: line-option-d
+    file: ../assets/line-option-d.png
+    role: option
+    visibility: public
+    alt: Group of vertical lines, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 20
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 4 question 2 answer and solution"

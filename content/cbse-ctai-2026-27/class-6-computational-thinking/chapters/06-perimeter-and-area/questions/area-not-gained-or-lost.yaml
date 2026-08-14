@@ -1,0 +1,59 @@
+id: c6-ct-perimeter-area-area-not-gained-or-lost
+slug: area-not-gained-or-lost
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-area
+    - c6-ct-ch6-comparing-areas
+  primaryTopic: c6-ct-ch6-area
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    The grid shows a piece of land divided among three houses using different colours
+    (including the area occupied by each house). The land is then redistributed so that all
+    three houses receive equal areas. Which of the following options is NOT the exact area of
+    land gained or lost by any house after this redistribution?
+  stimulus:
+    assetRefs:
+      - land-grid
+  options:
+    - id: option-a
+      text: "1200 sq. m."
+    - id: option-b
+      text: "1500 sq. m."
+    - id: option-c
+      text: "300 sq. m."
+    - id: option-d
+      text: "900 sq. m."
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each block is 30 m by 30 m, so 900 sq m. Green holds 20 blocks, blue 23, and purple 21,
+    which is 64 blocks in total. Shared equally that is 64 / 3 blocks each, and comparing each
+    house against that share gives changes of 1200, 1500, and 300 sq m. No house gains or
+    loses exactly 900 sq m.
+  assetRefs: []
+assets:
+  - ref: land-grid
+    file: ../assets/land-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      An eight by eight grid of 30 m blocks shaded green, blue, and purple, with a small house
+      drawn in three of the blocks
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 32
+    section: "Chapter 6 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 6 question 9 answer and solution"

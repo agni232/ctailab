@@ -1,0 +1,59 @@
+id: c6-ct-constructions-shape-adjacent-to-a-letter
+slug: shape-adjacent-to-a-letter
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-grids-and-constraints
+    - c6-ct-ch8-joining-pieces
+  primaryTopic: c6-ct-ch8-grids-and-constraints
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Six pieces are given. Using all of them, form two separate 3 x 3 square grids, each
+    containing both letters and shapes. In both completed grids, which shape will be adjacent
+    to a letter? Note: Two cells are considered adjacent only if they share a common side.
+    Cells that share a common corner alone are not adjacent. Rotation of the pieces is not
+    allowed.
+  stimulus:
+    assetRefs:
+      - six-pieces
+  options:
+    - id: option-a
+      text: "Red Triangle"
+    - id: option-b
+      text: "Green Circle"
+    - id: option-c
+      text: "Blue Pentagon"
+    - id: option-d
+      text: "Both options b and c"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Fit the six pieces into two 3 x 3 grids so that each grid mixes letters and shapes. Only
+    one pairing works, and in both finished grids it is the blue pentagon that ends up sharing
+    a side with a lettered cell.
+  assetRefs: []
+assets:
+  - ref: six-pieces
+    file: ../assets/six-pieces.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six pieces made of cells, some holding red triangles, blue pentagons, and green circles,
+      and others holding the letters P, E, H, C, K, D, F, S, and G
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 37
+    section: "Chapter 8 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 8 question 5 answer and solution"

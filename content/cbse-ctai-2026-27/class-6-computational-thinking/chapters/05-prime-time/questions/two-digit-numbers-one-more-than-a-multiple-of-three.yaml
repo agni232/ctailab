@@ -1,0 +1,45 @@
+id: c6-ct-prime-time-two-digit-numbers-one-more-than-a-multiple-of-three
+slug: two-digit-numbers-one-more-than-a-multiple-of-three
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-divisibility
+    - c6-ct-ch5-factors-and-multiples
+  primaryTopic: c6-ct-ch5-divisibility
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A two-digit number is 1 more than a multiple of 3. How many different possible values can
+    it have?
+  options:
+    - id: option-a
+      text: "29"
+    - id: option-b
+      text: "30"
+    - id: option-c
+      text: "31"
+    - id: option-d
+      text: "32"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Such a number looks like 3x + 1. The largest that stays two-digit is 97, giving x = 32,
+    and x = 1 and x = 2 give 4 and 7, which are single digits. So x runs from 3 to 32, which
+    is 30 values.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 4 answer and solution"

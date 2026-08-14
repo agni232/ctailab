@@ -1,0 +1,48 @@
+id: c6-ct-fractions-thinking-spot-which-day-is-today
+slug: thinking-spot-which-day-is-today
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch7-logical-puzzles
+    - c6-ct-ch7-reasoning-with-clues
+  primaryTopic: c6-ct-ch7-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A always lies on Tuesdays, Wednesdays, and Saturdays but tells the truth on all other days.
+    B always lies on Tuesdays, Fridays, and Sundays but tells the truth on all other days.
+    Today, A tells C, "Yesterday, I was lying." Today, B also tells C, "Yesterday, I was
+    lying." If A told the truth to C and B lied to C, which day is today?
+  options:
+    - id: option-a
+      text: "Sunday"
+    - id: option-b
+      text: "Wednesday"
+    - id: option-c
+      text: "Thursday"
+    - id: option-d
+      text: "Saturday"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A is truthful today, so today is not Tuesday, Wednesday, or Saturday, and since A really
+    was lying yesterday, yesterday must be one of those. That points at Thursday or Sunday. B
+    is lying today, so today is Tuesday, Friday, or Sunday. Only Sunday satisfies both, and it
+    checks out: B lied yesterday too, on Saturday B was truthful, so B's claim is false.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 7 The Thinking Spot answer and solution"

@@ -1,0 +1,82 @@
+id: c6-ct-other-side-zero-value-for-the-last-dot-box
+slug: value-for-the-last-dot-box
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch10-integers
+    - c6-ct-ch10-rules-and-machines
+  primaryTopic: c6-ct-ch10-integers
+  estimatedMinutes: 6
+content:
+  prompt: If each of the given terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - dot-boxes
+  options:
+    - id: option-a
+      assetRef: dot-option-a
+      accessibleLabel: A green label reading plus 3
+    - id: option-b
+      assetRef: dot-option-b
+      accessibleLabel: A red label reading minus 2
+    - id: option-c
+      assetRef: dot-option-c
+      accessibleLabel: A green label reading minus 3
+    - id: option-d
+      assetRef: dot-option-d
+      accessibleLabel: A red label reading minus 3
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The label counts how many more of one colour there are, and takes the colour of whichever
+    is ahead. The question box holds more red dots than green, and the gap is 3, so the label
+    is red and reads minus 3.
+  assetRefs: []
+assets:
+  - ref: dot-boxes
+    file: ../assets/dot-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four boxes of red and green dots, three labelled minus 2, plus 2, plus 3, and minus 1,
+      and a fifth box followed by a question mark
+    position: 0
+  - ref: dot-option-a
+    file: ../assets/dot-option-a.png
+    role: option
+    visibility: public
+    alt: Coloured label, option a
+    position: 1
+  - ref: dot-option-b
+    file: ../assets/dot-option-b.png
+    role: option
+    visibility: public
+    alt: Coloured label, option b
+    position: 2
+  - ref: dot-option-c
+    file: ../assets/dot-option-c.png
+    role: option
+    visibility: public
+    alt: Coloured label, option c
+    position: 3
+  - ref: dot-option-d
+    file: ../assets/dot-option-d.png
+    role: option
+    visibility: public
+    alt: Coloured label, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 44
+    section: "Chapter 10 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 10 question 5 answer and solution"

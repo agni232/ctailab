@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ct-chapter-3
+slug: number-play
+displayNumber: "3"
+title: Number Play
+summary: Build numbers under constraints, hunt for hidden values, and find the rule behind a figure.
+position: 3
+status: published
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 17
+    pageEnd: 19
+    section: "Chapter 3: Number Play"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 28
+    pageEnd: 36
+    section: "Chapter 3: Number Play"

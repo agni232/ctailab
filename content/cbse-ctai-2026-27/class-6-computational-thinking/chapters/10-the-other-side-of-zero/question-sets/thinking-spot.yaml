@@ -1,0 +1,17 @@
+id: cbse-2026-27-c6-ct-ch10-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 10.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-other-side-zero-thinking-spot-letters-in-the-same-group
+    questionVersion: 1
+    position: 1
+    sourcePage: 46
+    sourceSection: "Chapter 10 The Thinking Spot"

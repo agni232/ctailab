@@ -1,0 +1,62 @@
+id: c6-ct-data-handling-amount-saved-in-june
+slug: amount-saved-in-june
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-reasoning-with-clues
+    - c6-ct-ch4-bar-graphs
+  primaryTopic: c6-ct-ch4-reasoning-with-clues
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Raj saved some amount of money every month from January to June. He saved a total of
+    Rs. 30,000 in the first three months and Rs. 30,000 again in the last three months as
+    well. He did not save any money in February. The maximum total saved in any two
+    consecutive months is Rs. 40,000. While drawing the chart, Raj arranged the savings in
+    increasing order without matching them with the month names written below. What was the
+    actual amount saved in June?
+  stimulus:
+    assetRefs:
+      - savings-chart
+  options:
+    - id: option-a
+      text: "Rs. 22000"
+    - id: option-b
+      text: "Rs. 9000"
+    - id: option-c
+      text: "Rs. 3000"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    February is zero, so January and March together make 30,000, and only 8,000 and 22,000 do
+    that. The 40,000 pair must be 18,000 and 22,000, and January cannot hold 22,000 because
+    February beside it is zero. So March is 22,000, April is 18,000, and January is 8,000.
+    That leaves 3,000 and 9,000 for May and June in either order, so June cannot be pinned
+    down.
+  assetRefs: []
+assets:
+  - ref: savings-chart
+    file: ../assets/savings-chart.png
+    role: stem
+    visibility: public
+    alt: >-
+      A bar chart labelled January to June with values 0, 3000, 8000, 9000, 18000, and 22000
+      rising from left to right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 4 question 10 answer and solution"

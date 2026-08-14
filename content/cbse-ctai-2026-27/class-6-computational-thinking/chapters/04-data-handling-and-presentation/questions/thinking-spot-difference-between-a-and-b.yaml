@@ -1,0 +1,59 @@
+id: c6-ct-data-handling-thinking-spot-difference-between-a-and-b
+slug: thinking-spot-difference-between-a-and-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-logical-puzzles
+    - c6-ct-ch4-reasoning-with-clues
+  primaryTopic: c6-ct-ch4-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    The circles in the grid below can only contain numbers from 1 to 6. Every pair of
+    connected circles contains consecutive numbers. No two circles belonging to the same row
+    or column can have the same number. A number can be placed in more than one circle. What
+    is the difference between A and B?
+  stimulus:
+    assetRefs:
+      - connected-circles-grid
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A joins the 4, so it is 3 or 5, and a 3 already sits in its row, making A = 5. The empty
+    circle joined to the 3 could be 2 or 4, but choosing 2 leaves the rest of the grid
+    impossible, so it is 4. Following the chain through gives B = 6, and the difference
+    between A and B is 1.
+  assetRefs: []
+assets:
+  - ref: connected-circles-grid
+    file: ../assets/connected-circles-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A grid of circles joined by lines, some holding 4, 3, and A, with one circle labelled B
+      in the lower left
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 4 The Thinking Spot answer and solution"

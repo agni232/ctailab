@@ -1,0 +1,72 @@
+id: cbse-2026-27-c6-ct-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 3 in the Class 6 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-number-play-minimum-rolls-to-score-twenty-nine
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 17
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-white-squares-with-exactly-one-coin
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 17
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-value-of-p-plus-q-plus-r-plus-s
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 17
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-difference-between-the-number-and-ten-thousand
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 18
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-triangles-with-corner-sum-twelve
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 18
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-pair-picked-by-both-friends
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 18
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-difference-between-the-two-numbers
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 18
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-smallest-digit-sum-of-the-palindrome
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 18
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-blocks-between-a-smaller-and-larger-number
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 19
+    sourceSection: "Chapter 3: Number Play"
+  - questionId: c6-ct-number-play-cells-chosen-by-the-four-friends
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 19
+    sourceSection: "Chapter 3: Number Play"

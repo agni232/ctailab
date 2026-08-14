@@ -1,0 +1,82 @@
+id: c6-ct-lines-angles-circle-divided-for-sixty
+slug: circle-divided-for-sixty
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch2-angles-in-a-circle
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-angles-in-a-circle
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - circle-division-series
+  options:
+    - id: option-a
+      assetRef: circle-option-a
+      accessibleLabel: A circle cut into 4 equal parts
+    - id: option-b
+      assetRef: circle-option-b
+      accessibleLabel: A circle cut into 5 unequal parts
+    - id: option-c
+      assetRef: circle-option-c
+      accessibleLabel: A circle cut into 6 equal parts
+    - id: option-d
+      assetRef: circle-option-d
+      accessibleLabel: A circle cut into 8 equal parts
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The number in each circle is the size of one slice in degrees, so dividing 360 by it
+    gives the number of slices: 360 / 90 = 4, 360 / 120 = 3, and 360 / 45 = 8. For 60,
+    360 / 60 = 6, so the circle is cut into 6 equal parts.
+  assetRefs: []
+assets:
+  - ref: circle-division-series
+    file: ../assets/circle-division-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels pairing a number with a divided circle: 90 with a circle in 4 parts, 120
+      with a circle in 3 parts, 45 with a circle in 8 parts, and 60 with a question mark
+    position: 0
+  - ref: circle-option-a
+    file: ../assets/circle-option-a.png
+    role: option
+    visibility: public
+    alt: Divided circle, option a
+    position: 1
+  - ref: circle-option-b
+    file: ../assets/circle-option-b.png
+    role: option
+    visibility: public
+    alt: Divided circle, option b
+    position: 2
+  - ref: circle-option-c
+    file: ../assets/circle-option-c.png
+    role: option
+    visibility: public
+    alt: Divided circle, option c
+    position: 3
+  - ref: circle-option-d
+    file: ../assets/circle-option-d.png
+    role: option
+    visibility: public
+    alt: Divided circle, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 4 answer and solution"

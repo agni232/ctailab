@@ -1,0 +1,70 @@
+id: c6-ct-prime-time-odd-one-out-among-the-products
+slug: odd-one-out-among-the-products
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-factors-and-multiples
+    - c6-ct-ch5-digit-puzzles
+  primaryTopic: c6-ct-ch5-factors-and-multiples
+  estimatedMinutes: 4
+content:
+  prompt: Find the ODD one out.
+  options:
+    - id: option-a
+      assetRef: product-option-a
+      accessibleLabel: White cells holding 2 and 5 with a black cell holding 10
+    - id: option-b
+      assetRef: product-option-b
+      accessibleLabel: White cells holding 3 and 5 with a black cell holding 8
+    - id: option-c
+      assetRef: product-option-c
+      accessibleLabel: White cells holding 7 and 4 with a black cell holding 28
+    - id: option-d
+      assetRef: product-option-d
+      accessibleLabel: White cells holding 8 and 3 with a black cell holding 24
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In each figure the two white numbers multiply to give the black one: 2 x 5 = 10,
+    7 x 4 = 28, and 8 x 3 = 24. Option b breaks the rule, since 3 x 5 is 15, not 8.
+  assetRefs: []
+assets:
+  - ref: product-option-a
+    file: ../assets/product-option-a.png
+    role: option
+    visibility: public
+    alt: Number cells, option a
+    position: 1
+  - ref: product-option-b
+    file: ../assets/product-option-b.png
+    role: option
+    visibility: public
+    alt: Number cells, option b
+    position: 2
+  - ref: product-option-c
+    file: ../assets/product-option-c.png
+    role: option
+    visibility: public
+    alt: Number cells, option c
+    position: 3
+  - ref: product-option-d
+    file: ../assets/product-option-d.png
+    role: option
+    visibility: public
+    alt: Number cells, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 1 answer and solution"

@@ -1,0 +1,59 @@
+id: c6-ct-data-handling-marbles-chandler-collected
+slug: marbles-chandler-collected
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-bar-graphs
+    - c6-ct-ch4-reasoning-with-clues
+  primaryTopic: c6-ct-ch4-bar-graphs
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The bar graph shows the number of marbles collected by Monica, Rachel, Ross, Chandler, and
+    Joey. Rachel has collected more marbles than Joey and less than that of Chandler. Monica
+    has collected as much as Rachel and Ross collected together. How many marbles did Chandler
+    collect?
+  stimulus:
+    assetRefs:
+      - marbles-bar-graph
+  options:
+    - id: option-a
+      text: "18"
+    - id: option-b
+      text: "14"
+    - id: option-c
+      text: "20"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The bars read 18, 12, 30, 14, and 20. The only pair that adds to another value is
+    18 + 12 = 30, so Monica has 30 and Rachel and Ross have 18 and 12. Rachel needs someone
+    below her and someone above her among the remaining 14 and 20, which only works if Rachel
+    is 18. That leaves Joey on 14 and Chandler on 20.
+  assetRefs: []
+assets:
+  - ref: marbles-bar-graph
+    file: ../assets/marbles-bar-graph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A bar graph with five unlabelled bars reaching 18, 12, 30, 14, and 20 on a scale marked
+      from 0 to 35
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 4 question 5 answer and solution"

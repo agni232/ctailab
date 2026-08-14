@@ -1,0 +1,44 @@
+id: c6-ct-other-side-zero-next-term-in-the-integer-series
+slug: next-term-in-the-integer-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch10-number-series
+    - c6-ct-ch10-negative-numbers
+  primaryTopic: c6-ct-ch10-number-series
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What will come in place of "?" in the given series? -12, 2, -10, 4, -8, 6, -6, ?
+  options:
+    - id: option-a
+      text: "7"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "-4"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Read the series as two interleaved runs. The negative terms go -12, -10, -8, -6, rising by
+    2, and the positive terms go 2, 4, 6, also rising by 2. The missing slot is the next
+    positive term after 6, which is 8.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 44
+    section: "Chapter 10 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 10 question 3 answer and solution"

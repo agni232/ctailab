@@ -1,0 +1,82 @@
+id: c6-ct-constructions-option-that-forms-a-rectangle
+slug: option-that-forms-a-rectangle
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch8-joining-pieces
+    - c6-ct-ch8-shapes-and-figures
+  primaryTopic: c6-ct-ch8-joining-pieces
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Which of these options, when combined with the question image, will form a rectangle or a
+    square? Note: The images cannot overlap each other.
+  stimulus:
+    assetRefs:
+      - notched-question-image
+  options:
+    - id: option-a
+      assetRef: notched-option-a
+      accessibleLabel: A shape with a matching zigzag notch on its left edge
+    - id: option-b
+      assetRef: notched-option-b
+      accessibleLabel: A shape with a pointed tab on its right edge
+    - id: option-c
+      assetRef: notched-option-c
+      accessibleLabel: A shape with a zigzag along its right edge
+    - id: option-d
+      assetRef: notched-option-d
+      accessibleLabel: A shape with a wavy right edge
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The question image has a V-shaped bite taken out of its left side. To close into a
+    rectangle, the partner piece needs a matching V sticking out in exactly that place, which
+    only option a provides.
+  assetRefs: []
+assets:
+  - ref: notched-question-image
+    file: ../assets/notched-question-image.png
+    role: stem
+    visibility: public
+    alt: A shape labelled Question Image with a V-shaped notch cut into its left edge
+    position: 0
+  - ref: notched-option-a
+    file: ../assets/notched-option-a.png
+    role: option
+    visibility: public
+    alt: Notched shape, option a
+    position: 1
+  - ref: notched-option-b
+    file: ../assets/notched-option-b.png
+    role: option
+    visibility: public
+    alt: Notched shape, option b
+    position: 2
+  - ref: notched-option-c
+    file: ../assets/notched-option-c.png
+    role: option
+    visibility: public
+    alt: Notched shape, option c
+    position: 3
+  - ref: notched-option-d
+    file: ../assets/notched-option-d.png
+    role: option
+    visibility: public
+    alt: Notched shape, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 37
+    section: "Chapter 8 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 8 question 6 answer and solution"

@@ -1,0 +1,49 @@
+id: c6-ct-symmetry-thinking-spot-which-jar-has-candies
+slug: thinking-spot-which-jar-has-candies
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-logical-puzzles
+    - c6-ct-ch9-symmetry
+  primaryTopic: c6-ct-ch9-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    There are 3 jars out of which one of them has candies and the other two are empty jars.
+    There is a message printed on the lid of each jar. Only one of these messages is true and
+    the others are false. The message on the 1st jar is: "The Candies are not in this jar" and
+    the same message is written on the 2nd jar as well. The message on the 3rd jar is: "The
+    Candies are in the 2nd jar". Which jar has candies in it?
+  options:
+    - id: option-a
+      text: "1st"
+    - id: option-b
+      text: "2nd"
+    - id: option-c
+      text: "3rd"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Try each jar. If the candies were in jar 2, then jar 1's message and jar 3's message would
+    both be true, which is too many. If they were in jar 3, both jar 1 and jar 2 would be
+    telling the truth, again too many. If they are in jar 1, then jar 1 lies, jar 3 lies, and
+    only jar 2 tells the truth, which fits.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 43
+    section: "Chapter 9 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 89
+    section: "Chapter 9 The Thinking Spot answer and solution"

@@ -1,0 +1,60 @@
+id: c6-ct-lines-angles-longest-segment-on-the-line
+slug: longest-segment-on-the-line
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-line-segments
+    - c6-ct-ch2-logical-puzzles
+  primaryTopic: c6-ct-ch2-line-segments
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A line segment AB is shown below. Five points C, D, E, F, and G lie on the line segment
+    AB such that all the points (including A and B) are at equal intervals, the length of
+    segment CB is equal to the length of segment GD, point E is immediately to the right of
+    point C, and point F cannot be next to E or D. Which segment among the following options
+    is the longest?
+  stimulus:
+    assetRefs:
+      - line-segment-ab
+  options:
+    - id: option-a
+      text: "GC"
+    - id: option-b
+      text: "FE"
+    - id: option-c
+      text: "GE"
+    - id: option-d
+      text: "FD"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    C cannot sit next to B, because E has to be immediately right of it, and it cannot sit
+    next to A either, because CB would then be too long to match GD. That leaves three places
+    for C and E, and the rule that F is next to neither E nor D rules out all but one
+    arrangement. In that arrangement FD spans the most intervals.
+  assetRefs: []
+assets:
+  - ref: line-segment-ab
+    file: ../assets/line-segment-ab.png
+    role: stem
+    visibility: public
+    alt: >-
+      A horizontal line from A on the left to B on the right marked with seven evenly spaced
+      dots, with arrows labelled Left and Right beneath the ends
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 2 question 10 answer and solution"

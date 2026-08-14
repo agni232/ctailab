@@ -1,0 +1,58 @@
+id: c6-ct-other-side-zero-stacks-with-the-same-number-of-correct-pairs
+slug: stacks-with-the-same-number-of-correct-pairs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-comparing-integers
+    - c6-ct-ch10-integers
+  primaryTopic: c6-ct-ch10-comparing-integers
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    In the given grid, the empty cells in Column 2 must be filled using either ">" or "<".
+    Three symbol stacks are provided, and each stack must be placed as given (without changing
+    the order) into Column 2. Which two stacks, when placed in Column 2, result in the same
+    number of correctly related integer pairs?
+  stimulus:
+    assetRefs:
+      - grid-and-stacks
+  options:
+    - id: option-a
+      text: "Stacks A and B"
+    - id: option-b
+      text: "Stacks B and C"
+    - id: option-c
+      text: "Stacks A and C"
+    - id: option-d
+      text: "All stacks A, B and C"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The true relations for the four rows are -41 > -56, -80 < 78, 39 > -214, and -31 < -19.
+    Checking each stack against that gives 2 correct for Stack A, 2 for Stack B, and 3 for
+    Stack C, so Stacks A and B match.
+  assetRefs: []
+assets:
+  - ref: grid-and-stacks
+    file: ../assets/grid-and-stacks.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with column 1 holding -41, -80, 39, -31 and column 3 holding -56, 78, -214, -19,
+      beside three stacks of greater than and less than symbols labelled A, B, and C
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 44
+    section: "Chapter 10 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 10 question 2 answer and solution"

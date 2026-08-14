@@ -1,0 +1,45 @@
+id: c6-ct-other-side-zero-option-with-the-largest-value
+slug: option-with-the-largest-value
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch10-integers
+    - c6-ct-ch10-rules-and-machines
+  primaryTopic: c6-ct-ch10-integers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If C is a positive integer, which of these options will have the LARGEST value, where "+"
+    means "-" and "-" means "+"?
+  options:
+    - id: option-a
+      text: "C + 151 - 41"
+    - id: option-b
+      text: "C - 80 + 357"
+    - id: option-c
+      text: "C + 50 + 93"
+    - id: option-d
+      text: "C + 200 - 68"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Swap the signs first. Option a becomes C - 151 + 41 = C - 110, option b becomes
+    C + 80 - 357 = C - 277, option c becomes C - 50 - 93 = C - 143, and option d becomes
+    C - 200 + 68 = C - 132. The smallest amount taken away is 110, so option a is largest.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 44
+    section: "Chapter 10 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 10 question 4 answer and solution"

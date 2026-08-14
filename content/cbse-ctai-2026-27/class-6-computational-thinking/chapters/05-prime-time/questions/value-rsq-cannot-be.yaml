@@ -1,0 +1,54 @@
+id: c6-ct-prime-time-value-rsq-cannot-be
+slug: value-rsq-cannot-be
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch5-digit-puzzles
+    - c6-ct-ch5-factors-and-multiples
+  primaryTopic: c6-ct-ch5-digit-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The product of a number 'PQ' and 7 is 'RSQ', where P, Q, R, and S are distinct digits.
+    Which of the following CANNOT be the possible value of 'RSQ'?
+  stimulus:
+    assetRefs:
+      - pq-times-seven
+  options:
+    - id: option-a
+      text: "210"
+    - id: option-b
+      text: "315"
+    - id: option-c
+      text: "420"
+    - id: option-d
+      text: "105"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Divide each option by 7 and check the digits. 210 comes from 30, 315 from 45, and 420
+    from 60, and in each case P, Q, R, and S are all different. But 105 comes from 15, which
+    makes P equal to 1 and R equal to 1 as well, so the digits are not distinct.
+  assetRefs: []
+assets:
+  - ref: pq-times-seven
+    file: ../assets/pq-times-seven.png
+    role: stem
+    visibility: public
+    alt: A multiplication set out in columns with P Q on top, times 7 below, and R S Q as the product
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 5 question 5 answer and solution"

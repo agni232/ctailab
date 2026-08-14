@@ -1,0 +1,44 @@
+id: c6-ct-fractions-subjects-in-descending-order
+slug: subjects-in-descending-order
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch7-comparing-fractions
+    - c6-ct-ch7-fractions
+  primaryTopic: c6-ct-ch7-comparing-fractions
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Aashay scored the following marks in 3 subjects. Dance: 22/25. Maths: 41/50. Science:
+    93/100. Arrange the three subjects in descending order of how well he performed in them.
+  options:
+    - id: option-a
+      text: "Maths-Science-Dance"
+    - id: option-b
+      text: "Science-Maths-Dance"
+    - id: option-c
+      text: "Science-Dance-Maths"
+    - id: option-d
+      text: "Maths-Dance-Science"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Put them all over 100. Dance is 22/25 = 88/100, Maths is 41/50 = 82/100, and Science is
+    already 93/100. From highest to lowest that is Science, Dance, Maths.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 7 question 1 answer and solution"

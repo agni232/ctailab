@@ -1,0 +1,38 @@
+topics:
+  - id: c6-ct-ch10-integers
+    slug: integers
+    title: Integers
+    position: 1
+    status: published
+  - id: c6-ct-ch10-negative-numbers
+    slug: negative-numbers
+    title: Negative Numbers
+    position: 2
+    parentId: c6-ct-ch10-integers
+    status: published
+  - id: c6-ct-ch10-comparing-integers
+    slug: comparing-integers
+    title: Comparing Integers
+    position: 3
+    parentId: c6-ct-ch10-integers
+    status: published
+  - id: c6-ct-ch10-number-line
+    slug: number-line
+    title: The Number Line
+    position: 4
+    status: published
+  - id: c6-ct-ch10-number-series
+    slug: number-series
+    title: Number Series
+    position: 5
+    status: published
+  - id: c6-ct-ch10-rules-and-machines
+    slug: rules-and-machines
+    title: Rules and Machines
+    position: 6
+    status: published
+  - id: c6-ct-ch10-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

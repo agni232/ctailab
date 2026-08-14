@@ -1,0 +1,37 @@
+topics:
+  - id: c6-ct-ch5-primes
+    slug: prime-numbers
+    title: Prime Numbers
+    position: 1
+    status: published
+  - id: c6-ct-ch5-factors-and-multiples
+    slug: factors-and-multiples
+    title: Factors and Multiples
+    position: 2
+    status: published
+  - id: c6-ct-ch5-divisibility
+    slug: divisibility
+    title: Divisibility
+    position: 3
+    parentId: c6-ct-ch5-factors-and-multiples
+    status: published
+  - id: c6-ct-ch5-consecutive-numbers
+    slug: consecutive-numbers
+    title: Consecutive Numbers
+    position: 4
+    status: published
+  - id: c6-ct-ch5-digit-puzzles
+    slug: digit-puzzles
+    title: Digit Puzzles
+    position: 5
+    status: published
+  - id: c6-ct-ch5-codes-and-patterns
+    slug: codes-and-patterns
+    title: Codes and Patterns
+    position: 6
+    status: published
+  - id: c6-ct-ch5-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

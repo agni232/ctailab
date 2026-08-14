@@ -1,0 +1,47 @@
+id: c6-ct-fractions-questions-aman-got-right
+slug: questions-aman-got-right
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch7-fractions-of-a-set
+    - c6-ct-ch7-reasoning-with-clues
+  primaryTopic: c6-ct-ch7-fractions-of-a-set
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Aman and Samarth appear for an exam and each of them attempts all the questions. Aman
+    says: "1/3rd of my answers were wrong". Samarth says: "5 of my answers were wrong". If
+    both of them together get 3/4th of the answers right, how many questions did Aman get
+    right?
+  options:
+    - id: option-a
+      text: "20"
+    - id: option-b
+      text: "30"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    If Aman got 20 right, that is 2/3 of his paper, so the paper had 30 questions and he got
+    10 wrong. Samarth sat the same 30 and got 5 wrong. Between them that is 60 questions with
+    15 wrong, so 45 right, and 45 out of 60 is exactly 3/4.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 7 question 8 answer and solution"

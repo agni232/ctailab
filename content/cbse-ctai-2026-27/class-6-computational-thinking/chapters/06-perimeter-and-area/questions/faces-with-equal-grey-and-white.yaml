@@ -1,0 +1,54 @@
+id: c6-ct-perimeter-area-faces-with-equal-grey-and-white
+slug: faces-with-equal-grey-and-white
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch6-solids-and-faces
+    - c6-ct-ch6-comparing-areas
+  primaryTopic: c6-ct-ch6-solids-and-faces
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A larger block is formed using 4 small cubes (2 grey cubes and 2 white cubes), as shown
+    below. How many faces of the larger block have equal grey and white areas?
+  stimulus:
+    assetRefs:
+      - four-cube-block
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The white cubes sit on top and the grey ones below. The front and back each show two white
+    above two grey, and the left and right each show one white above one grey, so those four
+    faces are evenly split. The top is all white and the bottom all grey, so they do not count.
+  assetRefs: []
+assets:
+  - ref: four-cube-block
+    file: ../assets/four-cube-block.png
+    role: stem
+    visibility: public
+    alt: A block built from four small cubes, two white on top and two grey below
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 59
+    section: "Chapter 6 question 3 answer and solution"

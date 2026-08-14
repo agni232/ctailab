@@ -1,0 +1,55 @@
+id: c6-ct-other-side-zero-shapes-to-add-for-a-sum-of-fifty
+slug: shapes-to-add-for-a-sum-of-fifty
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-integers
+    - c6-ct-ch10-negative-numbers
+  primaryTopic: c6-ct-ch10-integers
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    In the box below, each square represents +10, and each triangle represents -15. How many
+    more such squares or triangles should be added to the box, such that the sum of all the
+    shapes of the box is 50?
+  stimulus:
+    assetRefs:
+      - shapes-box
+  options:
+    - id: option-a
+      text: "3 triangles"
+    - id: option-b
+      text: "1 triangle"
+    - id: option-c
+      text: "8 squares"
+    - id: option-d
+      text: "5 squares"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count the shapes already in the box and total them at +10 each for squares and -15 each for
+    triangles. That running total falls short of 50, and the gap works out to exactly 8 more
+    squares at +10 apiece.
+  assetRefs: []
+assets:
+  - ref: shapes-box
+    file: ../assets/shapes-box.png
+    role: stem
+    visibility: public
+    alt: A rectangular box scattered with outlined squares and solid black triangles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 45
+    section: "Chapter 10 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 10 question 9 answer and solution"

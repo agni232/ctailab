@@ -1,0 +1,58 @@
+id: c6-ct-symmetry-shapes-overlapping-symmetric-letters
+slug: shapes-overlapping-symmetric-letters
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-lines-of-symmetry
+    - c6-ct-ch9-symmetry
+  primaryTopic: c6-ct-ch9-lines-of-symmetry
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Image A is placed exactly on top of Image B (exactly overlapping it). How many shapes with
+    vertical symmetry overlap letters that also have vertical symmetry? Note: Rotation of the
+    images is not allowed.
+  stimulus:
+    assetRefs:
+      - images-a-and-b
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Go cell by cell and ask two questions: does the shape have a vertical line of symmetry,
+    and does the letter behind it? The triangle, arrow, pentagon, trapezium and hexagon
+    qualify among the shapes, and A, M, V, W, T and H among the letters. Matching them up
+    position by position, 3 cells satisfy both.
+  assetRefs: []
+assets:
+  - ref: images-a-and-b
+    file: ../assets/images-a-and-b.png
+    role: stem
+    visibility: public
+    alt: >-
+      Image A is a three by three grid of coloured shapes and Image B is a three by three grid
+      holding the letters S, M, V, P, A, W, H, C, and T
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 40
+    section: "Chapter 9 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 9 question 1 answer and solution"

@@ -1,0 +1,87 @@
+id: c6-ct-perimeter-area-shapes-that-fill-figure-c
+slug: shapes-that-fill-figure-c
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-tiling-and-fitting
+    - c6-ct-ch6-area
+  primaryTopic: c6-ct-ch6-tiling-and-fitting
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Figures A, B, and C are three rectangles of equal dimensions. Figures A and B contain some
+    shapes placed inside them. Using these shapes, completely fill figure C without leaving any
+    gaps. Which set of options can be used to exactly fill figure C? Note: The shapes may be
+    rotated but must not overlap. The dimensions of the shapes in the options are the same as
+    the dimensions given in the question image.
+  stimulus:
+    assetRefs:
+      - figures-to-fill
+  options:
+    - id: option-a
+      assetRef: fill-option-a
+      accessibleLabel: A green cross piece, a red step piece, a yellow strip, a blue triangle, and a pink piece
+    - id: option-b
+      assetRef: fill-option-b
+      accessibleLabel: A green cross, a light green step, a yellow strip, and two narrow triangles
+    - id: option-c
+      assetRef: fill-option-c
+      accessibleLabel: A blue step, a green step, a yellow square, and a red step
+    - id: option-d
+      assetRef: fill-option-d
+      accessibleLabel: A blue step, a red step, a pink triangle, a green piece, and a small yellow square
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Figure C is 6 cm by 4 cm, so the pieces chosen must add up to that area and also fit
+    together without gaps. Laying each set into the rectangle, only the pieces in option d
+    cover it exactly.
+  assetRefs: []
+assets:
+  - ref: figures-to-fill
+    file: ../assets/figures-to-fill.png
+    role: stem
+    visibility: public
+    alt: >-
+      Figure A and Figure B, each a 6 cm by 4 cm rectangle divided into coloured pieces, beside
+      an empty rectangle labelled Figure C
+    position: 0
+  - ref: fill-option-a
+    file: ../assets/fill-option-a.png
+    role: option
+    visibility: public
+    alt: Set of pieces, option a
+    position: 1
+  - ref: fill-option-b
+    file: ../assets/fill-option-b.png
+    role: option
+    visibility: public
+    alt: Set of pieces, option b
+    position: 2
+  - ref: fill-option-c
+    file: ../assets/fill-option-c.png
+    role: option
+    visibility: public
+    alt: Set of pieces, option c
+    position: 3
+  - ref: fill-option-d
+    file: ../assets/fill-option-d.png
+    role: option
+    visibility: public
+    alt: Set of pieces, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 32
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 6 question 10 answer and solution"

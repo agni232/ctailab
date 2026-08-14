@@ -1,0 +1,83 @@
+id: c6-ct-symmetry-next-figure-in-the-mirror-series
+slug: next-figure-in-the-mirror-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-reflections
+    - c6-ct-ch9-symmetry
+  primaryTopic: c6-ct-ch9-reflections
+  estimatedMinutes: 8
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - mirror-series
+  options:
+    - id: option-a
+      assetRef: mirror-option-a
+      accessibleLabel: A green shape with two small feet at the bottom corners
+    - id: option-b
+      assetRef: mirror-option-b
+      accessibleLabel: A green shape with tabs on both sides and two feet below
+    - id: option-c
+      assetRef: mirror-option-c
+      accessibleLabel: A green shape with tabs above and to both sides
+    - id: option-d
+      assetRef: mirror-option-d
+      accessibleLabel: A green shape with two tabs on top and tabs at both sides
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The black dots mark which mirrors to use. A dot above the horizontal line means reflect
+    across it, and a dot beside the vertical line means reflect across that one. The last term
+    has two dots above, so the shape is mirrored upward and sideways, producing the figure in
+    option c.
+  assetRefs: []
+assets:
+  - ref: mirror-series
+    file: ../assets/mirror-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels, each showing a coloured shape beside dotted crossing lines with black dots,
+      and an arrow to the reflected result, the last replaced by a question mark
+    position: 0
+  - ref: mirror-option-a
+    file: ../assets/mirror-option-a.png
+    role: option
+    visibility: public
+    alt: Reflected green shape, option a
+    position: 1
+  - ref: mirror-option-b
+    file: ../assets/mirror-option-b.png
+    role: option
+    visibility: public
+    alt: Reflected green shape, option b
+    position: 2
+  - ref: mirror-option-c
+    file: ../assets/mirror-option-c.png
+    role: option
+    visibility: public
+    alt: Reflected green shape, option c
+    position: 3
+  - ref: mirror-option-d
+    file: ../assets/mirror-option-d.png
+    role: option
+    visibility: public
+    alt: Reflected green shape, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 41
+    section: "Chapter 9 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 9 question 3 answer and solution"

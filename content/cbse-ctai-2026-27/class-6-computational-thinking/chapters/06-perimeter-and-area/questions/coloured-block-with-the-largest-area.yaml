@@ -1,0 +1,56 @@
+id: c6-ct-perimeter-area-coloured-block-with-the-largest-area
+slug: coloured-block-with-the-largest-area
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch6-comparing-areas
+    - c6-ct-ch6-area
+  primaryTopic: c6-ct-ch6-comparing-areas
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If figures A, B, and C are all of the same dimensions, which of the following coloured
+    blocks has the largest area?
+  stimulus:
+    assetRefs:
+      - figures-a-b-c
+  options:
+    - id: option-a
+      text: "Red"
+    - id: option-b
+      text: "Yellow"
+    - id: option-c
+      text: "Green"
+    - id: option-d
+      text: "All of them have an equal area"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Figures A and B are each cut into four equal parts, so the yellow and green blocks are one
+    quarter of the whole. Figure C is cut into three equal parts, so the red block is one
+    third. A third is bigger than a quarter, so red wins.
+  assetRefs: []
+assets:
+  - ref: figures-a-b-c
+    file: ../assets/figures-a-b-c.png
+    role: stem
+    visibility: public
+    alt: >-
+      Figure A split into four vertical strips with one yellow, Figure B split into four cells
+      with one green, and Figure C split into three horizontal bands with one red
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 6 question 7 answer and solution"

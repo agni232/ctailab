@@ -1,0 +1,60 @@
+id: c6-ct-perimeter-area-maximum-hexagons-that-can-be-added
+slug: maximum-hexagons-that-can-be-added
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-perimeter
+    - c6-ct-ch6-tiling-and-fitting
+  primaryTopic: c6-ct-ch6-perimeter
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Grid M is made using regular hexagons (like Shape A), as shown. Additional copies of Shape
+    A may be attached only along the outer sides of Grid M, and each added shape must share at
+    least one full side with the existing grid. The shapes must be added such that the total
+    perimeter of the grid remains unchanged. What is the MAXIMUM number of Shape A pieces that
+    can be added?
+  stimulus:
+    assetRefs:
+      - hexagon-grid
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Adding a hexagon hides the sides where it touches the grid and exposes its remaining
+    sides. The perimeter only stays the same where the number of sides hidden equals the
+    number added, which happens in notches where the new hexagon touches along three sides.
+    There are 4 such places.
+  assetRefs: []
+assets:
+  - ref: hexagon-grid
+    file: ../assets/hexagon-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      Grid M built from blue regular hexagons in an irregular cluster, beside a single hexagon
+      labelled Shape A
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 6 question 5 answer and solution"

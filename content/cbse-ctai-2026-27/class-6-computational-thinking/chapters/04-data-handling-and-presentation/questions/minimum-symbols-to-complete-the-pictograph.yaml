@@ -1,0 +1,61 @@
+id: c6-ct-data-handling-minimum-symbols-to-complete-the-pictograph
+slug: minimum-symbols-to-complete-the-pictograph
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-pictographs
+    - c6-ct-ch4-reasoning-with-clues
+  primaryTopic: c6-ct-ch4-pictographs
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A pictograph with some missing data is shown below. Extra symbols need to be added (but
+    none can be removed or shifted) to complete the pictograph, such that the number of
+    students increases by 300 for every gap of 4 years, and the number of students in each
+    year is a multiple of 100. What is the MINIMUM number of symbols that must be added to
+    satisfy all the above conditions?
+  stimulus:
+    assetRefs:
+      - students-pictograph
+  options:
+    - id: option-a
+      text: "8.5"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "7.5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Reading the symbols gives 400, 550, 450, 600, and 700. Nothing can be taken away, so work
+    upwards. 2000 must reach 400 + 300 = 700, needing 250 more. 1998 must become a multiple of
+    100, so add 50 to make 600. Then 2002 must reach 900, needing 300, and 2004 must reach
+    1000, needing another 300. Altogether 50 + 250 + 300 + 300 = 900 students, and at 100 per
+    symbol that is 9 symbols.
+  assetRefs: []
+assets:
+  - ref: students-pictograph
+    file: ../assets/students-pictograph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A pictograph of students by year for 1996 to 2004, drawn as rows of stick figures with
+      one figure standing for 100 students
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 22
+    section: "Chapter 4 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 4 question 7 answer and solution"

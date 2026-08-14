@@ -1,0 +1,45 @@
+id: c6-ct-prime-time-what-y-is-always-divisible-by
+slug: what-y-is-always-divisible-by
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch5-consecutive-numbers
+    - c6-ct-ch5-divisibility
+  primaryTopic: c6-ct-ch5-consecutive-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The sum of three consecutive natural numbers is equal to Y. Which of the following
+    numbers will Y always be divisible by?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Among any three numbers in a row, one is a multiple of 3, and the other two sit one above
+    and one below it, so their extra and missing parts cancel. The total is always a multiple
+    of 3. Checking 1 + 2 + 3 = 6 and 2 + 3 + 4 = 9 shows 2 and 4 do not always divide it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 3 answer and solution"

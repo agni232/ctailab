@@ -1,0 +1,83 @@
+id: c6-ct-constructions-half-that-forms-four-squares
+slug: half-that-forms-four-squares
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-joining-pieces
+    - c6-ct-ch8-counting-squares
+  primaryTopic: c6-ct-ch8-joining-pieces
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    An image made of squares is cut diagonally into two halves, and one half is shown below.
+    Which option should be joined with the question image so that the resulting image forms
+    exactly 4 squares? Note: You cannot rotate any of the images.
+  stimulus:
+    assetRefs:
+      - half-image
+  options:
+    - id: option-a
+      assetRef: half-option-a
+      accessibleLabel: A triangle half with three horizontal lines
+    - id: option-b
+      assetRef: half-option-b
+      accessibleLabel: A triangle half with two vertical lines
+    - id: option-c
+      assetRef: half-option-c
+      accessibleLabel: A triangle half with four vertical lines
+    - id: option-d
+      assetRef: half-option-d
+      accessibleLabel: A triangle half with nested right-angled steps
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The question half carries horizontal lines below the diagonal. Joining it to a half whose
+    lines run the other way completes rectangles across the diagonal, and only the spacing in
+    option c closes exactly 4 squares.
+  assetRefs: []
+assets:
+  - ref: half-image
+    file: ../assets/half-image.png
+    role: stem
+    visibility: public
+    alt: A right-angled triangle with a dotted diagonal and three horizontal lines inside it
+    position: 0
+  - ref: half-option-a
+    file: ../assets/half-option-a.png
+    role: option
+    visibility: public
+    alt: Triangular half, option a
+    position: 1
+  - ref: half-option-b
+    file: ../assets/half-option-b.png
+    role: option
+    visibility: public
+    alt: Triangular half, option b
+    position: 2
+  - ref: half-option-c
+    file: ../assets/half-option-c.png
+    role: option
+    visibility: public
+    alt: Triangular half, option c
+    position: 3
+  - ref: half-option-d
+    file: ../assets/half-option-d.png
+    role: option
+    visibility: public
+    alt: Triangular half, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 36
+    section: "Chapter 8 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 8 question 1 answer and solution"

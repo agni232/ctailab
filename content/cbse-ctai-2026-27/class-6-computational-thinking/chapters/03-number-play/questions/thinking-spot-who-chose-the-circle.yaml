@@ -1,0 +1,56 @@
+id: c6-ct-number-play-thinking-spot-who-chose-the-circle
+slug: thinking-spot-who-chose-the-circle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-logical-puzzles
+    - c6-ct-ch3-grids-and-constraints
+  primaryTopic: c6-ct-ch3-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Four friends A, B, C, and D each selected a different shape from the shapes shown below,
+    such that A selected a shape that is neither beside B's shape nor D's shape, and C and D
+    did not select the triangle. Who among them chose the circle?
+  stimulus:
+    assetRefs:
+      - four-shapes
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A's only neighbour can be C, so A must be at one end, taking either the star or the
+    circle. If A took the circle then C would have the triangle, which is not allowed. So A
+    took the star and C the rhombus. Neither C nor D can have the triangle, so B did, leaving
+    the circle for D.
+  assetRefs: []
+assets:
+  - ref: four-shapes
+    file: ../assets/four-shapes.jpg
+    role: stem
+    visibility: public
+    alt: "A row of four outlined shapes: a star, a rhombus, a triangle, and a circle"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 3 The Thinking Spot answer and solution"

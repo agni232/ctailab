@@ -1,0 +1,45 @@
+id: c6-ct-fractions-operation-performed-on-the-numbers
+slug: operation-performed-on-the-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch7-operations-on-fractions
+    - c6-ct-ch7-fractions
+  primaryTopic: c6-ct-ch7-operations-on-fractions
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Two numbers, 23/18 and 7/54 are taken. A binary operation is performed on them and the
+    result obtained is 31/27. What operation might have been performed on the numbers taken?
+  options:
+    - id: option-a
+      text: "Addition"
+    - id: option-b
+      text: "Subtraction"
+    - id: option-c
+      text: "Multiplication"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Over 54ths the numbers are 69/54 and 7/54, and the answer 31/27 is 62/54. That sits below
+    the larger number, so adding or multiplying is ruled out. Checking subtraction,
+    69/54 - 7/54 = 62/54, which matches.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 67
+    section: "Chapter 7 question 4 answer and solution"

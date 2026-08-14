@@ -1,0 +1,45 @@
+id: c6-ct-prime-time-value-x-cannot-be
+slug: value-x-cannot-be
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-primes
+    - c6-ct-ch5-factors-and-multiples
+  primaryTopic: c6-ct-ch5-primes
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    If "X" is a number formed by the addition of two or more DIFFERENT single-digit prime
+    numbers, which of the following options CANNOT be a value of the number "X"?
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The single-digit primes are 2, 3, 5, and 7. Then 8 = 3 + 5, 10 = 3 + 7, and
+    15 = 3 + 5 + 7. For 11 the closest sums are 3 + 7 = 10 and 5 + 7 = 12, and no other
+    combination lands on 11.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 2 answer and solution"

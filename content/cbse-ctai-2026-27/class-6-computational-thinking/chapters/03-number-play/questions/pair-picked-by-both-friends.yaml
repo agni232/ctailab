@@ -1,0 +1,47 @@
+id: c6-ct-number-play-pair-picked-by-both-friends
+slug: pair-picked-by-both-friends
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch3-sums-and-combinations
+    - c6-ct-ch3-comparing-and-ordering
+  primaryTopic: c6-ct-ch3-sums-and-combinations
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Amat and Ankit each picked three numbers from the set {1, 2, 3, 4, 5, 6}. Three different
+    numbers picked by Amat add up to give the highest possible sum. Three different numbers
+    picked by Ankit add up to the second highest possible sum. Which pair of numbers were
+    picked by both Amat and Ankit?
+  options:
+    - id: option-a
+      text: "3 and 4"
+    - id: option-b
+      text: "4 and 5"
+    - id: option-c
+      text: "5 and 6"
+    - id: option-d
+      text: "2 and 5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The highest sum uses the three largest numbers: 6 + 5 + 4 = 15. For the next highest, keep
+    6 and 5 and step the third number down to 3, giving 6 + 5 + 3 = 14. So Amat picked
+    {6, 5, 4} and Ankit picked {6, 5, 3}, and they share 5 and 6.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 3 question 6 answer and solution"

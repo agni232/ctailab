@@ -1,0 +1,57 @@
+id: c6-ct-other-side-zero-possible-value-of-x-in-the-machine
+slug: possible-value-of-x-in-the-machine
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-rules-and-machines
+    - c6-ct-ch10-comparing-integers
+  primaryTopic: c6-ct-ch10-rules-and-machines
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Below is a logic machine that takes two numerical inputs and selects the smaller number to
+    continue, as shown in Image A. Using this same logic, what could be the possible value of
+    'X' in Image B?
+  stimulus:
+    assetRefs:
+      - logic-machine
+  options:
+    - id: option-a
+      text: "24"
+    - id: option-b
+      text: "20"
+    - id: option-c
+      text: "14"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The lower gate picks the smaller of 12 and 17, so Y is 12. The final gate compares X with
+    12 and returns 12, so X must be more than 12. The upper gate compares 19 with X and passes
+    X on, so X must be less than 19. The only option between 12 and 19 is 14.
+  assetRefs: []
+assets:
+  - ref: logic-machine
+    file: ../assets/logic-machine.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Image A shows two inputs feeding a gate labelled smallest input, and Image B shows 19 and
+      X feeding one gate, 12 and 17 feeding another, and both feeding a final gate reading 12
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 46
+    section: "Chapter 10 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 96
+    section: "Chapter 10 question 10 answer and solution"

@@ -1,0 +1,52 @@
+id: c6-ct-symmetry-line-that-gives-two-pentagons
+slug: line-that-gives-two-pentagons
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch9-shapes-and-figures
+    - c6-ct-ch9-lines-of-symmetry
+  primaryTopic: c6-ct-ch9-shapes-and-figures
+  estimatedMinutes: 6
+content:
+  prompt: Along which line should I cut the given paper sheet to get two identical Pentagons?
+  stimulus:
+    assetRefs:
+      - hexagon-cut-lines
+  options:
+    - id: option-a
+      text: "AB"
+    - id: option-b
+      text: "CD"
+    - id: option-c
+      text: "DE"
+    - id: option-d
+      text: "None of These"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Cutting a hexagon gives two pentagons only when the cut runs between two opposite sides
+    rather than through corners, and the two halves match only if the cut is a line of
+    symmetry. CD is the line that does both.
+  assetRefs: []
+assets:
+  - ref: hexagon-cut-lines
+    file: ../assets/hexagon-cut-lines.png
+    role: stem
+    visibility: public
+    alt: A blue hexagon crossed by orange lines labelled A to B, C to D, and E to D
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 42
+    section: "Chapter 9 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 9 question 7 answer and solution"

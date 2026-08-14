@@ -1,0 +1,47 @@
+id: c6-ct-number-play-smallest-digit-sum-of-the-palindrome
+slug: smallest-digit-sum-of-the-palindrome
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-digit-properties
+    - c6-ct-ch3-making-numbers
+  primaryTopic: c6-ct-ch3-digit-properties
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    I am a 5-digit number made up of both even and odd digits. I read the same backwards and
+    forwards (palindrome). The greatest difference between at least two of my digits is 9.
+    What is the smallest possible sum of my digits?
+  options:
+    - id: option-a
+      text: "9"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: "13"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A palindrome looks like ABCBA, and a difference of 9 between two digits means both 0 and 9
+    must appear. To keep the sum low, use 9 once in the middle and put 0 in the repeated B
+    positions. A cannot be 0, so the smallest choice is 1, giving 10901 and a digit sum of
+    1 + 0 + 9 + 0 + 1 = 11.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 3 question 8 answer and solution"

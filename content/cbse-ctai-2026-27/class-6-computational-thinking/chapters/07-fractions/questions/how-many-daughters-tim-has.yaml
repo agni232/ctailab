@@ -1,0 +1,46 @@
+id: c6-ct-fractions-how-many-daughters-tim-has
+slug: how-many-daughters-tim-has
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch7-fractions-of-a-set
+    - c6-ct-ch7-reasoning-with-clues
+  primaryTopic: c6-ct-ch7-fractions-of-a-set
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Tim has some sons, some daughters, and 27 grandchildren. 2/3 of his children are male and
+    the rest are female. Each of his sons has 2 sons and 1 daughter. Each of his daughters has
+    2 daughters and 1 son. How many daughters does Tim have?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "9"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Every child of Tim's has 3 children of their own, whether son or daughter. With 27
+    grandchildren that means 27 / 3 = 9 children. Two thirds are male, so 6 are sons and the
+    remaining 3 are daughters.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 7 question 6 answer and solution"

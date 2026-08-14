@@ -1,0 +1,38 @@
+topics:
+  - id: c6-ct-ch4-reading-data
+    slug: reading-data
+    title: Reading Data
+    position: 1
+    status: published
+  - id: c6-ct-ch4-bar-graphs
+    slug: bar-graphs
+    title: Bar Graphs
+    position: 2
+    parentId: c6-ct-ch4-reading-data
+    status: published
+  - id: c6-ct-ch4-pictographs
+    slug: pictographs
+    title: Pictographs
+    position: 3
+    parentId: c6-ct-ch4-reading-data
+    status: published
+  - id: c6-ct-ch4-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 4
+    status: published
+  - id: c6-ct-ch4-averages-and-totals
+    slug: averages-and-totals
+    title: Averages and Totals
+    position: 5
+    status: published
+  - id: c6-ct-ch4-figure-patterns
+    slug: figure-patterns
+    title: Figure Patterns
+    position: 6
+    status: published
+  - id: c6-ct-ch4-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

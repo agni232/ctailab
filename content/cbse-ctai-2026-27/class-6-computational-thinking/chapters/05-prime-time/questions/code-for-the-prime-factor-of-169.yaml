@@ -1,0 +1,46 @@
+id: c6-ct-prime-time-code-for-the-prime-factor-of-169
+slug: code-for-the-prime-factor-of-169
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-codes-and-patterns
+    - c6-ct-ch5-primes
+  primaryTopic: c6-ct-ch5-codes-and-patterns
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In a certain language, if 3 is coded as 'free', 5 is coded as 'dive', 10 is coded as
+    'hen', then what could be the possible code for the PRIME FACTOR of 169, in the same
+    language?
+  options:
+    - id: option-a
+      text: "heighten"
+    - id: option-b
+      text: "throwing"
+    - id: option-c
+      text: "routine"
+    - id: option-d
+      text: "titan"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each code rhymes with the number's name: three with free, five with dive, ten with hen.
+    Since 169 = 13 x 13, the prime factor is 13, whose name is thirteen. The option that
+    rhymes with thirteen is routine.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 5 question 7 answer and solution"

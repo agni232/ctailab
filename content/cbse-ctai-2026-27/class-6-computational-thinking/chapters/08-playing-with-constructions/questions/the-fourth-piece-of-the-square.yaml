@@ -1,0 +1,85 @@
+id: c6-ct-constructions-the-fourth-piece-of-the-square
+slug: the-fourth-piece-of-the-square
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-joining-pieces
+    - c6-ct-ch8-area-and-division
+  primaryTopic: c6-ct-ch8-joining-pieces
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Four pieces together form a square. Only three of these pieces are shown. Which option
+    represents the fourth piece that, when joined with the given three pieces, will complete
+    the square? Note: The pieces must not overlap each other and rotation is not allowed.
+  stimulus:
+    assetRefs:
+      - three-pieces
+  options:
+    - id: option-a
+      assetRef: piece-option-a
+      accessibleLabel: A green piece of four cells in an L shape
+    - id: option-b
+      assetRef: piece-option-b
+      accessibleLabel: A green square of four cells
+    - id: option-c
+      assetRef: piece-option-c
+      accessibleLabel: A green piece of four cells with three in a row
+    - id: option-d
+      assetRef: piece-option-d
+      accessibleLabel: A green piece of four cells in a zigzag
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The red, blue, and yellow pieces cover 4 cells each, which is 12, so the finished square
+    must be 4 by 4 and the missing piece must cover the remaining 4 cells. Fitting the three
+    given pieces leaves a 2 by 2 hole, which is the piece in option b.
+  assetRefs: []
+assets:
+  - ref: three-pieces
+    file: ../assets/three-pieces.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three pieces made of squares, one red in an L shape, one blue in a zigzag, and one
+      yellow in a straight column
+    position: 0
+  - ref: piece-option-a
+    file: ../assets/piece-option-a.png
+    role: option
+    visibility: public
+    alt: Green piece, option a
+    position: 1
+  - ref: piece-option-b
+    file: ../assets/piece-option-b.png
+    role: option
+    visibility: public
+    alt: Green piece, option b
+    position: 2
+  - ref: piece-option-c
+    file: ../assets/piece-option-c.png
+    role: option
+    visibility: public
+    alt: Green piece, option c
+    position: 3
+  - ref: piece-option-d
+    file: ../assets/piece-option-d.png
+    role: option
+    visibility: public
+    alt: Green piece, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 38
+    section: "Chapter 8 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 8 question 8 answer and solution"

@@ -1,0 +1,55 @@
+id: c6-ct-lines-angles-missing-angle-in-the-clock-sets
+slug: missing-angle-in-the-clock-sets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-clock-angles
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-clock-angles
+  estimatedMinutes: 8
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - clock-angle-sets
+  options:
+    - id: option-a
+      text: "40°"
+    - id: option-b
+      text: "60°"
+    - id: option-c
+      text: "90°"
+    - id: option-d
+      text: "30°"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each set shows two clocks, and the number between them is the angle both shaded regions
+    have in common, measured in gaps of 30 degrees. The first set shares 2 gaps, from 9 to
+    11, which is 60 degrees. In the last set the shared part runs from 2 to 4, again 2 gaps,
+    so the answer is 60 degrees.
+  assetRefs: []
+assets:
+  - ref: clock-angle-sets
+    file: ../assets/clock-angle-sets.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels, each with two clock faces showing shaded angles between their hands and a
+      value between them reading 60 degrees, 120 degrees, 90 degrees, and a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 6 answer and solution"

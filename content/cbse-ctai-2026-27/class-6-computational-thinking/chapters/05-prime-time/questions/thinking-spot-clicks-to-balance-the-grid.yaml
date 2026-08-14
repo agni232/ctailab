@@ -1,0 +1,59 @@
+id: c6-ct-prime-time-thinking-spot-clicks-to-balance-the-grid
+slug: thinking-spot-clicks-to-balance-the-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch5-logical-puzzles
+    - c6-ct-ch5-codes-and-patterns
+  primaryTopic: c6-ct-ch5-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    The image given below contains ONLY white and grey squares. You can change the colour of a
+    square by clicking on it. If you click a white square, the colour of that square and all
+    squares that share a common corner (but do not share a common side) with it will change.
+    If you click a grey square, its colour and the colour of the squares that share a common
+    side with it will change. What is the minimum number of squares that must be clicked to
+    make the number of grey and white squares equal?
+  stimulus:
+    assetRefs:
+      - grey-white-grid
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The grid holds 16 squares, 11 white and 5 grey, so three whites need to become grey to
+    reach 8 each. Clicking a white square flips it and its corner neighbours, so look for a
+    white square whose corner neighbours are two whites and one grey. Flipping that group
+    turns three whites grey and one grey white, giving 8 and 8 in a single click.
+  assetRefs: []
+assets:
+  - ref: grey-white-grid
+    file: ../assets/grey-white-grid.jpg
+    role: stem
+    visibility: public
+    alt: A four by four grid of squares, most of them white with five shaded grey
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 29
+    section: "Chapter 5 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 56
+    section: "Chapter 5 The Thinking Spot answer and solution"

@@ -1,0 +1,56 @@
+id: c6-ct-symmetry-shapes-where-the-dotted-line-is-symmetric
+slug: shapes-where-the-dotted-line-is-symmetric
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch9-lines-of-symmetry
+    - c6-ct-ch9-shapes-and-figures
+  primaryTopic: c6-ct-ch9-lines-of-symmetry
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Eight shapes are shown below, each having a dotted line. Count the number of shapes in
+    which the dotted line is a line of symmetry.
+  stimulus:
+    assetRefs:
+      - eight-dotted-shapes
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    For each shape, imagine folding along the dotted line and check whether the two halves
+    land exactly on each other. The diamond, the pinched rectangle, the half circle, and the
+    bracketed square pass that test, which is 4 shapes.
+  assetRefs: []
+assets:
+  - ref: eight-dotted-shapes
+    file: ../assets/eight-dotted-shapes.png
+    role: stem
+    visibility: public
+    alt: >-
+      Eight outlined shapes, each crossed by a dashed line, including a diamond, a triangle, a
+      pinched rectangle, a half circle, and a square with a diagonal
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 42
+    section: "Chapter 9 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 9 question 8 answer and solution"

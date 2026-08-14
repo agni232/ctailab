@@ -1,0 +1,48 @@
+id: c6-ct-other-side-zero-input-that-gives-minus-345
+slug: input-that-gives-minus-345
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch10-rules-and-machines
+    - c6-ct-ch10-negative-numbers
+  primaryTopic: c6-ct-ch10-rules-and-machines
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Alex has a magic box that changes a number based on these rules. If the input is greater
+    than 400, subtract 100. If the input is less than 201, add 100. If the input is between 201
+    and 401, it becomes 0. After this, the sign of the number is reversed (positive becomes
+    negative and vice versa). Which input will produce an output of -345?
+  options:
+    - id: option-a
+      text: "445"
+    - id: option-b
+      text: "245"
+    - id: option-c
+      text: "-445"
+    - id: option-d
+      text: "545"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Work backwards. The output is -345, so before the sign flip the value was 345. Since 445 is
+    over 400, the box takes off 100 and gets 345, then flips the sign to -345. Checking the
+    others, 245 becomes 0, 545 becomes 445, and -445 is under 201 so it becomes -345 and flips
+    to +345.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 45
+    section: "Chapter 10 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 10 question 7 answer and solution"

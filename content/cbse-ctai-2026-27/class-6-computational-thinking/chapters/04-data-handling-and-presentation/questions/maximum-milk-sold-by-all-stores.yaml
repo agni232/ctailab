@@ -1,0 +1,58 @@
+id: c6-ct-data-handling-maximum-milk-sold-by-all-stores
+slug: maximum-milk-sold-by-all-stores
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-pictographs
+    - c6-ct-ch4-averages-and-totals
+  primaryTopic: c6-ct-ch4-pictographs
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Sales of 4 milk stores are given below, in the form of a pictograph. If each symbol in the
+    pictograph represents 'x' litres, where x is a whole number and the sales made by any
+    store is less than 100 litres, what is the MAXIMUM possible quantity of milk sold (in
+    litres) by all the stores in total?
+  stimulus:
+    assetRefs:
+      - milk-pictograph
+  options:
+    - id: option-a
+      text: "255 L"
+    - id: option-b
+      text: "272 L"
+    - id: option-c
+      text: "306 L"
+    - id: option-d
+      text: "283 L"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Counting symbols gives A = 3x, B = 4.5x, C = 6x, and D = 3.5x, so the total is 17x. Store
+    C sells the most, so 6x must stay under 100. The largest multiple of 6 below 100 is 96,
+    giving x = 16. The total is then 17 x 16 = 272 litres.
+  assetRefs: []
+assets:
+  - ref: milk-pictograph
+    file: ../assets/milk-pictograph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A pictograph of milk sold by stores A, B, C, and D, drawn as rows of bottle symbols with
+      one bottle standing for x litres
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 20
+    section: "Chapter 4 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 4 question 3 answer and solution"

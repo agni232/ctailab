@@ -1,0 +1,54 @@
+id: c6-ct-fractions-missing-numerator-in-the-grids
+slug: missing-numerator-in-the-grids
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch7-fractions
+    - c6-ct-ch7-comparing-fractions
+  primaryTopic: c6-ct-ch7-fractions
+  estimatedMinutes: 3
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shaded-grid-fractions
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each grid holds 9 cells and the fraction below it counts the shaded ones, so the first
+    three read 4/9, 3/9, and 2/9. The counts step down by one each time, so the last should be
+    1/9, which makes the missing numerator 1.
+  assetRefs: []
+assets:
+  - ref: shaded-grid-fractions
+    file: ../assets/shaded-grid-fractions.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four three by three grids with some cells shaded grey, each above a circle reading 4/9,
+      3/9, 2/9, and a question mark over 9
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 7 question 2 answer and solution"

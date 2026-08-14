@@ -1,0 +1,58 @@
+id: c6-ct-lines-angles-value-of-angle-apd
+slug: value-of-angle-apd
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch2-angles
+    - c6-ct-ch2-rotation
+  primaryTopic: c6-ct-ch2-angles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the given figure, Triangle 2 is a right-angled triangle. Both triangles are arranged
+    such that the red circles completely overlap, meaning both triangles meet at point P. The
+    triangles cannot be rotated or flipped. If an angle of 30 degrees is formed between
+    Triangle 1 and Triangle 2 at point P, find the value of angle APD.
+  stimulus:
+    assetRefs:
+      - two-triangles
+  options:
+    - id: option-a
+      text: "110°"
+    - id: option-b
+      text: "120°"
+    - id: option-c
+      text: "130°"
+    - id: option-d
+      text: "150°"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Sliding the triangles together at P puts angle APC between them, which the question gives
+    as 30 degrees. Triangle 2 is right-angled at P, so angle CPD is 90 degrees. Angle APD is
+    the two added together: 30 + 90 = 120 degrees.
+  assetRefs: []
+assets:
+  - ref: two-triangles
+    file: ../assets/two-triangles.png
+    role: stem
+    visibility: public
+    alt: >-
+      Triangle 1 with corners A, B, and P and Triangle 2 with corners C, P, and D, each
+      marked with a red circle at P
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 23
+    section: "Chapter 2 question 8 answer and solution"

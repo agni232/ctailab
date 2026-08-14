@@ -1,0 +1,60 @@
+id: c6-ct-data-handling-difference-between-weights-of-b-and-c
+slug: difference-between-weights-of-b-and-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-bar-graphs
+    - c6-ct-ch4-reasoning-with-clues
+  primaryTopic: c6-ct-ch4-bar-graphs
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The weights (in kg) of five friends, A, B, C, D, and E, are represented in the graph below
+    (not necessarily in the same order). E is lighter than C. Both B and D are lighter than E,
+    and the difference between the weights of B and E is the same as the difference between
+    the weights of D and E. The difference between the weights of A and any other friend is
+    10 kg or less. What is the difference between the weights of B and C?
+  stimulus:
+    assetRefs:
+      - weights-bar-graph
+  options:
+    - id: option-a
+      text: "10 kg"
+    - id: option-b
+      text: "5 kg"
+    - id: option-c
+      text: "20 kg"
+    - id: option-d
+      text: "15 kg"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The bars read 15, 15, 20, 25, and 35. B and D sit the same distance below E, so they must
+    be equal, and only 15 repeats, giving B = D = 15. A must be within 10 kg of everyone,
+    which rules out 20 and 35 and leaves A = 25. E is lighter than C, so E = 20 and C = 35.
+    The difference between B and C is 35 - 15 = 20 kg.
+  assetRefs: []
+assets:
+  - ref: weights-bar-graph
+    file: ../assets/weights-bar-graph.png
+    role: stem
+    visibility: public
+    alt: >-
+      A bar graph with five unlabelled bars reaching 35, 15, 25, 15, and 20 on a scale marked
+      from 0 to 40
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 21
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 4 question 4 answer and solution"

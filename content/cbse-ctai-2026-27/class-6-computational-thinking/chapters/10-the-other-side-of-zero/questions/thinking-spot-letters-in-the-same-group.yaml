@@ -1,0 +1,59 @@
+id: c6-ct-other-side-zero-thinking-spot-letters-in-the-same-group
+slug: thinking-spot-letters-in-the-same-group
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-logical-puzzles
+    - c6-ct-ch10-number-series
+  primaryTopic: c6-ct-ch10-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    All 26 letters of the English alphabet are arranged in a circle in the order A to Z, with Z
+    next to A. Six groups of 4 consecutive letters are selected from this arrangement and each
+    group is assigned a unique number from 1 to 6. The table below shows a letter and the
+    number of the group it belongs to. Which option shows letters that could belong to the same
+    group?
+  stimulus:
+    assetRefs:
+      - letter-group-table
+  options:
+    - id: option-a
+      text: "A-B-C-D"
+    - id: option-b
+      text: "G-H-I-J"
+    - id: option-c
+      text: "L-M-N-O"
+    - id: option-d
+      text: "I-J-K-L"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    If four letters in a row share a group, the first and last must carry the same group
+    number. A is 1 while D is 2, so option a fails. G and J are both 3, so option b works. Once
+    G to J is fixed as a group, the next group runs K to N, which rules out the other two.
+  assetRefs: []
+assets:
+  - ref: letter-group-table
+    file: ../assets/letter-group-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table pairing the letters G, S, K, A, J, F, D, N, and P with the group numbers 3, 6, 4,
+      1, 3, 2, 2, 4, and 5
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 46
+    section: "Chapter 10 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 10 The Thinking Spot answer and solution"

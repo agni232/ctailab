@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ct-chapter-5
+slug: prime-time
+displayNumber: "5"
+title: Prime Time
+summary: Work with primes, factors, and multiples, and reason about the numbers they build.
+position: 5
+status: published
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    pageEnd: 29
+    section: "Chapter 5: Prime Time"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 52
+    pageEnd: 56
+    section: "Chapter 5: Prime Time"

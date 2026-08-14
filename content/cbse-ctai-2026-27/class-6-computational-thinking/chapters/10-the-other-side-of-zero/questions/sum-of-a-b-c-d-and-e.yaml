@@ -1,0 +1,61 @@
+id: c6-ct-other-side-zero-sum-of-a-b-c-d-and-e
+slug: sum-of-a-b-c-d-and-e
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-negative-numbers
+    - c6-ct-ch10-rules-and-machines
+  primaryTopic: c6-ct-ch10-negative-numbers
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    In a shop, every customer receives a scorecard that starts with 0 points. If an item
+    costing more than Rs. 500 is purchased, the amount exceeding Rs. 500 is added to the
+    scorecard as points. If an item costing less than Rs. 500 is purchased, the amount by which
+    it is less than Rs. 500 is subtracted from the scorecard as points. The data regarding the
+    first five purchases of a customer is shown in the table below. Using the table, find the
+    sum of A, B, C, D, and E.
+  stimulus:
+    assetRefs:
+      - scorecard-table
+  options:
+    - id: option-a
+      text: "1695"
+    - id: option-b
+      text: "1395"
+    - id: option-c
+      text: "1495"
+    - id: option-d
+      text: "1480"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each purchase moves the scorecard by the amount it differs from 500. Work down the table
+    filling the gaps: the 200 purchase drops the score by 300, the 600 purchase adds 100 to
+    reach 40, and the 420 purchase takes off 80. Running the chain through gives the missing
+    prices and scores, and A + B + C + D + E comes to 1395.
+  assetRefs: []
+assets:
+  - ref: scorecard-table
+    file: ../assets/scorecard-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table with Purchase Price and Score Card columns, holding B and A, 200 and C, 600 and
+      40, 420 and D, and E and minus 25
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 45
+    section: "Chapter 10 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 10 question 6 answer and solution"

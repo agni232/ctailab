@@ -1,0 +1,84 @@
+id: c6-ct-symmetry-shape-after-unfolding-the-cut
+slug: shape-after-unfolding-the-cut
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch9-folding-and-cutting
+    - c6-ct-ch9-symmetry
+  primaryTopic: c6-ct-ch9-folding-and-cutting
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A square sheet of paper is folded in half, as shown in Step 1. A triangular piece is then
+    cut from the folded sheet, as shown in Step 2. Which option shows the final shape obtained
+    when the paper is unfolded?
+  stimulus:
+    assetRefs:
+      - fold-and-cut-steps
+  options:
+    - id: option-a
+      assetRef: unfold-option-a
+      accessibleLabel: A square with a diamond-shaped hole in the middle
+    - id: option-b
+      assetRef: unfold-option-b
+      accessibleLabel: A shape with notches cut into the top and bottom edges
+    - id: option-c
+      assetRef: unfold-option-c
+      accessibleLabel: A shape with a notch cut into each side edge
+    - id: option-d
+      assetRef: unfold-option-d
+      accessibleLabel: A shape with a single notch cut into the left edge
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The cut is made on the folded edge, so opening the sheet mirrors it across the fold and
+    gives two matching notches, one on each side. That is the shape in option c.
+  assetRefs: []
+assets:
+  - ref: fold-and-cut-steps
+    file: ../assets/fold-and-cut-steps.png
+    role: stem
+    visibility: public
+    alt: >-
+      A square sheet, then Step 1 folding it in half to the left, then Step 2 with a triangular
+      piece cut from the folded edge
+    position: 0
+  - ref: unfold-option-a
+    file: ../assets/unfold-option-a.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet, option a
+    position: 1
+  - ref: unfold-option-b
+    file: ../assets/unfold-option-b.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet, option b
+    position: 2
+  - ref: unfold-option-c
+    file: ../assets/unfold-option-c.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet, option c
+    position: 3
+  - ref: unfold-option-d
+    file: ../assets/unfold-option-d.png
+    role: option
+    visibility: public
+    alt: Unfolded sheet, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 40
+    section: "Chapter 9 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 9 question 2 answer and solution"

@@ -1,0 +1,57 @@
+id: c6-ct-symmetry-triangles-seen-after-unfolding
+slug: triangles-seen-after-unfolding
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-folding-and-cutting
+    - c6-ct-ch9-shapes-and-figures
+  primaryTopic: c6-ct-ch9-folding-and-cutting
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A symmetrical transparent sheet of paper is folded in half along the dotted line AB. When
+    the sheet is unfolded, what is the total number of triangles seen? Note: Line AB is not a
+    part of the shape.
+  stimulus:
+    assetRefs:
+      - folded-triangles
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Opening the fold mirrors everything drawn on the visible half, so each triangle there
+    gains a twin. Counting the originals, their mirror images, and the larger triangles formed
+    where the two halves meet gives 5 in total.
+  assetRefs: []
+assets:
+  - ref: folded-triangles
+    file: ../assets/folded-triangles.png
+    role: stem
+    visibility: public
+    alt: >-
+      A rectangle with triangles drawn inside it and a dashed vertical fold line labelled A at
+      the top and B at the bottom
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 41
+    section: "Chapter 9 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 9 question 4 answer and solution"

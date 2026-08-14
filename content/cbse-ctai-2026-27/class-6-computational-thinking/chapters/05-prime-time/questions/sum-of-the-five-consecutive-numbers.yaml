@@ -1,0 +1,46 @@
+id: c6-ct-prime-time-sum-of-the-five-consecutive-numbers
+slug: sum-of-the-five-consecutive-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch5-consecutive-numbers
+    - c6-ct-ch5-primes
+  primaryTopic: c6-ct-ch5-consecutive-numbers
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Nausheen thinks of 5 consecutive numbers. 3 of these numbers are prime and 3 of these are
+    even numbers. What is the sum of these numbers?
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "15"
+    - id: option-c
+      text: "20"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Three primes and three evens would be six numbers, but there are only five, so one number
+    is both. The only even prime is 2, so 2 must be in the run. Five consecutive numbers hold
+    three evens only when they start on an even number, so the run is 2, 3, 4, 5, 6, which
+    adds to 20.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 5 question 6 answer and solution"

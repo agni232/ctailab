@@ -1,0 +1,57 @@
+id: c6-ct-symmetry-square-that-must-be-shaded
+slug: square-that-must-be-shaded
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-symmetry
+    - c6-ct-ch9-lines-of-symmetry
+  primaryTopic: c6-ct-ch9-symmetry
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In the given figure, exactly one square among the labelled squares P, Q, R, and S must be
+    shaded grey to make the complete grid symmetric, along any one of the directions. Which
+    square must be shaded to satisfy the condition?
+  stimulus:
+    assetRefs:
+      - symmetry-grid
+  options:
+    - id: option-a
+      text: "Q"
+    - id: option-b
+      text: "R"
+    - id: option-c
+      text: "S"
+    - id: option-d
+      text: "P"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Try each mirror line in turn and see which shading would complete it. Shading P makes the
+    pattern match itself across one of the diagonals, while Q, R, and S each leave the grid
+    unbalanced in every direction.
+  assetRefs: []
+assets:
+  - ref: symmetry-grid
+    file: ../assets/symmetry-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with some squares shaded grey and four white squares labelled R, Q,
+      P, and S
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 43
+    section: "Chapter 9 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 9 question 10 answer and solution"

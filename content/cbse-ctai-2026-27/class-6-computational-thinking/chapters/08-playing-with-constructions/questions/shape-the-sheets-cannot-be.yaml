@@ -1,0 +1,45 @@
+id: c6-ct-constructions-shape-the-sheets-cannot-be
+slug: shape-the-sheets-cannot-be
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch8-shapes-and-figures
+    - c6-ct-ch8-joining-pieces
+  primaryTopic: c6-ct-ch8-shapes-and-figures
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Two identical paper sheets are joined together at one of their sides to form a square.
+    Which of the following CAN DEFINITELY NOT be the shape of each of the paper sheets?
+  options:
+    - id: option-a
+      text: "Triangle"
+    - id: option-b
+      text: "Square"
+    - id: option-c
+      text: "Rectangle"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Two identical right-angled triangles joined along the long side make a square, and two
+    identical rectangles joined along a long side do too. But two equal squares side by side
+    always give a rectangle twice as long as it is tall, never a square.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 38
+    section: "Chapter 8 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 8 question 9 answer and solution"

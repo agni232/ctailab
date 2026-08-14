@@ -1,0 +1,43 @@
+topics:
+  - id: c6-ct-ch2-angles
+    slug: angles
+    title: Angles
+    position: 1
+    status: published
+  - id: c6-ct-ch2-angles-in-a-circle
+    slug: angles-in-a-circle
+    title: Angles in a Circle
+    position: 2
+    parentId: c6-ct-ch2-angles
+    status: published
+  - id: c6-ct-ch2-clock-angles
+    slug: clock-angles
+    title: Clock Angles
+    position: 3
+    parentId: c6-ct-ch2-angles
+    status: published
+  - id: c6-ct-ch2-directions
+    slug: directions
+    title: Directions
+    position: 4
+    status: published
+  - id: c6-ct-ch2-rotation
+    slug: rotation
+    title: Rotation
+    position: 5
+    status: published
+  - id: c6-ct-ch2-parallel-and-perpendicular
+    slug: parallel-and-perpendicular-lines
+    title: Parallel and Perpendicular Lines
+    position: 6
+    status: published
+  - id: c6-ct-ch2-line-segments
+    slug: line-segments
+    title: Line Segments
+    position: 7
+    status: published
+  - id: c6-ct-ch2-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 8
+    status: published

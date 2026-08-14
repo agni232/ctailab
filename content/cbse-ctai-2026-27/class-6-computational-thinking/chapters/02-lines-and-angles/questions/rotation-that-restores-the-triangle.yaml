@@ -1,0 +1,56 @@
+id: c6-ct-lines-angles-rotation-that-restores-the-triangle
+slug: rotation-that-restores-the-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch2-rotation
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-rotation
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    An equilateral triangle (all the angles are equal) is given below. At minimum, by how
+    many degrees should the given triangle be rotated anticlockwise so that it looks exactly
+    like the original triangle?
+  stimulus:
+    assetRefs:
+      - equilateral-triangle
+  options:
+    - id: option-a
+      text: "30 degrees"
+    - id: option-b
+      text: "60 degrees"
+    - id: option-c
+      text: "120 degrees"
+    - id: option-d
+      text: "90 degrees"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    For the triangle to look identical again, the next side has to come to rest where the
+    base is now. A straight line is 180 degrees and the corner angle is 60 degrees, so the
+    triangle must turn through 180 - 60 = 120 degrees. Turning only 60 degrees leaves it
+    upside down.
+  assetRefs: []
+assets:
+  - ref: equilateral-triangle
+    file: ../assets/equilateral-triangle.png
+    role: stem
+    visibility: public
+    alt: An equilateral triangle with corners A, B, and C, and the 60 degree angle at C marked
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 2 question 3 answer and solution"

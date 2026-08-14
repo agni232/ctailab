@@ -1,0 +1,59 @@
+id: c6-ct-constructions-pattern-block-present-the-most
+slug: pattern-block-present-the-most
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-grids-and-constraints
+    - c6-ct-ch8-counting-squares
+  primaryTopic: c6-ct-ch8-grids-and-constraints
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A 5 x 5 grid is formed using three different pattern blocks, as shown in the image. Some
+    blocks are missing from the grid. No two adjacent blocks in the grid can have the same
+    pattern. Complete the grid and tell which pattern block is PRESENT the MOST. Note: Blocks
+    that share common sides are considered to be adjacent. Blocks that share a common corner
+    alone are NOT adjacent.
+  stimulus:
+    assetRefs:
+      - pattern-grid
+  options:
+    - id: option-a
+      text: "Pattern 3"
+    - id: option-b
+      text: "Pattern 2"
+    - id: option-c
+      text: "Pattern 1"
+    - id: option-d
+      text: "Both options b and c"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work cell by cell: wherever a blank already touches two different patterns, the third one
+    is forced. Filling those in one at a time completes the whole grid. Counting the finished
+    board gives Pattern 1 nine times and Patterns 2 and 3 eight times each.
+  assetRefs: []
+assets:
+  - ref: pattern-grid
+    file: ../assets/pattern-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A five by five grid partly filled with grey blocks, starred blocks, and hatched blocks,
+      beside a key labelling them Pattern 1, Pattern 2, and Pattern 3
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 38
+    section: "Chapter 8 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 8 question 10 answer and solution"

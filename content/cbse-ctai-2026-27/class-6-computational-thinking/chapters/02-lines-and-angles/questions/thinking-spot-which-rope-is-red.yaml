@@ -1,0 +1,48 @@
+id: c6-ct-lines-angles-thinking-spot-which-rope-is-red
+slug: thinking-spot-which-rope-is-red
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-logical-puzzles
+    - c6-ct-ch2-line-segments
+  primaryTopic: c6-ct-ch2-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    There are four ropes: A, B, C, and D. Each rope has a different length and a different
+    colour chosen from Blue, Red, Green, and Yellow. Rope B is longer than only the Green
+    rope. The Blue rope is longer than B but shorter than C. Rope A is not Blue. If the
+    Yellow rope is the longest, which rope is Red?
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    B beats only the Green rope, so B is second shortest and is not Green itself. Blue is
+    longer than B but shorter than C, and A is not Blue, so D is Blue. That leaves C as the
+    longest, which the question says is Yellow, and A as the Green one. The only colour left
+    for B is Red.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 27
+    section: "Chapter 2 The Thinking Spot answer and solution"

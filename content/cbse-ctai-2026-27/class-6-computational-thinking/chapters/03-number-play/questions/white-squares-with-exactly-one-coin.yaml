@@ -1,0 +1,61 @@
+id: c6-ct-number-play-white-squares-with-exactly-one-coin
+slug: white-squares-with-exactly-one-coin
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-grids-and-constraints
+    - c6-ct-ch3-sums-and-combinations
+  primaryTopic: c6-ct-ch3-grids-and-constraints
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    In the given grid, each white square contains 1, 2, 3, or 4 hidden coins. Each black
+    square shows the maximum number of coins present in any of its adjacent white squares. If
+    every row has the same total number of coins, what is the MAXIMUM possible number of white
+    squares that contain exactly one coin? Note: Two squares are adjacent only if they share a
+    common side. Squares that share a common corner alone are NOT considered as adjacent.
+  stimulus:
+    assetRefs:
+      - coin-grid
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The black 1 forces every square beside it to hold a single coin. Row A already contains a
+    4, so each row totals at least 6, and more than 6 would need a square holding over 4
+    coins, which is not allowed. So every row totals exactly 6. Filling the rest while
+    choosing 1 + 4 rather than 2 + 3 wherever there is a choice leaves 7 squares holding one
+    coin.
+  assetRefs: []
+assets:
+  - ref: coin-grid
+    file: ../assets/coin-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid labelled Row A to Row D, mostly white squares, with black squares
+      showing 4, 2, 3, and 1
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 3 question 2 answer and solution"

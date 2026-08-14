@@ -1,0 +1,82 @@
+id: c6-ct-data-handling-next-nested-letter-figure
+slug: next-nested-letter-figure
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch4-figure-patterns
+    - c6-ct-ch4-bar-graphs
+  primaryTopic: c6-ct-ch4-figure-patterns
+  estimatedMinutes: 7
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - block-letter-series
+  options:
+    - id: option-a
+      assetRef: letter-option-a
+      accessibleLabel: Nested letters with V outermost
+    - id: option-b
+      assetRef: letter-option-b
+      accessibleLabel: Nested letters with U outermost and V inside
+    - id: option-c
+      assetRef: letter-option-c
+      accessibleLabel: Nested letters with U outermost and T inside
+    - id: option-d
+      assetRef: letter-option-d
+      accessibleLabel: Nested letters with U outermost, then V, then S, then T
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Rank the columns by height and the letters nest in that order, largest on the outside. In
+    the last term the heights give U, V, S, T from tallest to shortest, so U sits outermost
+    with V, then S, then T inside it. That is option d.
+  assetRefs: []
+assets:
+  - ref: block-letter-series
+    file: ../assets/block-letter-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four panels, each with a small bar chart of lettered columns on the left and a figure of
+      nested letters on the right, the last replaced by a question mark
+    position: 0
+  - ref: letter-option-a
+    file: ../assets/letter-option-a.png
+    role: option
+    visibility: public
+    alt: Nested letters, option a
+    position: 1
+  - ref: letter-option-b
+    file: ../assets/letter-option-b.png
+    role: option
+    visibility: public
+    alt: Nested letters, option b
+    position: 2
+  - ref: letter-option-c
+    file: ../assets/letter-option-c.png
+    role: option
+    visibility: public
+    alt: Nested letters, option c
+    position: 3
+  - ref: letter-option-d
+    file: ../assets/letter-option-d.png
+    role: option
+    visibility: public
+    alt: Nested letters, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 20
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 4 question 1 answer and solution"

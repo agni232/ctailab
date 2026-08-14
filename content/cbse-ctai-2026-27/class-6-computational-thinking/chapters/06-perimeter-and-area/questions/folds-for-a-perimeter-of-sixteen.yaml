@@ -1,0 +1,53 @@
+id: c6-ct-perimeter-area-folds-for-a-perimeter-of-sixteen
+slug: folds-for-a-perimeter-of-sixteen
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch6-folding-and-cutting
+    - c6-ct-ch6-perimeter
+  primaryTopic: c6-ct-ch6-folding-and-cutting
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How many times should the given paper sheet be folded in half so that the perimeter of the
+    new shape is 16 cm?
+  stimulus:
+    assetRefs:
+      - paper-sheet
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The sheet is 8 cm by 4 cm, so its perimeter is 24 cm. Folding once across the long side
+    makes it 4 cm by 4 cm, whose perimeter is 4 + 4 + 4 + 4 = 16 cm. So one fold is enough.
+  assetRefs: []
+assets:
+  - ref: paper-sheet
+    file: ../assets/paper-sheet.png
+    role: stem
+    visibility: public
+    alt: A rectangle labelled 8 cm along the top and 4 cm down the side
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 6 question 4 answer and solution"

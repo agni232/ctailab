@@ -1,0 +1,57 @@
+id: c6-ct-symmetry-lines-of-symmetry-of-the-result
+slug: lines-of-symmetry-of-the-result
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch9-lines-of-symmetry
+    - c6-ct-ch9-folding-and-cutting
+  primaryTopic: c6-ct-ch9-lines-of-symmetry
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The given shape is first folded vertically, then horizontally, and then cut along the
+    dotted line as shown below. After unfolding, if the resultant shape has equal sides
+    (edges), how many lines of symmetry does the resultant shape have?
+  stimulus:
+    assetRefs:
+      - fold-fold-cut
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Two folds stack the sheet into four layers, so the single cut repeats four times when the
+    paper opens. The result is a regular figure with 8 equal sides, and a regular shape has as
+    many lines of symmetry as it has sides, which is 8.
+  assetRefs: []
+assets:
+  - ref: fold-fold-cut
+    file: ../assets/fold-fold-cut.png
+    role: stem
+    visibility: public
+    alt: >-
+      A shape folded down a vertical dashed line, then across a horizontal dashed line, then
+      cut along a dashed line by scissors
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 41
+    section: "Chapter 9 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 85
+    section: "Chapter 9 question 5 answer and solution"

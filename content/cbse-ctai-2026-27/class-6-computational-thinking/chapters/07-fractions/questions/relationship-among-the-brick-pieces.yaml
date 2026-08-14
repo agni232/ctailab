@@ -1,0 +1,84 @@
+id: c6-ct-fractions-relationship-among-the-brick-pieces
+slug: relationship-among-the-brick-pieces
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch7-comparing-fractions
+    - c6-ct-ch7-fractions
+  primaryTopic: c6-ct-ch7-comparing-fractions
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The figure shows three square bricks of the same weight, each divided into equal pieces.
+    Which option correctly represents the relationship among these pieces?
+  stimulus:
+    assetRefs:
+      - three-bricks
+  options:
+    - id: option-a
+      assetRef: brick-option-a
+      accessibleLabel: A balance tipped towards a green triangle and green square against blue and yellow pieces
+    - id: option-b
+      assetRef: brick-option-b
+      accessibleLabel: A level balance with a green triangle and yellow pieces against a green triangle and blue pieces
+    - id: option-c
+      assetRef: brick-option-c
+      accessibleLabel: A level balance with blue and yellow pieces against a yellow piece and a green square
+    - id: option-d
+      assetRef: brick-option-d
+      accessibleLabel: A balance tipped towards yellow pieces against a green triangle and a yellow piece
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The bricks weigh the same but are cut differently: the green one into 8 triangles, the blue
+    into 12 pieces, and the yellow into 9. So one green piece is 1/8 of a brick, one blue is
+    1/12, and one yellow is 1/9. Adding up the pieces on each pan, only option c balances.
+  assetRefs: []
+assets:
+  - ref: three-bricks
+    file: ../assets/three-bricks.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three squares of the same size, a green one split into 8 triangles, a blue one split into
+      12 rectangles, and a yellow one split into 9 squares
+    position: 0
+  - ref: brick-option-a
+    file: ../assets/brick-option-a.png
+    role: option
+    visibility: public
+    alt: Balance holding brick pieces, option a
+    position: 1
+  - ref: brick-option-b
+    file: ../assets/brick-option-b.png
+    role: option
+    visibility: public
+    alt: Balance holding brick pieces, option b
+    position: 2
+  - ref: brick-option-c
+    file: ../assets/brick-option-c.png
+    role: option
+    visibility: public
+    alt: Balance holding brick pieces, option c
+    position: 3
+  - ref: brick-option-d
+    file: ../assets/brick-option-d.png
+    role: option
+    visibility: public
+    alt: Balance holding brick pieces, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 7 question 10 answer and solution"

@@ -1,0 +1,57 @@
+id: c6-ct-number-play-triangles-with-corner-sum-twelve
+slug: triangles-with-corner-sum-twelve
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-counting-strategies
+    - c6-ct-ch3-sums-and-combinations
+  primaryTopic: c6-ct-ch3-counting-strategies
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    How many different triangles can be formed by connecting the black dots in the image
+    below, where the sum of the numbers at their corners is 12?
+  stimulus:
+    assetRefs:
+      - dot-circle
+  options:
+    - id: option-a
+      text: "7"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "8"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Only 3, 4, and 5 appear, and three equal corners would need three 4s, which are not
+    there. Any pair leaves exactly one value that reaches 12, and each time it is the
+    remaining one of 3, 4, 5. With two dots carrying each value, there are 2 x 2 x 2 = 8 ways
+    to pick one of each.
+  assetRefs: []
+assets:
+  - ref: dot-circle
+    file: ../assets/dot-circle.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six black dots arranged in a ring, labelled 3, 5, 3, 4, 5, and 4 going clockwise from
+      the top
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 32
+    section: "Chapter 3 question 5 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c6-ct-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 4 in the Class 6 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-data-handling-next-nested-letter-figure
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 20
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-lines-for-the-word-seven
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 20
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-maximum-milk-sold-by-all-stores
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 20
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-difference-between-weights-of-b-and-c
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-marbles-chandler-collected
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 21
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-fruit-matching-the-difference
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-minimum-symbols-to-complete-the-pictograph
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-next-tile-row-in-the-series
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 22
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-students-in-exactly-two-groups
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Data Handling and Presentation"
+  - questionId: c6-ct-data-handling-amount-saved-in-june
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Data Handling and Presentation"

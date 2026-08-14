@@ -1,0 +1,37 @@
+topics:
+  - id: c6-ct-ch6-area
+    slug: area
+    title: Area
+    position: 1
+    status: published
+  - id: c6-ct-ch6-comparing-areas
+    slug: comparing-areas
+    title: Comparing Areas
+    position: 2
+    parentId: c6-ct-ch6-area
+    status: published
+  - id: c6-ct-ch6-perimeter
+    slug: perimeter
+    title: Perimeter
+    position: 3
+    status: published
+  - id: c6-ct-ch6-folding-and-cutting
+    slug: folding-and-cutting
+    title: Folding and Cutting
+    position: 4
+    status: published
+  - id: c6-ct-ch6-tiling-and-fitting
+    slug: tiling-and-fitting
+    title: Tiling and Fitting
+    position: 5
+    status: published
+  - id: c6-ct-ch6-solids-and-faces
+    slug: solids-and-faces
+    title: Solids and Faces
+    position: 6
+    status: published
+  - id: c6-ct-ch6-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

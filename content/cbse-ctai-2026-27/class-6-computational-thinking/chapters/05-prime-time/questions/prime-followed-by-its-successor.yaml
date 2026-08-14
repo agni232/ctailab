@@ -1,0 +1,46 @@
+id: c6-ct-prime-time-prime-followed-by-its-successor
+slug: prime-followed-by-its-successor
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch5-codes-and-patterns
+    - c6-ct-ch5-primes
+  primaryTopic: c6-ct-ch5-codes-and-patterns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the letter grid below, the spelling of which prime number is immediately followed by
+    the spelling of its succeeding number in the number series?
+    ONEFIIVESIXTWOTHREENINETENELEVNTWELVEONEFOURSIXSEVEN
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Read along the strip and pick out the number names, then check which prime is followed at
+    once by the name of the next number up. TWO is followed directly by THREE, and no other
+    prime in the strip is.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 5 question 9 answer and solution"

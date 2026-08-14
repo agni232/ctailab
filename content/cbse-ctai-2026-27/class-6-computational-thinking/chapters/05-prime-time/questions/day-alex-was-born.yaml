@@ -1,0 +1,47 @@
+id: c6-ct-prime-time-day-alex-was-born
+slug: day-alex-was-born
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch5-primes
+    - c6-ct-ch5-logical-puzzles
+  primaryTopic: c6-ct-ch5-primes
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Alex, Jim, and Sam were born on prime-numbered dates in the same month and year. Sam was
+    born on a Friday, and the month started on a Sunday. The difference between the dates of
+    Alex's and Jim's birthdays is 20. Jim was born 10 days after Sam. On which day of the week
+    was Alex born?
+  options:
+    - id: option-a
+      text: "Thursday"
+    - id: option-b
+      text: "Wednesday"
+    - id: option-c
+      text: "Tuesday"
+    - id: option-d
+      text: "Saturday"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    With the 1st on a Sunday, the Fridays fall on the 6th, 13th, 20th, and 27th, and only 13
+    is prime, so Sam was born on the 13th. Jim came 10 days later on the 23rd, and Alex is 20
+    days before that, on the 3rd. Counting back from Friday the 13th, the 3rd is a Tuesday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 29
+    section: "Chapter 5 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 5 question 10 answer and solution"

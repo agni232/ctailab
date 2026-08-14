@@ -1,0 +1,58 @@
+id: c6-ct-number-play-difference-between-the-number-and-ten-thousand
+slug: difference-between-the-number-and-ten-thousand
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch3-making-numbers
+    - c6-ct-ch3-comparing-and-ordering
+  primaryTopic: c6-ct-ch3-making-numbers
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    An arrow between any two squares always points towards the square having a larger number.
+    A and B are two DIFFERENT numbers. If the largest 5-digit number is formed using all five
+    squares, what will be the difference between the final number and 10000?
+  stimulus:
+    assetRefs:
+      - arrow-squares
+  options:
+    - id: option-a
+      text: "44332"
+    - id: option-b
+      text: "54545"
+    - id: option-c
+      text: "54432"
+    - id: option-d
+      text: "44432"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    B takes an arrow from 2 and sends one to 4, so B is between them and must be 3. A takes an
+    arrow from 2 and sends one to 5, so A is 3 or 4, and since B is already 3, A is 4. The
+    five values are 5, 4, 2, 3, and 4, whose largest arrangement is 54432. Then
+    54432 - 10000 = 44432.
+  assetRefs: []
+assets:
+  - ref: arrow-squares
+    file: ../assets/arrow-squares.png
+    role: stem
+    visibility: public
+    alt: >-
+      Five squares in a row reading 5, A, 2, B, and 4, joined by arrows pointing from 2 to A,
+      from A to 5, from 2 to B, and from B to 4
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 31
+    section: "Chapter 3 question 4 answer and solution"

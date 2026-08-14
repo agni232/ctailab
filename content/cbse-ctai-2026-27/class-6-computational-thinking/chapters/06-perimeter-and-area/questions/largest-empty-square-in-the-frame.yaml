@@ -1,0 +1,48 @@
+id: c6-ct-perimeter-area-largest-empty-square-in-the-frame
+slug: largest-empty-square-in-the-frame
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-area
+    - c6-ct-ch6-tiling-and-fitting
+  primaryTopic: c6-ct-ch6-area
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A square frame has a side length of 16 cm. Inside it, four square-shaped photographs of
+    side 4 cm are to be placed such that each photograph touches the CORNER of at least one
+    other photograph, no two photographs share a common side, and the photographs do not
+    overlap. What is the LARGEST square-shaped empty space that can be seen inside the frame,
+    finally?
+  options:
+    - id: option-a
+      text: "9 cm2"
+    - id: option-b
+      text: "16 cm2"
+    - id: option-c
+      text: "64 cm2"
+    - id: option-d
+      text: "192 cm2"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The photographs may only meet at corners, which forces them into a diagonal chain and
+    pushes them towards one part of the frame. Whichever chain you build, the biggest square
+    region left untouched measures 8 cm on a side, giving 8 x 8 = 64 sq cm.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 32
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 6 question 8 answer and solution"

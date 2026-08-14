@@ -1,0 +1,49 @@
+id: c6-ct-lines-angles-pairs-of-parallel-line-segments
+slug: pairs-of-parallel-line-segments
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-parallel-and-perpendicular
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-parallel-and-perpendicular
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Sam draws three line segments AB, BC, and BD (with a common point B) on a sheet of paper.
+    Angle ABC = 108 degrees and angle CBD = 162 degrees, and these angles lie on either side
+    of the line segment BC. Later, he draws a pair of parallel line segments EF and GH, both
+    perpendicularly intersecting BD. How many pairs of parallel line segments appear on the
+    sheet, finally?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The three angles at B fill a full turn, so angle ABD = 360 - (108 + 162) = 90 degrees,
+    which makes AB perpendicular to BD. EF and GH are perpendicular to BD as well, so all
+    three are parallel to one another. That gives the pairs AB-EF, AB-GH, and EF-GH, which is
+    3 pairs.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 9 answer and solution"

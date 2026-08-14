@@ -1,0 +1,56 @@
+id: c6-ct-number-play-blocks-between-a-smaller-and-larger-number
+slug: blocks-between-a-smaller-and-larger-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch3-comparing-and-ordering
+    - c6-ct-ch3-grids-and-constraints
+  primaryTopic: c6-ct-ch3-comparing-and-ordering
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Count the number of blocks that are connected to at least one block containing a smaller
+    number and one block containing a larger number than the number in it.
+  stimulus:
+    assetRefs:
+      - connected-blocks
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Take each block in turn and look only at the blocks joined to it by a line. A block counts
+    when at least one neighbour is smaller and at least one is larger. Working through the
+    figure, 4 blocks meet both conditions.
+  assetRefs: []
+assets:
+  - ref: connected-blocks
+    file: ../assets/connected-blocks.png
+    role: stem
+    visibility: public
+    alt: >-
+      Nine numbered boxes in a three by three arrangement joined by short lines, reading 235,
+      410, 381, 167, 453, 579, 284, 831, and 531
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 3 question 9 answer and solution"

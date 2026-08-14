@@ -1,0 +1,59 @@
+id: c6-ct-lines-angles-angle-between-a-and-c
+slug: angle-between-a-and-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-angles-in-a-circle
+    - c6-ct-ch2-directions
+  primaryTopic: c6-ct-ch2-angles-in-a-circle
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Eight friends (A, B, C, D, E, F, G, H) are sitting at equidistant positions around a
+    circular table, each facing towards the centre, as shown below. A is facing North-East.
+    B and D are facing perpendicular directions. B is to the immediate left of A, while C is
+    exactly between E and F. B and F are facing opposite directions. If G is sitting exactly
+    between B and D, what is the angle between the directions that A and C are facing?
+  stimulus:
+    assetRefs:
+      - circular-table
+  options:
+    - id: option-a
+      text: "45 degrees"
+    - id: option-b
+      text: "90 degrees"
+    - id: option-c
+      text: "135 degrees"
+    - id: option-d
+      text: "180 degrees"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Eight seats share the 360 degrees around the table, so neighbours are 360 / 8 = 45
+    degrees apart. Work through the clues to place everyone, and A and C end up two seats
+    apart, which is 2 x 45 = 90 degrees.
+  assetRefs: []
+assets:
+  - ref: circular-table
+    file: ../assets/circular-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A circle with eight arrows spaced evenly around it, all pointing inward to the centre,
+      with the seat at the lower left labelled A
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 2 question 1 answer and solution"

@@ -1,0 +1,58 @@
+id: c6-ct-other-side-zero-sum-of-the-points-the-rabbit-lands-on
+slug: sum-of-the-points-the-rabbit-lands-on
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch10-number-line
+    - c6-ct-ch10-integers
+  primaryTopic: c6-ct-ch10-number-line
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A number line has equally spaced points with values following a pattern, where some values
+    are hidden. A rabbit starts at -8 and jumps on the 9th point to the right. From its new
+    position, it then jumps on the 7th point to the left. What is the sum of the values of all
+    the points it lands on, including the starting point?
+  stimulus:
+    assetRefs:
+      - number-line
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "-2"
+    - id: option-d
+      text: "-4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The marks step up by 2 each time, running -12, -10, -8, -6, -4 and so on. Nine points
+    right of -8 lands on 10, and seven points left of that lands on -4. Adding the start and
+    both landings gives -8 + 10 + -4 = -2.
+  assetRefs: []
+assets:
+  - ref: number-line
+    file: ../assets/number-line.png
+    role: stem
+    visibility: public
+    alt: >-
+      A number line marked with -12, -10, -8, -4, 0, 6, 8, and 14 with unlabelled ticks
+      between them, a rabbit sitting above -8, and arrows labelled Left and Right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 45
+    section: "Chapter 10 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 10 question 8 answer and solution"

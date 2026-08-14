@@ -1,0 +1,57 @@
+id: c6-ct-number-play-value-of-p-plus-q-plus-r-plus-s
+slug: value-of-p-plus-q-plus-r-plus-s
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-finding-the-rule
+    - c6-ct-ch3-sums-and-combinations
+  primaryTopic: c6-ct-ch3-finding-the-rule
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    If each of the given terms follows the same theme, what will be the value of
+    P + Q + R + S?
+  stimulus:
+    assetRefs:
+      - diamond-terms
+  options:
+    - id: option-a
+      text: "134"
+    - id: option-b
+      text: "136"
+    - id: option-c
+      text: "119"
+    - id: option-d
+      text: "142"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The black number is shared equally among the four cells touching it, and each of those is
+    then shared equally among its three outer cells. Check it on the first term: 96 / 4 = 24
+    and 24 / 3 = 8. For the last term, 204 / 4 = 51, so Q and R are 51, and 51 / 3 = 17, so P
+    and S are 17. The total is 17 + 51 + 51 + 17 = 136.
+  assetRefs: []
+assets:
+  - ref: diamond-terms
+    file: ../assets/diamond-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four diamond-shaped arrangements of cells, three filled in around black centres of 96,
+      60, and 132, and a fourth around 204 with cells labelled P, Q, R, and S
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 17
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 30
+    section: "Chapter 3 question 3 answer and solution"

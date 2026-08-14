@@ -1,0 +1,61 @@
+id: c6-ct-number-play-difference-between-the-two-numbers
+slug: difference-between-the-two-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-making-numbers
+    - c6-ct-ch3-comparing-and-ordering
+  primaryTopic: c6-ct-ch3-making-numbers
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A box contains six numbered circles coloured black and white. A 6-digit number must be
+    formed using all six circles, and the colours must alternate throughout the number. The
+    first circle may be either black or white. Among all such numbers that can be formed, take
+    the second smallest number and the second largest number. What is the difference between
+    these two numbers?
+  stimulus:
+    assetRefs:
+      - numbered-circles-box
+  options:
+    - id: option-a
+      text: "683233"
+    - id: option-b
+      text: "684324"
+    - id: option-c
+      text: "685314"
+    - id: option-d
+      text: "583297"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The white circles hold 9, 9, and 6 and the black ones hold 4, 3, and 2. For the largest
+    number start with the bigger leading digit, white, giving 949362, and swapping the last
+    two black digits gives the second largest, 949263. For the smallest start with black,
+    giving 263949, and the same swap gives the second smallest, 264939. The difference is
+    949263 - 264939 = 684324.
+  assetRefs: []
+assets:
+  - ref: numbered-circles-box
+    file: ../assets/numbered-circles-box.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box labelled Box holding six circles: white 9, black 3, black 4, white 9, white 6, and
+      black 2
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 18
+    section: "Chapter 3 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 3 question 7 answer and solution"

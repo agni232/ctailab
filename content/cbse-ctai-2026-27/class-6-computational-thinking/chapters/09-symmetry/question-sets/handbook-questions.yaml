@@ -1,0 +1,72 @@
+id: cbse-2026-27-c6-ct-ch9-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 9 in the Class 6 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-symmetry-shapes-overlapping-symmetric-letters
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 40
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-shape-after-unfolding-the-cut
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 40
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-next-figure-in-the-mirror-series
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 41
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-triangles-seen-after-unfolding
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 41
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-lines-of-symmetry-of-the-result
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 41
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-squares-adjacent-to-exactly-two-others
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 42
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-line-that-gives-two-pentagons
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 42
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-shapes-where-the-dotted-line-is-symmetric
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 42
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-letters-with-a-line-of-symmetry
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 42
+    sourceSection: "Chapter 9: Symmetry"
+  - questionId: c6-ct-symmetry-square-that-must-be-shaded
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 43
+    sourceSection: "Chapter 9: Symmetry"

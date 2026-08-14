@@ -1,0 +1,86 @@
+id: c6-ct-perimeter-area-relation-between-the-divisions
+slug: relation-between-the-divisions
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-comparing-areas
+    - c6-ct-ch6-area
+  primaryTopic: c6-ct-ch6-comparing-areas
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Figures A and B represent squares which are divided into different parts, as shown in the
+    image below. Which of the following options correctly represents the relation between the
+    division?
+  stimulus:
+    assetRefs:
+      - figures-a-and-b
+  options:
+    - id: option-a
+      assetRef: relation-option-a
+      accessibleLabel: Cyan square plus green square is less than the red triangle
+    - id: option-b
+      assetRef: relation-option-b
+      accessibleLabel: Purple plus yellow plus cyan squares is less than the red and blue triangles
+    - id: option-c
+      assetRef: relation-option-c
+      accessibleLabel: Green plus cyan plus yellow squares equals the white and red triangles
+    - id: option-d
+      assetRef: relation-option-d
+      accessibleLabel: The green square equals the red and blue triangles
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each square has a side of 4 cm, so its area is 16 sq cm. In Figure A every small square is
+    16 / 4 = 4 sq cm. In Figure B the red and blue triangles are each 4 sq cm and the white
+    triangle is 8 sq cm. Testing the options, only option c balances: 4 + 4 + 4 = 12 on the
+    left and 8 + 4 = 12 on the right.
+  assetRefs: []
+assets:
+  - ref: figures-a-and-b
+    file: ../assets/figures-a-and-b.png
+    role: stem
+    visibility: public
+    alt: >-
+      Figure A is a 4 cm square split into four coloured squares, and Figure B is a 4 cm
+      square split into a white triangle, a red triangle, and a blue triangle
+    position: 0
+  - ref: relation-option-a
+    file: ../assets/relation-option-a.png
+    role: option
+    visibility: public
+    alt: Relation between coloured pieces, option a
+    position: 1
+  - ref: relation-option-b
+    file: ../assets/relation-option-b.png
+    role: option
+    visibility: public
+    alt: Relation between coloured pieces, option b
+    position: 2
+  - ref: relation-option-c
+    file: ../assets/relation-option-c.png
+    role: option
+    visibility: public
+    alt: Relation between coloured pieces, option c
+    position: 3
+  - ref: relation-option-d
+    file: ../assets/relation-option-d.png
+    role: option
+    visibility: public
+    alt: Relation between coloured pieces, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 57
+    section: "Chapter 6 question 1 answer and solution"

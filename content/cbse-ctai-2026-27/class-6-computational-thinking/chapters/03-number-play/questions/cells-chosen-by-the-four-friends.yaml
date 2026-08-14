@@ -1,0 +1,86 @@
+id: c6-ct-number-play-cells-chosen-by-the-four-friends
+slug: cells-chosen-by-the-four-friends
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch3-grids-and-constraints
+    - c6-ct-ch3-sums-and-combinations
+  primaryTopic: c6-ct-ch3-grids-and-constraints
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A 3 x 3 grid of digits is given below. Avi, Sam, Riya, and Maya each select a different
+    digit from the grid such that the sum of the digits chosen by Avi and Sam is equal to the
+    digit chosen by Maya, and the digit chosen by Riya is the largest among the four chosen
+    digits. Which of the following options shows a possible set of cells chosen by all four
+    friends? Note: You cannot rotate the question or option images.
+  stimulus:
+    assetRefs:
+      - digit-grid
+  options:
+    - id: option-a
+      assetRef: cell-option-a
+      accessibleLabel: A shape covering four cells, stepping down and to the right
+    - id: option-b
+      assetRef: cell-option-b
+      accessibleLabel: A shape covering four cells, three across with one above the middle
+    - id: option-c
+      assetRef: cell-option-c
+      accessibleLabel: A shape covering four cells in a tall zigzag
+    - id: option-d
+      assetRef: cell-option-d
+      accessibleLabel: A shape covering four cells, two across the top and two below on the right
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Lay each shape on the grid, give the largest digit to Riya, and check whether the next
+    largest is the sum of the other two. Options a, b, and c fail in both of their possible
+    placements. In option d, one placement covers 9, 7, 4, and 3, where Riya takes 9 and
+    3 + 4 = 7, so it works.
+  assetRefs: []
+assets:
+  - ref: digit-grid
+    file: ../assets/digit-grid.png
+    role: stem
+    visibility: public
+    alt: A three by three grid of digits reading 2, 5, 8, then 7, 4, 6, then 0, 9, 3
+    position: 0
+  - ref: cell-option-a
+    file: ../assets/cell-option-a.png
+    role: option
+    visibility: public
+    alt: Four-cell shape, option a
+    position: 1
+  - ref: cell-option-b
+    file: ../assets/cell-option-b.png
+    role: option
+    visibility: public
+    alt: Four-cell shape, option b
+    position: 2
+  - ref: cell-option-c
+    file: ../assets/cell-option-c.png
+    role: option
+    visibility: public
+    alt: Four-cell shape, option c
+    position: 3
+  - ref: cell-option-d
+    file: ../assets/cell-option-d.png
+    role: option
+    visibility: public
+    alt: Four-cell shape, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 19
+    section: "Chapter 3 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 3 question 10 answer and solution"

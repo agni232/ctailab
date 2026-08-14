@@ -1,0 +1,47 @@
+id: c6-ct-lines-angles-difference-between-session-start-times
+slug: difference-between-session-start-times
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-clock-angles
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-clock-angles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Avi and Sam attend dance sessions in the afternoon. Avi's session starts when the angle
+    between the hour hand and the minute hand of the clock is 60 degrees. Sam's session
+    starts at 1:55 PM. What is the least possible difference between the starting times of
+    both sessions?
+  options:
+    - id: option-a
+      text: "2 minutes"
+    - id: option-b
+      text: "5 minutes"
+    - id: option-c
+      text: "10 minutes"
+    - id: option-d
+      text: "15 minutes"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A full turn of 360 degrees takes 60 minutes, so 60 degrees is the same as 10 minutes of
+    separation between the hands. The closest such moment after 1:55 PM is 2:00 PM, when one
+    hand is at 12 and the other at 2. That is 5 minutes later.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 2 question 2 answer and solution"

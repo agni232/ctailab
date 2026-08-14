@@ -1,0 +1,84 @@
+id: c6-ct-constructions-thinking-spot-values-of-a-and-b
+slug: thinking-spot-values-of-a-and-b
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-logical-puzzles
+    - c6-ct-ch8-grids-and-constraints
+  primaryTopic: c6-ct-ch8-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Place numbers inside every cell so that each cell indicates how many different numbers its
+    arrow(s) point to. What will come in place of A and B?
+  stimulus:
+    assetRefs:
+      - arrow-number-grid
+  options:
+    - id: option-a
+      assetRef: ab-option-a
+      accessibleLabel: A equals 1 and B equals 2
+    - id: option-b
+      assetRef: ab-option-b
+      accessibleLabel: A equals 2 and B equals 1
+    - id: option-c
+      assetRef: ab-option-c
+      accessibleLabel: A equals 2 and B equals 2
+    - id: option-d
+      assetRef: ab-option-d
+      accessibleLabel: A equals 3 and B equals 2
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Start where the arrows already point at known numbers. C's arrow reaches a 1 and a 2, two
+    different values, so C is 2. B's arrow also reaches a 1 and a 2, so B is 2. With B settled,
+    A's arrow likewise reaches a 1 and a 2, making A 2 as well.
+  assetRefs: []
+assets:
+  - ref: arrow-number-grid
+    file: ../assets/arrow-number-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid of cells holding numbers and the letters A, B, C, D, with arrows
+      between neighbouring cells
+    position: 0
+  - ref: ab-option-a
+    file: ../assets/ab-option-a.png
+    role: option
+    visibility: public
+    alt: Values for A and B, option a
+    position: 1
+  - ref: ab-option-b
+    file: ../assets/ab-option-b.png
+    role: option
+    visibility: public
+    alt: Values for A and B, option b
+    position: 2
+  - ref: ab-option-c
+    file: ../assets/ab-option-c.png
+    role: option
+    visibility: public
+    alt: Values for A and B, option c
+    position: 3
+  - ref: ab-option-d
+    file: ../assets/ab-option-d.png
+    role: option
+    visibility: public
+    alt: Values for A and B, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 39
+    section: "Chapter 8 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 8 The Thinking Spot answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c6-ct-ch8-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 8 in the Class 6 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-constructions-half-that-forms-four-squares
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 36
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-lines-needed-for-more-than-five-squares
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 36
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-matchsticks-to-divide-the-area
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 36
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-shape-that-will-not-be-used
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 37
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-shape-adjacent-to-a-letter
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 37
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-option-that-forms-a-rectangle
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 37
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-digits-that-sit-on-top-of-each-other
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 37
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-the-fourth-piece-of-the-square
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 38
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-shape-the-sheets-cannot-be
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 38
+    sourceSection: "Chapter 8: Playing with Constructions"
+  - questionId: c6-ct-constructions-pattern-block-present-the-most
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 38
+    sourceSection: "Chapter 8: Playing with Constructions"

@@ -1,0 +1,32 @@
+topics:
+  - id: c6-ct-ch8-shapes-and-figures
+    slug: shapes-and-figures
+    title: Shapes and Figures
+    position: 1
+    status: published
+  - id: c6-ct-ch8-joining-pieces
+    slug: joining-pieces
+    title: Joining Pieces
+    position: 2
+    parentId: c6-ct-ch8-shapes-and-figures
+    status: published
+  - id: c6-ct-ch8-counting-squares
+    slug: counting-squares
+    title: Counting Squares
+    position: 3
+    status: published
+  - id: c6-ct-ch8-grids-and-constraints
+    slug: grids-and-constraints
+    title: Grids and Constraints
+    position: 4
+    status: published
+  - id: c6-ct-ch8-area-and-division
+    slug: area-and-division
+    title: Area and Division
+    position: 5
+    status: published
+  - id: c6-ct-ch8-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

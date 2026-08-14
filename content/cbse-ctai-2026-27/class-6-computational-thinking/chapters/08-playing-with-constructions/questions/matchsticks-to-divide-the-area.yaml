@@ -1,0 +1,56 @@
+id: c6-ct-constructions-matchsticks-to-divide-the-area
+slug: matchsticks-to-divide-the-area
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch8-area-and-division
+    - c6-ct-ch8-shapes-and-figures
+  primaryTopic: c6-ct-ch8-area-and-division
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The following arrangement is made up of matchsticks of the same dimensions. How many
+    additional matchsticks are needed to divide the area between the outlines of the larger
+    outer square and the smaller inner square into three parts, each having the same area as
+    the smaller inner square?
+  stimulus:
+    assetRefs:
+      - matchstick-squares
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The outer square is 3 matchsticks wide and the inner one is 1, so the ring between them
+    covers 9 - 1 = 8 small units. Splitting that ring into three parts each equal to the inner
+    square means placing walls that carve it into equal shares, and 3 extra matchsticks do it.
+  assetRefs: []
+assets:
+  - ref: matchstick-squares
+    file: ../assets/matchstick-squares.png
+    role: stem
+    visibility: public
+    alt: A large square outline made of matchsticks with a smaller matchstick square inside it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 36
+    section: "Chapter 8 question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 8 question 3 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c6-ct-ch10-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 10 in the Class 6 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-other-side-zero-first-letter-beside-a-negative-number
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 44
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-stacks-with-the-same-number-of-correct-pairs
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 44
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-next-term-in-the-integer-series
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 44
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-option-with-the-largest-value
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 44
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-value-for-the-last-dot-box
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 44
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-sum-of-a-b-c-d-and-e
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 45
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-input-that-gives-minus-345
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 45
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-sum-of-the-points-the-rabbit-lands-on
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 45
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-shapes-to-add-for-a-sum-of-fifty
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 45
+    sourceSection: "Chapter 10: The Other Side of Zero"
+  - questionId: c6-ct-other-side-zero-possible-value-of-x-in-the-machine
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 46
+    sourceSection: "Chapter 10: The Other Side of Zero"

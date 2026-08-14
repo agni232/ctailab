@@ -1,0 +1,48 @@
+id: c6-ct-lines-angles-who-visited-the-park-first
+slug: who-visited-the-park-first
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch2-clock-angles
+    - c6-ct-ch2-angles
+  primaryTopic: c6-ct-ch2-clock-angles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A and B visit a park in the evening. When A visited the park, the minute hand pointed at
+    12, and the other hand was 150 degrees clockwise from it. When B visited the park, the
+    hour hand pointed at 5, and the other hand was 210 degrees clockwise from it. Based on
+    the given information, which of the following statements is true?
+  options:
+    - id: option-a
+      text: "A visited the park before B"
+    - id: option-b
+      text: "B visited the park before A"
+    - id: option-c
+      text: "A and B visited exactly at the same time"
+    - id: option-d
+      text: "None of the above"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The 12 numbers on a clock are 360 / 12 = 30 degrees apart. For A, 150 / 30 = 5 numbers
+    clockwise from 12 puts the hour hand on 5, so the time is 5:00. For B, 210 / 30 = 7
+    numbers clockwise from 5 lands back on 12 for the minute hand, so that is also 5:00.
+    Both visited at the same time.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 5 answer and solution"

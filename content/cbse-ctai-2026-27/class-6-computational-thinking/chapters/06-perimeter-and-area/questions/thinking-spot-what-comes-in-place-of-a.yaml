@@ -1,0 +1,56 @@
+id: c6-ct-perimeter-area-thinking-spot-what-comes-in-place-of-a
+slug: thinking-spot-what-comes-in-place-of-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch6-logical-puzzles
+    - c6-ct-ch6-comparing-areas
+  primaryTopic: c6-ct-ch6-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    The numbers given below are to be placed in the grid in such a way that the sum of two
+    adjacent numbers in the grid should be greater than 9 but less than 17. What will come in
+    place of A? Numbers to be placed: 11, 3, 5, 2
+  stimulus:
+    assetRefs:
+      - number-strip
+  options:
+    - id: option-a
+      text: "A = 5"
+    - id: option-b
+      text: "A = 3"
+    - id: option-c
+      text: "A = 2"
+    - id: option-d
+      text: "A = 11"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A sits next to the 8, so A + 8 has to land between 9 and 17, which allows 2, 3, or 5 but
+    not 11. Placing the remaining numbers so that every neighbouring pair also falls in that
+    range leaves only one arrangement, and it puts 5 in A's cell.
+  assetRefs: []
+assets:
+  - ref: number-strip
+    file: ../assets/number-strip.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A strip of eight cells holding 14, three blanks, A, 8, a blank, and 12
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 33
+    section: "Chapter 6 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 6 The Thinking Spot answer and solution"

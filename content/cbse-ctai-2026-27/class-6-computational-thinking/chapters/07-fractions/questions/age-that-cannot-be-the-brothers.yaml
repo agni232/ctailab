@@ -1,0 +1,45 @@
+id: c6-ct-fractions-age-that-cannot-be-the-brothers
+slug: age-that-cannot-be-the-brothers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch7-fractions-of-a-set
+    - c6-ct-ch7-reasoning-with-clues
+  primaryTopic: c6-ct-ch7-fractions-of-a-set
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Raju's age is 2/3 of his brother's age. Currently, if one of them is 30 years old, which of
+    these options DOES NOT represent the possible age of Raju's brother?
+  options:
+    - id: option-a
+      text: "45 years"
+    - id: option-b
+      text: "30 years"
+    - id: option-c
+      text: "27 years"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Write the ages as 2k for Raju and 3k for his brother. If the brother is 30 then k = 10 and
+    Raju is 20, so 30 works. If Raju is 30 then k = 15 and the brother is 45, so 45 works. For
+    the brother to be 27, Raju would be 18, and then neither of them is 30.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 7 question 9 answer and solution"

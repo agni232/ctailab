@@ -1,0 +1,47 @@
+id: c6-ct-perimeter-area-statement-that-is-definitely-false
+slug: statement-that-is-definitely-false
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch6-perimeter
+    - c6-ct-ch6-area
+  primaryTopic: c6-ct-ch6-perimeter
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    The perimeter of a square X is 16 cm. The square is cut along its diagonal to form two
+    identical triangles. Which of these statements is DEFINITELY FALSE based on the above
+    information?
+  options:
+    - id: option-a
+      text: "Two sides of the triangle meet each other perpendicularly"
+    - id: option-b
+      text: "The length of at least one side of each triangle is 4 cm"
+    - id: option-c
+      text: "The combined area of the triangles is 16 cm2"
+    - id: option-d
+      text: "The combined perimeter of the triangles is 16 cm"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The square has a side of 4 cm and an area of 16 sq cm. Cutting along the diagonal keeps
+    the total area at 16, gives each triangle a right angle and two 4 cm sides, so options a,
+    b, and c all hold. But the cut adds the diagonal to both pieces, so the combined perimeter
+    is more than the original 16 cm, which makes option d false.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 58
+    section: "Chapter 6 question 2 answer and solution"

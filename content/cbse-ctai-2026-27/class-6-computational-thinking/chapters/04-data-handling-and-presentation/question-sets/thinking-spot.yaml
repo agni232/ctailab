@@ -1,0 +1,17 @@
+id: cbse-2026-27-c6-ct-ch4-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 4.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ct-data-handling-thinking-spot-difference-between-a-and-b
+    questionVersion: 1
+    position: 1
+    sourcePage: 24
+    sourceSection: "Chapter 4 The Thinking Spot"
