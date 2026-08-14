@@ -1,0 +1,43 @@
+id: c6-ai-intro-who-introduced-the-turing-test
+slug: who-introduced-the-turing-test
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch1-history-of-ai
+    - c6-ai-ch1-what-is-intelligence
+  primaryTopic: c6-ai-ch1-history-of-ai
+  estimatedMinutes: 2
+content:
+  prompt: Who introduced the Turing Test?
+  options:
+    - id: option-a
+      text: "John McCarthy"
+    - id: option-b
+      text: "Alan Turing"
+    - id: option-c
+      text: "Charles Babbage"
+    - id: option-d
+      text: "Isaac Newton"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Alan Turing asked "Can machines think?" in the 1940s and proposed the test that carries
+    his name: a machine passes if a person cannot tell whether they are talking to it or to
+    another human. John McCarthy came later, and coined the term Artificial Intelligence.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise A question 2"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise A question 2 answer"

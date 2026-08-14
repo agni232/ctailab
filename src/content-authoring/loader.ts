@@ -270,6 +270,34 @@ async function loadCurriculumBundle(editionDirectory: string, root: string): Pro
   assertUnique(sourceIds, `source document IDs in ${curriculum.path}`);
   assertUnique(courses.map(({ data }) => data.id), `course IDs in ${editionDirectory}`);
 
+  // Chapters, topics, questions, and question sets are all stored under a global
+  // primary key, but each is only authored inside one course directory. Checking
+  // per directory would let two courses claim the same ID, and sync would then
+  // quietly upsert one over the other instead of failing, so the checks have to
+  // span the whole edition.
+  const allChapters = courses.flatMap((course) => course.chapters);
+  assertUnique(
+    allChapters.map(({ data }) => data.id),
+    `chapter IDs in ${editionDirectory}`
+  );
+  assertUnique(
+    allChapters.flatMap((chapter) => chapter.topics.data.topics.map((topic) => topic.id)),
+    `topic IDs in ${editionDirectory}`
+  );
+  assertUnique(
+    allChapters.flatMap((chapter) =>
+      chapter.questions.map(({ data }) => `${data.id}@${data.version}`)
+    ),
+    `question versions in ${editionDirectory}`
+  );
+  assertUnique(
+    allChapters.flatMap((chapter) => chapter.questionSets.map(({ data }) => data.id)),
+    `question set IDs in ${editionDirectory}`
+  );
+  // Activities are deliberately left out: one activity version can be attached to
+  // several chapters, and a content-hash check already guards against two copies
+  // of the same version disagreeing.
+
   for (const course of courses) {
     for (const chapter of course.chapters) {
       const references = [

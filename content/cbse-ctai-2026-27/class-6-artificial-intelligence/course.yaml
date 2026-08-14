@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ai
+grade:
+  id: grade-6
+  level: 6
+  label: Class 6
+subject:
+  id: artificial-intelligence
+  code: AI
+  slug: artificial-intelligence
+  name: Artificial Intelligence
+  description: Explore how machines use data, spot patterns, and make choices responsibly.
+slug: class-6-artificial-intelligence
+title: Class 6 Artificial Intelligence
+description: Chapter-wise activities and practice for Class 6 learners.
+status: published
+position: 5

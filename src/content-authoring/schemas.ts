@@ -335,12 +335,74 @@ const numberSequenceQuestionSchema = z.object({
   }
 });
 
+const labelledItemSchema = z.object({
+  id: idSchema,
+  label: z.string().min(1)
+}).strict();
+
+const classificationQuestionSchema = z.object({
+  ...questionBaseShape,
+  renderer: z.literal("classification"),
+  content: z.object({
+    prompt: z.string().min(1),
+    stimulus: stimulusSchema.optional(),
+    rowHeading: z.string().min(1).default("Example"),
+    categoryHeading: z.string().min(1).default("Answer"),
+    categories: z.array(labelledItemSchema).min(2),
+    rows: z.array(labelledItemSchema).min(2)
+  }).strict(),
+  response: z.object({
+    type: z.literal("classification")
+  }).strict(),
+  answer: z.object({
+    assignments: z.record(idSchema, idSchema),
+    scoring: z.enum(["all-or-nothing", "per-row"]).default("all-or-nothing")
+  }).strict(),
+  solution: solutionSchema
+}).strict().check((context) => {
+  const rowIds = context.value.content.rows.map((row) => row.id);
+  const categoryIds = context.value.content.categories.map((category) => category.id);
+  const assignments = context.value.answer.assignments;
+
+  for (const [label, ids] of [["row", rowIds], ["category", categoryIds]] as const) {
+    if (new Set(ids).size !== ids.length) {
+      context.issues.push({
+        code: "custom",
+        message: `${label} IDs must be unique`,
+        path: ["content"],
+        input: ids
+      });
+    }
+  }
+
+  if ([...Object.keys(assignments)].sort().join("|") !== [...rowIds].sort().join("|")) {
+    context.issues.push({
+      code: "custom",
+      message: "answer.assignments must have exactly one entry per row",
+      path: ["answer", "assignments"],
+      input: assignments
+    });
+  }
+
+  for (const [rowId, categoryId] of Object.entries(assignments)) {
+    if (!categoryIds.includes(categoryId)) {
+      context.issues.push({
+        code: "custom",
+        message: `answer.assignments.${rowId} must reference a category`,
+        path: ["answer", "assignments", rowId],
+        input: categoryId
+      });
+    }
+  }
+});
+
 export const questionFileSchema = z.discriminatedUnion("renderer", [
   singleChoiceQuestionSchema,
   multipleChoiceQuestionSchema,
   fillInBlanksQuestionSchema,
   shortAnswerQuestionSchema,
-  numberSequenceQuestionSchema
+  numberSequenceQuestionSchema,
+  classificationQuestionSchema
 ]);
 
 export const curriculumFileSchema = z.object({

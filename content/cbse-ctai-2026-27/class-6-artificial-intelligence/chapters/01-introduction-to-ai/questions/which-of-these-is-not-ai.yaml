@@ -1,0 +1,43 @@
+id: c6-ai-intro-which-of-these-is-not-ai
+slug: which-of-these-is-not-ai
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch1-ai-and-automation
+    - c6-ai-ch1-what-is-intelligence
+  primaryTopic: c6-ai-ch1-ai-and-automation
+  estimatedMinutes: 3
+content:
+  prompt: Which of the following is not AI?
+  options:
+    - id: option-a
+      text: "Voice assistant"
+    - id: option-b
+      text: "Face recognition"
+    - id: option-c
+      text: "Traditional traffic signal"
+    - id: option-d
+      text: "Smart chatbot"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A traditional traffic signal just changes at fixed intervals. It follows preset
+    instructions and never learns from what it sees, which makes it automation rather than
+    AI. The other three all learn from data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise A question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise A question 5 answer"

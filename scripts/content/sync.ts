@@ -115,7 +115,10 @@ function parseArguments() {
   if (target === "production" && !process.argv.includes("--confirm")) {
     throw new Error("Production synchronization requires --confirm");
   }
-  return { target };
+  // Escape hatch for the one case the key check cannot see: an object deleted
+  // from the storage bucket while its row still points at it.
+  const forceAssets = process.argv.includes("--force-assets");
+  return { target, forceAssets };
 }
 
 function publishedAt(status: ContentStatus, value?: string): Date | null {
@@ -139,6 +142,8 @@ function responseType(question: QuestionFile): ResponseType {
       return ResponseType.NUMERIC;
     case "self-review":
       return ResponseType.SELF_REVIEW;
+    case "classification":
+      return ResponseType.CLASSIFICATION;
   }
 }
 
@@ -183,9 +188,26 @@ async function replaceSourceReferences(
   });
 }
 
+/**
+ * Object keys already known to exist in storage, keyed by bucket. An object key
+ * embeds the sha256 of its own bytes, so a key that is already recorded can only
+ * have been written from a byte-identical file and there is nothing to re-upload.
+ */
+interface AssetUploadPlan {
+  existingKeys: Set<string>;
+  force: boolean;
+  uploaded: number;
+  skipped: number;
+}
+
+function storageKey(bucket: ContentBucket, objectKey: string): string {
+  return `${bucket}:${objectKey}`;
+}
+
 async function prepareQuestionAssets(
   question: LoadedFile<QuestionFile>,
-  storage: SupabaseContentStorage
+  storage: SupabaseContentStorage,
+  plan: AssetUploadPlan
 ): Promise<PreparedAsset[]> {
   const prepared: PreparedAsset[] = [];
   for (const asset of question.data.assets) {
@@ -212,7 +234,12 @@ async function prepareQuestionAssets(
       `${sha256.slice(0, 16)}-${originalFileName}`
     ].join("/");
 
-    await storage.upload({ bucket, objectKey, body, contentType: mimeType });
+    if (plan.force || !plan.existingKeys.has(storageKey(bucket, objectKey))) {
+      await storage.upload({ bucket, objectKey, body, contentType: mimeType });
+      plan.uploaded += 1;
+    } else {
+      plan.skipped += 1;
+    }
     prepared.push({
       id: `asset-${asset.visibility}-${sha256.slice(0, 24)}`,
       ref: asset.ref,
@@ -529,7 +556,7 @@ async function syncQuestionSet(
 }
 
 async function main() {
-  const { target } = parseArguments();
+  const { target, forceAssets } = parseArguments();
   const catalog = await loadContentCatalog();
   const storage = new SupabaseContentStorage();
   const env = getDatabaseEnv();
@@ -543,12 +570,29 @@ async function main() {
   );
 
   await storage.ensureBuckets();
+
+  const knownLocations = await prisma.assetLocation.findMany({
+    where: { provider: AssetProvider.SUPABASE_STORAGE },
+    select: { bucket: true, objectKey: true }
+  });
+  const plan: AssetUploadPlan = {
+    existingKeys: new Set(
+      knownLocations.map((location) =>
+        storageKey(location.bucket as ContentBucket, location.objectKey)
+      )
+    ),
+    force: forceAssets,
+    uploaded: 0,
+    skipped: 0
+  };
+
   for (const question of allQuestions) {
     assetMap.set(
       `${question.data.id}@${question.data.version}`,
-      await prepareQuestionAssets(question, storage)
+      await prepareQuestionAssets(question, storage, plan)
     );
   }
+  console.log(`Assets: ${plan.uploaded} uploaded, ${plan.skipped} already in storage.`);
 
   try {
     await prisma.$transaction(async (tx) => {
@@ -624,6 +668,11 @@ async function main() {
               position: data.position
             },
             update: {
+              // Re-parenting fields are updated too, so moving a course to a new
+              // subject in the YAML actually moves it in the database.
+              curriculumEditionId: curriculum.edition.id,
+              gradeId: data.grade.id,
+              subjectId: data.subject.id,
               slug: data.slug,
               title: data.title,
               description: data.description,
@@ -647,6 +696,7 @@ async function main() {
                 status: statusMap[chapterData.status]
               },
               update: {
+                courseId: data.id,
                 slug: chapterData.slug,
                 displayNumber: chapterData.displayNumber,
                 title: chapterData.title,
@@ -674,6 +724,7 @@ async function main() {
                   status: statusMap[topic.status]
                 },
                 update: {
+                  chapterId: chapterData.id,
                   slug: topic.slug,
                   title: topic.title,
                   position: topic.position,

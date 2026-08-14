@@ -1,0 +1,37 @@
+id: c6-ai-intro-two-examples-of-ai-in-daily-life
+slug: two-examples-of-ai-in-daily-life
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch1-ai-and-automation
+  primaryTopic: c6-ai-ch1-ai-and-automation
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Give two examples of AI used in daily life.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - Voice assistants
+    - Face recognition
+solution:
+  text: >-
+    Two everyday examples are voice assistants and face recognition.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise C answer"

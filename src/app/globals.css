@@ -3992,6 +3992,15 @@ input[type="range"] {
   background: var(--coral-soft);
 }
 
+.answer-feedback.is-self-review {
+  border-left-color: var(--blue);
+  background: var(--blue-soft);
+}
+
+.is-self-review .answer-feedback-icon {
+  background: var(--blue);
+}
+
 .answer-feedback-icon {
   display: grid;
   width: 46px;
@@ -4186,5 +4195,204 @@ input[type="range"] {
   .answer-feedback,
   .handbook-complete {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Fill in the blanks, short answer, and classification renderers
+   --------------------------------------------------------------------------- */
+
+.fill-blank-sentence {
+  margin: 4px 0 0;
+  font-size: 1.12rem;
+  line-height: 2.4;
+  color: var(--ink);
+}
+
+.fill-blank-slot {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: baseline;
+}
+
+.fill-blank-input {
+  min-width: 130px;
+  margin: 0 4px;
+  border: 0;
+  border-bottom: 3px solid var(--line);
+  border-radius: 4px 4px 0 0;
+  padding: 2px 8px;
+  background: var(--white);
+  font: inherit;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+}
+
+.fill-blank-input:focus-visible {
+  border-bottom-color: var(--teal);
+  outline: 3px solid var(--teal-soft);
+  outline-offset: 2px;
+}
+
+.fill-blank-input.is-correct {
+  border-bottom-color: var(--green);
+  background: var(--green-soft);
+}
+
+.fill-blank-input.is-wrong {
+  border-bottom-color: var(--coral);
+  background: var(--coral-soft);
+}
+
+.fill-blank-expected {
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--green);
+}
+
+.short-answer-input {
+  width: 100%;
+  margin-top: 4px;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: var(--white);
+  font: inherit;
+  line-height: 1.6;
+  color: var(--ink);
+  resize: vertical;
+}
+
+.short-answer-input:focus-visible {
+  border-color: var(--teal);
+  outline: 3px solid var(--teal-soft);
+  outline-offset: 1px;
+}
+
+.model-answer {
+  margin-top: 18px;
+  border-left: 6px solid var(--blue);
+  border-radius: 0 14px 14px 0;
+  padding: 16px 20px;
+  background: var(--blue-soft);
+}
+
+.model-answer h3 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.model-answer p {
+  margin: 0;
+  color: var(--ink);
+}
+
+.model-answer-label {
+  margin-top: 12px !important;
+  font-weight: 700;
+}
+
+.model-answer ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+  color: var(--ink);
+}
+
+.classification-table {
+  width: 100%;
+  margin-top: 4px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.classification-table th,
+.classification-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 12px 10px;
+  vertical-align: middle;
+}
+
+.classification-table thead th {
+  border-bottom: 2px solid var(--line);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.classification-table tbody th {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.classification-row.is-correct tbody th,
+.classification-row.is-correct {
+  background: var(--green-soft);
+}
+
+.classification-row.is-wrong {
+  background: var(--coral-soft);
+}
+
+.classification-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.classification-pill {
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 16px;
+  background: var(--white);
+  font: inherit;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.classification-pill:hover:not(:disabled) {
+  border-color: var(--teal);
+  color: var(--teal-dark);
+}
+
+.classification-pill.is-selected {
+  border-color: var(--navy);
+  background: var(--navy);
+  color: var(--white);
+}
+
+.classification-pill:disabled {
+  cursor: default;
+}
+
+.classification-expected {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--green);
+}
+
+@media (max-width: 620px) {
+  .classification-table thead {
+    display: none;
+  }
+
+  .classification-table tbody th,
+  .classification-table td {
+    display: block;
+    border-bottom: 0;
+    padding: 6px 0;
+  }
+
+  .classification-table tbody tr {
+    display: block;
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px;
   }
 }

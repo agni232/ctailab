@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ai-chapter-1
+slug: introduction-to-ai
+displayNumber: "1"
+title: Introduction to AI and Everyday Examples
+summary: What intelligence means, how AI grew up, and how machines learn from data.
+position: 1
+status: published
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 48
+    pageEnd: 59
+    section: "Chapter 1: Introduction to AI and Everyday Examples"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 99
+    pageEnd: 100
+    section: "Chapter 1: Introduction to AI and Everyday Examples"

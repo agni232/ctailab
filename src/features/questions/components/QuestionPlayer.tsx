@@ -4,9 +4,10 @@ import { useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, BookOpenCheck, Check, RotateCcw, Sparkles } from "lucide-react";
 
 import type {
-  ChoiceCheckResult,
   PublicQuestionItem,
-  PublicQuestionSet
+  PublicQuestionSet,
+  QuestionCheckResult,
+  QuestionResponse
 } from "@/features/questions/contracts";
 import { QuestionRenderer } from "@/features/questions/components/QuestionRenderer";
 
@@ -16,8 +17,35 @@ interface QuestionPlayerProps {
 }
 
 interface CheckResponse {
-  data?: ChoiceCheckResult;
+  data?: QuestionCheckResult;
   error?: string;
+}
+
+/**
+ * A question is ready to check once its renderer has enough of an answer: one
+ * option, every blank filled, some text, or every row classified.
+ */
+function isAnswerComplete(
+  question: PublicQuestionItem,
+  response: QuestionResponse | undefined
+): boolean {
+  if (!response) {
+    return false;
+  }
+  switch (response.kind) {
+    case "choice":
+      return response.optionId.length > 0;
+    case "fill-in-blanks":
+      return question.renderer === "fill-in-blanks"
+        && question.content.segments
+          .filter((segment) => segment.type === "blank")
+          .every((segment) => (response.blanks[segment.id] ?? "").trim().length > 0);
+    case "short-answer":
+      return response.text.trim().length > 0;
+    case "classification":
+      return question.renderer === "classification"
+        && question.content.rows.every((row) => Boolean(response.assignments[row.id]));
+  }
 }
 
 function initialIndex(questions: PublicQuestionItem[], displayNumber?: string): number {
@@ -32,18 +60,19 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
   const [currentIndex, setCurrentIndex] = useState(() =>
     initialIndex(questionSet.questions, initialQuestionNumber)
   );
-  const [selections, setSelections] = useState<Record<string, string>>({});
-  const [results, setResults] = useState<Record<string, ChoiceCheckResult>>({});
+  const [responses, setResponses] = useState<Record<string, QuestionResponse>>({});
+  const [results, setResults] = useState<Record<string, QuestionCheckResult>>({});
   const [explanations, setExplanations] = useState<Record<string, boolean>>({});
   const [checking, setChecking] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const questionHeadingRef = useRef<HTMLHeadingElement>(null);
 
   const currentQuestion = questionSet.questions[currentIndex];
-  const selectedOptionId = selections[currentQuestion.id];
+  const currentResponse = responses[currentQuestion.id];
   const result = results[currentQuestion.id];
   const completedCount = Object.keys(results).length;
-  const correctCount = Object.values(results).filter((item) => item.correct).length;
+  const correctCount = Object.values(results).filter((item) => item.outcome === "correct").length;
+  const readyToCheck = isAnswerComplete(currentQuestion, currentResponse);
   const totalQuestions = questionSet.questions.length;
   const isSingleQuestion = totalQuestions === 1;
   const progress = totalQuestions === 0
@@ -67,7 +96,7 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
   }
 
   async function checkAnswer() {
-    if (!selectedOptionId || checking) {
+    if (!readyToCheck || checking) {
       return;
     }
 
@@ -78,7 +107,7 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
       const response = await fetch(`/api/v1/questions/${encodeURIComponent(currentQuestion.id)}/check`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ response: { optionId: selectedOptionId } })
+        body: JSON.stringify({ response: currentResponse })
       });
       const payload = await response.json() as CheckResponse;
 
@@ -86,8 +115,8 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
         throw new Error(payload.error ?? "Unable to check this answer.");
       }
 
-      setResults((current) => ({ ...current, [currentQuestion.id]: payload.data as ChoiceCheckResult }));
-      if (payload.data.correct) {
+      setResults((current) => ({ ...current, [currentQuestion.id]: payload.data as QuestionCheckResult }));
+      if (payload.data.outcome !== "incorrect") {
         setExplanations((current) => ({ ...current, [currentQuestion.id]: true }));
       }
     } catch (caughtError) {
@@ -163,11 +192,11 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
 
         <QuestionRenderer
           question={currentQuestion}
-          selectedOptionId={selectedOptionId}
+          response={currentResponse}
           result={result}
           showExplanation={Boolean(explanations[currentQuestion.id])}
-          onSelect={(optionId) => {
-            setSelections((current) => ({ ...current, [currentQuestion.id]: optionId }));
+          onRespond={(next) => {
+            setResponses((current) => ({ ...current, [currentQuestion.id]: next }));
             setError(null);
           }}
         />
@@ -175,20 +204,37 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
         {error ? <p className="handbook-error" role="alert">{error}</p> : null}
 
         {result ? (
-          <div className={`answer-feedback${result.correct ? " is-correct" : " is-try-again"}`} aria-live="polite">
+          <div
+            className={`answer-feedback${
+              result.outcome === "correct"
+                ? " is-correct"
+                : result.outcome === "self-review"
+                  ? " is-self-review"
+                  : " is-try-again"
+            }`}
+            aria-live="polite"
+          >
             <span className="answer-feedback-icon" aria-hidden="true">
-              {result.correct ? <Sparkles size={25} /> : <RotateCcw size={23} />}
+              {result.outcome === "correct" ? <Sparkles size={25} /> : <RotateCcw size={23} />}
             </span>
             <div>
-              <h3>{result.correct ? "You found it!" : "Almost. Take another look."}</h3>
-              {explanations[currentQuestion.id] ? <p>{result.solution.text}</p> : null}
-              {!result.correct ? (
+              <h3>
+                {result.outcome === "correct"
+                  ? "You found it!"
+                  : result.outcome === "self-review"
+                    ? "Compare your answer with the model answer."
+                    : "Almost. Take another look."}
+              </h3>
+              {explanations[currentQuestion.id] && result.outcome !== "self-review"
+                ? <p>{result.solution.text}</p>
+                : null}
+              {result.outcome !== "correct" ? (
                 <div className="feedback-actions">
                   <button className="button button-coral" type="button" onClick={retryQuestion}>
                     <RotateCcw size={18} aria-hidden="true" />
-                    Try again
+                    {result.outcome === "self-review" ? "Write it again" : "Try again"}
                   </button>
-                  {!explanations[currentQuestion.id] ? (
+                  {!explanations[currentQuestion.id] && result.outcome === "incorrect" ? (
                     <button
                       className="button button-quiet"
                       type="button"
@@ -224,7 +270,7 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
             <button
               className="button button-primary"
               type="button"
-              disabled={!selectedOptionId || checking}
+              disabled={!readyToCheck || checking}
               onClick={checkAnswer}
             >
               <Check size={19} aria-hidden="true" />

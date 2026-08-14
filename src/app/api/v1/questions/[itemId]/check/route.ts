@@ -1,8 +1,12 @@
 import { NextResponse } from "next/server";
 
-import { choiceSubmissionSchema } from "@/features/questions/contracts";
 import {
-  checkChoiceQuestion,
+  choiceSubmissionSchema,
+  questionSubmissionSchema,
+  type QuestionResponse
+} from "@/features/questions/contracts";
+import {
+  checkQuestion,
   InvalidQuestionResponseError
 } from "@/server/content/question-set-service";
 
@@ -22,13 +26,22 @@ export async function POST(request: Request, context: RouteContext): Promise<Nex
     return NextResponse.json({ error: "Invalid JSON." }, { status: 400 });
   }
 
-  const submission = choiceSubmissionSchema.safeParse(payload);
-  if (!submission.success) {
-    return NextResponse.json({ error: "Choose one answer before checking." }, { status: 400 });
+  const submission = questionSubmissionSchema.safeParse(payload);
+  let response: QuestionResponse;
+
+  if (submission.success) {
+    response = submission.data.response;
+  } else {
+    // A page served before this endpoint was widened posts a bare { optionId }.
+    const legacy = choiceSubmissionSchema.safeParse(payload);
+    if (!legacy.success) {
+      return NextResponse.json({ error: "Answer the question before checking." }, { status: 400 });
+    }
+    response = { kind: "choice", optionId: legacy.data.response.optionId };
   }
 
   try {
-    const result = await checkChoiceQuestion(itemId, submission.data.response.optionId);
+    const result = await checkQuestion(itemId, response);
     if (!result) {
       return NextResponse.json({ error: "Question not found." }, { status: 404 });
     }

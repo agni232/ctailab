@@ -1,0 +1,42 @@
+id: c6-ai-intro-data-in-supervised-learning
+slug: data-in-supervised-learning
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch1-supervised-learning
+    - c6-ai-ch1-machine-learning
+  primaryTopic: c6-ai-ch1-supervised-learning
+  estimatedMinutes: 2
+content:
+  prompt: "In supervised learning, data is:"
+  options:
+    - id: option-a
+      text: "Unlabelled"
+    - id: option-b
+      text: "Random"
+    - id: option-c
+      text: "Labelled"
+    - id: option-d
+      text: "Deleted"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Supervised learning works from examples that already carry the right answer, so the data
+    must be labelled. Unsupervised learning is the one that works without labels.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise A question 3"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise A question 3 answer"

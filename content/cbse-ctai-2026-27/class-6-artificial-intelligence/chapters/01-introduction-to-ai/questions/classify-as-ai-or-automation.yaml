@@ -1,0 +1,56 @@
+id: c6-ai-intro-classify-as-ai-or-automation
+slug: classify-as-ai-or-automation
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch1-ai-and-automation
+    - c6-ai-ch1-what-is-intelligence
+  primaryTopic: c6-ai-ch1-ai-and-automation
+  estimatedMinutes: 5
+content:
+  prompt: Classify the following as AI or Automation.
+  rowHeading: Example
+  categoryHeading: AI or Automation?
+  categories:
+    - id: ai-powered
+      label: AI
+    - id: automation
+      label: Automation
+  rows:
+    - id: traffic-light
+      label: Traffic light changing at fixed intervals
+    - id: face-recognition
+      label: Face recognition system
+    - id: washing-machine
+      label: Washing machine with preset timer
+    - id: voice-assistant
+      label: Voice assistant answering questions
+response:
+  type: classification
+answer:
+  assignments:
+    traffic-light: automation
+    face-recognition: ai-powered
+    washing-machine: automation
+    voice-assistant: ai-powered
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Ask whether the machine learns. A traffic light on a timer and a washing machine on
+    a preset cycle both follow fixed instructions and never change, so they are
+    automation. Face recognition and a voice assistant both learn from data and can
+    handle something they have not seen before, so they are AI.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 59
+    section: "Chapter 1 Exercise E"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise E answer"

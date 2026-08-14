@@ -1,0 +1,38 @@
+id: c6-ai-intro-name-the-three-types-of-machine-learning
+slug: name-the-three-types-of-machine-learning
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch1-machine-learning
+  primaryTopic: c6-ai-ch1-machine-learning
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name the three types of Machine Learning.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - Supervised learning
+    - Unsupervised learning
+    - Reinforcement learning
+solution:
+  text: >-
+    The three types are supervised learning, unsupervised learning, and reinforcement learning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise C answer"

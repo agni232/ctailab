@@ -1,0 +1,38 @@
+id: c6-ai-intro-define-intelligence-in-your-own-words
+slug: define-intelligence-in-your-own-words
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch1-what-is-intelligence
+  primaryTopic: c6-ai-ch1-what-is-intelligence
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Define intelligence in your own words.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - Learning and thinking
+    - Understanding
+    - Solving problems
+solution:
+  text: >-
+    Intelligence is the ability to learn, think, understand and solve problems.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise C answer"

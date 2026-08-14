@@ -4,13 +4,13 @@ grade:
   level: 3
   label: Class 3
 subject:
-  id: computational-thinking-ai
-  code: CTAI
-  slug: computational-thinking-ai
-  name: Computational Thinking and Artificial Intelligence
-  description: Learn how to solve problems, recognize patterns, and understand age-appropriate AI ideas.
-slug: computational-thinking-ai
-title: Class 3 Computational Thinking and AI
+  id: computational-thinking
+  code: CT
+  slug: computational-thinking
+  name: Computational Thinking
+  description: Break problems down, spot patterns, and design clear steps to a solution.
+slug: class-3-computational-thinking
+title: Class 3 Computational Thinking
 description: Chapter-wise activities and practice for Class 3 learners.
 status: published
 position: 1

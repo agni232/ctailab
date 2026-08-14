@@ -1,0 +1,39 @@
+topics:
+  - id: c6-ai-ch1-what-is-intelligence
+    slug: what-is-intelligence
+    title: What is Intelligence
+    position: 1
+    status: published
+  - id: c6-ai-ch1-history-of-ai
+    slug: history-of-ai
+    title: History of AI
+    position: 2
+    status: published
+  - id: c6-ai-ch1-ai-and-automation
+    slug: ai-and-automation
+    title: AI and Automation
+    position: 3
+    status: published
+  - id: c6-ai-ch1-machine-learning
+    slug: machine-learning
+    title: Machine Learning
+    position: 4
+    status: published
+  - id: c6-ai-ch1-supervised-learning
+    slug: supervised-learning
+    title: Supervised Learning
+    position: 5
+    parentId: c6-ai-ch1-machine-learning
+    status: published
+  - id: c6-ai-ch1-unsupervised-learning
+    slug: unsupervised-learning
+    title: Unsupervised Learning
+    position: 6
+    parentId: c6-ai-ch1-machine-learning
+    status: published
+  - id: c6-ai-ch1-reinforcement-learning
+    slug: reinforcement-learning
+    title: Reinforcement Learning
+    position: 7
+    parentId: c6-ai-ch1-machine-learning
+    status: published

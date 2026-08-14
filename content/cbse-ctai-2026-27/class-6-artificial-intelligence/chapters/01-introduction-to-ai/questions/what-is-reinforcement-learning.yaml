@@ -1,0 +1,37 @@
+id: c6-ai-intro-what-is-reinforcement-learning
+slug: what-is-reinforcement-learning
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch1-reinforcement-learning
+  primaryTopic: c6-ai-ch1-reinforcement-learning
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is reinforcement learning?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - Learning by trial and error
+    - Rewards and penalties
+solution:
+  text: >-
+    Reinforcement learning is a type of learning where machines learn using rewards and penalties.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise C answer"

@@ -1,0 +1,42 @@
+id: c6-ai-intro-learning-used-to-predict-exam-marks
+slug: learning-used-to-predict-exam-marks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch1-supervised-learning
+    - c6-ai-ch1-machine-learning
+  primaryTopic: c6-ai-ch1-supervised-learning
+  estimatedMinutes: 3
+content:
+  prompt: "Predicting exam marks based on the trained data uses:"
+  options:
+    - id: option-a
+      text: "Supervised Learning"
+    - id: option-b
+      text: "Unsupervised Learning"
+    - id: option-c
+      text: "Reinforcement Learning"
+    - id: option-d
+      text: "All of the above"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Past marks are labelled examples, so the system learns from data where the answer is
+    already known and then predicts a value for a new case. That is supervised learning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise A question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise A question 4 answer"

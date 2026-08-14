@@ -32,6 +32,7 @@ enum ResponseType {
   SHORT_TEXT
   NUMERIC
   SELF_REVIEW
+  CLASSIFICATION
 }
 
 enum Difficulty {

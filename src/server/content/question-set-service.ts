@@ -9,17 +9,57 @@ import {
 } from "@/generated/prisma/client";
 import {
   choiceAnswerKeySchema,
+  classificationAnswerKeySchema,
+  fillInBlanksAnswerKeySchema,
   publicChoiceContentSchema,
+  publicClassificationContentSchema,
+  publicFillInBlanksContentSchema,
+  publicShortAnswerContentSchema,
   questionSolutionSchema,
-  type ChoiceCheckResult,
+  shortAnswerAnswerKeySchema,
   type PublicQuestionAsset,
   type PublicQuestionItem,
-  type PublicQuestionSet
+  type PublicQuestionSet,
+  type QuestionCheckResult,
+  type QuestionRendererKey,
+  type QuestionResponse
 } from "@/features/questions/contracts";
 import { prisma } from "@/server/db/prisma";
 import { contentAssetApiPath } from "@/server/storage/content-asset-url";
 
-const supportedRenderers = new Set(["single-choice-text", "single-choice-image"]);
+const supportedRenderers = new Set<QuestionRendererKey>([
+  "single-choice-text",
+  "single-choice-image",
+  "fill-in-blanks",
+  "short-answer",
+  "classification"
+]);
+
+function isSupportedRenderer(renderer: string): renderer is QuestionRendererKey {
+  return supportedRenderers.has(renderer as QuestionRendererKey);
+}
+
+/**
+ * Parses the stored content for a renderer into its public shape. Each renderer
+ * has its own content schema, so the payload sent to the browser stays exactly as
+ * narrow as that renderer needs.
+ */
+function parseQuestionContent(
+  renderer: QuestionRendererKey,
+  content: unknown
+): PublicQuestionItem["content"] {
+  switch (renderer) {
+    case "single-choice-text":
+    case "single-choice-image":
+      return publicChoiceContentSchema.parse(content);
+    case "fill-in-blanks":
+      return publicFillInBlanksContentSchema.parse(content);
+    case "short-answer":
+      return publicShortAnswerContentSchema.parse(content);
+    case "classification":
+      return publicClassificationContentSchema.parse(content);
+  }
+}
 
 const assetRoleMap: Record<AssetRole, PublicQuestionAsset["role"]> = {
   STEM: "stem",
@@ -126,7 +166,7 @@ async function getPublishedQuestionSetWhere(
 
   const questions = items.map((item): PublicQuestionItem => {
     const questionVersion = item.questionVersion;
-    if (!supportedRenderers.has(questionVersion.renderer)) {
+    if (!isSupportedRenderer(questionVersion.renderer)) {
       throw new Error(`Question renderer ${questionVersion.renderer} is not supported by this experience.`);
     }
 
@@ -135,14 +175,12 @@ async function getPublishedQuestionSetWhere(
       throw new Error(`Question ${questionVersion.id} has no course profile.`);
     }
 
-    return {
+    const base = {
       id: item.id,
       questionId: questionVersion.questionId,
       position: item.position,
       displayNumber: item.displayNumber ?? String(item.position),
       sourcePage: item.sourcePage,
-      renderer: questionVersion.renderer as PublicQuestionItem["renderer"],
-      content: publicChoiceContentSchema.parse(questionVersion.content),
       difficulty: difficultyMap[profile.difficulty],
       estimatedMinutes: profile.estimatedMinutes,
       topics: profile.topicLinks.map((link) => ({
@@ -152,6 +190,12 @@ async function getPublishedQuestionSetWhere(
       })),
       assets: questionVersion.assetLinks.map(toPublicAsset)
     };
+
+    return {
+      ...base,
+      renderer: questionVersion.renderer,
+      content: parseQuestionContent(questionVersion.renderer, questionVersion.content)
+    } as PublicQuestionItem;
   });
 
   const instructions = version.instructions;
@@ -231,10 +275,35 @@ export function getPublishedThinkingSpotQuestionSet(params: {
   return getPublishedChapterQuestionSet({ ...params, kind: QuestionSetKind.CHALLENGE });
 }
 
-export async function checkChoiceQuestion(
+/** Trims and collapses whitespace so "  solve   " and "solve" grade the same. */
+function normaliseText(value: string, rules: readonly string[]): string {
+  let result = value;
+  if (rules.includes("trim") || rules.length === 0) {
+    result = result.trim();
+  }
+  if (rules.includes("collapse-whitespace") || rules.length === 0) {
+    result = result.replace(/\s+/g, " ");
+  }
+  if (rules.includes("lowercase") || rules.length === 0) {
+    result = result.toLowerCase();
+  }
+  return result;
+}
+
+function matchesAccepted(
+  value: string,
+  accepted: ReadonlyArray<string | number>,
+  caseSensitive: boolean
+): boolean {
+  const rules = caseSensitive ? ["trim", "collapse-whitespace"] : ["trim", "collapse-whitespace", "lowercase"];
+  const candidate = normaliseText(value, rules);
+  return accepted.some((entry) => normaliseText(String(entry), rules) === candidate);
+}
+
+export async function checkQuestion(
   itemId: string,
-  selectedOptionId: string
-): Promise<ChoiceCheckResult | null> {
+  response: QuestionResponse
+): Promise<QuestionCheckResult | null> {
   const item = await prisma.questionSetItem.findFirst({
     where: {
       id: itemId,
@@ -263,30 +332,111 @@ export async function checkChoiceQuestion(
   }
 
   const { questionVersion } = item;
-  if (!supportedRenderers.has(questionVersion.renderer)) {
-    throw new InvalidQuestionResponseError("This question does not accept a choice response.");
-  }
-
-  const content = publicChoiceContentSchema.parse(questionVersion.content);
-  if (!content.options.some((option) => option.id === selectedOptionId)) {
-    throw new InvalidQuestionResponseError("The selected option does not belong to this question.");
+  const renderer = questionVersion.renderer;
+  if (!isSupportedRenderer(renderer)) {
+    throw new InvalidQuestionResponseError("This question cannot be checked here.");
   }
   if (!questionVersion.answerKey || !questionVersion.solution) {
     throw new Error(`Question ${questionVersion.id} is missing its answer or solution.`);
   }
 
-  const answer = choiceAnswerKeySchema.parse(questionVersion.answerKey.gradingConfig);
   const solution = questionSolutionSchema.parse(questionVersion.solution.content);
   const publicAssets = questionVersion.assetLinks.map(toPublicAsset);
+  const gradingConfig = questionVersion.answerKey.gradingConfig;
+  const solutionPayload = {
+    text: solution.text,
+    assets: solution.assetRefs
+      .map((ref) => publicAssets.find((asset) => asset.ref === ref))
+      .filter((asset): asset is PublicQuestionAsset => Boolean(asset))
+  };
 
-  return {
-    correct: selectedOptionId === answer.optionId,
-    correctOptionId: answer.optionId,
-    solution: {
-      text: solution.text,
-      assets: solution.assetRefs
-        .map((ref) => publicAssets.find((asset) => asset.ref === ref))
-        .filter((asset): asset is PublicQuestionAsset => Boolean(asset))
+  if (renderer === "single-choice-text" || renderer === "single-choice-image") {
+    if (response.kind !== "choice") {
+      throw new InvalidQuestionResponseError("This question expects a single choice.");
     }
+    const content = publicChoiceContentSchema.parse(questionVersion.content);
+    if (!content.options.some((option) => option.id === response.optionId)) {
+      throw new InvalidQuestionResponseError("The selected option does not belong to this question.");
+    }
+    const answer = choiceAnswerKeySchema.parse(gradingConfig);
+    return {
+      outcome: response.optionId === answer.optionId ? "correct" : "incorrect",
+      correctOptionId: answer.optionId,
+      solution: solutionPayload
+    };
+  }
+
+  if (renderer === "fill-in-blanks") {
+    if (response.kind !== "fill-in-blanks") {
+      throw new InvalidQuestionResponseError("This question expects the blanks to be filled in.");
+    }
+    const answer = fillInBlanksAnswerKeySchema.parse(gradingConfig);
+    const blankIds = Object.keys(answer.blanks);
+    const blanks: NonNullable<QuestionCheckResult["blanks"]> = {};
+
+    for (const blankId of blankIds) {
+      const expected = answer.blanks[blankId];
+      const submitted = response.blanks[blankId] ?? "";
+      blanks[blankId] = {
+        correct: matchesAccepted(submitted, expected.accepted, expected.caseSensitive),
+        expected: String(expected.accepted[0])
+      };
+    }
+
+    const allCorrect = blankIds.every((blankId) => blanks[blankId].correct);
+    return {
+      outcome: allCorrect ? "correct" : "incorrect",
+      blanks,
+      solution: solutionPayload
+    };
+  }
+
+  if (renderer === "classification") {
+    if (response.kind !== "classification") {
+      throw new InvalidQuestionResponseError("This question expects every row to be classified.");
+    }
+    const content = publicClassificationContentSchema.parse(questionVersion.content);
+    const answer = classificationAnswerKeySchema.parse(gradingConfig);
+    const categoryIds = new Set(content.categories.map((category) => category.id));
+    const rows: NonNullable<QuestionCheckResult["rows"]> = {};
+
+    for (const row of content.rows) {
+      const submitted = response.assignments[row.id];
+      if (submitted !== undefined && !categoryIds.has(submitted)) {
+        throw new InvalidQuestionResponseError("An answer refers to a category that does not exist.");
+      }
+      rows[row.id] = {
+        correct: submitted === answer.assignments[row.id],
+        expectedCategoryId: answer.assignments[row.id]
+      };
+    }
+
+    const allCorrect = content.rows.every((row) => rows[row.id].correct);
+    return {
+      outcome: allCorrect ? "correct" : "incorrect",
+      rows,
+      solution: solutionPayload
+    };
+  }
+
+  if (response.kind !== "short-answer") {
+    throw new InvalidQuestionResponseError("This question expects a written answer.");
+  }
+  const answer = shortAnswerAnswerKeySchema.parse(gradingConfig);
+  if (answer.evaluation === "self-review") {
+    // Open questions have no single right wording, so the learner marks their own
+    // answer against the model one instead of the server guessing.
+    return {
+      outcome: "self-review",
+      modelAnswer: { text: solution.text, keyIdeas: answer.keyIdeas },
+      solution: solutionPayload
+    };
+  }
+
+  const caseSensitive = !answer.normalization.includes("lowercase");
+  return {
+    outcome: matchesAccepted(response.text, answer.accepted, caseSensitive) ? "correct" : "incorrect",
+    modelAnswer: { text: String(answer.accepted[0] ?? solution.text), keyIdeas: answer.keyIdeas },
+    solution: solutionPayload
   };
 }

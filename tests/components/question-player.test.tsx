@@ -76,7 +76,7 @@ describe("QuestionPlayer", () => {
       ok: true,
       json: async () => ({
         data: {
-          correct: true,
+          outcome: "correct",
           correctOptionId: "option-a",
           solution: { text: "ONE appears at the start.", assets: [] }
         }

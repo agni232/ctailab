@@ -1,0 +1,43 @@
+id: c6-ai-intro-what-is-labelled-data
+slug: what-is-labelled-data
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch1-supervised-learning
+    - c6-ai-ch1-machine-learning
+  primaryTopic: c6-ai-ch1-supervised-learning
+  estimatedMinutes: 2
+content:
+  prompt: What is labelled data?
+  options:
+    - id: option-a
+      text: "Data without any tags"
+    - id: option-b
+      text: "Data with predefined labels or tags"
+    - id: option-c
+      text: "Random data"
+    - id: option-d
+      text: "Incorrect data"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Labelled data comes with the answer already attached to each example, such as a photo
+    tagged "cat". Those tags are what let a supervised learning system check its own guesses
+    while it learns.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise A question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise A question 1 answer"

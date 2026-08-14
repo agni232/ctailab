@@ -1,0 +1,59 @@
+id: c6-ai-intro-identify-the-type-of-machine-learning
+slug: identify-the-type-of-machine-learning
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ai-ch1-machine-learning
+    - c6-ai-ch1-supervised-learning
+  primaryTopic: c6-ai-ch1-machine-learning
+  estimatedMinutes: 6
+content:
+  prompt: Identify the type of Machine Learning used in each scenario.
+  rowHeading: Scenario
+  categoryHeading: Type of Learning
+  categories:
+    - id: supervised
+      label: Supervised Learning
+    - id: unsupervised
+      label: Unsupervised Learning
+    - id: reinforcement
+      label: Reinforcement Learning
+  rows:
+    - id: grouping-customers
+      label: Grouping customers based on shopping habits without labels
+    - id: predicting-house-prices
+      label: Predicting house prices based on past labelled data
+    - id: game-ai-improving
+      label: A game AI improving after winning or losing
+    - id: sorting-emails
+      label: Sorting emails into spam and not spam
+response:
+  type: classification
+answer:
+  assignments:
+    grouping-customers: unsupervised
+    predicting-house-prices: supervised
+    game-ai-improving: reinforcement
+    sorting-emails: supervised
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Ask what the machine is given to learn from. No labels and a need to find groups
+    means unsupervised learning, which covers the customer grouping. Past examples that
+    already carry the answer mean supervised learning, which covers both the house
+    prices and the spam sorting. Learning from rewards and penalties after each attempt
+    means reinforcement learning, which is the game AI.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 58
+    section: "Chapter 1 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 1 Exercise D answer"
