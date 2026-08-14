@@ -1,0 +1,55 @@
+id: c6-patterns-first-term-with-more-than-twenty-blocks
+slug: first-term-with-more-than-twenty-blocks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch1-growing-shapes
+    - c6-ct-ch1-figure-patterns
+  primaryTopic: c6-ct-ch1-growing-shapes
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    The first four terms of a block series are shown below. If the pattern continues in the
+    same manner, which term of the series will be the first to contain more than 20 blocks?
+  stimulus:
+    assetRefs:
+      - block-terms
+  options:
+    - id: option-a
+      text: "5th term"
+    - id: option-b
+      text: "6th term"
+    - id: option-c
+      text: "7th term"
+    - id: option-d
+      text: "8th term"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each term adds a new bottom row holding one more block than the row above it, so the
+    totals are 1, 3, 6, 10, then 15 and then 21. The 6th term is the first to pass 20.
+  assetRefs: []
+assets:
+  - ref: block-terms
+    file: ../assets/block-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four staircase figures made of squares, growing from a single square to a stack of
+      rows of one, two, three, and four squares
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 4 answer and solution"

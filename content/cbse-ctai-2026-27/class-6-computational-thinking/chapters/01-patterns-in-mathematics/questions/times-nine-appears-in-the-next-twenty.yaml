@@ -1,0 +1,46 @@
+id: c6-patterns-times-nine-appears-in-the-next-twenty
+slug: times-nine-appears-in-the-next-twenty
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-number-patterns
+    - c6-ct-ch1-finding-the-rule
+  primaryTopic: c6-ct-ch1-number-patterns
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The following series follows a fixed pattern: 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, ... If the
+    pattern continues, determine how many times the number 9 appears in the NEXT 20 terms.
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The rule is that a number n appears n - 1 times, so 2 appears once, 3 appears twice, and
+    so on. One 6 has already been printed, so the next 20 terms start with 4 more 6s, then 6
+    sevens and 7 eights. That accounts for 4 + 6 + 7 = 17 terms, leaving 20 - 17 = 3 terms,
+    all of which are 9.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 1 answer and solution"

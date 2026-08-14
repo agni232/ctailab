@@ -1,0 +1,56 @@
+id: c6-patterns-circles-in-term-ninety-one
+slug: circles-in-term-ninety-one
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ct-ch1-growing-shapes
+    - c6-ct-ch1-finding-the-rule
+  primaryTopic: c6-ct-ch1-growing-shapes
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    The first three terms of a series of circles are shown below. If the pattern continues in
+    the same manner, how many circles will be there in term 91?
+  stimulus:
+    assetRefs:
+      - circle-terms
+  options:
+    - id: option-a
+      text: "184"
+    - id: option-b
+      text: "180"
+    - id: option-c
+      text: "194"
+    - id: option-d
+      text: "204"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Term 1 has 2 columns of circles, term 2 has 3, and term 3 has 4, so a term has one more
+    column than its position number. Term 91 therefore has 92 columns, and with 2 circles in
+    each column that is 92 x 2 = 184 circles.
+  assetRefs: []
+assets:
+  - ref: circle-terms
+    file: ../assets/circle-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Term 1, Term 2, and Term 3 of a pattern, each a row of linked circles above a matching
+      row below, growing by one column each time
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 9 answer and solution"

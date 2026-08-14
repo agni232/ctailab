@@ -1,0 +1,57 @@
+id: c6-patterns-diamonds-when-there-are-144-hexagons
+slug: diamonds-when-there-are-144-hexagons
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-square-numbers
+    - c6-ct-ch1-growing-shapes
+  primaryTopic: c6-ct-ch1-square-numbers
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The first five terms of a series formed using grey hexagons and white diamonds are given
+    below. If the same pattern continues, how many diamonds will be present in the term where
+    the number of hexagons is 144?
+  stimulus:
+    assetRefs:
+      - hexagon-diamond-terms
+  options:
+    - id: option-a
+      text: "100"
+    - id: option-b
+      text: "135"
+    - id: option-c
+      text: "121"
+    - id: option-d
+      text: "169"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count both shapes term by term. The hexagons go 1, 4, 9, 16, 25, which is n x n, and the
+    diamonds go 0, 1, 4, 9, 16, which is one square number behind. Since 144 is 12 x 12, that
+    is term 12, so the diamonds number 11 x 11 = 121.
+  assetRefs: []
+assets:
+  - ref: hexagon-diamond-terms
+    file: ../assets/hexagon-diamond-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Five terms of a growing pattern built from grey hexagons, with white diamond gaps
+      appearing between them as the pattern grows
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 7"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 7 answer and solution"

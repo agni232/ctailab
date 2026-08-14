@@ -1,0 +1,47 @@
+id: c6-patterns-number-to-interchange-between-the-sets
+slug: number-to-interchange-between-the-sets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-differences-between-terms
+    - c6-ct-ch1-finding-the-rule
+  primaryTopic: c6-ct-ch1-differences-between-terms
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Given below are two sets of numbers, P and Q. Which number from Set P can be interchanged
+    with a number from Set Q such that both new sets follow a particular series or pattern?
+    Set P: (18, 22, 24, 27, 30). Set Q: (21, 24, 27, 31, 36)
+  options:
+    - id: option-a
+      text: "18"
+    - id: option-b
+      text: "27"
+    - id: option-c
+      text: "22"
+    - id: option-d
+      text: "30"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In Set P the last three numbers climb by 3 each time, so the set wants to be 18, 21, 24,
+    27, 30, and 22 is the odd one out. Set Q already contains the 21 that is needed. Swapping
+    them leaves Set Q as 22, 24, 27, 31, 36, whose differences are 2, 3, 4, 5, which is a
+    pattern of its own. So 22 is the number to move.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 question 8 answer and solution"

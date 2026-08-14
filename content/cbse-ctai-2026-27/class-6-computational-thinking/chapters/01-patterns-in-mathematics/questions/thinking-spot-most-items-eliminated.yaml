@@ -1,0 +1,59 @@
+id: c6-patterns-thinking-spot-most-items-eliminated
+slug: thinking-spot-most-items-eliminated
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-logical-puzzles
+    - c6-ct-ch1-finding-the-rule
+  primaryTopic: c6-ct-ch1-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    You must shoot exactly one item from each box, to eliminate it from its box. When an item
+    is shot, the same item in the adjacent box is also eliminated. What is the MAXIMUM number
+    of items that can be eliminated, after all 3 shots?
+  stimulus:
+    assetRefs:
+      - three-boxes-of-shapes
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The triangle is the only shape in all three boxes, and Box B sits next to both of the
+    others, so shooting the triangle in Box B clears three at once. Then shoot the rhombus in
+    Box A, which also clears the rhombus in Box B, and the arrow in Box C, which clears the
+    arrow in Box B. That is 3 + 2 + 2 = 7 items.
+  assetRefs: []
+assets:
+  - ref: three-boxes-of-shapes
+    file: ../assets/three-boxes-of-shapes.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Box A holding a triangle, a trapezium, a circle, and a rhombus; Box B holding a star, a
+      triangle, an arrow, and a rhombus; Box C holding an arrow, a square, a circle, and a
+      triangle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 The Thinking Spot"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 17
+    section: "Chapter 1 The Thinking Spot answer and solution"

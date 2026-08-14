@@ -1,0 +1,38 @@
+topics:
+  - id: c6-ct-ch1-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 1
+    status: published
+  - id: c6-ct-ch1-differences-between-terms
+    slug: differences-between-terms
+    title: Differences Between Terms
+    position: 2
+    parentId: c6-ct-ch1-number-patterns
+    status: published
+  - id: c6-ct-ch1-figure-patterns
+    slug: figure-patterns
+    title: Figure Patterns
+    position: 3
+    status: published
+  - id: c6-ct-ch1-growing-shapes
+    slug: growing-shapes
+    title: Growing Shapes
+    position: 4
+    parentId: c6-ct-ch1-figure-patterns
+    status: published
+  - id: c6-ct-ch1-square-numbers
+    slug: square-numbers
+    title: Square Numbers
+    position: 5
+    status: published
+  - id: c6-ct-ch1-finding-the-rule
+    slug: finding-the-rule
+    title: Finding the Rule
+    position: 6
+    status: published
+  - id: c6-ct-ch1-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

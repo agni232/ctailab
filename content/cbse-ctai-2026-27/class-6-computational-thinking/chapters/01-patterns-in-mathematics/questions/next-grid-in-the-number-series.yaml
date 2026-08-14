@@ -1,0 +1,82 @@
+id: c6-patterns-next-grid-in-the-number-series
+slug: next-grid-in-the-number-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ct-ch1-figure-patterns
+    - c6-ct-ch1-number-patterns
+  primaryTopic: c6-ct-ch1-figure-patterns
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - number-grid-series
+  options:
+    - id: option-a
+      assetRef: grid-option-a
+      accessibleLabel: A two by two grid holding 5, 6, 6, and 8
+    - id: option-b
+      assetRef: grid-option-b
+      accessibleLabel: A two by two grid holding 6, 7, 7, and 8
+    - id: option-c
+      assetRef: grid-option-c
+      accessibleLabel: A two by two grid holding 6, 7, 7, and 7
+    - id: option-d
+      assetRef: grid-option-d
+      accessibleLabel: A two by two grid holding 5, 6, 6, and 7
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Follow each cell along the series. The top left runs 1, 2, 3, 4, the top right runs 2, 3,
+    4, 5, the bottom left runs 2, 3, 4, 5, and the bottom right runs 3, 4, 5, 6. Every number
+    goes up by 1 each term, so the next grid holds 5, 6, 6, and 7.
+  assetRefs: []
+assets:
+  - ref: number-grid-series
+    file: ../assets/number-grid-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four two by two number grids in a row, each with two shaded cells, followed by a
+      question mark
+    position: 0
+  - ref: grid-option-a
+    file: ../assets/grid-option-a.png
+    role: option
+    visibility: public
+    alt: Two by two number grid, option a
+    position: 1
+  - ref: grid-option-b
+    file: ../assets/grid-option-b.png
+    role: option
+    visibility: public
+    alt: Two by two number grid, option b
+    position: 2
+  - ref: grid-option-c
+    file: ../assets/grid-option-c.png
+    role: option
+    visibility: public
+    alt: Two by two number grid, option c
+    position: 3
+  - ref: grid-option-d
+    file: ../assets/grid-option-d.png
+    role: option
+    visibility: public
+    alt: Two by two number grid, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 5 answer and solution"

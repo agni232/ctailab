@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ct
+grade:
+  id: grade-6
+  level: 6
+  label: Class 6
+subject:
+  id: computational-thinking
+  code: CT
+  slug: computational-thinking
+  name: Computational Thinking
+  description: Break problems down, spot patterns, and design clear steps to a solution.
+slug: class-6-computational-thinking
+title: Class 6 Computational Thinking
+description: Chapter-wise activities and practice for Class 6 learners.
+status: published
+position: 4

@@ -1,0 +1,83 @@
+id: c6-patterns-next-figure-in-the-node-series
+slug: next-figure-in-the-node-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-differences-between-terms
+    - c6-ct-ch1-finding-the-rule
+  primaryTopic: c6-ct-ch1-finding-the-rule
+  estimatedMinutes: 8
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - circle-square-series
+  options:
+    - id: option-a
+      assetRef: node-option-a
+      accessibleLabel: A figure holding 17 on top, 35 in the middle, and 18 at the bottom
+    - id: option-b
+      assetRef: node-option-b
+      accessibleLabel: A figure holding 18 on top, 36 in the middle, and 19 at the bottom
+    - id: option-c
+      assetRef: node-option-c
+      accessibleLabel: A figure holding 18 on top, 37 in the middle, and 19 at the bottom
+    - id: option-d
+      assetRef: node-option-d
+      accessibleLabel: A figure holding 18 on top, 37 in the middle, and 18 at the bottom
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Read the three positions separately. The top circles go up by 3 each time: 3, 6, 9, 12,
+    15, so next is 18. The bottom circles grow by 1 more each time: 4, 5, 7, 10, 14, so next
+    is 14 + 5 = 19. The middle square is always the top plus the bottom, so it is 18 + 19 =
+    37.
+  assetRefs: []
+assets:
+  - ref: circle-square-series
+    file: ../assets/circle-square-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Five figures in a row, each a circle above a square above a circle, holding 3-7-4,
+      6-11-5, 9-16-7, 12-22-10, and 15-29-14, followed by a question mark
+    position: 0
+  - ref: node-option-a
+    file: ../assets/node-option-a.png
+    role: option
+    visibility: public
+    alt: Circle, square, and circle figure, option a
+    position: 1
+  - ref: node-option-b
+    file: ../assets/node-option-b.png
+    role: option
+    visibility: public
+    alt: Circle, square, and circle figure, option b
+    position: 2
+  - ref: node-option-c
+    file: ../assets/node-option-c.png
+    role: option
+    visibility: public
+    alt: Circle, square, and circle figure, option c
+    position: 3
+  - ref: node-option-d
+    file: ../assets/node-option-d.png
+    role: option
+    visibility: public
+    alt: Circle, square, and circle figure, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 6 answer and solution"

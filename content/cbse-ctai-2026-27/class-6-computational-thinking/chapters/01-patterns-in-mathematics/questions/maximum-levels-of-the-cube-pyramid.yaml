@@ -1,0 +1,47 @@
+id: c6-patterns-maximum-levels-of-the-cube-pyramid
+slug: maximum-levels-of-the-cube-pyramid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c6-ct-ch1-number-patterns
+    - c6-ct-ch1-growing-shapes
+  primaryTopic: c6-ct-ch1-number-patterns
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A pyramid has to be formed by combining cubes. Every level will have two fewer cubes than
+    the level below it. If a pyramid is formed using at most 30 cubes, what is the maximum
+    number of levels it can have?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    To squeeze in the most levels, start the top level as small as possible. Taking 1 at the
+    top gives levels of 1, 3, 5, 7, and 9, which is 25 cubes, and a sixth level would need 11
+    more. Starting from 2 gives 2, 4, 6, 8, 10, which is 30 cubes exactly. Either way the
+    pyramid tops out at 5 levels.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 10"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 10 answer and solution"
