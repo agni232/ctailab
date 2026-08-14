@@ -1,0 +1,65 @@
+id: c6-ai-ethics-identify-the-term
+slug: identify-the-term
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-cyber-threats
+  primaryTopic: c6-ai-ch4-cyber-threats
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the term that matches each description.
+  rowHeading: "Description"
+  categoryHeading: "Term"
+  categories:
+    - id: phishing
+      label: "Phishing"
+    - id: plagiarism
+      label: "Plagiarism"
+    - id: digital-footprint
+      label: "Digital footprint"
+    - id: computer-ethics
+      label: "Computer ethics"
+    - id: privacy-policy
+      label: "Privacy policy"
+  rows:
+    - id: fake-emails
+      label: "Sending fake emails or messages to steal personal information"
+    - id: copying-work
+      label: "Copying someone else's work without giving due credit"
+    - id: record-of-activity
+      label: "The record of all your online activities, including posts and websites visited"
+    - id: rules-and-morals
+      label: "The rules and morals to follow when using computers and the internet"
+    - id: how-data-is-used
+      label: "A document explaining how a website collects, uses, and protects personal data"
+response:
+  type: classification
+answer:
+  assignments:
+    fake-emails: phishing
+    copying-work: plagiarism
+    record-of-activity: digital-footprint
+    rules-and-morals: computer-ethics
+    how-data-is-used: privacy-policy
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Fake messages that fish for your details are phishing. Passing off someone else's work is
+    plagiarism. The trail your activity leaves is your digital footprint. The rules for behaving
+    well online are computer ethics, and the document explaining what a site does with your data
+    is its privacy policy.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise E"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 108
+    section: "Chapter 4 Exercise E answer"

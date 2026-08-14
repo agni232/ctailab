@@ -1,0 +1,39 @@
+id: c6-ai-data-table-or-bar-chart-for-marks
+slug: table-or-bar-chart-for-marks
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-tables-and-charts
+  primaryTopic: c6-ai-ch2-tables-and-charts
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A teacher wants to compare the marks of students clearly. Should she use a table or a bar
+    chart? Give one reason.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Bar chart"
+    - "Easier to compare at a glance"
+solution:
+  text: >-
+    A bar chart, because the differing bar heights let you compare the marks at a glance instead
+    of reading every number.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise D answer"

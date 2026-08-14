@@ -1,0 +1,45 @@
+id: c6-ai-ethics-blank-ethics-help-prevent
+slug: blank-ethics-help-prevent
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-ethics
+  primaryTopic: c6-ai-ch4-ethics
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Ethics in technology help prevent "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: ", plagiarism, and hacking."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["cybercrimes", "cybercrime"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Following ethical rules online is what keeps cybercrimes, plagiarism, and hacking in check.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise B answer"

@@ -1,0 +1,32 @@
+topics:
+  - id: c6-ai-ch4-digital-responsibility
+    slug: digital-responsibility
+    title: Digital Responsibility
+    position: 1
+    status: published
+  - id: c6-ai-ch4-online-safety
+    slug: online-safety
+    title: Online Safety
+    position: 2
+    parentId: c6-ai-ch4-digital-responsibility
+    status: published
+  - id: c6-ai-ch4-privacy
+    slug: privacy
+    title: Privacy
+    position: 3
+    status: published
+  - id: c6-ai-ch4-digital-footprint
+    slug: digital-footprint
+    title: Digital Footprint
+    position: 4
+    status: published
+  - id: c6-ai-ch4-cyber-threats
+    slug: cyber-threats
+    title: Cyber Threats
+    position: 5
+    status: published
+  - id: c6-ai-ch4-ethics
+    slug: computer-ethics
+    title: Computer Ethics
+    position: 6
+    status: published

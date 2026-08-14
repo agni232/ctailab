@@ -196,7 +196,11 @@ export function QuestionPlayer({ questionSet, initialQuestionNumber }: QuestionP
           result={result}
           showExplanation={Boolean(explanations[currentQuestion.id])}
           onRespond={(next) => {
-            setResponses((current) => ({ ...current, [currentQuestion.id]: next }));
+            setResponses((current) => ({
+              ...current,
+              [currentQuestion.id]:
+                typeof next === "function" ? next(current[currentQuestion.id]) : next
+            }));
             setError(null);
           }}
         />

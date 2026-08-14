@@ -1,0 +1,37 @@
+id: c6-ai-data-type-of-data-for-plant-height
+slug: type-of-data-for-plant-height
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student measures the height of a plant every week. What type of data is being collected?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Numerical data"
+    - "Heights are measurements"
+solution:
+  text: >-
+    A height is a measurement written as a number, so the student is collecting numerical data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise D answer"

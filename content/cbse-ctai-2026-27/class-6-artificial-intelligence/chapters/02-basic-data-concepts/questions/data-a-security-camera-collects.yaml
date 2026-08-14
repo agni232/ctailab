@@ -1,0 +1,43 @@
+id: c6-ai-data-data-a-security-camera-collects
+slug: data-a-security-camera-collects
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A security camera records activities at the school gate. What type of data is mainly
+    collected?
+  options:
+    - id: option-a
+      text: "Text data"
+    - id: option-b
+      text: "Video data"
+    - id: option-c
+      text: "Image data"
+    - id: option-d
+      text: "Numerical data"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A camera that records activity captures moving pictures over time, not a single still. That
+    is video data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 68
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise A answer"

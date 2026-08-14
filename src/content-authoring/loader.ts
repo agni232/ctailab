@@ -290,6 +290,19 @@ async function loadCurriculumBundle(editionDirectory: string, root: string): Pro
     ),
     `question versions in ${editionDirectory}`
   );
+  // A question's slug is globally unique in the database, so two chapters cannot
+  // both carry the same one even when their IDs differ. Handbooks do repeat a
+  // question verbatim across chapters, which makes this easy to trip over.
+  assertUnique(
+    [
+      ...new Map(
+        allChapters.flatMap((chapter) =>
+          chapter.questions.map(({ data }) => [data.id, data.slug] as const)
+        )
+      ).values()
+    ],
+    `question slugs in ${editionDirectory}`
+  );
   assertUnique(
     allChapters.flatMap((chapter) => chapter.questionSets.map(({ data }) => data.id)),
     `question set IDs in ${editionDirectory}`

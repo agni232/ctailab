@@ -1,0 +1,37 @@
+id: c6-ai-patterns-define-a-pattern
+slug: define-a-pattern
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-patterns
+  primaryTopic: c6-ai-ch3-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Define a pattern and give one example from daily life.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "A repeated sequence"
+    - "An everyday example such as 2, 4, 6, 8"
+solution:
+  text: >-
+    A pattern is a repeated sequence, for example 2, 4, 6, 8.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise C answer"

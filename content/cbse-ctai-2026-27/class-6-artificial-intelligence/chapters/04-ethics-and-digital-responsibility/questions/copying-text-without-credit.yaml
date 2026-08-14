@@ -1,0 +1,42 @@
+id: c6-ai-ethics-copying-text-without-credit
+slug: copying-text-without-credit
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-ethics
+  primaryTopic: c6-ai-ch4-ethics
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Copying text from a website without credit is:
+  options:
+    - id: option-a
+      text: "Hacking"
+    - id: option-b
+      text: "Plagiarism"
+    - id: option-c
+      text: "Spamming"
+    - id: option-d
+      text: "Phishing"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Taking someone else's words and passing them off as your own without saying where they came
+    from is plagiarism.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise A answer"

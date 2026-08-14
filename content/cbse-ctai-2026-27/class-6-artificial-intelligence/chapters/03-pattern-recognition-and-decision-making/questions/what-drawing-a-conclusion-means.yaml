@@ -1,0 +1,42 @@
+id: c6-ai-patterns-what-drawing-a-conclusion-means
+slug: what-drawing-a-conclusion-means
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-conclusions
+  primaryTopic: c6-ai-ch3-conclusions
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Drawing a conclusion means:
+  options:
+    - id: option-a
+      text: "Copying data"
+    - id: option-b
+      text: "Understanding and applying observations"
+    - id: option-c
+      text: "Creating confusion"
+    - id: option-d
+      text: "Repeating the same data"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A conclusion is what you work out from what you noticed. It goes a step beyond the
+    observation to say what it means.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise A answer"

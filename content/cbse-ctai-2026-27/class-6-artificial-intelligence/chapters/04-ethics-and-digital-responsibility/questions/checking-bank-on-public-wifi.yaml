@@ -1,0 +1,42 @@
+id: c6-ai-ethics-checking-bank-on-public-wifi
+slug: checking-bank-on-public-wifi
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-privacy
+  primaryTopic: c6-ai-ch4-privacy
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Checking bank on public Wi-Fi. Best action:
+  options:
+    - id: option-a
+      text: "Check now"
+    - id: option-b
+      text: "Use secure network"
+    - id: option-c
+      text: "Ask someone else"
+    - id: option-d
+      text: "Install random app"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Anyone on a public network may be able to see what you send. Wait and use a secure network
+    before opening anything to do with your bank.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise A answer"

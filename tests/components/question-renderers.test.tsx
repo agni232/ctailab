@@ -191,4 +191,26 @@ describe("classification renderer", () => {
     expect(view.container.textContent).toContain("Answer: Automation");
     await view.unmount();
   });
+
+  it("keeps every row when several are answered without a render in between", async () => {
+    stubCheck({
+      outcome: "correct",
+      rows: {
+        "row-1": { correct: true, expectedCategoryId: "ai" },
+        "row-2": { correct: true, expectedCategoryId: "automation" }
+      },
+      solution: { text: "Automation follows fixed rules.", assets: [] }
+    });
+
+    const view = await renderComponent(<QuestionPlayer questionSet={setWith(question)} />);
+    const pills = view.container.querySelectorAll<HTMLButtonElement>(".classification-pill");
+
+    // Both rows answered in one batch: the second must not discard the first.
+    await view.clickAll([pills[0], pills[3]]);
+
+    expect(findButton(view.container, "Check answer").disabled).toBe(false);
+    await view.click(findButton(view.container, "Check answer"));
+    expect(view.container.textContent).toContain("You found it!");
+    await view.unmount();
+  });
 });

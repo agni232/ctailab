@@ -1,0 +1,42 @@
+id: c6-ai-patterns-what-making-observations-means
+slug: what-making-observations-means
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-observations
+  primaryTopic: c6-ai-ch3-observations
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Making observations from data means:
+  options:
+    - id: option-a
+      text: "Changing the data"
+    - id: option-b
+      text: "Looking for patterns and key findings"
+    - id: option-c
+      text: "Making guesses"
+    - id: option-d
+      text: "Hiding results"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Observing means studying the data as it is and noticing what stands out in it. You do not
+    alter it or guess at it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise A answer"

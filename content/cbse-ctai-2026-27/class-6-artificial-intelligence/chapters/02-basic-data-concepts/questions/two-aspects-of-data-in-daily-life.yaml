@@ -1,0 +1,38 @@
+id: c6-ai-data-two-aspects-of-data-in-daily-life
+slug: two-aspects-of-data-in-daily-life
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-data-in-daily-life
+  primaryTopic: c6-ai-ch2-data-in-daily-life
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    State any two important aspects of data in daily life.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Helps in decision making"
+    - "Helps in business growth"
+solution:
+  text: >-
+    Two of the important ones are that data helps in decision making and that it helps
+    businesses grow.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise C answer"

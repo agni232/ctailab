@@ -1,0 +1,28 @@
+topics:
+  - id: c6-ai-ch2-what-is-data
+    slug: what-is-data
+    title: What is Data
+    position: 1
+    status: published
+  - id: c6-ai-ch2-types-of-data
+    slug: types-of-data
+    title: Types of Data
+    position: 2
+    parentId: c6-ai-ch2-what-is-data
+    status: published
+  - id: c6-ai-ch2-data-in-daily-life
+    slug: data-in-daily-life
+    title: Data in Daily Life
+    position: 3
+    status: published
+  - id: c6-ai-ch2-organising-data
+    slug: organising-data
+    title: Organising Data
+    position: 4
+    status: published
+  - id: c6-ai-ch2-tables-and-charts
+    slug: tables-and-charts
+    title: Tables and Charts
+    position: 5
+    parentId: c6-ai-ch2-organising-data
+    status: published

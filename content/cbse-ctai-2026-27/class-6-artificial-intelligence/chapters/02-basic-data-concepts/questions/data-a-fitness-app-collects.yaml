@@ -1,0 +1,43 @@
+id: c6-ai-data-data-a-fitness-app-collects
+slug: data-a-fitness-app-collects
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A fitness app counts your daily steps and shows weekly progress. What type of data is mainly
+    collected?
+  options:
+    - id: option-a
+      text: "Image data"
+    - id: option-b
+      text: "Text data"
+    - id: option-c
+      text: "Numerical data"
+    - id: option-d
+      text: "Sound data"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A step count is a number, and the weekly progress is built by adding those numbers up. That
+    makes it numerical data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 68
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise A answer"

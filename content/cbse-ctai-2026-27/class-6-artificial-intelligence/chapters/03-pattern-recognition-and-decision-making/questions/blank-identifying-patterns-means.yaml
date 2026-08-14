@@ -1,0 +1,46 @@
+id: c6-ai-patterns-blank-identifying-patterns-means
+slug: blank-identifying-patterns-means
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-identifying-patterns
+  primaryTopic: c6-ai-ch3-identifying-patterns
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Identifying patterns means looking for repeated "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: " or similarities in data."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["actions"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    To find a pattern you look for actions that keep repeating, or for things in the data that
+    resemble each other.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise B answer"

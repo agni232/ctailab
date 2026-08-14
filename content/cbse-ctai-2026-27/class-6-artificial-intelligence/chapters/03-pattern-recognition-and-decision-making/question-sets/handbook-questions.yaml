@@ -1,0 +1,132 @@
+id: cbse-2026-27-c6-ai-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 3 exercise from the Class 6 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ai-patterns-same-order-every-morning
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c6-ai-patterns-what-making-observations-means
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c6-ai-patterns-arranging-data-by-attributes
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c6-ai-patterns-what-drawing-a-conclusion-means
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c6-ai-patterns-what-decision-making-means
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c6-ai-patterns-blank-a-pattern-is-a-repeated
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c6-ai-patterns-blank-identifying-patterns-means
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c6-ai-patterns-blank-observations-look-for
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c6-ai-patterns-blank-a-conclusion-answers
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c6-ai-patterns-blank-decision-making-considers
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c6-ai-patterns-define-a-pattern
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c6-ai-patterns-methods-to-recognise-repeated-events
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c6-ai-patterns-why-predictability-matters
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c6-ai-patterns-what-statistical-analysis-is-used-for
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c6-ai-patterns-observation-versus-conclusion
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 74
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c6-ai-patterns-type-of-data-measured-each-week
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 75
+    sourceSection: "Chapter 3 Exercise D"
+  - questionId: c6-ai-patterns-student-noticing-afternoon-temperatures
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 75
+    sourceSection: "Chapter 3 Exercise D"
+  - questionId: c6-ai-patterns-decision-from-basketball-practice
+    questionVersion: 1
+    position: 18
+    displayNumber: "D3"
+    sourcePage: 75
+    sourceSection: "Chapter 3 Exercise D"
+  - questionId: c6-ai-patterns-conclusion-from-the-class-survey
+    questionVersion: 1
+    position: 19
+    displayNumber: "D4"
+    sourcePage: 75
+    sourceSection: "Chapter 3 Exercise D"
+  - questionId: c6-ai-patterns-identify-the-method-used
+    questionVersion: 1
+    position: 20
+    displayNumber: "E1"
+    sourcePage: 75
+    sourceSection: "Chapter 3 Exercise E"

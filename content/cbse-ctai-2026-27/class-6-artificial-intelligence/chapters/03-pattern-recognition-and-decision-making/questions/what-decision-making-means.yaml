@@ -1,0 +1,42 @@
+id: c6-ai-patterns-what-decision-making-means
+slug: what-decision-making-means
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-decision-making
+  primaryTopic: c6-ai-ch3-decision-making
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Decision-making means:
+  options:
+    - id: option-a
+      text: "Acting without thinking"
+    - id: option-b
+      text: "Choosing an action after thinking"
+    - id: option-c
+      text: "Ignoring facts"
+    - id: option-d
+      text: "Random guessing"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Deciding means weighing up what you know and then choosing what to do. Acting without
+    thinking or guessing is not deciding.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise A answer"

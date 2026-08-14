@@ -1,0 +1,36 @@
+id: c6-ai-patterns-type-of-data-measured-each-week
+slug: type-of-data-measured-each-week
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-observations
+  primaryTopic: c6-ai-ch3-observations
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student measures the height of a plant every week. What type of data is being collected?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Numerical data"
+solution:
+  text: >-
+    Heights are recorded as numbers, so the student is collecting numerical data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 75
+    section: "Chapter 3 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise D answer"

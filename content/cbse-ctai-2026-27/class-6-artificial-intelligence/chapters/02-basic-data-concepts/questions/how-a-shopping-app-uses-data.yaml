@@ -1,0 +1,39 @@
+id: c6-ai-data-how-a-shopping-app-uses-data
+slug: how-a-shopping-app-uses-data
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-data-in-daily-life
+  primaryTopic: c6-ai-ch2-data-in-daily-life
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A shopping app suggests products based on your previous searches. How is data being used in
+    this situation?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Past searches are stored"
+    - "Data is used to give recommendations"
+solution:
+  text: >-
+    The app keeps a record of what you searched for before and uses that data to recommend
+    products you are likely to want.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise D answer"

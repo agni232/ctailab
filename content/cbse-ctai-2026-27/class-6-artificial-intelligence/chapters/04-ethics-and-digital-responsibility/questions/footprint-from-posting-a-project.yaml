@@ -1,0 +1,38 @@
+id: c6-ai-ethics-footprint-from-posting-a-project
+slug: footprint-from-posting-a-project
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-digital-footprint
+  primaryTopic: c6-ai-ch4-digital-footprint
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student posts a picture of a school project online. Which type of digital footprint is
+    this?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Active digital footprint"
+    - "The student chose to post it"
+solution:
+  text: >-
+    The student chose to put it online, so it is an active digital footprint.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise D answer"

@@ -1,0 +1,38 @@
+id: c6-ai-ethics-how-a-social-media-app-uses-data
+slug: how-a-social-media-app-uses-data
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-privacy
+  primaryTopic: c6-ai-ch4-privacy
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A social media app recommends content based on your likes. How is your data being used?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Your likes are recorded"
+    - "The data is used to make recommendations"
+solution:
+  text: >-
+    The app records what you like and uses that data to decide what to show you next, which is
+    how recommendations are made.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise D answer"

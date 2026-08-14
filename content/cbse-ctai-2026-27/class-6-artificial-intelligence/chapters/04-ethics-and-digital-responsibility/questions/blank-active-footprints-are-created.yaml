@@ -1,0 +1,46 @@
+id: c6-ai-ethics-blank-active-footprints-are-created
+slug: blank-active-footprints-are-created
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-digital-footprint
+  primaryTopic: c6-ai-ch4-digital-footprint
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Active digital footprints are created when you "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: " online intentionally."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["post"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    An active footprint is one you leave on purpose, which happens when you post something
+    online yourself.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise B answer"

@@ -1,0 +1,44 @@
+id: c6-ai-data-teacher-analysing-exam-results
+slug: teacher-analysing-exam-results
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-data-in-daily-life
+  primaryTopic: c6-ai-ch2-data-in-daily-life
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A teacher analyses last year's exam results to improve teaching methods. This is an example
+    of:
+  options:
+    - id: option-a
+      text: "Guesswork"
+    - id: option-b
+      text: "Using data for decision-making"
+    - id: option-c
+      text: "Random selection"
+    - id: option-d
+      text: "Entertainment"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The teacher is not guessing. She is looking at real results from last year and letting what
+    they show shape what she does next, which is exactly what using data for decision-making
+    means.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 68
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise A answer"

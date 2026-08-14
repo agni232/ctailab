@@ -1,0 +1,40 @@
+id: c6-ai-patterns-methods-to-recognise-repeated-events
+slug: methods-to-recognise-repeated-events
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-methods-of-analysis
+  primaryTopic: c6-ai-ch3-methods-of-analysis
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name any two methods used to recognise repeated actions or events and briefly explain one of
+    them.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Observation"
+    - "Data visualisation"
+    - "Observation means watching events repeatedly over time"
+solution:
+  text: >-
+    Two methods are observation and data visualisation. Observation means watching events
+    repeatedly over time to see what keeps happening.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise C answer"

@@ -1,0 +1,42 @@
+id: c6-ai-ethics-pop-up-offering-a-prize
+slug: pop-up-offering-a-prize
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-cyber-threats
+  primaryTopic: c6-ai-ch4-cyber-threats
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A pop-up says: Scan viruses, win $1000! Safest action:
+  options:
+    - id: option-a
+      text: "Click"
+    - id: option-b
+      text: "Ignore"
+    - id: option-c
+      text: "Ask someone else"
+    - id: option-d
+      text: "Download scanner"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Pop-ups promising money are bait, and clicking or downloading from them can install malware.
+    Ignoring it is the safest thing to do.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise A answer"

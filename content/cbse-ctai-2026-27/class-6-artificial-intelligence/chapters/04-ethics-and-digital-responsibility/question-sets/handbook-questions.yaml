@@ -1,0 +1,138 @@
+id: cbse-2026-27-c6-ai-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 4 exercise from the Class 6 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ai-ethics-copying-text-without-credit
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c6-ai-ethics-message-asking-for-your-password
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c6-ai-ethics-pop-up-offering-a-prize
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c6-ai-ethics-checking-bank-on-public-wifi
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c6-ai-ethics-posting-helpful-tips-online
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c6-ai-ethics-blank-think-before-you
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c6-ai-ethics-blank-never-give-out-your
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c6-ai-ethics-blank-ethics-help-prevent
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c6-ai-ethics-blank-phishing-attempts-to-obtain
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c6-ai-ethics-blank-active-footprints-are-created
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c6-ai-ethics-define-responsible-digital-citizenship
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c6-ai-ethics-two-ways-to-protect-your-privacy
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c6-ai-ethics-active-versus-passive-footprints
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c6-ai-ethics-why-strong-passwords-matter
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c6-ai-ethics-software-piracy-and-how-to-prevent-it
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c6-ai-ethics-footprint-from-posting-a-project
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c6-ai-ethics-email-asking-for-bank-details
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c6-ai-ethics-how-a-social-media-app-uses-data
+    questionVersion: 1
+    position: 18
+    displayNumber: "D3"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c6-ai-ethics-downloading-a-game-safely
+    questionVersion: 1
+    position: 19
+    displayNumber: "D4"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c6-ai-ethics-someone-copying-your-assignment
+    questionVersion: 1
+    position: 20
+    displayNumber: "D5"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c6-ai-ethics-identify-the-term
+    questionVersion: 1
+    position: 21
+    displayNumber: "E1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise E"

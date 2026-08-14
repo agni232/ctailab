@@ -6,6 +6,7 @@ import { createRoot, type Root } from "react-dom/client";
 interface RenderedComponent {
   container: HTMLDivElement;
   click: (element: Element) => Promise<void>;
+  clickAll: (elements: Element[]) => Promise<void>;
   input: (element: HTMLInputElement | HTMLTextAreaElement, value: string) => Promise<void>;
   keyDown: (element: Element, key: string) => Promise<void>;
   unmount: () => Promise<void>;
@@ -25,6 +26,14 @@ export async function renderComponent(node: ReactNode): Promise<RenderedComponen
     async click(element) {
       await act(async () => {
         element.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+      });
+    },
+    async clickAll(elements) {
+      // One act() for the whole group, so React batches them into a single render.
+      await act(async () => {
+        for (const element of elements) {
+          element.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+        }
       });
     },
     async input(element, value) {

@@ -1,0 +1,37 @@
+id: c6-ai-patterns-what-statistical-analysis-is-used-for
+slug: what-statistical-analysis-is-used-for
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-methods-of-analysis
+  primaryTopic: c6-ai-ch3-methods-of-analysis
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is statistical analysis used for when studying large datasets?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Understanding large datasets"
+solution:
+  text: >-
+    Statistical analysis is used to make sense of large datasets that are too big to read
+    through directly.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise C answer"

@@ -1,0 +1,39 @@
+id: c6-ai-patterns-student-noticing-afternoon-temperatures
+slug: student-noticing-afternoon-temperatures
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-identifying-patterns
+  primaryTopic: c6-ai-ch3-identifying-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student notices that the temperature is higher in the afternoon than in the morning for
+    several days. What is the student doing?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Identifying a pattern"
+    - "Something repeats over several days"
+solution:
+  text: >-
+    The same thing keeps happening day after day, and noticing that repetition is identifying a
+    pattern.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 75
+    section: "Chapter 3 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise D answer"

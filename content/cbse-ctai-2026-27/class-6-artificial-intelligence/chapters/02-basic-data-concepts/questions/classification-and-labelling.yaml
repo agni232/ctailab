@@ -1,0 +1,38 @@
+id: c6-ai-data-classification-and-labelling
+slug: classification-and-labelling
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-organising-data
+  primaryTopic: c6-ai-ch2-organising-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Define classification and labeling in organising data.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Classification groups similar data"
+    - "Labelling gives data proper names"
+solution:
+  text: >-
+    Classification means grouping similar data together, and labelling means giving each piece
+    of data a proper name.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise C answer"

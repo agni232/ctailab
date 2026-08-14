@@ -14,12 +14,21 @@ import type {
   ShortAnswerQuestionContent
 } from "@/features/questions/contracts";
 
+/**
+ * Renderers that build their answer one piece at a time (a blank, a row) pass an
+ * updater rather than a finished value, so two changes landing in the same render
+ * cannot overwrite each other.
+ */
+export type RespondArgument =
+  | QuestionResponse
+  | ((previous: QuestionResponse | undefined) => QuestionResponse);
+
 export interface QuestionRendererProps {
   question: PublicQuestionItem;
   response: QuestionResponse | undefined;
   result: QuestionCheckResult | undefined;
   showExplanation: boolean;
-  onRespond: (response: QuestionResponse) => void;
+  onRespond: (response: RespondArgument) => void;
 }
 
 function findAsset(assets: PublicQuestionAsset[], ref: string): PublicQuestionAsset | undefined {
@@ -125,7 +134,13 @@ function FillInBlanksRenderer({ question, response, result, onRespond }: Questio
   const locked = Boolean(result);
 
   function update(blankId: string, value: string) {
-    onRespond({ kind: "fill-in-blanks", blanks: { ...values, [blankId]: value } });
+    onRespond((previous) => ({
+      kind: "fill-in-blanks",
+      blanks: {
+        ...(previous?.kind === "fill-in-blanks" ? previous.blanks : {}),
+        [blankId]: value
+      }
+    }));
   }
 
   return (
@@ -208,7 +223,13 @@ function ClassificationRenderer({ question, response, result, onRespond }: Quest
   const locked = Boolean(result);
 
   function assign(rowId: string, categoryId: string) {
-    onRespond({ kind: "classification", assignments: { ...assignments, [rowId]: categoryId } });
+    onRespond((previous) => ({
+      kind: "classification",
+      assignments: {
+        ...(previous?.kind === "classification" ? previous.assignments : {}),
+        [rowId]: categoryId
+      }
+    }));
   }
 
   return (

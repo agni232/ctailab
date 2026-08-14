@@ -1,0 +1,42 @@
+id: c6-ai-ethics-posting-helpful-tips-online
+slug: posting-helpful-tips-online
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-digital-footprint
+  primaryTopic: c6-ai-ch4-digital-footprint
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Posting helpful tips online while thinking about who sees them is:
+  options:
+    - id: option-a
+      text: "Active footprint"
+    - id: option-b
+      text: "Passive footprint"
+    - id: option-c
+      text: "Hacker footprint"
+    - id: option-d
+      text: "Phishing footprint"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    You chose to post it, so you left the trace on purpose. A trace you leave deliberately is an
+    active digital footprint.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise A answer"

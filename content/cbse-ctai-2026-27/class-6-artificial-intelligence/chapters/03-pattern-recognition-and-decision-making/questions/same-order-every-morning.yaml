@@ -1,0 +1,43 @@
+id: c6-ai-patterns-same-order-every-morning
+slug: same-order-every-morning
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-patterns
+  primaryTopic: c6-ai-ch3-patterns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A student notices that every morning, he wakes up, brushes his teeth and eats breakfast in
+    the same order. What does this represent?
+  options:
+    - id: option-a
+      text: "A random action"
+    - id: option-b
+      text: "A pattern"
+    - id: option-c
+      text: "A single event"
+    - id: option-d
+      text: "A mistake"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The same three things happen in the same order every morning. Something that repeats
+    predictably like that is a pattern.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise A answer"

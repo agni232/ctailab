@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ai-chapter-2
+slug: basic-data-concepts
+displayNumber: "2"
+title: Basic Data Concepts
+summary: What data is, the forms it comes in, and how organising it turns it into something useful.
+position: 2
+status: published
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 60
+    pageEnd: 69
+    section: "Chapter 2: Basic Data Concepts"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 101
+    pageEnd: 103
+    section: "Chapter 2: Basic Data Concepts"

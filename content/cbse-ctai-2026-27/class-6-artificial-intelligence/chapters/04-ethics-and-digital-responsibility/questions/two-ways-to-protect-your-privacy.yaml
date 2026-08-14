@@ -1,0 +1,39 @@
+id: c6-ai-ethics-two-ways-to-protect-your-privacy
+slug: two-ways-to-protect-your-privacy
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-privacy
+  primaryTopic: c6-ai-ch4-privacy
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name two ways to protect your privacy online and explain one.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Use strong passwords"
+    - "Do not share personal information"
+    - "An explanation of one of them"
+solution:
+  text: >-
+    Two ways are using strong passwords and not sharing personal information. A strong password
+    is hard to guess, so it keeps other people out of your accounts.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise C answer"

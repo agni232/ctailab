@@ -1,0 +1,62 @@
+id: c6-ai-data-identify-the-type-of-data
+slug: identify-the-type-of-data
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the type of data in each of the following examples.
+  rowHeading: "Example"
+  categoryHeading: "Type of Data"
+  categories:
+    - id: numerical
+      label: "Numerical"
+    - id: text
+      label: "Text"
+    - id: image
+      label: "Image"
+    - id: sound
+      label: "Sound"
+  rows:
+    - id: exam-marks
+      label: "Exam Marks"
+    - id: voice-message
+      label: "A voice message"
+    - id: school-id-photo
+      label: "School ID photo"
+    - id: home-address
+      label: "Your home address"
+    - id: students-in-class
+      label: "Number of students in the class"
+response:
+  type: classification
+answer:
+  assignments:
+    exam-marks: numerical
+    voice-message: sound
+    school-id-photo: image
+    home-address: text
+    students-in-class: numerical
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Ask what form each one takes. Marks and a head count are numbers, so they are numerical. A
+    voice message is recorded audio, so it is sound. An ID photo is a picture, so it is image.
+    An address is written in words, so it is text.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise E"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 103
+    section: "Chapter 2 Exercise E answer"

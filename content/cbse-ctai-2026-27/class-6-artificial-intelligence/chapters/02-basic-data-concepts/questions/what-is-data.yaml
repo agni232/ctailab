@@ -1,0 +1,37 @@
+id: c6-ai-data-what-is-data
+slug: what-is-data
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-what-is-data
+  primaryTopic: c6-ai-ch2-what-is-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is data?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Raw information"
+    - "Can be processed to give useful information"
+solution:
+  text: >-
+    Data is raw information that can be processed to get useful information.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise C answer"

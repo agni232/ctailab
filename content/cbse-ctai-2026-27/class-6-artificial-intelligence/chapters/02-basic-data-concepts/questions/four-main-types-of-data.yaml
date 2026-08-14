@@ -1,0 +1,39 @@
+id: c6-ai-data-four-main-types-of-data
+slug: four-main-types-of-data
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name the four main types of data.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Numerical"
+    - "Text"
+    - "Image"
+    - "Sound"
+solution:
+  text: >-
+    The four main types are numerical, text, image, and sound.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise C answer"

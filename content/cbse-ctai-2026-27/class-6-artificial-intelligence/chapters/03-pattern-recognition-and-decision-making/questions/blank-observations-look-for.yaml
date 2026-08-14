@@ -1,0 +1,45 @@
+id: c6-ai-patterns-blank-observations-look-for
+slug: blank-observations-look-for
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-observations
+  primaryTopic: c6-ai-ch3-observations
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Making observations from data means looking for patterns, trends, and "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: " findings."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["key"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Observing means picking out the patterns, the trends, and the key findings that matter most.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise B answer"

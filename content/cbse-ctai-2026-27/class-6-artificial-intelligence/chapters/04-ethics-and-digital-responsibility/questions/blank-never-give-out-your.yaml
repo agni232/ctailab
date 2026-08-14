@@ -1,0 +1,45 @@
+id: c6-ai-ethics-blank-never-give-out-your
+slug: blank-never-give-out-your
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch4-privacy
+  primaryTopic: c6-ai-ch4-privacy
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Never give out your "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: " information to strangers online."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["personal"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Personal information identifies you, so it should never be handed to strangers online.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise B answer"

@@ -1,0 +1,38 @@
+id: c6-ai-ethics-downloading-a-game-safely
+slug: downloading-a-game-safely
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-online-safety
+  primaryTopic: c6-ai-ch4-online-safety
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    You want to download a new game safely. What steps will you follow to avoid malware?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Download from the official website or store"
+    - "Scan with antivirus"
+solution:
+  text: >-
+    Download only from the official website or app store, and scan the file with antivirus
+    software before opening it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise D answer"

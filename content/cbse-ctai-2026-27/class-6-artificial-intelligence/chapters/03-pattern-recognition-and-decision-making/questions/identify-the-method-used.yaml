@@ -1,0 +1,63 @@
+id: c6-ai-patterns-identify-the-method-used
+slug: identify-the-method-used
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-methods-of-analysis
+  primaryTopic: c6-ai-ch3-methods-of-analysis
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the method used in each of the following situations.
+  rowHeading: "Situation"
+  categoryHeading: "Method Used"
+  categories:
+    - id: time-series
+      label: "Time Series Analysis"
+    - id: sorting-filtering
+      label: "Sorting and Filtering"
+    - id: data-visualisation
+      label: "Data Visualization"
+    - id: machine-learning
+      label: "Machine Learning"
+  rows:
+    - id: daily-rainfall
+      label: "Watching daily rainfall for a month"
+    - id: students-by-height
+      label: "Arranging students by height"
+    - id: graphs-for-sales
+      label: "Using graphs to compare sales"
+    - id: trends-five-years
+      label: "Studying trends over five years"
+    - id: recognise-faces
+      label: "Using an algorithm to recognise faces"
+response:
+  type: classification
+answer:
+  assignments:
+    daily-rainfall: time-series
+    students-by-height: sorting-filtering
+    graphs-for-sales: data-visualisation
+    trends-five-years: time-series
+    recognise-faces: machine-learning
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Watching something over a stretch of time, whether a month of rainfall or five years of
+    trends, is time series analysis. Putting students in order by height is sorting and
+    filtering. Drawing graphs to compare is data visualisation, and an algorithm that learns to
+    recognise faces is machine learning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 75
+    section: "Chapter 3 Exercise E"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise E answer"

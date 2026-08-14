@@ -1,0 +1,42 @@
+id: c6-ai-data-example-of-image-data
+slug: example-of-image-data
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-types-of-data
+  primaryTopic: c6-ai-ch2-types-of-data
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which of the following is an example of image data?
+  options:
+    - id: option-a
+      text: "Your name"
+    - id: option-b
+      text: "Your address"
+    - id: option-c
+      text: "Your age"
+    - id: option-d
+      text: "Your photograph"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    A name and an address are made of words, so they are text, and an age is a number. A
+    photograph is a picture, which makes it image data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 68
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise A answer"

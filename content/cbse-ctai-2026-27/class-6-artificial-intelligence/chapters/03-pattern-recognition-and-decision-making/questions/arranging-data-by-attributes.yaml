@@ -1,0 +1,42 @@
+id: c6-ai-patterns-arranging-data-by-attributes
+slug: arranging-data-by-attributes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch3-methods-of-analysis
+  primaryTopic: c6-ai-ch3-methods-of-analysis
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Arranging data by its attributes to find similar groups is called:
+  options:
+    - id: option-a
+      text: "Machine learning"
+    - id: option-b
+      text: "Sorting and Filtering"
+    - id: option-c
+      text: "Entertainment"
+    - id: option-d
+      text: "Prediction"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Putting data in order by one of its attributes and narrowing it down to what you want is
+    sorting and filtering.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise A answer"

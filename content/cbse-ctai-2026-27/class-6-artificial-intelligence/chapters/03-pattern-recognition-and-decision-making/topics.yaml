@@ -1,0 +1,33 @@
+topics:
+  - id: c6-ai-ch3-patterns
+    slug: patterns
+    title: Patterns
+    position: 1
+    status: published
+  - id: c6-ai-ch3-identifying-patterns
+    slug: identifying-patterns
+    title: Identifying Patterns
+    position: 2
+    parentId: c6-ai-ch3-patterns
+    status: published
+  - id: c6-ai-ch3-observations
+    slug: making-observations
+    title: Making Observations
+    position: 3
+    status: published
+  - id: c6-ai-ch3-conclusions
+    slug: drawing-conclusions
+    title: Drawing Conclusions
+    position: 4
+    parentId: c6-ai-ch3-observations
+    status: published
+  - id: c6-ai-ch3-decision-making
+    slug: decision-making
+    title: Decision Making
+    position: 5
+    status: published
+  - id: c6-ai-ch3-methods-of-analysis
+    slug: methods-of-analysis
+    title: Methods of Analysis
+    position: 6
+    status: published

@@ -1,0 +1,42 @@
+id: c6-ai-data-what-a-weather-app-shows
+slug: what-a-weather-app-shows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-data-in-daily-life
+  primaryTopic: c6-ai-ch2-data-in-daily-life
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A weather app predicts rain using satellite information. This shows that data helps in:
+  options:
+    - id: option-a
+      text: "Playing games"
+    - id: option-b
+      text: "Making future predictions"
+    - id: option-c
+      text: "Writing stories"
+    - id: option-d
+      text: "Sending messages"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The app looks at what the satellite has recorded and uses it to say what is likely to happen
+    next. Using past information to say what comes next is making a prediction.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 68
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise A answer"

@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-6-ai-chapter-3
+slug: pattern-recognition-and-decision-making
+displayNumber: "3"
+title: Simple Pattern Recognition and Decision Making
+summary: Spot repeating patterns in data, turn observations into conclusions, and decide what to do next.
+position: 3
+status: published
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 70
+    pageEnd: 75
+    section: "Chapter 3: Simple Pattern Recognition and Decision Making"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 104
+    pageEnd: 105
+    section: "Chapter 3: Simple Pattern Recognition and Decision Making"

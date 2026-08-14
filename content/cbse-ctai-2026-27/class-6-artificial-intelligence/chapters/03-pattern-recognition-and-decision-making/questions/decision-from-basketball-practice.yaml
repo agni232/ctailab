@@ -1,0 +1,38 @@
+id: c6-ai-patterns-decision-from-basketball-practice
+slug: decision-from-basketball-practice
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-decision-making
+  primaryTopic: c6-ai-ch3-decision-making
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student notices that practising every day improves performance in a basketball game. What
+    decision can the student make from this observation?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Decide to practise daily"
+solution:
+  text: >-
+    Since daily practice is what improves the performance, the sensible decision is to keep
+    practising every day.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 75
+    section: "Chapter 3 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise D answer"

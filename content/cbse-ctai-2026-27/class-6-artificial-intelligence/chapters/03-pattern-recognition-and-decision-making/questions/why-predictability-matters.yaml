@@ -1,0 +1,37 @@
+id: c6-ai-patterns-why-predictability-matters
+slug: why-predictability-matters
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-identifying-patterns
+  primaryTopic: c6-ai-ch3-identifying-patterns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Why is predictability important when identifying patterns?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "It lets us know what will happen next"
+solution:
+  text: >-
+    Predictability is what makes a pattern useful, because it lets us know what will happen
+    next.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise C answer"

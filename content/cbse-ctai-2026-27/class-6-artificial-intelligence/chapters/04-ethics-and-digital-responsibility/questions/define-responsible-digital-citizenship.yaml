@@ -1,0 +1,38 @@
+id: c6-ai-ethics-define-responsible-digital-citizenship
+slug: define-responsible-digital-citizenship
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-digital-responsibility
+  primaryTopic: c6-ai-ch4-digital-responsibility
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Define responsible digital citizenship and give one example from daily life.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Using the internet safely and respectfully"
+    - "Example such as not sharing personal information online"
+solution:
+  text: >-
+    Responsible digital citizenship means using the internet safely and respectfully, for
+    example by not sharing personal information online.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise C answer"

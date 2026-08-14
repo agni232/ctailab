@@ -1,0 +1,46 @@
+id: c6-ai-data-blank-data-means-raw
+slug: blank-data-means-raw
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c6-ai-ch2-what-is-data
+  primaryTopic: c6-ai-ch2-what-is-data
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Data means raw "
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: " and figures."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["facts"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Data is raw information before anyone has made sense of it, which the handbook describes as
+    raw facts and figures.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise B answer"

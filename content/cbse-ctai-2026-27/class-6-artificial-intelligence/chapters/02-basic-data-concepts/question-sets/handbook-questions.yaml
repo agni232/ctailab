@@ -1,0 +1,132 @@
+id: cbse-2026-27-c6-ai-ch2-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 2 exercise from the Class 6 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c6-ai-data-teacher-analysing-exam-results
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 68
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c6-ai-data-data-a-fitness-app-collects
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 68
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c6-ai-data-what-a-weather-app-shows
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 68
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c6-ai-data-data-a-security-camera-collects
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 68
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c6-ai-data-example-of-image-data
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 68
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c6-ai-data-blank-data-means-raw
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c6-ai-data-blank-tables-arrange-data
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c6-ai-data-blank-text-data-is-made-of
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c6-ai-data-blank-grouping-similar-data
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c6-ai-data-blank-saving-data-securely
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c6-ai-data-what-is-data
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c6-ai-data-two-aspects-of-data-in-daily-life
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c6-ai-data-four-main-types-of-data
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c6-ai-data-difference-between-a-table-and-a-chart
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c6-ai-data-classification-and-labelling
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c6-ai-data-type-of-data-for-plant-height
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c6-ai-data-table-or-bar-chart-for-marks
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c6-ai-data-how-a-shopping-app-uses-data
+    questionVersion: 1
+    position: 18
+    displayNumber: "D3"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c6-ai-data-organising-mixed-files
+    questionVersion: 1
+    position: 19
+    displayNumber: "D4"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c6-ai-data-identify-the-type-of-data
+    questionVersion: 1
+    position: 20
+    displayNumber: "E1"
+    sourcePage: 69
+    sourceSection: "Chapter 2 Exercise E"

@@ -1,0 +1,37 @@
+id: c6-ai-patterns-conclusion-from-the-class-survey
+slug: conclusion-from-the-class-survey
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-conclusions
+  primaryTopic: c6-ai-ch3-conclusions
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A class survey shows that more students like cricket than football. What can the teacher
+    conclude from this data?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Cricket is the more popular sport in the class"
+solution:
+  text: >-
+    The teacher can conclude that cricket is the more popular of the two sports in that class.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 75
+    section: "Chapter 3 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise D answer"

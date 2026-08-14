@@ -1,0 +1,38 @@
+id: c6-ai-data-organising-mixed-files
+slug: organising-mixed-files
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch2-organising-data
+  primaryTopic: c6-ai-ch2-organising-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Your desktop has many mixed files with random names. How would you organise them?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Group similar files into folders"
+    - "Give files proper names"
+solution:
+  text: >-
+    Group the files that belong together into folders and give them proper names, so each one
+    can be found again.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 69
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 2 Exercise D answer"

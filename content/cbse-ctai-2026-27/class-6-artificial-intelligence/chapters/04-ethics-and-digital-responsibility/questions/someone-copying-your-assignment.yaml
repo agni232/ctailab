@@ -1,0 +1,38 @@
+id: c6-ai-ethics-someone-copying-your-assignment
+slug: someone-copying-your-assignment
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch4-ethics
+  primaryTopic: c6-ai-ch4-ethics
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    You see someone copying your school assignment without permission. Which ethical rule is
+    being broken?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Honesty"
+    - "Respect for other people's work"
+solution:
+  text: >-
+    The rule being broken is honesty, and with it the respect owed to someone else's work.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 4 Exercise D answer"

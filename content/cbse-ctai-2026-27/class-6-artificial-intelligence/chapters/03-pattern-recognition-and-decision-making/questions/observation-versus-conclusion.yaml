@@ -1,0 +1,40 @@
+id: c6-ai-patterns-observation-versus-conclusion
+slug: observation-versus-conclusion
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c6-ai-ch3-conclusions
+  primaryTopic: c6-ai-ch3-conclusions
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Explain the difference between making an observation and drawing a conclusion with an
+    example.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "An observation is what you notice"
+    - "A conclusion is what it means"
+    - "Example: temperature is higher in the afternoon, so afternoons are warmer"
+solution:
+  text: >-
+    An observation is what you notice, such as the temperature being higher in the afternoon. A
+    conclusion is what that means, such as afternoons being warmer.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-6-student-handbook-2026-27
+    page: 74
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-6-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 3 Exercise C answer"
