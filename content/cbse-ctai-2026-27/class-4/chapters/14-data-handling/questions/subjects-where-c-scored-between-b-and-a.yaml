@@ -1,0 +1,55 @@
+id: c4-data-handling-subjects-where-c-scored-between-b-and-a
+slug: subjects-where-c-scored-between-b-and-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-tables
+    - c4-ch14-comparing-values
+  primaryTopic: c4-ch14-comparing-values
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The table given below gives marks of 3 friends A, B, and C in 4 different subjects. In how
+    many subjects has C scored more marks than B but less marks than A?
+  stimulus:
+    assetRefs:
+      - three-friends-marks
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Check each subject for B less than C less than A. English is 72, 80, 70, so C beats B but
+    also beats A. Maths is 80, 77, 65, where C is below B. Science is 75, 60, 95, which fits.
+    Hindi is 67, 73, 82, where C beats B but not A. Only Science qualifies.
+  assetRefs: []
+assets:
+  - ref: three-friends-marks
+    file: ../assets/three-friends-marks.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of marks for A, B, and C in English, Mathematics, Science, and Hindi
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 103
+    section: "Chapter 14 question 2 answer and solution"

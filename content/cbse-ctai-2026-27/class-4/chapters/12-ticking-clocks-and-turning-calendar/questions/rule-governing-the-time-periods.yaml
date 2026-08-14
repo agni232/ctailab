@@ -1,0 +1,45 @@
+id: c4-clocks-calendar-rule-governing-the-time-periods
+slug: rule-governing-the-time-periods
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-elapsed-time
+    - c4-ch12-time
+  primaryTopic: c4-ch12-elapsed-time
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A sequence of time periods is given: 2 PM to 4:40 PM, 3:20 AM to 6 AM, 11:30 AM to
+    2:10 PM, 7 PM to 9:40 PM. What would be the rule that is governing this sequence?
+  options:
+    - id: option-a
+      text: "The number of minutes in each of these time periods is 140"
+    - id: option-b
+      text: "The number of minutes in each of these time periods is 160"
+    - id: option-c
+      text: "The number of minutes in each of these time periods is different"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Work each one out. 2:00 to 4:40 is 2 hours 40 minutes, which is 160 minutes, and the same
+    length comes out for 3:20 to 6:00, 11:30 to 2:10, and 7:00 to 9:40. Every period lasts 160
+    minutes.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 12 question 10 answer and solution"

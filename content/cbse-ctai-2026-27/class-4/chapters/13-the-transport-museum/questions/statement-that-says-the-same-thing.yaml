@@ -1,0 +1,45 @@
+id: c4-transport-museum-statement-that-says-the-same-thing
+slug: statement-that-says-the-same-thing
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch13-comparing-quantities
+    - c4-ch13-multiplication-and-division
+  primaryTopic: c4-ch13-comparing-quantities
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A train can carry four times the passengers as that of a bus. Which of these statements
+    gives the same information as the given statement?
+  options:
+    - id: option-a
+      text: "Bus is smaller than Train"
+    - id: option-b
+      text: "Capacity of a bus is a quarter of the capacity of a train"
+    - id: option-c
+      text: "Ship is larger than a Train"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    If the train carries four times as many people, then the bus carries one quarter as many.
+    That is the same fact stated the other way round. The other options talk about size or
+    ships, which the statement says nothing about.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 13 question 1 answer and solution"

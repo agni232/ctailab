@@ -1,0 +1,47 @@
+id: c4-transport-museum-number-of-plants-never-in-a-row
+slug: number-of-plants-never-in-a-row
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch13-factors-and-multiples
+    - c4-ch13-multiplication-and-division
+  primaryTopic: c4-ch13-factors-and-multiples
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In a garden, plants are arranged in 140 rows and 2 columns, where each row has the same
+    number of plants. If the same number of plants are rearranged in a different number of rows
+    and columns, with each row having the same number of plants, which of the following would
+    never be the number of plants in a row?
+  options:
+    - id: option-a
+      text: "70"
+    - id: option-b
+      text: "40"
+    - id: option-c
+      text: "30"
+    - id: option-d
+      text: "28"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    There are 140 x 2 = 280 plants, and any new row length has to divide 280 exactly. Now 70,
+    40, and 28 all divide 280, but 280 divided by 30 leaves a remainder, so a row of 30 is
+    impossible.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 48
+    section: "Chapter 13 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 13 question 10 answer and solution"

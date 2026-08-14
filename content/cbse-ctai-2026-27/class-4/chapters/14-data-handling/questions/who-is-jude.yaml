@@ -1,0 +1,46 @@
+id: c4-data-handling-who-is-jude
+slug: who-is-jude
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-logical-puzzles
+    - c4-ch14-reasoning-with-clues
+  primaryTopic: c4-ch14-logical-puzzles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A rabbit, a snake, a monkey, and a frog are named Jack, John, Joe, and Jude. Use the clues
+    below to find who Jude is. Clue 1: Joe and the rabbit like each other. Clue 2: The frog is
+    named John. Clue 3: Jack is not the rabbit. Who is Jude?
+  options:
+    - id: option-a
+      text: "Rabbit"
+    - id: option-b
+      text: "Snake"
+    - id: option-c
+      text: "Monkey"
+    - id: option-d
+      text: "Frog"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Clue 2 makes John the frog, so John is not the rabbit. Clue 1 has Joe liking the rabbit,
+    which means Joe is not the rabbit either. Clue 3 rules out Jack. The only name left for the
+    rabbit is Jude.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 10"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 108
+    section: "Chapter 14 question 10 answer and solution"

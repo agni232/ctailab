@@ -1,0 +1,47 @@
+id: c4-transport-museum-statement-sufficient-for-divisibility
+slug: statement-sufficient-for-divisibility
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch13-sufficient-information
+    - c4-ch13-factors-and-multiples
+  primaryTopic: c4-ch13-sufficient-information
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Which of the following statements is/are sufficient to answer the given question?
+    Question: X is a 3-digit number. Is X divisible by 3? Statement 1: Both the first and last
+    digits of X are divisible by 3. Statement 2: X is a prime number.
+  options:
+    - id: option-a
+      text: "Only statement 1 alone is sufficient"
+    - id: option-b
+      text: "Only statement 2 alone is sufficient"
+    - id: option-c
+      text: "Both 1 and 2 are together required"
+    - id: option-d
+      text: "Question cannot be answered even if both pieces of information are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Divisibility by 3 depends on all the digits added together, and Statement 1 leaves the
+    middle digit unknown, so it settles nothing. Statement 2 does: a prime has only 1 and
+    itself as factors, so a 3-digit prime cannot have 3 as a factor. The answer is no, and
+    Statement 2 alone gives it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 48
+    section: "Chapter 13 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 99
+    section: "Chapter 13 question 8 answer and solution"

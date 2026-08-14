@@ -1,0 +1,82 @@
+id: c4-clocks-calendar-clock-for-twenty-three-fifty-five
+slug: clock-for-twenty-three-fifty-five
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-reading-clocks
+    - c4-ch12-time
+  primaryTopic: c4-ch12-reading-clocks
+  estimatedMinutes: 4
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - digital-to-clock-series
+  options:
+    - id: option-a
+      assetRef: clock-option-a
+      accessibleLabel: A clock showing five minutes to eleven
+    - id: option-b
+      assetRef: clock-option-b
+      accessibleLabel: A clock showing five minutes to twelve
+    - id: option-c
+      assetRef: clock-option-c
+      accessibleLabel: A clock showing a quarter past nine
+    - id: option-d
+      assetRef: clock-option-d
+      accessibleLabel: A clock showing five minutes past twelve
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each digital time is shown again on a round clock. On a 12 hour clock 23:55 is five
+    minutes before midnight, so the minute hand sits on 11 and the hour hand has almost
+    reached 12.
+  assetRefs: []
+assets:
+  - ref: digital-to-clock-series
+    file: ../assets/digital-to-clock-series.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Digital times 18:30, 13:40, and 16:00 each with an arrow to a matching round clock, and
+      23:55 with an arrow to a question mark
+    position: 0
+  - ref: clock-option-a
+    file: ../assets/clock-option-a.jpg
+    role: option
+    visibility: public
+    alt: Round clock face, option a
+    position: 1
+  - ref: clock-option-b
+    file: ../assets/clock-option-b.jpg
+    role: option
+    visibility: public
+    alt: Round clock face, option b
+    position: 2
+  - ref: clock-option-c
+    file: ../assets/clock-option-c.png
+    role: option
+    visibility: public
+    alt: Round clock face, option c
+    position: 3
+  - ref: clock-option-d
+    file: ../assets/clock-option-d.jpg
+    role: option
+    visibility: public
+    alt: Round clock face, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 12 question 1 answer and solution"

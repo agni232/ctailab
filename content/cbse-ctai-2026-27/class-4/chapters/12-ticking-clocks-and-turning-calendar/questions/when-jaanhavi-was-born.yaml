@@ -1,0 +1,46 @@
+id: c4-clocks-calendar-when-jaanhavi-was-born
+slug: when-jaanhavi-was-born
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-calendar
+    - c4-ch12-logical-puzzles
+  primaryTopic: c4-ch12-calendar
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The conditions below help us find when Jaanhavi was born. Jaanhavi's birth month starts
+    with A. Jaanhavi's birth month has 5 letters. Jaanhavi was born on an even date. Jaanhavi
+    was born between the 20th and 30th of the month. When was Jaanhavi born?
+  options:
+    - id: option-a
+      text: "April 22nd"
+    - id: option-b
+      text: "April 25th"
+    - id: option-c
+      text: "August 20th"
+    - id: option-d
+      text: "April 12th"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Months starting with A are April and August, and only April has 5 letters. The date must be
+    even, which rules out the 25th, and it must fall between the 20th and the 30th, which rules
+    out the 12th. That leaves April 22nd.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 12"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 12 question 12 answer and solution"

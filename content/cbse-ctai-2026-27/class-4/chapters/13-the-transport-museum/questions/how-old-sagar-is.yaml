@@ -1,0 +1,44 @@
+id: c4-transport-museum-how-old-sagar-is
+slug: how-old-sagar-is
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch13-factors-and-multiples
+    - c4-ch13-reasoning-with-clues
+  primaryTopic: c4-ch13-factors-and-multiples
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    There are three brothers: Sumit, Suraj, and Sagar. The product of their ages is 175. Sumit
+    and Suraj are twins. How old is Sagar?
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The twins are the same age, so 175 must split as that age twice over times Sagar's age.
+    Since 175 = 5 x 5 x 7, the twins are 5 each and Sagar is 7.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 13 question 3 answer and solution"

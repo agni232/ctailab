@@ -1,0 +1,44 @@
+id: c4-transport-museum-side-length-of-each-smaller-cube
+slug: side-length-of-each-smaller-cube
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch13-multiplication-and-division
+    - c4-ch13-factors-and-multiples
+  primaryTopic: c4-ch13-multiplication-and-division
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A cube of side length 8 cm is cut into 64 smaller cubes of equal size. What would be the
+    side length of each smaller cube formed?
+  options:
+    - id: option-a
+      text: "1 cm"
+    - id: option-b
+      text: "4 cm"
+    - id: option-c
+      text: "2 cm"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    64 small cubes means 4 along each edge, since 4 x 4 x 4 = 64. Splitting the 8 cm edge into
+    4 equal parts gives 8 / 4 = 2 cm per small cube.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 98
+    section: "Chapter 13 question 5 answer and solution"

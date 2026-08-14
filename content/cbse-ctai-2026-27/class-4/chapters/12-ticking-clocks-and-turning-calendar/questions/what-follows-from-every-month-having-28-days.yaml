@@ -1,0 +1,45 @@
+id: c4-clocks-calendar-what-follows-from-every-month-having-28-days
+slug: what-follows-from-every-month-having-28-days
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-calendar
+    - c4-ch12-logical-puzzles
+  primaryTopic: c4-ch12-calendar
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Each month of the year has at least 28 days. Which of the given options can be understood
+    from the given statement?
+  options:
+    - id: option-a
+      text: "A year has at most 390 days"
+    - id: option-b
+      text: "A year has at least 336 days"
+    - id: option-c
+      text: "Some years have 350 days"
+    - id: option-d
+      text: "Every month of the year has only 28 days"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    If every one of the 12 months has at least 28 days, the year must have at least
+    12 x 28 = 336 days. The statement only sets a floor, so it says nothing about a maximum
+    and does not mean every month has exactly 28 days.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 11"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 12 question 11 answer and solution"

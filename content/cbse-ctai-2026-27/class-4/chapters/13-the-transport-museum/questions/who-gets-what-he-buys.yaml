@@ -1,0 +1,48 @@
+id: c4-transport-museum-who-gets-what-he-buys
+slug: who-gets-what-he-buys
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch13-sharing-equally
+    - c4-ch13-reasoning-with-clues
+  primaryTopic: c4-ch13-sharing-equally
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    P, Q, R, S, and T buy mangoes in each round. They have 4 rounds, and the following
+    conditions apply in every round. Each person buys a different number of mangoes, ranging
+    from 1 to 5. P buys the least, T buys the most, and R buys more than Q but less than S.
+    After 4 such rounds, all the mangoes are shared equally among the five of them. Who gets
+    the same number of mangoes as the total number of mangoes that he himself buys?
+  options:
+    - id: option-a
+      text: "P"
+    - id: option-b
+      text: "Q"
+    - id: option-c
+      text: "R"
+    - id: option-d
+      text: "S"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The clues fix each round as P = 1, Q = 2, R = 3, S = 4, and T = 5. One round totals 15
+    mangoes, so four rounds give 60, and shared five ways that is 12 each. Over four rounds R
+    buys 4 x 3 = 12, which matches his share exactly.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 48
+    section: "Chapter 13 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 100
+    section: "Chapter 13 question 9 answer and solution"

@@ -1,0 +1,58 @@
+id: c4-clocks-calendar-thinking-spot-boxes-to-open
+slug: thinking-spot-boxes-to-open
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-logical-puzzles
+    - c4-ch12-schedules
+  primaryTopic: c4-ch12-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    2 circles, a triangle, and a square are packed in the given boxes, one shape in each box.
+    The circles are placed in the adjacent boxes. The square and the triangle are NOT present
+    in the adjacent boxes. Given that you know the above information, at a minimum, how many
+    boxes must you open to identify the specific shape present in each box? Note: Adjacent
+    means adjoining or next to something.
+  stimulus:
+    assetRefs:
+      - four-boxes
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "1"
+    - id: option-d
+      text: "0"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The two circles must sit together and the square and triangle must stay apart, which only
+    happens when the circles take the two middle boxes and the square and triangle take the
+    ends. So the only thing left unknown is which end holds which, and opening a single box
+    settles it.
+  assetRefs: []
+assets:
+  - ref: four-boxes
+    file: ../assets/four-boxes.jpg
+    role: stem
+    visibility: public
+    alt: Four closed boxes in a row labelled Box 1, Box 2, Box 3, and Box 4
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 46
+    section: "Chapter 12 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 96
+    section: "Chapter 12 The Thinking Spot answer and solution"

@@ -1,0 +1,48 @@
+id: c4-transport-museum-maximum-products-bought-together
+slug: maximum-products-bought-together
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch13-multiplication-and-division
+    - c4-ch13-reasoning-with-clues
+  primaryTopic: c4-ch13-multiplication-and-division
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    An online sale for electronic gadgets lasts for 3 hours. The entire buying process for one
+    product takes 10 minutes. Sameer manages to buy the maximum number of products during the
+    sale hours. Since he needs more products, he calls his friend to help buy the remaining
+    products one hour before the end of the sale. What is the maximum number of products both
+    of them can buy together during the sale?
+  options:
+    - id: option-a
+      text: "22"
+    - id: option-b
+      text: "24"
+    - id: option-c
+      text: "28"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The sale runs 180 minutes and each purchase takes 10, so Sameer manages 180 / 10 = 18. His
+    friend joins for the last 60 minutes and buys alongside him, adding 60 / 10 = 6 more.
+    Together that is 18 + 6 = 24.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 98
+    section: "Chapter 13 question 6 answer and solution"

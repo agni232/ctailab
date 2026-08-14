@@ -1,0 +1,45 @@
+id: c4-clocks-calendar-date-raj-went-to-pune
+slug: date-raj-went-to-pune
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-calendar
+    - c4-ch12-days-of-the-week
+  primaryTopic: c4-ch12-calendar
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Raj went to Pune in February. He went on a date which is a SINGLE-DIGIT NUMBER, that is a
+    date less than 10. 1st February in that year was a Sunday. If Raj went to Pune on a
+    Saturday, on which date did he go to Pune?
+  options:
+    - id: option-a
+      text: "5th February"
+    - id: option-b
+      text: "7th February"
+    - id: option-c
+      text: "9th February"
+    - id: option-d
+      text: "8th February"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    With the 1st on a Sunday, the days run Sunday 1st, Monday 2nd, and so on to Saturday 7th.
+    The next Saturday is the 14th, which is not a single digit, so Raj went on the 7th.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 12 question 6 answer and solution"

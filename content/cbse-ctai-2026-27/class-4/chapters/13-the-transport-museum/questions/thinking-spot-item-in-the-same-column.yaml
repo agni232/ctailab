@@ -1,0 +1,85 @@
+id: c4-transport-museum-thinking-spot-item-in-the-same-column
+slug: thinking-spot-item-in-the-same-column
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch13-logical-puzzles
+    - c4-ch13-reasoning-with-clues
+  primaryTopic: c4-ch13-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    You have four white-coloured strips, each containing five items. If each strip can be moved
+    one column to the left or right, then which item can occupy the same column for all the
+    strips?
+  stimulus:
+    assetRefs:
+      - four-strips
+  options:
+    - id: option-a
+      assetRef: strip-option-a
+      accessibleLabel: A house
+    - id: option-b
+      assetRef: strip-option-b
+      accessibleLabel: A paint palette
+    - id: option-c
+      assetRef: strip-option-c
+      accessibleLabel: A flower
+    - id: option-d
+      assetRef: strip-option-d
+      accessibleLabel: An apple
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each strip may shift one column either way, so for an item to line up everywhere, its
+    position across the four strips must vary by no more than that. Checking each item in turn,
+    only the house sits close enough in all four strips to be brought into one column.
+  assetRefs: []
+assets:
+  - ref: four-strips
+    file: ../assets/four-strips.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four white strips laid across a grey grid, each holding five picture items such as an
+      apple, a paint palette, a car, a house, and a flower in a different order
+    position: 0
+  - ref: strip-option-a
+    file: ../assets/strip-option-a.jpg
+    role: option
+    visibility: public
+    alt: Picture item, option a
+    position: 1
+  - ref: strip-option-b
+    file: ../assets/strip-option-b.jpg
+    role: option
+    visibility: public
+    alt: Picture item, option b
+    position: 2
+  - ref: strip-option-c
+    file: ../assets/strip-option-c.jpg
+    role: option
+    visibility: public
+    alt: Picture item, option c
+    position: 3
+  - ref: strip-option-d
+    file: ../assets/strip-option-d.jpg
+    role: option
+    visibility: public
+    alt: Picture item, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 48
+    section: "Chapter 13 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 102
+    section: "Chapter 13 The Thinking Spot answer and solution"

@@ -1,0 +1,54 @@
+id: c4-data-handling-where-sam-can-live
+slug: where-sam-can-live
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-reasoning-with-clues
+    - c4-ch14-comparing-values
+  primaryTopic: c4-ch14-reasoning-with-clues
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Some buildings have pet restrictions. The tallest building bans dogs, the second tallest
+    bans cats, and the shortest bans rabbits. If Sam has all three pets, where can he live?
+  stimulus:
+    assetRefs:
+      - four-buildings
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Put the buildings in order of height. D is tallest so it bans dogs, A is next so it bans
+    cats, and C is shortest so it bans rabbits. That leaves B as the only building with no ban
+    at all, so Sam can keep all three pets there.
+  assetRefs: []
+assets:
+  - ref: four-buildings
+    file: ../assets/four-buildings.png
+    role: stem
+    visibility: public
+    alt: Four buildings of different heights labelled A, B, C, and D
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 107
+    section: "Chapter 14 question 9 answer and solution"

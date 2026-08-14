@@ -1,0 +1,60 @@
+id: c4-data-handling-total-questions-john-attempted
+slug: total-questions-john-attempted
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch14-tables
+    - c4-ch14-reading-data
+  primaryTopic: c4-ch14-tables
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    John took an exam in which he received 4 marks for each CORRECT answer and lost 1 mark for
+    each INCORRECT answer. The following table shows John's scores in each exam, where a few of
+    the values are missing. What is the TOTAL number of questions John attempted in all three
+    exams?
+  stimulus:
+    assetRefs:
+      - exam-scores-table
+  options:
+    - id: option-a
+      text: "40"
+    - id: option-b
+      text: "48"
+    - id: option-c
+      text: "55"
+    - id: option-d
+      text: "56"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    In Maths, 8 correct gives 32, but the score is 26, so 6 marks were lost to 6 wrong answers,
+    making 14 attempted. In Science, 4 wrong costs 4 marks, so the correct answers earned
+    48 + 4 = 52, which is 13 correct and 17 attempted. In English, 18 correct gives 72 against
+    a score of 65, so 7 were wrong and 25 attempted. Altogether 14 + 17 + 25 = 56.
+  assetRefs: []
+assets:
+  - ref: exam-scores-table
+    file: ../assets/exam-scores-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of subjects with columns for correct answers, incorrect answers, and total marks,
+      showing Maths 8 correct and 26 marks, Science 4 incorrect and 48 marks, and English 18
+      correct and 65 marks
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 1"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 103
+    section: "Chapter 14 question 1 answer and solution"

@@ -1,0 +1,45 @@
+id: c4-clocks-calendar-day-of-the-twelfth-rest
+slug: day-of-the-twelfth-rest
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-days-of-the-week
+    - c4-ch12-calendar
+  primaryTopic: c4-ch12-days-of-the-week
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A man has a job which requires him to work 8 straight days and rest on the ninth day. If he
+    started work on a Monday, the 12th time he rests will be on what day of the week?
+  options:
+    - id: option-a
+      text: "Sunday"
+    - id: option-b
+      text: "Wednesday"
+    - id: option-c
+      text: "Tuesday"
+    - id: option-d
+      text: "Friday"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Rest days fall on days 9, 18, 27 and so on, so the 12th rest is on day 9 x 12 = 108.
+    Counting from a Monday start, day 108 is 107 days after Monday, and 107 divided by 7
+    leaves 2, so it lands two days past Monday, on a Wednesday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 12 question 3 answer and solution"

@@ -1,0 +1,45 @@
+id: c4-data-handling-day-we-were-both-born
+slug: day-we-were-both-born
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-reasoning-with-clues
+    - c4-ch14-logical-puzzles
+  primaryTopic: c4-ch14-reasoning-with-clues
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    I was NOT born on Tuesday, Thursday, or Saturday. My friend was NOT born on Monday,
+    Wednesday, or Sunday. If both of us were born on the same day, on which day were we born?
+  options:
+    - id: option-a
+      text: "Sunday"
+    - id: option-b
+      text: "Monday"
+    - id: option-c
+      text: "Friday"
+    - id: option-d
+      text: "Saturday"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Cross off both lists. Mine rules out Tuesday, Thursday, and Saturday, leaving Sunday,
+    Monday, Wednesday, and Friday. My friend's rules out Monday, Wednesday, and Sunday. The
+    only day left on both is Friday.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 106
+    section: "Chapter 14 question 7 answer and solution"

@@ -1,0 +1,45 @@
+id: c4-clocks-calendar-time-alex-left-for-school
+slug: time-alex-left-for-school
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch12-elapsed-time
+    - c4-ch12-time
+  primaryTopic: c4-ch12-elapsed-time
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Alex takes 10 minutes to reach school, while Tim reaches 15 minutes after Alex. If Tim
+    reaches at 5:00 PM, at what time did Alex leave for school?
+  options:
+    - id: option-a
+      text: "4:40 PM"
+    - id: option-b
+      text: "4:45 PM"
+    - id: option-c
+      text: "4:35 PM"
+    - id: option-d
+      text: "4:30 PM"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Tim arrives 15 minutes after Alex, so Alex arrived at 5:00 minus 15 minutes, which is
+    4:45 PM. Alex's journey takes 10 minutes, so he set off at 4:45 minus 10 minutes, which is
+    4:35 PM.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 12 question 5 answer and solution"

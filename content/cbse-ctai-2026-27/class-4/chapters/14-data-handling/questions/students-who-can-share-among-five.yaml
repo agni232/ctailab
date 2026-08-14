@@ -1,0 +1,57 @@
+id: c4-data-handling-students-who-can-share-among-five
+slug: students-who-can-share-among-five
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-sharing-equally
+    - c4-ch14-tables
+  primaryTopic: c4-ch14-sharing-equally
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Some information about the number of pencils each student has is shown in the image below.
+    Which two students, if they put their pencils together, can share them equally among five
+    students?
+  stimulus:
+    assetRefs:
+      - pencils-table
+  options:
+    - id: option-a
+      text: "Pranav and Sheetal"
+    - id: option-b
+      text: "Tarun and Sanjay"
+    - id: option-c
+      text: "Pranav and Meenakshi"
+    - id: option-d
+      text: "Tarun and Pranav"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Sharing among five works only if the pair's total ends in 0 or 5. Pranav and Sheetal give
+    12 + 13 = 25, which divides by 5. Tarun and Sanjay give 26, Pranav and Meenakshi give 18,
+    and Tarun and Pranav give 28, none of which do.
+  assetRefs: []
+assets:
+  - ref: pencils-table
+    file: ../assets/pencils-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of students and their pencil counts: Pranav 12, Tarun 16, Meenakshi 6, Sanjay 10,
+      and Sheetal 13
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 5"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 14 question 5 answer and solution"

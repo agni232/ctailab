@@ -1,0 +1,38 @@
+topics:
+  - id: c4-ch13-multiplication-and-division
+    slug: multiplication-and-division
+    title: Multiplication and Division
+    position: 1
+    status: published
+  - id: c4-ch13-sharing-equally
+    slug: sharing-equally
+    title: Sharing Equally
+    position: 2
+    parentId: c4-ch13-multiplication-and-division
+    status: published
+  - id: c4-ch13-factors-and-multiples
+    slug: factors-and-multiples
+    title: Factors and Multiples
+    position: 3
+    parentId: c4-ch13-multiplication-and-division
+    status: published
+  - id: c4-ch13-comparing-quantities
+    slug: comparing-quantities
+    title: Comparing Quantities
+    position: 4
+    status: published
+  - id: c4-ch13-sufficient-information
+    slug: sufficient-information
+    title: Sufficient Information
+    position: 5
+    status: published
+  - id: c4-ch13-reasoning-with-clues
+    slug: reasoning-with-clues
+    title: Reasoning with Clues
+    position: 6
+    status: published
+  - id: c4-ch13-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

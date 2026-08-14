@@ -1,0 +1,53 @@
+id: c4-data-handling-who-got-least-marks-more-than-once
+slug: who-got-least-marks-more-than-once
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-tables
+    - c4-ch14-comparing-values
+  primaryTopic: c4-ch14-comparing-values
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The table given below gives the marks of 4 friends, A, B, C, and D, in 4 different
+    subjects. Who among them got the least marks in more than one subject?
+  stimulus:
+    assetRefs:
+      - four-friends-marks
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "D"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Find the lowest mark in each column. English is A on 70, Maths is D on 57, Science is C on
+    60, and Hindi is A on 67. A comes bottom twice, and nobody else does it more than once.
+  assetRefs: []
+assets:
+  - ref: four-friends-marks
+    file: ../assets/four-friends-marks.png
+    role: stem
+    visibility: public
+    alt: A table of marks for A, B, C, and D in English, Maths, Science, and Hindi
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 6"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 105
+    section: "Chapter 14 question 6 answer and solution"

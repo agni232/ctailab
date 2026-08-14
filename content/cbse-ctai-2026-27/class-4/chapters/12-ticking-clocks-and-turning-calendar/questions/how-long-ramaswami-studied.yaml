@@ -1,0 +1,48 @@
+id: c4-clocks-calendar-how-long-ramaswami-studied
+slug: how-long-ramaswami-studied
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-elapsed-time
+    - c4-ch12-time
+  primaryTopic: c4-ch12-elapsed-time
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Ramaswami was studying for his examinations when the lights went off. It was around
+    1:00 a.m. He lit two uniform candles of equal length, but one was thicker than the other.
+    The thick candle is supposed to last six hours, and the thin candle two hours less. When
+    he finally went to sleep, the thick candle was twice as long as the thin candle. For how
+    long did Ramaswami study in candlelight?
+  options:
+    - id: option-a
+      text: "2 hours"
+    - id: option-b
+      text: "3 hours"
+    - id: option-c
+      text: "2 hours 30 minutes"
+    - id: option-d
+      text: "4 hours"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The thick candle burns away one sixth of itself each hour and the thin one one quarter, so
+    after t hours the thick one has 1 - t/6 left and the thin one 1 - t/4. Setting the thick
+    equal to twice the thin gives 1 - t/6 = 2 - t/2, which works out to t = 3 hours.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 12 question 2 answer and solution"

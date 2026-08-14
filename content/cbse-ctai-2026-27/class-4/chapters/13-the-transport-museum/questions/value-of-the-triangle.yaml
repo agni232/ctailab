@@ -1,0 +1,54 @@
+id: c4-transport-museum-value-of-the-triangle
+slug: value-of-the-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch13-multiplication-and-division
+    - c4-ch13-reasoning-with-clues
+  primaryTopic: c4-ch13-multiplication-and-division
+  estimatedMinutes: 5
+content:
+  prompt: Based on the equations given below, find the value of the triangle.
+  stimulus:
+    assetRefs:
+      - shape-equations
+  options:
+    - id: option-a
+      text: "96"
+    - id: option-b
+      text: "720"
+    - id: option-c
+      text: "960"
+    - id: option-d
+      text: "992"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The first line gives the square as 4 x 8 = 32 and the second gives the circle as
+    5 x 6 = 30. The third line makes the triangle the product of those two, so it is
+    32 x 30 = 960.
+  assetRefs: []
+assets:
+  - ref: shape-equations
+    file: ../assets/shape-equations.png
+    role: stem
+    visibility: public
+    alt: >-
+      Three equations: 4 times 8 equals a green square, 5 times 6 equals a yellow circle, and
+      the square times the circle equals a blue triangle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 99
+    section: "Chapter 13 question 7 answer and solution"

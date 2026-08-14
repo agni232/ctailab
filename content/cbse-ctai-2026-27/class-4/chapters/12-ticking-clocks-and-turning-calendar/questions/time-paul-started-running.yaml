@@ -1,0 +1,48 @@
+id: c4-clocks-calendar-time-paul-started-running
+slug: time-paul-started-running
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-elapsed-time
+    - c4-ch12-schedules
+  primaryTopic: c4-ch12-elapsed-time
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Paul is running in a playground. He takes 5 minutes to run one complete round of the
+    playground each time. Also, after every two rounds, he takes a rest of 5 minutes and then
+    starts running again. If he has just completed his 6th round at 4:45 PM, at what time did
+    he start running?
+  options:
+    - id: option-a
+      text: "04:00 PM"
+    - id: option-b
+      text: "04:05 PM"
+    - id: option-c
+      text: "04:10 PM"
+    - id: option-d
+      text: "03:55 PM"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Six rounds take 6 x 5 = 30 minutes of running. Rests come after the 2nd and 4th rounds,
+    which is 2 x 5 = 10 minutes, and there is no rest after the 6th because he has just
+    finished. That is 40 minutes altogether, so he began at 4:45 minus 40 minutes, which is
+    4:05 PM.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 44
+    section: "Chapter 12 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 12 question 4 answer and solution"

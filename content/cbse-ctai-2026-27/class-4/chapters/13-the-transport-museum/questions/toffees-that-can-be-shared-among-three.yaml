@@ -1,0 +1,45 @@
+id: c4-transport-museum-toffees-that-can-be-shared-among-three
+slug: toffees-that-can-be-shared-among-three
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch13-sharing-equally
+    - c4-ch13-factors-and-multiples
+  primaryTopic: c4-ch13-sharing-equally
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Shreya has 10 toffees, Kriti has 12 toffees, Aishwarya has 14 toffees, and Aditi has 18
+    toffees. Which two of them have a number of toffees that can be shared equally among three
+    people?
+  options:
+    - id: option-a
+      text: "Kriti and Aditi"
+    - id: option-b
+      text: "Shreya and Kriti"
+    - id: option-c
+      text: "Aishwarya and Aditi"
+    - id: option-d
+      text: "Aditi and Shreya"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Sharing among three works only when the number divides by 3. Of 10, 12, 14, and 18, only
+    12 and 18 do, and those belong to Kriti and Aditi.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 98
+    section: "Chapter 13 question 4 answer and solution"

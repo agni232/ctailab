@@ -1,0 +1,58 @@
+id: c4-data-handling-fruit-bought-in-common
+slug: fruit-bought-in-common
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch14-reading-data
+    - c4-ch14-reasoning-with-clues
+  primaryTopic: c4-ch14-reading-data
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Each shop sells two types of fruits among Apples, Bananas, Mangoes, and Strawberries. The
+    fruits displayed in a shop are the ones NOT sold there. Bob bought all the fruits available
+    in SHOP A. Tom bought all the fruits available in SHOP B. Which fruit did they buy in
+    common?
+  stimulus:
+    assetRefs:
+      - fruits-not-sold
+  options:
+    - id: option-a
+      text: "Bananas"
+    - id: option-b
+      text: "Mangoes"
+    - id: option-c
+      text: "Strawberries"
+    - id: option-d
+      text: "Apples"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The pictures show what is not sold. Shop A displays a strawberry and an apple, so it sells
+    bananas and mangoes. Shop B displays an apple and a banana, so it sells mangoes and
+    strawberries. The fruit on both lists is mangoes.
+  assetRefs: []
+assets:
+  - ref: fruits-not-sold
+    file: ../assets/fruits-not-sold.png
+    role: stem
+    visibility: public
+    alt: >-
+      A label reading Fruits Not Sold pointing to Shop A showing a strawberry and an apple, and
+      Shop B showing an apple and a banana
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 3"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 104
+    section: "Chapter 14 question 3 answer and solution"

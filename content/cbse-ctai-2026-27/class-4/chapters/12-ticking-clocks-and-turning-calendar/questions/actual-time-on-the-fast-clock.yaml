@@ -1,0 +1,46 @@
+id: c4-clocks-calendar-actual-time-on-the-fast-clock
+slug: actual-time-on-the-fast-clock
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-elapsed-time
+    - c4-ch12-reading-clocks
+  primaryTopic: c4-ch12-elapsed-time
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A clock shows the correct time as 2:30 PM. After this, the minute hand gains 5 extra
+    minutes every half hour. What will be the actual time when the clock shows 9:30 PM?
+  options:
+    - id: option-a
+      text: "08:10 PM"
+    - id: option-b
+      text: "08:20 PM"
+    - id: option-c
+      text: "8:30 PM"
+    - id: option-d
+      text: "08:40 PM"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The clock runs fast, showing 35 minutes for every 30 real minutes. From 2:30 to 9:30 it
+    shows 7 hours, which is 420 shown minutes. Since 35 shown minutes take 30 real minutes,
+    420 shown minutes take 420 / 35 x 30 = 360 real minutes, or 6 hours. So the real time is
+    2:30 PM plus 6 hours, which is 8:30 PM.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 12 question 8 answer and solution"

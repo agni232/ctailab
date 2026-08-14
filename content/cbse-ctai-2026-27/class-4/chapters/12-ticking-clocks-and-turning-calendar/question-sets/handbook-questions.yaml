@@ -1,0 +1,84 @@
+id: cbse-2026-27-c4-ch12-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 12 questions from Chapter 12 in the Class 4 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c4-clocks-calendar-clock-for-twenty-three-fifty-five
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-how-long-ramaswami-studied
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-day-of-the-twelfth-rest
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-time-paul-started-running
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-time-alex-left-for-school
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-date-raj-went-to-pune
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 44
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-possible-schedule-for-the-fair
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-actual-time-on-the-fast-clock
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-date-of-the-cricket-match
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-rule-governing-the-time-periods
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-what-follows-from-every-month-having-28-days
+    questionVersion: 1
+    position: 11
+    displayNumber: "11"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"
+  - questionId: c4-clocks-calendar-when-jaanhavi-was-born
+    questionVersion: 1
+    position: 12
+    displayNumber: "12"
+    sourcePage: 45
+    sourceSection: "Chapter 12: Ticking Clocks and Turning Calendar"

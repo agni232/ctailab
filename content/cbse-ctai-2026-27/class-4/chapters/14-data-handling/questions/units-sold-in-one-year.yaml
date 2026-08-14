@@ -1,0 +1,54 @@
+id: c4-data-handling-units-sold-in-one-year
+slug: units-sold-in-one-year
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch14-number-patterns
+    - c4-ch14-reading-data
+  primaryTopic: c4-ch14-number-patterns
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    If the number of units sold by a company each month follows the pattern shown below, and
+    the same trend continues till the end of the year, how many units were sold in one year?
+  stimulus:
+    assetRefs:
+      - monthly-units
+  options:
+    - id: option-a
+      text: "768 units"
+    - id: option-b
+      text: "897 units"
+    - id: option-c
+      text: "649 units"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Sales climb by 10 each month: 9, 19, 29, 39, and so on to 119 in month 12. Adding the
+    twelve months, the first and last pair to 128, and there are six such pairs, giving
+    6 x 128 = 768 units.
+  assetRefs: []
+assets:
+  - ref: monthly-units
+    file: ../assets/monthly-units.png
+    role: stem
+    visibility: public
+    alt: A table showing Month 1 with 9, Month 2 with 19, Month 3 with 29, and Month 4 with 39
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 49
+    section: "Chapter 14 question 4"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 104
+    section: "Chapter 14 question 4 answer and solution"

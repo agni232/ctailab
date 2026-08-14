@@ -1,0 +1,85 @@
+id: c4-data-handling-thinking-spot-piece-that-completes-the-grid
+slug: thinking-spot-piece-that-completes-the-grid
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch14-logical-puzzles
+    - c4-ch14-reading-data
+  primaryTopic: c4-ch14-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Given below is a part of a 5 x 4 grid. Which of the following will COMPLETE the grid such
+    that every row has exactly 3 circles?
+  stimulus:
+    assetRefs:
+      - partial-grid
+  options:
+    - id: option-a
+      assetRef: grid-option-a
+      accessibleLabel: A piece with two circles on top and one circle at the lower right
+    - id: option-b
+      assetRef: grid-option-b
+      accessibleLabel: A piece with two circles on top and one circle below to the right
+    - id: option-c
+      assetRef: grid-option-c
+      accessibleLabel: A piece with two circles on top and two circles along the bottom
+    - id: option-d
+      assetRef: grid-option-d
+      accessibleLabel: A wider piece with two circles on top and two circles below
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work row by row. Row 2 already has 2 circles in 2 blocks and needs 3 more blocks with 1
+    more circle, which rules out option d for having 4 blocks and option a for bringing 2
+    circles. Row 3 has 1 circle and needs 2 more, which rules out option b for bringing only 1.
+    Option c is the one that leaves every row with exactly 3.
+  assetRefs: []
+assets:
+  - ref: partial-grid
+    file: ../assets/partial-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      Part of a grid labelled Row 1 to Row 4, with some blocks filled in and circles drawn in
+      some of them
+    position: 0
+  - ref: grid-option-a
+    file: ../assets/grid-option-a.jpg
+    role: option
+    visibility: public
+    alt: Grid piece, option a
+    position: 1
+  - ref: grid-option-b
+    file: ../assets/grid-option-b.jpg
+    role: option
+    visibility: public
+    alt: Grid piece, option b
+    position: 2
+  - ref: grid-option-c
+    file: ../assets/grid-option-c.jpg
+    role: option
+    visibility: public
+    alt: Grid piece, option c
+    position: 3
+  - ref: grid-option-d
+    file: ../assets/grid-option-d.jpg
+    role: option
+    visibility: public
+    alt: Grid piece, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 51
+    section: "Chapter 14 The Thinking Spot"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 109
+    section: "Chapter 14 The Thinking Spot answer and solution"

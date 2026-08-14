@@ -1,0 +1,61 @@
+id: c4-clocks-calendar-possible-schedule-for-the-fair
+slug: possible-schedule-for-the-fair
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch12-schedules
+    - c4-ch12-reading-clocks
+  primaryTopic: c4-ch12-schedules
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    You go to a fair and want to attend all four events A, B, C, and D. Each event lasts 30
+    minutes, and each event takes place twice at the times shown. You can attend only one
+    event at a time and must attend exactly one session of each event. You must start your day
+    with the earliest possible event, and Event A must be attended before Event C. Based on
+    these conditions, which of the following schedules is possible?
+  stimulus:
+    assetRefs:
+      - event-timetable
+  options:
+    - id: option-a
+      text: "D-B-A-C"
+    - id: option-b
+      text: "D-A-B-C"
+    - id: option-c
+      text: "B-D-A-C"
+    - id: option-d
+      text: "D-B-C-A"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The earliest sessions are at 10:00 am, for C and D, and since A must come before C the day
+    has to start with D. That rules out option c. Option d puts C before A, which breaks the
+    rule. Between the two that are left, only D at 10:00, B at 10:30, A at 11:15, then C at
+    12:00 fits every session time without overlapping.
+  assetRefs: []
+assets:
+  - ref: event-timetable
+    file: ../assets/event-timetable.png
+    role: stem
+    visibility: public
+    alt: >-
+      A timetable of four events with two clock times each: Event A Character Parade at
+      11:15 am and 12:00 pm, Event B Pie eating Contest at 10:30 am and 12:00 pm, Event C Dart
+      and Balloon game at 10:00 am and 12:00 pm, and Event D Fishing at 10:00 am and 11:30 am
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 7"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 93
+    section: "Chapter 12 question 7 answer and solution"

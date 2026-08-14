@@ -1,0 +1,44 @@
+id: c4-transport-museum-statement-that-can-be-true-about-bananas
+slug: statement-that-can-be-true-about-bananas
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c4-ch13-sharing-equally
+    - c4-ch13-comparing-quantities
+  primaryTopic: c4-ch13-sharing-equally
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Bholu, Shalu, and Rinku distributed 120 bananas equally among themselves. Which of the
+    given statements can be TRUE?
+  options:
+    - id: option-a
+      text: "Bholu has more than 35 bananas"
+    - id: option-b
+      text: "Shalu has 40 bananas"
+    - id: option-c
+      text: "Rinku has less than 60 bananas"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Shared equally, each of the three gets 120 / 3 = 40 bananas. That makes all three
+    statements true at once: 40 is more than 35, it is exactly 40, and it is less than 60.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 47
+    section: "Chapter 13 question 2"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 13 question 2 answer and solution"

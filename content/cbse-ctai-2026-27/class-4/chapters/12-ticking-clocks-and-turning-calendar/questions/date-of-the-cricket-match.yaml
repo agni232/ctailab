@@ -1,0 +1,44 @@
+id: c4-clocks-calendar-date-of-the-cricket-match
+slug: date-of-the-cricket-match
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c4-ch12-calendar
+    - c4-ch12-days-of-the-week
+  primaryTopic: c4-ch12-calendar
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    Our cricket match is going to take place on the last day of the 4th month of the year. On
+    which of the following dates will we have our match?
+  options:
+    - id: option-a
+      text: "31st April"
+    - id: option-b
+      text: "31st May"
+    - id: option-c
+      text: "30th April"
+    - id: option-d
+      text: "30th May"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The 4th month is April, and April has only 30 days, so its last day is the 30th. There is
+    no 31st April at all.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 45
+    section: "Chapter 12 question 9"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 12 question 9 answer and solution"

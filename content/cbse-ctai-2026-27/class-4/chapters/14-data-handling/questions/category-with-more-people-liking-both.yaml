@@ -1,0 +1,58 @@
+id: c4-data-handling-category-with-more-people-liking-both
+slug: category-with-more-people-liking-both
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c4-ch14-reading-data
+    - c4-ch14-comparing-values
+  primaryTopic: c4-ch14-reading-data
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In a survey of 40 Men and 40 Women, the following results were obtained based on their
+    interests in Cricket and Chess. The number of people who like BOTH Chess and Cricket are
+    GREATER from which of these categories?
+  stimulus:
+    assetRefs:
+      - survey-tables
+  options:
+    - id: option-a
+      text: "Men"
+    - id: option-b
+      text: "Women"
+    - id: option-c
+      text: "Both categories have an equal number of people who like both the games"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Among the men, 10 like neither, so 30 like at least one game, while the two lists add to
+    25 + 15 = 40. The extra 40 - 30 = 10 have been counted twice, so 10 men like both. Among
+    the women, 8 like neither, leaving 32, and 15 + 28 = 43, so 43 - 32 = 11 like both. Women
+    are greater.
+  assetRefs: []
+assets:
+  - ref: survey-tables
+    file: ../assets/survey-tables.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two survey tables, one for men showing 25 like cricket, 15 like chess, and 10 like
+      neither, and one for women showing 15 like cricket, 28 like chess, and 8 like neither
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-4-student-handbook-2026-27
+    page: 50
+    section: "Chapter 14 question 8"
+  - sourceId: ctai-class-4-teacher-handbook-2026-27
+    page: 106
+    section: "Chapter 14 question 8 answer and solution"
