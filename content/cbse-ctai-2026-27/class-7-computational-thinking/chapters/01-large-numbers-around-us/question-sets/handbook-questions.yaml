@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 1 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-large-numbers-highest-possible-value-of-y
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-product-of-the-dial-pad-numbers
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-difference-between-x-and-y
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-largest-digit-for-the-comparison
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-zeros-left-for-lakh
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 11
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-numbers-between-two-and-eight-lakhs
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 12
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-maximum-difference-of-the-two-numbers
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 12
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-number-card-e-has
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 12
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-profession-and-salary-of-calvin
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 12
+    sourceSection: "Chapter 1: Large Numbers Around Us"
+  - questionId: c7-ct-large-numbers-nishas-laptop-password
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 12
+    sourceSection: "Chapter 1: Large Numbers Around Us"

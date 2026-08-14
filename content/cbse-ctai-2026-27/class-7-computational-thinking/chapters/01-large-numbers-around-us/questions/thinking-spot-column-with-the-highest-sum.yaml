@@ -1,0 +1,60 @@
+id: c7-ct-large-numbers-thinking-spot-column-with-the-highest-sum
+slug: thinking-spot-column-with-the-highest-sum
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-logical-puzzles
+    - c7-ct-ch1-digit-constraints
+  primaryTopic: c7-ct-ch1-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Columns A, B, and C contain 3 numbers each, such that the number of times each number
+    appears in all 3 columns combined is equal to its value (for example 2 appears twice, 3
+    appears thrice, and so on), and each column contains AT LEAST TWO different numbers. If
+    column A is the only column with THREE different numbers, then which column has the highest
+    sum?
+  stimulus:
+    assetRefs:
+      - three-columns
+  options:
+    - id: option-a
+      text: "Column A"
+    - id: option-b
+      text: "Column B"
+    - id: option-c
+      text: "Column C"
+    - id: option-d
+      text: "Both columns B and C"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Nine circles hold 2 twice, 3 three times, and 4 four times. Only column A may hold three
+    different numbers, so A takes 2, 3, and 4. Column B already shows a 2, and adding both a 3
+    and a 4 would give it three different numbers, so B takes two 4s. That leaves a 3 and a 4
+    for column C. The sums are A = 9, B = 10, and C = 10, so B and C tie for highest.
+  assetRefs: []
+assets:
+  - ref: three-columns
+    file: ../assets/three-columns.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three columns labelled A, B, and C, each holding three circles, with a 4 at the bottom of
+      A, a 2 at the top of B, and a 3 at the bottom of C, and the rest blank
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 13
+    section: "Chapter 1 The Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 19
+    section: "Chapter 1 The Thinking Spot answer and solution"

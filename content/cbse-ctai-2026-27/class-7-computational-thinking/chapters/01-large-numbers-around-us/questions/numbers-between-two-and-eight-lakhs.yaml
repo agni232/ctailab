@@ -1,0 +1,61 @@
+id: c7-ct-large-numbers-numbers-between-two-and-eight-lakhs
+slug: numbers-between-two-and-eight-lakhs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-digit-constraints
+    - c7-ct-ch1-making-numbers
+  primaryTopic: c7-ct-ch1-digit-constraints
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Six number tokens are given. Rearrange them to form a 6-digit number such that the
+    difference between the first and last digits is as small as possible, the hundreds digit is
+    double the thousands digit, no consecutive digits appear next to each other, and all given
+    tokens are used exactly once. How many different 6-digit numbers between 2 lakhs and 8
+    lakhs can be formed under these conditions?
+  stimulus:
+    assetRefs:
+      - number-tokens
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "More than 3"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The doubling rule allows only 1-2, 2-4, or 4-8 in the thousands and hundreds, and 1-2 is
+    out because those digits are consecutive. The smallest gap between first and last digits is
+    1, which forces the pair 7-8 for the 2-4 case and 1-2 for the 4-8 case. Filling the rest so
+    no consecutive digits touch gives four numbers, and only 752418 and 274851 lie between 2
+    and 8 lakhs.
+  assetRefs: []
+assets:
+  - ref: number-tokens
+    file: ../assets/number-tokens.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six green number tokens reading 2, 5, 8, 1, 4, and 7 from left to right, above six blank
+      lines labelled Number Formed
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 6 answer and solution"

@@ -1,0 +1,47 @@
+id: c7-ct-large-numbers-number-card-e-has
+slug: number-card-e-has
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-place-value
+    - c7-ct-ch1-reasoning-with-clues
+  primaryTopic: c7-ct-ch1-reasoning-with-clues
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A, B, C, D, and E each have a different number card among one hundred, one thousand, ten
+    thousand, one lakh, and ten lakhs. C has an even number of zeros in his number. A's number
+    has 2 zeros less than C's number. D's number has 4 zeros more than A's number. The number
+    of zeros in B is more than that of A but less than C. Which number card does E have?
+  options:
+    - id: option-a
+      text: "One thousand"
+    - id: option-b
+      text: "Ten thousand"
+    - id: option-c
+      text: "One lakh"
+    - id: option-d
+      text: "Ten lakh"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The cards carry 2, 3, 4, 5, and 6 zeros. C is even and A is two below it, and D is four
+    above A, which only works with A = 2, C = 4, and D = 6. B must sit between A and C, so
+    B = 3. The zero count left for E is 5, which is one lakh.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 8 answer and solution"

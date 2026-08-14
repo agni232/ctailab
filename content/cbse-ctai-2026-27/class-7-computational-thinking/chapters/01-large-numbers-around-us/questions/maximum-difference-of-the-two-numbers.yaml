@@ -1,0 +1,48 @@
+id: c7-ct-large-numbers-maximum-difference-of-the-two-numbers
+slug: maximum-difference-of-the-two-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-digit-constraints
+    - c7-ct-ch1-comparing-numbers
+  primaryTopic: c7-ct-ch1-digit-constraints
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Two five-digit numbers are formed using different digits from 0 to 9. Both numbers have
+    some digits missing, as shown below. Number 1: _ 1 _ 9 _. Number 2: _ 4 _ 6 _. No two
+    consecutive digits of the number series are present in the same number. What is the maximum
+    possible difference of the numbers formed?
+  options:
+    - id: option-a
+      text: "47525"
+    - id: option-b
+      text: "52663"
+    - id: option-c
+      text: "52429"
+    - id: option-d
+      text: "46733"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The unused digits are 0, 2, 3, 5, 7, and 8. Number 1 already holds 1 and 9, so it can only
+    take 3, 5, and 7, and Number 2 can only take 0, 2, and 8. The 8 can lead Number 2, so make
+    that one large and the other small: Number 2 becomes 84260 and Number 1 becomes 31597. The
+    difference is 84260 - 31597 = 52663.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 15
+    section: "Chapter 1 question 7 answer and solution"

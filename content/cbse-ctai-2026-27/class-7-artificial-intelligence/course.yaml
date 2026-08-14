@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ai
+grade:
+  id: grade-7
+  level: 7
+  label: Class 7
+subject:
+  id: artificial-intelligence
+  code: AI
+  slug: artificial-intelligence
+  name: Artificial Intelligence
+  description: Explore how machines use data, spot patterns, and make choices responsibly.
+slug: class-7-artificial-intelligence
+title: Class 7 Artificial Intelligence
+description: Chapter-wise activities and practice for Class 7 learners.
+status: draft
+position: 7

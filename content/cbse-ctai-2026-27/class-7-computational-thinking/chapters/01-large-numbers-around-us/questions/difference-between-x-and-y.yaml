@@ -1,0 +1,51 @@
+id: c7-ct-large-numbers-difference-between-x-and-y
+slug: difference-between-x-and-y
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-digit-constraints
+    - c7-ct-ch1-making-numbers
+  primaryTopic: c7-ct-ch1-digit-constraints
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Sam forms two different 6-digit numbers, X and Y, using digits from 0 to 9 (without
+    repetition within a number). Exactly two digits are common between X and Y. The digit 9
+    appears in the same position in both numbers. Y ends with 0, has only one even digit, and
+    its digits are arranged in descending order. 6 is present in X, and the number of even
+    digits on its left is equal to the number of even digits on its right. If X is the largest
+    possible number, what is the difference between X and Y?
+  options:
+    - id: option-a
+      text: "9310"
+    - id: option-b
+      text: "9210"
+    - id: option-c
+      text: "8420"
+    - id: option-d
+      text: "8310"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Y has 0 as its only even digit and descends, so Y = 975310, putting 9 first. X therefore
+    starts with 9 too. If 6 had one even digit on each side, X would share three odd digits
+    with Y, which breaks the two-in-common rule, so 6 must have two even digits either side,
+    placing it in the hundreds. Filling the rest as large as possible gives X = 984620, and
+    984620 - 975310 = 9310.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 3 answer and solution"

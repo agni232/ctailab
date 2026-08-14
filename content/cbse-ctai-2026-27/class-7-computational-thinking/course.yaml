@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ct
+grade:
+  id: grade-7
+  level: 7
+  label: Class 7
+subject:
+  id: computational-thinking
+  code: CT
+  slug: computational-thinking
+  name: Computational Thinking
+  description: Break problems down, spot patterns, and design clear steps to a solution.
+slug: class-7-computational-thinking
+title: Class 7 Computational Thinking
+description: Chapter-wise activities and practice for Class 7 learners.
+status: published
+position: 6

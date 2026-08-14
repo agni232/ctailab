@@ -1,0 +1,83 @@
+id: c7-ct-large-numbers-largest-digit-for-the-comparison
+slug: largest-digit-for-the-comparison
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-comparing-numbers
+    - c7-ct-ch1-place-value
+  primaryTopic: c7-ct-ch1-comparing-numbers
+  estimatedMinutes: 8
+content:
+  prompt: If each of the rows follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - circle-comparisons
+  options:
+    - id: option-a
+      assetRef: limit-option-a
+      accessibleLabel: A grey circle is less than or equal to 6
+    - id: option-b
+      assetRef: limit-option-b
+      accessibleLabel: A grey circle is less than or equal to 4
+    - id: option-c
+      assetRef: limit-option-c
+      accessibleLabel: A grey circle is less than or equal to 5
+    - id: option-d
+      assetRef: limit-option-d
+      accessibleLabel: A grey circle is less than or equal to 9
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Every grey circle in a row stands for the same digit, and the value on the right is the
+    largest digit that keeps the comparison true. In the last row the numbers are
+    _ _ 506 _ and _ 5 _ 60 _. Using 5 gives 555065 < 555605, which holds, while 6 gives
+    665066 < 656606, which fails. So the limit is 5.
+  assetRefs: []
+assets:
+  - ref: circle-comparisons
+    file: ../assets/circle-comparisons.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows, each comparing two six-digit numbers built from white digit circles and grey
+      blank circles, with a limit for the grey circle shown at the right of the first three
+    position: 0
+  - ref: limit-option-a
+    file: ../assets/limit-option-a.png
+    role: option
+    visibility: public
+    alt: Grey circle limit, option a
+    position: 1
+  - ref: limit-option-b
+    file: ../assets/limit-option-b.png
+    role: option
+    visibility: public
+    alt: Grey circle limit, option b
+    position: 2
+  - ref: limit-option-c
+    file: ../assets/limit-option-c.png
+    role: option
+    visibility: public
+    alt: Grey circle limit, option c
+    position: 3
+  - ref: limit-option-d
+    file: ../assets/limit-option-d.png
+    role: option
+    visibility: public
+    alt: Grey circle limit, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 4 answer and solution"

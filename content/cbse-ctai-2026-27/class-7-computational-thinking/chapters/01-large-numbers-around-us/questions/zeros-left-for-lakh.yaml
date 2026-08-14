@@ -1,0 +1,54 @@
+id: c7-ct-large-numbers-zeros-left-for-lakh
+slug: zeros-left-for-lakh
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch1-number-names
+    - c7-ct-ch1-place-value
+  primaryTopic: c7-ct-ch1-number-names
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - number-name-zeros
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "00"
+    - id: option-c
+      text: "000"
+    - id: option-d
+      text: "0000"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each row names a number and then some letters after the dash. The letters count how many
+    zeros to take away. A crore has 7 zeros and "re" is 2 letters, leaving 5. A lakh has 5
+    zeros and "kh" is 2 letters, leaving 3, which is 000.
+  assetRefs: []
+assets:
+  - ref: number-name-zeros
+    file: ../assets/number-name-zeros.png
+    role: stem
+    visibility: public
+    alt: >-
+      Rows pairing Crore - re with 00000, Million - ion with 000, Thousand - d with 00,
+      Billion - llion with 0000, and Lakh - kh with a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 5 answer and solution"

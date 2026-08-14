@@ -1,0 +1,49 @@
+id: c7-ct-large-numbers-profession-and-salary-of-calvin
+slug: profession-and-salary-of-calvin
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-reasoning-with-clues
+    - c7-ct-ch1-logical-puzzles
+  primaryTopic: c7-ct-ch1-reasoning-with-clues
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    4 friends, Alex, Bob, Calvin and David have a different profession - Doctor, Lawyer,
+    Cricketer, and Engineer - and earn a different salary - Rs. 40,000, Rs. 50,000, Rs. 60,000
+    and Rs. 70,000 per year (not necessarily in the same order). The cricketer earns the
+    highest. Alex earns more than Bob, while the doctor earns more than David, who is the
+    engineer. Bob is the lawyer, and neither Bob nor David has an exact salary of Rs. 50,000.
+    Which of these options shows the correct profession and salary of Calvin?
+  options:
+    - id: option-a
+      text: "Cricketer - Rs. 70,000"
+    - id: option-b
+      text: "Doctor - Rs. 60,000"
+    - id: option-c
+      text: "Doctor - Rs. 50,000"
+    - id: option-d
+      text: "Doctor - Rs. 40,000"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Bob is the lawyer and David the engineer, and neither earns 50,000, so the doctor does. The
+    doctor out-earns David, so David is on 40,000, leaving 60,000 for Bob. Alex earns more than
+    Bob, so Alex takes 70,000 as the cricketer, and Calvin is the doctor on 50,000.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 9 answer and solution"

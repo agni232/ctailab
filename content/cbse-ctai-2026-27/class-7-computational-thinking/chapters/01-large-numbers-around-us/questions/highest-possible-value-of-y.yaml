@@ -1,0 +1,47 @@
+id: c7-ct-large-numbers-highest-possible-value-of-y
+slug: highest-possible-value-of-y
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch1-making-numbers
+    - c7-ct-ch1-digit-constraints
+  primaryTopic: c7-ct-ch1-making-numbers
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    'X' is a 6-digit number formed using exactly three different digits. One of the digits
+    appears once, another appears twice, and the third appears three times. When 2 lakhs are
+    added to 'X', the resulting number 'Y' is still a 6-digit number. What is the highest
+    possible value of 'Y'?
+  options:
+    - id: option-a
+      text: "977889"
+    - id: option-b
+      text: "999999"
+    - id: option-c
+      text: "999988"
+    - id: option-d
+      text: "999887"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Y stays six digits, so X cannot start with 8 or more, because 800000 + 200000 already
+    reaches seven digits. So X starts with 7. To make X as large as possible, give 9 the three
+    repeats and 8 the two, which gives X = 799988. Then Y = 799988 + 200000 = 999988.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 1 answer and solution"
