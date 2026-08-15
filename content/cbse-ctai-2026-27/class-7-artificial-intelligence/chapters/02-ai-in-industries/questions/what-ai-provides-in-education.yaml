@@ -1,0 +1,42 @@
+id: c7-ai-industries-what-ai-provides-in-education
+slug: what-ai-provides-in-education
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-ai-in-education
+  primaryTopic: c7-ai-ch2-ai-in-education
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    In education, AI provides:
+  options:
+    - id: option-a
+      text: "Cancelling classes"
+    - id: option-b
+      text: "Personalised learning"
+    - id: option-c
+      text: "Reducing learning"
+    - id: option-d
+      text: "Extra homework"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    AI can follow how each student is doing and adjust the lessons to suit them, which is
+    personalised learning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise A answer"

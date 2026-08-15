@@ -1,0 +1,45 @@
+id: c7-ct-decimals-smaller-of-the-two-original-numbers
+slug: smaller-of-the-two-original-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch3-place-of-the-point
+    - c7-ct-ch3-decimals
+  primaryTopic: c7-ct-ch3-place-of-the-point
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Two decimal numbers differ by 3.6. In one of the numbers, the decimal point is moved one
+    place to the right. After this change, both numbers become equal. Which was the smaller of
+    the two original numbers before shifting the decimal point?
+  options:
+    - id: option-a
+      text: "0.4"
+    - id: option-b
+      text: "0.36"
+    - id: option-c
+      text: "3.6"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Moving the point one place right multiplies by 10, so the smaller number times 10 equals
+    the larger. If the smaller is s, then 10s - s = 3.6, so 9s = 3.6 and s = 0.4.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 3 question 1 answer and solution"

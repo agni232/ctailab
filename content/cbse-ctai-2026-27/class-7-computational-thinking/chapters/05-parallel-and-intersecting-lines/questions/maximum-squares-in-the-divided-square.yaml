@@ -1,0 +1,46 @@
+id: c7-ct-parallel-lines-maximum-squares-in-the-divided-square
+slug: maximum-squares-in-the-divided-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-counting-figures
+    - c7-ct-ch5-parallel-lines
+  primaryTopic: c7-ct-ch5-counting-figures
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Each side of a square is divided into three equal parts by marking points on it. Using these
+    points as endpoints, line segments are drawn inside the square, such that each line segment
+    is parallel to at least one side of the square. What is the maximum number of squares that
+    can be found in the resulting figure?
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "14"
+    - id: option-d
+      text: "16"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The segments cut the square into a 3 by 3 grid. Count 9 small squares, 4 squares made of
+    2 by 2 cells, and the whole square itself, giving 9 + 4 + 1 = 14.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 5 question 1 answer and solution"

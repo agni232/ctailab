@@ -1,0 +1,114 @@
+id: cbse-2026-27-c7-ai-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 1 exercise from the Class 7 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c7-ai-domains-technique-that-predicts-numerical-values
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 54
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c7-ai-domains-domain-that-works-with-images-and-videos
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 54
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c7-ai-domains-what-clustering-is-used-for
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 54
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c7-ai-domains-output-of-classification
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 54
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c7-ai-domains-data-used-for-final-evaluation
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 54
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c7-ai-domains-blank-regression-predicts
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c7-ai-domains-blank-clustering-does-not-require
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c7-ai-domains-blank-computer-vision-works-with
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c7-ai-domains-blank-nlp-helps-machines-understand
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c7-ai-domains-blank-a-dataset-is-divided-into
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c7-ai-domains-difference-between-classification-and-regression
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c7-ai-domains-what-is-clustering
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c7-ai-domains-importance-of-datasets-in-ai
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c7-ai-domains-steps-involved-in-computer-vision
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c7-ai-domains-how-nlp-helps-communication-systems
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c7-ai-domains-true-or-false-about-ai-domains
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise D"
+  - questionId: c7-ai-domains-identify-the-ai-domain
+    questionVersion: 1
+    position: 17
+    displayNumber: "E1"
+    sourcePage: 55
+    sourceSection: "Chapter 1 Exercise E"

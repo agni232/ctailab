@@ -1,0 +1,58 @@
+id: c7-ct-decimals-how-many-decimals-fit-the-blank
+slug: how-many-decimals-fit-the-blank
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-comparing-decimals
+    - c7-ct-ch3-logical-puzzles
+  primaryTopic: c7-ct-ch3-comparing-decimals
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Alex has to fill in the blank with a DECIMAL NUMBER formed using every digit among 0, 1, 2,
+    3, and 4, each exactly once, where the sum of the digits before the decimal point is equal
+    to the sum of the digits after the decimal point, the digits before the decimal point are in
+    descending order and the digits after the decimal point are in ascending order, and the
+    conditions of "<" are satisfied. How many different numbers can be placed in the blank?
+  stimulus:
+    assetRefs:
+      - inequality-blank
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "More than 4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The five digits add to 10, so each side of the point must add to 5, giving the splits
+    (1, 4, 0) with (2, 3) and (1, 4) with (0, 2, 3). Ordering each side as required gives
+    41.023, 32.014, 410.23, and 320.14. Only 41.023, 320.14, and 410.23 lie between 34.201 and
+    412.03, so 3 numbers are possible.
+  assetRefs: []
+assets:
+  - ref: inequality-blank
+    file: ../assets/inequality-blank.png
+    role: stem
+    visibility: public
+    alt: The statement 34.201 is less than a blank, which is less than 412.03
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 3 question 7 answer and solution"

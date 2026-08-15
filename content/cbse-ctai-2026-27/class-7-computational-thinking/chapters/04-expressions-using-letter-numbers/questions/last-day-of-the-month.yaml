@@ -1,0 +1,57 @@
+id: c7-ct-letter-numbers-last-day-of-the-month
+slug: last-day-of-the-month
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch4-logical-puzzles
+    - c7-ct-ch4-forming-expressions
+  primaryTopic: c7-ct-ch4-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    All the cells having 'x' in the given calendar represent dates that are consecutive
+    multiples of a particular number. The first 'x' represents the first Thursday of the month,
+    as shown below. Which of the following is the last day of the month?
+  stimulus:
+    assetRefs:
+      - november-calendar
+  options:
+    - id: option-a
+      text: "Monday"
+    - id: option-b
+      text: "Sunday"
+    - id: option-c
+      text: "Saturday"
+    - id: option-d
+      text: "Friday"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each marked cell sits 6 days after the previous one, so the common number is 6 and the dates
+    are 6, 12, 18, and 24. The last mark, 24 November, falls on a Monday, and November ends on
+    the 30th, which is 6 days later, a Sunday.
+  assetRefs: []
+assets:
+  - ref: november-calendar
+    file: ../assets/november-calendar.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A November calendar grid with columns Monday to Sunday and an x marked on a Thursday, then
+      a Wednesday, then a Tuesday, then a Monday in the following weeks
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 4 question 10 answer and solution"

@@ -1,0 +1,28 @@
+topics:
+  - id: c7-ai-ch4-ai-ethics
+    slug: ai-ethics
+    title: AI Ethics
+    position: 1
+    status: published
+  - id: c7-ai-ch4-bias-in-ai
+    slug: bias-in-ai
+    title: Bias in AI
+    position: 2
+    parentId: c7-ai-ch4-ai-ethics
+    status: published
+  - id: c7-ai-ch4-responsible-ai
+    slug: responsible-ai
+    title: Responsible AI
+    position: 3
+    parentId: c7-ai-ch4-ai-ethics
+    status: published
+  - id: c7-ai-ch4-digital-citizenship
+    slug: digital-citizenship
+    title: Digital Citizenship
+    position: 4
+    status: published
+  - id: c7-ai-ch4-data-and-privacy
+    slug: data-and-privacy
+    title: Data and Privacy
+    position: 5
+    status: published

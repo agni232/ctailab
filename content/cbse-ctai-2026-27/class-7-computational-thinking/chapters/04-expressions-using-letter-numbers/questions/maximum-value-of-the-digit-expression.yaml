@@ -1,0 +1,54 @@
+id: c7-ct-letter-numbers-maximum-value-of-the-digit-expression
+slug: maximum-value-of-the-digit-expression
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch4-constraints-and-inequalities
+    - c7-ct-ch4-logical-puzzles
+  primaryTopic: c7-ct-ch4-constraints-and-inequalities
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    5A, 5B, and C9 are 2-digit numbers, where A, B, and C represent one of the digits of the
+    respective numbers, and A + B + C = 15. Find the MAXIMUM possible value of 3B + 4C + 8, if:
+  stimulus:
+    assetRefs:
+      - two-digit-inequality
+  options:
+    - id: option-a
+      text: "43"
+    - id: option-b
+      text: "39"
+    - id: option-c
+      text: "31"
+    - id: option-d
+      text: "36"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Because 5B must exceed C9, C can be at most 4, so take C = 4 and A + B = 11. B cannot be 6
+    or more, since then no digit A keeps 5A greater than 5B, so the largest workable B is 5,
+    giving 56 > 55 > 49. Then 3(5) + 4(4) + 8 = 15 + 16 + 8 = 39.
+  assetRefs: []
+assets:
+  - ref: two-digit-inequality
+    file: ../assets/two-digit-inequality.png
+    role: stem
+    visibility: public
+    alt: "The condition 5A greater than 5B greater than C9"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 4 question 9 answer and solution"

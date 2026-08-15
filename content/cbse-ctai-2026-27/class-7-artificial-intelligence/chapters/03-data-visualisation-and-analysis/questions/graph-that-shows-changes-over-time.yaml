@@ -1,0 +1,42 @@
+id: c7-ai-data-viz-graph-that-shows-changes-over-time
+slug: graph-that-shows-changes-over-time
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch3-data-visualisation
+  primaryTopic: c7-ai-ch3-data-visualisation
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which type of graph is best used to show changes over time?
+  options:
+    - id: option-a
+      text: "Pie chart"
+    - id: option-b
+      text: "Line graph"
+    - id: option-c
+      text: "Bar chart"
+    - id: option-d
+      text: "Table"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A line graph joins values in order, so the rise and fall of the line shows how something
+    changes over time.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise A answer"

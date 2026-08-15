@@ -1,0 +1,54 @@
+id: c7-ct-number-play-value-of-n-plus-s
+slug: value-of-n-plus-s
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-digit-arrangement
+    - c7-ct-ch6-properties-of-numbers
+  primaryTopic: c7-ct-ch6-digit-arrangement
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the given image, S, T, and N represent distinct single-digit numbers, where T is greater
+    than S. What is the value of N + S?
+  stimulus:
+    assetRefs:
+      - letter-addition
+  options:
+    - id: option-a
+      text: "13"
+    - id: option-b
+      text: "12"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The units column gives 6 + N = 8, so N = 2 with no carry. The remaining ST + TS = 176 needs
+    S + T = 16, and since the digits are distinct the only pair is 9 and 7. With T greater than
+    S, S = 7, so N + S = 2 + 7 = 9.
+  assetRefs: []
+assets:
+  - ref: letter-addition
+    file: ../assets/letter-addition.png
+    role: stem
+    visibility: public
+    alt: "A column addition where S T 6 plus T S N gives 1 7 6 8"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 34
+    section: "Chapter 6 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 6 question 2 answer and solution"

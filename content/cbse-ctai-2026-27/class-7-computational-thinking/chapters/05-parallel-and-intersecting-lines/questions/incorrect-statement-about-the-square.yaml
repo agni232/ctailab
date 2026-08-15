@@ -1,0 +1,58 @@
+id: c7-ct-parallel-lines-incorrect-statement-about-the-square
+slug: incorrect-statement-about-the-square
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-parallel-lines
+    - c7-ct-ch5-lines-and-angles
+  primaryTopic: c7-ct-ch5-parallel-lines
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    ABCD is a square of side length 4 m. Raj starts from point A and walks North to reach point
+    D. From point D, he further walks 4 m without taking any turns and reaches point P. At P, he
+    turns 135 degrees clockwise and walks a certain distance and stops only when he reaches a
+    point on the square. Which of the following statements is INCORRECT with respect to the
+    boundary of the square and the path taken?
+  stimulus:
+    assetRefs:
+      - square-abcd
+  options:
+    - id: option-a
+      text: "PC is parallel to DB"
+    - id: option-b
+      text: "angle PCD = angle DCA"
+    - id: option-c
+      text: "PC is not equal to AC"
+    - id: option-d
+      text: "angle DPC = angle DCP"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    After the 135 degree turn Raj walks to C, and triangle PDC is a right-angled triangle with
+    angle DPC = angle PCD = 45 degrees. PC and DB are hypotenuses of congruent triangles, so PC
+    is parallel to DB and equal in length to it. Since DB is a diagonal of the square, PC equals
+    AC as well, which makes "PC is not equal to AC" the incorrect statement.
+  assetRefs: []
+assets:
+  - ref: square-abcd
+    file: ../assets/square-abcd.png
+    role: stem
+    visibility: public
+    alt: A square with A at the bottom left, B at the bottom right, C at the top right, and D at the top left
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 10 answer and solution"

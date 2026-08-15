@@ -1,0 +1,45 @@
+id: c7-ai-data-viz-blank-unstructured-data-includes
+slug: blank-unstructured-data-includes
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch3-types-of-data
+  primaryTopic: c7-ai-ch3-types-of-data
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Unstructured data includes"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "and videos."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["images", "pictures", "image"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Images and videos have no table structure, so both are examples of unstructured data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise B answer"

@@ -1,0 +1,38 @@
+topics:
+  - id: c7-ct-ch3-decimals
+    slug: decimals
+    title: Decimals
+    position: 1
+    status: published
+  - id: c7-ct-ch3-place-of-the-point
+    slug: place-of-the-point
+    title: Place of the Decimal Point
+    position: 2
+    parentId: c7-ct-ch3-decimals
+    status: published
+  - id: c7-ct-ch3-comparing-decimals
+    slug: comparing-decimals
+    title: Comparing Decimals
+    position: 3
+    parentId: c7-ct-ch3-decimals
+    status: published
+  - id: c7-ct-ch3-number-line
+    slug: number-line
+    title: The Number Line
+    position: 4
+    status: published
+  - id: c7-ct-ch3-measurement
+    slug: measurement
+    title: Measurement
+    position: 5
+    status: published
+  - id: c7-ct-ch3-number-series
+    slug: number-series
+    title: Number Series
+    position: 6
+    status: published
+  - id: c7-ct-ch3-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

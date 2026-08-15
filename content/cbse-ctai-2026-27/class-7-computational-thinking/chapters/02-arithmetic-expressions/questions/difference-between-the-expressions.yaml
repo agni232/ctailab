@@ -1,0 +1,56 @@
+id: c7-ct-arithmetic-difference-between-the-expressions
+slug: difference-between-the-expressions
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-order-of-operations
+    - c7-ct-ch2-expressions
+  primaryTopic: c7-ct-ch2-order-of-operations
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In the following expression, each ball with a mathematical operator is swapped with the
+    ball immediately to its left, to form a new arithmetic expression. What will be the value
+    of NEW EXPRESSION - ORIGINAL EXPRESSION?
+  stimulus:
+    assetRefs:
+      - ball-expression
+  options:
+    - id: option-a
+      text: "63"
+    - id: option-b
+      text: "73"
+    - id: option-c
+      text: "- 63"
+    - id: option-d
+      text: "- 73"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The original reads 8 7 + 1 5 - 3, that is 87 + 15 - 3 = 99. Moving each operator ball one
+    place left rearranges it to 8 + 7 1 - 5 3, that is 8 + 71 - 53 = 26. The difference is
+    26 - 99 = -73.
+  assetRefs: []
+assets:
+  - ref: ball-expression
+    file: ../assets/ball-expression.png
+    role: stem
+    visibility: public
+    alt: >-
+      A row of balls reading 8, 7, plus, 1, 5, minus, 3 from left to right, labelled Expression
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 8 answer and solution"

@@ -1,0 +1,39 @@
+id: c7-ai-domains-how-nlp-helps-communication-systems
+slug: how-nlp-helps-communication-systems
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch1-natural-language-processing
+  primaryTopic: c7-ai-ch1-natural-language-processing
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How does NLP help in communication systems?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Machines understand human language"
+    - "Chatbots and translation"
+    - "Voice assistants"
+solution:
+  text: >-
+    NLP lets machines understand human language, which is what makes chatbots, translation
+    tools, and voice assistants possible.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise C answer"

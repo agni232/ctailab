@@ -1,0 +1,35 @@
+topics:
+  - id: c7-ai-ch2-ai-in-industries
+    slug: ai-in-industries
+    title: AI in Industries
+    position: 1
+    status: published
+  - id: c7-ai-ch2-ai-in-healthcare
+    slug: ai-in-healthcare
+    title: AI in Healthcare
+    position: 2
+    parentId: c7-ai-ch2-ai-in-industries
+    status: published
+  - id: c7-ai-ch2-ai-in-education
+    slug: ai-in-education
+    title: AI in Education
+    position: 3
+    parentId: c7-ai-ch2-ai-in-industries
+    status: published
+  - id: c7-ai-ch2-ai-in-transport
+    slug: ai-in-transport
+    title: AI in Transport
+    position: 4
+    parentId: c7-ai-ch2-ai-in-industries
+    status: published
+  - id: c7-ai-ch2-ai-in-communication
+    slug: ai-in-communication
+    title: AI in Communication
+    position: 5
+    parentId: c7-ai-ch2-ai-in-industries
+    status: published
+  - id: c7-ai-ch2-benefits-of-ai
+    slug: benefits-of-ai
+    title: Benefits of AI
+    position: 6
+    status: published

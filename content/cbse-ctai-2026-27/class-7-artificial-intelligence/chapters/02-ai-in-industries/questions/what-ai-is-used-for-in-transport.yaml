@@ -1,0 +1,42 @@
+id: c7-ai-industries-what-ai-is-used-for-in-transport
+slug: what-ai-is-used-for-in-transport
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-ai-in-transport
+  primaryTopic: c7-ai-ch2-ai-in-transport
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    In transport systems, AI is used to:
+  options:
+    - id: option-a
+      text: "Manage traffic"
+    - id: option-b
+      text: "Increase traffic congestion"
+    - id: option-c
+      text: "Stop route planning"
+    - id: option-d
+      text: "Remove public transport"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Traffic control systems use AI to time signals, predict jams, and suggest better routes, all
+    of which is managing traffic.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise A answer"

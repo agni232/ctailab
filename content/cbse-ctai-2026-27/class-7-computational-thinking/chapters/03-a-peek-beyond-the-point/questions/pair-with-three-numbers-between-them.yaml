@@ -1,0 +1,59 @@
+id: c7-ct-decimals-pair-with-three-numbers-between-them
+slug: pair-with-three-numbers-between-them
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-comparing-decimals
+    - c7-ct-ch3-place-of-the-point
+  primaryTopic: c7-ct-ch3-comparing-decimals
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Seven decimal numbers, A-G, are given. Step 1: arrange the numbers in ascending order to
+    form Arrangement 1. Step 2: modify the numbers so that numbers in odd positions have the
+    decimal point moved one place to the right and numbers in even positions have it moved one
+    place to the left. Step 3: arrange the modified numbers again in ascending order to form
+    Arrangement 2. In Arrangement 2, which pair(s) of numbers have exactly three numbers between
+    them?
+  stimulus:
+    assetRefs:
+      - seven-decimals
+  options:
+    - id: option-a
+      text: "A and E"
+    - id: option-b
+      text: "G and D"
+    - id: option-c
+      text: "C and F"
+    - id: option-d
+      text: "E and D"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Arrangement 1 is G 0.005, A 0.05, B 0.505, E 0.55, C 5.05, F 5.005, D 5.55 in ascending
+    order. Multiplying the odd positions by 10 and dividing the even positions by 10 and then
+    sorting again gives Arrangement 2, in which only E and D have exactly three numbers between
+    them.
+  assetRefs: []
+assets:
+  - ref: seven-decimals
+    file: ../assets/seven-decimals.png
+    role: stem
+    visibility: public
+    alt: "Seven decimals labelled A to G: 0.05, 0.505, 5.05, 5.55, 0.55, 5.005, 0.005"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 22
+    section: "Chapter 3 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 3 question 10 answer and solution"

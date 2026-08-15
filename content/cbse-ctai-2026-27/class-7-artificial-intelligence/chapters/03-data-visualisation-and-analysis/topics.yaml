@@ -1,0 +1,33 @@
+topics:
+  - id: c7-ai-ch3-data
+    slug: data
+    title: Data
+    position: 1
+    status: published
+  - id: c7-ai-ch3-types-of-data
+    slug: types-of-data
+    title: Structured and Unstructured Data
+    position: 2
+    parentId: c7-ai-ch3-data
+    status: published
+  - id: c7-ai-ch3-data-collection
+    slug: data-collection
+    title: Data Collection
+    position: 3
+    parentId: c7-ai-ch3-data
+    status: published
+  - id: c7-ai-ch3-data-formats
+    slug: data-formats
+    title: Data Formats
+    position: 4
+    status: published
+  - id: c7-ai-ch3-data-visualisation
+    slug: data-visualisation
+    title: Data Visualisation
+    position: 5
+    status: published
+  - id: c7-ai-ch3-precision-and-accuracy
+    slug: precision-and-accuracy
+    title: Precision and Accuracy
+    position: 6
+    status: published

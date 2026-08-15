@@ -1,0 +1,45 @@
+id: c7-ai-data-viz-blank-a-database-stores-data-in
+slug: blank-a-database-stores-data-in
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch3-data-formats
+  primaryTopic: c7-ai-ch3-data-formats
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "A database stores data in"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "and columns."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["rows", "row"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    A database table is built from rows and columns, so the missing word is rows.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise B answer"

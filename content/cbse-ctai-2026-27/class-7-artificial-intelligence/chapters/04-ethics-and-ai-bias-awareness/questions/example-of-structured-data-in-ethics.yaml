@@ -1,0 +1,42 @@
+id: c7-ai-ethics-example-of-structured-data-in-ethics
+slug: example-of-structured-data-in-ethics
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch4-data-and-privacy
+  primaryTopic: c7-ai-ch4-data-and-privacy
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which of the following is an example of structured data?
+  options:
+    - id: option-a
+      text: "Video footage"
+    - id: option-b
+      text: "A table of student marks in a spreadsheet"
+    - id: option-c
+      text: "A written paragraph"
+    - id: option-d
+      text: "A collection of photos in a gallery"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Structured data is arranged in rows and columns. A spreadsheet table of marks is arranged
+    that way; video, paragraphs, and photo galleries are not.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise A answer"

@@ -1,0 +1,58 @@
+id: c7-ct-decimals-day-of-least-difference-in-length
+slug: day-of-least-difference-in-length
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-measurement
+    - c7-ct-ch3-number-series
+  primaryTopic: c7-ct-ch3-measurement
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Raj measures the lengths of two objects, Object A and Object B, using a ruler marked in
+    centimetres. On Day 1, Object A measures 5.2 cm, and its length decreases by 1 line on Day
+    2, 2 lines on Day 3, 3 lines on Day 4, and so on, following the same pattern. On Day 1,
+    Object B measures 1.2 cm, and its length increases by 1 line on Day 2, 2 lines on Day 3, 3
+    lines on Day 4, and so on, following the same pattern. On which day will the difference
+    between the lengths of the two objects be the least? Note: The scale is in centimetres.
+  stimulus:
+    assetRefs:
+      - centimetre-ruler
+  options:
+    - id: option-a
+      text: "Day 3"
+    - id: option-b
+      text: "Day 4"
+    - id: option-c
+      text: "Day 5"
+    - id: option-d
+      text: "Day 6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each centimetre on the ruler is split into 5 parts, so one line is 0.2 cm and the daily
+    changes are 0.2, 0.4, 0.6, 0.8 cm. Object A runs 5.2, 5, 4.6, 4, 3.2 and Object B runs 1.2,
+    1.4, 1.8, 2.4, 3.2. Both reach 3.2 cm on Day 5, so the difference is least then.
+  assetRefs: []
+assets:
+  - ref: centimetre-ruler
+    file: ../assets/centimetre-ruler.jpg
+    role: stem
+    visibility: public
+    alt: A ruler numbered 1 to 5 with four smaller lines between each pair of numbered marks
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 3 question 8 answer and solution"

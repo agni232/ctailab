@@ -1,0 +1,54 @@
+id: c7-ct-parallel-lines-edges-parallel-to-the-red-edge
+slug: edges-parallel-to-the-red-edge
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch5-shapes-and-solids
+    - c7-ct-ch5-parallel-lines
+  primaryTopic: c7-ct-ch5-shapes-and-solids
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    The following arrangement is formed using a cube and a cuboid. How many edges are parallel
+    to the edge highlighted by the red line?
+  stimulus:
+    assetRefs:
+      - cube-and-cuboid
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "6"
+    - id: option-c
+      text: "7"
+    - id: option-d
+      text: "8"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The cuboid contributes 4 edges parallel to the red one, since the red edge is itself one of
+    its four parallel edges and the remaining three plus the shared direction give 4. The cube
+    adds 3 more in the same direction, so 4 + 3 = 7.
+  assetRefs: []
+assets:
+  - ref: cube-and-cuboid
+    file: ../assets/cube-and-cuboid.png
+    role: stem
+    visibility: public
+    alt: A small cuboid joined to the side of a taller box, with one horizontal edge drawn in red
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 5 question 2 answer and solution"

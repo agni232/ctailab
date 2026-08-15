@@ -1,0 +1,56 @@
+id: c7-ct-triangles-maximum-right-angled-triangles-from-two-cuts
+slug: maximum-right-angled-triangles-from-two-cuts
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch7-types-of-triangles
+    - c7-ct-ch7-counting-figures
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    An equilateral triangle is given. Inside it, two straight lines are drawn in any direction.
+    If the triangle is cut along these two lines, what is the maximum number of right-angled
+    triangles that can be formed? Note: You cannot form a triangle by joining two or more
+    pieces.
+  stimulus:
+    assetRefs:
+      - equilateral-triangle
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A perpendicular from the top vertex to the base splits the triangle into two right-angled
+    triangles. A second line drawn perpendicular to that one cuts a further right-angled
+    triangle out of one half, giving 3 in all.
+  assetRefs: []
+assets:
+  - ref: equilateral-triangle
+    file: ../assets/equilateral-triangle.png
+    role: stem
+    visibility: public
+    alt: An equilateral triangle with no lines drawn inside it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 38
+    section: "Chapter 7 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 7 question 9 answer and solution"

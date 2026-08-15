@@ -1,0 +1,46 @@
+id: c7-ai-ethics-blank-balanced-data-helps-reduce-bias
+slug: blank-balanced-data-helps-reduce-bias
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch4-bias-in-ai
+  primaryTopic: c7-ai-ch4-bias-in-ai
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Using"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "and balanced data helps reduce bias."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["diverse", "varied", "diverse data"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Data that covers many different groups gives the system a fairer picture, so diverse and
+    balanced data reduces bias.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise B answer"

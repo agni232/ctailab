@@ -1,0 +1,17 @@
+id: cbse-2026-27-c7-ct-ch6-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 6.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-number-play-minimum-switches-to-light-all-bulbs
+    questionVersion: 1
+    position: 1
+    sourcePage: 36
+    sourceSection: "Chapter 6 The Thinking Spot"

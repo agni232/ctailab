@@ -1,0 +1,59 @@
+id: c7-ct-arithmetic-thinking-spot-shape-chosen-by-bob
+slug: thinking-spot-shape-chosen-by-bob
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch2-logical-puzzles
+    - c7-ct-ch2-reasoning-with-clues
+  primaryTopic: c7-ct-ch2-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Tom, Sam, Mariya, John, and Bob each selected a shape. They placed their shapes in the grid
+    below. Tom's shape is neither a circle nor a triangle. Sam's shape is in column number 3.
+    Mariya's shape is not in the first three rows. John's shape is neither square nor circle.
+    Which of the following shapes is chosen by Bob?
+  stimulus:
+    assetRefs:
+      - shape-grid
+  options:
+    - id: option-a
+      text: "Square"
+    - id: option-b
+      text: "Circle"
+    - id: option-c
+      text: "Hexagon"
+    - id: option-d
+      text: "Triangle"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Column 3 holds the star, so Sam has that. Only the hexagon lies outside the first three
+    rows, so Mariya has it. Tom cannot have the circle or triangle, leaving him the square.
+    John cannot have the square or circle, so he takes the triangle, and the circle is all that
+    remains for Bob.
+  assetRefs: []
+assets:
+  - ref: shape-grid
+    file: ../assets/shape-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A five by five grid with numbered rows and columns holding a triangle, a circle, a square,
+      a star, and a hexagon in different cells
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 The Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 27
+    section: "Chapter 2 The Thinking Spot answer and solution"

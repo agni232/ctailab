@@ -1,0 +1,45 @@
+id: c7-ct-arithmetic-operators-to-interchange-for-the-minimum
+slug: operators-to-interchange-for-the-minimum
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch2-operators
+    - c7-ct-ch2-order-of-operations
+  primaryTopic: c7-ct-ch2-operators
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which operators should be interchanged to get the minimum value of the given expression?
+    8 × 4 + 2 - 1
+  options:
+    - id: option-a
+      text: "× and +"
+    - id: option-b
+      text: "+ and -"
+    - id: option-c
+      text: "- and ×"
+    - id: option-d
+      text: "No change"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    As written the value is 32 + 2 - 1 = 33. Swapping the minus and the times gives
+    8 - 4 + 2 x 1 = 8 - 4 + 2 = 6, which is lower than any other swap and lower than leaving it
+    alone.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 6 answer and solution"

@@ -1,0 +1,48 @@
+id: c7-ct-fractions-original-length-of-the-rectangle
+slug: original-length-of-the-rectangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch8-fraction-of-a-quantity
+    - c7-ct-ch8-word-problems
+  primaryTopic: c7-ct-ch8-fraction-of-a-quantity
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A wire is bent to form a rectangle with length L and breadth B. After some time, the length
+    is increased by one-fifth of its original value, and the breadth is decreased by one-fifth
+    of its original value. After this change, the perimeter of the rectangle remains the same
+    and the area of the rectangle decreases by 100 sq. cm. What was the original length of the
+    rectangle?
+  options:
+    - id: option-a
+      text: "25 cm"
+    - id: option-b
+      text: "40 cm"
+    - id: option-c
+      text: "45 cm"
+    - id: option-d
+      text: "50 cm"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The new sides are 6L/5 and 4B/5, and equal perimeters give L + B = 6L/5 + 4B/5, which
+    simplifies to L = B. The area then drops from L squared to 24L squared over 25, a fall of
+    L squared over 25. Setting that to 100 gives L squared = 2500, so L = 50 cm.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 41
+    section: "Chapter 8 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 8 question 6 answer and solution"

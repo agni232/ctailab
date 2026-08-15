@@ -1,0 +1,49 @@
+id: c7-ct-fractions-statements-sufficient-for-the-liquid-fraction
+slug: statements-sufficient-for-the-liquid-fraction
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch8-fraction-of-a-quantity
+    - c7-ct-ch8-word-problems
+  primaryTopic: c7-ct-ch8-fraction-of-a-quantity
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Which of the following statements is/are sufficient to answer the given question? Question:
+    What fraction of the initial liquid remains in the vessel after Day 2? Statement 1: The
+    vessel originally contained 100 litres of liquid. Statement 2: On Day 1, the amount of
+    liquid that evaporates is equal to half of the quantity that would remain if one-third of
+    the initial liquid were removed. Statement 3: On Day 2, the liquid left in the vessel becomes
+    one-fourth of the quantity that was present at the beginning of Day 2.
+  options:
+    - id: option-a
+      text: "Statement 3 alone is sufficient"
+    - id: option-b
+      text: "Both Statement 1 and Statement 2 are necessarily required"
+    - id: option-c
+      text: "Both Statement 2 and Statement 3 are necessarily required"
+    - id: option-d
+      text: "Question cannot be answered even if all the Statements are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The question asks for a fraction, so the starting quantity in Statement 1 is not needed.
+    Statement 2 says a third evaporates on Day 1, leaving two-thirds, and Statement 3 says a
+    quarter of that remains, giving 2/3 x 1/4 = 1/6. Both are required.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 41
+    section: "Chapter 8 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 8 question 4 answer and solution"

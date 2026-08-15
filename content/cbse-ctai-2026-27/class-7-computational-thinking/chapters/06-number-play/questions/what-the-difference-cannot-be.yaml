@@ -1,0 +1,43 @@
+id: c7-ct-number-play-what-the-difference-cannot-be
+slug: what-the-difference-cannot-be
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-properties-of-numbers
+  primaryTopic: c7-ct-ch6-properties-of-numbers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A 2-digit number is formed using two different digits, and the digits are reversed to create
+    another 2-digit number. The difference between these 2 numbers CANNOT be:
+  options:
+    - id: option-a
+      text: "An even number"
+    - id: option-b
+      text: "An odd number"
+    - id: option-c
+      text: "A prime number"
+    - id: option-d
+      text: "An integer"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The numbers are 10X + Y and 10Y + X, so their difference is 9(X - Y), always a multiple of
+    9. Multiples of 9 are never prime, though they can be odd, even, and are always integers.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 6 question 6 answer and solution"

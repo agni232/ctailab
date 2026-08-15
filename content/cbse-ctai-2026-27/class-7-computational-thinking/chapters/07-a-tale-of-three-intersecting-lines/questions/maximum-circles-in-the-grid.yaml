@@ -1,0 +1,53 @@
+id: c7-ct-triangles-maximum-circles-in-the-grid
+slug: maximum-circles-in-the-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch7-logical-puzzles
+  primaryTopic: c7-ct-ch7-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A 3 x 3 grid is shown below. You need to place some circles in the cells without making
+    three in a row, column, and diagonal. How many circles at maximum can you place in the grid?
+  stimulus:
+    assetRefs:
+      - three-by-three-grid
+  options:
+    - id: option-a
+      text: "5"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each row can hold at most 2 circles, capping the total at 6. Placing 2 in the first row, one
+    in column 3 for each of the other rows, and filling the remaining spots so no diagonal has
+    three reaches exactly 6.
+  assetRefs: []
+assets:
+  - ref: three-by-three-grid
+    file: ../assets/three-by-three-grid.jpg
+    role: stem
+    visibility: public
+    alt: An empty three by three grid
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 39
+    section: "Chapter 7 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 79
+    section: "Chapter 7 Thinking Spot answer and solution"

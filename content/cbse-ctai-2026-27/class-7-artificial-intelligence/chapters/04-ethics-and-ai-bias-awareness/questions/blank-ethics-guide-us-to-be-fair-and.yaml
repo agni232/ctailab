@@ -1,0 +1,46 @@
+id: c7-ai-ethics-blank-ethics-guide-us-to-be-fair-and
+slug: blank-ethics-guide-us-to-be-fair-and
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch4-ai-ethics
+  primaryTopic: c7-ai-ch4-ai-ethics
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Ethics guide us to be fair and"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["responsible", "responsible."]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Ethics are about acting fairly and taking responsibility for what we do, so the missing word
+    is responsible.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise B answer"

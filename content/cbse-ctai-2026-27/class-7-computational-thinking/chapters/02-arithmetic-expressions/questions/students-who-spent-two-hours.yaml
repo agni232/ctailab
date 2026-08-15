@@ -1,0 +1,59 @@
+id: c7-ct-arithmetic-students-who-spent-two-hours
+slug: students-who-spent-two-hours
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-reading-tables
+    - c7-ct-ch2-reasoning-with-clues
+  primaryTopic: c7-ct-ch2-reading-tables
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    There is a seminar from 11:00 AM to 2:00 PM, where students must spend AT LEAST 1 hour in
+    the seminar. The table displays the number of students entering and exiting the seminar at
+    different times. What is the MAXIMUM possible number of students who spent at least 2 hours
+    in the seminar?
+  stimulus:
+    assetRefs:
+      - seminar-table
+  options:
+    - id: option-a
+      text: "60"
+    - id: option-b
+      text: "80"
+    - id: option-c
+      text: "100"
+    - id: option-d
+      text: "120"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Track the room hour by hour. 120 arrive at 11:00, then 60 leave and 40 arrive at 12:00,
+    then 40 leave and 80 arrive at 1:00, and everyone is out at 2:00. To maximise the two-hour
+    stayers, assume the students who leave are the ones who arrived most recently. That leaves
+    100 who were present for at least two hours.
+  assetRefs: []
+assets:
+  - ref: seminar-table
+    file: ../assets/seminar-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of times with in and out counts: 11:00 AM 120 in, 12:00 PM 40 in and 60 out,
+      1:00 PM 80 in and 40 out, and 2:00 PM 140 out
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 2 question 2 answer and solution"

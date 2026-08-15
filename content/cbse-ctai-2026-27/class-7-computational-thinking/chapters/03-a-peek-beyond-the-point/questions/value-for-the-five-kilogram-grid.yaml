@@ -1,0 +1,54 @@
+id: c7-ct-decimals-value-for-the-five-kilogram-grid
+slug: value-for-the-five-kilogram-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-number-series
+    - c7-ct-ch3-decimals
+  primaryTopic: c7-ct-ch3-number-series
+  estimatedMinutes: 7
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shaded-grids-weights
+  options:
+    - id: option-a
+      text: "2000"
+    - id: option-b
+      text: "4000"
+    - id: option-c
+      text: "40000"
+    - id: option-d
+      text: "8000"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count the shaded cells and multiply by the weight and by 100. The first row has 3 shaded
+    with 2 KG giving 600, the second has 5 with 4 KG giving 2000, and the third has 6 with 3 KG
+    giving 1800. The last row has 8 shaded with 5 KG, so 8 x 5 x 100 = 4000.
+  assetRefs: []
+assets:
+  - ref: shaded-grids-weights
+    file: ../assets/shaded-grids-weights.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows, each pairing a partly shaded grid of ten cells with a weight in kilograms and
+      an arrow to a number, the last replaced by a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 33
+    section: "Chapter 3 question 2 answer and solution"

@@ -1,0 +1,44 @@
+id: c7-ct-fractions-first-term-less-than-one
+slug: first-term-less-than-one
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch8-number-series
+    - c7-ct-ch8-fractions
+  primaryTopic: c7-ct-ch8-number-series
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A number sequence is mentioned below: 19/2, 38/6, 76/18, 152/54, ... Which will be the first
+    term of the series that will be less than 1?
+  options:
+    - id: option-a
+      text: "7th term of the series"
+    - id: option-b
+      text: "8th term of the series"
+    - id: option-c
+      text: "10th term of the series"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each term doubles the numerator and triples the denominator, giving 304/162, 608/486, and
+    1216/1458. The last of these is the 7th term and is the first one below 1.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 41
+    section: "Chapter 8 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 8 question 7 answer and solution"

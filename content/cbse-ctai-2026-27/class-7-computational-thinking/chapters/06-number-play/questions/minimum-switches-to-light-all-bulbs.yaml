@@ -1,0 +1,54 @@
+id: c7-ct-number-play-minimum-switches-to-light-all-bulbs
+slug: minimum-switches-to-light-all-bulbs
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch6-logical-puzzles
+  primaryTopic: c7-ct-ch6-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below are bulbs, each with a switch beneath it. When you press a switch, it lights up
+    ONLY the adjacent bulbs and not the bulb above the switch. What is the minimum number of
+    switches you need to press to light up all the bulbs?
+  stimulus:
+    assetRefs:
+      - row-of-bulbs
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each press lights the two neighbours of that switch, so the presses must cover all eight
+    bulbs. Pressing switches 2, 3, 6, and 7 lights every bulb in the row, and no smaller set
+    can, so 4 presses are needed.
+  assetRefs: []
+assets:
+  - ref: row-of-bulbs
+    file: ../assets/row-of-bulbs.jpg
+    role: stem
+    visibility: public
+    alt: A row of eight bulbs, each with an Off switch beneath it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 36
+    section: "Chapter 6 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 6 Thinking Spot answer and solution"

@@ -1,0 +1,38 @@
+id: c7-ai-ethics-why-transparency-is-important-in-ai
+slug: why-transparency-is-important-in-ai
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-responsible-ai
+  primaryTopic: c7-ai-ch4-responsible-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Why is transparency important in AI?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Users understand how decisions are made"
+    - "It builds trust"
+solution:
+  text: >-
+    Transparency lets users see how an AI reaches its decisions, and being able to see that is
+    what builds trust in the system.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise C answer"

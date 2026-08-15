@@ -1,0 +1,54 @@
+id: c7-ct-parallel-lines-next-clock-pair-in-the-series
+slug: next-clock-pair-in-the-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-lines-and-angles
+    - c7-ct-ch5-intersecting-lines
+  primaryTopic: c7-ct-ch5-lines-and-angles
+  estimatedMinutes: 7
+content:
+  prompt: If each of the given terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - clock-terms
+  options:
+    - id: option-a
+      text: "7 - 1"
+    - id: option-b
+      text: "2 - 8"
+    - id: option-c
+      text: "1 - 8"
+    - id: option-d
+      text: "5 - 11"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In each clock the hands form a straight line, and the pair below names the two positions
+    whose line is perpendicular to it, written smaller number first. The last clock points to 5
+    and 11, and the perpendicular line runs through 2 and 8.
+  assetRefs: []
+assets:
+  - ref: clock-terms
+    file: ../assets/clock-terms.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Four clocks whose hands form straight lines, labelled 3 - 9, 1 - 7, 6 - 12, and a question
+      mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 5 question 5 answer and solution"

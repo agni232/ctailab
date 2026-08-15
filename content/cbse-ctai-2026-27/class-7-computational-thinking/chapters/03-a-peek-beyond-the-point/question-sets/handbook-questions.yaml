@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 3 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-decimals-smaller-of-the-two-original-numbers
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-value-for-the-five-kilogram-grid
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-next-term-in-the-decimal-series
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-sensor-showing-the-correct-length
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-next-figure-in-the-average-series
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-least-possible-sum-on-the-number-line
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-how-many-decimals-fit-the-blank
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-day-of-least-difference-in-length
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-boxes-greater-after-swapping-digits
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 22
+    sourceSection: "Chapter 3: A Peek Beyond the Point"
+  - questionId: c7-ct-decimals-pair-with-three-numbers-between-them
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 22
+    sourceSection: "Chapter 3: A Peek Beyond the Point"

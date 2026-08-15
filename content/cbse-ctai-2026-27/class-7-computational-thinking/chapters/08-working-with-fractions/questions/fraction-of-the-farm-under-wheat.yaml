@@ -1,0 +1,56 @@
+id: c7-ct-fractions-fraction-of-the-farm-under-wheat
+slug: fraction-of-the-farm-under-wheat
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch8-fractions-in-pictures
+  primaryTopic: c7-ct-ch8-fractions-in-pictures
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A farmer has a square farm as shown in Image 1. He divides it into 4 equal parts as shown in
+    Image 2. Now, he allotted certain portions of land for specific purposes (Rice crop, Wheat
+    crop, Water) and some part of the farm is unused, as shown in Image 3. What fraction of the
+    new farm is occupied by wheat?
+  stimulus:
+    assetRefs:
+      - farm-images
+  options:
+    - id: option-a
+      text: "3/16"
+    - id: option-b
+      text: "1/4"
+    - id: option-c
+      text: "5/16"
+    - id: option-d
+      text: "6/16"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Splitting each of the 4 squares into 4 equal triangles gives 16 equal pieces. Five of them
+    are red for wheat, so wheat covers 5/16 of the farm.
+  assetRefs: []
+assets:
+  - ref: farm-images
+    file: ../assets/farm-images.png
+    role: stem
+    visibility: public
+    alt: >-
+      Image 1 is an empty square, Image 2 shows it split into four squares, and Image 3 colours
+      the parts red for wheat, green for rice, blue for water, and grey for unused area
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 41
+    section: "Chapter 8 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 82
+    section: "Chapter 8 question 5 answer and solution"

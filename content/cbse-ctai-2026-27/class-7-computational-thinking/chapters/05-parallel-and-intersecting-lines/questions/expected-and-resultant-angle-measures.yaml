@@ -1,0 +1,46 @@
+id: c7-ct-parallel-lines-expected-and-resultant-angle-measures
+slug: expected-and-resultant-angle-measures
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch5-intersecting-lines
+    - c7-ct-ch5-lines-and-angles
+  primaryTopic: c7-ct-ch5-intersecting-lines
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A computer draws two intersecting lines. One angle formed at the intersection is 70 degrees,
+    but originally, it was intended to be 40 degrees. Which of the following options shows the
+    respective 'Expected and Resultant' measures of one of the other angles?
+  options:
+    - id: option-a
+      text: "140 degrees and 110 degrees"
+    - id: option-b
+      text: "110 degrees and 140 degrees"
+    - id: option-c
+      text: "140 degrees and 170 degrees"
+    - id: option-d
+      text: "170 degrees and 140 degrees"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Angles on a straight line add to 180 degrees. The expected 40 degrees would have left
+    180 - 40 = 140 degrees, and the drawn 70 degrees leaves 180 - 70 = 110 degrees. So expected
+    and resultant are 140 and 110 degrees.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 9 answer and solution"

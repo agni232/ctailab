@@ -1,0 +1,75 @@
+id: c7-ct-triangles-option-with-right-angled-and-equilateral-triangles
+slug: option-with-right-angled-and-equilateral-triangles
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch7-types-of-triangles
+    - c7-ct-ch7-counting-figures
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Each option contains exactly two types of triangles from the following: a right-angled
+    triangle, an equilateral triangle, and a scalene triangle. Which option contains both a
+    right-angled triangle and an equilateral triangle? Note: Consider only those triangles whose
+    all three sides are clearly visible.
+  options:
+    - id: option-a
+      assetRef: triangles-option-a
+      accessibleLabel: A trapezium divided by two slanting lines and one upright line
+    - id: option-b
+      assetRef: triangles-option-b
+      accessibleLabel: A tall triangle above a rectangle split by a diagonal
+    - id: option-c
+      assetRef: triangles-option-c
+      accessibleLabel: An arrow-like figure with a triangle on the left and rectangles on the right
+    - id: option-d
+      assetRef: triangles-option-d
+      accessibleLabel: A rectangle crossed by lines meeting at a point on the right edge
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Reading the shapes in each option, a and d hold a scalene triangle with a right-angled
+    scalene triangle, and b holds a scalene triangle with an equilateral one. Only option c
+    contains both an equilateral triangle and a right-angled triangle.
+  assetRefs: []
+assets:
+  - ref: triangles-option-a
+    file: ../assets/triangles-option-a.png
+    role: option
+    visibility: public
+    alt: Figure of triangles, option a
+    position: 0
+  - ref: triangles-option-b
+    file: ../assets/triangles-option-b.png
+    role: option
+    visibility: public
+    alt: Figure of triangles, option b
+    position: 1
+  - ref: triangles-option-c
+    file: ../assets/triangles-option-c.png
+    role: option
+    visibility: public
+    alt: Figure of triangles, option c
+    position: 2
+  - ref: triangles-option-d
+    file: ../assets/triangles-option-d.png
+    role: option
+    visibility: public
+    alt: Figure of triangles, option d
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 38
+    section: "Chapter 7 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 7 question 6 answer and solution"

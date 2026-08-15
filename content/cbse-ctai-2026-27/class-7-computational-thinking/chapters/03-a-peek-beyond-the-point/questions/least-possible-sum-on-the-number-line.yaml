@@ -1,0 +1,57 @@
+id: c7-ct-decimals-least-possible-sum-on-the-number-line
+slug: least-possible-sum-on-the-number-line
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-number-line
+    - c7-ct-ch3-logical-puzzles
+  primaryTopic: c7-ct-ch3-number-line
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Four friends A, B, C, and D each select a distinct point on the following number line (from
+    0 to 1) such that A's point is 4th to the right of D's point, the value of C's point is at
+    least 0.4 and B's point has the highest value among all friends, and no two friends choose
+    adjacent points. What is the LEAST possible sum of the points chosen by all of them?
+  stimulus:
+    assetRefs:
+      - number-line-zero-to-one
+  options:
+    - id: option-a
+      text: "2.0"
+    - id: option-b
+      text: "1.9"
+    - id: option-c
+      text: "1.8"
+    - id: option-d
+      text: "1.4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The marks are 0.1 apart. B cannot take 0 because its value is the highest, A cannot take 0
+    because it sits 4 places right of D, and C is at least 0.4, so give 0 to D and 0.4 to A.
+    C must then skip past 0.5 to 0.6, and B must skip 0.7 to reach 0.8. The sum is
+    0 + 0.4 + 0.6 + 0.8 = 1.8.
+  assetRefs: []
+assets:
+  - ref: number-line-zero-to-one
+    file: ../assets/number-line-zero-to-one.png
+    role: stem
+    visibility: public
+    alt: A number line labelled Left and Right with eleven evenly spaced marks from 0 to 1
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 3 question 6 answer and solution"

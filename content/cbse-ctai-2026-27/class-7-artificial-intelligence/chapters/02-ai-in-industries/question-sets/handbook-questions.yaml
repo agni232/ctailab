@@ -1,0 +1,114 @@
+id: cbse-2026-27-c7-ai-ch2-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 2 exercise from the Class 7 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c7-ai-industries-what-ai-helps-industries-become
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c7-ai-industries-what-ai-mainly-helps-with-in-healthcare
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c7-ai-industries-what-ai-provides-in-education
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c7-ai-industries-what-ai-is-used-for-in-transport
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c7-ai-industries-how-ai-supports-decision-making
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c7-ai-industries-blank-doctors-detect-diseases-at-an
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c7-ai-industries-blank-robotic-surgery-makes-operations
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c7-ai-industries-blank-ai-learning-programs-understand-how-students
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c7-ai-industries-blank-traffic-control-systems-use
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c7-ai-industries-blank-ai-translation-tools-help-people-understand
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c7-ai-industries-how-ai-helps-in-healthcare
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c7-ai-industries-how-ai-supports-personalised-learning
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c7-ai-industries-how-ai-improves-transport-systems
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c7-ai-industries-two-advantages-of-ai-in-industries
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c7-ai-industries-how-ai-improves-customer-service
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c7-ai-industries-true-or-false-about-ai-in-industries
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 61
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c7-ai-industries-identify-the-ai-application-field
+    questionVersion: 1
+    position: 17
+    displayNumber: "E1"
+    sourcePage: 62
+    sourceSection: "Chapter 2 Exercise E"

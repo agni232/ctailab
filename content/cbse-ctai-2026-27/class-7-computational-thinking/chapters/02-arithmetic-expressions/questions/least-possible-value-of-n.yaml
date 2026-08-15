@@ -1,0 +1,45 @@
+id: c7-ct-arithmetic-least-possible-value-of-n
+slug: least-possible-value-of-n
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-expressions
+    - c7-ct-ch2-order-of-operations
+  primaryTopic: c7-ct-ch2-expressions
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The following expression has a whole number 'n'. If a blank can either take 'x4' or '-12',
+    what is the least possible value of 'n'? Expression: (n ____ ____ ) ____ = 96
+  options:
+    - id: option-a
+      text: "9"
+    - id: option-b
+      text: "18"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "72"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each blank is either x4 or -12, so try the combinations and keep the ones ending at 96. To
+    make n as small as possible you want as much multiplying as the arrangement allows. Working
+    the options through, n = 9 reaches 96 while nothing smaller does.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 5 answer and solution"

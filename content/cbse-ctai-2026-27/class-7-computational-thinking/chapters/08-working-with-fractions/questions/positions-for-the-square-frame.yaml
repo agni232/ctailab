@@ -1,0 +1,56 @@
+id: c7-ct-fractions-positions-for-the-square-frame
+slug: positions-for-the-square-frame
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch8-fractions-in-pictures
+    - c7-ct-ch8-logical-puzzles
+  primaryTopic: c7-ct-ch8-fractions-in-pictures
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A grid contains apples and flowers in some of its cells. A 3 x 3 square frame can be placed
+    on the grid without rotating and without extending outside the grid, covering exactly 9
+    cells. In how many different positions can the frame be placed so that at least one-third of
+    the covered cells contain flowers?
+  stimulus:
+    assetRefs:
+      - apples-and-flowers-grid
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    One-third of the 9 covered cells is 3, so the frame must cover at least 3 flowers. Sliding
+    the frame across every allowed position and counting flowers each time, 5 placements meet
+    the condition.
+  assetRefs: []
+assets:
+  - ref: apples-and-flowers-grid
+    file: ../assets/apples-and-flowers-grid.png
+    role: stem
+    visibility: public
+    alt: A grid of cells holding apples and flowers, beside an empty red 3 by 3 frame
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 42
+    section: "Chapter 8 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 85
+    section: "Chapter 8 question 9 answer and solution"

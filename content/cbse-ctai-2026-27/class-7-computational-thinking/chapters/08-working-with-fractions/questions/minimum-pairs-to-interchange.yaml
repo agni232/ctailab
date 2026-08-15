@@ -1,0 +1,55 @@
+id: c7-ct-fractions-minimum-pairs-to-interchange
+slug: minimum-pairs-to-interchange
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch8-logical-puzzles
+  primaryTopic: c7-ct-ch8-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    You have a collection of 10 different squares arranged as shown below. What is the minimum
+    number of pairs of squares you need to interchange to ensure that white and black squares
+    are arranged alternately? Note: If you swap 1 black square with 1 white square, it is
+    counted as 1 PAIR OF SQUARES being swapped.
+  stimulus:
+    assetRefs:
+      - black-and-white-squares
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Swapping the black square in position 2 with the white square in position 5 fixes the first
+    five squares. Swapping the black square in position 6 with the white square in position 9
+    fixes the rest, so 2 swaps are enough.
+  assetRefs: []
+assets:
+  - ref: black-and-white-squares
+    file: ../assets/black-and-white-squares.jpg
+    role: stem
+    visibility: public
+    alt: "A row of ten squares: three black, two white, two black, then three white"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 42
+    section: "Chapter 8 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 87
+    section: "Chapter 8 Thinking Spot answer and solution"

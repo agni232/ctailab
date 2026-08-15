@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ai-chapter-3
+slug: data-visualisation-and-analysis
+displayNumber: "3"
+title: Data Visualisation and Analysis
+summary: Collect data, tidy it up, turn it into charts, and read what those charts actually say.
+position: 3
+status: published
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 63
+    pageEnd: 72
+    section: "Chapter 3: Data Visualisation and Analysis"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 93
+    pageEnd: 95
+    section: "Chapter 3: Data Visualisation and Analysis"

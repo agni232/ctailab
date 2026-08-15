@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ct-chapter-6
+slug: number-play
+displayNumber: "6"
+title: Number Play
+summary: Arrange digits, satisfy grid rules, and chase the patterns hidden inside ordinary numbers.
+position: 6
+status: published
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 34
+    pageEnd: 36
+    section: "Chapter 6: Number Play"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 64
+    pageEnd: 72
+    section: "Chapter 6: Number Play"

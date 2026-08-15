@@ -1,0 +1,45 @@
+id: c7-ct-triangles-possible-lengths-of-the-third-side
+slug: possible-lengths-of-the-third-side
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch7-area-and-perimeter
+    - c7-ct-ch7-types-of-triangles
+  primaryTopic: c7-ct-ch7-area-and-perimeter
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    An isosceles triangle has a perimeter of 23 cm and all its side lengths are whole numbers.
+    The two equal sides are multiples of 3. How many different possible lengths can the third
+    side have?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The equal sides being multiples of 3 give (3, 3, 17), (6, 6, 11), and (9, 9, 5). The first
+    fails because 3 + 3 is less than 17, so only 2 lengths are possible for the third side.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 38
+    section: "Chapter 7 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 76
+    section: "Chapter 7 question 7 answer and solution"

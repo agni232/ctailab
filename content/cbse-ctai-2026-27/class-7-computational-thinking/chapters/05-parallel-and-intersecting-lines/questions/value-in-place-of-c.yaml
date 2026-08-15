@@ -1,0 +1,55 @@
+id: c7-ct-parallel-lines-value-in-place-of-c
+slug: value-in-place-of-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch5-logical-puzzles
+  primaryTopic: c7-ct-ch5-logical-puzzles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A, B, and C are all different numbers having any value among 1, 2, and 5. What will come in
+    place of C so that no two consecutive numbers are placed next to each other in any direction
+    (vertically, horizontally, or diagonally)?
+  stimulus:
+    assetRefs:
+      - consecutive-number-grid
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "None"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A touches both 3 and 4, so it can be neither 2 nor 5, leaving A = 1. That leaves 2 and 5 for
+    B and C. C touches 3, so C cannot be 2, which makes C = 5 and B = 2.
+  assetRefs: []
+assets:
+  - ref: consecutive-number-grid
+    file: ../assets/consecutive-number-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A cross-shaped grid with C and 3 on the top row, B, 8, A and 7 in the middle row, and 6
+      and 4 on the bottom row
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 5 Thinking Spot answer and solution"

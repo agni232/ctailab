@@ -1,0 +1,44 @@
+id: c7-ct-letter-numbers-sum-of-ages-after-thirty-six-years
+slug: sum-of-ages-after-thirty-six-years
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ct-ch4-forming-expressions
+    - c7-ct-ch4-simplifying-expressions
+  primaryTopic: c7-ct-ch4-forming-expressions
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    If the sum of the ages of Shubham and Shivam is 36, what would be the sum of their ages
+    after 36 years?
+  options:
+    - id: option-a
+      text: "108"
+    - id: option-b
+      text: "136"
+    - id: option-c
+      text: "72"
+    - id: option-d
+      text: "96"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Both people age by 36 years, so the sum grows by 72. Writing it out, (x + 36) + (y + 36) =
+    x + y + 72 = 36 + 72 = 108.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 4 question 6 answer and solution"

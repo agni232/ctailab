@@ -1,0 +1,45 @@
+id: c7-ct-parallel-lines-definitely-true-about-vertically-opposite-angles
+slug: definitely-true-about-vertically-opposite-angles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-intersecting-lines
+    - c7-ct-ch5-lines-and-angles
+  primaryTopic: c7-ct-ch5-intersecting-lines
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Two lines intersect at point K. One angle is (ax - 10) degrees and its vertically opposite
+    angle is (bx + 20) degrees. Which of the following is DEFINITELY true?
+  options:
+    - id: option-a
+      text: "a = b"
+    - id: option-b
+      text: "a is not equal to b"
+    - id: option-c
+      text: "x = 10"
+    - id: option-d
+      text: "a + b = 0"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Vertically opposite angles are equal, so ax - 10 = bx + 20, which gives (a - b)x = 30. That
+    product cannot be 30 if a - b is zero, so a and b must differ. The value of x depends on
+    a - b, and a + b cannot be zero for positive values.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 51
+    section: "Chapter 5 question 8 answer and solution"

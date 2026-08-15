@@ -1,0 +1,44 @@
+id: c7-ct-number-play-sum-of-the-highest-and-smallest-numbers
+slug: sum-of-the-highest-and-smallest-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-digit-arrangement
+  primaryTopic: c7-ct-ch6-digit-arrangement
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Using the digits 1, 2, 3, and 4, form the highest and the smallest three-digit numbers such
+    that each number contains exactly two different digits. What is the sum of the two numbers
+    formed?
+  options:
+    - id: option-a
+      text: "545"
+    - id: option-b
+      text: "555"
+    - id: option-c
+      text: "565"
+    - id: option-d
+      text: "575"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The largest such number uses the two biggest digits as 443, and the smallest uses the two
+    smallest as 112. Their sum is 443 + 112 = 555.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 6 question 5 answer and solution"

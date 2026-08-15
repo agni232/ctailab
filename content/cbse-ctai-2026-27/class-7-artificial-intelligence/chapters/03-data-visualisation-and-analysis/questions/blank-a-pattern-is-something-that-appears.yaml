@@ -1,0 +1,46 @@
+id: c7-ai-data-viz-blank-a-pattern-is-something-that-appears
+slug: blank-a-pattern-is-something-that-appears
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch3-data
+  primaryTopic: c7-ai-ch3-data
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "A pattern is something that appears"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "in the data."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["repeatedly", "again and again", "repeated"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    A one-off value tells you little. What makes something a pattern is that it appears
+    repeatedly.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise B answer"

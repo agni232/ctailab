@@ -1,0 +1,56 @@
+id: c7-ct-number-play-cells-equal-to-the-rest-of-the-row-and-column
+slug: cells-equal-to-the-rest-of-the-row-and-column
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-number-grids
+    - c7-ct-ch6-properties-of-numbers
+  primaryTopic: c7-ct-ch6-number-grids
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    How many cells contain a digit equal to the sum of all the other digits in its corresponding
+    row and column combined?
+  stimulus:
+    assetRefs:
+      - sum-cell-grid
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Small digits like 1 and 2 can never match the larger totals around them, so only the bigger
+    entries are worth checking. The 6, one of the 3s, the 4, and the 5 each equal the sum of the
+    other digits in their row and column, so 4 cells qualify.
+  assetRefs: []
+assets:
+  - ref: sum-cell-grid
+    file: ../assets/sum-cell-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with 3 and 6 in the first row, 1, 2, 3 in the second, 4 and 2 in the
+      third, and 5 and 1 in the fourth, the rest blank
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 34
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 67
+    section: "Chapter 6 question 4 answer and solution"

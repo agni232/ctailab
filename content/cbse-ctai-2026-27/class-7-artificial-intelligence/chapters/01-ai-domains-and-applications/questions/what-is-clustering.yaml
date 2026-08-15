@@ -1,0 +1,39 @@
+id: c7-ai-domains-what-is-clustering
+slug: what-is-clustering
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch1-ai-techniques
+  primaryTopic: c7-ai-ch1-ai-techniques
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is clustering? Give one example.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Grouping similar data"
+    - "No labels needed"
+    - "Example such as grouping customers"
+solution:
+  text: >-
+    Clustering is grouping similar data together without labels. For example, grouping customers
+    based on their shopping habits.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise C answer"

@@ -1,0 +1,39 @@
+id: c7-ai-ethics-bias-in-the-hiring-system
+slug: bias-in-the-hiring-system
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-bias-in-ai
+  primaryTopic: c7-ai-ch4-bias-in-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A hiring system prefers male candidates based on the past data which included mostly men.
+    What type of bias is this?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Historical bias"
+    - "Past data carried an old imbalance forward"
+solution:
+  text: >-
+    This is historical bias. The system has picked up an imbalance that already existed in the
+    past hiring data and carried it forward.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise D answer"

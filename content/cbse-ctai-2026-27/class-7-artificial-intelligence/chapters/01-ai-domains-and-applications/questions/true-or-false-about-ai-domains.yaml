@@ -1,0 +1,58 @@
+id: c7-ai-domains-true-or-false-about-ai-domains
+slug: true-or-false-about-ai-domains
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch1-ai-domains
+  primaryTopic: c7-ai-ch1-ai-domains
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Mark each statement as True or False.
+  rowHeading: "Statement"
+  categoryHeading: "True or False"
+  categories:
+    - id: is-true
+      label: "True"
+    - id: is-false
+      label: "False"
+  rows:
+    - id: regression-predicts-categories
+      label: "Regression predicts categories."
+    - id: clustering-is-supervised
+      label: "Clustering is a supervised learning method."
+    - id: test-data-evaluates
+      label: "Test data is used to evaluate model performance."
+    - id: vision-detects-locations
+      label: "Computer Vision can detect object locations."
+    - id: nlp-analyses-sentiment
+      label: "NLP can analyse sentiment in text."
+response:
+  type: classification
+answer:
+  assignments:
+    regression-predicts-categories: is-false
+    clustering-is-supervised: is-false
+    test-data-evaluates: is-true
+    vision-detects-locations: is-true
+    nlp-analyses-sentiment: is-true
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Regression predicts numbers, not categories, and clustering works without labels so it is
+    unsupervised. The other three are correct: the test set measures performance, Computer
+    Vision can locate objects, and NLP can read the sentiment of text.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise D answer"

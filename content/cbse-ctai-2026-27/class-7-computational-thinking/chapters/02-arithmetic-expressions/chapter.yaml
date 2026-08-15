@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ct-chapter-2
+slug: arithmetic-expressions
+displayNumber: "2"
+title: Arithmetic Expressions
+summary: Swap operators, follow the order of operations, and trace what a value becomes along a path.
+position: 2
+status: published
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    pageEnd: 16
+    section: "Chapter 2: Arithmetic Expressions"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 20
+    pageEnd: 27
+    section: "Chapter 2: Arithmetic Expressions"

@@ -1,0 +1,64 @@
+id: c7-ai-industries-identify-the-ai-application-field
+slug: identify-the-ai-application-field
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch2-ai-in-industries
+  primaryTopic: c7-ai-ch2-ai-in-industries
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the field each AI application belongs to.
+  rowHeading: "AI Application"
+  categoryHeading: "Field"
+  categories:
+    - id: healthcare
+      label: "Healthcare"
+    - id: education
+      label: "Education"
+    - id: transport
+      label: "Transport"
+    - id: communication
+      label: "Communication"
+    - id: business
+      label: "Business automation"
+  rows:
+    - id: analysing-mri-scans
+      label: "Analysing MRI scans"
+    - id: instant-quiz-feedback
+      label: "Giving instant quiz feedback"
+    - id: controlling-traffic-lights
+      label: "Controlling traffic lights"
+    - id: blocking-spam-emails
+      label: "Blocking spam emails"
+    - id: managing-inventory
+      label: "Managing inventory and energy use"
+response:
+  type: classification
+answer:
+  assignments:
+    analysing-mri-scans: healthcare
+    instant-quiz-feedback: education
+    controlling-traffic-lights: transport
+    blocking-spam-emails: communication
+    managing-inventory: business
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Match each application to the place it is used. MRI scans belong to hospitals, quiz feedback
+    to schools, traffic lights to transport, spam filtering to email and communication, and
+    stock and energy management to business automation.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 62
+    section: "Chapter 2 Exercise E"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise E answer"

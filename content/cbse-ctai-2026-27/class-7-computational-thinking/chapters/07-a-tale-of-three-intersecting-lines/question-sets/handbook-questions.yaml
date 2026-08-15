@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch7-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 7 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-triangles-area-of-the-square-and-the-triangle
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 37
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-figure-formed-by-three-triangles
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 37
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-triangle-not-formed-by-coloured-dots
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 37
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-information-sufficient-to-name-the-triangle
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 37
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-folds-to-make-an-equilateral-triangle
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 37
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-option-with-right-angled-and-equilateral-triangles
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 38
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-possible-lengths-of-the-third-side
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 38
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-information-sufficient-for-similarity
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 38
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-maximum-right-angled-triangles-from-two-cuts
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 38
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"
+  - questionId: c7-ct-triangles-right-angled-triangles-in-the-figure
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 38
+    sourceSection: "Chapter 7: A Tale of Three Intersecting Lines"

@@ -1,0 +1,85 @@
+id: c7-ct-arithmetic-arrow-that-satisfies-an-equation
+slug: arrow-that-satisfies-an-equation
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-operators
+    - c7-ct-ch2-codes-and-rules
+  primaryTopic: c7-ct-ch2-operators
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Each arrow has a mathematical operator. When placed in the centre box, its operator
+    replaces the letter A in the equation it points to. Which arrow satisfies an equation based
+    on this rule?
+  stimulus:
+    assetRefs:
+      - arrow-equations
+  options:
+    - id: option-a
+      assetRef: arrow-option-a
+      accessibleLabel: An upward arrow marked with a minus sign
+    - id: option-b
+      assetRef: arrow-option-b
+      accessibleLabel: A leftward arrow marked with a division sign
+    - id: option-c
+      assetRef: arrow-option-c
+      accessibleLabel: A rightward arrow marked with a plus sign
+    - id: option-d
+      assetRef: arrow-option-d
+      accessibleLabel: A downward arrow marked with a division sign
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each arrow points at one equation, so test them one at a time. Up with minus gives
+    5 - 4 = 1, not 20. Left with divide gives 7 ÷ 6, not 13. Right with plus gives 9 + 3 = 12,
+    not 6. Down with divide gives 14 ÷ 7 = 2, which matches.
+  assetRefs: []
+assets:
+  - ref: arrow-equations
+    file: ../assets/arrow-equations.png
+    role: stem
+    visibility: public
+    alt: >-
+      A central empty box with four equations around it reading 5 A 4 = 20 above, 7 A 6 = 13 to
+      the left, 9 A 3 = 6 to the right, and 14 A 7 = 2 below
+    position: 0
+  - ref: arrow-option-a
+    file: ../assets/arrow-option-a.png
+    role: option
+    visibility: public
+    alt: Arrow with an operator, option a
+    position: 1
+  - ref: arrow-option-b
+    file: ../assets/arrow-option-b.png
+    role: option
+    visibility: public
+    alt: Arrow with an operator, option b
+    position: 2
+  - ref: arrow-option-c
+    file: ../assets/arrow-option-c.png
+    role: option
+    visibility: public
+    alt: Arrow with an operator, option c
+    position: 3
+  - ref: arrow-option-d
+    file: ../assets/arrow-option-d.png
+    role: option
+    visibility: public
+    alt: Arrow with an operator, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 2 question 10 answer and solution"

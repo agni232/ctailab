@@ -1,0 +1,59 @@
+id: c7-ct-decimals-sensor-showing-the-correct-length
+slug: sensor-showing-the-correct-length
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-measurement
+    - c7-ct-ch3-place-of-the-point
+  primaryTopic: c7-ct-ch3-measurement
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    There are three sensors - A, B, and C. Each sensor displays the measurement of the length
+    of the same item, but in different units: metres, centimetres, or kilometres. Only one
+    sensor shows the correct length. The other two show values that are 10 times greater and 10
+    times smaller than the actual length (the units remain unchanged). Based on the readings
+    shown, which sensor displays the correct length?
+  stimulus:
+    assetRefs:
+      - three-sensors
+  options:
+    - id: option-a
+      text: "Sensor A"
+    - id: option-b
+      text: "Sensor B"
+    - id: option-c
+      text: "Sensor C"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Convert each reading to a common unit and see which one is consistent with the others being
+    ten times out. Sensor C's 0.0004506 km is 0.4506 m and 45.06 cm, and against that reading
+    Sensor A is ten times smaller and Sensor B ten times greater. So C is the correct one.
+  assetRefs: []
+assets:
+  - ref: three-sensors
+    file: ../assets/three-sensors.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Three sensor displays reading Sensor A 0.04506 m, Sensor B 450.6 cm, and Sensor C
+      0.0004506 km
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 3 question 4 answer and solution"

@@ -1,0 +1,38 @@
+id: c7-ai-ethics-what-is-data-bias
+slug: what-is-data-bias
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-bias-in-ai
+  primaryTopic: c7-ai-ch4-bias-in-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is data bias?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Training data is unfair or unbalanced"
+    - "Leads to unfair AI decisions"
+solution:
+  text: >-
+    Data bias happens when the training data is unfair or unbalanced, which then leads the AI to
+    make unfair decisions.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise C answer"

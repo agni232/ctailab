@@ -1,0 +1,42 @@
+id: c7-ai-industries-how-ai-supports-decision-making
+slug: how-ai-supports-decision-making
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-benefits-of-ai
+  primaryTopic: c7-ai-ch2-benefits-of-ai
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI supports better decision-making by:
+  options:
+    - id: option-a
+      text: "Ignoring available data"
+    - id: option-b
+      text: "Analysing large amounts of data"
+    - id: option-c
+      text: "Making random guesses"
+    - id: option-d
+      text: "Avoiding pattern recognition"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    AI can work through far more data than a person can and pull out the patterns in it, which
+    is what makes the decisions that follow better informed.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise A answer"

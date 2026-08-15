@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 4 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-letter-numbers-option-with-the-same-meaning
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-units-sent-from-d-to-b
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-value-of-the-letter-expression
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-maximum-age-of-the-oldest-person
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-possible-values-of-c
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-sum-of-ages-after-thirty-six-years
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 23
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-possible-value-of-a
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-value-of-p-times-q-plus-r
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-maximum-value-of-the-digit-expression
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"
+  - questionId: c7-ct-letter-numbers-last-day-of-the-month
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 24
+    sourceSection: "Chapter 4: Expressions using Letter-Numbers"

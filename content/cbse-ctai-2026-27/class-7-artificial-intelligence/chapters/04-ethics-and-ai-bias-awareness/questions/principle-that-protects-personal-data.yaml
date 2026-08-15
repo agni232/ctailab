@@ -1,0 +1,41 @@
+id: c7-ai-ethics-principle-that-protects-personal-data
+slug: principle-that-protects-personal-data
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch4-data-and-privacy
+  primaryTopic: c7-ai-ch4-data-and-privacy
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which principle protects personal data?
+  options:
+    - id: option-a
+      text: "Fairness"
+    - id: option-b
+      text: "Transparency"
+    - id: option-c
+      text: "Privacy"
+    - id: option-d
+      text: "Speed"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Privacy is the principle about keeping personal data safe and used only with permission.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise A answer"

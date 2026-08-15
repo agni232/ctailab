@@ -1,0 +1,46 @@
+id: c7-ct-fractions-days-the-chalks-will-last
+slug: days-the-chalks-will-last
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch8-word-problems
+    - c7-ct-ch8-fraction-of-a-quantity
+  primaryTopic: c7-ct-ch8-word-problems
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A box has 98 chalks. Each day, a teacher picks up a chalk to write. When a chalk becomes 1/7
+    of its original size, she sets it aside. Whenever she collects enough such small pieces to
+    make one full chalk, she joins them and uses it. For how many days will the 98 chalks last?
+  options:
+    - id: option-a
+      text: "84"
+    - id: option-b
+      text: "98"
+    - id: option-c
+      text: "112"
+    - id: option-d
+      text: "114"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The 98 chalks give 98 days and leave 98 stubs, which make 14 more chalks and 14 more days,
+    reaching 112. Those 14 chalks leave 14 stubs, making 2 further chalks and 2 more days, for
+    114 in total.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 41
+    section: "Chapter 8 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 8 question 8 answer and solution"

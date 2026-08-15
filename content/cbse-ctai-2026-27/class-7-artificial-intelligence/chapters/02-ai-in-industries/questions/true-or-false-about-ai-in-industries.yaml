@@ -1,0 +1,58 @@
+id: c7-ai-industries-true-or-false-about-ai-in-industries
+slug: true-or-false-about-ai-in-industries
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch2-ai-in-industries
+  primaryTopic: c7-ai-ch2-ai-in-industries
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Mark each statement as True or False.
+  rowHeading: "Statement"
+  categoryHeading: "True or False"
+  categories:
+    - id: is-true
+      label: "True"
+    - id: is-false
+      label: "False"
+  rows:
+    - id: detect-diseases-early
+      label: "AI can help doctors detect diseases at an early stage."
+    - id: replaces-teachers
+      label: "AI completely replaces teachers in classrooms."
+    - id: manages-congestion
+      label: "AI helps traffic systems manage congestion."
+    - id: cannot-analyse-large-data
+      label: "AI cannot analyse large amounts of data quickly."
+    - id: reduces-background-noise
+      label: "AI improves communication by reducing background noise in online meetings."
+response:
+  type: classification
+answer:
+  assignments:
+    detect-diseases-early: is-true
+    replaces-teachers: is-false
+    manages-congestion: is-true
+    cannot-analyse-large-data: is-false
+    reduces-background-noise: is-true
+  scoring: all-or-nothing
+solution:
+  text: >-
+    AI supports teachers rather than replacing them, and analysing large amounts of data quickly
+    is one of the things it does best, so those two statements are false. The other three
+    describe real uses of AI.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise D answer"

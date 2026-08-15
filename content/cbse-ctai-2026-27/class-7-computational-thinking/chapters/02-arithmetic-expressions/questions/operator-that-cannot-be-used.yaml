@@ -1,0 +1,45 @@
+id: c7-ct-arithmetic-operator-that-cannot-be-used
+slug: operator-that-cannot-be-used
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch2-operators
+    - c7-ct-ch2-order-of-operations
+  primaryTopic: c7-ct-ch2-operators
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    In the given expression, '8 @ 7 - 15 < 4 × 2 × 5' which operator cannot be used in place of
+    '@', such that the condition remains valid?
+  options:
+    - id: option-a
+      text: "-"
+    - id: option-b
+      text: "÷"
+    - id: option-c
+      text: "+"
+    - id: option-d
+      text: "×"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The right side is 4 x 2 x 5 = 40. Subtraction gives 8 - 7 - 15 = -14, division gives about
+    -13.9, and addition gives 8 + 7 - 15 = 0, all under 40. But multiplication gives
+    8 x 7 - 15 = 41, which is not less than 40.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 3 answer and solution"

@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch5-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 5 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-parallel-lines-maximum-squares-in-the-divided-square
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-edges-parallel-to-the-red-edge
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-pairs-of-parallel-faces
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-perpendicular-clock-hand-positions
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-next-clock-pair-in-the-series
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 26
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-right-angled-triangles-after-overlap
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-quadrilateral-that-must-be-a-parallelogram
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-definitely-true-about-vertically-opposite-angles
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-expected-and-resultant-angle-measures
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"
+  - questionId: c7-ct-parallel-lines-incorrect-statement-about-the-square
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Parallel and Intersecting Lines"

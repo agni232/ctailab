@@ -1,0 +1,42 @@
+id: c7-ai-data-viz-example-of-unstructured-data
+slug: example-of-unstructured-data
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch3-types-of-data
+  primaryTopic: c7-ai-ch3-types-of-data
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which of the following is an example of unstructured data?
+  options:
+    - id: option-a
+      text: "Student marks in a table"
+    - id: option-b
+      text: "Attendance record"
+    - id: option-c
+      text: "Audio recording"
+    - id: option-d
+      text: "Sales data in a spreadsheet"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    An audio recording has no rows or columns, so it is unstructured. The other three are all
+    arranged in tables.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise A answer"

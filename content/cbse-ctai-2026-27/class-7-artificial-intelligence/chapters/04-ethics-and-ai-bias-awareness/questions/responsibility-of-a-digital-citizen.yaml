@@ -1,0 +1,42 @@
+id: c7-ai-ethics-responsibility-of-a-digital-citizen
+slug: responsibility-of-a-digital-citizen
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch4-digital-citizenship
+  primaryTopic: c7-ai-ch4-digital-citizenship
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which is a responsibility of a digital citizen?
+  options:
+    - id: option-a
+      text: "Spread rumours"
+    - id: option-b
+      text: "Share passwords"
+    - id: option-c
+      text: "Verify information"
+    - id: option-d
+      text: "Hack accounts"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A responsible digital citizen checks whether something is true before passing it on. The
+    other three options are all harmful.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 81
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise A answer"

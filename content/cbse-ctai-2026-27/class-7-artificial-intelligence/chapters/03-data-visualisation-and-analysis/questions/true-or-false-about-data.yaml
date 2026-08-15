@@ -1,0 +1,57 @@
+id: c7-ai-data-viz-true-or-false-about-data
+slug: true-or-false-about-data
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch3-data
+  primaryTopic: c7-ai-ch3-data
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Mark each statement as True or False.
+  rowHeading: "Statement"
+  categoryHeading: "True or False"
+  categories:
+    - id: is-true
+      label: "True"
+    - id: is-false
+      label: "False"
+  rows:
+    - id: pie-charts-over-time
+      label: "Pie charts show how data changes over time."
+    - id: structured-easy-to-search
+      label: "Structured data is easy to search and analyse."
+    - id: valid-data-accurate-and-precise
+      label: "Valid data must be both accurate and precise."
+    - id: observation-is-collection
+      label: "Observation is a method of data collection."
+    - id: extra-digits-reduce-precision
+      label: "Extra digits added during processing may reduce meaningful precision."
+response:
+  type: classification
+answer:
+  assignments:
+    pie-charts-over-time: is-false
+    structured-easy-to-search: is-true
+    valid-data-accurate-and-precise: is-true
+    observation-is-collection: is-true
+    extra-digits-reduce-precision: is-true
+  scoring: all-or-nothing
+solution:
+  text: >-
+    A pie chart shows parts of a whole at one moment; it is the line graph that shows change
+    over time, so the first statement is false. The other four are all true.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 72
+    section: "Chapter 3 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise D answer"

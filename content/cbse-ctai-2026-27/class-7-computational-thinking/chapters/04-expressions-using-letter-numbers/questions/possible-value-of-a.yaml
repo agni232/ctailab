@@ -1,0 +1,46 @@
+id: c7-ct-letter-numbers-possible-value-of-a
+slug: possible-value-of-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch4-constraints-and-inequalities
+    - c7-ct-ch4-simplifying-expressions
+  primaryTopic: c7-ct-ch4-constraints-and-inequalities
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A, B, and Z are natural numbers such that A + B = Z, the value of B is twice the value of A,
+    the value of B is greater than 4, and the value of Z is less than 10. What could be the
+    value of A?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Since B = 2A, the sum gives Z = 3A. From B greater than 4 we get A greater than 2, and from
+    Z less than 10 we get A less than 10/3, about 3.33. The only whole number in between is
+    A = 3.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 4 question 7 answer and solution"

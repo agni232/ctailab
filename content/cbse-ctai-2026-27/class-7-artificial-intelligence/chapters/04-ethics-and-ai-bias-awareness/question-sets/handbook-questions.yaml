@@ -1,0 +1,132 @@
+id: cbse-2026-27-c7-ai-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 4 exercise from the Class 7 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c7-ai-ethics-example-of-structured-data-in-ethics
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c7-ai-ethics-where-ai-bias-mainly-comes-from
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c7-ai-ethics-what-human-in-the-loop-means
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c7-ai-ethics-principle-that-protects-personal-data
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c7-ai-ethics-responsibility-of-a-digital-citizen
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c7-ai-ethics-blank-ethics-guide-us-to-be-fair-and
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c7-ai-ethics-blank-ai-systems-learn-patterns-from
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c7-ai-ethics-blank-balanced-data-helps-reduce-bias
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c7-ai-ethics-blank-digital-users-have-the-right-to
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c7-ai-ethics-blank-human-in-the-loop-keeps-in-control
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 81
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c7-ai-ethics-what-is-ai-ethics
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c7-ai-ethics-example-of-historical-bias
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c7-ai-ethics-why-transparency-is-important-in-ai
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c7-ai-ethics-two-rights-of-digital-users
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c7-ai-ethics-what-is-data-bias
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c7-ai-ethics-bias-in-the-hiring-system
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c7-ai-ethics-bias-in-the-health-diagnosis
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c7-ai-ethics-why-a-human-should-review-the-loan-decision
+    questionVersion: 1
+    position: 18
+    displayNumber: "D3"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c7-ai-ethics-responsibility-not-followed-when-sharing-false-news
+    questionVersion: 1
+    position: 19
+    displayNumber: "D4"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c7-ai-ethics-one-word-challenge
+    questionVersion: 1
+    position: 20
+    displayNumber: "E1"
+    sourcePage: 82
+    sourceSection: "Chapter 4 Exercise E"

@@ -1,0 +1,48 @@
+id: c7-ct-arithmetic-expression-for-passengers-at-the-start
+slug: expression-for-passengers-at-the-start
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-expressions
+    - c7-ct-ch2-reasoning-with-clues
+  primaryTopic: c7-ct-ch2-expressions
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A bus has 40 seats, and some seats are already occupied, with one passenger in each seat.
+    At the first stop, 5 passengers get off and 8 passengers get in. At the second stop, 2
+    passengers get off and 4 passengers get in. At the third stop, exactly half of the
+    passengers get off. After this, half of the bus seats are occupied. Which of the following
+    expressions represents the number of passengers on the bus at the beginning?
+  options:
+    - id: option-a
+      text: "5 × 5 + 5"
+    - id: option-b
+      text: "6 × 6 - 4"
+    - id: option-c
+      text: "5 × 5 + 10"
+    - id: option-d
+      text: "6 × 6 - 5"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Half of 40 seats is 20 passengers at the end, and since half got off at the third stop,
+    there were 40 before it. Undo the second stop, 40 - 4 + 2 = 38, then the first,
+    38 - 8 + 5 = 35. The expression equal to 35 is 5 x 5 + 10.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 4 answer and solution"

@@ -1,0 +1,54 @@
+id: c7-ct-decimals-boxes-greater-after-swapping-digits
+slug: boxes-greater-after-swapping-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch3-comparing-decimals
+    - c7-ct-ch3-place-of-the-point
+  primaryTopic: c7-ct-ch3-comparing-decimals
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Some numbers are given in the boxes below. In each number, interchange the digits
+    immediately to the left and right of the decimal point. After making this change, how many
+    boxes will contain a number greater than 498.540?
+  stimulus:
+    assetRefs:
+      - four-decimal-boxes
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Swapping the two digits around the point gives A 498.193, B 498.760, C 498.155, and D
+    499.093. Only B and D are greater than 498.540, so 2 boxes satisfy the condition.
+  assetRefs: []
+assets:
+  - ref: four-decimal-boxes
+    file: ../assets/four-decimal-boxes.png
+    role: stem
+    visibility: public
+    alt: Four boxes labelled A to D holding 491.893, 497.860, 491.855, and 490.993
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 22
+    section: "Chapter 3 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 3 question 9 answer and solution"

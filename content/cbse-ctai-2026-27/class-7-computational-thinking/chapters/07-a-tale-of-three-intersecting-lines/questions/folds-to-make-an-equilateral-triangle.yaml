@@ -1,0 +1,54 @@
+id: c7-ct-triangles-folds-to-make-an-equilateral-triangle
+slug: folds-to-make-an-equilateral-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch7-types-of-triangles
+    - c7-ct-ch7-logical-puzzles
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    At least how many folds are required to convert the given paper sheet into an equilateral
+    triangle?
+  stimulus:
+    assetRefs:
+      - parallelogram-sheet
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The sheet is a parallelogram with 20 cm and 10 cm sides and a 60 degree angle. One fold
+    leaves a trapezium, a second turns it into a 10 cm rhombus, and a third along the short
+    diagonal of that rhombus gives the equilateral triangle, so 3 folds are needed.
+  assetRefs: []
+assets:
+  - ref: parallelogram-sheet
+    file: ../assets/parallelogram-sheet.png
+    role: stem
+    visibility: public
+    alt: A parallelogram sheet with 20 cm long sides, 10 cm short sides, and a 60 degree angle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 37
+    section: "Chapter 7 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 7 question 5 answer and solution"

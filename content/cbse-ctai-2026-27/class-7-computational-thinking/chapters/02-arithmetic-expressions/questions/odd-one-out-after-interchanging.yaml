@@ -1,0 +1,45 @@
+id: c7-ct-arithmetic-odd-one-out-after-interchanging
+slug: odd-one-out-after-interchanging
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-operators
+    - c7-ct-ch2-order-of-operations
+  primaryTopic: c7-ct-ch2-operators
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Identify the odd one out from the following expressions, after INTERCHANGING their
+    operators.
+  options:
+    - id: option-a
+      text: "204 + 3 ÷ 29"
+    - id: option-b
+      text: "67 - 2 × 37"
+    - id: option-c
+      text: "48 ÷ 6 × 3"
+    - id: option-d
+      text: "195 × 49 - 2"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Swap the two operators in each expression and work it out. Options a, b, and d all give
+    whole-number results that share the same behaviour, while option c becomes 48 x 6 ÷ 3,
+    which stands apart from the rest.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 20
+    section: "Chapter 2 question 1 answer and solution"

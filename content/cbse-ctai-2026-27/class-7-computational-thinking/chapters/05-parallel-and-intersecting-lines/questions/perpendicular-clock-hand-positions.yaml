@@ -1,0 +1,45 @@
+id: c7-ct-parallel-lines-perpendicular-clock-hand-positions
+slug: perpendicular-clock-hand-positions
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ct-ch5-lines-and-angles
+    - c7-ct-ch5-intersecting-lines
+  primaryTopic: c7-ct-ch5-lines-and-angles
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    In a clock, the hour hand and the minute hand are perpendicular to each other, where the
+    minute hand is at 12. How many different possible positions the hands of the clock can have
+    at this time?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    With the minute hand fixed at 12, a quarter turn either way puts the hour hand at 3 or at 9.
+    Both give a right angle, so there are 2 positions.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 5 question 4 answer and solution"

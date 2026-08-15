@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-7-ai-chapter-1
+slug: ai-domains-and-applications
+displayNumber: "1"
+title: AI Domains and Applications
+summary: The three big AI domains, the techniques behind them, and the datasets they learn from.
+position: 1
+status: published
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 44
+    pageEnd: 55
+    section: "Chapter 1: AI Domains and Applications"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 89
+    pageEnd: 90
+    section: "Chapter 1: AI Domains and Applications"

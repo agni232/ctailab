@@ -1,0 +1,39 @@
+id: c7-ai-ethics-bias-in-the-health-diagnosis
+slug: bias-in-the-health-diagnosis
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-bias-in-ai
+  primaryTopic: c7-ai-ch4-bias-in-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A health AI diagnoses illness based only on money spent on treatment. What type of bias is
+    this?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Measurement bias"
+    - "The wrong quantity is used to stand in for illness"
+solution:
+  text: >-
+    This is measurement bias. Money spent is being used as a stand-in for how ill someone is,
+    and it does not actually measure that.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise D answer"

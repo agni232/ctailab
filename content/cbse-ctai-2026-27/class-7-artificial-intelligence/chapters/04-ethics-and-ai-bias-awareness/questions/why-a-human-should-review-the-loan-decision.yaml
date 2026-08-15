@@ -1,0 +1,38 @@
+id: c7-ai-ethics-why-a-human-should-review-the-loan-decision
+slug: why-a-human-should-review-the-loan-decision
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-responsible-ai
+  primaryTopic: c7-ai-ch4-responsible-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A loan application is rejected by AI. Why should a human review the decision?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "To ensure fairness"
+    - "To check for errors or bias"
+solution:
+  text: >-
+    A human review is needed to make sure the decision is fair and to catch any error or bias in
+    how the AI reached it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise D answer"

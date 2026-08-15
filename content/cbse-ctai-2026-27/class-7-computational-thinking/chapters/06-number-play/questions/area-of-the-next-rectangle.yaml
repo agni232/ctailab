@@ -1,0 +1,44 @@
+id: c7-ct-number-play-area-of-the-next-rectangle
+slug: area-of-the-next-rectangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-number-series
+  primaryTopic: c7-ct-ch6-number-series
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    A computer generates rectangles where the length and breadth (dimensions) follow a series.
+    If the pattern continues, what will be the area of the next rectangle the computer should
+    draw? 2 x 3, 3 x 5, 5 x 8, 8 x 13, 13 x 21, ?
+  options:
+    - id: option-a
+      text: "693 sq. units"
+    - id: option-b
+      text: "2210 sq. units"
+    - id: option-c
+      text: "442 sq. units"
+    - id: option-d
+      text: "714 sq. units"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Each term takes the previous second number as its first, and adds the previous pair for its
+    second. After 13 x 21 comes 21 x 34, whose area is 21 x 34 = 714 square units.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 6 question 9 answer and solution"

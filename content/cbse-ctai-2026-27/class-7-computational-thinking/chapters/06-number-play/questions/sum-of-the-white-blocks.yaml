@@ -1,0 +1,57 @@
+id: c7-ct-number-play-sum-of-the-white-blocks
+slug: sum-of-the-white-blocks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch6-number-grids
+    - c7-ct-ch6-logical-puzzles
+  primaryTopic: c7-ct-ch6-number-grids
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The given grid is to be filled with distinct single-digit natural numbers such that the sum
+    of each row is the same and is an even number, and the larger number in each column is
+    placed in the red block. What is the sum of the numbers in the white blocks?
+  stimulus:
+    assetRefs:
+      - red-and-white-grid
+  options:
+    - id: option-a
+      text: "16"
+    - id: option-b
+      text: "17"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "20"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The red block above 8 must hold 9, the only single-digit number larger than 8. The first
+    row's white block must be under 4 and keep 7 + 9 plus it even, so it is 2 and the row total
+    is 18. Then 4 + 8 + x = 18 gives x = 6, and the white blocks 2, 8, and 6 add to 16.
+  assetRefs: []
+assets:
+  - ref: red-and-white-grid
+    file: ../assets/red-and-white-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A two by three grid where the top row is a white blank, a red blank, and a red 7, and the
+      bottom row is a red 4, a white 8, and a white blank
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 6 question 8 answer and solution"

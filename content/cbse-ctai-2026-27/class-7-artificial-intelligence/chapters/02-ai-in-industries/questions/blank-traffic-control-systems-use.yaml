@@ -1,0 +1,46 @@
+id: c7-ai-industries-blank-traffic-control-systems-use
+slug: blank-traffic-control-systems-use
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-ai-in-transport
+  primaryTopic: c7-ai-ch2-ai-in-transport
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Traffic control systems use"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "and cameras to monitor vehicles on roads."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["sensors", "sensor"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Sensors and cameras are the two ways these systems watch the road, so the missing word is
+    sensors.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise B answer"

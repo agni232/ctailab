@@ -1,0 +1,82 @@
+id: c7-ct-decimals-next-figure-in-the-average-series
+slug: next-figure-in-the-average-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-number-series
+    - c7-ct-ch3-decimals
+  primaryTopic: c7-ct-ch3-number-series
+  estimatedMinutes: 7
+content:
+  prompt: What will come in place of "?" in the given series?
+  stimulus:
+    assetRefs:
+      - average-series
+  options:
+    - id: option-a
+      assetRef: average-option-a
+      accessibleLabel: A box with 4.3125 and 4.450 above 4.38125
+    - id: option-b
+      assetRef: average-option-b
+      accessibleLabel: A box with 4.3125 and 4.34375 above 8.65625
+    - id: option-c
+      assetRef: average-option-c
+      accessibleLabel: A box with 4.3125 and 4.34375 above 4.328125
+    - id: option-d
+      assetRef: average-option-d
+      accessibleLabel: A box with 4.3125 and 4.375 above 4.32812
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The number below each pair is their average, and each new pair is built from the previous
+    two values. Following the chain, the next pair is 4.3125 and 4.34375, whose average is
+    (4.3125 + 4.34375) / 2 = 4.328125.
+  assetRefs: []
+assets:
+  - ref: average-series
+    file: ../assets/average-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Five boxes in a row, each with two decimals on top and their average below, followed by a
+      question mark
+    position: 0
+  - ref: average-option-a
+    file: ../assets/average-option-a.png
+    role: option
+    visibility: public
+    alt: Decimal box, option a
+    position: 1
+  - ref: average-option-b
+    file: ../assets/average-option-b.png
+    role: option
+    visibility: public
+    alt: Decimal box, option b
+    position: 2
+  - ref: average-option-c
+    file: ../assets/average-option-c.png
+    role: option
+    visibility: public
+    alt: Decimal box, option c
+    position: 3
+  - ref: average-option-d
+    file: ../assets/average-option-d.png
+    role: option
+    visibility: public
+    alt: Decimal box, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 3 question 5 answer and solution"

@@ -1,0 +1,45 @@
+id: c7-ct-triangles-area-of-the-square-and-the-triangle
+slug: area-of-the-square-and-the-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ct-ch7-area-and-perimeter
+    - c7-ct-ch7-types-of-triangles
+  primaryTopic: c7-ct-ch7-area-and-perimeter
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If the sides of an equilateral triangle and that of a square are of equal length, what can
+    you say about the area of both the shapes?
+  options:
+    - id: option-a
+      text: "The area of the square is the same as that of the triangle"
+    - id: option-b
+      text: "The area of the triangle is greater than that of the square"
+    - id: option-c
+      text: "The area of the square is greater than that of the triangle"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A square keeps its full width from bottom to top, while an equilateral triangle narrows as
+    it rises and is shorter than the square. With the same side length, the square therefore
+    encloses more space.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 37
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 7 question 1 answer and solution"

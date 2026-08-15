@@ -1,0 +1,40 @@
+id: c7-ai-data-viz-difference-between-precision-and-accuracy
+slug: difference-between-precision-and-accuracy
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch3-precision-and-accuracy
+  primaryTopic: c7-ai-ch3-precision-and-accuracy
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Explain the difference between precision and accuracy with an example.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Accuracy is closeness to the true value"
+    - "Precision is how close repeated readings are to each other"
+    - "Example with a known true value"
+solution:
+  text: >-
+    Accuracy is how close a reading is to the true value; precision is how close repeated
+    readings are to each other. If the true value is 50, then 49, 50, 51 is accurate, while 45,
+    45, 45 is precise but not accurate.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 71
+    section: "Chapter 3 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 94
+    section: "Chapter 3 Exercise C answer"

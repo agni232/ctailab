@@ -1,0 +1,42 @@
+id: c7-ai-domains-domain-that-works-with-images-and-videos
+slug: domain-that-works-with-images-and-videos
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch1-computer-vision
+  primaryTopic: c7-ai-ch1-computer-vision
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which AI domain works with images and videos?
+  options:
+    - id: option-a
+      text: "NLP"
+    - id: option-b
+      text: "Data Science"
+    - id: option-c
+      text: "Computer Vision"
+    - id: option-d
+      text: "Science"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Computer Vision is the domain that lets machines take in pictures and video and make sense
+    of what is in them. NLP deals with language instead.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 54
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise A answer"

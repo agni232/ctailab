@@ -1,0 +1,33 @@
+topics:
+  - id: c7-ct-ch7-triangles
+    slug: triangles
+    title: Triangles
+    position: 1
+    status: published
+  - id: c7-ct-ch7-types-of-triangles
+    slug: types-of-triangles
+    title: Types of Triangles
+    position: 2
+    parentId: c7-ct-ch7-triangles
+    status: published
+  - id: c7-ct-ch7-similar-triangles
+    slug: similar-triangles
+    title: Similar Triangles
+    position: 3
+    parentId: c7-ct-ch7-triangles
+    status: published
+  - id: c7-ct-ch7-area-and-perimeter
+    slug: area-and-perimeter
+    title: Area and Perimeter
+    position: 4
+    status: published
+  - id: c7-ct-ch7-counting-figures
+    slug: counting-figures
+    title: Counting Figures
+    position: 5
+    status: published
+  - id: c7-ct-ch7-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

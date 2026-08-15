@@ -1,0 +1,34 @@
+topics:
+  - id: c7-ai-ch1-ai-domains
+    slug: ai-domains
+    title: AI Domains
+    position: 1
+    status: published
+  - id: c7-ai-ch1-data-science
+    slug: data-science
+    title: Data Science
+    position: 2
+    parentId: c7-ai-ch1-ai-domains
+    status: published
+  - id: c7-ai-ch1-computer-vision
+    slug: computer-vision
+    title: Computer Vision
+    position: 3
+    parentId: c7-ai-ch1-ai-domains
+    status: published
+  - id: c7-ai-ch1-natural-language-processing
+    slug: natural-language-processing
+    title: Natural Language Processing
+    position: 4
+    parentId: c7-ai-ch1-ai-domains
+    status: published
+  - id: c7-ai-ch1-ai-techniques
+    slug: ai-techniques
+    title: AI Techniques
+    position: 5
+    status: published
+  - id: c7-ai-ch1-datasets
+    slug: datasets
+    title: Datasets
+    position: 6
+    status: published

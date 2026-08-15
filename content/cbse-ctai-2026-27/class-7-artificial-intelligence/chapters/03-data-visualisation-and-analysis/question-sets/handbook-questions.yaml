@@ -1,0 +1,114 @@
+id: cbse-2026-27-c7-ai-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The full Chapter 3 exercise from the Class 7 student handbook, sections A to E.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c7-ai-data-viz-example-of-structured-data
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c7-ai-data-viz-method-that-involves-watching-and-recording
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c7-ai-data-viz-graph-that-shows-changes-over-time
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c7-ai-data-viz-what-data-should-be-before-charting
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c7-ai-data-viz-example-of-unstructured-data
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise A"
+  - questionId: c7-ai-data-viz-blank-data-visualization-transforms-data
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c7-ai-data-viz-blank-a-database-stores-data-in
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c7-ai-data-viz-blank-unstructured-data-includes
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c7-ai-data-viz-blank-accuracy-refers-to-how-close
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c7-ai-data-viz-blank-a-pattern-is-something-that-appears
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise B"
+  - questionId: c7-ai-data-viz-what-is-data-give-two-examples
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c7-ai-data-viz-difference-between-structured-and-unstructured-data
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c7-ai-data-viz-why-data-format-is-important
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c7-ai-data-viz-steps-in-preparing-data-for-visualization
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c7-ai-data-viz-difference-between-precision-and-accuracy
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 71
+    sourceSection: "Chapter 3 Exercise C"
+  - questionId: c7-ai-data-viz-true-or-false-about-data
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 72
+    sourceSection: "Chapter 3 Exercise D"
+  - questionId: c7-ai-data-viz-identify-the-skill-used
+    questionVersion: 1
+    position: 17
+    displayNumber: "E1"
+    sourcePage: 72
+    sourceSection: "Chapter 3 Exercise E"

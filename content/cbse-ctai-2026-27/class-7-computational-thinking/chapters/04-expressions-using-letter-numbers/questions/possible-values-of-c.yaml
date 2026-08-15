@@ -1,0 +1,54 @@
+id: c7-ct-letter-numbers-possible-values-of-c
+slug: possible-values-of-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch4-constraints-and-inequalities
+    - c7-ct-ch4-letter-numbers
+  primaryTopic: c7-ct-ch4-constraints-and-inequalities
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    3 whole numbers A, B, and C, satisfy the given conditions. At maximum, how many different
+    possible values can C have?
+  stimulus:
+    assetRefs:
+      - whole-number-conditions
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "5"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "2"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    With A + B = 10 and A greater than B, the pairs are (9, 1), (8, 2), (7, 3), and (6, 4). C
+    must be a whole number less than B, and the widest case B = 4 allows C to be 0, 1, 2, or 3.
+    So C has 4 possible values.
+  assetRefs: []
+assets:
+  - ref: whole-number-conditions
+    file: ../assets/whole-number-conditions.png
+    role: stem
+    visibility: public
+    alt: "The conditions A greater than B greater than C, and A plus B equals 10"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 5"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 4 question 5 answer and solution"

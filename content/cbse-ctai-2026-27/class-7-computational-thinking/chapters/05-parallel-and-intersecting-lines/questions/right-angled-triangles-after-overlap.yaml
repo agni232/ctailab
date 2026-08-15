@@ -1,0 +1,57 @@
+id: c7-ct-parallel-lines-right-angled-triangles-after-overlap
+slug: right-angled-triangles-after-overlap
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-counting-figures
+    - c7-ct-ch5-lines-and-angles
+  primaryTopic: c7-ct-ch5-counting-figures
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Figures A and B are formed using two transparent squares, each. If figure A is placed on top
+    of figure B (without rotation), such that it completely overlaps figure B, how many
+    right-angled triangles can be seen in the resultant image?
+  stimulus:
+    assetRefs:
+      - figures-a-and-b
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "12"
+    - id: option-c
+      text: "13"
+    - id: option-d
+      text: "14"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Both figures are 4 cm squares, so every corner they contribute is a right angle. Overlaying
+    the tilted square and the inner square on the same outer square produces 12 right-angled
+    triangles in all.
+  assetRefs: []
+assets:
+  - ref: figures-a-and-b
+    file: ../assets/figures-a-and-b.png
+    role: stem
+    visibility: public
+    alt: >-
+      Figure A is a 4 cm square with a tilted square inside it, and Figure B is a 4 cm square
+      with a smaller upright square inside it
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 5 question 6 answer and solution"

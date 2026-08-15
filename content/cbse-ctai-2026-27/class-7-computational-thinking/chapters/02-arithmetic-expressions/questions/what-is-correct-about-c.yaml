@@ -1,0 +1,46 @@
+id: c7-ct-arithmetic-what-is-correct-about-c
+slug: what-is-correct-about-c
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-codes-and-rules
+    - c7-ct-ch2-expressions
+  primaryTopic: c7-ct-ch2-codes-and-rules
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In certain code, 1 is coded as 2, 3 is coded as 10, 5 is coded as 26. In the same way, 4 is
+    coded as A and 6 is coded as B. If C is the sum of A and B, which of the following is
+    correct regarding C?
+  options:
+    - id: option-a
+      text: "C > 55"
+    - id: option-b
+      text: "C < 50"
+    - id: option-c
+      text: "C = 50"
+    - id: option-d
+      text: "C < 55"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The code squares the number and adds 1: 1 gives 2, 3 gives 10, and 5 gives 26. So A is
+    4 x 4 + 1 = 17 and B is 6 x 6 + 1 = 37, making C = 17 + 37 = 54. That is less than 55, and
+    since it is not under 50 nor equal to 50, only option d holds.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 7 answer and solution"

@@ -1,0 +1,41 @@
+id: c7-ai-domains-steps-involved-in-computer-vision
+slug: steps-involved-in-computer-vision
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch1-computer-vision
+  primaryTopic: c7-ai-ch1-computer-vision
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    List the steps involved in Computer Vision.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Image collection"
+    - "Image pre-processing"
+    - "Feature extraction"
+    - "Model training"
+    - "Prediction"
+solution:
+  text: >-
+    The steps are image collection, image pre-processing, feature extraction, model training,
+    and prediction.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise C answer"

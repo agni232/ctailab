@@ -1,0 +1,55 @@
+id: c7-ct-triangles-triangle-not-formed-by-coloured-dots
+slug: triangle-not-formed-by-coloured-dots
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch7-types-of-triangles
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    If dots of the same colour are connected to form triangles, which triangle is not formed by
+    any coloured dots?
+  stimulus:
+    assetRefs:
+      - coloured-dots-grid
+  options:
+    - id: option-a
+      text: "Right-angled triangle"
+    - id: option-b
+      text: "Obtuse angled triangle"
+    - id: option-c
+      text: "Equilateral triangle"
+    - id: option-d
+      text: "Isosceles triangle"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The green dots form a right-angled triangle, the red dots an isosceles right-angled triangle
+    because the two square diagonals are equal, and the blue dots a scalene obtuse triangle. No
+    set of dots forms an equilateral triangle.
+  assetRefs: []
+assets:
+  - ref: coloured-dots-grid
+    file: ../assets/coloured-dots-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A 4 cm square split into 2 cm squares with green, red, and blue dots marked at various
+      corners and midpoints
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 37
+    section: "Chapter 7 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 74
+    section: "Chapter 7 question 3 answer and solution"

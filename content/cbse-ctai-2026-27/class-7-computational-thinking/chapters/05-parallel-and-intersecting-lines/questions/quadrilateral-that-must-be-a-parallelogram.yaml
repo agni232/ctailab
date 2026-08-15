@@ -1,0 +1,47 @@
+id: c7-ct-parallel-lines-quadrilateral-that-must-be-a-parallelogram
+slug: quadrilateral-that-must-be-a-parallelogram
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-parallel-lines
+    - c7-ct-ch5-shapes-and-solids
+  primaryTopic: c7-ct-ch5-parallel-lines
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    In triangle ABC, BC is the base. Point P lies on AB and point Q lies on BC such that PQ is
+    parallel to AC. Point R lies on AB and point S lies on AC such that RS is parallel to BC.
+    Lines PQ and RS intersect at a point O inside the triangle. Which of the following
+    quadrilaterals must be a parallelogram?
+  options:
+    - id: option-a
+      text: "QPAC"
+    - id: option-b
+      text: "ORBQ"
+    - id: option-c
+      text: "QOSC"
+    - id: option-d
+      text: "SAPO"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    OS lies along RS, which is parallel to BC, and QC lies along BC, so OS is parallel to QC.
+    OQ lies along PQ, which is parallel to AC, and SC lies along AC, so OQ is parallel to SC.
+    Both pairs of opposite sides of QOSC are parallel, so it is a parallelogram.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 50
+    section: "Chapter 5 question 7 answer and solution"

@@ -1,0 +1,37 @@
+id: c7-ai-ethics-example-of-historical-bias
+slug: example-of-historical-bias
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-bias-in-ai
+  primaryTopic: c7-ai-ch4-bias-in-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Give one example of historical bias.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Past data carries past unfairness"
+    - "Hiring AI preferring men"
+solution:
+  text: >-
+    A hiring AI that prefers men because the past hiring data it learned from was mostly men.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise C answer"

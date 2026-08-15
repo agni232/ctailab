@@ -1,0 +1,38 @@
+id: c7-ai-industries-two-advantages-of-ai-in-industries
+slug: two-advantages-of-ai-in-industries
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch2-benefits-of-ai
+  primaryTopic: c7-ai-ch2-benefits-of-ai
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Mention two advantages of using AI in industries.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Improves efficiency"
+    - "Reduces human error"
+solution:
+  text: >-
+    It improves efficiency by getting work done faster, and it reduces human error by handling
+    repetitive tasks consistently.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise C answer"

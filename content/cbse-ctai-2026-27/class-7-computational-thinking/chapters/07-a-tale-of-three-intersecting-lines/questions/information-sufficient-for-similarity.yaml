@@ -1,0 +1,49 @@
+id: c7-ct-triangles-information-sufficient-for-similarity
+slug: information-sufficient-for-similarity
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch7-similar-triangles
+  primaryTopic: c7-ct-ch7-similar-triangles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Two triangles, triangle X and triangle Y, are given. Only partial information about their
+    corresponding sides and angles is provided below. Question: Are triangles X and Y similar?
+    Information 1: Two pairs of corresponding sides of triangle X and triangle Y are
+    proportional, but no information is given about the third pair of corresponding sides.
+    Information 2: Two pairs of corresponding angles of triangle X and triangle Y are equal, but
+    no information is given about the third pair of corresponding angles. To answer the given
+    question, which of the given information is/are sufficient?
+  options:
+    - id: option-a
+      text: "Only 1"
+    - id: option-b
+      text: "Only 2"
+    - id: option-c
+      text: "Both 1 and 2 together"
+    - id: option-d
+      text: "Question cannot be answered even if both pieces of information are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Two proportional pairs of sides prove nothing without the third pair or the included angle.
+    But if two pairs of angles match, the third pair must match too because the angles of a
+    triangle add to 180 degrees, so information 2 alone settles it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 38
+    section: "Chapter 7 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 7 question 8 answer and solution"

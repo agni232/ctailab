@@ -1,0 +1,61 @@
+id: c7-ai-domains-identify-the-ai-domain
+slug: identify-the-ai-domain
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch1-ai-domains
+  primaryTopic: c7-ai-ch1-ai-domains
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the AI domain used in each application.
+  rowHeading: "AI Application"
+  categoryHeading: "AI Domain"
+  categories:
+    - id: computer-vision
+      label: "Computer Vision"
+    - id: nlp
+      label: "NLP"
+    - id: data-science
+      label: "Data Science"
+  rows:
+    - id: analysing-mri-scans
+      label: "Analysing MRI scans"
+    - id: text-summarization
+      label: "Text summarization of long articles"
+    - id: recommending-products
+      label: "Recommending products based on past purchases"
+    - id: grouping-customers
+      label: "Grouping customers by buying behaviour"
+    - id: chatbot-answering-queries
+      label: "Chatbot answering customer queries"
+response:
+  type: classification
+answer:
+  assignments:
+    analysing-mri-scans: computer-vision
+    text-summarization: nlp
+    recommending-products: data-science
+    grouping-customers: data-science
+    chatbot-answering-queries: nlp
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Ask what kind of data each one handles. MRI scans are images, so Computer Vision.
+    Summarising articles and answering queries are language tasks, so NLP. Recommending products
+    and grouping customers work on records of past behaviour, so Data Science, with the grouping
+    done by clustering.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise E"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise E answer"

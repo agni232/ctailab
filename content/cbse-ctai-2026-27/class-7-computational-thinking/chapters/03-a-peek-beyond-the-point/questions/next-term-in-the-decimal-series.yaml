@@ -1,0 +1,45 @@
+id: c7-ct-decimals-next-term-in-the-decimal-series
+slug: next-term-in-the-decimal-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch3-number-series
+    - c7-ct-ch3-decimals
+  primaryTopic: c7-ct-ch3-number-series
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Find the next term in the given series below: 85.41, 88.71, 89.01, 92.31, 92.61, 95.91,
+    96.21, __
+  options:
+    - id: option-a
+      text: "96.51"
+    - id: option-b
+      text: "99.21"
+    - id: option-c
+      text: "99.51"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The steps alternate between adding 3.30 and adding 0.30: 85.41 to 88.71 adds 3.30, then
+    88.71 to 89.01 adds 0.30, and so on. After 96.21 the next step is a 3.30 one, giving
+    96.21 + 3.30 = 99.51.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 34
+    section: "Chapter 3 question 3 answer and solution"

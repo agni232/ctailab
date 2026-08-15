@@ -1,0 +1,58 @@
+id: c7-ct-letter-numbers-values-of-a-and-b-in-the-circles
+slug: values-of-a-and-b-in-the-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch4-logical-puzzles
+  primaryTopic: c7-ct-ch4-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Numbers from 1-9 are to be placed in the grid such that no two consecutive numbers are
+    placed adjacent to each other. For example, the bottom-left circle has 1, so the circle
+    above it and the circle on the immediate right cannot have the number 2. Each group of
+    circles which are inter-connected by lines must contain either only odd or only even
+    numbers. Find the values of A and B.
+  stimulus:
+    assetRefs:
+      - connected-circles-grid
+  options:
+    - id: option-a
+      text: "A = 9 and B = 3"
+    - id: option-b
+      text: "A = 3 and B = 9"
+    - id: option-c
+      text: "A = 7 and B = 3"
+    - id: option-d
+      text: "A = 9 and B = 8"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A and B join circles holding odd numbers, so neither can be even and option d goes. A cannot
+    be 7 because 6 sits in an adjacent circle, ruling out option c. Setting A = 3 leaves nowhere
+    for both 2 and 4, ruling out option b. That leaves A = 9 and B = 3.
+  assetRefs: []
+assets:
+  - ref: connected-circles-grid
+    file: ../assets/connected-circles-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Circles joined by lines in three columns, with A above 1, 6 above an empty circle, and B
+      above 5
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 4 Thinking Spot answer and solution"

@@ -1,0 +1,64 @@
+id: c7-ai-ethics-one-word-challenge
+slug: one-word-challenge
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-ai-ethics
+  primaryTopic: c7-ai-ch4-ai-ethics
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Match each description with the one word that describes it.
+  rowHeading: "Description"
+  categoryHeading: "One Word"
+  categories:
+    - id: bias
+      label: "Bias"
+    - id: underrepresentation
+      label: "Underrepresentation"
+    - id: human-in-the-loop
+      label: "Human-in-the-loop"
+    - id: ethics
+      label: "Ethics"
+    - id: digital-citizenship
+      label: "Digital citizenship"
+  rows:
+    - id: repeating-past-patterns
+      label: "Repeating past unfair patterns"
+    - id: missing-groups
+      label: "Missing groups in training data"
+    - id: final-decision-by-humans
+      label: "Final decision taken by humans"
+    - id: moral-rules
+      label: "Moral rules that guide decisions"
+    - id: responsible-use
+      label: "Responsible use of technology"
+response:
+  type: classification
+answer:
+  assignments:
+    repeating-past-patterns: bias
+    missing-groups: underrepresentation
+    final-decision-by-humans: human-in-the-loop
+    moral-rules: ethics
+    responsible-use: digital-citizenship
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Repeating past unfair patterns is bias. Groups left out of the training data are
+    underrepresented. Keeping the final decision with people is human-in-the-loop. Moral rules
+    that guide decisions are ethics. Using technology responsibly is digital citizenship.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise E"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise E answer"

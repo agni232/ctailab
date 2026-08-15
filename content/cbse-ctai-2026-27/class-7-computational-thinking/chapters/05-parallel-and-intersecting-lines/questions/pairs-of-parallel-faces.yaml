@@ -1,0 +1,54 @@
+id: c7-ct-parallel-lines-pairs-of-parallel-faces
+slug: pairs-of-parallel-faces
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch5-shapes-and-solids
+    - c7-ct-ch5-parallel-lines
+  primaryTopic: c7-ct-ch5-shapes-and-solids
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In the following solid, every edge has at least one other edge parallel to it. How many
+    different pairs of PARALLEL FACES are present in the solid?
+  stimulus:
+    assetRefs:
+      - notched-solid
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "7"
+    - id: option-c
+      text: "6"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The faces fall into three parallel groups. One group of three faces gives 3 pairs, a second
+    group of three gives another 3 pairs, and a final group of two gives 1 pair, so
+    3 + 3 + 1 = 7.
+  assetRefs: []
+assets:
+  - ref: notched-solid
+    file: ../assets/notched-solid.png
+    role: stem
+    visibility: public
+    alt: A block with a rectangular notch cut out of one upper corner, shown in red, green, and teal
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 26
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 5 question 3 answer and solution"

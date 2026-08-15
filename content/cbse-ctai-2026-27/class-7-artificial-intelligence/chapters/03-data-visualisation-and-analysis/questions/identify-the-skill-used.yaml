@@ -1,0 +1,64 @@
+id: c7-ai-data-viz-identify-the-skill-used
+slug: identify-the-skill-used
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch3-data
+  primaryTopic: c7-ai-ch3-data
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Identify the skill used in each situation.
+  rowHeading: "Situation"
+  categoryHeading: "Skill Used"
+  categories:
+    - id: data-collection
+      label: "Data Collection"
+    - id: data-organisation
+      label: "Data Organisation"
+    - id: data-visualisation
+      label: "Data Visualisation"
+    - id: data-analysis
+      label: "Data Analysis"
+    - id: data-cleaning
+      label: "Data Cleaning"
+  rows:
+    - id: counting-classmates
+      label: "A student counts how many classmates come to school by bus."
+    - id: arranging-match-scores
+      label: "The cricket team captain arranges match scores in rows and columns."
+    - id: studying-a-line-graph
+      label: "A student studies a line graph and concludes that marks improved over time."
+    - id: creating-a-pie-chart
+      label: "A pie chart is created to show favourite sports in the class."
+    - id: removing-duplicates
+      label: "Duplicate entries are removed before preparing a chart."
+response:
+  type: classification
+answer:
+  assignments:
+    counting-classmates: data-collection
+    arranging-match-scores: data-organisation
+    studying-a-line-graph: data-analysis
+    creating-a-pie-chart: data-visualisation
+    removing-duplicates: data-cleaning
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Counting classmates gathers new data, so it is collection. Arranging scores in rows and
+    columns is organisation. Reading a graph and drawing a conclusion is analysis. Making a pie
+    chart is visualisation. Removing duplicates before charting is cleaning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 72
+    section: "Chapter 3 Exercise E"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 95
+    section: "Chapter 3 Exercise E answer"

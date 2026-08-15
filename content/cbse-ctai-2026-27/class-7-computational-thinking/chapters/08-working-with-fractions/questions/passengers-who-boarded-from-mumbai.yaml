@@ -1,0 +1,46 @@
+id: c7-ct-fractions-passengers-who-boarded-from-mumbai
+slug: passengers-who-boarded-from-mumbai
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch8-word-problems
+    - c7-ct-ch8-fraction-of-a-quantity
+  primaryTopic: c7-ct-ch8-word-problems
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A bus started its journey from Mumbai. In Pune, 1/4th of the passengers got off the bus and
+    35 new passengers got on the bus. In Goa, half of the passengers got off the bus with no new
+    passengers getting on. When the bus left from Goa, the total number of passengers was 85.
+    How many passengers boarded the bus from Mumbai?
+  options:
+    - id: option-a
+      text: "135"
+    - id: option-b
+      text: "170"
+    - id: option-c
+      text: "180"
+    - id: option-d
+      text: "Cannot be Determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Let P board at Mumbai. After Pune the bus carries 0.75P + 35, and half of that is 85, so
+    0.75P + 35 = 170. Then 0.75P = 135 and P = 135 x 4/3 = 180.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 40
+    section: "Chapter 8 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 8 question 3 answer and solution"

@@ -1,0 +1,39 @@
+id: c7-ai-industries-how-ai-helps-in-healthcare
+slug: how-ai-helps-in-healthcare
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch2-ai-in-healthcare
+  primaryTopic: c7-ai-ch2-ai-in-healthcare
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How does AI help in healthcare?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Detects diseases early"
+    - "Analyses medical images"
+    - "Assists in robotic surgery"
+solution:
+  text: >-
+    AI helps doctors detect diseases early, analyse medical images such as scans, and assist
+    during robotic surgery.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise C answer"

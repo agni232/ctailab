@@ -1,0 +1,59 @@
+id: c7-ct-letter-numbers-units-sent-from-d-to-b
+slug: units-sent-from-d-to-b
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch4-forming-expressions
+    - c7-ct-ch4-letter-numbers
+  primaryTopic: c7-ct-ch4-forming-expressions
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    A factory 'S' sends goods to four cities: A, B, C, and D through pipelines (represented by
+    arrows), as shown below. The demand of each city is mentioned above that city (for example,
+    the demand at City A is 400 units). The demands are satisfied exactly, and no extra units
+    are left in the pipelines. If 300 units are sent through the pipeline from A to B, how many
+    units are sent from D to B?
+  stimulus:
+    assetRefs:
+      - factory-pipeline-network
+  options:
+    - id: option-a
+      text: "200"
+    - id: option-b
+      text: "600"
+    - id: option-c
+      text: "800"
+    - id: option-d
+      text: "1000"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Let X be the units sent from D to B. City B must receive enough for its own demand of 400
+    and for City C's demand of 700, which passes through it. So 300 + X = 400 + 700, giving
+    X = 1100 - 300 = 800.
+  assetRefs: []
+assets:
+  - ref: factory-pipeline-network
+    file: ../assets/factory-pipeline-network.png
+    role: stem
+    visibility: public
+    alt: >-
+      A network where S feeds A and D, A and D both feed B, and B feeds C, with demands 400 at
+      A, 200 at D, 400 at B, and 700 at C
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 40
+    section: "Chapter 4 question 2 answer and solution"

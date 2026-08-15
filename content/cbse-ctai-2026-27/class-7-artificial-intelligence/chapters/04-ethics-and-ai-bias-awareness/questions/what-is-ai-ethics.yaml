@@ -1,0 +1,37 @@
+id: c7-ai-ethics-what-is-ai-ethics
+slug: what-is-ai-ethics
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-ai-ethics
+  primaryTopic: c7-ai-ch4-ai-ethics
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is AI ethics?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Rules that guide AI systems"
+    - "Fair, safe, and responsible AI"
+solution:
+  text: >-
+    AI ethics are the rules that make sure AI systems are fair, safe, and responsible.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise C answer"

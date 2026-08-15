@@ -1,0 +1,55 @@
+id: c7-ct-number-play-correct-option-about-the-grid-rows
+slug: correct-option-about-the-grid-rows
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch6-number-grids
+    - c7-ct-ch6-logical-puzzles
+  primaryTopic: c7-ct-ch6-number-grids
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Given below is a 3 x 3 grid to be filled by numbers from 1 to 9 such that every pair of
+    adjacent digits in a row should have a difference of three, and some of the numbers have
+    already been placed. Based on the given conditions, choose the correct option.
+  stimulus:
+    assetRefs:
+      - difference-of-three-grid
+  options:
+    - id: option-a
+      text: "A row can have all numbers as even"
+    - id: option-b
+      text: "A row can have all numbers as odd"
+    - id: option-c
+      text: "A row can have 2 even and 1 odd number"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Filling the grid so that neighbours in a row differ by 3 leaves no row that is all even or
+    all odd. The middle row ends up as 2, 5, 8, which has two even numbers and one odd, so only
+    option c holds.
+  assetRefs: []
+assets:
+  - ref: difference-of-three-grid
+    file: ../assets/difference-of-three-grid.png
+    role: stem
+    visibility: public
+    alt: A three by three grid with 1 in the top left, 5 in the centre, and 9 in the bottom right
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 6 question 10 answer and solution"

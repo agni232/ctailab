@@ -1,0 +1,38 @@
+id: c7-ai-industries-how-ai-improves-customer-service
+slug: how-ai-improves-customer-service
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch2-ai-in-communication
+  primaryTopic: c7-ai-ch2-ai-in-communication
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How does AI improve customer service?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Chatbots answer instantly"
+    - "Support available around the clock"
+solution:
+  text: >-
+    AI chatbots answer questions instantly and can provide support 24 hours a day, seven days a
+    week.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise C answer"

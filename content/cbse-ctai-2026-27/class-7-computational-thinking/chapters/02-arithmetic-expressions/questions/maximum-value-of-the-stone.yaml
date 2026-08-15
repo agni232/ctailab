@@ -1,0 +1,58 @@
+id: c7-ct-arithmetic-maximum-value-of-the-stone
+slug: maximum-value-of-the-stone
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch2-expressions
+    - c7-ct-ch2-order-of-operations
+  primaryTopic: c7-ct-ch2-expressions
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A stone with an initial value of 10 is dropped through one of the holes at the START and
+    moves in a straight path to reach the END. As it passes each numbered bar along the way,
+    its value changes according to the operation shown on that bar. What is the maximum value
+    the stone can have when it reaches the END?
+  stimulus:
+    assetRefs:
+      - stone-bars
+  options:
+    - id: option-a
+      text: "60"
+    - id: option-b
+      text: "88"
+    - id: option-c
+      text: "53"
+    - id: option-d
+      text: "68"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Try each hole and apply only the bars that lie in that straight path. The best route runs
+    x2, then +5, then x4, then -12: starting at 10 that gives 20, then 25, then 100, then 88.
+  assetRefs: []
+assets:
+  - ref: stone-bars
+    file: ../assets/stone-bars.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box with holes along the top marked START and a bar at the bottom marked END, with
+      overlapping horizontal bars between them labelled x2, -10, x3, +5, x4, -27, -12, -32,
+      and +50
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 2 question 9 answer and solution"

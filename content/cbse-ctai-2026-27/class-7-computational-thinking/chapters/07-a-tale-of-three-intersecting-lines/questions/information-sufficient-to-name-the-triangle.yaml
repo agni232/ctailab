@@ -1,0 +1,46 @@
+id: c7-ct-triangles-information-sufficient-to-name-the-triangle
+slug: information-sufficient-to-name-the-triangle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch7-types-of-triangles
+    - c7-ct-ch7-similar-triangles
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Is the given triangle isosceles, scalene, or equilateral? Information 1: The given triangle
+    is similar to a right-angled triangle. Information 2: The given triangle is not a scalene
+    triangle. To answer the given question, which of the given information is/are sufficient?
+  options:
+    - id: option-a
+      text: "Only 1"
+    - id: option-b
+      text: "Only 2"
+    - id: option-c
+      text: "Both 1 and 2 together"
+    - id: option-d
+      text: "Question cannot be answered even if both pieces of information are used"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Information 1 alone only tells us the triangle is right-angled, and information 2 alone only
+    rules out scalene. Together they leave a right-angled triangle that is not scalene, which
+    must be isosceles.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 37
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 7 question 4 answer and solution"

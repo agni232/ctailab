@@ -1,0 +1,58 @@
+id: c7-ct-number-play-values-of-a-and-b-in-the-puzzle
+slug: values-of-a-and-b-in-the-puzzle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch6-number-grids
+    - c7-ct-ch6-logical-puzzles
+  primaryTopic: c7-ct-ch6-number-grids
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Each square of the given puzzle must be filled with a single-digit natural number such that
+    the sum of all four different digits in each row and each column is 10, and all the
+    inequality signs (< and >) between the boxes must be followed. Find the correct values of A
+    and B.
+  stimulus:
+    assetRefs:
+      - inequality-puzzle-grid
+  options:
+    - id: option-a
+      text: "A = 3, B = 4"
+    - id: option-b
+      text: "A = 2, B = 1"
+    - id: option-c
+      text: "A = 1, B = 4"
+    - id: option-d
+      text: "A = 3, B = 1"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Only 1 + 2 + 3 + 4 gives 10 with four different digits, so those are the digits used. B
+    shares a row with 2 and a column with 3, and the column inequality forces 4 into the last
+    row, leaving B = 1. A shares a row with 2 and 1 and a column with 4, leaving A = 3.
+  assetRefs: []
+assets:
+  - ref: inequality-puzzle-grid
+    file: ../assets/inequality-puzzle-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with 1, 4, 2, 3 and 2 already filled, the letters A and B in two
+      squares, and inequality signs between some neighbouring squares
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 34
+    section: "Chapter 6 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 6 question 3 answer and solution"

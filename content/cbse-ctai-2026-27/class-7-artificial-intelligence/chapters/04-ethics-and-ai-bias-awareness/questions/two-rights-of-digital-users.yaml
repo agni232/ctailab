@@ -1,0 +1,37 @@
+id: c7-ai-ethics-two-rights-of-digital-users
+slug: two-rights-of-digital-users
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ai-ch4-digital-citizenship
+  primaryTopic: c7-ai-ch4-digital-citizenship
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name two rights of digital users.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Right to privacy"
+    - "Right to safety"
+solution:
+  text: >-
+    The right to privacy and the right to safety.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 82
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 97
+    section: "Chapter 4 Exercise C answer"

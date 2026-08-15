@@ -1,0 +1,72 @@
+id: cbse-2026-27-c7-ct-ch2-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 2 in the Class 7 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-14T00:00:00.000Z
+items:
+  - questionId: c7-ct-arithmetic-odd-one-out-after-interchanging
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-students-who-spent-two-hours
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-operator-that-cannot-be-used
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-expression-for-passengers-at-the-start
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-least-possible-value-of-n
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-operators-to-interchange-for-the-minimum
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-what-is-correct-about-c
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 14
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-difference-between-the-expressions
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 15
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-maximum-value-of-the-stone
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 15
+    sourceSection: "Chapter 2: Arithmetic Expressions"
+  - questionId: c7-ct-arithmetic-arrow-that-satisfies-an-equation
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 15
+    sourceSection: "Chapter 2: Arithmetic Expressions"

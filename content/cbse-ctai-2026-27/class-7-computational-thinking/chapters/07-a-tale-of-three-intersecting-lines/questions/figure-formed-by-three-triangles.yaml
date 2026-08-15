@@ -1,0 +1,45 @@
+id: c7-ct-triangles-figure-formed-by-three-triangles
+slug: figure-formed-by-three-triangles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch7-types-of-triangles
+  primaryTopic: c7-ct-ch7-types-of-triangles
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Three identical pieces of paper, each in the shape of an equilateral triangle, are joined
+    together edge to edge, with no gaps or overlaps. Which of the following figures can be
+    formed by joining them?
+  options:
+    - id: option-a
+      text: "Rhombus"
+    - id: option-b
+      text: "Trapezium"
+    - id: option-c
+      text: "Hexagon"
+    - id: option-d
+      text: "Triangle"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Two triangles joined edge to edge make a rhombus, and adding the third to one of its sides
+    gives a trapezium. Three identical equilateral triangles cannot close into a hexagon or a
+    larger triangle.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 37
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 73
+    section: "Chapter 7 question 2 answer and solution"

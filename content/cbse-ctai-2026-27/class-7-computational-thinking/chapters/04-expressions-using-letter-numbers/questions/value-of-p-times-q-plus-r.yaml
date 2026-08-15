@@ -1,0 +1,55 @@
+id: c7-ct-letter-numbers-value-of-p-times-q-plus-r
+slug: value-of-p-times-q-plus-r
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch4-forming-expressions
+    - c7-ct-ch4-letter-numbers
+  primaryTopic: c7-ct-ch4-forming-expressions
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the given image, each number equals the sum of the two numbers immediately below it. If
+    P, Q, and R are unknown, what is the value of P x Q + R?
+  stimulus:
+    assetRefs:
+      - sum-pyramid
+  options:
+    - id: option-a
+      text: "42"
+    - id: option-b
+      text: "48"
+    - id: option-c
+      text: "38"
+    - id: option-d
+      text: "36"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Q = 1 + P and R = P + 3, and the top cell gives 14 = Q + R = (1 + P) + (P + 3) = 4 + 2P, so
+    P = 5. Then Q = 6 and R = 8, and P x Q + R = 30 + 8 = 38.
+  assetRefs: []
+assets:
+  - ref: sum-pyramid
+    file: ../assets/sum-pyramid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A three-row pyramid with 14 on top, Q and R in the middle row, and 1, P, 3 along the
+      bottom row
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 44
+    section: "Chapter 4 question 8 answer and solution"

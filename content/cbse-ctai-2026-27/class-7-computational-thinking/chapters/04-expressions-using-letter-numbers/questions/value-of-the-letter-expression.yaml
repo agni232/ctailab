@@ -1,0 +1,49 @@
+id: c7-ct-letter-numbers-value-of-the-letter-expression
+slug: value-of-the-letter-expression
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch4-simplifying-expressions
+    - c7-ct-ch4-logical-puzzles
+  primaryTopic: c7-ct-ch4-simplifying-expressions
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Each letter in Set 1 corresponds to exactly one different number from Set 2 (in any order).
+    Set 1 is A, B, C, P, Q, R and Set 2 is 1, 2, 4, 5, 7, 9. The following conditions are given:
+    A and C are consecutive numbers, with A greater than C; P + Q = R, with P greater than Q;
+    and B is greater than both A and C. Using this information, find the value of
+    (4P+3B) - (2P+3C) + (2A-3B).
+  options:
+    - id: option-a
+      text: "9"
+    - id: option-b
+      text: "13"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The consecutive pairs available are (5, 4) and (2, 1). Taking (5, 4) leaves B = 1, which
+    breaks the condition that B is the largest, so A = 2 and C = 1, with 5 + 4 = 9 giving P = 5,
+    Q = 4, R = 9 and B = 7. The expression simplifies to 2P - 3C + 2A, which is
+    10 - 3 + 4 = 11.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 3"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 41
+    section: "Chapter 4 question 3 answer and solution"

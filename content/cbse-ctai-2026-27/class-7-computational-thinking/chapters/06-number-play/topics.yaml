@@ -1,0 +1,33 @@
+topics:
+  - id: c7-ct-ch6-number-play
+    slug: number-play
+    title: Number Play
+    position: 1
+    status: published
+  - id: c7-ct-ch6-digit-arrangement
+    slug: digit-arrangement
+    title: Arranging Digits
+    position: 2
+    parentId: c7-ct-ch6-number-play
+    status: published
+  - id: c7-ct-ch6-properties-of-numbers
+    slug: properties-of-numbers
+    title: Properties of Numbers
+    position: 3
+    parentId: c7-ct-ch6-number-play
+    status: published
+  - id: c7-ct-ch6-number-grids
+    slug: number-grids
+    title: Number Grids
+    position: 4
+    status: published
+  - id: c7-ct-ch6-number-series
+    slug: number-series
+    title: Number Series
+    position: 5
+    status: published
+  - id: c7-ct-ch6-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

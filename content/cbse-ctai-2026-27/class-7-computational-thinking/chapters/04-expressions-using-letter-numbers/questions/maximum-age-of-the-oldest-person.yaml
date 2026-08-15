@@ -1,0 +1,44 @@
+id: c7-ct-letter-numbers-maximum-age-of-the-oldest-person
+slug: maximum-age-of-the-oldest-person
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ct-ch4-forming-expressions
+    - c7-ct-ch4-constraints-and-inequalities
+  primaryTopic: c7-ct-ch4-forming-expressions
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    The sum of the ages of four people A, B, C, and D is 35. Each one of them is at least 8
+    years old. What is the MAXIMUM possible age of the oldest person?
+  options:
+    - id: option-a
+      text: "9 years"
+    - id: option-b
+      text: "10 years"
+    - id: option-c
+      text: "11 years"
+    - id: option-d
+      text: "12 years"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    To make one age as large as possible, push the other three down to the smallest allowed
+    value of 8 each. Then 8 + 8 + 8 + X = 35, so X = 35 - 24 = 11 years.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 42
+    section: "Chapter 4 question 4 answer and solution"

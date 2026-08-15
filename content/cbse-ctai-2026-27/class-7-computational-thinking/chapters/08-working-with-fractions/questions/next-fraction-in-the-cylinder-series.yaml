@@ -1,0 +1,54 @@
+id: c7-ct-fractions-next-fraction-in-the-cylinder-series
+slug: next-fraction-in-the-cylinder-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch8-fractions-in-pictures
+    - c7-ct-ch8-fractions
+  primaryTopic: c7-ct-ch8-fractions-in-pictures
+  estimatedMinutes: 7
+content:
+  prompt: If each of the given terms follows the same theme, what will come in place of "?"
+  stimulus:
+    assetRefs:
+      - measuring-cylinder-terms
+  options:
+    - id: option-a
+      text: "2/9"
+    - id: option-b
+      text: "2/3"
+    - id: option-c
+      text: "4/9"
+    - id: option-d
+      text: "1/9"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each cylinder shows a fraction out of 18, and the number between a pair is the difference
+    between them in simplest form. The last pair reads 10/18 and 2/18, whose difference is
+    8/18 = 4/9.
+  assetRefs: []
+assets:
+  - ref: measuring-cylinder-terms
+    file: ../assets/measuring-cylinder-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four pairs of measuring cylinders marked to 18, labelled 1/3, 2/9, 1/9, and a question
+      mark between the members of each pair
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 40
+    section: "Chapter 8 question 2"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 8 question 2 answer and solution"

@@ -1,0 +1,45 @@
+id: c7-ai-domains-blank-computer-vision-works-with
+slug: blank-computer-vision-works-with
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch1-computer-vision
+  primaryTopic: c7-ai-ch1-computer-vision
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Computer Vision works mainly with"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "and videos."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["images", "pictures", "image"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Computer Vision takes in visual information, which means images and videos.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 55
+    section: "Chapter 1 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise B answer"

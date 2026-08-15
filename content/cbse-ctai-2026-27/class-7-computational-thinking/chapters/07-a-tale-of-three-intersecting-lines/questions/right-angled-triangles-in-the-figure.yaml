@@ -1,0 +1,51 @@
+id: c7-ct-triangles-right-angled-triangles-in-the-figure
+slug: right-angled-triangles-in-the-figure
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch7-counting-figures
+    - c7-ct-ch7-types-of-triangles
+  primaryTopic: c7-ct-ch7-counting-figures
+  estimatedMinutes: 8
+content:
+  prompt: How many right-angled triangles are there in the given figure?
+  stimulus:
+    assetRefs:
+      - figure-with-triangles
+  options:
+    - id: option-a
+      text: "7"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "10"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Work through the figure corner by corner, counting every triangle that has a square corner.
+    Nine such triangles can be traced in the figure.
+  assetRefs: []
+assets:
+  - ref: figure-with-triangles
+    file: ../assets/figure-with-triangles.png
+    role: stem
+    visibility: public
+    alt: A rectangle crossed by several straight lines meeting at a central point, forming many triangles
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 38
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 78
+    section: "Chapter 7 question 10 answer and solution"

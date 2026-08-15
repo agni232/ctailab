@@ -1,0 +1,56 @@
+id: c7-ct-fractions-correctly-written-fractions
+slug: correctly-written-fractions
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch8-fractions-in-pictures
+    - c7-ct-ch8-fractions
+  primaryTopic: c7-ct-ch8-fractions-in-pictures
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Each circle is divided into equal parts, with some parts shaded. A fraction is written to
+    the right of each circle. How many of these fractions correctly represent the shaded part of
+    their corresponding circles?
+  stimulus:
+    assetRefs:
+      - shaded-circles-and-fractions
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Count the shaded parts and the total parts for each circle and compare with the fraction
+    beside it. Three of the six fractions match their circle.
+  assetRefs: []
+assets:
+  - ref: shaded-circles-and-fractions
+    file: ../assets/shaded-circles-and-fractions.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six circles divided into equal parts with some parts shaded, each followed by a fraction
+      such as 2/5, 1/4, 3/4, 3/5, 1/2, and 3/5
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 42
+    section: "Chapter 8 question 10"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 86
+    section: "Chapter 8 question 10 answer and solution"

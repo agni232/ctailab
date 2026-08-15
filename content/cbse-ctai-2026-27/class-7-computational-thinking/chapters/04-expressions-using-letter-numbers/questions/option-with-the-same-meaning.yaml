@@ -1,0 +1,45 @@
+id: c7-ct-letter-numbers-option-with-the-same-meaning
+slug: option-with-the-same-meaning
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch4-coded-symbols
+    - c7-ct-ch4-constraints-and-inequalities
+  primaryTopic: c7-ct-ch4-coded-symbols
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    It is given that x means 'greater than', $ means 'equal to', < means 'not less than', A
+    means 'less than' and + means 'not greater than'. Which of the following options has the
+    same meaning as the given expression? a x b A c
+  options:
+    - id: option-a
+      text: "a $ c A b"
+    - id: option-b
+      text: "b < a x c"
+    - id: option-c
+      text: "c x b A a"
+    - id: option-d
+      text: "c + b < a"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Replacing the symbols, a x b A c reads a > b < c, which also says c > b. Option c decodes to
+    c > b < a, the same pair of facts. The other options each contradict one of them.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 23
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 40
+    section: "Chapter 4 question 1 answer and solution"

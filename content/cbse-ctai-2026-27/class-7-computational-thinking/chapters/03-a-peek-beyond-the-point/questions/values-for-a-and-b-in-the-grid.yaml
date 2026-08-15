@@ -1,0 +1,54 @@
+id: c7-ct-decimals-values-for-a-and-b-in-the-grid
+slug: values-for-a-and-b-in-the-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c7-ct-ch3-logical-puzzles
+  primaryTopic: c7-ct-ch3-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The numbers given below are to be placed in the grid in such a way that the sum of two
+    adjacent numbers in the grid should be greater than 9 but less than 17. What will come in
+    place of A and B? Numbers: 2, 3, 5, 11, 15
+  stimulus:
+    assetRefs:
+      - grid-with-a-and-b
+  options:
+    - id: option-a
+      text: "A = 5 and B = 2"
+    - id: option-b
+      text: "A = 3 and B = 5"
+    - id: option-c
+      text: "A = 2 and B = 3"
+    - id: option-d
+      text: "A = 5 and B = 3"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Only 2 can follow 14, and only 3 can sit before 12, so B = 3. The number 15 fits only after
+    1, and 11 then goes after 2. The one cell left for 5 is A, where 5 + 11 = 16 and 5 + 8 = 13
+    both satisfy the rule. So A = 5 and B = 3.
+  assetRefs: []
+assets:
+  - ref: grid-with-a-and-b
+    file: ../assets/grid-with-a-and-b.jpg
+    role: stem
+    visibility: public
+    alt: "A row of eight grid cells reading 14, blank, blank, A, 8, B, 12, 1"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 22
+    section: "Chapter 3 Thinking Spot"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 39
+    section: "Chapter 3 Thinking Spot answer and solution"

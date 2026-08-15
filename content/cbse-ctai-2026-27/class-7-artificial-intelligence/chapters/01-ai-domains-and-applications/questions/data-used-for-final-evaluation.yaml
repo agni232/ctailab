@@ -1,0 +1,42 @@
+id: c7-ai-domains-data-used-for-final-evaluation
+slug: data-used-for-final-evaluation
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch1-datasets
+  primaryTopic: c7-ai-ch1-datasets
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    In dataset division, which data is used for final evaluation?
+  options:
+    - id: option-a
+      text: "Training"
+    - id: option-b
+      text: "Validation"
+    - id: option-c
+      text: "Test"
+    - id: option-d
+      text: "Raw data"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The test set is held back until the end so the model is judged on data it has never seen.
+    Training data teaches the model and validation data tunes it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 54
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 90
+    section: "Chapter 1 Exercise A answer"

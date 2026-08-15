@@ -1,0 +1,45 @@
+id: c7-ai-industries-blank-ai-learning-programs-understand-how-students
+slug: blank-ai-learning-programs-understand-how-students
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-ai-in-education
+  primaryTopic: c7-ai-ch2-ai-in-education
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "AI learning programs can understand how each student"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "best."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["learns", "learn"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    The programs watch how a student works and adapt to how that student learns best.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise B answer"

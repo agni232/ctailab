@@ -1,0 +1,45 @@
+id: c7-ai-industries-blank-doctors-detect-diseases-at-an
+slug: blank-doctors-detect-diseases-at-an
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c7-ai-ch2-ai-in-healthcare
+  primaryTopic: c7-ai-ch2-ai-in-healthcare
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "AI-powered machines help doctors detect diseases at an"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "stage."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["early", "earlier"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Spotting a disease sooner is the main benefit here, so the missing word is early.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 61
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 92
+    section: "Chapter 2 Exercise B answer"

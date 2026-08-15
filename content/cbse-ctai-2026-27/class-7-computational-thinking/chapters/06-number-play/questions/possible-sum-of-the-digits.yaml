@@ -1,0 +1,44 @@
+id: c7-ct-number-play-possible-sum-of-the-digits
+slug: possible-sum-of-the-digits
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c7-ct-ch6-properties-of-numbers
+  primaryTopic: c7-ct-ch6-properties-of-numbers
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A four-digit number has the same number of even and odd digits. Which of the following could
+    possibly be the sum of the digits of this number?
+  options:
+    - id: option-a
+      text: "11"
+    - id: option-b
+      text: "15"
+    - id: option-c
+      text: "20"
+    - id: option-d
+      text: "All of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The number has 2 even and 2 odd digits. The two even digits add to an even number, the two
+    odd digits also add to an even number, and even plus even is even. So the total must be
+    even, which rules out 11 and 15 and leaves 20.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-7-student-handbook-2026-27
+    page: 35
+    section: "Chapter 6 question 7"
+  - sourceId: ctai-class-7-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 6 question 7 answer and solution"

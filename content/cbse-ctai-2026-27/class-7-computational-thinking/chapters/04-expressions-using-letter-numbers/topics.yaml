@@ -1,0 +1,33 @@
+topics:
+  - id: c7-ct-ch4-letter-numbers
+    slug: letter-numbers
+    title: Letter-Numbers
+    position: 1
+    status: published
+  - id: c7-ct-ch4-forming-expressions
+    slug: forming-expressions
+    title: Forming Expressions
+    position: 2
+    parentId: c7-ct-ch4-letter-numbers
+    status: published
+  - id: c7-ct-ch4-simplifying-expressions
+    slug: simplifying-expressions
+    title: Simplifying Expressions
+    position: 3
+    parentId: c7-ct-ch4-letter-numbers
+    status: published
+  - id: c7-ct-ch4-coded-symbols
+    slug: coded-symbols
+    title: Coded Symbols
+    position: 4
+    status: published
+  - id: c7-ct-ch4-constraints-and-inequalities
+    slug: constraints-and-inequalities
+    title: Constraints and Inequalities
+    position: 5
+    status: published
+  - id: c7-ct-ch4-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published
