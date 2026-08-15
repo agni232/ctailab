@@ -1,0 +1,46 @@
+id: c8-ai-applications-blank-platforms-that-train-ai-without-coding
+slug: blank-platforms-that-train-ai-without-coding
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-no-code-ai-tools
+  primaryTopic: c8-ai-ch2-no-code-ai-tools
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Platforms like"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "allow students to train AI models without coding."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["Teachable Machine", "teachable machine"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Teachable Machine is the no-code platform the chapter uses for training models from
+    examples.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise B answer"

@@ -1,0 +1,43 @@
+id: c8-ct-number-play-simrans-age-in-2024
+slug: simrans-age-in-2024
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ct-ch5-multiples-and-factors
+  primaryTopic: c8-ct-ch5-multiples-and-factors
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    In the year 2020, Simran's age was a multiple of 6. In the year 2024, her age was a multiple
+    of 11. Which of the following could possibly be the age of Simran in the year 2024?
+  options:
+    - id: option-a
+      text: "11 years"
+    - id: option-b
+      text: "22 years"
+    - id: option-c
+      text: "33 years"
+    - id: option-d
+      text: "44 years"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Subtract 4 from each option and check for a multiple of 6. Only 22 works, since 22 - 4 = 18,
+    which is a multiple of 6.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 56
+    section: "Chapter 5 question 8 answer and solution"

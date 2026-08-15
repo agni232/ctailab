@@ -1,0 +1,40 @@
+id: c8-ai-ethics-problem-shown-by-one-city-training-data
+slug: problem-shown-by-one-city-training-data
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-bias
+  primaryTopic: c8-ai-ch4-bias
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    An AI system is trained mostly with data from one city and later used in other places. The
+    system does not work well for people from different regions. What problem in AI does this
+    example show?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "AI bias"
+    - "Data bias from unrepresentative training data"
+solution:
+  text: >-
+    AI bias, specifically data bias, because the training data did not represent the people the
+    system was later used on.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 72
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise D answer"

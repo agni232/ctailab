@@ -1,0 +1,42 @@
+id: c8-ai-applications-what-ai-analyses-to-predict-health-risks
+slug: what-ai-analyses-to-predict-health-risks
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-in-healthcare
+  primaryTopic: c8-ai-ch2-ai-in-healthcare
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI can predict future health risks by analysing a patient's:
+  options:
+    - id: option-a
+      text: "Favourite movies"
+    - id: option-b
+      text: "Medical history and lifestyle habits"
+    - id: option-c
+      text: "Social media posts"
+    - id: option-d
+      text: "Travel destinations"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Health risk follows from health information, so the model works from the patient's medical
+    history and lifestyle habits.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise A answer"

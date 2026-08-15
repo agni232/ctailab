@@ -1,0 +1,37 @@
+id: c8-ai-ethics-why-privacy-is-important
+slug: why-privacy-is-important
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-privacy
+  primaryTopic: c8-ai-ch4-privacy
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Why is privacy important in the digital world?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Protects personal information from misuse"
+    - "Keeps users safe online"
+solution:
+  text: >-
+    Privacy protects personal information from misuse and keeps users safe online.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise C answer"

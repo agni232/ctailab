@@ -1,0 +1,36 @@
+id: c8-ai-ethics-what-accountability-means-in-ai
+slug: what-accountability-means-in-ai
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-accountability
+  primaryTopic: c8-ai-ch4-accountability
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What does accountability mean in AI systems?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Humans are responsible for decisions made using AI"
+solution:
+  text: >-
+    Accountability means humans are responsible for the decisions made using AI.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise C answer"

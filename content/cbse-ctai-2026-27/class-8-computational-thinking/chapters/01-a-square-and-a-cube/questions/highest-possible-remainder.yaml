@@ -1,0 +1,45 @@
+id: c8-ct-squares-cubes-highest-possible-remainder
+slug: highest-possible-remainder
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-perfect-squares
+    - c8-ct-ch1-number-patterns
+  primaryTopic: c8-ct-ch1-perfect-squares
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    XYZ is a 3-digit number such that it is the square of a multiple of 5. What will be the
+    HIGHEST possible remainder of (XYZ) divided by 100?
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "15"
+    - id: option-c
+      text: "20"
+    - id: option-d
+      text: "25"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Only 10, 15, 20, 25, and 30 have 3-digit squares. A multiple of 5 ending in 0 gives a square
+    ending in 00, leaving remainder 0, while one ending in 5 gives a square ending in 25, as in
+    225 and 625. The highest remainder is therefore 25.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 6 answer and solution"

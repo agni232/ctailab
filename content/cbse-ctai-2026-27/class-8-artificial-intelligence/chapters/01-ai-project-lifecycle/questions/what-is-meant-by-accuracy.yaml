@@ -1,0 +1,38 @@
+id: c8-ai-lifecycle-what-is-meant-by-accuracy
+slug: what-is-meant-by-accuracy
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-training-and-testing
+  primaryTopic: c8-ai-ch1-training-and-testing
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is meant by accuracy in AI?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "How correctly the AI predicts results"
+    - "Example such as 8 out of 10 giving 80%"
+solution:
+  text: >-
+    Accuracy is how correctly the AI predicts results. For example, 8 correct out of 10 is 80%
+    accuracy.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise C answer"

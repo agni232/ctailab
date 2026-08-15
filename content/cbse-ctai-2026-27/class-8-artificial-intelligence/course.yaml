@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ai
+grade:
+  id: grade-8
+  level: 8
+  label: Class 8
+subject:
+  id: artificial-intelligence
+  code: AI
+  slug: artificial-intelligence
+  name: Artificial Intelligence
+  description: Explore how machines use data, spot patterns, and make choices responsibly.
+slug: class-8-artificial-intelligence
+title: Class 8 Artificial Intelligence
+description: Chapter-wise activities and practice for Class 8 learners.
+status: published
+position: 9

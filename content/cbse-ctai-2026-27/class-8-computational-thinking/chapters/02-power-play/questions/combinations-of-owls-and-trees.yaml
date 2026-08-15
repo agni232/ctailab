@@ -1,0 +1,41 @@
+id: c8-ct-power-play-combinations-of-owls-and-trees
+slug: combinations-of-owls-and-trees
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ct-ch2-counting-combinations
+  primaryTopic: c8-ct-ch2-counting-combinations
+  estimatedMinutes: 3
+content:
+  prompt: >-
+    How many possible combinations of 1 owl and 1 tree can be made from 3 owls and 5 trees?
+  options:
+    - id: option-a
+      text: "9"
+    - id: option-b
+      text: "10"
+    - id: option-c
+      text: "15"
+    - id: option-d
+      text: "16"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each of the 3 owls can be paired with any of the 5 trees, so the count is 3 x 5 = 15.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 7"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 2 question 7 answer and solution"

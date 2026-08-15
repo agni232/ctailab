@@ -1,0 +1,41 @@
+id: c8-ai-lifecycle-what-ai-learns-from
+slug: what-ai-learns-from
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-how-ai-learns
+  primaryTopic: c8-ai-ch1-how-ai-learns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI learns from:
+  options:
+    - id: option-a
+      text: "Magic"
+    - id: option-b
+      text: "Luck"
+    - id: option-c
+      text: "Data"
+    - id: option-d
+      text: "Guessing"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    An AI system has nothing to learn from but the examples it is given, so it learns from data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise A answer"

@@ -1,0 +1,61 @@
+id: c8-ct-power-play-maximum-points-from-the-books
+slug: maximum-points-from-the-books
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-laws-of-exponents
+    - c8-ct-ch2-logical-puzzles
+  primaryTopic: c8-ct-ch2-laws-of-exponents
+  estimatedMinutes: 12
+content:
+  prompt: >-
+    A man has a bag with a maximum capacity of 2 to the power 4 units. He earns certain points
+    for the books he carries in that bag and the load of each book is shown in the table below.
+    For every Management book added to the bag, 2 Fiction books must be added, and for every
+    Mathematics book added, 2 Physics books must be added. If he has to carry at least one book
+    of each genre, what is the maximum number of points he can earn without exceeding the bag's
+    capacity?
+  stimulus:
+    assetRefs:
+      - book-genre-table
+  options:
+    - id: option-a
+      text: "116"
+    - id: option-b
+      text: "120"
+    - id: option-c
+      text: "112"
+    - id: option-d
+      text: "104"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Working out the powers, the capacity is 16 and the loads are 4, 2, 1, 1 with points 32, 16,
+    8, 4. The compulsory one of each genre, plus the books they drag along, costs 10 units and
+    earns 72 points. Filling the last 6 units with Physics books, or with one more Mathematics
+    plus its Physics pair, both reach 120 points.
+  assetRefs: []
+assets:
+  - ref: book-genre-table
+    file: ../assets/book-genre-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of book genres with loads and points written as powers of 2, for Management,
+      Mathematics, Physics and Fiction
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 24
+    section: "Chapter 2 question 6 answer and solution"

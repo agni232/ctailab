@@ -1,0 +1,38 @@
+id: c8-ai-lifecycle-why-defining-the-problem-is-important
+slug: why-defining-the-problem-is-important
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-defining-the-problem
+  primaryTopic: c8-ai-ch1-defining-the-problem
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Why is defining the problem important in an AI project?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "It says what the system must solve"
+    - "It guides the data collection"
+solution:
+  text: >-
+    It makes clear what the AI system actually needs to solve, and that in turn guides what data
+    is collected.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise C answer"

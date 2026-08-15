@@ -1,0 +1,46 @@
+id: c8-ai-applications-blank-wearable-devices-allow-ai-monitoring
+slug: blank-wearable-devices-allow-ai-monitoring
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-in-healthcare
+  primaryTopic: c8-ai-ch2-ai-in-healthcare
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Wearable devices allow AI to perform"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "patient monitoring."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["continuous", "constant", "real-time"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    A wearable keeps reading all day rather than at set appointments, which makes the monitoring
+    continuous.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise B answer"

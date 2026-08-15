@@ -1,0 +1,59 @@
+id: c8-ct-squares-cubes-digit-appearing-the-highest-number-of-times
+slug: digit-appearing-the-highest-number-of-times
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-number-patterns
+    - c8-ct-ch1-perfect-cubes
+  primaryTopic: c8-ct-ch1-number-patterns
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A class teacher wrote the following pattern on the board, where an expression is written
+    after the "=" sign in each row. She then asked the class to find the expression for
+    13 cubed minus 12 cubed. Which DIGIT appears the HIGHEST number of times in the expression
+    that denotes 13 cubed minus 12 cubed?
+  stimulus:
+    assetRefs:
+      - blackboard-pattern
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Every row follows n cubed minus (n - 1) cubed = 1 + n x (n - 1) x 3, so the expression is
+    1 + 13 x 12 x 3. That contains three 1s, one 2, and two 3s, so the digit 1 appears most
+    often.
+  assetRefs: []
+assets:
+  - ref: blackboard-pattern
+    file: ../assets/blackboard-pattern.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A blackboard showing 2 cubed minus 1 cubed, 3 cubed minus 2 cubed, and 4 cubed minus 3
+      cubed each written as 1 plus a product of three numbers, then asking for 13 cubed minus 12
+      cubed
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 7"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 7 answer and solution"

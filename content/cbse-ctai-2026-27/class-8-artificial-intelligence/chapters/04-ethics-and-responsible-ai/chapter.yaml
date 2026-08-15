@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ai-chapter-4
+slug: ethics-and-responsible-ai
+displayNumber: "4"
+title: Ethics and Responsible AI
+summary: Privacy, bias, misinformation, and who stays accountable when an AI system decides.
+position: 4
+status: published
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 67
+    pageEnd: 72
+    section: "Chapter 4: Ethics and Responsible AI"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 90
+    pageEnd: 91
+    section: "Chapter 4: Ethics and Responsible AI"

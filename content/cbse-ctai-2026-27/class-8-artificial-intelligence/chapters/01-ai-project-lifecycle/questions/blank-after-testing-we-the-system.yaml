@@ -1,0 +1,45 @@
+id: c8-ai-lifecycle-blank-after-testing-we-the-system
+slug: blank-after-testing-we-the-system
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-training-and-testing
+  primaryTopic: c8-ai-ch1-training-and-testing
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "After testing, we"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "the system."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["improve", "refine"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Testing shows where the model falls short, and the next step is to improve it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise B answer"

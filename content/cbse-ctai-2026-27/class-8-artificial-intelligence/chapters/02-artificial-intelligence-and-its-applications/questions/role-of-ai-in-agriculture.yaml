@@ -1,0 +1,40 @@
+id: c8-ai-applications-role-of-ai-in-agriculture
+slug: role-of-ai-in-agriculture
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-in-agriculture
+  primaryTopic: c8-ai-ch2-ai-in-agriculture
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Explain the role of AI in agriculture.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Predicts weather"
+    - "Monitors crops"
+    - "Detects diseases"
+    - "Improves yield"
+solution:
+  text: >-
+    AI helps farmers predict the weather, monitor crops, detect plant diseases, and improve
+    their yield.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise C answer"

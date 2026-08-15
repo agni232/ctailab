@@ -1,0 +1,64 @@
+id: c8-ai-ethics-one-word-challenge-ethics-and-responsible-ai
+slug: one-word-challenge-ethics-and-responsible-ai
+version: 1
+renderer: classification
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-ai-ethics
+  primaryTopic: c8-ai-ch4-ai-ethics
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Match each description with the one word that describes it.
+  rowHeading: "Description"
+  categoryHeading: "One Word"
+  categories:
+    - id: privacy
+      label: "Privacy"
+    - id: misinformation
+      label: "Misinformation"
+    - id: bias
+      label: "Bias"
+    - id: ethics
+      label: "Ethics"
+    - id: accountability
+      label: "Accountability"
+  rows:
+    - id: protection-of-personal-information
+      label: "Protection of personal information"
+    - id: incorrect-information-online
+      label: "Incorrect or misleading information shared online"
+    - id: unfair-patterns-from-data
+      label: "Unfair patterns learned by AI from data"
+    - id: moral-principles
+      label: "Moral principles guiding technology use"
+    - id: responsibility-for-decisions
+      label: "Responsibility for AI decisions"
+response:
+  type: classification
+answer:
+  assignments:
+    protection-of-personal-information: privacy
+    incorrect-information-online: misinformation
+    unfair-patterns-from-data: bias
+    moral-principles: ethics
+    responsibility-for-decisions: accountability
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Protecting personal information is privacy. Incorrect information spread online is
+    misinformation. Unfair patterns picked up from data are bias. Moral principles guiding
+    technology use are ethics. Being answerable for AI decisions is accountability.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 72
+    section: "Chapter 4 Exercise E"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise E answer"

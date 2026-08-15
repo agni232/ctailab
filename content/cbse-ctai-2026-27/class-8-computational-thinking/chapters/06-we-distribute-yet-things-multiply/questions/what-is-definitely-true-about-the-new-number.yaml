@@ -1,0 +1,46 @@
+id: c8-ct-distribute-what-is-definitely-true-about-the-new-number
+slug: what-is-definitely-true-about-the-new-number
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-writing-expressions
+    - c8-ct-ch6-algebraic-identities
+  primaryTopic: c8-ct-ch6-writing-expressions
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    A two-digit number XY is formed using two different digits. When the sum of its digits is
+    added to the number, a new number is formed, which is divisible by 3. Which of the following
+    will be DEFINITELY true about the new number?
+  options:
+    - id: option-a
+      text: "X is a multiple of 3"
+    - id: option-b
+      text: "Y is a multiple of 3"
+    - id: option-c
+      text: "X + Y is a multiple of 3"
+    - id: option-d
+      text: "None of these"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The new number is (10X + Y) + (X + Y) = 11X + 2Y, which can be written as 9X + 2(X + Y).
+    Since 9X is already divisible by 3 and 2 is not, the whole thing divides by 3 only when
+    X + Y does.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 6 question 5 answer and solution"

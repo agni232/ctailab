@@ -1,0 +1,44 @@
+id: c8-ct-squares-cubes-smallest-k-that-makes-a-perfect-cube
+slug: smallest-k-that-makes-a-perfect-cube
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-prime-factorisation
+    - c8-ct-ch1-perfect-cubes
+  primaryTopic: c8-ct-ch1-prime-factorisation
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    56 x k is a perfect cube where k is a natural number. What could be the smallest possible
+    value of k?
+  options:
+    - id: option-a
+      text: "36"
+    - id: option-b
+      text: "49"
+    - id: option-c
+      text: "56"
+    - id: option-d
+      text: "72"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    In a perfect cube every prime appears a multiple of three times. Since 56 = 2 x 2 x 2 x 7,
+    the three 2s are already fine but the single 7 needs two more, so k = 7 x 7 = 49.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 4 answer and solution"

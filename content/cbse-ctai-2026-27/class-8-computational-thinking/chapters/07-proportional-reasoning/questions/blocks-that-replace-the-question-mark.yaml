@@ -1,0 +1,82 @@
+id: c8-ct-proportion-blocks-that-replace-the-question-mark
+slug: blocks-that-replace-the-question-mark
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch7-ratios-in-pictures
+    - c8-ct-ch7-equivalent-ratios
+  primaryTopic: c8-ct-ch7-ratios-in-pictures
+  estimatedMinutes: 7
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - number-line-blocks
+  options:
+    - id: option-a
+      assetRef: blocks-option-a
+      accessibleLabel: One grey block beside three white blocks
+    - id: option-b
+      assetRef: blocks-option-b
+      accessibleLabel: One grey block beside two white blocks
+    - id: option-c
+      assetRef: blocks-option-c
+      accessibleLabel: Two grey blocks beside five white blocks
+    - id: option-d
+      assetRef: blocks-option-d
+      accessibleLabel: One grey block beside four white blocks
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The two shaded numbers on each line make a fraction, which is then simplified, with the
+    numerator shown as grey blocks and the denominator as white blocks. The last line shades 4
+    and 16, and 4/16 simplifies to 1/4, so 1 grey block and 4 white blocks are needed.
+  assetRefs: []
+assets:
+  - ref: number-line-blocks
+    file: ../assets/number-line-blocks.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four rows, each with a number line from 1 to 18 with two numbers shaded and a set of grey
+      and white blocks beside it, the last row ending in a question mark
+    position: 0
+  - ref: blocks-option-a
+    file: ../assets/blocks-option-a.png
+    role: option
+    visibility: public
+    alt: Grey and white blocks, option a
+    position: 1
+  - ref: blocks-option-b
+    file: ../assets/blocks-option-b.png
+    role: option
+    visibility: public
+    alt: Grey and white blocks, option b
+    position: 2
+  - ref: blocks-option-c
+    file: ../assets/blocks-option-c.png
+    role: option
+    visibility: public
+    alt: Grey and white blocks, option c
+    position: 3
+  - ref: blocks-option-d
+    file: ../assets/blocks-option-d.png
+    role: option
+    visibility: public
+    alt: Grey and white blocks, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 75
+    section: "Chapter 7 question 10 answer and solution"

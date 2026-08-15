@@ -1,0 +1,45 @@
+id: c8-ai-lifecycle-blank-ai-cannot-work-without
+slug: blank-ai-cannot-work-without
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-data-collection
+  primaryTopic: c8-ai-ch1-data-collection
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "AI cannot work without"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["data", "datasets"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    With nothing to learn from, there is no model at all, so AI cannot work without data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise B answer"

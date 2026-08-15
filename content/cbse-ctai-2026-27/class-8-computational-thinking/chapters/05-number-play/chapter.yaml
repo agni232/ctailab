@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ct-chapter-5
+slug: number-play
+displayNumber: "5"
+title: Number Play
+summary: Divisibility rules, multiples, and remainders put to work on puzzles about numbers.
+position: 5
+status: published
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 27
+    pageEnd: 29
+    section: "Chapter 5: Number Play"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 52
+    pageEnd: 58
+    section: "Chapter 5: Number Play"

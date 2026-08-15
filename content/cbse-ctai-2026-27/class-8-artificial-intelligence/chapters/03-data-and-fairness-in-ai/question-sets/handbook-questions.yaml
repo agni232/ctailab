@@ -1,0 +1,42 @@
+id: cbse-2026-27-c8-ai-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The Chapter 3 exercise from the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ai-fairness-accuracy-with-more-cricket-bat-images
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 61
+    sourceSection: "Chapter 3 Think prompts"
+  - questionId: c8-ai-fairness-what-the-sports-recommendation-is-based-on
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 61
+    sourceSection: "Chapter 3 Think prompts"
+  - questionId: c8-ai-fairness-which-class-the-classifier-worked-better-on
+    questionVersion: 1
+    position: 3
+    displayNumber: "B1"
+    sourcePage: 64
+    sourceSection: "Chapter 3 Exercise reflection"
+  - questionId: c8-ai-fairness-did-the-new-algorithm-work
+    questionVersion: 1
+    position: 4
+    displayNumber: "B2"
+    sourcePage: 64
+    sourceSection: "Chapter 3 Exercise reflection"
+  - questionId: c8-ai-fairness-making-the-sports-recommendation-fairer
+    questionVersion: 1
+    position: 5
+    displayNumber: "B3"
+    sourcePage: 64
+    sourceSection: "Chapter 3 Exercise reflection"

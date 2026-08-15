@@ -1,0 +1,57 @@
+id: c8-ct-number-story-minimum-difference-after-moving-a-ball
+slug: minimum-difference-after-moving-a-ball
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch3-place-value
+    - c8-ct-ch3-logical-puzzles
+  primaryTopic: c8-ct-ch3-place-value
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Two 2-digit numbers are represented below by stacking balls on poles. If you can shift or
+    move EXACTLY ONE ball from a pole to any of the other three poles, what will be the MINIMUM
+    possible difference between the numbers, finally?
+  stimulus:
+    assetRefs:
+      - balls-on-poles
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "2"
+    - id: option-c
+      text: "11"
+    - id: option-d
+      text: "13"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The poles show 56 and 43. Moving a ball from the tens pole of 56 to the ones pole of 43
+    gives 46 and 44, and moving one from the ones pole of 56 to the tens pole of 43 gives 55 and
+    53. Either way the difference is 2.
+  assetRefs: []
+assets:
+  - ref: balls-on-poles
+    file: ../assets/balls-on-poles.png
+    role: stem
+    visibility: public
+    alt: >-
+      Two pairs of poles marked T and O, with Number 1 showing 5 and 6 balls and Number 2
+      showing 4 and 3 balls
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 22
+    section: "Chapter 3 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 40
+    section: "Chapter 3 question 8 answer and solution"

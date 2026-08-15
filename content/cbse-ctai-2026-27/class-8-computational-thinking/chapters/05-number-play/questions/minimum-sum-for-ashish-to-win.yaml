@@ -1,0 +1,48 @@
+id: c8-ct-number-play-minimum-sum-for-ashish-to-win
+slug: minimum-sum-for-ashish-to-win
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch5-remainders
+    - c8-ct-ch5-logical-puzzles
+  primaryTopic: c8-ct-ch5-remainders
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Ashish and Devika together choose two different numbers from 2 to 24 (both inclusive). The
+    chosen numbers are multiplied, and the product is divided by 25. The remainder decides the
+    result: if the remainder is less than 10, Devika wins; if the remainder is more than 14,
+    Ashish wins; in all other cases, the game is a draw. What is the minimum possible sum of the
+    numbers chosen by Ashish and Devika such that Ashish wins the game?
+  options:
+    - id: option-a
+      text: "7"
+    - id: option-b
+      text: "8"
+    - id: option-c
+      text: "9"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Ashish needs a remainder of at least 15. A product smaller than 25 leaves itself as the
+    remainder, so a product of 15 works, and 15 = 3 x 5 gives the sum 3 + 5 = 8. The other route,
+    a product of 40 as 5 x 8, gives 13, which is larger.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 5 question 6 answer and solution"

@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ai-chapter-2
+slug: artificial-intelligence-and-its-applications
+displayNumber: "2"
+title: Artificial Intelligence and Its Applications
+summary: AI at work on real problems - the environment, health, farming, learning, and the home.
+position: 2
+status: published
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 46
+    pageEnd: 59
+    section: "Chapter 2: Artificial Intelligence and Its Applications"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 82
+    pageEnd: 83
+    section: "Chapter 2: Artificial Intelligence and Its Applications"

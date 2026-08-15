@@ -1,0 +1,86 @@
+id: c8-ct-distribute-block-that-cannot-have-a-coin
+slug: block-that-cannot-have-a-coin
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-logical-puzzles
+  primaryTopic: c8-ct-ch6-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Two coins are hidden in the grid below in two different rows and columns. None of the coins
+    is in A's column, but one is in its row. None of the coins is in B's row, but one is in its
+    column. None of the coins is in C's row, but one is in its column. Which of the following
+    blocks CANNOT have a coin?
+  stimulus:
+    assetRefs:
+      - coin-grid
+  options:
+    - id: option-a
+      assetRef: coin-option-a
+      accessibleLabel: A grid with the second cell of the top row shaded
+    - id: option-b
+      assetRef: coin-option-b
+      accessibleLabel: A grid with the third cell of the top row shaded
+    - id: option-c
+      assetRef: coin-option-c
+      accessibleLabel: A grid with the fourth cell of the top row shaded
+    - id: option-d
+      assetRef: coin-option-d
+      accessibleLabel: A grid with the second cell of the third row shaded
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Ruling out A's column and the rows holding B and C leaves six possible cells, three in the
+    top row and three in the third row. One coin must sit in the top row, and between them the
+    coins must cover B's column and C's column, so they can only be in the second and third
+    columns. The fourth cell of the top row is therefore impossible.
+  assetRefs: []
+assets:
+  - ref: coin-grid
+    file: ../assets/coin-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with A in the first cell of the top row, C in the third cell of the
+      second row, and B in the second cell of the bottom row
+    position: 0
+  - ref: coin-option-a
+    file: ../assets/coin-option-a.jpg
+    role: option
+    visibility: public
+    alt: Grid with one shaded block, option a
+    position: 1
+  - ref: coin-option-b
+    file: ../assets/coin-option-b.jpg
+    role: option
+    visibility: public
+    alt: Grid with one shaded block, option b
+    position: 2
+  - ref: coin-option-c
+    file: ../assets/coin-option-c.jpg
+    role: option
+    visibility: public
+    alt: Grid with one shaded block, option c
+    position: 3
+  - ref: coin-option-d
+    file: ../assets/coin-option-d.jpg
+    role: option
+    visibility: public
+    alt: Grid with one shaded block, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 32
+    section: "Chapter 6 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 66
+    section: "Chapter 6 Thinking Spot answer and solution"

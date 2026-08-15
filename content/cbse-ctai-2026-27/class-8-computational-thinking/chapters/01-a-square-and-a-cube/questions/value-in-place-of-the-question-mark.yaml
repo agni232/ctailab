@@ -1,0 +1,54 @@
+id: c8-ct-squares-cubes-value-in-place-of-the-question-mark
+slug: value-in-place-of-the-question-mark
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-squares-and-cubes
+    - c8-ct-ch1-number-patterns
+  primaryTopic: c8-ct-ch1-squares-and-cubes
+  estimatedMinutes: 5
+content:
+  prompt: Each geometrical shape denotes a certain operation. What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - shape-operations
+  options:
+    - id: option-a
+      text: "2888"
+    - id: option-b
+      text: "1914"
+    - id: option-c
+      text: "1924"
+    - id: option-d
+      text: "340"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A number drawn inside a square is squared and a number drawn inside a cube is cubed, as in
+    16 giving 256 and 15 giving 3375. So the last line is 14 squared + 12 cubed = 196 + 1728 =
+    1924.
+  assetRefs: []
+assets:
+  - ref: shape-operations
+    file: ../assets/shape-operations.png
+    role: stem
+    visibility: public
+    alt: >-
+      Numbers drawn inside flat squares and inside cubes with arrows to their results, ending
+      with 14 in a square plus 12 in a cube pointing to a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 13
+    section: "Chapter 1 question 5 answer and solution"

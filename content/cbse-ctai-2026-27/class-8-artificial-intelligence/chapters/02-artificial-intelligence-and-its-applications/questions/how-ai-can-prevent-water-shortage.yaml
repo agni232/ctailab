@@ -1,0 +1,39 @@
+id: c8-ai-applications-how-ai-can-prevent-water-shortage
+slug: how-ai-can-prevent-water-shortage
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-and-the-environment
+  primaryTopic: c8-ai-ch2-ai-and-the-environment
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How can AI predict and prevent water shortage in your area?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Analyses rainfall data and water usage"
+    - "Studies weather patterns"
+    - "Suggests saving measures"
+solution:
+  text: >-
+    AI analyses rainfall data, water usage, and weather patterns to predict shortages, and then
+    suggests measures for saving water.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 59
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise D answer"

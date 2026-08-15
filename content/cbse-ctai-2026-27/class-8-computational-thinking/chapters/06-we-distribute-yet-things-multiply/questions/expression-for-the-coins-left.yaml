@@ -1,0 +1,49 @@
+id: c8-ct-distribute-expression-for-the-coins-left
+slug: expression-for-the-coins-left
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-writing-expressions
+    - c8-ct-ch6-word-problems
+  primaryTopic: c8-ct-ch6-writing-expressions
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A merchant has (19 squared minus 1) coins. He must distribute the coins to some children.
+    The number of children is equal to the number of distinct prime factors of 30. First, each
+    child receives 4 packs of 6 coins each. Then, after this distribution, the merchant must
+    give each child 3 more packs of 6 coins each, ONLY IF the remaining coins are more than half
+    of the original count. Which of the following expressions represents the number of coins
+    finally left with the merchant, after the distribution or distributions?
+  options:
+    - id: option-a
+      text: "(19 squared minus 1) minus 3(6 x 4)"
+    - id: option-b
+      text: "(19 squared minus 1) minus 3(6 x 4 + 3 x 6)"
+    - id: option-c
+      text: "(19 squared minus 1) minus 3(6 x 4 minus 3(3 x 6))"
+    - id: option-d
+      text: "(19 squared minus 1) minus 5(6 x 4 + 3 x 6)"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    There are 360 coins and 3 children, since 30 has the distinct prime factors 2, 3, and 5. The
+    first round hands out 3 x 24 = 72 coins, leaving 288, which is more than half of 360, so the
+    second round happens too. That gives 360 minus 3 lots of (6 x 4 + 3 x 6).
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 61
+    section: "Chapter 6 question 4 answer and solution"

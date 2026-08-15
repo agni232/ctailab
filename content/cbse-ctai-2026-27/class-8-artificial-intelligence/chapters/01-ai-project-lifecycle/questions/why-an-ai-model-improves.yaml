@@ -1,0 +1,42 @@
+id: c8-ai-lifecycle-why-an-ai-model-improves
+slug: why-an-ai-model-improves
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-how-ai-learns
+  primaryTopic: c8-ai-ch1-how-ai-learns
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI model improves because:
+  options:
+    - id: option-a
+      text: "It thinks like a human"
+    - id: option-b
+      text: "It has feelings"
+    - id: option-c
+      text: "New data is added"
+    - id: option-d
+      text: "It gets angry"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A model gets better when it has more examples to learn from, so improvement comes from new
+    data being added.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise A answer"

@@ -1,0 +1,42 @@
+id: c8-ai-lifecycle-stages-of-a-fake-news-detector
+slug: stages-of-a-fake-news-detector
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-project-lifecycle
+  primaryTopic: c8-ai-ch1-project-lifecycle
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Imagine you are building an AI system to detect fake news. Write what you would do at each
+    stage: define the problem, collect data, test AI tools, and reflect and improve.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Define the problem: detect fake news articles"
+    - "Collect data: gather real and fake news examples"
+    - "Test AI tools: check whether fake news is identified correctly"
+    - "Reflect and improve: add more data and raise accuracy"
+solution:
+  text: >-
+    Define the problem as detecting fake news articles. Collect real and fake news examples as
+    data. Test whether the AI correctly identifies fake news. Then reflect and improve by adding
+    more data to raise accuracy.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 45
+    section: "Chapter 1 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 1 Exercise D answer"

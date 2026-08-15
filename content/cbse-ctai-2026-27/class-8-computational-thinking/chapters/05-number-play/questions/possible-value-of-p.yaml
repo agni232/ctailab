@@ -1,0 +1,46 @@
+id: c8-ct-number-play-possible-value-of-p
+slug: possible-value-of-p
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch5-divisibility
+    - c8-ct-ch5-multiples-and-factors
+  primaryTopic: c8-ct-ch5-divisibility
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The middle number of 5 consecutive even numbers is 5p. Exactly two numbers in the sequence
+    are divisible by 4, and only one is divisible by 5. Among the following values, which could
+    be the possible value of p?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    The sequence runs 5p - 4, 5p - 2, 5p, 5p + 2, 5p + 4. For exactly two of them to be
+    multiples of 4, the middle number must sit 2 away from a multiple of 4. With p = 2 the
+    sequence is 6, 8, 10, 12, 14, where 8 and 12 divide by 4 and only 10 divides by 5.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 9"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 56
+    section: "Chapter 5 question 9 answer and solution"

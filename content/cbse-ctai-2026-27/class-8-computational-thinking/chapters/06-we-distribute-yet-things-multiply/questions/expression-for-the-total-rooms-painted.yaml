@@ -1,0 +1,49 @@
+id: c8-ct-distribute-expression-for-the-total-rooms-painted
+slug: expression-for-the-total-rooms-painted
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-writing-expressions
+    - c8-ct-ch6-word-problems
+  primaryTopic: c8-ct-ch6-writing-expressions
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A team of three painters - A, B, and C - must paint rooms and each painter paints 3 rooms
+    per working day. They are scheduled to work for 50 days starting Monday. Painter A does not
+    work on weekends (no Saturdays or Sundays). Painter B does not work on every 5th day (Day 5,
+    Day 10, Day 15, and so on). Painter C works on all 50 days. Based on the above rules,
+    determine an expression that represents the total number of rooms painted by all three
+    painters combined.
+  options:
+    - id: option-a
+      text: "3 x 50"
+    - id: option-b
+      text: "3 x (3 x 50)"
+    - id: option-c
+      text: "3 x (36 + 40 + 50)"
+    - id: option-d
+      text: "3 x 3 x (36 + 40 + 50)"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In 50 days starting Monday there are 7 full weeks plus one Monday, so A works 7 x 5 + 1 = 36
+    days. B misses the 10 multiples of 5, so works 40 days, and C works all 50. Each paints 3
+    rooms a day, giving 3 x (36 + 40 + 50).
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 6 question 8 answer and solution"

@@ -1,0 +1,126 @@
+id: cbse-2026-27-c8-ai-ch2-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The Chapter 2 exercise from the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ai-applications-how-ai-helps-environmental-protection
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c8-ai-applications-what-no-code-ai-tools-allow
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c8-ai-applications-what-ai-analyses-to-predict-health-risks
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c8-ai-applications-problem-solved-by-satellite-images-of-water
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c8-ai-applications-example-of-ai-in-smart-homes
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise A"
+  - questionId: c8-ai-applications-blank-ai-powered-can-answer-health-questions
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c8-ai-applications-blank-satellites-help-ai-detect-pollution
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c8-ai-applications-blank-ai-in-education-can-provide-learning
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c8-ai-applications-blank-wearable-devices-allow-ai-monitoring
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c8-ai-applications-blank-platforms-that-train-ai-without-coding
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise B"
+  - questionId: c8-ai-applications-two-ways-ai-reduces-environmental-problems
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c8-ai-applications-how-ai-assists-doctors-in-diagnosis
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c8-ai-applications-example-of-ai-in-smart-homes-short
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c8-ai-applications-benefit-of-personalised-learning
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c8-ai-applications-role-of-ai-in-agriculture
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 58
+    sourceSection: "Chapter 2 Exercise C"
+  - questionId: c8-ai-applications-designing-a-waste-sorting-project
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 59
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c8-ai-applications-how-ai-can-prevent-water-shortage
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 59
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c8-ai-applications-how-ai-could-help-students-with-mathematics
+    questionVersion: 1
+    position: 18
+    displayNumber: "D3"
+    sourcePage: 59
+    sourceSection: "Chapter 2 Exercise D"
+  - questionId: c8-ai-applications-using-ai-as-a-farmer
+    questionVersion: 1
+    position: 19
+    displayNumber: "D4"
+    sourcePage: 59
+    sourceSection: "Chapter 2 Exercise D"

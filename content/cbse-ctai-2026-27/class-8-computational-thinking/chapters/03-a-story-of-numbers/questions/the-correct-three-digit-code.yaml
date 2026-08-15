@@ -1,0 +1,86 @@
+id: c8-ct-number-story-the-correct-three-digit-code
+slug: the-correct-three-digit-code
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch3-codes-and-ciphers
+    - c8-ct-ch3-logical-puzzles
+  primaryTopic: c8-ct-ch3-codes-and-ciphers
+  estimatedMinutes: 12
+content:
+  prompt: >-
+    A 3-digit code is formed using Chinese numerals (Zongs) and Roman numerals. Each row
+    represents a guess, along with a statement describing how correct the guess is. Using these
+    clues, determine the correct code.
+  stimulus:
+    assetRefs:
+      - code-guesses
+  options:
+    - id: option-a
+      assetRef: code-option-a
+      accessibleLabel: A three-cell code reading V, then a Chinese numeral, then a Roman-style mark
+    - id: option-b
+      assetRef: code-option-b
+      accessibleLabel: A three-cell code reading two Chinese numerals then VI
+    - id: option-c
+      assetRef: code-option-c
+      accessibleLabel: A three-cell code reading a Chinese numeral, another Chinese numeral, then VI
+    - id: option-d
+      assetRef: code-option-d
+      accessibleLabel: A three-cell code reading two Chinese numerals then a Roman-style mark
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The third hint rules out Roman 3, Roman 8, and Chinese 2. The fifth hint then forces 4 into
+    the code in Chinese numerals but in a different position. Comparing the first and fourth
+    hints shows 7 cannot be in the code, leaving 5 and 6, with 5 in the hundreds place in
+    Chinese numerals and 6 in the units place in Roman numerals.
+  assetRefs: []
+assets:
+  - ref: code-guesses
+    file: ../assets/code-guesses.png
+    role: stem
+    visibility: public
+    alt: >-
+      Five guessed three-digit codes written in mixed Chinese and Roman numerals, each with a
+      statement about how many digits are correct
+    position: 0
+  - ref: code-option-a
+    file: ../assets/code-option-a.png
+    role: option
+    visibility: public
+    alt: Three-digit code, option a
+    position: 1
+  - ref: code-option-b
+    file: ../assets/code-option-b.png
+    role: option
+    visibility: public
+    alt: Three-digit code, option b
+    position: 2
+  - ref: code-option-c
+    file: ../assets/code-option-c.png
+    role: option
+    visibility: public
+    alt: Three-digit code, option c
+    position: 3
+  - ref: code-option-d
+    file: ../assets/code-option-d.png
+    role: option
+    visibility: public
+    alt: Three-digit code, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 38
+    section: "Chapter 3 question 6 answer and solution"

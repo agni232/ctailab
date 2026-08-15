@@ -1,0 +1,54 @@
+id: c8-ct-distribute-digits-that-cannot-be-assigned-to-a
+slug: digits-that-cannot-be-assigned-to-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-logical-puzzles
+    - c8-ct-ch6-writing-expressions
+  primaryTopic: c8-ct-ch6-logical-puzzles
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A, B, and C are three different digits among 1 to 9. How many digits CANNOT be assigned to
+    "A" if the following condition is true?
+  stimulus:
+    assetRefs:
+      - a-plus-b-times-c
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    B x C must equal 25 - A, so it ranges from 16 to 24. The values 17, 19, 22, and 23 cannot be
+    a product of two digits, ruling out A = 8, 6, 3, and 2. A = 5 also fails because 20 needs
+    4 x 5 and 5 would repeat. So 5 digits are impossible.
+  assetRefs: []
+assets:
+  - ref: a-plus-b-times-c
+    file: ../assets/a-plus-b-times-c.png
+    role: stem
+    visibility: public
+    alt: "The condition A plus B times C equals 25"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 62
+    section: "Chapter 6 question 6 answer and solution"

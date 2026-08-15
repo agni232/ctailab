@@ -1,0 +1,57 @@
+id: c8-ct-quadrilaterals-shape-coloured-in-yellow
+slug: shape-coloured-in-yellow
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-properties-of-quadrilaterals
+    - c8-ct-ch4-logical-puzzles
+  primaryTopic: c8-ct-ch4-properties-of-quadrilaterals
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Raj coloured the following shapes (Trapezium, Parallelogram, Square, Kite) in Red, Yellow,
+    Green, and Blue, not necessarily in the same order. The shape coloured in Red has no
+    parallel sides. The shape with each of its angles equal to 90 degrees is not Yellow. The
+    shape with two pairs of parallel sides is not Green. Which shape did he colour in yellow?
+  stimulus:
+    assetRefs:
+      - four-shapes
+  options:
+    - id: option-a
+      text: "Trapezium"
+    - id: option-b
+      text: "Parallelogram"
+    - id: option-c
+      text: "Square"
+    - id: option-d
+      text: "Kite"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Only the kite has no parallel sides, so the kite is Red. The square and the parallelogram
+    both have two pairs of parallel sides, so neither is Green, leaving the trapezium Green. The
+    square has all angles 90 degrees so it is not Yellow, which makes the parallelogram Yellow
+    and the square Blue.
+  assetRefs: []
+assets:
+  - ref: four-shapes
+    file: ../assets/four-shapes.png
+    role: stem
+    visibility: public
+    alt: A trapezium, a parallelogram, a square, and a kite drawn in a row
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 4 question 1 answer and solution"

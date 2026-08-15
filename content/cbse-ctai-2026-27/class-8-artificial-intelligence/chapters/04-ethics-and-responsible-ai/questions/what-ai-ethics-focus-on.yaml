@@ -1,0 +1,42 @@
+id: c8-ai-ethics-what-ai-ethics-focus-on
+slug: what-ai-ethics-focus-on
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-ai-ethics
+  primaryTopic: c8-ai-ch4-ai-ethics
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI ethics focus on:
+  options:
+    - id: option-a
+      text: "Making machines faster"
+    - id: option-b
+      text: "Making machines cheaper"
+    - id: option-c
+      text: "Ensuring responsible use"
+    - id: option-d
+      text: "Deleting apps"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Ethics is about how a technology should be used rather than how fast or cheap it is, so the
+    focus is on ensuring responsible use.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise A answer"

@@ -1,0 +1,59 @@
+id: c8-ct-number-play-ratio-of-black-to-white-circles
+slug: ratio-of-black-to-white-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch5-multiples-and-factors
+    - c8-ct-ch5-divisibility
+  primaryTopic: c8-ct-ch5-multiples-and-factors
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The numbers of the SET will be distributed to Box 1 and Box 2, based on the conditions given
+    below. If the number is a multiple of 4 it goes to Box 1. If the number is a multiple of 6
+    it goes to Box 2. If the number is a multiple of both 6 and 4 it goes in both the boxes.
+    Find the ratio of the number of BLACK CIRCLES in Box 1 to the number of WHITE CIRCLES in
+    Box 2, finally.
+  stimulus:
+    assetRefs:
+      - set-and-boxes
+  options:
+    - id: option-a
+      text: "2:1"
+    - id: option-b
+      text: "3:2"
+    - id: option-c
+      text: "5:2"
+    - id: option-d
+      text: "5:3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Sort each circle by its number. Box 1 collects the multiples of 4 and ends up with 5 black
+    circles, while Box 2 collects the multiples of 6 and ends up with 2 white circles. The ratio
+    is 5:2.
+  assetRefs: []
+assets:
+  - ref: set-and-boxes
+    file: ../assets/set-and-boxes.png
+    role: stem
+    visibility: public
+    alt: >-
+      A SET of black and white circles holding numbers such as 16, 25, 36, 12, 58, 18, 64, 27,
+      24, 10, 32, 39, 46, 28, 68, 96 and 85, beside two empty boxes labelled Box 1 and Box 2
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 54
+    section: "Chapter 5 question 5 answer and solution"

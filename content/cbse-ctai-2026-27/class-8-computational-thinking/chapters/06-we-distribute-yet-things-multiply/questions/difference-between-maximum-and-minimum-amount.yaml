@@ -1,0 +1,48 @@
+id: c8-ct-distribute-difference-between-maximum-and-minimum-amount
+slug: difference-between-maximum-and-minimum-amount
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-algebraic-identities
+    - c8-ct-ch6-word-problems
+  primaryTopic: c8-ct-ch6-algebraic-identities
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    There are 49 sets of marbles, numbered from 1 to 49. The set numbered k contains k marbles.
+    The marbles in set 49 are sold at 1 rupee per marble, those in set 48 at 2 rupees per
+    marble, those in set 47 at 3 rupees per marble, and so on, with the price per marble
+    increasing accordingly. What is the difference between the maximum and minimum total amount
+    for which a set of marbles can be sold?
+  options:
+    - id: option-a
+      text: "49 squared minus 25 squared"
+    - id: option-b
+      text: "25 squared minus 7 squared"
+    - id: option-c
+      text: "49 squared minus 7 squared"
+    - id: option-d
+      text: "50 squared minus 25 squared"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Set k is worth k x (50 - k), which is largest when the two factors are equal, at k = 25,
+    giving 625. The smallest comes at either end, 1 x 49 or 49 x 1, both 49. The difference is
+    625 - 49 = 576, which is 25 squared minus 7 squared.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 6 question 3 answer and solution"

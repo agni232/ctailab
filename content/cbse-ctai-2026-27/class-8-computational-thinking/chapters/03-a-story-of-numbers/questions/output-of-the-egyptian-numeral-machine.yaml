@@ -1,0 +1,56 @@
+id: c8-ct-number-story-output-of-the-egyptian-numeral-machine
+slug: output-of-the-egyptian-numeral-machine
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch3-ancient-numerals
+    - c8-ct-ch3-number-systems
+  primaryTopic: c8-ct-ch3-ancient-numerals
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    What will come in place of "?" Note: All the numerals on the left of each term are from the
+    same number system.
+  stimulus:
+    assetRefs:
+      - egyptian-machines
+  options:
+    - id: option-a
+      text: "18"
+    - id: option-b
+      text: "90"
+    - id: option-c
+      text: "36"
+    - id: option-d
+      text: "180"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The numerals are Egyptian. Each input is the total of the symbols fed into it, and the
+    machine multiplies the two inputs, as in 6 x 10 = 60. The last machine takes 3 + 3 = 6 and
+    10 + 10 + 10 = 30, so the output is 6 x 30 = 180.
+  assetRefs: []
+assets:
+  - ref: egyptian-machines
+    file: ../assets/egyptian-machines.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four machines, each fed two sets of Egyptian numerals and producing 60, 200, 300, and a
+      question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 21
+    section: "Chapter 3 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 37
+    section: "Chapter 3 question 5 answer and solution"

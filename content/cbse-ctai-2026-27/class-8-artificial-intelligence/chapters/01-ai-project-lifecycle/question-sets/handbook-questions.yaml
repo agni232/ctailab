@@ -1,0 +1,114 @@
+id: cbse-2026-27-c8-ai-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The Chapter 1 exercise from the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ai-lifecycle-what-ai-learns-from
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c8-ai-lifecycle-the-ai-problem-in-spam-detection
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c8-ai-lifecycle-first-stage-of-a-project-cycle
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c8-ai-lifecycle-accuracy-of-the-spam-model
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c8-ai-lifecycle-why-an-ai-model-improves
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise A"
+  - questionId: c8-ai-lifecycle-blank-ai-learns-by-finding
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c8-ai-lifecycle-blank-an-ai-project-follows-a
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c8-ai-lifecycle-blank-spam-emails-often-contain
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c8-ai-lifecycle-blank-after-testing-we-the-system
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c8-ai-lifecycle-blank-ai-cannot-work-without
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise B"
+  - questionId: c8-ai-lifecycle-how-does-ai-learn
+    questionVersion: 1
+    position: 11
+    displayNumber: "C1"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c8-ai-lifecycle-why-defining-the-problem-is-important
+    questionVersion: 1
+    position: 12
+    displayNumber: "C2"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c8-ai-lifecycle-what-happens-in-the-testing-stage
+    questionVersion: 1
+    position: 13
+    displayNumber: "C3"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c8-ai-lifecycle-what-is-meant-by-accuracy
+    questionVersion: 1
+    position: 14
+    displayNumber: "C4"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c8-ai-lifecycle-real-life-example-of-an-ai-project
+    questionVersion: 1
+    position: 15
+    displayNumber: "C5"
+    sourcePage: 44
+    sourceSection: "Chapter 1 Exercise C"
+  - questionId: c8-ai-lifecycle-stages-of-a-fake-news-detector
+    questionVersion: 1
+    position: 16
+    displayNumber: "D1"
+    sourcePage: 45
+    sourceSection: "Chapter 1 Exercise D"
+  - questionId: c8-ai-lifecycle-delivery-status-for-orders-five-and-six
+    questionVersion: 1
+    position: 17
+    displayNumber: "D2"
+    sourcePage: 45
+    sourceSection: "Chapter 1 Exercise D"

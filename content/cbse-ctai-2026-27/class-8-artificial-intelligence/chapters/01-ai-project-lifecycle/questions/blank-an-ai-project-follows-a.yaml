@@ -1,0 +1,46 @@
+id: c8-ai-lifecycle-blank-an-ai-project-follows-a
+slug: blank-an-ai-project-follows-a
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-project-lifecycle
+  primaryTopic: c8-ai-ch1-project-lifecycle
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "An AI project follows a"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "cycle."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["project", "project life", "lifecycle"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    The stages repeat in order from defining the problem through to improvement, which is the
+    project cycle.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise B answer"

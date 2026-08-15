@@ -1,0 +1,43 @@
+id: c8-ai-lifecycle-delivery-status-for-orders-five-and-six
+slug: delivery-status-for-orders-five-and-six
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-training-and-testing
+  primaryTopic: c8-ai-ch1-training-and-testing
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    An online shopping company trained a model on past orders and it learned that a delivery
+    will be on time if the distance is less than 10 km, the weather is clear, the traffic is
+    low, and the delivery partner is experienced. Using that pattern, what is the final status
+    of Order 5 (8 km, clear, low traffic, experienced partner) and Order 6 (18 km, rainy, high
+    traffic, new partner)?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Order 5 is On Time"
+    - "Order 6 is Late"
+    - "Each condition is checked against the learned pattern"
+solution:
+  text: >-
+    Order 5 matches every condition of the learned pattern, so it is On Time. Order 6 fails all
+    of them, so it is Late.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 45
+    section: "Chapter 1 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 81
+    section: "Chapter 1 Exercise D answer"

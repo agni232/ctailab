@@ -1,0 +1,55 @@
+id: c8-ct-power-play-value-after-the-arrow-for-the-red-heptagon
+slug: value-after-the-arrow-for-the-red-heptagon
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-exponents
+  primaryTopic: c8-ct-ch2-exponents
+  estimatedMinutes: 7
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - polygon-operations
+  options:
+    - id: option-a
+      text: "243"
+    - id: option-b
+      text: "125"
+    - id: option-c
+      text: "343"
+    - id: option-d
+      text: "2187"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The border colour decides which number is the base. A black border means the number inside
+    is raised to the number of sides, as in the square giving 4 to the fourth = 256. A red
+    border swaps them, so the sides become the base, as in the triangle giving 3 to the fifth =
+    243. The last shape has a red border and 7 sides, so it is 7 cubed = 343.
+  assetRefs: []
+assets:
+  - ref: polygon-operations
+    file: ../assets/polygon-operations.png
+    role: stem
+    visibility: public
+    alt: >-
+      Polygons with black or red borders and a number inside, each with an arrow to a result:
+      a square with 4 gives 256, a hexagon with 2 gives 64, a triangle with 5 gives 243, a
+      pentagon with 3 gives 125, and a seven-sided shape with 3 gives a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 9"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 2 question 9 answer and solution"

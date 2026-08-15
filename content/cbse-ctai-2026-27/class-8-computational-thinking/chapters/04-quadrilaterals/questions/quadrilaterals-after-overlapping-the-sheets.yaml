@@ -1,0 +1,57 @@
+id: c8-ct-quadrilaterals-quadrilaterals-after-overlapping-the-sheets
+slug: quadrilaterals-after-overlapping-the-sheets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch4-counting-figures
+    - c8-ct-ch4-quadrilaterals
+  primaryTopic: c8-ct-ch4-counting-figures
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Two transparent sheets are shown below. Sheet A is a rectangle and Sheet B is a right-angled
+    triangle. Rearrange the sheets so that the red points overlap exactly (without rotating or
+    flipping the sheets). How many quadrilaterals are formed in the final figure?
+  stimulus:
+    assetRefs:
+      - two-sheets
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Sliding the triangle so its red dot sits on the rectangle's red dot, the two outlines cut
+    each other into regions. Counting every four-sided region, including the ones made by
+    combining regions, gives 5 quadrilaterals.
+  assetRefs: []
+assets:
+  - ref: two-sheets
+    file: ../assets/two-sheets.png
+    role: stem
+    visibility: public
+    alt: >-
+      Sheet A is a 4 cm tall rectangle with a red dot near its right edge, and Sheet B is a 4 cm
+      tall right-angled triangle with a red dot near its left edge
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 question 9"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 4 question 9 answer and solution"

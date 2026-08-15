@@ -1,0 +1,45 @@
+id: c8-ai-ethics-blank-incorrect-information-shared-online-is-called
+slug: blank-incorrect-information-shared-online-is-called
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-misinformation
+  primaryTopic: c8-ai-ch4-misinformation
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Incorrect or misleading information shared online is called"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["misinformation"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    The word for incorrect or misleading information spread online is misinformation.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise B answer"

@@ -1,0 +1,37 @@
+id: c8-ai-applications-two-ways-ai-reduces-environmental-problems
+slug: two-ways-ai-reduces-environmental-problems
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-and-the-environment
+  primaryTopic: c8-ai-ch2-ai-and-the-environment
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Name two ways AI helps in reducing environmental problems.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Detecting plastic waste in oceans"
+    - "Monitoring wildlife populations"
+solution:
+  text: >-
+    It detects plastic waste in oceans and it monitors wildlife populations.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise C answer"

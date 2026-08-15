@@ -1,0 +1,45 @@
+id: c8-ct-quadrilaterals-option-that-does-not-belong
+slug: option-that-does-not-belong
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-angles
+    - c8-ct-ch4-properties-of-quadrilaterals
+  primaryTopic: c8-ct-ch4-angles
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Find the option that does NOT belong to the elements in the given set. Set = (Angle between
+    diagonals of a Rhombus, Each angle of a rectangle, Each angle of a square)
+  options:
+    - id: option-a
+      text: "Angle inscribed in a semicircle"
+    - id: option-b
+      text: "Half of sum of opposite angles of a Cyclic Quadrilateral"
+    - id: option-c
+      text: "Each angle of an Equilateral Triangle"
+    - id: option-d
+      text: "Angle opposite to Hypotenuse in a Right-Angled Triangle"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Every member of the set measures 90 degrees. An angle in a semicircle is 90, half of the
+    180 degree sum of opposite angles in a cyclic quadrilateral is 90, and the angle opposite
+    the hypotenuse is 90. Each angle of an equilateral triangle is 60, so it does not belong.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 question 7"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 4 question 7 answer and solution"

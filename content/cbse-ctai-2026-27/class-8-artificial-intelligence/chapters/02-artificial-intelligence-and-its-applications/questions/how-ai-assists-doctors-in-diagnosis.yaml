@@ -1,0 +1,39 @@
+id: c8-ai-applications-how-ai-assists-doctors-in-diagnosis
+slug: how-ai-assists-doctors-in-diagnosis
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-in-healthcare
+  primaryTopic: c8-ai-ch2-ai-in-healthcare
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How does AI assist doctors in medical diagnosis?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Analyses medical images"
+    - "Uses patient history and symptoms"
+    - "Detects diseases early"
+solution:
+  text: >-
+    AI analyses medical images, patient history, and symptoms so that diseases can be detected
+    early.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise C answer"

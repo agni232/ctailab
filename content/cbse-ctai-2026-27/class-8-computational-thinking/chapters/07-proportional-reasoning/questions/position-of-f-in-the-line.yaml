@@ -1,0 +1,47 @@
+id: c8-ct-proportion-position-of-f-in-the-line
+slug: position-of-f-in-the-line
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch7-equivalent-ratios
+    - c8-ct-ch7-logical-puzzles
+  primaryTopic: c8-ct-ch7-logical-puzzles
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Six friends A, B, C, D, E, and F are standing in a straight line positioning from 1 to 6
+    (from left to right). The positions of A and C are in a 1 : 2 ratio. E is at an extreme end
+    and F is at an odd numbered position. B is next to D. The positional ratios of D to E are in
+    proportion to C to B. What is the position of F?
+  options:
+    - id: option-a
+      text: "1"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    A and C in a 1 : 2 ratio allow three cases, and the rules about B beside D and the D to E
+    proportion rule out two of them. In the case that survives, A is at 1, C at 2, E at 6, and B
+    and D take 3 and 4 in some order, leaving position 5 for F.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 70
+    section: "Chapter 7 question 4 answer and solution"

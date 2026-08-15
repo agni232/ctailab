@@ -1,0 +1,47 @@
+id: c8-ct-power-play-ways-to-form-the-team
+slug: ways-to-form-the-team
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch2-counting-combinations
+    - c8-ct-ch2-logical-puzzles
+  primaryTopic: c8-ct-ch2-counting-combinations
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A team is to be formed from a group of 7 students: A, B, C, D, E, F, and G where A and B
+    cannot be in the same team but at least one of them must be included, C and D must either
+    both be included or both be excluded, and E and F must either both be included or both be
+    excluded. If the team consists of 4 students, in how many different ways can it be formed?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "3"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Exactly one of A and B takes the first place, giving 2 choices. The next two places must be
+    either C and D or E and F, giving 2 more choices, and G fills the last place every time.
+    That is 2 x 2 = 4 teams.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 3 answer and solution"

@@ -1,0 +1,48 @@
+id: c8-ct-power-play-maximum-ten-rupee-coins
+slug: maximum-ten-rupee-coins
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-laws-of-exponents
+    - c8-ct-ch2-comparing-powers
+  primaryTopic: c8-ct-ch2-laws-of-exponents
+  estimatedMinutes: 12
+content:
+  prompt: >-
+    Sam has Rs. 4000 in such a way that he has Re. 1 coins in a power of 10, Rs. 2 coins in a
+    power of 5, Rs. 5 coins in a power of 2, and the remaining coins of Rs. 10. The amount of
+    money of each individual denomination of Re. 1, Rs. 2, and Rs. 5 is greater than or equal to
+    one thousand. At MAXIMUM, how many coins of Rs. 10 can he have?
+  options:
+    - id: option-a
+      text: "53"
+    - id: option-b
+      text: "47"
+    - id: option-c
+      text: "38"
+    - id: option-d
+      text: "45"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    To leave the most for Rs. 10 coins, each of the other three should be as close to Rs. 1000
+    as the rule allows. That gives 10 cubed = Rs. 1000 in one-rupee coins, 2 x 625 = Rs. 1250 in
+    two-rupee coins, and 5 x 256 = Rs. 1280 in five-rupee coins, totalling Rs. 3530. The
+    remaining Rs. 470 makes 47 coins of Rs. 10.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 25
+    section: "Chapter 2 question 8 answer and solution"

@@ -1,0 +1,47 @@
+id: c8-ct-number-play-pairs-on-opposite-faces-of-the-die
+slug: pairs-on-opposite-faces-of-the-die
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch5-logical-puzzles
+    - c8-ct-ch5-multiples-and-factors
+  primaryTopic: c8-ct-ch5-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    On the six faces of a die, even numbers from 2 to 12 are written. All multiples of 4 are
+    written on adjacent faces such that no two of these faces are opposite to each other. The
+    sum of the numbers on any two opposite faces is always greater than 10. Which of these pairs
+    are written on opposite faces?
+  options:
+    - id: option-a
+      text: "8 and 10"
+    - id: option-b
+      text: "12 and 6"
+    - id: option-c
+      text: "2 and 12"
+    - id: option-d
+      text: "Cannot be determined"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The faces carry 2, 4, 6, 8, 10, 12, and the multiples of 4 are 4, 8, and 12, none of which
+    may face each other. With every opposite pair summing to more than 10, the only arrangement
+    left pairs 2 with 12, 6 with 8, and 10 with 4.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 28
+    section: "Chapter 5 question 7"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 55
+    section: "Chapter 5 question 7 answer and solution"

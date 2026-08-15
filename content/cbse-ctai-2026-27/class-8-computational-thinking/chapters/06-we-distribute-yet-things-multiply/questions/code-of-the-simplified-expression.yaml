@@ -1,0 +1,45 @@
+id: c8-ct-distribute-code-of-the-simplified-expression
+slug: code-of-the-simplified-expression
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-algebraic-identities
+    - c8-ct-ch6-distributive-law
+  primaryTopic: c8-ct-ch6-algebraic-identities
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    If 2(pq + rs) is coded as PQ_2_RS, 3(kl + mn) is coded as KL_3_MN and 4(gh + ij) is coded as
+    GH_4_IJ, what will be the possible code of the SIMPLIFIED FORM of the following expression?
+    (a + b)(c + d) - (a - b)(c - d)
+  options:
+    - id: option-a
+      text: "AC_2_BD"
+    - id: option-b
+      text: "AD_3_BC"
+    - id: option-c
+      text: "AB_2_CD"
+    - id: option-d
+      text: "AD_2_BC"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Expanding gives (ac + ad + bc + bd) - (ac - ad - bc + bd), and the ac and bd terms cancel,
+    leaving 2ad + 2bc = 2(ad + bc). Following the coding rule, that is written AD_2_BC.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 32
+    section: "Chapter 6 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 65
+    section: "Chapter 6 question 10 answer and solution"

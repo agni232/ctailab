@@ -1,0 +1,48 @@
+id: c8-ct-quadrilaterals-shape-formed-by-both-paths
+slug: shape-formed-by-both-paths
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch4-properties-of-quadrilaterals
+    - c8-ct-ch4-quadrilaterals
+  primaryTopic: c8-ct-ch4-properties-of-quadrilaterals
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Paul and Sam are at different positions and start walking in opposite directions but along
+    parallel paths. After covering the same distance, each of them turns toward the starting
+    point of the other person and walks straight (without taking any other turns) until they
+    reach each other's starting points. What can we say for certain about the shape formed by
+    BOTH their paths together?
+  options:
+    - id: option-a
+      text: "The shape of the paths is a rectangle"
+    - id: option-b
+      text: "It has no lines of symmetry"
+    - id: option-c
+      text: "Opposite sides are of same length"
+    - id: option-d
+      text: "Both options a and c"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Depending on where they start, the figure can be a rectangle, a square, a rhombus, or a
+    plain parallelogram, so its exact name cannot be pinned down. What holds in every case is
+    that the opposite sides are equal in length.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 26
+    section: "Chapter 4 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 49
+    section: "Chapter 4 question 10 answer and solution"

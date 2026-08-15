@@ -1,0 +1,42 @@
+id: c8-ai-lifecycle-first-stage-of-a-project-cycle
+slug: first-stage-of-a-project-cycle
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-project-lifecycle
+  primaryTopic: c8-ai-ch1-project-lifecycle
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    The first stage of a project cycle is:
+  options:
+    - id: option-a
+      text: "Defining the problem"
+    - id: option-b
+      text: "Data collection"
+    - id: option-c
+      text: "Model development"
+    - id: option-d
+      text: "Model deployment"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Nothing else can start until you know what you are solving, so defining the problem comes
+    first and guides the data collection that follows.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise A answer"

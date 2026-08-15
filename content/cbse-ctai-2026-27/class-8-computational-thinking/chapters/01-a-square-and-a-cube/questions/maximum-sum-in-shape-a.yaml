@@ -1,0 +1,59 @@
+id: c8-ct-squares-cubes-maximum-sum-in-shape-a
+slug: maximum-sum-in-shape-a
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch1-number-grids
+    - c8-ct-ch1-logical-puzzles
+  primaryTopic: c8-ct-ch1-number-grids
+  estimatedMinutes: 12
+content:
+  prompt: >-
+    Fill in the grid with the squares and cubes of digits 2 to 5 such that each square or cube
+    number appears twice, both the square and the cube of the same number cannot appear in the
+    same row or column, and the same numbers do not appear diagonally. What is the maximum
+    possible sum that can be obtained by the cells present in the configuration of Shape A
+    (without rotation)?
+  stimulus:
+    assetRefs:
+      - grid-and-shape-a
+  options:
+    - id: option-a
+      text: "197"
+    - id: option-b
+      text: "161"
+    - id: option-c
+      text: "193"
+    - id: option-d
+      text: "216"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Work through the pairs in turn: the rules leave only one place for each missing 4, 8, 9, 27,
+    16, 64, 25, and 125. Shape A should then cover the largest numbers available, which are 125,
+    64, and 8, giving 8 + 64 + 125 = 197.
+  assetRefs: []
+assets:
+  - ref: grid-and-shape-a
+    file: ../assets/grid-and-shape-a.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid part-filled with 64, 4, 27, 125, 8, 9, 25 and 16, beside an L-shaped
+      three-cell tile labelled Shape A
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 14
+    section: "Chapter 1 question 8 answer and solution"

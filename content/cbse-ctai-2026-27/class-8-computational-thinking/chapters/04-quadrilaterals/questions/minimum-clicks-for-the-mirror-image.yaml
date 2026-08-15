@@ -1,0 +1,56 @@
+id: c8-ct-quadrilaterals-minimum-clicks-for-the-mirror-image
+slug: minimum-clicks-for-the-mirror-image
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-logical-puzzles
+  primaryTopic: c8-ct-ch4-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Given below are two boards, X and Y. Clicking any circle on Board Y changes its colour from
+    black to white, or white to black. What is the MINIMUM number of clicks required to
+    transform Board Y into the MIRROR IMAGE of Board X?
+  stimulus:
+    assetRefs:
+      - boards-x-and-y
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "4"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    First flip Board X left to right in your head to picture its mirror image, then compare it
+    with Board Y circle by circle. Two circles on Y are black where they should be white and two
+    are white where they should be black, so 4 clicks are needed.
+  assetRefs: []
+assets:
+  - ref: boards-x-and-y
+    file: ../assets/boards-x-and-y.png
+    role: stem
+    visibility: public
+    alt: >-
+      Board X and Board Y, each a grid of circles with some filled black and some left white,
+      separated by a dashed mirror line
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 26
+    section: "Chapter 4 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 51
+    section: "Chapter 4 Thinking Spot answer and solution"

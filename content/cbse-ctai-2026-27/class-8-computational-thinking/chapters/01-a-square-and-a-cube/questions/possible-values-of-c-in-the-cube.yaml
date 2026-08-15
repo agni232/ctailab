@@ -1,0 +1,45 @@
+id: c8-ct-squares-cubes-possible-values-of-c-in-the-cube
+slug: possible-values-of-c-in-the-cube
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch1-perfect-cubes
+    - c8-ct-ch1-number-patterns
+  primaryTopic: c8-ct-ch1-perfect-cubes
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    If AB is a two-digit number whose cube is in the form of a 4-digit number "__ __ __ C" such
+    that A is less than C and C is less than B, how many different values can C have?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "More than 4"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A 4-digit cube means AB runs from 10 to 21. The units digit of a cube depends only on the
+    units digit of the number, and the only cases where the cube's units digit is smaller than
+    B are B = 7, giving C = 3, and B = 8, giving C = 2. So C has 2 possible values.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 3 answer and solution"

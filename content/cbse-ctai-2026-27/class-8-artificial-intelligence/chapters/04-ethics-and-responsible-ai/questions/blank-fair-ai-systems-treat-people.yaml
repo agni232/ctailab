@@ -1,0 +1,45 @@
+id: c8-ai-ethics-blank-fair-ai-systems-treat-people
+slug: blank-fair-ai-systems-treat-people
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-bias
+  primaryTopic: c8-ai-ch4-bias
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Fair AI systems treat people"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["equally", "fairly", "the same"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Fairness means no group is favoured over another, so a fair system treats people equally.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise B answer"

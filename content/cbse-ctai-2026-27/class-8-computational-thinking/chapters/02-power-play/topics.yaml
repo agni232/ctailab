@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch2-exponents
+    slug: exponents
+    title: Exponents
+    position: 1
+    status: published
+  - id: c8-ct-ch2-comparing-powers
+    slug: comparing-powers
+    title: Comparing Powers
+    position: 2
+    parentId: c8-ct-ch2-exponents
+    status: published
+  - id: c8-ct-ch2-laws-of-exponents
+    slug: laws-of-exponents
+    title: Working with Exponents
+    position: 3
+    parentId: c8-ct-ch2-exponents
+    status: published
+  - id: c8-ct-ch2-number-series
+    slug: number-series
+    title: Number Series
+    position: 4
+    status: published
+  - id: c8-ct-ch2-counting-combinations
+    slug: counting-combinations
+    title: Counting Combinations
+    position: 5
+    status: published
+  - id: c8-ct-ch2-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

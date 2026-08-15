@@ -1,0 +1,70 @@
+id: c8-ct-number-story-odd-one-out-among-the-shapes
+slug: odd-one-out-among-the-shapes
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch3-roman-numerals
+  primaryTopic: c8-ct-ch3-roman-numerals
+  estimatedMinutes: 5
+content:
+  prompt: "Find the odd one out from the following:"
+  options:
+    - id: option-a
+      assetRef: odd-one-option-a
+      accessibleLabel: A yellow triangle with the Roman numeral I inside
+    - id: option-b
+      assetRef: odd-one-option-b
+      accessibleLabel: A yellow square with the Roman numeral II inside
+    - id: option-c
+      assetRef: odd-one-option-c
+      accessibleLabel: A yellow hexagon with the Roman numeral III inside
+    - id: option-d
+      assetRef: odd-one-option-d
+      accessibleLabel: A yellow five-sided shape with the Roman numeral III inside
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    In each figure the Roman numeral is two less than the number of sides: 1 with 3 sides, 2
+    with 4 sides, and 3 with 5 sides. The hexagon holds III but has 6 sides, so it breaks the
+    rule.
+  assetRefs: []
+assets:
+  - ref: odd-one-option-a
+    file: ../assets/odd-one-option-a.png
+    role: option
+    visibility: public
+    alt: Shape with a Roman numeral, option a
+    position: 0
+  - ref: odd-one-option-b
+    file: ../assets/odd-one-option-b.png
+    role: option
+    visibility: public
+    alt: Shape with a Roman numeral, option b
+    position: 1
+  - ref: odd-one-option-c
+    file: ../assets/odd-one-option-c.jpg
+    role: option
+    visibility: public
+    alt: Shape with a Roman numeral, option c
+    position: 2
+  - ref: odd-one-option-d
+    file: ../assets/odd-one-option-d.png
+    role: option
+    visibility: public
+    alt: Shape with a Roman numeral, option d
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 3 question 2 answer and solution"

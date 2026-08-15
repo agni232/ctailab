@@ -1,0 +1,46 @@
+id: c8-ct-power-play-minimum-possible-value-of-xy
+slug: minimum-possible-value-of-xy
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-comparing-powers
+    - c8-ct-ch2-laws-of-exponents
+  primaryTopic: c8-ct-ch2-comparing-powers
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Let X, Y, and Z be single-digit whole numbers. The number XY is a two-digit number formed
+    using digits X and Y. If XY raised to the power Z lies between 4000 and 5000, what is the
+    minimum possible value of XY?
+  options:
+    - id: option-a
+      text: "10"
+    - id: option-b
+      text: "16"
+    - id: option-c
+      text: "17"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A bigger exponent lets the base be smaller, so try the largest one first. With Z = 4 even
+    10 to the fourth is 10000, too large. With Z = 3, 15 cubed is 3375 which is too small, and
+    16 cubed is 4096, which fits. So the smallest XY is 16.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 4 answer and solution"

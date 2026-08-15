@@ -1,0 +1,45 @@
+id: c8-ct-number-story-missing-terms-in-the-roman-sequence
+slug: missing-terms-in-the-roman-sequence
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch3-roman-numerals
+    - c8-ct-ch3-number-systems
+  primaryTopic: c8-ct-ch3-roman-numerals
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Some terms are missing in between the sequence. Find the missing terms in the order from
+    left to right. VII, VI, VI, VII, V, VIII, ______, ______, III, X
+  options:
+    - id: option-a
+      text: "VI, IX"
+    - id: option-b
+      text: "V, VIII"
+    - id: option-c
+      text: "IV, IX"
+    - id: option-d
+      text: "IV, V"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Two series are interleaved. The odd positions count down VII, VI, V, then IV, then III, and
+    the even positions count up VI, VII, VIII, then IX, then X. So the missing terms are IV
+    and IX.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 35
+    section: "Chapter 3 question 1 answer and solution"

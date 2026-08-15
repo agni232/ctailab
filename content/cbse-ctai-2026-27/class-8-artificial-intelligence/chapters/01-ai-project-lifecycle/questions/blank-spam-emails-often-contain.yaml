@@ -1,0 +1,46 @@
+id: c8-ai-lifecycle-blank-spam-emails-often-contain
+slug: blank-spam-emails-often-contain
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-defining-the-problem
+  primaryTopic: c8-ai-ch1-defining-the-problem
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Spam emails often contain suspicious"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["words", "word", "links"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    The giveaway a spam filter looks for is the wording, so spam often contains suspicious
+    words.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise B answer"

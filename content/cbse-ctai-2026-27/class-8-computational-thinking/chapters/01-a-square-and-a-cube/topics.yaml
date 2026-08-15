@@ -1,0 +1,38 @@
+topics:
+  - id: c8-ct-ch1-squares-and-cubes
+    slug: squares-and-cubes
+    title: Squares and Cubes
+    position: 1
+    status: published
+  - id: c8-ct-ch1-perfect-squares
+    slug: perfect-squares
+    title: Perfect Squares
+    position: 2
+    parentId: c8-ct-ch1-squares-and-cubes
+    status: published
+  - id: c8-ct-ch1-perfect-cubes
+    slug: perfect-cubes
+    title: Perfect Cubes
+    position: 3
+    parentId: c8-ct-ch1-squares-and-cubes
+    status: published
+  - id: c8-ct-ch1-prime-factorisation
+    slug: prime-factorisation
+    title: Prime Factorisation
+    position: 4
+    status: published
+  - id: c8-ct-ch1-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 5
+    status: published
+  - id: c8-ct-ch1-number-grids
+    slug: number-grids
+    title: Number Grids
+    position: 6
+    status: published
+  - id: c8-ct-ch1-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 7
+    status: published

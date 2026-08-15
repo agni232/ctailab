@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch6-distributive-law
+    slug: distributive-law
+    title: The Distributive Law
+    position: 1
+    status: published
+  - id: c8-ct-ch6-algebraic-identities
+    slug: algebraic-identities
+    title: Algebraic Identities
+    position: 2
+    parentId: c8-ct-ch6-distributive-law
+    status: published
+  - id: c8-ct-ch6-writing-expressions
+    slug: writing-expressions
+    title: Writing Expressions
+    position: 3
+    parentId: c8-ct-ch6-distributive-law
+    status: published
+  - id: c8-ct-ch6-number-patterns
+    slug: number-patterns
+    title: Number Patterns
+    position: 4
+    status: published
+  - id: c8-ct-ch6-word-problems
+    slug: word-problems
+    title: Word Problems
+    position: 5
+    status: published
+  - id: c8-ct-ch6-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

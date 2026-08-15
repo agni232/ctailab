@@ -1,0 +1,54 @@
+id: c8-ct-squares-cubes-number-in-place-of-the-question-mark-in-the-column
+slug: number-in-place-of-the-question-mark-in-the-column
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-number-grids
+    - c8-ct-ch1-perfect-squares
+  primaryTopic: c8-ct-ch1-number-grids
+  estimatedMinutes: 6
+content:
+  prompt: Every column follows a certain rule. What number should come in place of "?"
+  stimulus:
+    assetRefs:
+      - column-rule-table
+  options:
+    - id: option-a
+      text: "17"
+    - id: option-b
+      text: "18"
+    - id: option-c
+      text: "19"
+    - id: option-d
+      text: "21"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The bottom number is the square root of the product of the two above it: 16 x 9 = 144 gives
+    12, and 28 x 7 = 196 gives 14. For the last column, 12 x 27 = 324 and the square root of 324
+    is 18.
+  assetRefs: []
+assets:
+  - ref: column-rule-table
+    file: ../assets/column-rule-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table with columns CL1 to CL4 holding 16, 28, 25, 12 on the first row, 9, 7, 16, 27 on
+      the second, and 12, 14, 20 and a question mark on the third
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 18
+    section: "Chapter 1 question 10 answer and solution"

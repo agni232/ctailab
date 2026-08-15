@@ -1,0 +1,48 @@
+id: c8-ct-proportion-ratio-of-milk-to-water-in-the-final-mixture
+slug: ratio-of-milk-to-water-in-the-final-mixture
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch7-sharing-and-mixtures
+    - c8-ct-ch7-word-problems
+  primaryTopic: c8-ct-ch7-sharing-and-mixtures
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A mixture contains milk and water. When 15 litres of water is added to it, the total
+    quantity of the mixture becomes 120 litres, where the quantity of milk and water have the
+    LEAST POSSIBLE DIFFERENCE between them. Now, an additional 35 litres of mixture having the
+    same milk-to-water ratio as the original mixture is added to this new mixture. What will be
+    the ratio of milk to water in the final mixture?
+  options:
+    - id: option-a
+      text: "1:1"
+    - id: option-b
+      text: "5:6"
+    - id: option-c
+      text: "15:16"
+    - id: option-d
+      text: "16:15"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The least possible difference is zero, so after adding 15 litres of water both are 60
+    litres, meaning the original mixture was 60 milk and 45 water, a ratio of 4 : 3. The extra
+    35 litres brings 20 milk and 15 water, giving 80 : 75, which is 16 : 15.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 7 question 3 answer and solution"

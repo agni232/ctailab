@@ -1,0 +1,84 @@
+id: c8-ct-proportion-pair-that-keeps-the-ratios-in-proportion
+slug: pair-that-keeps-the-ratios-in-proportion
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch7-ratios-in-pictures
+    - c8-ct-ch7-equivalent-ratios
+  primaryTopic: c8-ct-ch7-ratios-in-pictures
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    In the image given below, the ratio of blue stars to red stars is 1 : 2. Similarly, answer
+    the following question based on the image. What should replace the question mark so that the
+    ratios are in proportion?
+  stimulus:
+    assetRefs:
+      - shape-collection
+  options:
+    - id: option-a
+      assetRef: ratio-option-a
+      accessibleLabel: A green triangle beside a blue pentagon
+    - id: option-b
+      assetRef: ratio-option-b
+      accessibleLabel: A red star beside a green circle
+    - id: option-c
+      assetRef: ratio-option-c
+      accessibleLabel: A green triangle beside a red ring
+    - id: option-d
+      assetRef: ratio-option-d
+      accessibleLabel: A red star beside a blue ring
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The red squares number 3 and the blue triangles 6, a ratio of 1 : 2. Counting the shapes in
+    each option, only the green triangles and red rings give 5 : 10, which is also 1 : 2.
+  assetRefs: []
+assets:
+  - ref: shape-collection
+    file: ../assets/shape-collection.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box crowded with coloured shapes, beside the pattern red square is to blue triangle as
+      something is to a question mark
+    position: 0
+  - ref: ratio-option-a
+    file: ../assets/ratio-option-a.png
+    role: option
+    visibility: public
+    alt: Pair of shapes, option a
+    position: 1
+  - ref: ratio-option-b
+    file: ../assets/ratio-option-b.png
+    role: option
+    visibility: public
+    alt: Pair of shapes, option b
+    position: 2
+  - ref: ratio-option-c
+    file: ../assets/ratio-option-c.png
+    role: option
+    visibility: public
+    alt: Pair of shapes, option c
+    position: 3
+  - ref: ratio-option-d
+    file: ../assets/ratio-option-d.png
+    role: option
+    visibility: public
+    alt: Pair of shapes, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 71
+    section: "Chapter 7 question 5 answer and solution"

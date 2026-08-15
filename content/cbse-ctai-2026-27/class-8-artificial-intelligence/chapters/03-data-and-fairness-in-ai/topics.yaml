@@ -1,0 +1,23 @@
+topics:
+  - id: c8-ai-ch3-data-and-fairness
+    slug: data-and-fairness
+    title: Data and Fairness
+    position: 1
+    status: published
+  - id: c8-ai-ch3-role-of-training-data
+    slug: role-of-training-data
+    title: The Role of Training Data
+    position: 2
+    parentId: c8-ai-ch3-data-and-fairness
+    status: published
+  - id: c8-ai-ch3-bias-in-datasets
+    slug: bias-in-datasets
+    title: Bias in Datasets
+    position: 3
+    parentId: c8-ai-ch3-data-and-fairness
+    status: published
+  - id: c8-ai-ch3-ensuring-fairness
+    slug: ensuring-fairness
+    title: Ensuring Fairness
+    position: 4
+    status: published

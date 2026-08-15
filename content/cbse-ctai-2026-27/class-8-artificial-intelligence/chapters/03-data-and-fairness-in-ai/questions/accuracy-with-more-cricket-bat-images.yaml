@@ -1,0 +1,45 @@
+id: c8-ai-fairness-accuracy-with-more-cricket-bat-images
+slug: accuracy-with-more-cricket-bat-images
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch3-role-of-training-data
+  primaryTopic: c8-ai-ch3-role-of-training-data
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    An AI program is trained to tell a cricket bat from a badminton racket, but most of the
+    training images are of cricket bats. Do you expect the algorithm's accuracy to be better for
+    cricket bats, the same for both, or better for badminton rackets?
+  options:
+    - id: option-a
+      text: "Better for cricket bats"
+    - id: option-b
+      text: "Same for both"
+    - id: option-c
+      text: "Better for badminton rackets"
+    - id: option-d
+      text: "It cannot be predicted at all"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    AI only learns from the examples it is given. When one object appears far more often in the
+    training data, the model gets better at recognising that one and less accurate on the other,
+    so accuracy is better for cricket bats.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 61
+    section: "Chapter 3 Think prompts"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 3 Think prompts answer"

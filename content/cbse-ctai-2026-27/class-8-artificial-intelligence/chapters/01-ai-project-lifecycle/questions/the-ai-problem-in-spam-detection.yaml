@@ -1,0 +1,42 @@
+id: c8-ai-lifecycle-the-ai-problem-in-spam-detection
+slug: the-ai-problem-in-spam-detection
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch1-defining-the-problem
+  primaryTopic: c8-ai-ch1-defining-the-problem
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    In spam detection, the AI problem is to:
+  options:
+    - id: option-a
+      text: "Send emails"
+    - id: option-b
+      text: "Write emails"
+    - id: option-c
+      text: "Delete all emails"
+    - id: option-d
+      text: "Identify spam emails"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The task the system is being built for is to tell spam apart from ordinary mail, so the
+    problem is to identify spam emails.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise A answer"

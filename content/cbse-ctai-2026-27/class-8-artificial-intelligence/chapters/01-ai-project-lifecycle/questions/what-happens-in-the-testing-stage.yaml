@@ -1,0 +1,37 @@
+id: c8-ai-lifecycle-what-happens-in-the-testing-stage
+slug: what-happens-in-the-testing-stage
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-training-and-testing
+  primaryTopic: c8-ai-ch1-training-and-testing
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What happens in the testing stage of an AI project?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "The model is checked with test data"
+    - "Accuracy and performance are measured"
+solution:
+  text: >-
+    The model is checked using test data so that its accuracy and performance can be measured.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise C answer"

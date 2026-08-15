@@ -1,0 +1,42 @@
+id: c8-ai-ethics-when-ai-bias-can-occur
+slug: when-ai-bias-can-occur
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-bias
+  primaryTopic: c8-ai-ch4-bias
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI bias can occur when:
+  options:
+    - id: option-a
+      text: "AI systems are turned off"
+    - id: option-b
+      text: "Data used for training is incomplete or unfair"
+    - id: option-c
+      text: "Computers are slow"
+    - id: option-d
+      text: "The internet is not working"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Bias comes from what the model learned, so it appears when the training data is incomplete
+    or unfair.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise A answer"

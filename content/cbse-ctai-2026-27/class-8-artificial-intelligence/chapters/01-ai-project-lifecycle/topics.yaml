@@ -1,0 +1,29 @@
+topics:
+  - id: c8-ai-ch1-project-lifecycle
+    slug: project-lifecycle
+    title: The AI Project Lifecycle
+    position: 1
+    status: published
+  - id: c8-ai-ch1-defining-the-problem
+    slug: defining-the-problem
+    title: Defining the Problem
+    position: 2
+    parentId: c8-ai-ch1-project-lifecycle
+    status: published
+  - id: c8-ai-ch1-data-collection
+    slug: data-collection
+    title: Data Collection
+    position: 3
+    parentId: c8-ai-ch1-project-lifecycle
+    status: published
+  - id: c8-ai-ch1-training-and-testing
+    slug: training-and-testing
+    title: Training and Testing
+    position: 4
+    parentId: c8-ai-ch1-project-lifecycle
+    status: published
+  - id: c8-ai-ch1-how-ai-learns
+    slug: how-ai-learns
+    title: How AI Learns
+    position: 5
+    status: published

@@ -1,0 +1,54 @@
+id: c8-ct-distribute-expression-for-the-split-grid
+slug: expression-for-the-split-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch6-distributive-law
+    - c8-ct-ch6-writing-expressions
+  primaryTopic: c8-ct-ch6-distributive-law
+  estimatedMinutes: 6
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - split-grids
+  options:
+    - id: option-a
+      text: "(2 x 4) + (2 x 6)"
+    - id: option-b
+      text: "(6 x 3) + (6 x 4)"
+    - id: option-c
+      text: "(1 x 6) + (1 x 4)"
+    - id: option-d
+      text: "(6 x 2) + (6 x 3)"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The red dotted line splits each grid into two blocks, and the expression counts the squares
+    in each. The last grid has 6 rows split into 2 columns and 3 columns, so it is
+    (6 x 2) + (6 x 3).
+  assetRefs: []
+assets:
+  - ref: split-grids
+    file: ../assets/split-grids.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four grids each cut by a red dotted line, three labelled with expressions such as
+      (5 x 2) + (5 x 4) and the fourth labelled with a question mark
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 7"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 63
+    section: "Chapter 6 question 7 answer and solution"

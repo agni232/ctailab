@@ -1,0 +1,41 @@
+id: c8-ai-ethics-what-ai-systems-learn-patterns-from
+slug: what-ai-systems-learn-patterns-from
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-bias
+  primaryTopic: c8-ai-ch4-bias
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    AI systems learn patterns from:
+  options:
+    - id: option-a
+      text: "Books"
+    - id: option-b
+      text: "Data"
+    - id: option-c
+      text: "Games"
+    - id: option-d
+      text: "Images"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Whatever form the examples take, what the system learns from is data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise A answer"

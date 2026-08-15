@@ -1,0 +1,45 @@
+id: c8-ai-fairness-what-the-sports-recommendation-is-based-on
+slug: what-the-sports-recommendation-is-based-on
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch3-bias-in-datasets
+  primaryTopic: c8-ai-ch3-bias-in-datasets
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    A school's AI recommends sports using past data in which 55 boys and 15 girls enjoyed
+    cricket while 10 boys and 20 girls enjoyed badminton. When it recommends badminton to a new
+    girl student, is the AI making that recommendation based on ability or on a data pattern?
+  options:
+    - id: option-a
+      text: "On the student's ability"
+    - id: option-b
+      text: "On a pattern in the training data"
+    - id: option-c
+      text: "On the student's own choice"
+    - id: option-d
+      text: "On the number of sports available"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The system has never seen the new student play. It has only noticed that most girls in the
+    past data enjoyed badminton, so the recommendation comes from a pattern in the data, not
+    from ability.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 61
+    section: "Chapter 3 Think prompts"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 84
+    section: "Chapter 3 Think prompts answer"

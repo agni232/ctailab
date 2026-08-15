@@ -1,0 +1,57 @@
+id: c8-ct-power-play-terms-that-stay-in-the-same-position
+slug: terms-that-stay-in-the-same-position
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch2-comparing-powers
+    - c8-ct-ch2-exponents
+  primaryTopic: c8-ct-ch2-comparing-powers
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Each term is written in exponential form. If the terms are rearranged in ascending order of
+    their numerical values from left to right, how many terms remain in the same position as in
+    the original arrangement?
+  stimulus:
+    assetRefs:
+      - exponential-terms
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Working the powers out gives 64, 16, 27, 256, 25, 729. In ascending order that becomes 16,
+    25, 27, 64, 256, 729, and comparing the two lists position by position, 2 terms have not
+    moved.
+  assetRefs: []
+assets:
+  - ref: exponential-terms
+    file: ../assets/exponential-terms.png
+    role: stem
+    visibility: public
+    alt: >-
+      Six terms written left to right as 4 cubed, 2 to the fourth, 3 cubed, 2 to the eighth,
+      5 squared, and 3 to the sixth
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 1 answer and solution"

@@ -1,0 +1,46 @@
+id: c8-ct-quadrilaterals-shapes-that-will-not-form-a-quadrilateral
+slug: shapes-that-will-not-form-a-quadrilateral
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-quadrilaterals
+    - c8-ct-ch4-properties-of-quadrilaterals
+  primaryTopic: c8-ct-ch4-quadrilaterals
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Which shapes from the given options will NOT form a quadrilateral when any two identical
+    shapes are joined along any one of their sides? Note: You can rotate the shapes but they
+    cannot overlap each other.
+  options:
+    - id: option-a
+      text: "Triangle"
+    - id: option-b
+      text: "Rhombus"
+    - id: option-c
+      text: "Trapezium"
+    - id: option-d
+      text: "Pentagon"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Two triangles, two rhombuses, or two trapeziums can each be joined along a side to give a
+    four-sided outline. Two pentagons joined along a side always leave more than four sides, so
+    the pentagon is the odd one out.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 question 8"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 4 question 8 answer and solution"

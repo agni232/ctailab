@@ -1,0 +1,40 @@
+id: c8-ai-ethics-why-human-review-matters-in-healthcare
+slug: why-human-review-matters-in-healthcare
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-accountability
+  primaryTopic: c8-ai-ch4-accountability
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    An AI system used in healthcare suggests that a patient has a high-risk level. Doctors
+    carefully review the AI's recommendation before making a final decision. Why is human review
+    important in this situation?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "To verify the AI's result"
+    - "To avoid incorrect medical decisions"
+solution:
+  text: >-
+    To verify what the AI has produced and to avoid an incorrect medical decision being acted
+    on.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 72
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise D answer"

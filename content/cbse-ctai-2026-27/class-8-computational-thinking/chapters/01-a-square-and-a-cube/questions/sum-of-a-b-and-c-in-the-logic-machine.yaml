@@ -1,0 +1,57 @@
+id: c8-ct-squares-cubes-sum-of-a-b-and-c-in-the-logic-machine
+slug: sum-of-a-b-and-c-in-the-logic-machine
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch1-number-patterns
+    - c8-ct-ch1-squares-and-cubes
+  primaryTopic: c8-ct-ch1-number-patterns
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    The image below shows a logic machine, where numbers move from Column to Column (starting
+    from column 1 as input and reach column 4) through the tunnel, where they change in a
+    different way, each time. What would be the sum of A, B, and C?
+  stimulus:
+    assetRefs:
+      - logic-machine
+  options:
+    - id: option-a
+      text: "2259"
+    - id: option-b
+      text: "1795"
+    - id: option-c
+      text: "180"
+    - id: option-d
+      text: "1788"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The first tunnel squares the number and subtracts 1, so 7 gives A = 48. The second adds the
+    digits, so 48 gives B = 12. The third cubes the number, so 12 gives C = 1728. The sum is
+    48 + 12 + 1728 = 1788.
+  assetRefs: []
+assets:
+  - ref: logic-machine
+    file: ../assets/logic-machine.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four columns joined by coloured tunnels, with 4, 22, 11, 7 as inputs and 216, 3375, 27 and
+      C as outputs, and A and B unknown along the way
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 12
+    section: "Chapter 1 question 9"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 16
+    section: "Chapter 1 question 9 answer and solution"

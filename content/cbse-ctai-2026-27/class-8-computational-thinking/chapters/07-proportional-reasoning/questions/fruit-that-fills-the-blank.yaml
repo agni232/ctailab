@@ -1,0 +1,48 @@
+id: c8-ct-proportion-fruit-that-fills-the-blank
+slug: fruit-that-fills-the-blank
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch7-ratio-and-proportion
+    - c8-ct-ch7-word-problems
+  primaryTopic: c8-ct-ch7-ratio-and-proportion
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A fruit basket has different fruits: Bananas, Apples, Cherries, and Strawberries. The
+    bananas are 1/3 the number of cherries and twice that of apples. The strawberries are 4 more
+    than the number of apples. The number of fruits of each variety are all even numbers less
+    than 15. Based on the above statement, fill in the blank with the appropriate fruit name.
+    For every 3 strawberries, there are proportionately 6 _________.
+  options:
+    - id: option-a
+      text: "Bananas"
+    - id: option-b
+      text: "Apples"
+    - id: option-c
+      text: "Cherries"
+    - id: option-d
+      text: "All of the above"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The rules make apples one-sixth of cherries, so cherries must be 6 or 12. With 6 the counts
+    come out odd, so cherries are 12, bananas 4, apples 2, and strawberries 6. Halving to 3
+    strawberries halves everything else, giving 6 cherries.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 68
+    section: "Chapter 7 question 1 answer and solution"

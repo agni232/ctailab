@@ -1,0 +1,44 @@
+id: c8-ct-number-play-least-possible-sum-of-the-two-numbers
+slug: least-possible-sum-of-the-two-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch5-multiples-and-factors
+    - c8-ct-ch5-divisibility
+  primaryTopic: c8-ct-ch5-multiples-and-factors
+  estimatedMinutes: 5
+content:
+  prompt: >-
+    Sam has two different two-digit numbers such that both numbers are divisible by 9 and
+    neither number is a multiple of 18. What is the LEAST possible sum of the two numbers?
+  options:
+    - id: option-a
+      text: "45"
+    - id: option-b
+      text: "72"
+    - id: option-c
+      text: "63"
+    - id: option-d
+      text: "54"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The two-digit multiples of 9 that are not multiples of 18 are 27, 45, 63, 81, and 99. The
+    two smallest are 27 and 45, and their sum is 72.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 5 question 4 answer and solution"

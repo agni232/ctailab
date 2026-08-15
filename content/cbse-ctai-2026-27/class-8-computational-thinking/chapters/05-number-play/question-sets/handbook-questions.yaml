@@ -1,0 +1,72 @@
+id: cbse-2026-27-c8-ct-ch5-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 5 in the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ct-number-play-number-definitely-divisible-by-thirty-two
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-bulbs-that-glow-for-fifty-six
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-place-values-pointing-to-a-greater-digit
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-least-possible-sum-of-the-two-numbers
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 27
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-ratio-of-black-to-white-circles
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 28
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-minimum-sum-for-ashish-to-win
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 28
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-pairs-on-opposite-faces-of-the-die
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 28
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-simrans-age-in-2024
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 28
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-possible-value-of-p
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 28
+    sourceSection: "Chapter 5: Number Play"
+  - questionId: c8-ct-number-play-smallest-possible-value-of-p-plus-m
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 29
+    sourceSection: "Chapter 5: Number Play"

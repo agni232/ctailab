@@ -1,0 +1,37 @@
+id: c8-ai-ethics-what-is-misinformation
+slug: what-is-misinformation
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-misinformation
+  primaryTopic: c8-ai-ch4-misinformation
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is misinformation?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "False or incorrect information"
+    - "Shared online"
+solution:
+  text: >-
+    Misinformation is false or incorrect information shared online.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise C answer"

@@ -1,0 +1,54 @@
+id: c8-ct-distribute-when-the-scale-can-balance
+slug: when-the-scale-can-balance
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch6-algebraic-identities
+    - c8-ct-ch6-distributive-law
+  primaryTopic: c8-ct-ch6-algebraic-identities
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    On a weighing scale, both a and b are whole numbers. Which conclusion is logically correct?
+  stimulus:
+    assetRefs:
+      - weighing-scale
+  options:
+    - id: option-a
+      text: "The scale can balance only when one of the numbers is 0"
+    - id: option-b
+      text: "The scale can balance for any values of a and b"
+    - id: option-c
+      text: "The scale can balance only when a = b = 1"
+    - id: option-d
+      text: "The scale can balance only when a and b are single-digit natural numbers"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Expanding the right pan gives (a + b) squared = a squared + b squared + 2ab. Setting the two
+    pans equal and cancelling leaves 2ab = 0, so one of the two numbers must be 0.
+  assetRefs: []
+assets:
+  - ref: weighing-scale
+    file: ../assets/weighing-scale.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      A weighing scale with boxes marked a squared plus b squared on the left pan and a box
+      marked (a + b) squared on the right pan
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 60
+    section: "Chapter 6 question 2 answer and solution"

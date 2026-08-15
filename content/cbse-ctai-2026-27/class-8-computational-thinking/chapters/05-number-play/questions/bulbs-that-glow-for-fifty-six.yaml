@@ -1,0 +1,58 @@
+id: c8-ct-number-play-bulbs-that-glow-for-fifty-six
+slug: bulbs-that-glow-for-fifty-six
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch5-divisibility
+    - c8-ct-ch5-multiples-and-factors
+  primaryTopic: c8-ct-ch5-divisibility
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A control panel has three bulbs - A, B, and C. Each bulb is associated with one fixed
+    divisor (greater than 3). A bulb glows whenever the entered number is divisible by its own
+    divisor. A technician tested the panel with several numbers and noted which bulbs glowed, as
+    shown in the table below. Using this information, if 56 is entered, which bulb(s) will glow?
+  stimulus:
+    assetRefs:
+      - bulb-table
+  options:
+    - id: option-a
+      text: "A and C"
+    - id: option-b
+      text: "Only B"
+    - id: option-c
+      text: "B and C"
+    - id: option-d
+      text: "A and B"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    C glows for 35 and 42, so its divisor is 7. B glows for 12 and 16, so its divisor is 4. A
+    glows for 12, 18, and 42, so its divisor is 6. Since 56 divides by 4 and by 7 but not by 6,
+    B and C glow.
+  assetRefs: []
+assets:
+  - ref: bulb-table
+    file: ../assets/bulb-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of numbers entered and bulbs that glow: 12 gives A and B, 16 gives B, 35 gives C,
+      42 gives A and C, and 18 gives A
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 2 answer and solution"

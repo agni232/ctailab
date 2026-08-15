@@ -1,0 +1,17 @@
+id: cbse-2026-27-c8-ct-ch7-thinking-spot
+slug: thinking-spot
+version: 1
+title: The Thinking Spot
+description: The bonus brain teaser printed at the end of Chapter 7.
+kind: challenge
+instructions:
+  introduction: One puzzle, no time limit. Read it twice before you choose.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ct-proportion-arrangements-that-satisfy-the-conditions
+    questionVersion: 1
+    position: 1
+    sourcePage: 35
+    sourceSection: "Chapter 7 The Thinking Spot"

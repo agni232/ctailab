@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ai-chapter-3
+slug: data-and-fairness-in-ai
+displayNumber: "3"
+title: Data and Fairness in AI
+summary: How unbalanced training data teaches an AI to be unfair, and what keeps it honest.
+position: 3
+status: published
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 60
+    pageEnd: 66
+    section: "Chapter 3: Data and Fairness in AI"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 84
+    pageEnd: 89
+    section: "Chapter 3: Data and Fairness in AI"

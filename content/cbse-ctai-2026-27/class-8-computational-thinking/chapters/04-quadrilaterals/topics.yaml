@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch4-quadrilaterals
+    slug: quadrilaterals
+    title: Quadrilaterals
+    position: 1
+    status: published
+  - id: c8-ct-ch4-properties-of-quadrilaterals
+    slug: properties-of-quadrilaterals
+    title: Properties of Quadrilaterals
+    position: 2
+    parentId: c8-ct-ch4-quadrilaterals
+    status: published
+  - id: c8-ct-ch4-diagonals
+    slug: diagonals
+    title: Diagonals
+    position: 3
+    parentId: c8-ct-ch4-quadrilaterals
+    status: published
+  - id: c8-ct-ch4-angles
+    slug: angles
+    title: Angles
+    position: 4
+    status: published
+  - id: c8-ct-ch4-counting-figures
+    slug: counting-figures
+    title: Counting Figures
+    position: 5
+    status: published
+  - id: c8-ct-ch4-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

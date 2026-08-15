@@ -1,0 +1,38 @@
+id: c8-ai-ethics-what-a-fast-spreading-false-message-is-called
+slug: what-a-fast-spreading-false-message-is-called
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-misinformation
+  primaryTopic: c8-ai-ch4-misinformation
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A message spreads quickly on social media, but the information in it is incorrect. What is
+    this situation called, and what should users do before sharing such messages?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "It is called misinformation"
+    - "Users should verify before sharing"
+solution:
+  text: >-
+    This is called misinformation. Users should verify the information before sharing it.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 72
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise D answer"

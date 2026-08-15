@@ -1,0 +1,47 @@
+id: c8-ct-number-play-switch-that-is-definitely-a-light
+slug: switch-that-is-definitely-a-light
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch5-logical-puzzles
+  primaryTopic: c8-ct-ch5-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    There are 9 switches in a row on a switchboard. 3 of them belong to lights and the remaining
+    are of fans. Every two consecutive light switches have exactly two fan switches between
+    them. The switch at the extreme right is NOT a light switch and the switch at the extreme
+    left is NOT a fan switch. Which of them is definitely a light switch?
+  options:
+    - id: option-a
+      text: "2nd switch from the left"
+    - id: option-b
+      text: "3rd switch from the left"
+    - id: option-c
+      text: "6th switch from the right"
+    - id: option-d
+      text: "5th switch from the left"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Three light switches with exactly two fan switches between consecutive ones allow only
+    FLFFLFFLF, LFFLFFLFF, or FFLFFLFFL. The right end is not a light, ruling out the third, and
+    the left end is not a fan, ruling out the first. That leaves LFFLFFLFF, whose 6th switch
+    from the right is a light.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 29
+    section: "Chapter 5 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 58
+    section: "Chapter 5 Thinking Spot answer and solution"

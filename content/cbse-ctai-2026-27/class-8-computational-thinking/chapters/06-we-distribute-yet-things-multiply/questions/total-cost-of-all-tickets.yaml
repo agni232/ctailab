@@ -1,0 +1,58 @@
+id: c8-ct-distribute-total-cost-of-all-tickets
+slug: total-cost-of-all-tickets
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch6-writing-expressions
+    - c8-ct-ch6-word-problems
+  primaryTopic: c8-ct-ch6-writing-expressions
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    A train runs from A to D via B and C. The number of passengers entering and leaving at each
+    station is given in the table. Each passenger buys a separate ticket for each segment
+    travelled (A to B, B to C, C to D). Ticket prices are A to B = Rs. 1, B to C = Rs. 2, and
+    C to D = Rs. 1. Which of the following is the total cost of all tickets purchased?
+  stimulus:
+    assetRefs:
+      - station-table
+  options:
+    - id: option-a
+      text: "Rs. [(150 x 1) + (70 x 3) + (60 x 2) + (80 x 1)]"
+    - id: option-b
+      text: "Rs. [(150 x 1) + (70 x 2) + (60 x 1) + (80 x 1)]"
+    - id: option-c
+      text: "Rs. [(150 x 1) + (70 x 1) + (60 x 2) + (80 x 1)]"
+    - id: option-d
+      text: "Rs. [(150 x 1) + (70 x 3) + (60 x 1) + (80 x 1)]"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    150 travel A to B at Rs. 1. After 80 leave at B, 70 continue to C at Rs. 2, and the 60 who
+    board at B also pay Rs. 2. After 50 leave at C, 80 travel to D at Rs. 1, and the 70 boarding
+    at C pay Rs. 1. Grouping the two payments made by the 70 gives 70 x 3.
+  assetRefs: []
+assets:
+  - ref: station-table
+    file: ../assets/station-table.png
+    role: stem
+    visibility: public
+    alt: >-
+      A table of stations A to D with passengers in and out: A 150 in, B 60 in and 80 out, C 70
+      in and 50 out, D 150 out
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 31
+    section: "Chapter 6 question 9"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 64
+    section: "Chapter 6 question 9 answer and solution"

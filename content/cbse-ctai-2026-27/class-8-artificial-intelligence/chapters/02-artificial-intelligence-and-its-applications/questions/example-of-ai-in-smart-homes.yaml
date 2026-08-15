@@ -1,0 +1,42 @@
+id: c8-ai-applications-example-of-ai-in-smart-homes
+slug: example-of-ai-in-smart-homes
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-applications
+  primaryTopic: c8-ai-ch2-ai-applications
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    An example of AI in smart homes is:
+  options:
+    - id: option-a
+      text: "Self-driving cars"
+    - id: option-b
+      text: "Voice-controlled appliances"
+    - id: option-c
+      text: "Tracking wildlife populations"
+    - id: option-d
+      text: "Predicting diseases"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Voice-controlled appliances are the everyday example of AI inside the home. The others
+    belong to transport, conservation, and healthcare.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise A answer"

@@ -1,0 +1,46 @@
+id: c8-ct-proportion-highest-difference-among-the-values
+slug: highest-difference-among-the-values
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch7-equivalent-ratios
+    - c8-ct-ch7-logical-puzzles
+  primaryTopic: c8-ct-ch7-equivalent-ratios
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    There are two unknown proportional ratios, A : B and C : D, where A, B, C, and D are
+    DIFFERENT single-digit numbers. A is 2 less than C, and D is 3 times B. What is the HIGHEST
+    difference between any two values among A, B, C, and D?
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    From A/B = C/D with A = C - 2 and D = 3B, substituting gives 3(C - 2) = C, so C = 3 and
+    A = 1. Then D = 3B with all values distinct forces B = 2 and D = 6, giving the ratios
+    1 : 2 and 3 : 6. The largest gap is 6 - 1 = 5.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 33
+    section: "Chapter 7 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 69
+    section: "Chapter 7 question 2 answer and solution"

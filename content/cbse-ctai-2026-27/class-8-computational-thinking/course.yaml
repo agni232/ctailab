@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ct
+grade:
+  id: grade-8
+  level: 8
+  label: Class 8
+subject:
+  id: computational-thinking
+  code: CT
+  slug: computational-thinking
+  name: Computational Thinking
+  description: Break problems down, spot patterns, and design clear steps to a solution.
+slug: class-8-computational-thinking
+title: Class 8 Computational Thinking
+description: Chapter-wise activities and practice for Class 8 learners.
+status: published
+position: 8

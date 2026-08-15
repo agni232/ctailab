@@ -1,0 +1,46 @@
+id: c8-ct-number-play-number-definitely-divisible-by-thirty-two
+slug: number-definitely-divisible-by-thirty-two
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch5-divisibility
+    - c8-ct-ch5-logical-puzzles
+  primaryTopic: c8-ct-ch5-divisibility
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    A, B, C, D, and E are five distinct whole numbers, with 16 as the smallest number. When
+    arranged in ascending order, the difference between any two consecutive numbers is 8. It is
+    given that D is the greatest number and A is the least. Also, B is greater than E but less
+    than C. Which of the following numbers is definitely divisible by 32?
+  options:
+    - id: option-a
+      text: "A"
+    - id: option-b
+      text: "B"
+    - id: option-c
+      text: "C"
+    - id: option-d
+      text: "E"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The five numbers are 16, 24, 32, 40, 48. The clues give the order A, E, B, C, D, so A = 16,
+    E = 24, B = 32, C = 40, and D = 48. Only 32 is divisible by 32, and that is B.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 52
+    section: "Chapter 5 question 1 answer and solution"

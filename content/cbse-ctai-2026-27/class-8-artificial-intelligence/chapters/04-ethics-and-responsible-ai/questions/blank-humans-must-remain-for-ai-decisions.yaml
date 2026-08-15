@@ -1,0 +1,46 @@
+id: c8-ai-ethics-blank-humans-must-remain-for-ai-decisions
+slug: blank-humans-must-remain-for-ai-decisions
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-accountability
+  primaryTopic: c8-ai-ch4-accountability
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Humans must remain"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "for AI decisions."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["responsible", "accountable"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    A machine cannot answer for what it decides, so humans must remain responsible for AI
+    decisions.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise B answer"

@@ -1,0 +1,28 @@
+topics:
+  - id: c8-ai-ch4-ai-ethics
+    slug: ai-ethics
+    title: AI Ethics
+    position: 1
+    status: published
+  - id: c8-ai-ch4-privacy
+    slug: privacy
+    title: Privacy
+    position: 2
+    parentId: c8-ai-ch4-ai-ethics
+    status: published
+  - id: c8-ai-ch4-bias
+    slug: bias
+    title: Bias
+    position: 3
+    parentId: c8-ai-ch4-ai-ethics
+    status: published
+  - id: c8-ai-ch4-misinformation
+    slug: misinformation
+    title: Misinformation
+    position: 4
+    status: published
+  - id: c8-ai-ch4-accountability
+    slug: accountability
+    title: Accountability
+    position: 5
+    status: published

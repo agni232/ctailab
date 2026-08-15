@@ -1,0 +1,54 @@
+id: c8-ct-quadrilaterals-pairs-whose-diagonals-bisect-each-other
+slug: pairs-whose-diagonals-bisect-each-other
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-diagonals
+    - c8-ct-ch4-properties-of-quadrilaterals
+  primaryTopic: c8-ct-ch4-diagonals
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the grid, each letter stands for the initial of a shape: Square, Rhombus, Kite,
+    Trapezium, and Parallelogram. How many pairs of adjacent letters represent two shapes in
+    which the diagonals bisect each other?
+  stimulus:
+    assetRefs:
+      - letter-strip
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Only the square, rhombus, and parallelogram have diagonals that bisect each other, so look
+    for neighbouring pairs drawn from S, R, and P. There are 5 such pairs in the strip.
+  assetRefs: []
+assets:
+  - ref: letter-strip
+    file: ../assets/letter-strip.png
+    role: stem
+    visibility: public
+    alt: "A strip of letters reading R K S P T R P S T P R S K"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 48
+    section: "Chapter 4 question 6 answer and solution"

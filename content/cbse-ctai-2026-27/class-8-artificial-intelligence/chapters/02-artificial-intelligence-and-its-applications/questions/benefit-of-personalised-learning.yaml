@@ -1,0 +1,38 @@
+id: c8-ai-applications-benefit-of-personalised-learning
+slug: benefit-of-personalised-learning
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-in-education
+  primaryTopic: c8-ai-ch2-ai-in-education
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    What is the benefit of personalised learning in education?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Students learn at their own pace"
+    - "Lessons match their strengths and weaknesses"
+solution:
+  text: >-
+    Students learn at their own pace, with the lessons matched to their own strengths and
+    weaknesses.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise C answer"

@@ -1,0 +1,57 @@
+id: c8-ct-quadrilaterals-family-with-the-most-properties
+slug: family-with-the-most-properties
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch4-properties-of-quadrilaterals
+  primaryTopic: c8-ct-ch4-properties-of-quadrilaterals
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Below are three families of shapes and a set of Property Cards. A property card should be
+    placed into a family if the property applies to that family, and a single property may
+    belong to more than one family. After placing all the property cards, which family will have
+    the maximum number of properties?
+  stimulus:
+    assetRefs:
+      - shape-families
+  options:
+    - id: option-a
+      text: "Square Family"
+    - id: option-b
+      text: "Rectangle Family"
+    - id: option-c
+      text: "Parallelogram Family"
+    - id: option-d
+      text: "Both a and c"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    A square satisfies every card, giving it 5 properties. A rectangle takes 4 of them, and a
+    parallelogram only the 2 about parallel and equal opposite sides. So the Square Family holds
+    the most.
+  assetRefs: []
+assets:
+  - ref: shape-families
+    file: ../assets/shape-families.png
+    role: stem
+    visibility: public
+    alt: >-
+      Boxes labelled Rectangle Family, Square Family and Parallelogram Family beside a list of
+      five property cards about sides, angles and diagonals
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 25
+    section: "Chapter 4 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 4 question 5 answer and solution"

@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch3-number-systems
+    slug: number-systems
+    title: Number Systems
+    position: 1
+    status: published
+  - id: c8-ct-ch3-roman-numerals
+    slug: roman-numerals
+    title: Roman Numerals
+    position: 2
+    parentId: c8-ct-ch3-number-systems
+    status: published
+  - id: c8-ct-ch3-ancient-numerals
+    slug: ancient-numerals
+    title: Other Ancient Numerals
+    position: 3
+    parentId: c8-ct-ch3-number-systems
+    status: published
+  - id: c8-ct-ch3-place-value
+    slug: place-value
+    title: Place Value
+    position: 4
+    status: published
+  - id: c8-ct-ch3-codes-and-ciphers
+    slug: codes-and-ciphers
+    title: Codes and Ciphers
+    position: 5
+    status: published
+  - id: c8-ct-ch3-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

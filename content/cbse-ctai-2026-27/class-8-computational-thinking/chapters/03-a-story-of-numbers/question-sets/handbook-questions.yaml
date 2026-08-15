@@ -1,0 +1,72 @@
+id: cbse-2026-27-c8-ct-ch3-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 3 in the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ct-number-story-missing-terms-in-the-roman-sequence
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-odd-one-out-among-the-shapes
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-correct-tilt-of-the-balance
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-highest-number-after-moving-one-bead
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 20
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-output-of-the-egyptian-numeral-machine
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-the-correct-three-digit-code
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-code-for-two-hundred-and-eight
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 21
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-minimum-difference-after-moving-a-ball
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 22
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-number-of-passwords-sam-can-form
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 22
+    sourceSection: "Chapter 3: A Story of Numbers"
+  - questionId: c8-ct-number-story-minimum-number-of-swaps
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 22
+    sourceSection: "Chapter 3: A Story of Numbers"

@@ -1,0 +1,59 @@
+id: c8-ct-power-play-difference-between-the-final-numbers
+slug: difference-between-the-final-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-laws-of-exponents
+    - c8-ct-ch2-comparing-powers
+  primaryTopic: c8-ct-ch2-laws-of-exponents
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Sam and Tim are playing a number-maximizing game. Their numbers are shown in the table below
+    (where A and B are undefined). They must modify their numbers using ONLY ONE of the
+    following rules: if the base is smaller than the exponent, the base n is replaced with 1/n;
+    if the base is greater than the exponent, the exponent n is replaced with 1/n. Sam and Tim
+    choose A and B and apply the rule exactly once in a way that maximizes their own numbers.
+    What is the difference between the final numbers of Sam and Tim, where A and B are
+    single-digit natural numbers?
+  stimulus:
+    assetRefs:
+      - sam-and-tim-numbers
+  options:
+    - id: option-a
+      text: "2"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "1"
+    - id: option-d
+      text: "0"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Sam keeps the base 4 larger by taking A = 1, so the exponent becomes 1/1 and the number
+    stays 4. Tim makes the base as big as possible with B = 9, and since 9 is greater than 2 the
+    exponent becomes 1/2, giving the square root of 9, which is 3. The difference is 4 - 3 = 1.
+  assetRefs: []
+assets:
+  - ref: sam-and-tim-numbers
+    file: ../assets/sam-and-tim-numbers.png
+    role: stem
+    visibility: public
+    alt: "A table giving Sam's number as 4 to the power A and Tim's number as B squared"
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 15
+    section: "Chapter 2 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 26
+    section: "Chapter 2 question 10 answer and solution"

@@ -1,0 +1,42 @@
+id: c8-ct-power-play-next-term-in-the-power-series
+slug: next-term-in-the-power-series
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ct-ch2-number-series
+    - c8-ct-ch2-exponents
+  primaryTopic: c8-ct-ch2-number-series
+  estimatedMinutes: 4
+content:
+  prompt: "What will come in place of \"?\" in the given series? 6, 26, 126, 626, ?"
+  options:
+    - id: option-a
+      text: "3125"
+    - id: option-b
+      text: "3126"
+    - id: option-c
+      text: "926"
+    - id: option-d
+      text: "916"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Each term is a power of 5 with 1 added: 5 + 1 = 6, 25 + 1 = 26, 125 + 1 = 126, and
+    625 + 1 = 626. The next one is 5 to the fifth plus 1, which is 3125 + 1 = 3126.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 21
+    section: "Chapter 2 question 2 answer and solution"

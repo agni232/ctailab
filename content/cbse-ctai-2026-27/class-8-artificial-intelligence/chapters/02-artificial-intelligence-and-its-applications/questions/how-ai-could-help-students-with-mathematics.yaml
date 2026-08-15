@@ -1,0 +1,38 @@
+id: c8-ai-applications-how-ai-could-help-students-with-mathematics
+slug: how-ai-could-help-students-with-mathematics
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-in-education
+  primaryTopic: c8-ai-ch2-ai-in-education
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Suggest a way AI could help students struggling with mathematics.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "An AI tutor"
+    - "Step-by-step solutions"
+    - "Personalised practice questions"
+solution:
+  text: >-
+    An AI tutor can give step-by-step solutions and set personalised practice questions.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 59
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise D answer"

@@ -1,0 +1,55 @@
+id: c8-ct-number-play-smallest-possible-value-of-p-plus-m
+slug: smallest-possible-value-of-p-plus-m
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch5-cryptarithmetic
+    - c8-ct-ch5-logical-puzzles
+  primaryTopic: c8-ct-ch5-cryptarithmetic
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    A cryptarithmetic multiplication is shown below. Here, P, Q, M, and N are distinct
+    single-digit natural numbers. MN represents a two-digit number, and PQN represents a
+    three-digit number. What is the smallest possible value of P + M?
+  stimulus:
+    assetRefs:
+      - cryptarithmetic-multiplication
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "4"
+    - id: option-d
+      text: "5"
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Since 6 times N ends in N, the digit N is 0, 2, 4, 6, or 8. M cannot be 1, so try M = 2,
+    which gives 26 x 6 = 156 with P = 1, Q = 5, N = 6, all distinct. That makes P + M = 1 + 2 =
+    3.
+  assetRefs: []
+assets:
+  - ref: cryptarithmetic-multiplication
+    file: ../assets/cryptarithmetic-multiplication.png
+    role: stem
+    visibility: public
+    alt: A written multiplication of MN by 6 giving PQN
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 29
+    section: "Chapter 5 question 10"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 57
+    section: "Chapter 5 question 10 answer and solution"

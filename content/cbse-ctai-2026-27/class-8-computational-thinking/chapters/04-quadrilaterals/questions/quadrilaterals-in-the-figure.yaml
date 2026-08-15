@@ -1,0 +1,51 @@
+id: c8-ct-quadrilaterals-quadrilaterals-in-the-figure
+slug: quadrilaterals-in-the-figure
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch4-counting-figures
+    - c8-ct-ch4-quadrilaterals
+  primaryTopic: c8-ct-ch4-counting-figures
+  estimatedMinutes: 7
+content:
+  prompt: How many quadrilaterals are there in the given figure?
+  stimulus:
+    assetRefs:
+      - star-in-square
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    Trace every closed four-sided region and then the larger ones made by combining regions.
+    Counting carefully gives 11 quadrilaterals.
+  assetRefs: []
+assets:
+  - ref: star-in-square
+    file: ../assets/star-in-square.png
+    role: stem
+    visibility: public
+    alt: A square overlapping two large triangles that together form a star shape
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 45
+    section: "Chapter 4 question 2 answer and solution"

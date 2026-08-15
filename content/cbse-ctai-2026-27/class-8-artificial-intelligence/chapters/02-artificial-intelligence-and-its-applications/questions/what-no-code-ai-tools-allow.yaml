@@ -1,0 +1,42 @@
+id: c8-ai-applications-what-no-code-ai-tools-allow
+slug: what-no-code-ai-tools-allow
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-no-code-ai-tools
+  primaryTopic: c8-ai-ch2-no-code-ai-tools
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    No-code AI tools allow users to:
+  options:
+    - id: option-a
+      text: "Program AI models using coding"
+    - id: option-b
+      text: "Train AI models without coding"
+    - id: option-c
+      text: "Only analyse text data"
+    - id: option-d
+      text: "Replace teachers completely"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The point of a no-code tool is that you supply examples rather than write code, so it lets
+    you train AI models without coding.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise A answer"

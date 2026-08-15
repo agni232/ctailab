@@ -1,0 +1,16 @@
+id: cbse-2026-27-class-8-ai-chapter-1
+slug: ai-project-lifecycle
+displayNumber: "1"
+title: AI Project Lifecycle
+summary: The stages an AI project moves through, from defining the problem to improving the model.
+position: 1
+status: published
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 37
+    pageEnd: 45
+    section: "Chapter 1: AI Project Lifecycle"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 79
+    pageEnd: 81
+    section: "Chapter 1: AI Project Lifecycle"

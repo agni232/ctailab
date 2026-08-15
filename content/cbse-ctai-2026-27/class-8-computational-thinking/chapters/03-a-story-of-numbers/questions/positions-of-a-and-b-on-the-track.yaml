@@ -1,0 +1,83 @@
+id: c8-ct-number-story-positions-of-a-and-b-on-the-track
+slug: positions-of-a-and-b-on-the-track
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch3-logical-puzzles
+  primaryTopic: c8-ct-ch3-logical-puzzles
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    As shown below, A, B, and C are positioned at different starting points on a circular track.
+    B runs at half the speed of A, while C runs at twice the speed of A. If all three start
+    running at the same time and in the same direction, what could be the positions of A and B
+    by the time C completes one full round of the track?
+  stimulus:
+    assetRefs:
+      - circular-track
+  options:
+    - id: option-a
+      assetRef: track-option-a
+      accessibleLabel: A circular track with B on the left and A on the right, level with each other
+    - id: option-b
+      assetRef: track-option-b
+      accessibleLabel: A circular track with A on the upper right and B on the lower left
+    - id: option-c
+      assetRef: track-option-c
+      accessibleLabel: A circular track with B on the upper right and A on the lower left
+    - id: option-d
+      assetRef: track-option-d
+      accessibleLabel: A circular track with B above A, both on the right side
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    C runs twice as fast as A, so one full round for C is half a round for A, which lands A
+    exactly where B started. B runs at half A's speed, so B covers a quarter round and lands
+    where C started. Only one option shows both of those positions.
+  assetRefs: []
+assets:
+  - ref: circular-track
+    file: ../assets/circular-track.png
+    role: stem
+    visibility: public
+    alt: A circular track with A on the left, B on the right, and C at the bottom
+    position: 0
+  - ref: track-option-a
+    file: ../assets/track-option-a.jpg
+    role: option
+    visibility: public
+    alt: Positions on the track, option a
+    position: 1
+  - ref: track-option-b
+    file: ../assets/track-option-b.jpg
+    role: option
+    visibility: public
+    alt: Positions on the track, option b
+    position: 2
+  - ref: track-option-c
+    file: ../assets/track-option-c.jpg
+    role: option
+    visibility: public
+    alt: Positions on the track, option c
+    position: 3
+  - ref: track-option-d
+    file: ../assets/track-option-d.jpg
+    role: option
+    visibility: public
+    alt: Positions on the track, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 23
+    section: "Chapter 3 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 43
+    section: "Chapter 3 Thinking Spot answer and solution"

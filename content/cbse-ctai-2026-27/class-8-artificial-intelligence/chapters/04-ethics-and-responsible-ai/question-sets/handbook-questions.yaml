@@ -1,0 +1,144 @@
+id: cbse-2026-27-c8-ai-ch4-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The Chapter 4 exercise from the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the exercise in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ai-ethics-what-ai-ethics-focus-on
+    questionVersion: 1
+    position: 1
+    displayNumber: "A1"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c8-ai-ethics-what-privacy-means
+    questionVersion: 1
+    position: 2
+    displayNumber: "A2"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c8-ai-ethics-when-ai-bias-can-occur
+    questionVersion: 1
+    position: 3
+    displayNumber: "A3"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c8-ai-ethics-what-to-do-before-sharing-information
+    questionVersion: 1
+    position: 4
+    displayNumber: "A4"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c8-ai-ethics-what-ai-systems-learn-patterns-from
+    questionVersion: 1
+    position: 5
+    displayNumber: "A5"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise A"
+  - questionId: c8-ai-ethics-blank-misinformation-means-information
+    questionVersion: 1
+    position: 6
+    displayNumber: "B1"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-blank-fair-ai-systems-treat-people
+    questionVersion: 1
+    position: 7
+    displayNumber: "B2"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-blank-humans-must-remain-for-ai-decisions
+    questionVersion: 1
+    position: 8
+    displayNumber: "B3"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-blank-ai-systems-learn-patterns-from-blank
+    questionVersion: 1
+    position: 9
+    displayNumber: "B4"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-blank-incorrect-information-shared-online-is-called
+    questionVersion: 1
+    position: 10
+    displayNumber: "B5"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-blank-humans-must-remain-for-decisions-made-using-ai
+    questionVersion: 1
+    position: 11
+    displayNumber: "B6"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise B"
+  - questionId: c8-ai-ethics-why-privacy-is-important
+    questionVersion: 1
+    position: 12
+    displayNumber: "C1"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-one-example-of-misinformation
+    questionVersion: 1
+    position: 13
+    displayNumber: "C2"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-what-accountability-means-in-ai
+    questionVersion: 1
+    position: 14
+    displayNumber: "C3"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-what-are-ai-ethics
+    questionVersion: 1
+    position: 15
+    displayNumber: "C4"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-what-is-misinformation
+    questionVersion: 1
+    position: 16
+    displayNumber: "C5"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-why-human-supervision-is-important
+    questionVersion: 1
+    position: 17
+    displayNumber: "C6"
+    sourcePage: 71
+    sourceSection: "Chapter 4 Exercise C"
+  - questionId: c8-ai-ethics-habit-of-checking-app-permissions
+    questionVersion: 1
+    position: 18
+    displayNumber: "D1"
+    sourcePage: 72
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c8-ai-ethics-why-human-review-matters-in-healthcare
+    questionVersion: 1
+    position: 19
+    displayNumber: "D2"
+    sourcePage: 72
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c8-ai-ethics-problem-shown-by-one-city-training-data
+    questionVersion: 1
+    position: 20
+    displayNumber: "D3"
+    sourcePage: 72
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c8-ai-ethics-what-a-fast-spreading-false-message-is-called
+    questionVersion: 1
+    position: 21
+    displayNumber: "D4"
+    sourcePage: 72
+    sourceSection: "Chapter 4 Exercise D"
+  - questionId: c8-ai-ethics-one-word-challenge-ethics-and-responsible-ai
+    questionVersion: 1
+    position: 22
+    displayNumber: "E1"
+    sourcePage: 72
+    sourceSection: "Chapter 4 Exercise E"

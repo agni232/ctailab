@@ -1,0 +1,39 @@
+id: c8-ai-fairness-did-the-new-algorithm-work
+slug: did-the-new-algorithm-work
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch3-ensuring-fairness
+  primaryTopic: c8-ai-ch3-ensuring-fairness
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    You retrained the classifier with about 15 dog images and about 15 cat images. Did your new
+    algorithm work better for dogs, better for cats, or the same for both, and why?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "The same for both"
+    - "The training dataset was equal in number for dogs and cats"
+solution:
+  text: >-
+    The same for both, because this time the training dataset held equal numbers of dog and cat
+    images, unlike the earlier unbalanced one.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 64
+    section: "Chapter 3 Exercise reflection"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 3 Exercise reflection answer"

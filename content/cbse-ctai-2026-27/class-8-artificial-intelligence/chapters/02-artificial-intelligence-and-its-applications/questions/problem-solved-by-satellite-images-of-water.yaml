@@ -1,0 +1,43 @@
+id: c8-ai-applications-problem-solved-by-satellite-images-of-water
+slug: problem-solved-by-satellite-images-of-water
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-and-the-environment
+  primaryTopic: c8-ai-ch2-ai-and-the-environment
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Which environmental problem can AI help solve by analysing satellite images of rivers and
+    oceans?
+  options:
+    - id: option-a
+      text: "Soil degradation"
+    - id: option-b
+      text: "Plastic pollution"
+    - id: option-c
+      text: "Air pollution"
+    - id: option-d
+      text: "Water shortage"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Floating waste shows up in images of rivers and oceans, so this is how AI helps detect
+    plastic pollution.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise A answer"

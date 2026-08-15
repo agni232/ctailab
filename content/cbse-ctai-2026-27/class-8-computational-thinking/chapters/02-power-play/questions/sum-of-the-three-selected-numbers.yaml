@@ -1,0 +1,59 @@
+id: c8-ct-power-play-sum-of-the-three-selected-numbers
+slug: sum-of-the-three-selected-numbers
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-exponents
+    - c8-ct-ch2-logical-puzzles
+  primaryTopic: c8-ct-ch2-exponents
+  estimatedMinutes: 10
+content:
+  prompt: >-
+    Raj must select three numbers from the grid from three DISTINCT shapes such that each number
+    is chosen from a different row, the number selected from Row R1 is a power of 3, and no
+    digit is repeated among the bases and exponents of the chosen numbers. Based on these rules,
+    what is the sum of the three selected numbers?
+  stimulus:
+    assetRefs:
+      - shape-grid
+  options:
+    - id: option-a
+      text: "1881"
+    - id: option-b
+      text: "7968"
+    - id: option-c
+      text: "1482"
+    - id: option-d
+      text: "1100"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    R1 must give a power of 3, so the pentagon there is out, which forces the pentagon to come
+    from R3, and the no-repeated-digit rule makes it 2 to the seventh. R2 must then be 5 to the
+    fourth from the circle, leaving 3 to the sixth from the square in R1. The sum is
+    729 + 625 + 128 = 1482.
+  assetRefs: []
+assets:
+  - ref: shape-grid
+    file: ../assets/shape-grid.jpg
+    role: stem
+    visibility: public
+    alt: >-
+      Rows R1, R2 and R3, each holding three powers drawn inside a circle, a pentagon, or a
+      square
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 14
+    section: "Chapter 2 question 5"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 22
+    section: "Chapter 2 question 5 answer and solution"

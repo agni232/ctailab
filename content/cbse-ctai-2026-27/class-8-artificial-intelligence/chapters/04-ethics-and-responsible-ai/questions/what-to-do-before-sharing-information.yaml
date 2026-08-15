@@ -1,0 +1,42 @@
+id: c8-ai-ethics-what-to-do-before-sharing-information
+slug: what-to-do-before-sharing-information
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch4-misinformation
+  primaryTopic: c8-ai-ch4-misinformation
+  estimatedMinutes: 2
+content:
+  prompt: >-
+    Before sharing information online, what should you do?
+  options:
+    - id: option-a
+      text: "Share it quickly"
+    - id: option-b
+      text: "Think about why the information is needed"
+    - id: option-c
+      text: "Forward it to everyone"
+    - id: option-d
+      text: "Ignore the message"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Pausing to think about why the information is needed, and whether it is true, is what stops
+    misinformation from spreading.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 71
+    section: "Chapter 4 Exercise A"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise A answer"

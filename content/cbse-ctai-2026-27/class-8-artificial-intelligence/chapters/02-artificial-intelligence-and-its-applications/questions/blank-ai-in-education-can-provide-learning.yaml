@@ -1,0 +1,45 @@
+id: c8-ai-applications-blank-ai-in-education-can-provide-learning
+slug: blank-ai-in-education-can-provide-learning
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-in-education
+  primaryTopic: c8-ai-ch2-ai-in-education
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "AI in education can provide"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "learning tailored to each student's needs."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["personalized", "personalised", "personal"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    Learning shaped around one student's own needs is personalised learning.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise B answer"

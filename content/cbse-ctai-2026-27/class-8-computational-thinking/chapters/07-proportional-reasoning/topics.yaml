@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch7-ratio-and-proportion
+    slug: ratio-and-proportion
+    title: Ratio and Proportion
+    position: 1
+    status: published
+  - id: c8-ct-ch7-equivalent-ratios
+    slug: equivalent-ratios
+    title: Equivalent Ratios
+    position: 2
+    parentId: c8-ct-ch7-ratio-and-proportion
+    status: published
+  - id: c8-ct-ch7-sharing-and-mixtures
+    slug: sharing-and-mixtures
+    title: Sharing and Mixtures
+    position: 3
+    parentId: c8-ct-ch7-ratio-and-proportion
+    status: published
+  - id: c8-ct-ch7-ratios-in-pictures
+    slug: ratios-in-pictures
+    title: Ratios in Pictures
+    position: 4
+    status: published
+  - id: c8-ct-ch7-word-problems
+    slug: word-problems
+    title: Word Problems
+    position: 5
+    status: published
+  - id: c8-ct-ch7-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

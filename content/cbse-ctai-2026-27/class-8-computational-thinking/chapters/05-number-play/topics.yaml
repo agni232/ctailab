@@ -1,0 +1,33 @@
+topics:
+  - id: c8-ct-ch5-number-play
+    slug: number-play
+    title: Number Play
+    position: 1
+    status: published
+  - id: c8-ct-ch5-divisibility
+    slug: divisibility
+    title: Divisibility
+    position: 2
+    parentId: c8-ct-ch5-number-play
+    status: published
+  - id: c8-ct-ch5-multiples-and-factors
+    slug: multiples-and-factors
+    title: Multiples and Factors
+    position: 3
+    parentId: c8-ct-ch5-number-play
+    status: published
+  - id: c8-ct-ch5-remainders
+    slug: remainders
+    title: Remainders
+    position: 4
+    status: published
+  - id: c8-ct-ch5-cryptarithmetic
+    slug: cryptarithmetic
+    title: Cryptarithmetic
+    position: 5
+    status: published
+  - id: c8-ct-ch5-logical-puzzles
+    slug: logical-puzzles
+    title: Logical Puzzles
+    position: 6
+    status: published

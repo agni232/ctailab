@@ -1,0 +1,53 @@
+id: c8-ct-quadrilaterals-rectangles-in-the-figure
+slug: rectangles-in-the-figure
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch4-counting-figures
+    - c8-ct-ch4-quadrilaterals
+  primaryTopic: c8-ct-ch4-counting-figures
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    How many rectangles are there in the given figure? Note: For the purpose of this question,
+    please count all squares also as rectangles.
+  stimulus:
+    assetRefs:
+      - rectangle-figure
+  options:
+    - id: option-a
+      text: "8"
+    - id: option-b
+      text: "9"
+    - id: option-c
+      text: "10"
+    - id: option-d
+      text: "11"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Look only at regions with four right angles, then add the bigger rectangles formed by
+    joining them. The figure holds 10 in all.
+  assetRefs: []
+assets:
+  - ref: rectangle-figure
+    file: ../assets/rectangle-figure.png
+    role: stem
+    visibility: public
+    alt: A large square cut by diagonals and straight lines into many smaller regions
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 46
+    section: "Chapter 4 question 3 answer and solution"

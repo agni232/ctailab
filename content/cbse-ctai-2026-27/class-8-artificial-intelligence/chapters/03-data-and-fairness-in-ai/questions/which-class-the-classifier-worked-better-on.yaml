@@ -1,0 +1,38 @@
+id: c8-ai-fairness-which-class-the-classifier-worked-better-on
+slug: which-class-the-classifier-worked-better-on
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch3-role-of-training-data
+  primaryTopic: c8-ai-ch3-role-of-training-data
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    After training your image classifier with about 7 or 8 dog images and about 15 cat images,
+    which class did your classifier work better on, and why do you think that is?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "It worked better on cats"
+    - "More training images were provided for cats"
+solution:
+  text: >-
+    It worked better on cats, because you provided more training images for cats than for dogs.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 64
+    section: "Chapter 3 Exercise reflection"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 3 Exercise reflection answer"

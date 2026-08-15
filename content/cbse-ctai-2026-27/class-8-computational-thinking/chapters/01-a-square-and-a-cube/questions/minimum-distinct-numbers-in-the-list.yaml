@@ -1,0 +1,47 @@
+id: c8-ct-squares-cubes-minimum-distinct-numbers-in-the-list
+slug: minimum-distinct-numbers-in-the-list
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-squares-and-cubes
+    - c8-ct-ch1-perfect-squares
+    - c8-ct-ch1-perfect-cubes
+  primaryTopic: c8-ct-ch1-squares-and-cubes
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    Sam writes a list of natural numbers. The list has three perfect cubes and three perfect
+    squares. If no number in the list has more than two digits, what is the MINIMUM number of
+    distinct numbers he must have written?
+  options:
+    - id: option-a
+      text: "3"
+    - id: option-b
+      text: "4"
+    - id: option-c
+      text: "5"
+    - id: option-d
+      text: "6"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    To use as few numbers as possible, pick ones that count as both. Among two-digit numbers and
+    below, 1 and 64 are each a perfect square and a perfect cube, so they cover two of each. Two
+    more numbers are still needed, making 4 in total.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 2"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 2 answer and solution"

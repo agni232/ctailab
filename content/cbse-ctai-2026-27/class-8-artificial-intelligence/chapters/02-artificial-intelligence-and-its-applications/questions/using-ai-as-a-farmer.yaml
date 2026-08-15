@@ -1,0 +1,41 @@
+id: c8-ai-applications-using-ai-as-a-farmer
+slug: using-ai-as-a-farmer
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-ai-in-agriculture
+  primaryTopic: c8-ai-ch2-ai-in-agriculture
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    If you were a farmer, how would you use AI to improve crop production and protect soil
+    health?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Predict weather"
+    - "Suggest the best crops"
+    - "Monitor soil moisture"
+    - "Detect plant diseases"
+solution:
+  text: >-
+    Use AI to predict the weather, suggest the best crops to plant, monitor soil moisture, and
+    detect plant diseases early.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 59
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise D answer"

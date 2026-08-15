@@ -1,0 +1,41 @@
+id: c8-ai-fairness-making-the-sports-recommendation-fairer
+slug: making-the-sports-recommendation-fairer
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch3-ensuring-fairness
+  primaryTopic: c8-ai-ch3-ensuring-fairness
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How could the sports training data be improved so that the AI makes fairer recommendations
+    to every student?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Balance the data across groups"
+    - "Collect examples of girls and boys enjoying every sport"
+    - "Check the model for bias and keep humans reviewing it"
+solution:
+  text: >-
+    Collect data that represents every group equally, so that both boys and girls appear across
+    all the sports rather than being concentrated in one. Then test the model for bias and keep
+    a human reviewing its recommendations.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 64
+    section: "Chapter 3 Exercise reflection"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 88
+    section: "Chapter 3 Exercise reflection answer"

@@ -1,0 +1,35 @@
+topics:
+  - id: c8-ai-ch2-ai-applications
+    slug: ai-applications
+    title: AI Applications
+    position: 1
+    status: published
+  - id: c8-ai-ch2-ai-and-the-environment
+    slug: ai-and-the-environment
+    title: AI and the Environment
+    position: 2
+    parentId: c8-ai-ch2-ai-applications
+    status: published
+  - id: c8-ai-ch2-ai-in-healthcare
+    slug: ai-in-healthcare
+    title: AI in Healthcare
+    position: 3
+    parentId: c8-ai-ch2-ai-applications
+    status: published
+  - id: c8-ai-ch2-ai-in-education
+    slug: ai-in-education
+    title: AI in Education
+    position: 4
+    parentId: c8-ai-ch2-ai-applications
+    status: published
+  - id: c8-ai-ch2-ai-in-agriculture
+    slug: ai-in-agriculture
+    title: AI in Agriculture
+    position: 5
+    parentId: c8-ai-ch2-ai-applications
+    status: published
+  - id: c8-ai-ch2-no-code-ai-tools
+    slug: no-code-ai-tools
+    title: No-Code AI Tools
+    position: 6
+    status: published

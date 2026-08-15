@@ -1,0 +1,72 @@
+id: cbse-2026-27-c8-ct-ch1-handbook-questions
+slug: handbook-questions
+version: 1
+title: Handbook Questions
+description: The 10 questions from Chapter 1 in the Class 8 student handbook.
+kind: handbook
+instructions:
+  introduction: Work through the questions in handbook order and check each explanation.
+accessTier: public
+status: published
+publishedAt: 2026-08-15T00:00:00.000Z
+items:
+  - questionId: c8-ct-squares-cubes-value-of-a-plus-b-in-the-circles
+    questionVersion: 1
+    position: 1
+    displayNumber: "1"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-minimum-distinct-numbers-in-the-list
+    questionVersion: 1
+    position: 2
+    displayNumber: "2"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-possible-values-of-c-in-the-cube
+    questionVersion: 1
+    position: 3
+    displayNumber: "3"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-smallest-k-that-makes-a-perfect-cube
+    questionVersion: 1
+    position: 4
+    displayNumber: "4"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-value-in-place-of-the-question-mark
+    questionVersion: 1
+    position: 5
+    displayNumber: "5"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-highest-possible-remainder
+    questionVersion: 1
+    position: 6
+    displayNumber: "6"
+    sourcePage: 11
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-digit-appearing-the-highest-number-of-times
+    questionVersion: 1
+    position: 7
+    displayNumber: "7"
+    sourcePage: 12
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-maximum-sum-in-shape-a
+    questionVersion: 1
+    position: 8
+    displayNumber: "8"
+    sourcePage: 12
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-sum-of-a-b-and-c-in-the-logic-machine
+    questionVersion: 1
+    position: 9
+    displayNumber: "9"
+    sourcePage: 12
+    sourceSection: "Chapter 1: A Square and a Cube"
+  - questionId: c8-ct-squares-cubes-number-in-place-of-the-question-mark-in-the-column
+    questionVersion: 1
+    position: 10
+    displayNumber: "10"
+    sourcePage: 12
+    sourceSection: "Chapter 1: A Square and a Cube"

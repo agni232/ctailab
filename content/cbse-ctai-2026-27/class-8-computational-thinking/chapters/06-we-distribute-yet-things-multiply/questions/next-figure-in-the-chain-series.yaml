@@ -1,0 +1,80 @@
+id: c8-ct-distribute-next-figure-in-the-chain-series
+slug: next-figure-in-the-chain-series
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch6-number-patterns
+  primaryTopic: c8-ct-ch6-number-patterns
+  estimatedMinutes: 5
+content:
+  prompt: What will come in place of "?"
+  stimulus:
+    assetRefs:
+      - chain-series
+  options:
+    - id: option-a
+      assetRef: chain-option-a
+      accessibleLabel: A chain of circles reading 1, 2, 6, 24, 120
+    - id: option-b
+      assetRef: chain-option-b
+      accessibleLabel: A chain of circles reading 1, 2, 6, 24, 100
+    - id: option-c
+      assetRef: chain-option-c
+      accessibleLabel: A chain of circles reading 1, 2, 6, 24, 110
+    - id: option-d
+      assetRef: chain-option-d
+      accessibleLabel: A chain of circles reading 1, 2, 6, 24, 130
+response:
+  type: single-choice
+answer:
+  optionId: option-a
+solution:
+  text: >-
+    Each figure adds one circle, and each new number multiplies the one before it by the next
+    natural number: 1 x 2 = 2, 2 x 3 = 6, 6 x 4 = 24. So the next is 24 x 5 = 120.
+  assetRefs: []
+assets:
+  - ref: chain-series
+    file: ../assets/chain-series.png
+    role: stem
+    visibility: public
+    alt: >-
+      Four growing chains of joined circles holding 1, then 1 and 2, then 1, 2 and 6, then 1, 2,
+      6 and 24, followed by a question mark
+    position: 0
+  - ref: chain-option-a
+    file: ../assets/chain-option-a.png
+    role: option
+    visibility: public
+    alt: Chain of numbered circles, option a
+    position: 1
+  - ref: chain-option-b
+    file: ../assets/chain-option-b.png
+    role: option
+    visibility: public
+    alt: Chain of numbered circles, option b
+    position: 2
+  - ref: chain-option-c
+    file: ../assets/chain-option-c.png
+    role: option
+    visibility: public
+    alt: Chain of numbered circles, option c
+    position: 3
+  - ref: chain-option-d
+    file: ../assets/chain-option-d.png
+    role: option
+    visibility: public
+    alt: Chain of numbered circles, option d
+    position: 4
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 30
+    section: "Chapter 6 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 59
+    section: "Chapter 6 question 1 answer and solution"

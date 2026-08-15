@@ -1,0 +1,39 @@
+id: c8-ai-lifecycle-how-does-ai-learn
+slug: how-does-ai-learn
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-how-ai-learns
+  primaryTopic: c8-ai-ch1-how-ai-learns
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    How does AI learn?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "It analyses data"
+    - "It finds patterns"
+    - "It uses those patterns to predict"
+solution:
+  text: >-
+    AI learns by analysing data and finding patterns in it, then using those patterns to make
+    predictions.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise C answer"

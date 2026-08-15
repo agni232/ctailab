@@ -1,0 +1,54 @@
+id: c8-ct-proportion-ratio-of-unshaded-to-partially-shaded-rectangles
+slug: ratio-of-unshaded-to-partially-shaded-rectangles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch7-ratios-in-pictures
+    - c8-ct-ch7-ratio-and-proportion
+  primaryTopic: c8-ct-ch7-ratios-in-pictures
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    Find the ratio of unshaded (white) rectangles to ONLY PARTIALLY shaded (grey and white)
+    rectangles in the figure given below. Note: Please count all squares as rectangles for the
+    purpose of this question.
+  stimulus:
+    assetRefs:
+      - shaded-rectangles
+  options:
+    - id: option-a
+      text: "1 : 2"
+    - id: option-b
+      text: "5 : 6"
+    - id: option-c
+      text: "5 : 7"
+    - id: option-d
+      text: "4 : 7"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Count every rectangle, single cells and combinations alike. Five of them are completely
+    white and seven contain both grey and white, so the ratio is 5 : 7.
+  assetRefs: []
+assets:
+  - ref: shaded-rectangles
+    file: ../assets/shaded-rectangles.png
+    role: stem
+    visibility: public
+    alt: A figure divided into rectangles, some shaded grey and some left white
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 34
+    section: "Chapter 7 question 6"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 72
+    section: "Chapter 7 question 6 answer and solution"

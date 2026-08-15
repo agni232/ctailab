@@ -1,0 +1,45 @@
+id: c8-ai-applications-blank-satellites-help-ai-detect-pollution
+slug: blank-satellites-help-ai-detect-pollution
+version: 1
+renderer: fill-in-blanks
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: easy
+  topics:
+    - c8-ai-ch2-ai-and-the-environment
+  primaryTopic: c8-ai-ch2-ai-and-the-environment
+  estimatedMinutes: 2
+content:
+  prompt: Fill in the blank.
+  segments:
+    - type: text
+      value: "Satellites and sensors help AI detect"
+    - type: blank
+      id: blank-1
+      label: missing word
+    - type: text
+      value: "pollution in oceans and rivers."
+response:
+  type: fill-in-blanks
+  blanks:
+    - id: blank-1
+      input: text
+answer:
+  blanks:
+    blank-1:
+      accepted: ["plastic"]
+  scoring: all-or-nothing
+solution:
+  text: >-
+    The waste that satellites and sensors pick out in water is plastic pollution.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 58
+    section: "Chapter 2 Exercise B"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise B answer"

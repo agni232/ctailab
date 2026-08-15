@@ -1,0 +1,57 @@
+id: c8-ct-number-play-place-values-pointing-to-a-greater-digit
+slug: place-values-pointing-to-a-greater-digit
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch5-divisibility
+    - c8-ct-ch5-logical-puzzles
+  primaryTopic: c8-ct-ch5-divisibility
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Using the digits shown in the Box, form the largest possible 6-digit number that is divisible
+    by 9 (without repeating the digits). In the number formed, which place values contain digits
+    that point to a greater digit than themselves in the box?
+  stimulus:
+    assetRefs:
+      - digit-box
+  options:
+    - id: option-a
+      text: "Hundreds and Ones"
+    - id: option-b
+      text: "Ones and Tens"
+    - id: option-c
+      text: "Thousands and Tens"
+    - id: option-d
+      text: "Ones and Thousands"
+response:
+  type: single-choice
+answer:
+  optionId: option-d
+solution:
+  text: >-
+    The digits add to 35, so dropping the 8 leaves 27, which is divisible by 9. The largest
+    number from the rest is 975321. In the box, 5 points to 7 and 1 points to 7, and in 975321
+    the 5 sits in the thousands place and the 1 in the ones place.
+  assetRefs: []
+assets:
+  - ref: digit-box
+    file: ../assets/digit-box.png
+    role: stem
+    visibility: public
+    alt: >-
+      A box of circled digits 1, 2, 3, 5, 7, 8 and 9 joined by arrows pointing from one digit to
+      another
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 27
+    section: "Chapter 5 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 53
+    section: "Chapter 5 question 3 answer and solution"

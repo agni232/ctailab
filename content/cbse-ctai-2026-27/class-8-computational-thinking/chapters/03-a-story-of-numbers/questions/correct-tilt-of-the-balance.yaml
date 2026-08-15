@@ -1,0 +1,74 @@
+id: c8-ct-number-story-correct-tilt-of-the-balance
+slug: correct-tilt-of-the-balance
+version: 1
+renderer: single-choice-image
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch3-roman-numerals
+    - c8-ct-ch3-number-systems
+  primaryTopic: c8-ct-ch3-roman-numerals
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In each of the given options, the weight of one bag is written in the Roman numeral form and
+    that of the other bag is in Hindu-Arabic form. Identify the option that displays the tilt of
+    the balance correctly. Note: The balance tilts towards the larger weight.
+  options:
+    - id: option-a
+      assetRef: balance-option-a
+      accessibleLabel: A balance with a 763 g bag on the left tilting up and a DCCLIX g bag on the right tilting down
+    - id: option-b
+      assetRef: balance-option-b
+      accessibleLabel: A balance with a 763 g bag on the left tilting down and a DCCLIX g bag on the right tilting up
+    - id: option-c
+      assetRef: balance-option-c
+      accessibleLabel: A level balance with a 631 g bag on the left and a DCXXXVII g bag on the right
+    - id: option-d
+      assetRef: balance-option-d
+      accessibleLabel: A balance with a 631 g bag on the left tilting down and a DCXXXVII g bag on the right tilting up
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    Converting the Roman numerals, DCCLIX is 759 and DCXXXVII is 637. So 763 is greater than 759
+    and 631 is less than 637. Only the option showing the 763 g bag heavier than DCCLIX is
+    right.
+  assetRefs: []
+assets:
+  - ref: balance-option-a
+    file: ../assets/balance-option-a.png
+    role: option
+    visibility: public
+    alt: Balance of two bags, option a
+    position: 0
+  - ref: balance-option-b
+    file: ../assets/balance-option-b.png
+    role: option
+    visibility: public
+    alt: Balance of two bags, option b
+    position: 1
+  - ref: balance-option-c
+    file: ../assets/balance-option-c.png
+    role: option
+    visibility: public
+    alt: Balance of two bags, option c
+    position: 2
+  - ref: balance-option-d
+    file: ../assets/balance-option-d.png
+    role: option
+    visibility: public
+    alt: Balance of two bags, option d
+    position: 3
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 3"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 3 question 3 answer and solution"

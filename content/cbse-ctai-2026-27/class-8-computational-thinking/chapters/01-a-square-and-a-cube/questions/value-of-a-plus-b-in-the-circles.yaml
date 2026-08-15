@@ -1,0 +1,56 @@
+id: c8-ct-squares-cubes-value-of-a-plus-b-in-the-circles
+slug: value-of-a-plus-b-in-the-circles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch1-number-grids
+    - c8-ct-ch1-perfect-squares
+  primaryTopic: c8-ct-ch1-number-grids
+  estimatedMinutes: 6
+content:
+  prompt: >-
+    In the following grid, all the circles follow the same theme. What will be the value of
+    A + B?
+  stimulus:
+    assetRefs:
+      - circle-grid
+  options:
+    - id: option-a
+      text: "12"
+    - id: option-b
+      text: "14"
+    - id: option-c
+      text: "13"
+    - id: option-d
+      text: "15"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    Each circle holds the sum of the squares of the two grey cells it touches, as in
+    4 squared + 3 squared = 25. So 9 squared + B squared = 117 gives B = 6, and
+    B squared + A squared = 85 gives A = 7. Their sum is 13.
+  assetRefs: []
+assets:
+  - ref: circle-grid
+    file: ../assets/circle-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A four by four grid with grey cells holding 4, 3, 5, 9, 2, A and B, and circles holding
+      25, 106, 13, 117 and 85 sitting between them
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 1"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 11
+    section: "Chapter 1 question 1 answer and solution"

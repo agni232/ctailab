@@ -1,0 +1,57 @@
+id: c8-ct-number-story-highest-number-after-moving-one-bead
+slug: highest-number-after-moving-one-bead
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch3-place-value
+    - c8-ct-ch3-logical-puzzles
+  primaryTopic: c8-ct-ch3-place-value
+  estimatedMinutes: 8
+content:
+  prompt: >-
+    On the abacus, select two poles, A and B, where pole B has fewer beads than pole A. Exactly
+    one bead from pole A must be moved to pole B. If more than one pole has fewer beads than A,
+    move the bead to the pole that has the maximum number of beads among those poles. After
+    making this single move, what is the highest possible 6-digit number that can be formed?
+  stimulus:
+    assetRefs:
+      - abacus
+  options:
+    - id: option-a
+      text: "3,62,046"
+    - id: option-b
+      text: "4,72,035"
+    - id: option-c
+      text: "4,72,046"
+    - id: option-d
+      text: "4,62,045"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    The abacus reads 3,72,045. Taking a bead from the tens pole, which has 4 beads, the rule
+    sends it to the lakhs pole, since that holds the most among the poles with fewer beads. The
+    number becomes 4,72,035.
+  assetRefs: []
+assets:
+  - ref: abacus
+    file: ../assets/abacus.png
+    role: stem
+    visibility: public
+    alt: >-
+      An abacus with poles labelled L, TTh, Th, H, T and O holding 3, 7, 2, 0, 4 and 5 beads
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 20
+    section: "Chapter 3 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 36
+    section: "Chapter 3 question 4 answer and solution"

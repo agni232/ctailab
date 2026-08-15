@@ -1,0 +1,55 @@
+id: c8-ct-proportion-arrangements-that-satisfy-the-conditions
+slug: arrangements-that-satisfy-the-conditions
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ct-ch7-logical-puzzles
+  primaryTopic: c8-ct-ch7-logical-puzzles
+  estimatedMinutes: 7
+content:
+  prompt: >-
+    Sam arranged the following 4 blocks vertically, one on top of another, such that there are
+    at least 2 blocks below the block having a circle, the block with a triangle has at least 1
+    block above it, and the block having a rectangle is immediately above the block having a
+    star. How many different arrangements satisfy all the above conditions?
+  stimulus:
+    assetRefs:
+      - four-blocks
+  options:
+    - id: option-a
+      text: "0"
+    - id: option-b
+      text: "1"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "3"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The circle must sit in one of the top two places, the triangle cannot be on top, and the
+    rectangle must sit directly on the star, which keeps those two together as a block. Only 2
+    stacks satisfy all three rules at once.
+  assetRefs: []
+assets:
+  - ref: four-blocks
+    file: ../assets/four-blocks.jpg
+    role: stem
+    visibility: public
+    alt: Four blocks marked with a triangle, a rectangle, a star, and a circle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 35
+    section: "Chapter 7 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 77
+    section: "Chapter 7 Thinking Spot answer and solution"

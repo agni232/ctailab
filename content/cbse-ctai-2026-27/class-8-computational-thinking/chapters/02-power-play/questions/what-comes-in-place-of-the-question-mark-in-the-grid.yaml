@@ -1,0 +1,60 @@
+id: c8-ct-power-play-what-comes-in-place-of-the-question-mark-in-the-grid
+slug: what-comes-in-place-of-the-question-mark-in-the-grid
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch2-logical-puzzles
+  primaryTopic: c8-ct-ch2-logical-puzzles
+  estimatedMinutes: 9
+content:
+  prompt: >-
+    Enter all the letters and the numbers of the Set in the empty squares of the grid given
+    below, such that every vowel must have an even number in at least one of its adjacent
+    squares, the letter 'H' is not adjacent to 'A' or 6, and two consecutive numbers cannot be
+    in any adjacent squares. What will come in place of "?" Note: Squares are considered to be
+    adjacent only if they share a common side. Squares sharing a common corner are not
+    considered adjacent.
+  stimulus:
+    assetRefs:
+      - letter-number-grid
+  options:
+    - id: option-a
+      text: "6"
+    - id: option-b
+      text: "Y"
+    - id: option-c
+      text: "E"
+    - id: option-d
+      text: "A"
+response:
+  type: single-choice
+answer:
+  optionId: option-c
+solution:
+  text: >-
+    The top-left corner can only take Y, since digits there would sit beside a consecutive one
+    and a vowel there would have no even neighbour. The top-right corner can only take 2 for the
+    same kinds of reason. At the "?" square, 6 and A are ruled out by the rule about H, and 4 is
+    consecutive to both 3 and 5, leaving E.
+  assetRefs: []
+assets:
+  - ref: letter-number-grid
+    file: ../assets/letter-number-grid.png
+    role: stem
+    visibility: public
+    alt: >-
+      A grid with 5 in the top middle square and 3, a question mark, and H along the bottom row,
+      beside the set A, E, Y, 2, 4, 6
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 16
+    section: "Chapter 2 Thinking Spot"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 28
+    section: "Chapter 2 Thinking Spot answer and solution"

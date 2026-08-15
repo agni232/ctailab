@@ -1,0 +1,43 @@
+id: c8-ai-applications-designing-a-waste-sorting-project
+slug: designing-a-waste-sorting-project
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch2-no-code-ai-tools
+  primaryTopic: c8-ai-ch2-no-code-ai-tools
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Design a simple AI project using a no-code platform to help sort waste in your school. What
+    steps would you follow?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Define the problem: sort recyclable from non-recyclable waste"
+    - "Collect images of different waste items"
+    - "Train the model using a no-code tool"
+    - "Test with new waste images"
+    - "Improve by adding more data"
+solution:
+  text: >-
+    Define the problem as sorting recyclable from non-recyclable waste. Collect images of
+    different waste items, train a model with a no-code tool, test it on new waste images, and
+    improve it by adding more data.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 59
+    section: "Chapter 2 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 83
+    section: "Chapter 2 Exercise D answer"

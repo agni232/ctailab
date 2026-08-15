@@ -1,0 +1,51 @@
+id: c8-ct-quadrilaterals-quadrilaterals-from-three-tiles
+slug: quadrilaterals-from-three-tiles
+version: 1
+renderer: single-choice-text
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: difficult
+  topics:
+    - c8-ct-ch4-counting-figures
+    - c8-ct-ch4-quadrilaterals
+  primaryTopic: c8-ct-ch4-counting-figures
+  estimatedMinutes: 8
+content:
+  prompt: In the given tangram, how many quadrilaterals are made with exactly 3 coloured tiles?
+  stimulus:
+    assetRefs:
+      - tangram
+  options:
+    - id: option-a
+      text: "4"
+    - id: option-b
+      text: "3"
+    - id: option-c
+      text: "2"
+    - id: option-d
+      text: "1"
+response:
+  type: single-choice
+answer:
+  optionId: option-b
+solution:
+  text: >-
+    A quadrilateral is a closed figure with four sides, so look for groups of exactly three
+    touching tiles whose outline has four sides. Three such groups can be found in the tangram.
+  assetRefs: []
+assets:
+  - ref: tangram
+    file: ../assets/tangram.png
+    role: stem
+    visibility: public
+    alt: A tangram of coloured triangles, squares and other tiles filling a rectangle
+    position: 0
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 24
+    section: "Chapter 4 question 4"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 47
+    section: "Chapter 4 question 4 answer and solution"

@@ -1,0 +1,39 @@
+id: c8-ai-ethics-habit-of-checking-app-permissions
+slug: habit-of-checking-app-permissions
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch4-privacy
+  primaryTopic: c8-ai-ch4-privacy
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    A student installs an app that asks for permission to access location, contacts, and photos.
+    The student pauses and thinks about why the app needs this information. What important
+    digital habit is the student practising?
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "Thinking before sharing personal data"
+    - "Protecting privacy"
+solution:
+  text: >-
+    Thinking before sharing personal data, which is how privacy is protected.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 72
+    section: "Chapter 4 Exercise D"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 91
+    section: "Chapter 4 Exercise D answer"

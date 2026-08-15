@@ -1,0 +1,37 @@
+id: c8-ai-lifecycle-real-life-example-of-an-ai-project
+slug: real-life-example-of-an-ai-project
+version: 1
+renderer: short-answer
+origin: official-handbook
+language: en
+status: published
+courseProfile:
+  difficulty: medium
+  topics:
+    - c8-ai-ch1-project-lifecycle
+  primaryTopic: c8-ai-ch1-project-lifecycle
+  estimatedMinutes: 4
+content:
+  prompt: >-
+    Give one real-life example of an AI project.
+response:
+  type: self-review
+  multiline: true
+  maxLength: 600
+answer:
+  evaluation: self-review
+  keyIdeas:
+    - "A named AI system"
+    - "Spam email detection"
+solution:
+  text: >-
+    A spam email detection system.
+  assetRefs: []
+assets: []
+sourceReferences:
+  - sourceId: ctai-class-8-student-handbook-2026-27
+    page: 44
+    section: "Chapter 1 Exercise C"
+  - sourceId: ctai-class-8-teacher-handbook-2026-27
+    page: 80
+    section: "Chapter 1 Exercise C answer"
